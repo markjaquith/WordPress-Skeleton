@@ -7,10 +7,10 @@ if ( file_exists( dirname( __FILE__ ) . '/local-config.php' ) ) {
 	include( dirname( __FILE__ ) . '/local-config.php' );
 } else {
 	define( 'WP_LOCAL_DEV', false );
-	define( 'DB_NAME', 'database_name_here' );
-	define( 'DB_USER', 'username_here' );
-	define( 'DB_PASSWORD', 'password_here' );
-	define( 'DB_HOST', 'localhost' );
+	define( 'DB_NAME', '%%DB_NAME%%' );
+	define( 'DB_USER', '%%DB_USER%%' );
+	define( 'DB_PASSWORD', '%%DB_PASSWORD%%' );
+	define( 'DB_HOST', '%%DB_HOST%%' ); // Probably 'localhost'
 }
 
 // ========================
