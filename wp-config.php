@@ -3,9 +3,10 @@
 // Load database info and local development parameters
 // ===================================================
 if ( file_exists( dirname( __FILE__ ) . '/local-config.php' ) ) {
-	include( dirname( __FILE__ ) . '/local-config.php' );
 	define( 'WP_LOCAL_DEV', true );
+	include( dirname( __FILE__ ) . '/local-config.php' );
 } else {
+	define( 'WP_LOCAL_DEV', false );
 	define( 'DB_NAME', 'database_name_here' );
 	define( 'DB_USER', 'username_here' );
 	define( 'DB_PASSWORD', 'password_here' );
