@@ -63,6 +63,12 @@ define( 'WP_DEBUG_DISPLAY', false );
 // define( 'SAVEQUERIES', true );
 // define( 'WP_DEBUG', true );
 
+// ======================================
+// Load a Memcached config if we have one
+// ======================================
+if ( file_exists( dirname( __FILE__ ) . '/memcached.php' ) )
+	$memcached_servers = include( dirname( __FILE__ ) . '/memcached.php' );
+
 // ===================
 // Bootstrap WordPress
 // ===================
