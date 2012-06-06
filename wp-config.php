@@ -69,6 +69,11 @@ define( 'WP_DEBUG_DISPLAY', false );
 if ( file_exists( dirname( __FILE__ ) . '/memcached.php' ) )
 	$memcached_servers = include( dirname( __FILE__ ) . '/memcached.php' );
 
+// ===========================================================================================
+// This can be used to programatically set the stage when deploying (e.g. production, staging)
+// ===========================================================================================
+define( 'WP_STAGE', '%%WP_STAGE%%' );
+
 // ===================
 // Bootstrap WordPress
 // ===================
