@@ -22,7 +22,7 @@ define( 'WP_CONTENT_URL', 'http://' . $_SERVER['HTTP_HOST'] . '/content' );
 // ================================================
 // You almost certainly do not want to change these
 // ================================================
-define( 'DB_CHARSET', 'utf8' );
+define( 'DB_CHARSET', 'UTF-8' );
 define( 'DB_COLLATE', '' );
 
 // ==============================================================
