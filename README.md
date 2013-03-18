@@ -29,5 +29,5 @@ This is simply a skeleton repo for a WordPress site. Use it to jump-start your W
 **Q:** Does this support WordPress in multisite mode?  
 **A:** It will, starting with WordPress 3.5 (due out in December, 2012). Earlier versions of WordPress don't support Multisite when WordPress is in a subdirectory.
 
-**Q:** How do I install WordPress?
+**Q:** How do I install WordPress?  
 **A:** You must go to `/wp/` to install WordPress as that is where the submodule points.  After installation you should update your Site Address (URL) (Settings->General) to point to the root folder.
