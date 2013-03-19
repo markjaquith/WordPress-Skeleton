@@ -10,3 +10,6 @@
 
 
 
+[submodule "custom-content/mu-plugins"]
+	path = custom-content/mu-plugins
+	url = git@github.com:aawpa/aawpa-mu-plugins.git
