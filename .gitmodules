@@ -7,3 +7,6 @@
 [submodule "custom-content/themes"]
 	path = custom-content/themes
 	url = git@github.com:aawpa/aawpa-theme.git
+[submodule "custom-content/mu-plugins"]
+	path = custom-content/mu-plugins
+	url = git@github.com:aawpa/aawpa-mu-plugins.git
