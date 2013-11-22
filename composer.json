@@ -1,0 +1,67 @@
+{
+    "name": "buzzedword/wordpress-skeleton",
+    "description": "Mark Jaquith's Wordpress Skeleton modified to use composer. WPackagist is included as a repository, as well as custom installer paths for all wp-composer packages.",
+    "license": "GPL-2.0",
+    "type": "project",
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "http://wpackagist.org"
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "wordpress/wordpress",
+                "type": "webroot",
+                "version": "3.7.1",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://github.com/WordPress/WordPress/archive/3.7.1.zip"
+                },
+                "require": {
+                    "fancyguy/webroot-installer": "1.0.0"
+                }
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "roots/roots",
+                "type": "wordpress-theme",
+                "version": "6.5.1",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://github.com/roots/roots/archive/6.5.1.zip"
+                },
+                "require": {
+                    "composer/installers": "~1.0"
+                }
+            }
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "wordpress/wordpress": "*",
+        "fancyguy/webroot-installer": "1.0.0"
+    },
+    "suggest": {
+        "roots/roots": "A great theme which inspired this composer build, and has a modern structure.",
+        "wpackagist/jetpack": "Wordpress Jetpack allows for comprehensive best practices to be used during publishing.",
+        "wpackagist/developer": "Automattic Developer allows for comprehensive best practices to be used during plugin or theme development."
+    },
+    "extra": {
+        "webroot-dir": "wp",
+        "webroot-package": "wordpress/wordpress",
+        "installer-paths": {
+            "content/mu-plugins/{$name}/": [
+                "type:wordpress-muplugin"
+            ],
+            "content/themes/{$name}/": [
+                "type:wordpress-theme"
+            ],
+            "content/themes/{$name}/": [
+                "type:wordpress-theme"
+            ]
+        }
+    }
+}
