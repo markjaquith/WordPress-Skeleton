@@ -3,7 +3,6 @@
     "description": "Mark Jaquith's Wordpress Skeleton modified to use composer.",
     "license": "GPL-2.0",
     "type": "project",
-    "version": "3.7.1-dev",
     "repositories": [
         {
             "type": "composer",
