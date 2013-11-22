@@ -1,6 +1,6 @@
 {
     "name": "buzzedword/wordpress-skeleton",
-    "description": "Mark Jaquith's Wordpress Skeleton modified to use composer.",
+    "description": "Mark Jaquith's Wordpress Skeleton modified to use composer. WPackagist is included as a repository, as well as custom installer paths for all wp-composer packages.",
     "license": "GPL-2.0",
     "type": "project",
     "repositories": [
