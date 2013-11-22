@@ -42,11 +42,8 @@
     ],
     "require": {
         "php": ">=5.3.0",
-        "wordpress/wordpress": {
-            "comment": "Wordpress value below is a wildcard to accept whatever version we specify in the package defined above."
-        },
         "wordpress/wordpress": "*",
-        "fancyguy/webroot-installer": "1.0.0",
+        "fancyguy/webroot-installer": "1.0.0"
     },
     "suggest": {
         "roots/roots": "A great theme which inspired this composer build, and has a modern structure.",
@@ -55,7 +52,7 @@
     },
     "extra": {
         "webroot-dir": "wp",
-        "webroot-package": "wordpress",
+        "webroot-package": "wordpress/wordpress",
         "installer-paths": {
             "content/mu-plugins/{$name}/": [
                 "type:wordpress-muplugin"
