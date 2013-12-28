@@ -1,0 +1,64 @@
+/* GLOBAL: #Brown
+================================================== */
+#header {
+	border-top: 5px solid #5e4133;
+}
+
+a, a:visited,
+#portfolio-filters a.active-item,
+.sf-menu a:hover{ color: #9bb966;}
+
+#head-contact b, a:hover, .current_page_item > a,
+.current_page_item > a:visited { color: #769049; }
+
+.visit-work, .visit-work:visited {
+	background-color: #9bb966;
+}
+
+.visit-work:hover {
+	background-color: #769049;
+}
+
+.btn, a.btn, a.btn:visited,
+input[type=submit] {
+
+	border: 1px solid #5f733d;
+
+	background-color: #769049;
+	background-image: linear-gradient(bottom, #769049 0%, #9bb966 100%);
+	background-image: -o-linear-gradient(bottom, #769049 0%, #9bb966 100%);
+	background-image: -moz-linear-gradient(bottom, #769049 0%, #9bb966 100%);
+	background-image: -webkit-linear-gradient(bottom, #769049 0%, #9bb966 100%);
+	background-image: -ms-linear-gradient(bottom, #769049 0%, #9bb966 100%);
+
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0, #769049),
+		color-stop(1, #9bb966)
+	);
+}
+
+#footer {
+	background: url("../images/colors/brown/footer_bg.jpg");
+	color: #fff;
+}
+
+#footer a, #footer a:visited, #footer .widget-title {
+	color: #afd173;
+}
+
+#footer a:hover {
+	color: #c1ee73;
+}
+
+#credits,
+#credits a,
+#credits a:visited {
+	color: #7d6b63;
+}
+
+#credits a:hover {
+	color: #aa9287;
+}

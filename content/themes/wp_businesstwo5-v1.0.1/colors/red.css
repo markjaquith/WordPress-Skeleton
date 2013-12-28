@@ -1,0 +1,64 @@
+/* GLOBAL: #Red
+================================================== */
+#header {
+	border-top: 5px solid #b8453f;
+}
+
+a, a:visited,
+#portfolio-filters a.active-item,
+.sf-menu a:hover{ color: #b8453f;}
+
+#head-contact b, a:hover, .current_page_item > a,
+.current_page_item > a:visited { color: #e35950; }
+
+.visit-work, .visit-work:visited {
+	background-color: #b8453f;
+}
+
+.visit-work:hover {
+	background-color: #d04d46;
+}
+
+.btn, a.btn, a.btn:visited,
+input[type=submit] {
+
+	border: 1px solid #8d3632;
+
+	background-color: #b8453f;
+	background-image: linear-gradient(bottom, #b8453f 0%, #b8453f 100%);
+	background-image: -o-linear-gradient(bottom, #b8453f 0%, #b8453f 100%);
+	background-image: -moz-linear-gradient(bottom, #b8453f 0%, #b8453f 100%);
+	background-image: -webkit-linear-gradient(bottom, #b8453f 0%, #b8453f 100%);
+	background-image: -ms-linear-gradient(bottom, #b8453f 0%, #b8453f 100%);
+
+	background-image: -webkit-gradient(
+		linear,
+		left bottom,
+		left top,
+		color-stop(0, #b8453f),
+		color-stop(1, #b8453f)
+	);
+}
+
+#footer {
+	background: url("../images/colors/red/footer_bg.jpg");
+	color: #fff;
+}
+
+#footer a, #footer a:visited {
+	color: #fff;
+}
+
+#footer a:hover {
+	color: #f9f9f9;
+}
+
+#credits,
+#credits a,
+#credits a:visited {
+	color: #c8524c;
+}
+
+#credits a:hover {
+	color: #e05c55;
+}
