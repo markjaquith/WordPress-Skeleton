@@ -1,0 +1,34 @@
+/* Social links Styles */
+.social-links { text-align: center; margin-top:35px; }
+.icn { width: 24px; height: 24px; background-image: url(../images/social-icons-dark.png); background-repeat: no-repeat; display:inline-block; margin-right: 5px; text-indent: -999em; cursor: pointer; }
+.icn.default { background-image: url(../images/social-icons-dark.png); }
+.icn.dark { background-image: url(../images/social-icons-dark.png); }
+.icn.light { background-image: url(../images/social-icons-light.png); }
+.icn:focus,
+.icn:active { outline: none }
+.icn.twitter { background-position: -31px -1px }
+.icn.twitter:hover { background-position: -31px -31px }
+.icn.facebook { background-position: 0 -1px }
+.icn.facebook:hover { background-position: 0 -31px }
+.icn.flickr { background-position: -62px -1px }
+.icn.flickr:hover { background-position: -62px -31px }
+.icn.picasa { background-position: -94px 0 }
+.icn.picasa:hover { background-position: -94px -30px }
+.icn.lnkdin { background-position: -125px 0 }
+.icn.lnkdin:hover { background-position: -125px -30px }
+.icn.gplus { background-position: -156px -1px }
+.icn.gplus:hover { background-position: -156px -31px }
+.icn.rss { background-position: -187px -1px }
+.icn.rss:hover { background-position: -187px -31px }
+.icn.youtube { background-position: -218px -1px }
+.icn.youtube:hover { background-position: -218px -31px }
+.icn.wordpress { background-position: -250px -1px }
+.icn.wordpress:hover { background-position: -250px -31px }
+.icn.dribbble { background-position: -282px -1px }
+.icn.dribbble:hover { background-position: -282px -31px }
+.icn.pinterest { background-position: -313px -1px }
+.icn.pinterest:hover { background-position: -313px -31px }
+.icn.stumble { background-position: -345px -1px }
+.icn.stumble:hover { background-position: -345px -30px }
+.icn.digg { background-position: -380px -1px }
+.icn.digg:hover { background-position: -380px -30px }
