@@ -27,4 +27,4 @@ This is simply a skeleton repo for a WordPress site. Use it to jump-start your W
 **A:** This is for people using memcached as an object cache backend. It should be something like: `<?php return array( "server01:11211", "server02:11211" ); ?>`. Programattic generation of this file is recommended.
 
 **Q:** Does this support WordPress in multisite mode?  
-**A:** It will, starting with WordPress 3.5 (due out in December, 2012). Earlier versions of WordPress don't support Multisite when WordPress is in a subdirectory.
+**A:** Yes, as of WordPress v3.5 which was released in December, 2012.
