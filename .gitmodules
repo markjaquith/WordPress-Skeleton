@@ -1,3 +1,6 @@
 [submodule "wp"]
 	path = wp
 	url = git://github.com/WordPress/WordPress.git
+[submodule "content/plugins/google-analytics-for-wordpress"]
+	path = content/plugins/google-analytics-for-wordpress
+	url = git@github.com:wp-plugins/google-analytics-for-wordpress.git
