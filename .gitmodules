@@ -19,3 +19,6 @@
 [submodule "content/plugins/jetpack"]
 	path = content/plugins/jetpack
 	url = git@github.com:wp-plugins/jetpack.git
+[submodule "content/plugins/limit-login-attempts"]
+	path = content/plugins/limit-login-attempts
+	url = git@github.com:wp-plugins/limit-login-attempts.git
