@@ -22,3 +22,21 @@
 [submodule "content/plugins/limit-login-attempts"]
 	path = content/plugins/limit-login-attempts
 	url = git@github.com:wp-plugins/limit-login-attempts.git
+[submodule "content/plugins/manual-control"]
+	path = content/plugins/manual-control
+	url = git@github.com:wp-plugins/manual-control.git
+[submodule "content/plugins/add-to-any"]
+	path = content/plugins/add-to-any
+	url = git@github.com:wp-plugins/add-to-any.git
+[submodule "content/plugins/updraftplus"]
+	path = content/plugins/updraftplus
+	url = git@github.com:wp-plugins/updraftplus.git
+[submodule "content/plugins/wordfence"]
+	path = content/plugins/wordfence
+	url = git@github.com:wp-plugins/wordfence.git
+[submodule "content/plugins/wp-secure-remove-wordpress-version"]
+	path = content/plugins/wp-secure-remove-wordpress-version
+	url = git@github.com:wp-plugins/wp-secure-remove-wordpress-version.git
+[submodule "content/themes/quark"]
+	path = content/themes/quark
+	url = git@github.com:DecaturMakers/Quark.git
