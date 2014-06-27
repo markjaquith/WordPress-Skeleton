@@ -4,3 +4,18 @@
 [submodule "content/plugins/google-analytics-for-wordpress"]
 	path = content/plugins/google-analytics-for-wordpress
 	url = git@github.com:wp-plugins/google-analytics-for-wordpress.git
+[submodule "content/plugins/gravityforms"]
+	path = content/plugins/gravityforms
+	url = git@github.com:gravityforms/gravityforms.git
+[submodule "content/plugins/hotfix"]
+	path = content/plugins/hotfix
+	url = git@github.com:wp-plugins/hotfix.git
+[submodule "content/plugins/wp-super-cache"]
+	path = content/plugins/wp-super-cache
+	url = git@github.com:wp-plugins/wp-super-cache.git
+[submodule "content/plugins/gravityformsmailchimp"]
+	path = content/plugins/gravityformsmailchimp
+	url = git@github.com:gravityforms/gravityformsmailchimp.git
+[submodule "content/plugins/jetpack"]
+	path = content/plugins/jetpack
+	url = git@github.com:wp-plugins/jetpack.git
