@@ -40,3 +40,6 @@
 [submodule "content/themes/quark"]
 	path = content/themes/quark
 	url = git@github.com:DecaturMakers/Quark.git
+[submodule "content/plugins/akismet"]
+	path = content/plugins/akismet
+	url = https://github.com/wp-plugins/akismet
