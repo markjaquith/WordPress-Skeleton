@@ -46,3 +46,6 @@
 [submodule "content/plugins/the-events-calendar"]
 	path = content/plugins/the-events-calendar
 	url = git@github.com:moderntribe/the-events-calendar.git
+[submodule "content/themes/Genesis-Theme-Bundle"]
+	path = content/themes/Genesis-Theme-Bundle
+	url = https://github.com/rfair404/Genesis-Theme-Bundle.git
