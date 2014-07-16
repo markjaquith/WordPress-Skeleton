@@ -52,3 +52,9 @@
 [submodule "content/plugins/genesis-responsive-slider"]
 	path = content/plugins/genesis-responsive-slider
 	url = https://github.com/wp-plugins/genesis-responsive-slider
+[submodule "content/plugins/wp-document-revisions"]
+	path = content/plugins/wp-document-revisions
+	url = git@github.com:benbalter/WP-Document-Revisions.git
+[submodule "content/plugins/members"]
+	path = content/plugins/members
+	url = git@github.com:justintadlock/members.git
