@@ -61,3 +61,6 @@
 [submodule "content/plugins/regenerate-thumbnails"]
 	path = content/plugins/regenerate-thumbnails
 	url = git@github.com:wp-plugins/regenerate-thumbnails.git
+[submodule "content/plugins/featured-cpt-widget"]
+	path = content/plugins/featured-cpt-widget
+	url = git@github.com:calliaweb/featured-custom-post-type-widget-for-genesis.git
