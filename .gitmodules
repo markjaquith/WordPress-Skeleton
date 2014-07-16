@@ -58,3 +58,6 @@
 [submodule "content/plugins/members"]
 	path = content/plugins/members
 	url = git@github.com:justintadlock/members.git
+[submodule "content/plugins/regenerate-thumbnails"]
+	path = content/plugins/regenerate-thumbnails
+	url = git@github.com:wp-plugins/regenerate-thumbnails.git
