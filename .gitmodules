@@ -43,3 +43,6 @@
 [submodule "content/plugins/akismet"]
 	path = content/plugins/akismet
 	url = https://github.com/wp-plugins/akismet
+[submodule "content/plugins/the-events-calendar"]
+	path = content/plugins/the-events-calendar
+	url = git@github.com:moderntribe/the-events-calendar.git
