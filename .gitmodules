@@ -49,3 +49,6 @@
 [submodule "content/themes/Genesis-Theme-Bundle"]
 	path = content/themes/Genesis-Theme-Bundle
 	url = https://github.com/rfair404/Genesis-Theme-Bundle.git
+[submodule "content/plugins/genesis-responsive-slider"]
+	path = content/plugins/genesis-responsive-slider
+	url = https://github.com/wp-plugins/genesis-responsive-slider
