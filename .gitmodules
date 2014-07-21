@@ -61,3 +61,6 @@
 [submodule "content/plugins/regenerate-thumbnails"]
 	path = content/plugins/regenerate-thumbnails
 	url = git@github.com:wp-plugins/regenerate-thumbnails.git
+[submodule "content/themes/DecaturMakers"]
+	path = content/themes/DecaturMakers
+	url = https://github.com/DecaturMakers/DecaturMakersTheme.git
