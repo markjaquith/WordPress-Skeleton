@@ -64,3 +64,6 @@
 [submodule "content/themes/DecaturMakers"]
 	path = content/themes/DecaturMakers
 	url = https://github.com/DecaturMakers/DecaturMakersTheme.git
+[submodule "content/plugins/easy-pricing-table"]
+	path = content/plugins/easy-pricing-table
+	url = git@github.com:wp-plugins/easy-pricing-tables.git
