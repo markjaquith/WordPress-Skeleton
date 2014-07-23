@@ -67,3 +67,6 @@
 [submodule "content/plugins/easy-pricing-table"]
 	path = content/plugins/easy-pricing-table
 	url = git@github.com:wp-plugins/easy-pricing-tables.git
+[submodule "content/plugins/gravityformsuserregistration"]
+	path = content/plugins/gravityformsuserregistration
+	url = git@github.com:gravityforms/gravityformsuserregistration.git
