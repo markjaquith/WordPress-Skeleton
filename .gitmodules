@@ -73,3 +73,6 @@
 [submodule "content/plugins/wordpress-importer"]
 	path = content/plugins/wordpress-importer
 	url = git@github.com:wp-plugins/wordpress-importer.git
+[submodule "content/plugins/wp-symposium"]
+	path = content/plugins/wp-symposium
+	url = https://github.com/wp-plugins/wp-symposium.git
