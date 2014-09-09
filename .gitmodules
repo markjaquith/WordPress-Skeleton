@@ -79,3 +79,9 @@
 [submodule "content/plugins/gravityformssurvey"]
 	path = content/plugins/gravityformssurvey
 	url = https://github.com/gravityforms/gravityformssurvey.git
+[submodule "content/themes/p2"]
+	path = content/themes/p2
+	url = https://github.com/wp-mirrors/p2.git
+[submodule "content/themes/houston"]
+	path = content/themes/houston
+	url = https://github.com/woothemes/houston.git
