@@ -85,3 +85,6 @@
 [submodule "content/themes/houston"]
 	path = content/themes/houston
 	url = https://github.com/woothemes/houston.git
+[submodule "content/plugins/wordpress-seo"]
+	path = content/plugins/wordpress-seo
+	url = https://github.com/Yoast/wordpress-seo.git
