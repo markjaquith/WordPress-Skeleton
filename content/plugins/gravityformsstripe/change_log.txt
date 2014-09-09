@@ -1,0 +1,27 @@
+---------------------------------------------------
+Version 1.2.2
+	- Fixed issue with email receipt feature displaying a warning when 'Do not send receipt' option was selected
+
+---------------------------------------------------
+Version 1.2.1
+	- Fixed Notice message
+
+---------------------------------------------------
+Version 1.2
+    - Fixed issue when validating the live publishable key
+
+---------------------------------------------------
+Version 1.1
+    - Added receipt email feature so that Stripe receipts can be sent.
+    - Updated key validation so that keys are trimmed before being validated and saved.
+    - Updated API include statement so that it checks if API has already been included.
+    - Fixed scripts from being output on every page of admin.
+    - Fixed issue where credit card field generated validation error when navigating form.
+    - Fixed issue with javascript error caused by the admin.js not being enqueued.
+    - Fixed issue causing notification and confirmation to be sent blank.
+    - Fixed issue with credit card validation.
+    - Fixed issue where credit card was failing validation even when feed condition was not met.
+
+---------------------------------------------------
+Version 1.0
+    - Initial release

@@ -1,0 +1,41 @@
+.gquiz-indicator,
+.gquiz-incorrect-response img,
+.gquiz-correct-response img {
+    margin-left: 15px;
+    vertical-align: middle;
+}
+
+.gquiz-correct-choice {
+    font-weight: bold;
+}
+
+.gquiz-field-label {
+    font-weight: bold;
+}
+
+.gquiz-field {
+    margin-bottom: 15px;
+}
+
+#gquiz-entry-detail-score-info-title {
+
+    font-family: Georgia, "Times New Roman", "Bitstream Charter", Times, serif;
+    margin-bottom: 10px;
+
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 1;
+    margin: 0;
+    padding: 7px 10px;
+    text-shadow: 0 1px 0 #FFFFFF;
+
+    border-bottom-color: #DFDFDF;
+    box-shadow: 0 1px 0 #FFFFFF;
+    text-shadow: 0 1px 0 #FFFFFF;
+
+    cursor: pointer;
+}
+
+#gquiz-entry-detail-score-info {
+    padding: 10px;
+}

@@ -1,0 +1,354 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Gravity Forms\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-10-24 15:03+0100\n"
+"PO-Revision-Date: 2012-10-24 15:03+0100\n"
+"Last-Translator: Alex Cancado <alex@rocketgenius.com>\n"
+"Language-Team: Rocketgenius <customerservice@rocketgenius.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../plugin-upgrade.php:53 ../quiz.php:1134
+#, php-format
+msgid "View version %s Details"
+msgstr ""
+
+#: ../plugin-upgrade.php:72
+#, php-format
+msgid "Oops!! Something went wrong.%sPlease try again or %scontact us%s."
+msgstr ""
+
+#: ../quiz.php:257 ../quiz.php:795 ../quiz.php:853
+msgid "Pass"
+msgstr ""
+
+#: ../quiz.php:257 ../quiz.php:795 ../quiz.php:853
+msgid "Fail"
+msgstr ""
+
+#: ../quiz.php:562
+msgid "Drag to re-order"
+msgstr ""
+
+#: ../quiz.php:563
+msgid "add another grade"
+msgstr ""
+
+#: ../quiz.php:564
+msgid "remove this grade"
+msgstr ""
+
+#: ../quiz.php:565
+msgid "First Choice"
+msgstr ""
+
+#: ../quiz.php:566
+msgid "Second Choice"
+msgstr ""
+
+#: ../quiz.php:567
+msgid "Third Choice"
+msgstr ""
+
+#: ../quiz.php:568
+msgid "Click to toggle as correct/incorrect"
+msgstr ""
+
+#: ../quiz.php:569
+msgid "Click to define as correct"
+msgstr ""
+
+#: ../quiz.php:570
+msgid ""
+"Mark an answer as correct by using the checkmark icon to the right of the "
+"answer."
+msgstr ""
+
+#: ../quiz.php:571
+msgid "Click to define as incorrect"
+msgstr ""
+
+#: ../quiz.php:572
+msgid "A"
+msgstr ""
+
+#: ../quiz.php:573
+msgid "B"
+msgstr ""
+
+#: ../quiz.php:574
+msgid "C"
+msgstr ""
+
+#: ../quiz.php:575
+msgid "D"
+msgstr ""
+
+#: ../quiz.php:576
+msgid "E"
+msgstr ""
+
+#: ../quiz.php:577
+msgid "F"
+msgstr ""
+
+#: ../quiz.php:578
+msgid ""
+"<strong>Quiz Results:</strong> You Failed!\n"
+"<strong>Correct Answers:</strong> {quiz_score}\n"
+"<strong>Percentage:</strong> {quiz_percent}%"
+msgstr ""
+
+#: ../quiz.php:579
+msgid ""
+"<strong>Quiz Results:</strong> You Passed!\n"
+"<strong>Correct Answers:</strong> {quiz_score}\n"
+"<strong>Percentage:</strong> {quiz_percent}%"
+msgstr ""
+
+#: ../quiz.php:580
+msgid ""
+"<strong>Quiz Grade:</strong> {quiz_grade}\n"
+"<strong>Correct Answers:</strong> {quiz_score}\n"
+"<strong>Percentage:</strong> {quiz_percent}%"
+msgstr ""
+
+#: ../quiz.php:650
+msgid "Grading"
+msgstr ""
+
+#: ../quiz.php:654
+msgid "None"
+msgstr ""
+
+#: ../quiz.php:660
+msgid "Pass/Fail"
+msgstr ""
+
+#: ../quiz.php:666
+msgid "Letter"
+msgstr ""
+
+#: ../quiz.php:673 ../quiz.php:900
+msgid "Pass Percentage"
+msgstr ""
+
+#: ../quiz.php:682 ../quiz.php:892
+msgid "Quiz Pass Confirmation"
+msgstr ""
+
+#: ../quiz.php:690 ../quiz.php:704 ../quiz.php:730
+msgid "Disable Auto-formatting"
+msgstr ""
+
+#: ../quiz.php:696 ../quiz.php:893
+msgid "Quiz Fail Confirmation"
+msgstr ""
+
+#: ../quiz.php:711 ../quiz.php:899
+msgid "Letter Grades"
+msgstr ""
+
+#: ../quiz.php:716
+msgid "Label"
+msgstr ""
+
+#: ../quiz.php:716
+msgid "Percentage"
+msgstr ""
+
+#: ../quiz.php:722
+msgid "Quiz Confirmation"
+msgstr ""
+
+#: ../quiz.php:777
+msgid "Quiz Score Total"
+msgstr ""
+
+#: ../quiz.php:778
+msgid "Quiz Pass/Fail"
+msgstr ""
+
+#: ../quiz.php:779
+msgid "Quiz Grade"
+msgstr ""
+
+#: ../quiz.php:780
+msgid "Quiz Percentage"
+msgstr ""
+
+#: ../quiz.php:874 ../quiz.php:883
+msgid "Quiz"
+msgstr ""
+
+#: ../quiz.php:892
+msgid ""
+"Enter the message that should appear when the user reaches the pass "
+"percentage. This will appear immediately below the form confirmation message."
+msgstr ""
+
+#: ../quiz.php:893
+msgid ""
+"Enter the message that should appear when the user doesn't reach the pass "
+"percentage. This will appear immediately below the form confirmation message."
+msgstr ""
+
+#: ../quiz.php:894
+msgid "Quiz Confirmation Message"
+msgstr ""
+
+#: ../quiz.php:894
+msgid ""
+"Enter the message that should appear immediately below the form confirmation "
+"message."
+msgstr ""
+
+#: ../quiz.php:896
+msgid "No Grading"
+msgstr ""
+
+#: ../quiz.php:896
+msgid "Grading will not be used for this form."
+msgstr ""
+
+#: ../quiz.php:897
+msgid "Enable Pass/Fail Grading"
+msgstr ""
+
+#: ../quiz.php:897
+msgid ""
+"Select this option to enable the pass/fail grading system for this form."
+msgstr ""
+
+#: ../quiz.php:898
+msgid "Enable Letter Grading"
+msgstr ""
+
+#: ../quiz.php:898
+msgid "Select this option to enable the letter grading system for this form."
+msgstr ""
+
+#: ../quiz.php:899
+msgid "Define the minimum percentage required for each grade."
+msgstr ""
+
+#: ../quiz.php:900
+msgid "Define the minimum percentage required to pass the quiz."
+msgstr ""
+
+#: ../quiz.php:904 ../quiz.php:985
+msgid "Quiz Question"
+msgstr ""
+
+#: ../quiz.php:904
+msgid ""
+"Enter the question you would like to ask the user. The user can then answer "
+"the question by selecting from the available choices."
+msgstr ""
+
+#: ../quiz.php:905 ../quiz.php:994
+msgid "Quiz Type"
+msgstr ""
+
+#: ../quiz.php:905
+msgid ""
+"Select the field type you'd like to use for the quiz. Choose radio buttons "
+"or drop down if question only has one correct answer. Choose checkboxes if "
+"your question requires more than one correct choice."
+msgstr ""
+
+#: ../quiz.php:906
+msgid "Randomize Quiz Answers"
+msgstr ""
+
+#: ../quiz.php:906
+msgid ""
+"Check the box to randomize the order in which the answers are displayed to "
+"the user. This setting affects only the quiz front-end. It will not affect "
+"the order of the results."
+msgstr ""
+
+#: ../quiz.php:907
+msgid "Enable Answer Explanation"
+msgstr ""
+
+#: ../quiz.php:907
+msgid ""
+"Activate this option to display an explanation of the answer along with the "
+"quiz results."
+msgstr ""
+
+#: ../quiz.php:908
+msgid "Quiz Answer Explanation"
+msgstr ""
+
+#: ../quiz.php:908
+msgid ""
+"Enter the explanation for the correct answer and/or incorrect answers. This "
+"text will appear below the results for this field."
+msgstr ""
+
+#: ../quiz.php:909 ../quiz.php:1007
+msgid "Quiz Answers"
+msgstr ""
+
+#: ../quiz.php:909
+msgid ""
+"Enter the answers for the quiz question. You can mark each choice as correct "
+"by using the radio/checkbox fields on the right."
+msgstr ""
+
+#: ../quiz.php:998
+msgid "Drop Down"
+msgstr ""
+
+#: ../quiz.php:999
+msgid "Radio Buttons"
+msgstr ""
+
+#: ../quiz.php:1000
+msgid "Checkboxes"
+msgstr ""
+
+#: ../quiz.php:1013
+msgid "Bulk Add / Predefined Choices"
+msgstr ""
+
+#: ../quiz.php:1026
+msgid "Randomize order of choices"
+msgstr ""
+
+#: ../quiz.php:1035
+msgid "Enable answer explanation"
+msgstr ""
+
+#: ../quiz.php:1042
+msgid "Quiz answer explanation"
+msgstr ""
+
+#: ../quiz.php:1128
+msgid "Gravity Forms "
+msgstr ""
+
+#: ../quiz.php:1134
+msgid "There is a new version of Gravity Forms Quiz Add-On available."
+msgstr ""
+
+#: ../quiz.php:1135
+#, php-format
+msgid ""
+"%sRegister%s your copy of Gravity Forms to receive access to automatic "
+"upgrades and support. Need a license key? %sPurchase one now%s."
+msgstr ""
