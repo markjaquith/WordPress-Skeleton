@@ -91,3 +91,6 @@
 [submodule "content/plugins/redirection"]
 	path = content/plugins/redirection
 	url = https://github.com/wp-plugins/redirection.git
+[submodule "content/plugins/safe-redirect-manager"]
+	path = content/plugins/safe-redirect-manager
+	url = https://github.com/wp-plugins/safe-redirect-manager.git
