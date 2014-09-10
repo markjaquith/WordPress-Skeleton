@@ -88,3 +88,6 @@
 [submodule "content/plugins/wordpress-seo"]
 	path = content/plugins/wordpress-seo
 	url = https://github.com/Yoast/wordpress-seo.git
+[submodule "content/plugins/redirection"]
+	path = content/plugins/redirection
+	url = https://github.com/wp-plugins/redirection.git
