@@ -94,3 +94,6 @@
 [submodule "content/plugins/safe-redirect-manager"]
 	path = content/plugins/safe-redirect-manager
 	url = https://github.com/wp-plugins/safe-redirect-manager.git
+[submodule "content/plugins/stellar-places"]
+	path = content/plugins/stellar-places
+	url = https://github.com/wp-plugins/stellar-places.git
