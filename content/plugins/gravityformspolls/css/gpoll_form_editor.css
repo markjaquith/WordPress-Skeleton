@@ -1,0 +1,18 @@
+.gpoll_field div.duplicate_setting,
+.gpoll_field input#field_choice_values_enabled,
+.gpoll_field input#field_choice_values_enabled + label{
+	display:none !important;
+	}
+.gpoll_field .choice_with_value li input.field-choice-value {
+	display: none !important;
+}
+.gpoll_field .choice_with_value li input.field-choice-text {
+	width: 312px !important;
+}
+.gpoll_field .choice_with_value .gfield_choice_header_value,
+.gpoll_field .choice_with_value .gfield_choice_header_label	{
+	display: none !important;
+}
+#gpoll-form-settings ul li label {
+    margin-bottom: 8px !important;
+}

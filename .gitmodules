@@ -55,3 +55,54 @@
 [submodule "content/plugins/gravityformspaypal"]
 	path = content/plugins/gravityformspaypal
 	url = https://github.com/gravityforms/gravityformspaypal.git
+[submodule "content/themes/Genesis-Theme-Bundle"]
+	path = content/themes/Genesis-Theme-Bundle
+	url = https://github.com/rfair404/Genesis-Theme-Bundle.git
+[submodule "content/plugins/genesis-responsive-slider"]
+	path = content/plugins/genesis-responsive-slider
+	url = https://github.com/wp-plugins/genesis-responsive-slider
+[submodule "content/plugins/wp-document-revisions"]
+	path = content/plugins/wp-document-revisions
+	url = git@github.com:benbalter/WP-Document-Revisions.git
+[submodule "content/plugins/members"]
+	path = content/plugins/members
+	url = git@github.com:justintadlock/members.git
+[submodule "content/plugins/regenerate-thumbnails"]
+	path = content/plugins/regenerate-thumbnails
+	url = git@github.com:wp-plugins/regenerate-thumbnails.git
+[submodule "content/themes/DecaturMakers"]
+	path = content/themes/DecaturMakers
+	url = https://github.com/DecaturMakers/DecaturMakersTheme.git
+[submodule "content/plugins/easy-pricing-table"]
+	path = content/plugins/easy-pricing-table
+	url = git@github.com:wp-plugins/easy-pricing-tables.git
+[submodule "content/plugins/gravityformsuserregistration"]
+	path = content/plugins/gravityformsuserregistration
+	url = git@github.com:gravityforms/gravityformsuserregistration.git
+[submodule "content/plugins/wordpress-importer"]
+	path = content/plugins/wordpress-importer
+	url = git@github.com:wp-plugins/wordpress-importer.git
+[submodule "content/plugins/wp-symposium"]
+	path = content/plugins/wp-symposium
+	url = https://github.com/wp-plugins/wp-symposium.git
+[submodule "content/plugins/gravityformssurvey"]
+	path = content/plugins/gravityformssurvey
+	url = https://github.com/gravityforms/gravityformssurvey.git
+[submodule "content/themes/p2"]
+	path = content/themes/p2
+	url = https://github.com/wp-mirrors/p2.git
+[submodule "content/themes/houston"]
+	path = content/themes/houston
+	url = https://github.com/woothemes/houston.git
+[submodule "content/plugins/wordpress-seo"]
+	path = content/plugins/wordpress-seo
+	url = https://github.com/Yoast/wordpress-seo.git
+[submodule "content/plugins/redirection"]
+	path = content/plugins/redirection
+	url = https://github.com/wp-plugins/redirection.git
+[submodule "content/plugins/safe-redirect-manager"]
+	path = content/plugins/safe-redirect-manager
+	url = https://github.com/wp-plugins/safe-redirect-manager.git
+[submodule "content/plugins/stellar-places"]
+	path = content/plugins/stellar-places
+	url = https://github.com/wp-plugins/stellar-places.git

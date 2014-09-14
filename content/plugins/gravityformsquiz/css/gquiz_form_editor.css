@@ -1,0 +1,93 @@
+/* field settings */
+.gquiz-field div.duplicate_setting,
+.gquiz-field input#field-choice-values-enabled,
+.gquiz-field input#field-choice-values-enabled + label {
+    display:none !important;
+}
+
+#gquiz_gfield_settings_choices_container.gquiz-choice-values-visible li input.field-choice-value {
+    display:inline;
+    width:98px;
+}
+
+#gquiz_gfield_settings_choices_container li input.field-choice-price,
+#gquiz_gfield_settings_choices_container li input.field-choice-value {
+    display:none;
+}
+
+
+#gquiz_gfield_settings_choices_container.gquiz-choice-values-visible li input.field-choice-text {
+    width:200px;
+}
+
+#gquiz_gfield_settings_choices_container li input.field-choice-text {
+    width:300px;
+}
+
+#gquiz-field-choices li {
+    margin:0 !important;
+    padding:0 10px !important;
+}
+
+.gquiz-field .choices_setting,
+.gquiz-field .other_choice_setting,
+.gquiz-field li.label_setting {
+    display:none !important;
+}
+
+.gquiz-field .gfield_choice_checkbox,
+.gquiz-field .gfield_choice_radio {
+    display:none !important;
+}
+
+.gquiz-button-correct-choice {
+    position: relative;
+    margin-left: 3px;
+    top: 3px;
+    cursor:pointer;
+}
+
+.gquiz-float-label {
+    float:left;
+    padding:2px 5px 0 0;
+}
+
+#gquiz_gfield_settings_choices_container {
+    margin:8px 0 14px;
+    max-height:230px;
+    border:1px solid #DFDFDF;
+    overflow:auto;
+    padding:2px 0 6px;
+}
+
+.gquiz-choices-help {
+    background-image:url("../images/exclamation.png");
+    background-position:0 10px;
+    background-repeat:no-repeat;
+    padding:10px 0 0px 20px;
+    margin-left:10px;
+    font-size:0.8em;
+}
+
+.gquiz-choice-weight {
+    width:20px;
+    display:none;
+    text-align:center;
+}
+
+.gquiz-weighted-score .gquiz-choice-weight {
+    display:inline !important;
+}
+
+.gquiz-weighted-score .field-choice-text{
+    width:278px!important;
+}
+
+.gquiz-weighted-score.gquiz-choice-values-visible .field-choice-text{
+    width:178px!important;
+}
+
+.gquiz-choice-handle {
+	cursor: move;
+	vertical-align: middle;
+}

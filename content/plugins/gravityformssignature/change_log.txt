@@ -1,0 +1,60 @@
+-------------------------------------------------------------------------------------------------------------------
+Version 2.2
+    - Updated Super Signature script to latest to resolve issues with Kindle Fire HD.
+    - Fixed issue with IE11 when using the latest version of the Super Signature script
+
+-------------------------------------------------------------------------------------------------------------------
+Version 2.1
+    - Downgraded super signature script to previous version due to an issue with IE11
+
+-------------------------------------------------------------------------------------------------------------------
+Version 2.0
+
+    - Added Add-On Framework integration.
+
+    - Updated super signature script to 1.5.0.2.
+    - Updated masked input JS library to 1.3.1.
+
+    - Fixed issue creating signature image when output buffer wasn't empty.
+	- Fixed issue with signature being deleted when editing the entry.
+
+-------------------------------------------------------------------------------------------------------------------
+Version 1.3
+    - Fixed issue with signature file name being displayed on the print page instead of the signature image
+    - Updated signature script to version 1.3.0.0
+
+-------------------------------------------------------------------------------------------------------------------
+Version 1.2
+	- Added ability to add a signature in the entry detail page when a signature does not already exist
+
+-------------------------------------------------------------------------------------------------------------------
+Version 1.1
+    - Fixed issue with custom validation message not getting displayed.
+    - Fixed issue with signature URL not being created correctly when resending notifications
+    - Fixed conflict with IE8
+    - Fixed issues when signing on IE9
+    - Fixed issue where editing entry resulted in removal of signature from lead
+    - Updated edit entry functionality to support previewing, downloading and deleting signature from lead
+
+-------------------------------------------------------------------------------------------------------------------
+Version 1.0
+    - Fixed issue when signing on IE 9
+
+-------------------------------------------------------------------------------------------------------------------
+Version 1.0.beta2
+    - Fixed issue with jQuery being included in the ss.js file
+    - Added support for ManageWP
+
+-------------------------------------------------------------------------------------------------------------------
+Version 1.0.beta1.1
+    - Fixed issue with signature files not being deleted when lead is deleted
+
+-------------------------------------------------------------------------------------------------------------------
+Version 1.0.beta1
+    - Fixed duplicate field size setting
+    - Updated field size setting to an open text input instead of a drop down
+    - Fixed conflict with datepicker field
+
+-------------------------------------------------------------------------------------------------------------------
+Version 1.0.alpha2
+    - Fixed issue with multi-page forms where signature was not maintaining its value from page to page

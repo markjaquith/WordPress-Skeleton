@@ -1,0 +1,100 @@
+#gquiz-grading-letter-container,
+#gquiz-settings-grades-container,
+#gquiz-grading-pass-fail-container {
+    cursor:default;
+    margin: 20px 0;
+}
+
+#gquiz-form-setting-pass-grade-value {
+    position:relative;
+    display:inline-block;
+    margin-bottom:15px;
+}
+
+#passPercent {
+    width:40px !important;
+    text-align:right;
+}
+
+#gquiz-settings-grades-container label {
+    display:block;
+    line-height:125%;
+    margin:0 0 3px;
+}
+
+#gquiz-settings-grades-container {
+    border:1px solid #DFDFDF;
+    overflow:auto;
+    padding:5px;
+    cursor:default;
+}
+
+.gquiz-grade-handle {
+    cursor:move;
+    vertical-align:middle;
+    margin-right: 6px;
+}
+
+#gquiz-grades {
+    margin-top: 3px;
+}
+
+#gquiz-grades li {
+    margin:0 !important;
+    padding:0 10px !important;
+}
+
+.gquiz-grade-value {
+    width: 68px;
+    text-align:center;
+}
+
+.gquiz-grades-header-label {
+    cursor:default;
+    display:inline !important;
+    padding-left: 25px;
+    font-size: 13px;
+}
+
+.gquiz-grades-header-value {
+    display:inline !important;
+    padding-left: 192px;
+    font-size: 13px;
+}
+
+#gquiz-grading-options {
+    margin:8px 0;
+
+}
+.gquiz-delete-grade, .gquiz-add-grade {
+    position: relative;
+    top: 3px;
+    left: 20px;
+}
+.gquiz-form-confirmation{
+    color:gray;
+}
+
+input[type="checkbox"], input[type="radio"] {
+    margin: 1px 0 0;
+    padding: 0;
+}
+
+
+#gquiz-settings-grades-container {
+    border: 0;
+    border-top: 1px solid #dfdfdf;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+.gquiz-greater-than-or-equal {
+    color: #999;
+}
+.gquiz-percentage {
+    color: #999; font-size: 13px;
+}
+
+#gaddon-setting-row-grading input {
+    padding: 3px 5px; font-size: inherit;
+}

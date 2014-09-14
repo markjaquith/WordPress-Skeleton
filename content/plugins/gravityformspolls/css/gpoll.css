@@ -1,0 +1,308 @@
+
+.gpoll_value_selected {
+	background-image: url("../images/tick.png"); 
+	background-position: left center; background-repeat: no-repeat;
+	padding-left:20px;
+}
+
+.gpoll_button{
+	margin-left: 10px;
+}
+
+.gpoll_bar { 
+	/* Fallback for web browsers that don't support RGBa */
+	background: rgb(238, 238, 238);
+	/* RGBa with 0.5 opacity */
+	background: rgba(0, 0, 0, 0.05);
+	
+	border-radius: 15px 15px 15px 15px;
+	height: 25px;
+	max-height: 25px;  /* Can be anything */
+	margin-left:50px;
+	
+	overflow: hidden;
+
+	z-index: 0;
+	
+	-moz-border-radius: 0px;
+	-webkit-border-radius: 0px;
+	border-radius: 0px;
+	
+	
+	-webkit-box-shadow: inset 0 -1px 1px rgba(255,255,255,0.3);
+	-moz-box-shadow   : inset 0 -1px 1px rgba(255,255,255,0.3);
+	box-shadow        : inset 0 -1px 1px rgba(255,255,255,0.3);
+	
+}
+.gpoll_bar_juice {
+		
+	
+
+		display: block;
+		height: 100%;
+   -webkit-border-top-right-radius: 8px;
+-webkit-border-bottom-right-radius: 8px;
+	   -moz-border-radius-topright: 8px;
+	-moz-border-radius-bottomright: 8px;
+		   border-top-right-radius: 8px;
+		border-bottom-right-radius: 8px;
+
+	
+	-webkit-box-shadow: 
+			inset 0 2px 9px  rgba(255,255,255,0.3),
+			inset 0 -2px 6px rgba(0,0,0,0.4);
+	-moz-box-shadow: 
+			inset 0 2px 9px  rgba(255,255,255,0.3),
+			inset 0 -2px 6px rgba(0,0,0,0.4);
+	box-shadow: 
+			inset 0 2px 9px  rgba(255,255,255,0.3),
+			inset 0 -2px 6px rgba(0,0,0,0.4);
+	position: relative;
+
+	text-align:right;
+	
+	
+
+
+}
+
+
+.gpoll_bar_juice:after {
+	height: 100%;
+	color:white;
+	font-weight:bold;
+	content: "";
+	padding-right:10px;
+	position: absolute;
+	top: 0; left: 0; bottom: 0; right: 0;
+	background-image: 
+	   -webkit-gradient(linear, 0 0, 100% 100%, 
+		  color-stop(.25, rgba(255, 255, 255, .2)), 
+		  color-stop(.25, transparent), color-stop(.5, transparent), 
+		  color-stop(.5, rgba(255, 255, 255, .2)), 
+		  color-stop(.75, rgba(255, 255, 255, .2)), 
+		  color-stop(.75, transparent), to(transparent)
+	   );
+	background-image: 
+			-moz-linear-gradient(
+			  -45deg, 
+		  rgba(255, 255, 255, .2) 25%, 
+		  transparent 25%, 
+		  transparent 50%, 
+		  rgba(255, 255, 255, .2) 50%, 
+		  rgba(255, 255, 255, .2) 75%, 
+		  transparent 75%, 
+		  transparent
+	   );
+
+	-webkit-background-size: 50px 50px;
+	-moz-background-size: 50px 50px;
+	-webkit-animation: move 2s linear infinite;
+	   -webkit-border-top-right-radius: 8px;
+	-webkit-border-bottom-right-radius: 8px;
+		   -moz-border-radius-topright: 8px;
+		-moz-border-radius-bottomright: 8px;
+			   border-top-right-radius: 8px;
+			border-bottom-right-radius: 8px;
+		-webkit-border-top-left-radius: 0px;
+	 -webkit-border-bottom-left-radius: 0px;
+			-moz-border-radius-topleft: 0px;
+		 -moz-border-radius-bottomleft: 0px;
+				border-top-left-radius: 0px;
+			 border-bottom-left-radius: 0px;
+	
+}
+.gpoll_bar_count{
+	color:white;
+	font-size:14px;
+	line-height:1.8;
+	font-weight:bold;
+	min-width:10px;
+	overflow: visible;
+	padding-left:10px;
+	padding-right:10px;
+	position: relative;
+	text-shadow: #000 0px 0px 2px;
+	
+}
+
+
+.gpoll_wrapper{
+	position:relative;
+	width:100%;
+}
+
+.gpoll_ratio_box{
+	background-color:green;
+	color:white;
+	height: 100%;
+	font-weight:bold;
+	position:absolute;
+	left:0px;
+	text-align:center;
+	top:0px;
+
+	
+	width:50px; 
+	-webkit-border-top-left-radius: 8px;
+ -webkit-border-bottom-left-radius: 8px;
+		-moz-border-radius-topleft: 8px;
+	 -moz-border-radius-bottomleft: 8px;
+			border-top-left-radius: 8px;
+		 border-bottom-left-radius: 8px; 
+	 	
+}
+.gpoll_ratio_label{
+	font-size:14px;
+	line-height:1.8;
+}
+
+.gpoll_field_label{
+	font-weight:bold;
+	text-align: left;
+	width:100%;
+}
+
+.gpoll_choice_label{
+	clear:both;
+	margin-top:5px;
+	text-align:left;
+}
+
+
+.gpoll_container .gpoll_field{
+	margin-bottom:20px;
+}
+
+
+.gpoll_field_number {
+	color:#3c79b6;
+	float:left;
+	height:70px;
+	font-size:40px;
+	font-weight:bold;
+	padding-right:15px;
+	line-height:50px;
+	margin-top:0px;
+	margin-bottom:-20px;
+	
+	vertical-align: baseline;
+}
+.gfield  .gpoll_field_number{
+	margin-top:0px;
+}
+
+
+/*colours*/
+/* blue */
+.blue .gpoll_bar_juice {
+        background-color: blue;
+        background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #0000065),color-stop(1, #0000FF));
+        background-image: -webkit-linear-gradient(top, #0000065, #0000FF);
+        background-image: -moz-linear-gradient(top, #0000065, #0000FF);
+        background-image: -ms-linear-gradient(top, #0000065, #0000FF);
+        background-image: -o-linear-gradient(top, #0000065, #0000FF);
+}
+
+.blue .gpoll_ratio_box{
+	background-color:blue;
+}
+
+
+/*green*/
+.green .gpoll_bar_juice{
+	 
+
+
+	position:relative;
+	background-color: rgb(43,194,83);
+
+	background-image: -webkit-gradient(
+	  linear,
+	  left bottom,
+	  left top,
+	  color-stop(0, rgb(43,194,83)),
+	  color-stop(1, rgb(84,240,84))
+	 );
+
+	background-image: -moz-linear-gradient(
+	  center bottom,
+	  rgb(43,194,83) 37%,
+	  rgb(84,240,84) 69%
+	 );
+			
+			
+				
+	/* IE9 */ 
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#54F054', endColorstr='#2BC253');
+
+	/* IE10 */ 
+	background-image: -ms-linear-gradient(top, #54F054 0%, #2BC253 100%);
+
+
+}
+
+.green .gpoll_ratio_box{
+	background-color:green;
+}
+
+
+
+/*red*/
+.red .gpoll_bar_juice {
+        background-color: #f0a3a3;
+        background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #f0a3a3),color-stop(1, #f42323));
+        background-image: -webkit-linear-gradient(top, #f0a3a3, #f42323);
+        background-image: -moz-linear-gradient(top, #f0a3a3, #f42323);
+        background-image: -ms-linear-gradient(top, #f0a3a3, #f42323);
+        background-image: -o-linear-gradient(top, #f0a3a3, #f42323);
+
+}
+
+.red .gpoll_ratio_box{
+	background-color:red;
+}
+
+.red .gpoll_bar_juice {
+        background-color: #f0a3a3;
+        background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #f0a3a3),color-stop(1, #f42323));
+        background-image: -webkit-linear-gradient(top, #f0a3a3, #f42323);
+        background-image: -moz-linear-gradient(top, #f0a3a3, #f42323);
+        background-image: -ms-linear-gradient(top, #f0a3a3, #f42323);
+        background-image: -o-linear-gradient(top, #f0a3a3, #f42323);
+}
+
+.red .gpoll_ratio_box{
+	background-color:red;
+}
+
+/*orange*/
+.orange .gpoll_bar_juice {
+        background-color: #f0a3a3;
+        background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #f0a3a3),color-stop(1, #f42323));
+        background-image: -webkit-linear-gradient(top, #f0a3a3, #f42323);
+        background-image: -moz-linear-gradient(top, #f0a3a3, #f42323);
+        background-image: -ms-linear-gradient(top, #f0a3a3, #f42323);
+        background-image: -o-linear-gradient(top, #f0a3a3, #f42323);
+}
+
+.orange .gpoll_ratio_box{
+	background-color:red;
+
+}
+
+.orange .gpoll_bar_juice {
+        background-color: #f1a165;
+        background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0, #f1a165),color-stop(1, #f36d0a));
+        background-image: -webkit-linear-gradient(top, #f1a165, #f36d0a);
+        background-image: -moz-linear-gradient(top, #f1a165, #f36d0a);
+        background-image: -ms-linear-gradient(top, #f1a165, #f36d0a);
+        background-image: -o-linear-gradient(top, #f1a165, #f36d0a);
+}
+
+.orange .gpoll_ratio_box{
+	background-color:orange;
+}
+
+
+

@@ -1,0 +1,392 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Gravity Forms\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-04-04 11:14-0500\n"
+"PO-Revision-Date: 2014-04-04 11:14-0500\n"
+"Last-Translator: Dana Cobb <dana@rocketgenius.com>\n"
+"Language-Team: Rocketgenius <customerservice@rocketgenius.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 1.6.4\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../polls.php:123
+msgid "First Choice"
+msgstr ""
+
+#: ../polls.php:124
+msgid "Second Choice"
+msgstr ""
+
+#: ../polls.php:125
+msgid "Third Choice"
+msgstr ""
+
+#: ../polls.php:182
+msgid "Poll Results"
+msgstr ""
+
+#: ../polls.php:306
+msgid "Polls"
+msgstr ""
+
+#: ../polls.php:323
+msgid "Poll Settings"
+msgstr ""
+
+#: ../polls.php:327 ../polls.php:330
+msgid "Results"
+msgstr ""
+
+#: ../polls.php:330
+msgid ""
+"Select this option to display the results of submitted poll fields after the "
+"form is submitted."
+msgstr ""
+
+#: ../polls.php:333
+msgid "Display results of submitted poll fields after voting"
+msgstr ""
+
+#: ../polls.php:340 ../polls.php:343
+msgid "Results Link"
+msgstr ""
+
+#: ../polls.php:343
+msgid ""
+"Select this option to add a link to the form which allows the visitor to see "
+"the results without voting."
+msgstr ""
+
+#: ../polls.php:346
+msgid "Add a poll results link to the form"
+msgstr ""
+
+#: ../polls.php:353
+msgid "Percentages"
+msgstr ""
+
+#: ../polls.php:356 ../polls.php:1171
+msgid "Show Percentages"
+msgstr ""
+
+#: ../polls.php:356 ../polls.php:1171
+msgid "Show the percentage of the total votes for each choice."
+msgstr ""
+
+#: ../polls.php:359
+msgid "Display percentages"
+msgstr ""
+
+#: ../polls.php:366
+msgid "Counts"
+msgstr ""
+
+#: ../polls.php:369 ../polls.php:1172
+msgid "Show Counts"
+msgstr ""
+
+#: ../polls.php:369 ../polls.php:1172
+msgid "Show the total number of votes for each choice."
+msgstr ""
+
+#: ../polls.php:372
+msgid "Display counts"
+msgstr ""
+
+#: ../polls.php:379 ../pollwidget.php:220
+msgid "Style"
+msgstr ""
+
+#: ../polls.php:384 ../pollwidget.php:222
+msgid "Green"
+msgstr ""
+
+#: ../polls.php:385 ../pollwidget.php:223
+msgid "Blue"
+msgstr ""
+
+#: ../polls.php:386 ../pollwidget.php:224
+msgid "Red"
+msgstr ""
+
+#: ../polls.php:387 ../pollwidget.php:225
+msgid "Orange"
+msgstr ""
+
+#: ../polls.php:391
+msgid "Block repeat voters"
+msgstr ""
+
+#: ../polls.php:394
+msgid "Block Repeat Voters"
+msgstr ""
+
+#: ../polls.php:394 ../polls.php:1173
+msgid ""
+"Choose whether to allow visitors to vote more than once. Repeat voting is "
+"controlled by storing a cookie on the visitor's computer."
+msgstr ""
+
+#: ../polls.php:403 ../polls.php:1173 ../pollwidget.php:244
+msgid "Repeat Voters"
+msgstr ""
+
+#: ../polls.php:409 ../pollwidget.php:246
+msgid "Don't block repeat voting"
+msgstr ""
+
+#: ../polls.php:410 ../pollwidget.php:247
+msgid "Block repeat voting using cookie"
+msgstr ""
+
+#: ../polls.php:415
+msgid "Expires: "
+msgstr ""
+
+#: ../polls.php:422 ../pollwidget.php:254
+msgid "Never"
+msgstr ""
+
+#: ../polls.php:423 ../pollwidget.php:255
+msgid "1 hour"
+msgstr ""
+
+#: ../polls.php:424 ../pollwidget.php:256
+msgid "6 hours"
+msgstr ""
+
+#: ../polls.php:425 ../pollwidget.php:257
+msgid "12 hours"
+msgstr ""
+
+#: ../polls.php:426 ../pollwidget.php:258
+msgid "1 day"
+msgstr ""
+
+#: ../polls.php:427 ../pollwidget.php:259
+msgid "1 week"
+msgstr ""
+
+#: ../polls.php:428 ../pollwidget.php:260
+msgid "1 month"
+msgstr ""
+
+#: ../polls.php:607
+msgid "Select one"
+msgstr ""
+
+#: ../polls.php:635
+msgid "Repeat voting is not allowed"
+msgstr ""
+
+#: ../polls.php:758
+msgid "View results"
+msgstr ""
+
+#: ../polls.php:759
+msgid "Back to the poll"
+msgstr ""
+
+#: ../polls.php:770 ../polls.php:798
+msgid "Poll Entries"
+msgstr ""
+
+#: ../polls.php:794
+msgid "This contact has not submitted any poll entries yet."
+msgstr ""
+
+#: ../polls.php:803
+msgid "Entry Id"
+msgstr ""
+
+#: ../polls.php:806
+msgid "Date"
+msgstr ""
+
+#: ../polls.php:809
+msgid "Form"
+msgstr ""
+
+#: ../polls.php:982 ../polls.php:1234 ../pollwidget.php:14
+#: ../pollwidget.php:103 ../pollwidget.php:131 ../pollwidget.php:199
+msgid "Poll"
+msgstr ""
+
+#: ../polls.php:1168
+msgid "Display Results After Voting"
+msgstr ""
+
+#: ../polls.php:1168
+msgid "Select this to display the results of submitted poll fields."
+msgstr ""
+
+#: ../polls.php:1169
+msgid "Display Confirmation"
+msgstr ""
+
+#: ../polls.php:1169
+msgid ""
+"Select this option to display the form confirmation message after the "
+"visitor has voted."
+msgstr ""
+
+#: ../polls.php:1170
+msgid "Show Results Link"
+msgstr ""
+
+#: ../polls.php:1170
+msgid ""
+"Add a link to the form which allows the visitor to see the results without "
+"voting."
+msgstr ""
+
+#: ../polls.php:1175 ../polls.php:1190
+msgid "Poll Question"
+msgstr ""
+
+#: ../polls.php:1175
+msgid ""
+"Enter the question you would like to ask the user. The user can then answer "
+"the question by selecting from the available choices."
+msgstr ""
+
+#: ../polls.php:1176 ../polls.php:1199
+msgid "Poll Type"
+msgstr ""
+
+#: ../polls.php:1176
+msgid "Select the field type you'd like to use for the poll."
+msgstr ""
+
+#: ../polls.php:1177
+msgid "Randomize Choices"
+msgstr ""
+
+#: ../polls.php:1177
+msgid ""
+"Check the box to randomize the order in which the choices are displayed to "
+"the user. This setting affects only voting - it will not affect the order of "
+"the results."
+msgstr ""
+
+#: ../polls.php:1204
+msgid "Drop Down"
+msgstr ""
+
+#: ../polls.php:1205
+msgid "Radio Buttons"
+msgstr ""
+
+#: ../polls.php:1206
+msgid "Checkboxes"
+msgstr ""
+
+#: ../polls.php:1221
+msgid "Randomize order of choices"
+msgstr ""
+
+#: ../polls.php:1261
+msgid "<h2>Original Response</h2>"
+msgstr ""
+
+#: ../polls.php:1369
+msgid "Other"
+msgstr ""
+
+#: ../pollwidget.php:15
+msgid "Gravity Forms Poll Widget"
+msgstr ""
+
+#: ../pollwidget.php:171
+msgid "Title"
+msgstr ""
+
+#: ../pollwidget.php:177
+msgid "Select a Form"
+msgstr ""
+
+#: ../pollwidget.php:197
+msgid "Display Mode"
+msgstr ""
+
+#: ../pollwidget.php:200
+msgid "Results only"
+msgstr ""
+
+#: ../pollwidget.php:205
+msgid "Use form settings"
+msgstr ""
+
+#: ../pollwidget.php:206
+msgid "Override form settings"
+msgstr ""
+
+#: ../pollwidget.php:214
+msgid "Results Settings"
+msgstr ""
+
+#: ../pollwidget.php:216
+msgid "Show percentages"
+msgstr ""
+
+#: ../pollwidget.php:218
+msgid "Show counts"
+msgstr ""
+
+#: ../pollwidget.php:233
+msgid "Display form confirmation"
+msgstr ""
+
+#: ../pollwidget.php:235
+msgid "Display results of submitted poll fields"
+msgstr ""
+
+#: ../pollwidget.php:237
+msgid "Show link to view results"
+msgstr ""
+
+#: ../pollwidget.php:250
+msgid "Expires:"
+msgstr ""
+
+#: ../pollwidget.php:277
+msgid "Display form title"
+msgstr ""
+
+#: ../pollwidget.php:278
+msgid "Display form description"
+msgstr ""
+
+#: ../pollwidget.php:281
+msgid "advanced options"
+msgstr ""
+
+#: ../pollwidget.php:285
+msgid "Enable AJAX"
+msgstr ""
+
+#: ../pollwidget.php:286
+msgid "Disable script output"
+msgstr ""
+
+#: ../pollwidget.php:287
+msgid "Tab Index Start"
+msgstr ""
+
+#: ../pollwidget.php:289
+msgid ""
+"If you have other forms on the page (i.e. Comments Form), specify a higher "
+"tabindex start value so that your Gravity Form does not end up with the same "
+"tabindices as your other forms. To disable the tabindex, enter 0 (zero)."
+msgstr ""
