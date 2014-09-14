@@ -52,3 +52,6 @@
 [submodule "content/plugins/captian-up"]
 	path = content/plugins/captian-up
 	url = git@github.com:wp-plugins/captain-up.git
+[submodule "content/plugins/gravityformspaypal"]
+	path = content/plugins/gravityformspaypal
+	url = https://github.com/gravityforms/gravityformspaypal.git
