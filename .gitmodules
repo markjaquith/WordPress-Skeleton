@@ -46,6 +46,15 @@
 [submodule "content/plugins/the-events-calendar"]
 	path = content/plugins/the-events-calendar
 	url = git@github.com:moderntribe/the-events-calendar.git
+[submodule "content/plugins/wp-meetup"]
+	path = content/plugins/wp-meetup
+	url = git@github.com:wp-plugins/wp-meetup.git
+[submodule "content/plugins/captian-up"]
+	path = content/plugins/captian-up
+	url = git@github.com:wp-plugins/captain-up.git
+[submodule "content/plugins/gravityformspaypal"]
+	path = content/plugins/gravityformspaypal
+	url = https://github.com/gravityforms/gravityformspaypal.git
 [submodule "content/themes/Genesis-Theme-Bundle"]
 	path = content/themes/Genesis-Theme-Bundle
 	url = https://github.com/rfair404/Genesis-Theme-Bundle.git
