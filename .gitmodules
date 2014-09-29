@@ -106,3 +106,6 @@
 [submodule "content/plugins/stellar-places"]
 	path = content/plugins/stellar-places
 	url = https://github.com/wp-plugins/stellar-places.git
+[submodule "content/plugins/t-minus"]
+	path = content/plugins/t-minus
+	url = https://github.com/wp-plugins/jquery-t-countdown-widget.git
