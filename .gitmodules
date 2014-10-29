@@ -1,3 +1,12 @@
 [submodule "wp"]
 	path = wp
 	url = git://github.com/WordPress/WordPress.git
+[submodule "custom-content/plugins"]
+	path = custom-content/plugins
+	url = git@github.com:aawpa/aawpa-plugins.git
+[submodule "custom-content/themes"]
+	path = custom-content/themes
+	url = git@github.com:aawpa/aawpa-theme.git
+[submodule "custom-content/mu-plugins"]
+	path = custom-content/mu-plugins
+	url = git@github.com:aawpa/aawpa-mu-plugins.git

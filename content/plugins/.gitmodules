@@ -1,0 +1,3 @@
+[submodule "top-WordPress-plugin-SVN-mirror"]
+	path = top-WordPress-plugin-SVN-mirror
+	url = git@github.com:rfair404/top-WordPress-plugin-SVN-mirror.git
