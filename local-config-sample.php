@@ -25,3 +25,9 @@ define( 'AUTH_SALT',        'put your unique phrase here' );
 define( 'SECURE_AUTH_SALT', 'put your unique phrase here' );
 define( 'LOGGED_IN_SALT',   'put your unique phrase here' );
 define( 'NONCE_SALT',       'put your unique phrase here' );
+
+// ============
+// Hide errors?
+// ============
+ini_set( 'display_errors', 0 );
+define( 'WP_DEBUG_DISPLAY', false );

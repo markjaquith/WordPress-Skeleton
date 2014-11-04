@@ -3,7 +3,6 @@
 // Load database info and local development parameters
 // ===================================================
 if ( file_exists( dirname( __FILE__ ) . '/local-config.php' ) ) {
-	define( 'WP_LOCAL_DEV', true );
 	include( dirname( __FILE__ ) . '/local-config.php' );
 } else {
 	define( 'WP_LOCAL_DEV', false );
@@ -24,6 +23,12 @@ if ( file_exists( dirname( __FILE__ ) . '/local-config.php' ) ) {
 	define( 'SECURE_AUTH_SALT', 'put your unique phrase here' );
 	define( 'LOGGED_IN_SALT',   'put your unique phrase here' );
 	define( 'NONCE_SALT',       'put your unique phrase here' );
+
+	// ===========
+	// Hide errors
+	// ===========
+	ini_set( 'display_errors', 0 );
+	define( 'WP_DEBUG_DISPLAY', false );
 }
 
 // ========================
@@ -50,12 +55,6 @@ $table_prefix  = 'wp_';
 // ================================
 define( 'WPLANG', '' );
 setlocale( LC_COLLATE, 'nb_NO' ) // Enables Norwegian letters in string comparisons
-
-// ===========
-// Hide errors
-// ===========
-ini_set( 'display_errors', 0 );
-define( 'WP_DEBUG_DISPLAY', false );
 
 // =================================================================
 // Debug mode
