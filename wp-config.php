@@ -54,7 +54,7 @@ $table_prefix  = 'wp_';
 // Leave blank for American English
 // ================================
 define( 'WPLANG', '' );
-setlocale( LC_COLLATE, 'nb_NO' ) // Enables Norwegian letters in string comparisons
+setlocale( LC_COLLATE, 'nb_NO' ); // Enables Norwegian letters in string comparisons
 
 // =================================================================
 // Debug mode
