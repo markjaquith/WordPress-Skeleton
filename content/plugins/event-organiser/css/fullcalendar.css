@@ -1,0 +1,199 @@
+/*Front-end full calendar key*/
+.eo-fullcalendar-key ul.eo_fullcalendar_key{display: inline-block;font-size: 0.8em;}
+.eo-fullcalendar-key ul.eo_fullcalendar_key li{display: inline-block;margin:0 3px;}
+.eo-fullcalendar-key span.eo_fullcalendar_key_colour{margin: 4px 2px 4px 5px;border: 1px solid #DFDFDF;border-radius: 4px 4px 4px 4px;font-size: 0.9em;vertical-align: top;padding: 0 6px;}
+
+
+/*styling for calendar view tabs */
+.view-button{float:right;height: 30px;line-height: 28px;margin-top: 3px;padding: 0 11px;}
+
+/*calendar view conainer */
+#calendar-view{clear: both;height: 34px;margin-bottom: 15px;border-bottom: 1px solid #dfdfdf;padding-right: 100px;position: relative;}
+#calendar-view .nav-tab{ font-size: 15px }
+
+/* loading text */
+#loading{position:absolute;bottom:0;font-size: 16px;line-height: 16px;margin-bottom: 5px;}
+#loading:before {content: url("images/loading-image.gif");padding-right: 5px;}
+
+/*Added to fit with full calendar*/
+/*button.ui-datepicker-trigger.ui-button.ui-widget{vertical-align: top;}*/
+.ui-datepicker{z-index: 100 !important}
+.ui-selectmenu-menu{z-index: 10!important}
+
+/*For the blocks of colour*/
+.cat .ui-selectmenu-item-icon { height: 14px; width: 14px; border:1px solid #dfdfdf;border-radius: 4px;}
+.cat .ui-selectmenu-item-icon{ background-image:none!important; }
+
+/* Fix for themes which are over-zealouse with transitions */
+.eo-fullcalendar a{
+   -webkit-transition:none;
+   -moz-transition:none; 
+   -o-transition:none; 
+   -ms-transition: none; 
+   transition: none;
+}
+
+/*!
+ * FullCalendar v1.6.1 Stylesheet
+ * Docs & License: http://arshaw.com/fullcalendar/
+ * (c) 2013 Adam Shaw
+ */
+.fc{direction:ltr;text-align:left}
+.fc table{border-collapse:collapse;border-spacing:0}
+html .fc,.fc table{font-size:1em}
+.fc td,.fc th{vertical-align:top;padding:0}
+.fc-header td{white-space:nowrap}
+.fc-header-left{width:25%;text-align:left}
+.fc-header-right{width:25%;text-align:right}
+.fc-header-title{display:inline-block;vertical-align:top}
+.fc-header-title h2{margin-top:0;white-space:nowrap}
+.fc .fc-header-space{padding-left:10px}
+.fc-header .fc-button{margin-bottom:1em;vertical-align:top;margin-right:-1px}
+.fc-header .fc-corner-right,/* non-theme */
+.fc-header .ui-corner-right{margin-right:0}
+.fc-header .fc-state-hover,.fc-header .ui-state-hover{z-index:2}
+.fc-header .fc-state-down{z-index:3}
+.fc-header .fc-state-active,.fc-header .ui-state-active{z-index:4}
+.fc-content{clear:both}
+.fc-view{width:100%;overflow:hidden}
+.fc-widget-header,/* <th>,usually */
+.fc-widget-content{border:1px solid #ddd}
+.fc-state-highlight{background:#fcf8e3}
+.fc-cell-overlay{background:#bce8f1;opacity:.3;filter:alpha(opacity=30)}
+.fc-button{position:relative;display:inline-block;overflow:hidden;height:1.4em;line-height:1.4em;white-space:nowrap;cursor:pointer;padding:0 .6em;margin-top: 2px;}
+.fc-state-default{border:1px solid;background-color:#f5f5f5;background-image:linear-gradient(tobottom,#ffffff,#e6e6e6);background-repeat:repeat-x;color:#333;text-shadow:0 1px 1px rgba(255,255,255,0.75);box-shadow:inset 0 1px 0 rgba(255,255,255,0.2), 0 1px 2px rgba(0,0,0,0.05);border-color:rgba(0,0,0,0.1) rgba(0,0,0,0.1) rgba(0,0,0,0.25)}
+.fc-state-default.fc-corner-left{border-top-left-radius:4px;border-bottom-left-radius:4px}
+.fc-state-default.fc-corner-right{border-top-right-radius:4px;border-bottom-right-radius:4px}
+.fc-text-arrow{font-size:2em;font-family:"Courier New", Courier, monospace;vertical-align:baseline;margin:0 .1em}
+.fc-button .fc-icon-wrap{position:relative;float:left;top: 0.2em;}
+.fc-button .ui-icon{position:relative;float:left;margin-top:0;top:-50%}
+.fc-state-hover,.fc-state-down,.fc-state-active,.fc-state-disabled{color:#333;background-color:#e6e6e6}
+.fc-state-hover{color:#333;text-decoration:none;background-position:0 -15px;-webkit-transition:background-position .1s linear;-moz-transition:background-position .1s linear;-o-transition:background-position .1s linear;transition:background-position .1s linear}
+.fc-state-down,.fc-state-active{background-color:#ccc;background-image:none;outline:0;box-shadow:inset 0 2px 4px rgba(0,0,0,0.15), 0 1px 2px rgba(0,0,0,0.05)}
+.fc-state-disabled{cursor:default;background-image:none;opacity:0.65;filter:alpha(opacity=65);box-shadow:none}
+.fc-event{border:1px solid #3a87ad;background-color:#3a87ad;color:#fff;font-size:.85em;cursor:default}
+a.fc-event{text-decoration:none;color:#fff;}
+a.fc-event,.fc-event-draggable{cursor:pointer}
+.fc-rtl .fc-event{text-align:right}
+.fc-event-inner{width:100%;height:100%;overflow:hidden}
+.fc-event-time,.fc-event-title{padding:0 1px}
+.fc .ui-resizable-handle{display:block;position:absolute;z-index:99999;overflow:hidden;font-size:300%;line-height:50%}
+.fc-event-hori{margin-bottom:1px;border-width:1px 0}
+.fc-ltr .fc-event-hori.fc-event-start,.fc-rtl .fc-event-hori.fc-event-end{border-left-width:1px;border-top-left-radius:3px;border-bottom-left-radius:3px}
+.fc-ltr .fc-event-hori.fc-event-end,.fc-rtl .fc-event-hori.fc-event-start{border-right-width:1px;border-top-right-radius:3px;border-bottom-right-radius:3px}
+.fc-event-hori .ui-resizable-e{top:0!important;right:-3px!important;width:7px!important;height:100%!important;cursor:e-resize}
+.fc-event-hori .ui-resizable-w{top:0!important;left:-3px!important;width:7px!important;height:100%!important;cursor:w-resize}
+.fc-event-hori .ui-resizable-handle{_padding-bottom:14px}
+.fc-border-separate th,.fc-border-separate td{border-width:1px 0 0 1px}
+.fc-border-separate tr.fc-last th,.fc-border-separate tr.fc-last td{border-bottom-width:1px}
+.fc .fc-week-number{width:22px;text-align:center}
+.fc .fc-week-number div{padding:0 2px}
+.fc-grid .fc-day-number{float:right;padding:0 2px}
+.fc-grid .fc-other-month .fc-day-number{opacity:0.3;filter:alpha(opacity=30)}
+.fc-grid .fc-day-content{clear:both;padding:2px 2px 1px}
+.fc-rtl .fc-grid .fc-day-number{float:left}
+.fc-rtl .fc-grid .fc-event-time{float:right}
+.fc-agenda .fc-agenda-axis{width:50px;vertical-align:middle;text-align:right;white-space:nowrap;font-weight:400;padding:0 4px}
+.fc-agenda .fc-day-content{padding:2px 2px 1px}
+.fc-agenda-days .fc-col0{border-left-width:0}
+.fc-agenda-allday .fc-day-content{min-height:34px;_height:34px}
+.fc-agenda-divider-inner{height:2px;overflow:hidden}
+.fc-widget-header .fc-agenda-divider-inner{background:#eee}
+.fc-agenda-slots th{border-width:1px 1px 0}
+.fc-agenda-slots td{background:none;border-width:1px 0 0}
+.fc-agenda-slots td div{height:20px}
+.fc-agenda-slots tr.fc-minor th,.fc-agenda-slots tr.fc-minor td{border-top-style:dotted}
+.fc-agenda-slots tr.fc-minor th.ui-widget-header{border-top-style:solid}
+.fc-event-vert.fc-event-start{border-top-width:1px;border-top-left-radius:3px;border-top-right-radius:3px}
+.fc-event-vert.fc-event-end{border-bottom-width:1px;border-bottom-left-radius:3px;border-bottom-right-radius:3px}
+.fc-event-vert .fc-event-time{white-space:nowrap;font-size:10px}
+.fc-event-vert .fc-event-inner{position:relative;z-index:2}
+.fc-event-vert .fc-event-bg{position:absolute;z-index:1;top:0;left:0;width:100%;height:100%;background:#fff;opacity:.25;filter:alpha(opacity=25)}
+/* for IE6/7/8. nested opacity filters while dragging don't work */
+.fc .ui-draggable-dragging .fc-event-bg,/* TODO: something nicer like .fc-opacity */
+.fc-select-helper .fc-event-bg{display:none\9}
+.fc-event-vert .ui-resizable-s{bottom:0!important;width:100%!important;height:8px!important;overflow:hidden!important;line-height:8px!important;font-size:11px!important;font-family:monospace;text-align:center;cursor:s-resize}
+.fc-agenda .ui-resizable-resizing{_overflow:hidden}
+.fc-header-center,.fc-grid th,.fc-agenda-days th{text-align:center}
+.fc-button-prev .fc-text-arrow,.fc-button-next .fc-text-arrow,.fc-grid .fc-event-time,.fc-agenda .fc-week-number{font-weight:700;display:inline-block;}
+table.fc-border-separate,.fc-agenda table{border-collapse:separate}
+.fc-border-separate th.fc-last,.fc-border-separate td.fc-last,.fc-agenda-days .fc-agenda-axis{border-right-width:1px}
+.fc-border-separate tbody tr.fc-first td,.fc-border-separate tbody tr.fc-first th,.fc-agenda-slots tr.fc-slot0 th,.fc-agenda-slots tr.fc-slot0 td{border-top-width:0}
+.fc-agenda-allday th,.fc-event-vert{border-width:0 1px}
+
+.eo-event-toolip .qtip-title{ line-height: 2em; }
+/*! qTip2 - Pretty powerful tooltips - v2.0.0 - 2012-08-14
+* http://craigsworks.com/projects/qtip2/
+* Copyright (c) 2012 Craig Michael Thompson; Licensed MIT, GPL */
+/* Core qTip styles */
+.ui-tooltip, .qtip{position:absolute; left:-28000px; top:-28000px; display:none; max-width:280px; min-width:50px; font-size:10.5px; line-height:12px; border-width:1px; border-style:solid}
+
+/* Fluid class for determining actual width in IE */
+.ui-tooltip-fluid{display:block; visibility:hidden; position:static !important; float:left !important}
+.ui-tooltip-content{position:relative; padding:5px 9px; overflow:hidden; text-align:left; word-wrap:break-word}
+.ui-tooltip-titlebar{position:relative; min-height:14px; padding:5px 35px 5px 10px; overflow:hidden; border-width:0 0 1px; font-weight:bold}
+.ui-tooltip-titlebar+.ui-tooltip-content{border-top-width:0 !important}
+
+/* Default close button class */
+.ui-tooltip-titlebar .ui-state-default{position:absolute; right:4px; top:50%; margin-top:-9px; cursor:pointer; outline:medium none; border-width:1px; border-style:solid}
+* html .ui-tooltip-titlebar .ui-state-default{top:16px}/* IE fix */
+.ui-tooltip-titlebar .ui-icon, 
+.ui-tooltip-icon .ui-icon{display:block; text-indent:-1000em; direction:ltr}
+.ui-tooltip-icon, .ui-tooltip-icon .ui-icon{-moz-border-radius:3px; -webkit-border-radius:3px; border-radius:3px; text-decoration:none}
+.ui-tooltip-icon .ui-icon{width:18px; height:14px; text-align:center; text-indent:0; font:normal bold 10px/13px Tahoma,sans-serif; color:inherit; background:transparent none no-repeat -100em -100em}
+
+/* Add shadows to your tooltips in:FF3+, Chrome 2+, Opera 10.6+, IE9+, Safari 2+*/
+.ui-tooltip-shadow{-webkit-box-shadow:1px 1px 3px 1px rgba(0,0,0,0.15); -moz-box-shadow:1px 1px 3px 1px rgba(0,0,0,0.15); box-shadow:1px 1px 3px 1px rgba(0,0,0,0.15)}
+
+/* Add rounded corners to your tooltips in:FF3+, Chrome 2+, Opera 10.6+, IE9+, Safari 2+*/
+.ui-tooltip-rounded, 
+.ui-tooltip-tipsy, 
+.ui-tooltip-bootstrap{-moz-border-radius:5px; -webkit-border-radius:5px; border-radius:5px}
+
+/* jQuery TOOLS Tooltip style */
+.ui-tooltip-jtools{background:#232323; background:rgba(0,0,0,0.7); background-image:-webkit-gradient(linear,left top,left bottom,from(#717171),to(#232323)); background-image:-moz-linear-gradient(top,#717171,#232323); background-image:-webkit-linear-gradient(top,#717171,#232323); background-image:-ms-linear-gradient(top,#717171,#232323); background-image:-o-linear-gradient(top,#717171,#232323); border:2px solid #ddd; border:2px solid rgba(241,241,241,1); -moz-border-radius:2px; -webkit-border-radius:2px; border-radius:2px; -webkit-box-shadow:0 0 12px #333; -moz-box-shadow:0 0 12px #333; box-shadow:0 0 12px #333}
+
+/* IE Specific */
+.ui-tooltip-jtools .ui-tooltip-titlebar{background-color:transparent; filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#717171,endColorstr=#4A4A4A); -ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr=#717171,endColorstr=#4A4A4A)"}
+.ui-tooltip-jtools .ui-tooltip-content{filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#4A4A4A,endColorstr=#232323); -ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr=#4A4A4A,endColorstr=#232323)"}
+
+.ui-tooltip-jtools .ui-tooltip-titlebar, 
+.ui-tooltip-jtools .ui-tooltip-content{background:transparent; color:white; border:0 dashed transparent}
+.ui-tooltip-jtools .ui-tooltip-icon{border-color:#555}
+.ui-tooltip-jtools .ui-tooltip-titlebar .ui-state-hover{border-color:#333}
+
+/* Tipped style */
+.ui-tooltip-tipped{border:3px solid #959FA9; -moz-border-radius:3px; -webkit-border-radius:3px; border-radius:3px; background-color:#F9F9F9; color:#454545; font-weight:normal; font-family:serif}
+.ui-tooltip-tipped .ui-tooltip-titlebar{border-bottom-width:0; color:white; background:#3A79B8; background-image:-webkit-gradient(linear,left top,left bottom,from(#3A79B8),to(#2E629D)); background-image:-webkit-linear-gradient(top,#3A79B8,#2E629D); background-image:-moz-linear-gradient(top,#3A79B8,#2E629D); background-image:-ms-linear-gradient(top,#3A79B8,#2E629D); background-image:-o-linear-gradient(top,#3A79B8,#2E629D); filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#3A79B8,endColorstr=#2E629D); -ms-filter:"progid:DXImageTransform.Microsoft.gradient(startColorstr=#3A79B8,endColorstr=#2E629D)"}
+.ui-tooltip-tipped .ui-tooltip-icon{border:2px solid #285589; background:#285589}
+.ui-tooltip-tipped .ui-tooltip-icon .ui-icon{background-color:#FBFBFB; color:#555}
+
+/* IE9 fix - removes all filters */
+.ui-tooltip:not(.ie9haxors) div.ui-tooltip-content, 
+.ui-tooltip:not(.ie9haxors) div.ui-tooltip-titlebar{filter:none; -ms-filter:none}
+
+/* Tips plugin */
+.ui-tooltip .ui-tooltip-tip{margin:0 auto; overflow:hidden; z-index:10}
+.ui-tooltip .ui-tooltip-tip, 
+.ui-tooltip .ui-tooltip-tip *{position:absolute; line-height:0.1px !important; font-size:0.1px !important; color:#123456; background:transparent; border:0 dashed transparent}
+.ui-tooltip .ui-tooltip-tip canvas{top:0; left:0}
+
+
+/* =Print
+----------------------------------------------- */
+@media print {
+/*.fc-event-skin {background: none !important;color: #000 !important;}*/
+
+/* horizontal events */
+.fc-event-hori {padding: 1px 0 0 0 !important;}
+.fc-event-hori .fc-event-inner {border-width: 0 !important;padding: 0 1px !important}
+	
+/* vertical events */
+.fc-event-vert {padding: 0 1px 0 0 !important;}
+.fc-event-vert .fc-event-inner {border-width: 0 !important;padding: 1px 0 !important;}
+
+/*.fc-event-bg {display: none !important;}*/
+.fc-event .ui-resizable-handle {display: none !important;}
+.fc-button{display: none;}	
+.eo-fullcalendar table tr td{width:10%;}
+}

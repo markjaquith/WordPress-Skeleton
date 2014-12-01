@@ -1,0 +1,1910 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Event Organiser\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-10-31 11:49+0000\n"
+"PO-Revision-Date: 2014-08-12 00:58:53+0000\n"
+"Last-Translator: Mohamed Nazir <Nazir@smartit-sol.com>\n"
+"Language-Team: \n"
+"Language: Arabic\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural= n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 ? 4 : 5;;\n"
+
+#: classes/class-eo-agenda-widget.php:11
+msgid "Displays a list of events, grouped by date"
+msgstr ""
+
+#: classes/class-eo-agenda-widget.php:19
+msgid "Events Agenda"
+msgstr ""
+
+#: classes/class-eo-agenda-widget.php:35
+#: classes/class-eo-calendar-widget.php:46
+#: classes/class-eo-event-list-widget.php:40
+#: classes/class-eo-event-list-widget.php:69
+msgid "Title"
+msgstr ""
+
+#: classes/class-eo-agenda-widget.php:39
+msgid "Group by"
+msgstr ""
+
+#: classes/class-eo-agenda-widget.php:41 event-organiser-calendar.php:237
+msgid "Day"
+msgstr "يوم"
+
+#: classes/class-eo-agenda-widget.php:42 event-organiser-calendar.php:237
+msgid "Week"
+msgstr "أسبوع"
+
+#: classes/class-eo-agenda-widget.php:43 event-organiser-calendar.php:237
+msgid "Month"
+msgstr "شهر"
+
+#: classes/class-eo-agenda-widget.php:47
+msgid "Group date format"
+msgstr ""
+
+#: classes/class-eo-agenda-widget.php:51
+msgid "Event date/time format"
+msgstr ""
+
+#: classes/class-eo-agenda-widget.php:55
+msgid "Include 'Add To Google' link"
+msgstr ""
+
+#: classes/class-eo-calendar-widget.php:22
+msgid "Displays a calendar of your events"
+msgstr ""
+
+#: classes/class-eo-calendar-widget.php:24 event-organiser-calendar.php:233
+msgid "Events Calendar"
+msgstr "تقويم الأحداث"
+
+#: classes/class-eo-calendar-widget.php:57
+#: classes/class-eo-event-list-widget.php:78
+msgid "Include past events"
+msgstr ""
+
+#: classes/class-eo-calendar-widget.php:68
+msgid "Show long events"
+msgstr ""
+
+#: classes/class-eo-calendar-widget.php:79
+msgid "Link directly to event for days with only one event"
+msgstr ""
+
+#: classes/class-eo-calendar-widget.php:91
+#: classes/class-eo-event-list-widget.php:48
+msgid "Event categories"
+msgstr ""
+
+#: classes/class-eo-calendar-widget.php:94
+#: classes/class-eo-event-list-widget.php:50
+msgid "List category slug(s), seperate by comma. Leave blank for all"
+msgstr ""
+
+#: classes/class-eo-calendar-widget.php:103
+msgid "Event venue"
+msgstr ""
+
+#: classes/class-eo-calendar-widget.php:106
+#: classes/class-eo-event-list-widget.php:58
+#: includes/event-organiser-cpt.php:34
+msgid "All Venues"
+msgstr ""
+
+#: classes/class-eo-calendar-widget.php:284
+msgid "Previous month"
+msgstr ""
+
+#: classes/class-eo-calendar-widget.php:287
+msgid "Next month"
+msgstr ""
+
+#: classes/class-eo-event-list-widget.php:22
+msgid "Displays a list of events"
+msgstr ""
+
+#: classes/class-eo-event-list-widget.php:23 event-organiser-venues.php:481
+#: event-organiser.php:132 includes/event-organiser-cpt.php:217
+#: includes/event-organiser-cpt.php:229
+#: includes/event-organiser-install.php:96 templates/archive-event.php:42
+msgid "Events"
+msgstr "الأحداث"
+
+#: classes/class-eo-event-list-widget.php:44
+msgid "Number of events"
+msgstr ""
+
+#: classes/class-eo-event-list-widget.php:55
+#: includes/event-organiser-cpt.php:32
+msgid "Venue"
+msgstr "العناوين"
+
+#: classes/class-eo-event-list-widget.php:66
+msgid "Order by"
+msgstr ""
+
+#: classes/class-eo-event-list-widget.php:68
+msgid "Start date"
+msgstr ""
+
+#: classes/class-eo-event-list-widget.php:70
+msgid "Publish date"
+msgstr ""
+
+#: classes/class-eo-event-list-widget.php:73
+msgid "ASC"
+msgstr ""
+
+#: classes/class-eo-event-list-widget.php:74
+msgid "DESC"
+msgstr ""
+
+#: classes/class-eo-event-list-widget.php:82 event-organiser-settings.php:189
+msgid "Group occurrences"
+msgstr ""
+
+#: classes/class-eo-event-list-widget.php:88
+msgid "Template (leave blank for default)"
+msgstr ""
+
+#: classes/class-eo-event-list-widget.php:90
+msgid "Event list widget placeholders"
+msgstr ""
+
+#: classes/class-eo-event-list-widget.php:92
+#, php-format
+msgid ""
+"You can use specified tags as placeholders for event information which you "
+"want to appear in the widget. <a href=\"%s\" target=\"_blank\"> Find out "
+"more</a>."
+msgstr ""
+
+#: classes/class-eo-event-list-widget.php:102
+msgid "'No events' message"
+msgstr ""
+
+#: classes/class-eo-venue-list-table.php:72 templates/single-event.php:71
+msgid "Edit"
+msgstr ""
+
+#: classes/class-eo-venue-list-table.php:73
+#: classes/class-eo-venue-list-table.php:128
+msgid "Delete"
+msgstr ""
+
+#: classes/class-eo-venue-list-table.php:74
+#: includes/event-organiser-ajax.php:676
+msgid "View"
+msgstr ""
+
+#: classes/class-eo-widget-categories.php:10
+msgid "A list or dropdown of event categories"
+msgstr ""
+
+#: classes/class-eo-widget-categories.php:11 event-organiser-settings.php:329
+#: includes/event-organiser-cpt.php:92
+msgid "Event Categories"
+msgstr "تصنيفات الأحداث"
+
+#: classes/class-eo-widget-categories.php:28 event-organiser-manage.php:35
+#: includes/event-organiser-cpt.php:103
+#: includes/event-organiser-event-functions.php:1494
+#: templates/event-meta-event-single.php:69
+msgid "Categories"
+msgstr "تصنيفات"
+
+#: classes/class-eo-widget-categories.php:54
+msgid "Select Category"
+msgstr ""
+
+#: classes/class-eo-widget-categories.php:125
+#: classes/class-eo-widget-venues.php:127
+msgid "Title:"
+msgstr ""
+
+#: classes/class-eo-widget-categories.php:129
+#: classes/class-eo-widget-venues.php:131
+msgid "Display as dropdown"
+msgstr ""
+
+#: classes/class-eo-widget-categories.php:132
+msgid "Show hierarchy"
+msgstr ""
+
+#: classes/class-eo-widget-venues.php:11
+msgid "A list or dropdown of event venues"
+msgstr ""
+
+#: classes/class-eo-widget-venues.php:12
+msgid "Event Venues"
+msgstr ""
+
+#: classes/class-eo-widget-venues.php:32 event-organiser-settings.php:319
+#: event-organiser-venues.php:185 includes/event-organiser-cpt.php:31
+msgid "Venues"
+msgstr ""
+
+#: classes/class-eo-widget-venues.php:57
+msgid "Select Venue"
+msgstr ""
+
+#: classes/class-eventorganiser-shortcodes.php:377
+msgid "There is no excerpt because this is a protected post."
+msgstr ""
+
+#: event-organiser-add-ons.php:19 event-organiser-add-ons.php:95
+msgid "Event Organiser Extensions"
+msgstr ""
+
+#: event-organiser-add-ons.php:20
+msgid "Extensions"
+msgstr ""
+
+#: event-organiser-add-ons.php:99
+msgid ""
+"Event Organiser offers a range of extension which add additional features to "
+"the plug-in."
+msgstr ""
+
+#: event-organiser-add-ons.php:130 event-organiser-go-pro.php:90
+msgid "Find out more &hellip;"
+msgstr ""
+
+#: event-organiser-calendar.php:22 event-organiser-calendar.php:23
+msgid "Calendar View"
+msgstr "عرض التقويم"
+
+#: event-organiser-calendar.php:58 includes/event-organiser-register.php:57
+msgid "today"
+msgstr "اليوم"
+
+#: event-organiser-calendar.php:59 includes/event-organiser-register.php:58
+#: includes/event-organiser-register.php:247
+msgid "day"
+msgstr "يوم"
+
+#: event-organiser-calendar.php:60 includes/event-organiser-register.php:59
+#: includes/event-organiser-register.php:249
+msgid "week"
+msgstr "أسبوع"
+
+#: event-organiser-calendar.php:61 includes/event-organiser-register.php:60
+#: includes/event-organiser-register.php:251
+msgid "month"
+msgstr "شهر"
+
+#: event-organiser-calendar.php:62 includes/event-organiser-register.php:61
+msgid "go to date"
+msgstr "اذهب إلى تاريخ"
+
+#: event-organiser-calendar.php:63 event-organiser-manage.php:122
+#: includes/event-organiser-cpt.php:105
+msgid "View all categories"
+msgstr "عرض جميع التصنيفات"
+
+#: event-organiser-calendar.php:64 includes/event-organiser-cpt.php:45
+msgid "View all venues"
+msgstr "عرض جميع العناوين"
+
+#: event-organiser-calendar.php:111
+msgid "You do not have sufficient permissions to create events. "
+msgstr "ليس لديك التصريح الكافي لإنشاء حدث"
+
+#: event-organiser-calendar.php:167
+msgid "You do not have sufficient permissions to edit this event. "
+msgstr "ليس لديك التصريح الكافي لتعديل حدث"
+
+#: event-organiser-calendar.php:185
+msgid "You do not have sufficient permissions to delete this event. "
+msgstr "ليس لديك التصريح الكافي لحذف حدث"
+
+#: event-organiser-calendar.php:195
+msgid "Occurrence deleted."
+msgstr ""
+
+#: event-organiser-calendar.php:211
+msgid "Calendar options"
+msgstr "خيارات التقويم"
+
+#: event-organiser-calendar.php:218
+msgid "24 hour time"
+msgstr "24 ساعة"
+
+#: event-organiser-calendar.php:240
+#: includes/event-organiser-event-functions.php:1441
+msgid "Loading&#8230;"
+msgstr "جاري التحميل"
+
+#: event-organiser-calendar.php:247
+msgid "Current date/time"
+msgstr ""
+
+#: event-organiser-calendar.php:252
+msgid "Create an event"
+msgstr "إنشاء حدث"
+
+#: event-organiser-calendar.php:257
+msgid "When"
+msgstr "الزمان"
+
+#: event-organiser-calendar.php:261
+msgid "Event Title"
+msgstr "عنوان الحدث"
+
+#: event-organiser-calendar.php:268 includes/event-organiser-ajax.php:399
+msgid "Where"
+msgstr "المكان"
+
+#: event-organiser-calendar.php:293
+msgid "Save Draft"
+msgstr "حفظ كمسودة"
+
+#: event-organiser-calendar.php:294 event-organiser-calendar.php:301
+#: event-organiser-edit.php:258
+msgid "Cancel"
+msgstr "إلغاء"
+
+#: event-organiser-calendar.php:297
+msgid "Publish Event"
+msgstr "نشر الحدث"
+
+#: event-organiser-calendar.php:303
+msgid "Submit for Review"
+msgstr ""
+
+#: event-organiser-calendar.php:324 event-organiser-edit.php:14
+#: templates/event-meta-event-single.php:37
+msgid "Event Details"
+msgstr "تفاصيل الحدث"
+
+#: event-organiser-calendar.php:326
+msgid "Event Detail"
+msgstr "تفاصيل الحدث"
+
+#: event-organiser-debug.php:13 event-organiser-debug.php:14
+#: event-organiser-debug.php:59
+msgid "System Info"
+msgstr "معلومات النظام"
+
+#: event-organiser-debug.php:65
+msgid ""
+"This page highlights useful information for debugging. If you're reporting a "
+"bug, please include this information."
+msgstr "هذه الصفحة "
+
+#: event-organiser-debug.php:67
+msgid ""
+"The 'system info' link in under the Events admin tab is only visible to "
+"admins and only when <code>WP_DEBUG</code> is set to <code>true</code>."
+msgstr ""
+
+#: event-organiser-debug.php:72
+msgid ""
+"Most bugs arise from theme or plug-in conflicts. You can check this by "
+"disabling all other plug-ins and switching to TwentyTweleve."
+msgstr ""
+
+#: event-organiser-debug.php:74
+msgid ""
+"To help speed things along, if you report a bug please indicate if you have "
+"done so. Once the plug-in or theme has been identified it is often easy to "
+"resolve the issue."
+msgstr ""
+
+#: event-organiser-debug.php:76
+msgid ""
+"Below any <strong>known</strong> plug-in and theme conflicts are highlighted "
+"in red."
+msgstr ""
+
+#: event-organiser-debug.php:84
+msgid "Download system information file"
+msgstr ""
+
+#: event-organiser-debug.php:182 event-organiser-debug.php:186
+#: event-organiser-debug.php:190 event-organiser-settings.php:205
+msgid "Yes"
+msgstr "نعم"
+
+#: event-organiser-debug.php:182 event-organiser-debug.php:186
+#: event-organiser-debug.php:190 event-organiser-settings.php:204
+msgid "No"
+msgstr "لا"
+
+#: event-organiser-debug.php:257
+msgid ""
+"Known plug-in & theme conflicts, highlighted in red, may be minor or have a "
+"simple resolution. Please contact support."
+msgstr ""
+
+#. / TRANSLATORS: [this plugin] has only been tested up to [required plugin] [required plugin version]
+#: event-organiser-debug.php:430
+#, php-format
+msgid "%s has only been tested up to %s %s"
+msgstr ""
+
+#. / TRANSLATORS: [this plugin] requires [required plugin] version [required plugin version] or higher
+#: event-organiser-debug.php:439
+#, php-format
+msgid "%s requires %s version %s or higher"
+msgstr ""
+
+#: event-organiser-debug.php:460
+msgid "unknown"
+msgstr ""
+
+#: event-organiser-edit.php:31 event-organiser-manage.php:23
+#: event-organiser-settings.php:142 includes/event-organiser-ajax.php:386
+msgid "Organiser"
+msgstr "منظم"
+
+#: event-organiser-edit.php:75
+msgid "This is a reoccurring event"
+msgstr "هذا الحدث متكرر"
+
+#: event-organiser-edit.php:76
+msgid "Check to edit this event and its reoccurrences"
+msgstr ""
+
+#: event-organiser-edit.php:98
+#, php-format
+msgid "Ensure dates are entered in %1$s format and times in 24 hour format"
+msgstr ""
+
+#: event-organiser-edit.php:100
+#, php-format
+msgid "Ensure dates are entered in %1$s format and times in 12 hour format"
+msgstr ""
+
+#: event-organiser-edit.php:107 event-organiser-manage.php:36
+msgid "Start Date/Time"
+msgstr ""
+
+#: event-organiser-edit.php:120 event-organiser-manage.php:37
+msgid "End Date/Time"
+msgstr ""
+
+#: event-organiser-edit.php:132
+msgid "All day"
+msgstr "طوال اليوم"
+
+#: event-organiser-edit.php:139
+msgid "Reoccurence:"
+msgstr "التكرار"
+
+#: event-organiser-edit.php:141
+msgid "once"
+msgstr "مرة واحدة"
+
+#: event-organiser-edit.php:141
+msgid "daily"
+msgstr "يومياً"
+
+#: event-organiser-edit.php:141
+msgid "weekly"
+msgstr "أسبوعياً"
+
+#: event-organiser-edit.php:142
+msgid "monthly"
+msgstr "شهرياً"
+
+#: event-organiser-edit.php:142
+msgid "yearly"
+msgstr "سنوياً"
+
+#: event-organiser-edit.php:142
+msgid "custom"
+msgstr "مخصص"
+
+#: event-organiser-edit.php:155
+msgid "Repeat every"
+msgstr "تكرار كل"
+
+#: event-organiser-edit.php:161 templates/shortcode-event-list.php:52
+#: templates/widget-event-list.php:49
+msgid "on"
+msgstr ""
+
+#: event-organiser-edit.php:176
+msgid "day of month"
+msgstr "يوم في الشهر"
+
+#: event-organiser-edit.php:180
+msgid "day of week"
+msgstr "يوم في الأسبوع"
+
+#: event-organiser-edit.php:185
+#: includes/event-organiser-event-functions.php:819
+#: includes/event-organiser-register.php:264
+msgid "until"
+msgstr "حتى"
+
+#: event-organiser-edit.php:195
+msgid "Include/Exclude occurrences"
+msgstr ""
+
+#: event-organiser-edit.php:198 includes/event-organiser-register.php:241
+msgid "Show dates"
+msgstr "عرض التاريخ"
+
+#: event-organiser-edit.php:230
+#: includes/event-organiser-venue-functions.php:988
+msgid "Select a venue"
+msgstr "اختر عنواناً"
+
+#: event-organiser-edit.php:240
+msgid "Venue Name"
+msgstr "اسم العنوان"
+
+#: event-organiser-edit.php:410
+msgid "Event dates were not saved."
+msgstr "تاريخ الحدث لم يتم حفظها"
+
+#: event-organiser-go-pro.php:24
+msgid "Get Event Organiser Pro Add-On"
+msgstr ""
+
+#: event-organiser-go-pro.php:25
+msgid "Go Pro"
+msgstr ""
+
+#: event-organiser-go-pro.php:52
+msgid "Get Event Organiser Pro"
+msgstr ""
+
+#: event-organiser-go-pro.php:55
+msgid ""
+"Event Organiser Pro is a premium add-on bringing advanced booking management "
+"to Event Organiser."
+msgstr ""
+
+#: event-organiser-go-pro.php:56
+msgid "But that's not all &hellip;"
+msgstr ""
+
+#: event-organiser-go-pro.php:71
+msgid "Flexible Booking Options"
+msgstr ""
+
+#: event-organiser-go-pro.php:72
+msgid ""
+"Sell tickets for specific dates or sell tickets for all dates of an event - "
+"such as booking places on a course. You can offer multiple tickets, and "
+"customise the booking form to suit your needs."
+msgstr ""
+
+#: event-organiser-go-pro.php:76
+msgid "Additional shortcodes & improved UI"
+msgstr ""
+
+#: event-organiser-go-pro.php:77
+msgid ""
+"Give your users the ability to search and filter through your events with "
+"the event search shortcode. Event Organiser Pro also adds a text editor "
+"button to make inserting and configuring your shortcodes that bit easier. "
+msgstr ""
+
+#: event-organiser-go-pro.php:81
+msgid "Venue custom fields & thumbnails"
+msgstr ""
+
+#: event-organiser-go-pro.php:82
+msgid ""
+"Add information on your venue pages with venue custom fields, or give your "
+"venues more attentioned with their own 'featured image'"
+msgstr ""
+
+#: event-organiser-go-pro.php:96
+msgid "Go to Event Organiser settings"
+msgstr ""
+
+#: event-organiser-manage.php:19 includes/event-organiser-cpt.php:218
+msgid "Event"
+msgstr "حدث"
+
+#: event-organiser-manage.php:38
+msgid "Reoccurrence"
+msgstr ""
+
+#: event-organiser-manage.php:153
+msgid "View all events"
+msgstr "عرض جميع الأحداث"
+
+#: event-organiser-manage.php:154
+msgid "Future events"
+msgstr ""
+
+#: event-organiser-manage.php:155
+msgid "Expired events"
+msgstr ""
+
+#: event-organiser-manage.php:156
+msgid "Events within 24 hours"
+msgstr ""
+
+#: event-organiser-manage.php:157
+msgid "Events within 1 week"
+msgstr ""
+
+#: event-organiser-manage.php:158
+#, php-format
+msgid "Events within %d weeks"
+msgstr ""
+
+#: event-organiser-manage.php:159
+msgid "Events within 1 month"
+msgstr ""
+
+#: event-organiser-manage.php:160
+#, php-format
+msgid "Events within %d months"
+msgstr ""
+
+#: event-organiser-manage.php:161
+msgid "Events within 1 year"
+msgstr ""
+
+#: event-organiser-manage.php:212
+msgid "&mdash; No Change &mdash;"
+msgstr ""
+
+#: event-organiser-settings.php:29 event-organiser-settings.php:74
+msgid "General"
+msgstr "عام"
+
+#: event-organiser-settings.php:30
+msgid "Permissions"
+msgstr "أذونات"
+
+#: event-organiser-settings.php:31
+msgid "Permalinks"
+msgstr ""
+
+#: event-organiser-settings.php:32
+msgid "Import"
+msgstr "استيراد"
+
+#: event-organiser-settings.php:32
+msgid "Export"
+msgstr "تصدير"
+
+#: event-organiser-settings.php:40
+msgid "Event Organiser Settings"
+msgstr "إعدادات منظم الأحداث"
+
+#: event-organiser-settings.php:41
+msgid "Event Organiser"
+msgstr "منظم الأحداث"
+
+#: event-organiser-settings.php:46 event-organiser.php:105
+#: includes/event-organiser-install.php:112
+msgid "Edit Events"
+msgstr "تعديل حدث"
+
+#: event-organiser-settings.php:47 event-organiser.php:106
+#: includes/event-organiser-install.php:113
+msgid "Publish Events"
+msgstr "نشر حدث"
+
+#: event-organiser-settings.php:48 event-organiser.php:107
+#: includes/event-organiser-install.php:114
+msgid "Delete Events"
+msgstr "حذف حدث"
+
+#: event-organiser-settings.php:49 event-organiser.php:108
+#: includes/event-organiser-install.php:115
+msgid "Edit Others' Events"
+msgstr "تعديل أحداث أخرى"
+
+#: event-organiser-settings.php:50 event-organiser.php:109
+#: includes/event-organiser-install.php:116
+msgid "Delete Other's Events"
+msgstr "حذف أحداث أخرى"
+
+#: event-organiser-settings.php:51 event-organiser.php:110
+#: includes/event-organiser-install.php:117
+msgid "Read Private Events"
+msgstr "قراءة أحداث أخرى"
+
+#: event-organiser-settings.php:52 event-organiser.php:111
+#: includes/event-organiser-install.php:118
+msgid "Manage Venues"
+msgstr "إدارة العناوين"
+
+#: event-organiser-settings.php:53 event-organiser.php:112
+#: includes/event-organiser-install.php:119
+msgid "Manage Event Categories & Tags"
+msgstr ""
+
+#: event-organiser-settings.php:73
+msgid "Add-on Licence keys"
+msgstr ""
+
+#: event-organiser-settings.php:75
+msgid "Templates"
+msgstr "قوالب"
+
+#: event-organiser-settings.php:137
+msgid "Select which features events should support"
+msgstr ""
+
+#: event-organiser-settings.php:142
+msgid "Author"
+msgstr ""
+
+#: event-organiser-settings.php:143
+msgid "Thumbnail"
+msgstr "صورة مصغرة"
+
+#: event-organiser-settings.php:144
+msgid "Excerpt"
+msgstr ""
+
+#: event-organiser-settings.php:145
+msgid "Custom Fields"
+msgstr ""
+
+#: event-organiser-settings.php:146
+msgid "Comments"
+msgstr "التعليقات"
+
+#: event-organiser-settings.php:147
+msgid "Revisions"
+msgstr "المراجعات"
+
+#: event-organiser-settings.php:148 event-organiser-settings.php:338
+#: includes/event-organiser-cpt.php:146
+msgid "Event Tags"
+msgstr "وسوم الأحداث"
+
+#: event-organiser-settings.php:153 event-organiser-settings.php:180
+msgid "Show past events:"
+msgstr "عرض الأحداث الماضية"
+
+#: event-organiser-settings.php:159 event-organiser-settings.php:186
+msgid ""
+"Display past events on calendars, event lists and archives (this can be over-"
+"ridden by shortcode attributes and widget options)."
+msgstr ""
+
+#: event-organiser-settings.php:162
+msgid "Add an 'events' link to the navigation menu:"
+msgstr ""
+
+#: event-organiser-settings.php:167
+msgid "Date Format:"
+msgstr "تنسيق التاريخ"
+
+#: event-organiser-settings.php:173
+msgid "dd-mm-yyyy"
+msgstr ""
+
+#: event-organiser-settings.php:174
+msgid "mm-dd-yyyy"
+msgstr ""
+
+#: event-organiser-settings.php:175
+msgid "yyyy-mm-dd"
+msgstr ""
+
+#: event-organiser-settings.php:177
+msgid "This alters the default format for inputting dates."
+msgstr ""
+
+#: event-organiser-settings.php:195
+msgid ""
+"If selected only one occurrence of an event will be displayed on event lists "
+"and archives (this can be over-ridden by shortcode attributes and widget "
+"options."
+msgstr ""
+
+#: event-organiser-settings.php:198
+msgid "Are current events past?"
+msgstr ""
+
+#: event-organiser-settings.php:207
+msgid ""
+"If 'no' is selected, an occurrence of an event is only past when it has "
+"finished. Otherwise, an occurrence is considered 'past' as soon as it starts."
+msgstr ""
+
+#: event-organiser-settings.php:210
+msgid "Delete expired events:"
+msgstr "حذف الأحداث المنتهية"
+
+#: event-organiser-settings.php:216
+msgid ""
+"If selected the event will be automatically trashed 24 hours after the last "
+"occurrence finishes."
+msgstr ""
+
+#: event-organiser-settings.php:219
+msgid "Enable events ICAL feed:"
+msgstr ""
+
+#: event-organiser-settings.php:225
+#, php-format
+msgid "If selected, visitors can subscribe to your events with the url: %s"
+msgstr ""
+
+#: event-organiser-settings.php:228
+msgid "Exclude events from searches:"
+msgstr ""
+
+#: event-organiser-settings.php:236
+msgid "Enable templates:"
+msgstr "تمكين القوالب"
+
+#: event-organiser-settings.php:242
+msgid ""
+"For each of the pages, the corresponding template is used. To use your own "
+"template simply give it the same name and store in your theme folder. By "
+"default, if Event Organiser cannot find a template in your theme directory, "
+"it will use its own default template. To prevent this, uncheck this option. "
+"WordPress will then decide which template from your theme's folder to use."
+msgstr ""
+
+#: event-organiser-settings.php:248
+msgid "Events archives:"
+msgstr "أرشيف الأحداث"
+
+#: event-organiser-settings.php:249
+msgid "Event page:"
+msgstr "صفحة الحدث"
+
+#: event-organiser-settings.php:250
+msgid "Venue page:"
+msgstr "صفحة العنوان"
+
+#: event-organiser-settings.php:251
+msgid "Events Category page:"
+msgstr ""
+
+#: event-organiser-settings.php:254
+#, php-format
+msgid ""
+"For more information see documentation <a href='%s'>on editing the "
+"templates</a>"
+msgstr ""
+
+#: event-organiser-settings.php:259
+msgid "Disable CSS:"
+msgstr ""
+
+#: event-organiser-settings.php:265
+msgid ""
+"Check this option to prevent any stylesheets from Event Organiser being "
+"loaded on the front-end"
+msgstr ""
+
+#: event-organiser-settings.php:274
+msgid "Enable event pretty permalinks:"
+msgstr ""
+
+#: event-organiser-settings.php:280
+msgid ""
+"If you have pretty permalinks enabled, select to have pretty premalinks for "
+"events."
+msgstr ""
+
+#: event-organiser-settings.php:284
+msgid "Event (single)"
+msgstr ""
+
+#: event-organiser-settings.php:293
+msgid "Events page"
+msgstr ""
+
+#: event-organiser-settings.php:306
+msgid "Event (date archive)"
+msgstr ""
+
+#: event-organiser-settings.php:312
+msgid "Year archive"
+msgstr ""
+
+#: event-organiser-settings.php:313
+msgid "Month archive"
+msgstr ""
+
+#: event-organiser-settings.php:314
+msgid "Day archive"
+msgstr ""
+
+#: event-organiser-settings.php:612
+msgid "Event management permissions"
+msgstr ""
+
+#: event-organiser-settings.php:613
+msgid "Set permissions for events and venue management"
+msgstr ""
+
+#: event-organiser-settings.php:618
+msgid "Role"
+msgstr ""
+
+#: event-organiser-settings.php:629
+msgid "None"
+msgstr ""
+
+#: event-organiser-settings.php:658
+msgid ""
+"Choose a custom permalink structure for events, venues, event categories and "
+"event tags."
+msgstr ""
+
+#: event-organiser-settings.php:659
+msgid ""
+"Please note to enable these structures you must first have pretty permalinks "
+"enabled on WordPress in Settings > Permalinks."
+msgstr ""
+
+#: event-organiser-settings.php:660
+msgid ""
+"You may also need to go to WordPress Settings > Permalinks and click 'Save "
+"Changes' before any changes will take effect."
+msgstr ""
+
+#: event-organiser-settings.php:696
+msgid "Do not add to menu"
+msgstr ""
+
+#: event-organiser-settings.php:700
+msgid "Page list (fallback)"
+msgstr ""
+
+#: event-organiser-venues.php:49
+msgid "You do not have permission to manage venues"
+msgstr ""
+
+#: event-organiser-venues.php:54 event-organiser-venues.php:83
+msgid "You do not have permission to edit this venue."
+msgstr ""
+
+#: event-organiser-venues.php:61
+msgid "Venue <strong>was not</strong> updated"
+msgstr ""
+
+#: event-organiser-venues.php:98
+msgid "Venue <strong>was not</strong> created"
+msgstr ""
+
+#: event-organiser-venues.php:127
+msgid "You do not have permission to delete this venue"
+msgstr ""
+
+#: event-organiser-venues.php:154
+msgid "Venue(s) <strong>were not </strong> deleted"
+msgstr ""
+
+#: event-organiser-venues.php:166
+msgid "Save"
+msgstr ""
+
+#: event-organiser-venues.php:193
+msgid "Venue <strong>created</strong>"
+msgstr ""
+
+#: event-organiser-venues.php:194
+msgid "Venue <strong>updated</strong>"
+msgstr ""
+
+#: event-organiser-venues.php:195
+msgid "Venue(s) <strong>deleted</strong>"
+msgstr ""
+
+#: event-organiser-venues.php:255 event-organiser-venues.php:294
+#: includes/event-organiser-cpt.php:219
+msgctxt "post"
+msgid "Add New"
+msgstr ""
+
+#: event-organiser-venues.php:258
+#, php-format
+msgid "Search results for &#8220;%s&#8221;"
+msgstr ""
+
+#: event-organiser-venues.php:417
+msgid "Latitude/Longitude:"
+msgstr ""
+
+#: event-organiser-venues.php:445
+msgid "Venue name"
+msgstr ""
+
+#: event-organiser-venues.php:451
+msgid "Permalink:"
+msgstr ""
+
+#: event-organiser-venues.php:458
+msgid "Get Link"
+msgstr ""
+
+#: event-organiser-venues.php:480
+msgid "Slug"
+msgstr ""
+
+#: includes/class-eo-ical-parser.php:193
+msgid "There was an error detecting iCal source."
+msgstr ""
+
+#: includes/class-eo-ical-parser.php:201
+msgid "Unable to read iCal file"
+msgstr ""
+
+#: includes/class-eo-ical-parser.php:208
+msgid "Feed not found"
+msgstr ""
+
+#: includes/class-eo-ical-parser.php:274
+#, php-format
+msgid "There was an error fetching the feed. Response code: %s."
+msgstr ""
+
+#: includes/class-eo-ical-parser.php:294
+msgid "There was an error opening the ICAL file."
+msgstr ""
+
+#: includes/class-eo-ical-parser.php:495 includes/class-eo-ical-parser.php:520
+#, php-format
+msgid "[Lines %1$d-%2$d]"
+msgstr ""
+
+#: includes/class-eo-ical-parser.php:502 includes/class-eo-ical-parser.php:527
+#, php-format
+msgid "[Line %1$d]"
+msgstr ""
+
+#: includes/class-eo-ical-parser.php:885
+#, php-format
+msgid "Invalid date \"%s\". Date expected in YYYYMMDD format."
+msgstr ""
+
+#: includes/class-eo-ical-parser.php:923
+#, php-format
+msgid ""
+"Invalid datetime \"%s\". Date expected in YYYYMMDDTHHiissZ or "
+"YYYYMMDDTHHiiss format."
+msgstr ""
+
+#: includes/class-event-organiser-im-export.php:61
+#, php-format
+msgid "File Error encountered: %d"
+msgstr ""
+
+#: includes/class-event-organiser-im-export.php:68
+msgid "No file detected."
+msgstr ""
+
+#: includes/class-event-organiser-im-export.php:71
+msgid ""
+"Invalid file uploaded. The file must be a ics calendar file of type 'text/"
+"calendar', no larger than 2MB."
+msgstr ""
+
+#: includes/class-event-organiser-im-export.php:73
+#, php-format
+msgid "File size: %s. File type: %s"
+msgstr ""
+
+#: includes/class-event-organiser-im-export.php:91
+msgid "Export Events"
+msgstr ""
+
+#: includes/class-event-organiser-im-export.php:94
+msgid ""
+"The export button below generates an ICS file of your events that can be "
+"imported in to other calendar applications such as Google Calendar."
+msgstr ""
+
+#: includes/class-event-organiser-im-export.php:97
+msgid "Download Export File"
+msgstr ""
+
+#: includes/class-event-organiser-im-export.php:100
+msgid "Import Events"
+msgstr ""
+
+#: includes/class-event-organiser-im-export.php:103
+msgid "Import an ICS file."
+msgstr ""
+
+#: includes/class-event-organiser-im-export.php:105
+msgid "Import venues"
+msgstr ""
+
+#: includes/class-event-organiser-im-export.php:107
+msgid "Import categories"
+msgstr ""
+
+#: includes/class-event-organiser-im-export.php:111
+msgid "Upload ICS file"
+msgstr ""
+
+#: includes/class-event-organiser-im-export.php:162
+msgid "You do not have sufficient permissions to import events."
+msgstr ""
+
+#: includes/class-event-organiser-im-export.php:244
+msgid "No events were imported."
+msgstr ""
+
+#: includes/class-event-organiser-im-export.php:253
+msgid "Error:"
+msgstr ""
+
+#: includes/class-event-organiser-im-export.php:263
+msgid "Warning:"
+msgstr ""
+
+#: includes/class-event-organiser-im-export.php:268
+msgid "1 event was successfully imported"
+msgstr ""
+
+#: includes/class-event-organiser-im-export.php:271
+#, php-format
+msgid "%d events were successfully imported"
+msgstr ""
+
+#: includes/class-event-organiser-im-export.php:274
+msgid "1 venue was created"
+msgstr ""
+
+#: includes/class-event-organiser-im-export.php:277
+#, php-format
+msgid "%d venues were created"
+msgstr ""
+
+#: includes/class-event-organiser-im-export.php:281
+msgid "1 category was created"
+msgstr ""
+
+#: includes/class-event-organiser-im-export.php:284
+#, php-format
+msgid "%d categories were created"
+msgstr ""
+
+#: includes/event-organiser-ajax.php:352
+msgid "Protected"
+msgstr ""
+
+#: includes/event-organiser-ajax.php:354
+msgid "Private"
+msgstr ""
+
+#: includes/event-organiser-ajax.php:356
+msgid "Draft"
+msgstr ""
+
+#: includes/event-organiser-ajax.php:383
+#: templates/event-meta-event-single.php:58
+msgid "Start"
+msgstr ""
+
+#: includes/event-organiser-ajax.php:384
+msgid "End"
+msgstr ""
+
+#: includes/event-organiser-ajax.php:425
+msgid "This event reoccurs"
+msgstr ""
+
+#: includes/event-organiser-ajax.php:431 includes/event-organiser-cpt.php:221
+msgid "Edit Event"
+msgstr ""
+
+#: includes/event-organiser-ajax.php:450
+msgid "Delete this occurrence"
+msgstr ""
+
+#: includes/event-organiser-ajax.php:464
+msgid "Break this series"
+msgstr ""
+
+#: includes/event-organiser-ajax.php:672
+#: includes/event-organiser-event-functions.php:1399
+msgid "All Day"
+msgstr ""
+
+#: includes/event-organiser-ajax.php:677
+msgid "Add To Google Calendar"
+msgstr ""
+
+#: includes/event-organiser-cpt.php:33
+msgid "Search Venues"
+msgstr ""
+
+#: includes/event-organiser-cpt.php:35
+msgid "View Venue"
+msgstr ""
+
+#: includes/event-organiser-cpt.php:36
+msgid "Edit Venue"
+msgstr ""
+
+#: includes/event-organiser-cpt.php:37
+msgid "Update Venue"
+msgstr ""
+
+#: includes/event-organiser-cpt.php:38
+msgid "Add New Venue"
+msgstr ""
+
+#: includes/event-organiser-cpt.php:39
+msgid "New Venue Name"
+msgstr ""
+
+#: includes/event-organiser-cpt.php:40
+msgid "No venues found"
+msgstr ""
+
+#: includes/event-organiser-cpt.php:41
+msgid "Add or remove venues"
+msgstr ""
+
+#: includes/event-organiser-cpt.php:42
+msgid "Separate venues with commas"
+msgstr ""
+
+#: includes/event-organiser-cpt.php:44
+msgid "Venue Location"
+msgstr ""
+
+#: includes/event-organiser-cpt.php:46
+#, fuzzy
+msgid "Venue:"
+msgstr "العناوين"
+
+#: includes/event-organiser-cpt.php:47
+msgid "No Venue"
+msgstr ""
+
+#: includes/event-organiser-cpt.php:93
+#, fuzzy
+msgctxt "taxonomy singular name"
+msgid "Category"
+msgstr "تصنيفات"
+
+#: includes/event-organiser-cpt.php:94
+msgid "Search Categories"
+msgstr ""
+
+#: includes/event-organiser-cpt.php:95
+msgid "All Categories"
+msgstr ""
+
+#: includes/event-organiser-cpt.php:96
+msgid "Parent Category"
+msgstr ""
+
+#: includes/event-organiser-cpt.php:97
+#, fuzzy
+msgid "Parent Category:"
+msgstr "تصنيفات الأحداث"
+
+#: includes/event-organiser-cpt.php:98
+msgid "Edit Category"
+msgstr ""
+
+#: includes/event-organiser-cpt.php:99
+msgid "Update Category"
+msgstr ""
+
+#: includes/event-organiser-cpt.php:100
+msgid "Add New Category"
+msgstr ""
+
+#: includes/event-organiser-cpt.php:101
+msgid "New Category Name"
+msgstr ""
+
+#: includes/event-organiser-cpt.php:102
+msgid "No categories found"
+msgstr ""
+
+#: includes/event-organiser-cpt.php:147
+msgctxt "taxonomy singular name"
+msgid "Tag"
+msgstr ""
+
+#: includes/event-organiser-cpt.php:148
+msgid "Search Tags"
+msgstr ""
+
+#: includes/event-organiser-cpt.php:149
+msgid "All Tags"
+msgstr ""
+
+#: includes/event-organiser-cpt.php:150
+msgid "Popular Tags"
+msgstr ""
+
+#: includes/event-organiser-cpt.php:151
+msgid "Edit Tag"
+msgstr ""
+
+#: includes/event-organiser-cpt.php:152
+msgid "Update Tag"
+msgstr ""
+
+#: includes/event-organiser-cpt.php:153
+msgid "Add New Tag"
+msgstr ""
+
+#: includes/event-organiser-cpt.php:154
+msgid "New Tag Name"
+msgstr ""
+
+#: includes/event-organiser-cpt.php:155
+msgid "No tags found"
+msgstr ""
+
+#: includes/event-organiser-cpt.php:156
+msgid "Choose from the most used tags"
+msgstr ""
+
+#: includes/event-organiser-cpt.php:157
+#: includes/event-organiser-event-functions.php:1501
+#: templates/event-meta-event-single.php:74
+msgid "Tags"
+msgstr ""
+
+#: includes/event-organiser-cpt.php:158
+msgid "Add or remove tags"
+msgstr ""
+
+#: includes/event-organiser-cpt.php:159
+msgid "Separate tags with commas"
+msgstr ""
+
+#: includes/event-organiser-cpt.php:161
+msgid "View all tags"
+msgstr ""
+
+#: includes/event-organiser-cpt.php:220
+msgid "Add New Event"
+msgstr ""
+
+#: includes/event-organiser-cpt.php:222
+msgid "New Event"
+msgstr ""
+
+#: includes/event-organiser-cpt.php:223
+msgid "All events"
+msgstr ""
+
+#: includes/event-organiser-cpt.php:224
+msgid "View Event"
+msgstr ""
+
+#: includes/event-organiser-cpt.php:225
+msgid "Search events"
+msgstr ""
+
+#: includes/event-organiser-cpt.php:226
+msgid "No events found"
+msgstr ""
+
+#: includes/event-organiser-cpt.php:227
+msgid "No events found in Trash"
+msgstr ""
+
+#: includes/event-organiser-cpt.php:310
+#, php-format
+msgid "Event updated. <a href=\"%s\">View event</a>"
+msgstr ""
+
+#: includes/event-organiser-cpt.php:311
+msgid "Custom field updated."
+msgstr ""
+
+#: includes/event-organiser-cpt.php:312
+msgid "Custom field deleted."
+msgstr ""
+
+#: includes/event-organiser-cpt.php:313
+msgid "Event updated."
+msgstr ""
+
+#: includes/event-organiser-cpt.php:315
+#, php-format
+msgid "Event restored to revision from %s"
+msgstr ""
+
+#: includes/event-organiser-cpt.php:316
+#, php-format
+msgid "Event published. <a href=\"%s\">View event</a>"
+msgstr ""
+
+#: includes/event-organiser-cpt.php:317
+msgid "Event saved."
+msgstr ""
+
+#: includes/event-organiser-cpt.php:318
+#, php-format
+msgid "Event submitted. <a target=\"_blank\" href=\"%s\">Preview event</a>"
+msgstr ""
+
+#: includes/event-organiser-cpt.php:319
+#, php-format
+msgid ""
+"Event scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s"
+"\">Preview event</a>"
+msgstr ""
+
+#: includes/event-organiser-cpt.php:321
+msgid "M j, Y @ G:i"
+msgstr ""
+
+#: includes/event-organiser-cpt.php:322
+#, php-format
+msgid "Event draft updated. <a target=\"_blank\" href=\"%s\">Preview event</a>"
+msgstr ""
+
+#: includes/event-organiser-cpt.php:323
+msgid "This event has been broken from a recurring event."
+msgstr ""
+
+#: includes/event-organiser-cpt.php:516
+msgid "Creating events"
+msgstr ""
+
+#: includes/event-organiser-cpt.php:517
+msgid "Creating events:"
+msgstr ""
+
+#: includes/event-organiser-cpt.php:519
+msgid ""
+"The start date is the date the event starts. If the event is a reoccuring "
+"event, this is the start date of the first occurrence."
+msgstr ""
+
+#: includes/event-organiser-cpt.php:520
+msgid ""
+"The end date is the date the event finishes. If the event is a reoccuring "
+"event, this is the end date of the first occurrence."
+msgstr ""
+
+#: includes/event-organiser-cpt.php:521
+msgid ""
+"All dates and times must be entered in the specified format. This format can "
+"changed in the settings page."
+msgstr ""
+
+#: includes/event-organiser-cpt.php:526
+msgid "Repeating events"
+msgstr ""
+
+#: includes/event-organiser-cpt.php:527
+msgid ""
+"To repeat an event according to some regular pattern, use the reoccurrence "
+"dropdown menu to select how the event is to repeat. Further options then "
+"appear, "
+msgstr ""
+
+#: includes/event-organiser-cpt.php:529
+msgid "Specify how regularly the event should repeat (default 1)"
+msgstr ""
+
+#: includes/event-organiser-cpt.php:530
+msgid ""
+"Choose the reoccurrence end date. No further occurrences are added after "
+"this date, but an occurrence that starts before may finish after this date."
+msgstr ""
+
+#: includes/event-organiser-cpt.php:531
+msgid ""
+"If monthly reoccurrence is selected, select whether this should repeat on "
+"that date of the month (e.g. on the 24th) or on the day of the month (e.g. "
+"on the third Tuesday) "
+msgstr ""
+
+#: includes/event-organiser-cpt.php:532
+msgid ""
+"If weekly reoccurrence is selected, select which days of the week the event "
+"should be repeated. If no days are selected, the day of the start date is "
+"used"
+msgstr ""
+
+#: includes/event-organiser-cpt.php:537 includes/event-organiser-cpt.php:538
+msgid "Selecting a venue"
+msgstr ""
+
+#: includes/event-organiser-cpt.php:540
+msgid "Use the venues input field to search for existing venues"
+msgstr ""
+
+#: includes/event-organiser-cpt.php:541
+msgid ""
+"Only pre-existing venues can be selected. To add a venue, go to the venues "
+"page."
+msgstr ""
+
+#: includes/event-organiser-cpt.php:551 includes/event-organiser-cpt.php:570
+msgid "Overview"
+msgstr ""
+
+#: includes/event-organiser-cpt.php:552
+msgid ""
+"This is the list of all saved events. Note that <strong> reoccurring events "
+"appear as a single row </strong> in the table and the start and end date "
+"refers to the first occurrence of that event."
+msgstr ""
+
+#: includes/event-organiser-cpt.php:558
+msgid ""
+"Hovering over a row in the venues list will display action links that allow "
+"you to manage that venue. You can perform the following actions:"
+msgstr ""
+
+#: includes/event-organiser-cpt.php:560
+msgid ""
+"Edit takes you to the editing screen for that venue. You can also reach that "
+"screen by clicking on the venue title."
+msgstr ""
+
+#: includes/event-organiser-cpt.php:561
+msgid "Delete will permanently remove the venue"
+msgstr ""
+
+#: includes/event-organiser-cpt.php:562
+msgid "View will take you to the venue's page"
+msgstr ""
+
+#: includes/event-organiser-cpt.php:571
+msgid ""
+"This page shows all (occurrances of) events. You can view the summary of an "
+"event by clicking on it. If you have the necessary permissions, a link to "
+"the event's edit page will appear also."
+msgstr ""
+
+#: includes/event-organiser-cpt.php:572
+msgid ""
+"By clicking the relevant tab, you can view events in Month, Week or Day "
+"mode. You can also filter the events by events by category and venue. The "
+"'go to date' button allows you to quickly jump to a specific date."
+msgstr ""
+
+#: includes/event-organiser-cpt.php:576
+msgid "Add Event"
+msgstr ""
+
+#: includes/event-organiser-cpt.php:577
+msgid ""
+"You can create an event on this Calendar, by clicking on day or dragging "
+"over multiple days (in Month view) or multiple times (in Week and Day view). "
+"You can give the event a title, specify a venue and provide a descripton. "
+"The event can be immediately published or saved as a draft. In any case, the "
+"event is created and you are forwarded to that event's edit page."
+msgstr ""
+
+#: includes/event-organiser-cpt.php:583
+msgid "For more information"
+msgstr ""
+
+#: includes/event-organiser-cpt.php:584
+#, php-format
+msgid "See the <a %s> documentation</a>"
+msgstr ""
+
+#: includes/event-organiser-cpt.php:585
+msgid "Debugging Event Organiser"
+msgstr ""
+
+#: includes/event-organiser-cpt.php:586
+msgid "Go Pro!"
+msgstr ""
+
+#: includes/event-organiser-cpt.php:703 includes/event-organiser-cpt.php:726
+msgid "Color"
+msgstr ""
+
+#: includes/event-organiser-cpt.php:709
+msgid "Assign the category a colour."
+msgstr ""
+
+#: includes/event-organiser-event-functions.php:740
+#: includes/event-organiser-register.php:265
+msgid "last"
+msgstr ""
+
+#: includes/event-organiser-event-functions.php:740
+#: includes/event-organiser-register.php:265
+msgid "first"
+msgstr ""
+
+#: includes/event-organiser-event-functions.php:740
+#: includes/event-organiser-register.php:265
+msgid "second"
+msgstr ""
+
+#: includes/event-organiser-event-functions.php:740
+#: includes/event-organiser-register.php:265
+msgid "third"
+msgstr ""
+
+#: includes/event-organiser-event-functions.php:740
+#: includes/event-organiser-register.php:265
+msgid "fourth"
+msgstr ""
+
+#: includes/event-organiser-event-functions.php:750
+msgid "one time only"
+msgstr ""
+
+#: includes/event-organiser-event-functions.php:753
+msgid "custom reoccurrence"
+msgstr ""
+
+#: includes/event-organiser-event-functions.php:760
+#: includes/event-organiser-register.php:255
+msgid "every day"
+msgstr ""
+
+#: includes/event-organiser-event-functions.php:762
+#: includes/event-organiser-register.php:256
+#, php-format
+msgid "every %d days"
+msgstr ""
+
+#: includes/event-organiser-event-functions.php:768
+#: includes/event-organiser-register.php:257
+msgid "every week on"
+msgstr ""
+
+#: includes/event-organiser-event-functions.php:770
+#: includes/event-organiser-register.php:258
+#, php-format
+msgid "every %d weeks on"
+msgstr ""
+
+#: includes/event-organiser-event-functions.php:781
+#: includes/event-organiser-register.php:259
+msgid "every month on the"
+msgstr ""
+
+#: includes/event-organiser-event-functions.php:783
+#: includes/event-organiser-register.php:260
+#, php-format
+msgid "every %d months on the"
+msgstr ""
+
+#: includes/event-organiser-event-functions.php:812
+msgid "every year"
+msgstr ""
+
+#: includes/event-organiser-event-functions.php:814
+#, php-format
+msgid "every %d years"
+msgstr ""
+
+#: includes/event-organiser-register.php:55
+msgid "Show More"
+msgstr ""
+
+#: includes/event-organiser-register.php:56
+msgid "Show Less"
+msgstr ""
+
+#: includes/event-organiser-register.php:242
+msgid "Hide dates"
+msgstr ""
+
+#: includes/event-organiser-register.php:245
+msgid "Hour"
+msgstr ""
+
+#: includes/event-organiser-register.php:246
+msgid "Minute"
+msgstr ""
+
+#: includes/event-organiser-register.php:248
+msgid "days"
+msgstr ""
+
+#: includes/event-organiser-register.php:250
+msgid "weeks"
+msgstr ""
+
+#: includes/event-organiser-register.php:252
+msgid "months"
+msgstr "شهر"
+
+#: includes/event-organiser-register.php:253
+msgid "year"
+msgstr "سنة"
+
+#: includes/event-organiser-register.php:254
+msgid "years"
+msgstr "سنوات"
+
+#: includes/event-organiser-register.php:261
+msgid "every year on the"
+msgstr "كل عام في"
+
+#: includes/event-organiser-register.php:262
+#, php-format
+msgid "every %d years on the"
+msgstr ""
+
+#: includes/event-organiser-register.php:263
+msgid "This event will repeat"
+msgstr "هذا الحدث سوف يتكرر "
+
+#: includes/event-organiser-register.php:364
+msgid "Settings"
+msgstr "الإعدادات "
+
+#: includes/event-organiser-register.php:667
+#, php-format
+msgid ""
+"<h4>City & State Fields Added</h4>City and state / province fields for "
+"venues have now been added. </br> If you'd like, Event Organiser can <a "
+"href='%s'>attempt to auto-fill them</a>. You can always manually change the "
+"details aftewards."
+msgstr ""
+
+#: includes/event-organiser-register.php:674
+msgid ""
+"<h4>The Default Templates Have Changed</h4>Don't panic! If you've set up "
+"your own templates in your theme you won't notice any change. </br> If you "
+"haven't and want the old templates back, <a href='http://wp-event-organiser."
+"com/blog/new-default-templates-in-1-7'>see this post<a/>."
+msgstr ""
+
+#: includes/event-organiser-register.php:710
+msgid "Dismiss this notice"
+msgstr "تجاهل هذا الانذار "
+
+#: includes/event-organiser-register.php:711
+msgid "Dismiss"
+msgstr "تجاهل"
+
+#: includes/event-organiser-venue-functions.php:953
+msgid "Address"
+msgstr "العنوان"
+
+#: includes/event-organiser-venue-functions.php:954
+msgid "City"
+msgstr "المدينة"
+
+#: includes/event-organiser-venue-functions.php:955
+msgid "State / Province"
+msgstr "مقاطعة"
+
+#: includes/event-organiser-venue-functions.php:956
+msgid "Post Code"
+msgstr "الرمز البريدي"
+
+#: includes/event-organiser-venue-functions.php:957
+msgid "Country"
+msgstr "البلد"
+
+#: includes/event.php:573
+msgid "Schedule not recognised."
+msgstr "الجدول غير متعرف عليه"
+
+#: includes/event.php:582
+msgid "Start date not provided."
+msgstr "بداية الحدث غير متوفرة"
+
+#: includes/event.php:600
+msgid "Start date occurs after end date."
+msgstr "المحافظة أو الولاية أو المقاطعة"
+
+#: includes/event.php:603
+msgid "Schedule end date is before is before the start date."
+msgstr "الجدول سينتهي قبل يوم البدأ"
+
+#: includes/event.php:686
+msgid "Invalid monthly schedule (invalid ordinal)"
+msgstr ""
+
+#: includes/event.php:806
+msgid "Event does not contain any dates."
+msgstr ""
+
+#: includes/event.php:947
+msgid "Occurrence not deleted. Occurrence not found."
+msgstr ""
+
+#. / TRANSLATORS: This is the description that of the plug-in that appears in the "Plugins" page.
+#: includes/i18n.php:8
+msgid ""
+"Creates a custom post type 'events' with features such as reoccurring "
+"events, venues, Google Maps, calendar views and events and venue pages"
+msgstr ""
+
+#: templates/archive-event.php:34 templates/archive-event.php:37
+#: templates/archive-event.php:40
+msgid "Events: "
+msgstr ""
+
+#: templates/archive-event.php:55 templates/archive-event.php:110
+#: templates/taxonomy-event-category.php:48
+#: templates/taxonomy-event-category.php:106
+#: templates/taxonomy-event-tag.php:48 templates/taxonomy-event-tag.php:106
+#: templates/taxonomy-event-venue.php:48
+#: templates/taxonomy-event-venue.php:105
+msgid "Later events <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: templates/archive-event.php:56 templates/archive-event.php:111
+#: templates/taxonomy-event-category.php:49
+#: templates/taxonomy-event-category.php:107
+#: templates/taxonomy-event-tag.php:49 templates/taxonomy-event-tag.php:107
+#: templates/taxonomy-event-venue.php:49
+#: templates/taxonomy-event-venue.php:106
+msgid " <span class=\"meta-nav\">&larr;</span> Newer events"
+msgstr ""
+
+#: templates/archive-event.php:119 templates/taxonomy-event-category.php:116
+#: templates/taxonomy-event-tag.php:116 templates/taxonomy-event-venue.php:115
+msgid "Nothing Found"
+msgstr ""
+
+#: templates/archive-event.php:123
+msgid "Apologies, but no results were found for the requested archive. "
+msgstr ""
+
+#: templates/event-meta-event-single.php:46
+#, php-format
+msgid ""
+"This event is running from %1$s until %2$s. It is next occurring on %3$s"
+msgstr ""
+
+#: templates/event-meta-event-single.php:50
+#, php-format
+msgid "This event finished on %s"
+msgstr ""
+
+#: templates/event-meta-event-single.php:89
+msgid "Upcoming Dates"
+msgstr ""
+
+#: templates/single-event.php:58
+#, php-format
+msgid ""
+"This event was posted in %1$s by <a href=\"%5$s\">%4$s</a>. Bookmark the <a "
+"href=\"%2$s\" title=\"Permalink to %3$s\" rel=\"bookmark\">permalink</a>."
+msgstr ""
+
+#: templates/single-event.php:60
+#, php-format
+msgid ""
+"This event was posted by <a href=\"%5$s\">%4$s</a>. Bookmark the <a href="
+"\"%2$s\" title=\"Permalink to %3$s\" rel=\"bookmark\">permalink</a>."
+msgstr ""
+
+#: templates/taxonomy-event-category.php:31
+#, php-format
+msgid "Event Category Archives: %s"
+msgstr ""
+
+#: templates/taxonomy-event-category.php:120
+msgid "Apologies, but no events were found for the requested category. "
+msgstr ""
+
+#: templates/taxonomy-event-tag.php:31
+#, php-format
+msgid "Event Tag Archives: %s"
+msgstr ""
+
+#: templates/taxonomy-event-tag.php:120
+msgid "Apologies, but no events were found for the requested tag. "
+msgstr ""
+
+#: templates/taxonomy-event-venue.php:31
+#, php-format
+msgid "Events at: %s"
+msgstr ""
+
+#: templates/taxonomy-event-venue.php:118
+msgid "Apologies, but no events were found for the requested venue. "
+msgstr ""
