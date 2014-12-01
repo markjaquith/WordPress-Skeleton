@@ -1,0 +1,30 @@
+.ai1ec-addon {
+	max-width:246px;
+	padding: 6px;
+	margin-right: 8px;
+	margin-bottom: 8px;
+	border: 1px solid #CCC;
+	display: inline-block;
+}
+.ai1ec-addon-title {
+	font-size: 12px;
+	font-weight: bold;
+	color: #000;
+	margin-bottom: 3px;
+}
+.ai1ec-addon-excerpt {
+	font-size: 11px;
+	height: 32px;
+	overflow: hidden;
+	line-height: 1.5;
+}
+.ai1ec-addon-button {
+	display: inline-block;
+	padding: 3px 6px;
+	margin-top: 6px;
+	border: 1px solid #CCC;
+	border-radius: 3px;
+	background: #F5F5F5;
+	font-size: 11px;
+	text-decoration: none;
+}

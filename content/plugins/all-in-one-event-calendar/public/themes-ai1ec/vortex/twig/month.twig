@@ -1,0 +1,117 @@
+{{ navigation | raw }}
+
+<table class="ai1ec-month-view ai1ec-popover-boundary
+	{% if month_word_wrap %}ai1ec-word-wrap{% endif %}">
+	<thead>
+		<tr>
+			{% for weekday in weekdays %}
+				<th scope="col" class="ai1ec-weekday">{{ weekday }}</th>
+			{% endfor %}
+		</tr>
+	</thead>
+	<tbody>
+		{% for week in cell_array %}
+			{% set added_stretcher = false %}
+			<tr class="ai1ec-week">
+				{% for day in week %}
+
+					{% if day.date %}
+						<td {% if day.today %}class="ai1ec-today"{% endif %}>
+							{# This div is needed for laying out multi-day event bars. #}
+							{% if not added_stretcher %}
+								<div class="ai1ec-day-stretcher"></div>
+								{% set added_stretcher = true %}
+							{% endif %}
+
+							<div class="ai1ec-day">
+								<div class="ai1ec-date">
+									<a class="ai1ec-load-view"
+										{{ data_type | raw }}
+										href="{{ day.date_link | e( 'html_attr' ) }}"
+										>{{ day.date }}</a>
+								</div>
+
+								{% for event in day.events %}
+									<a href="{{ event.permalink | e( 'html_attr' ) }}"
+										{{ data_type_events | raw }}
+										{% if event.is_multiday %}
+											data-end-day="{{ event.multiday_end_day }}"
+											data-start-truncated="{{ event.start_truncated ? 'true' : 'false' }}"
+											data-end-truncated="{{ event.end_truncated ? 'true' : 'false' }}"
+										{% endif %}
+										data-instance-id="{{ event.instance_id }}"
+										class="ai1ec-event-container ai1ec-load-event
+											ai1ec-popup-trigger
+											ai1ec-event-id-{{ event.post_id }}
+											ai1ec-event-instance-id-{{ event.instance_id }}
+											{% if event.is_allday %}ai1ec-allday{% endif %}
+											{% if event.is_multiday %}ai1ec-multiday{% endif %}"
+										>
+
+										<div class="ai1ec-event"
+											 style="{{ event.color_style | e( 'html_attr' ) }}">
+											<span class="ai1ec-event-title">
+												{{ event.filtered_title | raw }}
+											</span>
+											{% if not event.is_allday %}
+												<span class="ai1ec-event-time">
+													{{ event.short_start_time }}
+												</span>
+											{% endif %}
+										</div>
+									</a>
+
+									<div class="ai1ec-popover ai1ec-popup ai1ec-popup-in-{{ type }}-view">
+										{% if event.category_colors %}
+											<div class="ai1ec-color-swatches">{{ event.category_colors | raw }}</div>
+										{% endif %}
+										<span class="ai1ec-popup-title">
+											<a class="ai1ec-load-event"
+												{{ data_type_events | raw }}
+												href="{{ event.permalink | e( 'html_attr' ) }}"
+												>{{ event.filtered_title | raw }}</a>
+											{% if show_location_in_title and event.venue %}
+												<span class="ai1ec-event-location"
+													>{{ text_venue_separator | format( event.venue ) }}</span>
+											{% endif %}
+											{% if is_ticket_button_enabled and event.ticket_url %}
+												<a class="ai1ec-pull-right ai1ec-btn ai1ec-btn-primary ai1ec-btn-xs
+													ai1ec-buy-tickets" target="_blank"
+													href="{{ event.ticket_url | e( 'html_attr' ) }}"
+													>{{ event.ticket_url_label }}</a>
+											{% endif %}
+										</span>
+
+										{% if event.edit_post_link %}
+											<a class="post-edit-link"
+												href="{{ event.edit_post_link | raw }}">
+												<i class="ai1ec-fa ai1ec-fa-pencil"></i> {{ text_edit }}
+											</a>
+										{% endif %}
+
+										<div class="ai1ec-event-time">
+											{{ event.popup_timespan | raw }}
+										</div>
+
+										<a class="ai1ec-load-event"
+											href="{{ event.permalink | e('html_attr') }}"
+											{{ data_type_events | raw }}>
+											{{ event.avatar | raw }}
+										</a>
+
+										{% if event.post_excerpt %}
+											<div class="ai1ec-popup-excerpt">{{ event.post_excerpt | raw }}</div>
+										{% endif %}
+									</div>
+								{% endfor %}
+							</div>
+						</td>
+					{% else %} {# day.date is not empty #}
+						<td class="ai1ec-empty"></td>
+					{% endif %} {# day.date is not empty #}
+
+				{% endfor %} {# day in week #}
+			</tr>
+		{% endfor %} {# week in cell_array #}
+	</tbody>
+</table>

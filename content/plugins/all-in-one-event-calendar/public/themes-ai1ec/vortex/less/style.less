@@ -1,0 +1,960 @@
+//
+// @file
+//
+// CSS declarations for all parts of a WordPress site in which the All-in-One
+// Calendar plugin is active. Mostly the bare minimum required for proper
+// styling of widgets.
+//
+
+// ==========
+// = Mixins =
+// ==========
+//
+// Begin with Bootstrap and custom mixins.
+@import "bootstrap/mixins.less";
+@import "timely-mixins.less";
+
+// =========
+// = Fonts =
+// =========
+
+@import "timely-font-awesome.less";
+@import "ai1ec-icons.less";
+
+// =============
+// = Bootstrap =
+// =============
+
+// Ai1EC is based on Twitter Bootstrap. Whenever Bootstrap is upgraded, its
+// .less files are preprocessed by the included script (bootstrap-prepare.sh),
+// which adds 'ai1ec-' to all Bootstrap-defined classes. Still, some Bootstrap
+// .less files broadly reference HTML elements, and need to be surrounded by the
+// .timely namespace so as not to inflict undesirable styling upon non-Ai1EC
+// portions of the markup.
+
+// Reset
+.timely { @import "bootstrap/normalize.less"; }
+.timely { @import "bootstrap/print.less"; }
+
+// Core CSS
+.timely { @import "bootstrap/scaffolding.less"; }
+@import "bootstrap/grid.less";
+.timely { @import "bootstrap/forms.less"; }
+.timely { @import "bootstrap/buttons.less"; }
+.timely { @import "bootstrap/type.less"; }
+
+// Components
+@import "bootstrap/component-animations.less";
+@import "bootstrap/dropdowns.less";
+@import "bootstrap/button-groups.less";
+.timely { @import "bootstrap/navs.less"; }
+@import "bootstrap/thumbnails.less";
+@import "bootstrap/alerts.less";
+@import "bootstrap/wells.less";
+.timely { @import "bootstrap/close.less"; }
+
+// Components w/ JavaScript
+@import "bootstrap/modals.less";
+@import "bootstrap/tooltip.less";
+@import "bootstrap/popovers.less";
+
+// Utility classes
+@import "bootstrap/utilities.less";
+@import "bootstrap/responsive-utilities.less";
+
+// ===========
+// = Plugins =
+// ===========
+
+@import "plugins/select2.less";
+@import "plugins/fileupload.less";
+@import "plugins/datepicker3.less";
+@import "plugins/timepicker.less";
+
+// ==========================
+// = Unnamespaced overrides =
+// ==========================
+
+//
+// Bootstrap
+//
+
+// Position toolbar buttons properly.
+.ai1ec-btn-toolbar {
+	margin: 0;
+}
+.ai1ec-btn-group {
+	.ai1ec-btn-toolbar & {
+		margin-bottom: 6px;
+		&.ai1ec-btn-group-xs {
+			margin-top: 5px;
+		}
+	}
+	> .ai1ec-btn-primary {
+		z-index: 3;
+	}
+	// Until we upgrade Bootstrap, must manually apply these styles to override
+	// any applied by themes based on more recent Bootstrap.
+	> .ai1ec-btn,
+	> .ai1ec-dropdown-menu,
+	> .ai1ec-popover {
+		font-size: @font-size-base; // redeclare as part 2 of font-size inline-block hack
+	}
+	// Reset fonts for other sizes
+	> .ai1ec-btn-xs {
+		font-size: @font-size-base - 2px;
+	}
+	> .ai1ec-btn-sm {
+		font-size: @font-size-small - 1px;
+	}
+	> .ai1ec-btn-lg {
+		font-size: @font-size-base + 2px;
+	}
+	// For HTML4 compatibility: Force natural button height in buttons that
+	// contain only an icon, by inserting a narrow space character:
+	> .ai1ec-btn:after {
+		content: '\200A';
+		margin-right: -0.25em;
+	}
+}
+.ai1ec-btn-primary {
+	color: @btn-primary-color !important;
+}
+// Fix cursor on dropdowns.
+.ai1ec-dropdown-toggle {
+	cursor: pointer;
+}
+// Fix margins on dropdowns.
+.ai1ec-dropdown-menu {
+	margin: 0;
+}
+// Dropdowns - port to div structure
+//
+// The following block is adapted from bootstrap/dropdowns.less; ports default
+// <ul>/<li> structure of navs to <div>/<div> structure to reduce theme
+// conflicts. Only the parts used by the plugin is ported to reduce bloat.
+//
+// NOTICE: This MUST be synced/updated whenever Bootstrap is upgraded.
+.ai1ec-dropdown-menu > div > a {
+	display: block;
+	padding: 3px 20px;
+	clear: both;
+	font-weight: normal;
+	line-height: @line-height-base;
+	color: @dropdown-link-color;
+	white-space: nowrap; // prevent links from randomly breaking onto new lines
+	&:hover,
+	&:focus {
+		text-decoration: none;
+		color: @dropdown-link-hover-color;
+		background-color: @dropdown-link-hover-bg;
+	}
+}
+
+// Specific theme conflict fix for dropdowns, adapted from Dave Jampole's
+// contribution.
+.ai1ec-dropdown {
+	overflow: visible !important;
+	background-image: none !important;
+}
+.ai1ec-modal-footer {
+	margin-top: 0;
+}
+// Tooltips
+.ai1ec-tooltip {
+	margin: 0 !important;
+}
+
+// Responsive utilities.
+span.ai1ec-hidden-xs {
+	display: inline !important;
+	@media ( max-width: @screen-xs-max ) {
+		display: none !important;
+	}
+}
+
+//
+// Select2
+//
+
+.select2-container {
+	input[type="text"]:focus {
+		.ai1ec-box-shadow( none );
+	}
+}
+.select2-container-multi .select2-choices {
+	background-color: @input-bg;
+	background-image: none;
+	border-color: @input-border;
+	border-radius: @input-border-radius;
+	.ai1ec-box-shadow( inset 0 1px 1px rgba(0,0,0,0.075) );
+	.select2-dropdown-open& {
+		border-bottom-color: #fff;
+		border-radius: @input-border-radius @input-border-radius 0 0;
+		.select2-drop-above& {
+			border-bottom-color: @input-border;
+			border-top-color: #fff;
+			border-radius: 0 0 @input-border-radius @input-border-radius;
+		}
+	}
+	.select2-search-field input {
+		color: @input-color;
+		margin: 0;
+		&.select2-default {
+			color: @input-color-placeholder !important;
+		}
+	}
+}
+.select2-drop-mask {
+	z-index: @zindex-dropdown - 1;
+	.ai1ec-modal-open & {
+		z-index: @zindex-dropdown + @zindex-dropdown - 1;
+	}
+}
+.select2-drop {
+	background-color: @body-bg;
+	border-color: @input-border-focus;
+	color: @text-color;
+	font-family: @font-family-base;
+	font-size: @font-size-base;
+	line-height: @line-height-base;
+	z-index: @zindex-dropdown;
+	.ai1ec-modal-open & {
+		z-index: @zindex-dropdown + @zindex-dropdown;
+	}
+}
+.select2-results {
+	margin: 4px 0;
+	padding: 0;
+	.select2-highlighted {
+		color: @dropdown-link-color;
+		background-color: @dropdown-link-hover-bg;
+	}
+	.select2-no-results,
+	.select2-searching,
+	.select2-selection-limit {
+		background-color: mix( @text-color, @body-bg, 10% );
+	}
+}
+.timely a.select2-search-choice-close {
+	.ai1ec-transition( none );
+	background: url('@{imgdir_default}/select2.png') right top no-repeat;
+	left: 5px;
+	top: 3px;
+}
+.select2-container,
+.select2-drop {
+	.ai1ec-color-swatch,
+	.ai1ec-color-swatch-empty {
+		width: 7px;
+		height: 7px;
+	}
+}
+// Placeholder icons for Select2 widgets (categories, tags, locations, etc.)
+.ai1ec-category-filter,
+#s2id_ai1ec_categories,
+.ai1ec-tag-filter,
+#s2id_ai1ec_tags,
+.ai1ec-location-filter,
+.ai1ec-author-filter {
+	.select2-choices {
+		padding-left: 1.8em;
+	}
+}
+.select2-choices:before {
+	display: inline-block;
+	font-family: Timely_FontAwesome;
+	-webkit-font-smoothing: antialiased;
+	left: 10px;
+	line-height: @line-height-base;
+	position: absolute;
+	speak: none;
+	text-align: center;
+	top: 5px;
+	width: 1.2em;
+	z-index: 1;
+	.ai1ec-category-filter &,
+	#s2id_ai1ec_categories & {
+		content: "\f07c";
+	}
+	.ai1ec-tag-filter &,
+	#s2id_ai1ec_tags & {
+		content: "\f02c";
+	}
+	.ai1ec-location-filter & {
+		font-size: 1.15em;
+		content: "\f041";
+	}
+	.ai1ec-author-filter & {
+		content: "\f007";
+	}
+}
+
+//
+// Datepicker & timepicker
+//
+
+input.ai1ec-datepicker[readonly],
+input.ai1ec-timepicker[readonly] {
+	cursor: pointer;
+}
+.ai1ec-datepicker {
+	@datepicker-font-size: @font-size-base * 0.85;
+	font-size: @datepicker-font-size;
+	padding: @datepicker-font-size * 0.5;
+	margin-left: 5px;
+	&.ai1ec-right-aligned {
+		margin-left: 0;
+		&:before {
+			left: auto;
+			right: 6px;
+		}
+		&:after {
+			left: auto;
+			right: 7px;
+		}
+	}
+	table {
+		th,
+		td {
+			padding: 0;
+			vertical-align: middle;
+		}
+		tr td {
+			&.ai1ec-today,
+			&.ai1ec-today:hover,
+			&.ai1ec-today.ai1ec-disabled,
+			&.ai1ec-today.ai1ec-disabled:hover {
+				background: mix( @today-color, @text-color, 95% );
+			}
+			&.ai1ec-active {
+				&.ai1ec-active,
+				&.ai1ec-active:hover,
+				&.ai1ec-active.ai1ec-disabled,
+				&.ai1ec-active.ai1ec-disabled:hover {
+					background: @dropdown-link-active-bg;
+					color: @dropdown-link-active-color;
+					text-shadow: none;
+				}
+			}
+			&.ai1ec-day {
+				&:hover,
+				&.ai1ec-focused {
+					background-color: @dropdown-link-hover-bg;
+				}
+			}
+			&.ai1ec-old,
+			&.ai1ec-new {
+				color: mix( @text-color, @body-bg, 60% );
+			}
+			&.ai1ec-disabled,
+			&.ai1ec-disabled:hover {
+				background: none;
+				color: mix( @text-color, @body-bg, 30% );
+			}
+			span {
+				&:hover {
+					background-color: @dropdown-link-hover-bg;
+				}
+				&.ai1ec-old {
+					color: mix( @text-color, @body-bg, 60% );
+				}
+				&.ai1ec-disabled,
+				&.ai1ec-disabled:hover {
+					background: none;
+					color: mix( @text-color, @body-bg, 30% );
+				}
+				&.ai1ec-active,
+				&.ai1ec-active:hover,
+				&.ai1ec-active.ai1ec-disabled,
+				&.ai1ec-active.ai1ec-disabled:hover {
+					background-color: @dropdown-link-hover-bg;
+					.ai1ec-box-shadow( none );
+					color: @dropdown-link-color;
+					text-shadow: none;
+				}
+			}
+		}
+	}
+	th {
+		font-weight: bold;
+	}
+	thead tr:first-child th,
+	tfoot tr:first-child th {
+		&:hover {
+			background-color: @dropdown-link-hover-bg;
+		}
+		// Override unusual and buggy hiding of today button.
+		&.today {
+			display: table-cell !important;
+			filter: alpha(opacity=100) !important;
+			margin: 0 !important;
+			overflow: visible !important;
+			opacity: 1 !important;
+			padding: 0 !important;
+			height: @datepicker-font-size * 2 !important;
+			width: @datepicker-font-size * 2.2 !important;
+		}
+	}
+	td {
+	}
+}
+.ai1ec-bootstrap-timepicker table {
+	border: none;
+	td {
+		height: auto;
+		a:hover {
+			background-color: @dropdown-link-hover-bg;
+			border: none;
+		}
+	}
+}
+.ai1ec-datepicker,
+.ai1ec-bootstrap-timepicker.ai1ec-dropdown-menu {
+	&:before {
+		border-bottom-color: @dropdown-border;
+	}
+	&:after {
+		border-bottom-color: @dropdown-bg;
+	}
+}
+.ai1ec-collapse.ai1ec-in.ai1ec-timepicker-visible {
+	overflow: visible;
+}
+
+// Fileupload
+
+.ai1ec-fileupload {
+	margin-bottom: 0;
+}
+
+// ===============
+// = Hard resets =
+// ===============
+//
+// Reset some elements that are aggressively styled by poorly written themes.
+// Required for modals, anchors, images, other elements. We need to include
+// #ai1ec-container below to give extra priority at times.
+.timely,
+#ai1ec-container {
+	a,
+	a:link,
+	a:visited,
+	a:active,
+	a:hover {
+		font-weight: normal;
+		text-decoration: none !important;
+	}
+	img {
+		background: none;
+		border: none;
+		border-radius: 0;
+		.ai1ec-box-shadow( none );
+		max-width: none;
+		margin: 0;
+		padding: 0;
+	}
+	// Restore some WP styling for embedded images in Agenda view.
+	.alignleft,
+	&.alignleft {
+		float: left;
+		margin: 0 16px 8px 0;
+	}
+	.alignright,
+	&.alignright {
+		float: right;
+		margin: 0 0 8px 16px;
+	}
+	small {
+		margin: 0 !important;
+	}
+	table {
+		line-height: inherit;
+	}
+	tr,
+	th,
+	td {
+		background: none;
+		border: 0;
+		padding: 0;
+	}
+}
+
+// ========================
+// = Namespaced overrides =
+// ========================
+
+.timely {
+	//
+	// Extra Resets
+	//
+
+	// Copied from scaffolding body reset, with additions; needed to apply to
+	// .timely, not body.
+	margin: 0;
+	font-family: @font-family-base;
+	font-size: @font-size-base;
+	line-height: @line-height-base;
+	color: @text-color;
+	word-wrap: break-word;
+
+	a {
+		border: none;
+	}
+
+
+	//
+	// Forms
+	//
+
+	form {
+		margin: 0;
+	}
+	.ai1ec-placeholder {
+		color: @input-color-placeholder;
+	}
+	.ai1ec-form-control[disabled],
+	.ai1ec-form-control[readonly] {
+		border-color: mix( @input-border, @body-bg, 75% );
+		cursor: auto;
+	}
+	.ai1ec-form-control[readonly] {
+		background-color: @input-bg;
+		border-color: @input-border;
+	}
+	input[type="radio"],
+	input[type="checkbox"] {
+		margin-top: 3px;
+	}
+	textarea.ai1ec-form-control {
+		height: auto;
+	}
+	.ai1ec-help-block {
+		margin-top: 2px;
+		margin-bottom: 5px;
+	}
+	.ai1ec-form-group {
+		margin-bottom: 10px;
+	}
+	label {
+		font-weight: normal;
+	}
+
+	//
+	// Close
+	//
+	button.ai1ec-close {
+		padding: 0;
+		cursor: pointer;
+		background: transparent;
+		border: 0;
+		-webkit-appearance: none;
+	}
+}
+
+// =======================================================================
+// = Modal open status tracking (adapted from earlier ver. of Bootstrap) =
+// =======================================================================
+.ai1ec-modal-open {
+	// Set the body as static when the modal is open.
+	position: static;
+	// Recalculate z-index where appropriate.
+	.ai1ec-dropdown-menu {
+		z-index: @zindex-dropdown + @zindex-modal-background !important;
+	}
+	.ai1ec-dropdown.ai1ec-open {
+		*z-index: @zindex-dropdown + @zindex-modal-background !important;
+	}
+	.ai1ec-popover {
+		z-index: @zindex-popover  + @zindex-modal-background !important;
+	}
+	.ai1ec-tooltip {
+		z-index: @zindex-tooltip  + @zindex-modal-background !important;
+	}
+}
+
+// ==============================
+// = AI1EC General declarations =
+// ==============================
+
+// General AJAX.
+.ai1ec-loading {
+	position: absolute;
+	z-index: 9;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: url('@{imgdir}/ajax-loader.gif') no-repeat center center;
+	background-color: fade( @body-bg, 50% );
+	display: none;
+	#ai1ec-calendar-view-container & {
+		background-color: transparent;
+		background-position: center 150px;
+	}
+	.ai1ec-modal > & {
+		border-radius: 5px;
+	}
+}
+
+// Twenty Twelve/Twenty Thirteen fixes
+.entry-content,
+.comment-content,
+.site-footer .widget {
+	.timely {
+		a {
+			color: @link-color;
+			&:visited {
+				color: @link-color;
+			}
+			&:hover {
+				color: @link-hover-color;
+			}
+		}
+		.ai1ec-btn-default {
+			color: @btn-default-color;
+			&:hover {
+				color: @btn-default-color;
+			}
+		}
+		.ai1ec-dropdown-menu > li > a {
+			color: @dropdown-link-color;
+			&:hover,
+			&:focus {
+				color: @dropdown-link-hover-color;
+			}
+		}
+		.ai1ec-dropdown-menu > .ai1ec-active > a {
+			&,
+			&:hover,
+			&:focus {
+				color: @dropdown-link-active-color;
+			}
+		}
+		.ai1ec-dropdown-menu > .ai1ec-disabled > a {
+			&,
+			&:hover,
+			&:focus {
+				color: @dropdown-link-disabled-color;
+			}
+		}
+		.ai1ec-nav > li {
+			margin: 0;
+		}
+	}
+	.ai1ec-agenda-widget-view .ai1ec-date-title,
+	.ai1ec-agenda-view .ai1ec-date-title {
+		color: mix( @text-color, @agenda-date-title-bg, 85% );
+	}
+}
+
+// Field label styling.
+.ai1ec-field-label {
+	font-size: @event-font-size * 0.85em;
+	font-weight: bold;
+	color: @field-label-color;
+	text-transform: uppercase;
+	text-align: right;
+	@media (max-width: @screen-xs-max) {
+		text-align: left;
+	}
+}
+
+// All-day badges
+.ai1ec-allday-badge {
+	background: @allday-badge-color;
+	border-radius: 0.9em;
+	.ai1ec-box-shadow( @shadow );
+	color: @event-stub-allday-text;
+	display: inline-block;
+	font-size: 0.85em;
+	font-weight: normal;
+	margin: 0 0 1px;
+	.ai1ec-opacity( 0.9 );
+	padding: 0 0.7em 0.05em;
+	vertical-align: middle;
+}
+
+// No results styling.
+.ai1ec-no-results {
+	color: @text-muted;
+}
+
+// Special formatting for paragraph text (as opposed to most application UI).
+.ai1ec-centered {
+	text-align: center;
+}
+.ai1ec-prose {
+	p, ul, ol, li {
+		font-size: @font-size-base * 1.08;
+		line-height: @line-height-base * 1.2;
+	}
+	p, ul, ol {
+		margin-bottom: @line-height-computed * 0.6;
+	}
+}
+
+// ==============
+// = Categories =
+// ==============
+.ai1ec-category {
+	border-radius: 4px;
+	.ai1ec-box-shadow( inset 0 0 1px fade( @dropdown-link-hover-color, 50% ) );
+	cursor: pointer;
+	display: inline-block;
+	font-size: 0.9em;
+	line-height: 2em !important;
+	margin: 1px 0;
+	padding: 0 0.5em !important;
+	text-transform: uppercase;
+	white-space: nowrap;
+	.ai1ec-listItem();
+}
+.ai1ec-category:hover,
+.ai1ec-active > .ai1ec-category {
+	.ai1ec-listItemActive();
+}
+
+// Category colors.
+.ai1ec-color-swatch,
+.ai1ec-color-swatch-empty {
+	display: inline-block;
+	height: 6px;
+	margin: 0 1px;
+	padding: 1px;
+	width: 6px;
+}
+.ai1ec-color-swatch {
+	border-radius: 4px;
+	border-color: rgba(0,0,0,0.5);
+	.ai1ec-opacity( 0.8 );
+}
+
+// ========
+// = Tags =
+// ========
+.ai1ec-tag {
+	border-radius: 4px;
+	color: @link-color;
+	cursor: pointer;
+	display: inline-block !important;
+	line-height: 1.7em !important;
+	margin: 1px 0 0;
+	padding: 0 4px !important;
+	white-space: nowrap;
+	i {
+		padding-right: 3px;
+	}
+}
+a.ai1ec-custom-filter {
+	.ai1ec-category;
+}
+.ai1ec-tag:hover,
+.ai1ec-active > .ai1ec-tag {
+	.ai1ec-listItemActive();
+}
+
+// =================
+// = Event avatars =
+// =================
+
+.ai1ec-event-avatar {
+	.ai1ec-avatar( natural );
+}
+
+// ======================
+// = Agenda widget view =
+// ======================
+
+// Elements in common with Agenda view
+.ai1ec-agenda-widget-view,
+.ai1ec-agenda-view {
+	.ai1ec-date-title {
+		border: 1px solid mix( @text-color, @agenda-date-title-bg, 30% );
+		border-top: none;
+		border-radius: 5px;
+		.ai1ec-box-shadow( 0 2px 2px rgba(0,0,0,0.08) );
+		.ai1ec-box-sizing( border-box );
+		color: mix( @text-color, @agenda-date-title-bg, 85% );
+		float: left;
+		font-weight: bold !important;
+		#gradient > .ai1ec-vertical-three-colors(
+			@agenda-date-title-bg,
+			@agenda-date-title-bg,
+			1em,
+			mix(@agenda-date-title-bg, @text-color, 88%)
+		);
+		filter: none\9; // IE8 doesn't get how to do this gradient for some reason
+		line-height: 1.2em;
+		margin: @font-size-base / 2 0.75em;
+		overflow: hidden;
+		text-align: center;
+		text-shadow: 0 1px 0 @text-emboss;
+		width: 4em;
+		&:hover {
+			color: @text-color !important;
+		}
+	}
+	.ai1ec-month {
+		background: @agenda-date-title-border;
+		border-radius: 4px 4px 0 0;
+		color: @agenda-date-title-bg;
+		font-size: 0.8em;
+		letter-spacing: 0.2em;
+		padding: 0 0.2em;
+		text-transform: uppercase;
+		text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
+	}
+	.ai1ec-day {
+		font-size: 2em;
+		padding: 0.35em 0 0.22em;
+	}
+	.ai1ec-weekday {
+		font-size: 0.8em;
+		padding: 0 0 0.2em;
+	}
+	.ai1ec-year {
+		background-color: mix( @text-color, @agenda-date-title-bg, 13% );
+		.ai1ec-box-shadow( inset 0 3px 3px fade( #000, 8% ) );
+		font-size: 0.7em;
+		letter-spacing: 0.2em;
+		padding: 0 0.2em;
+	}
+	.ai1ec-date {
+		border-top: 1px solid darken( @agenda-date-bg, 5% );
+		#gradient > .ai1ec-vertical-three-colors-replace(
+			@agenda-date-bg,
+			@agenda-date-bg,
+			1em,
+			@body-bg
+		);
+		&.ai1ec-today {
+			border-top: 1px solid darken( @agenda-today-bg, 5% );
+			#gradient > .ai1ec-vertical-three-colors-replace(
+				@agenda-today-bg,
+				@agenda-today-bg,
+				1em,
+				@body-bg
+			);
+		}
+	}
+	.ai1ec-event-description img {
+		max-width: 100% !important;
+	}
+}
+
+// Agenda widget view only
+.ai1ec-agenda-widget-view {
+	max-width: 500px;
+	.ai1ec-date-events {
+		margin: 0 0.5em 0 0;
+	}
+	.ai1ec-date {
+		float: left;
+		width: 100%;
+	}
+	.ai1ec-date-title {
+		font-size: 0.9em;
+	}
+
+	// Agenda widget view events.
+	.ai1ec-event {
+		clear: right;
+		margin: @font-size-base / 2 0 @font-size-base / 2 4.8em;
+		padding: 0;
+		position: relative;
+		> a {
+			color: @event-default-color;
+			display: block;
+			background: @event-bg;
+			border: 1px solid @event-border;
+			border-radius: 0.4em;
+			padding: 0.2em 0.4em;
+			&:hover {
+				border-color: @event-hover-border;
+				color: @event-default-hover-color;
+			}
+		}
+		.ai1ec-event-time {
+			font-weight: bold;
+		}
+		.ai1ec-event-title {
+			font-weight: normal;
+		}
+		.ai1ec-allday-badge {
+			vertical-align: bottom;
+		}
+	}
+}
+
+// Event popovers appended to body tag.
+
+.ai1ec-popover.ai1ec-popup {
+	text-align: left;
+	border-color: @event-border;
+	width: 170px;
+
+	.ai1ec-popover-content {
+		background: @event-bg;
+		color: @event-text;
+		font-size: @font-size-base;
+		font-weight: normal;
+		padding: 5px 8px;
+		position: relative;
+		z-index: 2;
+	}
+	.ai1ec-event-time {
+		background: @event-time-bg;
+		font-size: @font-size-base * 0.85;
+		font-weight: bold;
+		margin: 2px -8px 0;
+		padding: 1px 8px;
+	}
+	.ai1ec-event-avatar {
+		margin: @line-height-computed / 3 auto;
+		position: relative;
+		width: 85%;
+		img {
+			width: 100%;
+		}
+	}
+	.ai1ec-color-swatches {
+		float: right;
+		font-size: 0.9em;
+	}
+	.ai1ec-color-swatch {
+		padding: 1px;
+	}
+	.post-edit-link {
+		font-size: 11px;
+		margin-left: 2px;
+		white-space: nowrap;
+		i {
+			font-size: 13px;
+		}
+	}
+
+	&.ai1ec-left.ai1ec-popup-in-oneday-view {
+		margin-left: 49px;
+	}
+}
+
+.ai1ec-popup-title {
+	font-size: @font-size-base * 0.95;
+	font-weight: bold;
+	line-height: @line-height-base;
+	background: none;
+	border-bottom: none;
+	padding: 0;
+	a {
+		font-weight: bold !important;
+		&.ai1ec-buy-tickets {
+			font-weight: normal !important;
+		}
+	}
+}
+
+.ai1ec-popup-excerpt {
+	font-size: @font-size-base * 0.85;
+	margin-top: 2px;
+}

@@ -1,0 +1,32 @@
+{% macro input( id, name = '', value = '', type = "text", attributes = [] ) %}
+	{% if name == '' %}
+		{% set id = name %}
+	{% endif %}
+	<input
+		type="{{ type }}"
+		name="{{ name }}"
+		value="{{ value }}"
+		id="{{ id }}"
+		class="{% if type not in [ 'radio', 'checkbox' ] %}ai1ec-form-control{% endif %}
+			{{ attributes.class }}"
+		{% for attribute, value in attributes %}
+			{% if attribute != 'class' %}
+				{{ attribute }}="{{ value }}"
+			{% endif %}
+		{% endfor %}
+		/>
+{% endmacro %}
+
+{% macro button( id, name = '', value = '', type = "text", attributes = [] ) %}
+	{% if name == '' %}
+		{% set id = name %}
+	{% endif %}
+	<button
+		type="{{ type }}"
+		name="{{ name }}"
+		id="{{ id }}"
+		{% for attribute, value in attributes %}
+			{{ attribute }}="{{ value }}"
+		{% endfor %}
+		>{{ value | raw }}</button>
+{% endmacro %}

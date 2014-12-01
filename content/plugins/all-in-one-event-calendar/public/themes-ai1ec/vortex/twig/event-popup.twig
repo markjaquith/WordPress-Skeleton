@@ -1,0 +1,47 @@
+<div class="ai1ec-popover ai1ec-popup {{ popup_classes }}">
+
+	{% set category_colors = event.get_runtime( 'category_colors' ) %}
+	{% if category_colors is not empty %}
+		<div class="ai1ec-color-swatches">{{ category_colors | raw }}</div>
+	{% endif %}
+
+	<span class="ai1ec-popup-title">
+		<a href="{{ event.permalink | e('html_attr') }}"
+			>{{ event.filtered_title | truncate | raw }}</a>
+		{% if show_location_in_title and event.venue is not empty %}
+			<span class="ai1ec-event-location"
+				>{{ text_venue_separator | format( event.venue ) }}</span>
+		{% endif %}
+		{% if is_ticket_button_enabled and event.ticket_url is not empty %}
+			<a class="ai1ec-pull-right ai1ec-btn ai1ec-btn-primary ai1ec-btn-xs
+				ai1ec-buy-tickets" target="_blank"
+				href="{{ event.ticket_url | e('html_attr') }}"
+				>{{ event.ticket_url_label }}</a>
+		{% endif %}
+	</span>
+
+	{% if event.edit_post_link is not empty %}
+		<a class="post-edit-link" href="{{ event.edit_post_link | raw }}">
+			<i class="ai1ec-fa ai1ec-fa-pencil"></i> {{ text_edit }}
+		</a>
+	{% endif %}
+
+	<div class="ai1ec-event-time">
+		{% if popup_timespan is empty %}
+			{{ event.timespan_short | raw }}
+		{% else %}
+			{{ popup_timespan | raw }}
+		{% endif %}
+	</div>
+
+	<a class="ai1ec-load-event"
+		href="{{ event.permalink | e('html_attr') }}"
+		{{ data_type_events | raw }}>
+		{{ event.avatar | raw }}
+	</a>
+
+	{% if event.post_excerpt is not empty %}
+		<div class="ai1ec-popup-excerpt">{{ event.post_excerpt | raw }}</div>
+	{% endif %}
+
+</div>

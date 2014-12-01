@@ -1,0 +1,79 @@
+//
+// Grid system
+// --------------------------------------------------
+
+// Set the container width, and override it for fixed navbars in media queries
+.ai1ec-container {
+  .ai1ec-container-fixed();
+
+  @media (min-width: @screen-sm) {
+    width: @container-sm;
+  }
+  @media (min-width: @screen-md) {
+    width: @container-md;
+  }
+  @media (min-width: @screen-lg-min) {
+    width: @container-lg;
+  }
+}
+
+// mobile first defaults
+.ai1ec-row {
+  .ai1ec-make-row();
+}
+
+// Common styles for small and large grid columns
+.ai1ec-make-grid-columns();
+
+
+// Extra small grid
+//
+// Columns, offsets, pushes, and pulls for extra small devices like
+// smartphones.
+
+.ai1ec-make-grid-columns-float(xs);
+.ai1ec-make-grid(@grid-columns, xs, width);
+.ai1ec-make-grid(@grid-columns, xs, pull);
+.ai1ec-make-grid(@grid-columns, xs, push);
+.ai1ec-make-grid(@grid-columns, xs, offset);
+
+
+// Small grid
+//
+// Columns, offsets, pushes, and pulls for the small device range, from phones
+// to tablets.
+
+@media (min-width: @screen-sm-min) {
+  .ai1ec-make-grid-columns-float(sm);
+  .ai1ec-make-grid(@grid-columns, sm, width);
+  .ai1ec-make-grid(@grid-columns, sm, pull);
+  .ai1ec-make-grid(@grid-columns, sm, push);
+  .ai1ec-make-grid(@grid-columns, sm, offset);
+}
+
+
+// Medium grid
+//
+// Columns, offsets, pushes, and pulls for the desktop device range.
+
+@media (min-width: @screen-md-min) {
+  .ai1ec-make-grid-columns-float(md);
+  .ai1ec-make-grid(@grid-columns, md, width);
+  .ai1ec-make-grid(@grid-columns, md, pull);
+  .ai1ec-make-grid(@grid-columns, md, push);
+  .ai1ec-make-grid(@grid-columns, md, offset);
+}
+
+
+// Large grid
+//
+// Columns, offsets, pushes, and pulls for the large desktop device range.
+
+@media (min-width: @screen-lg-min) {
+  .ai1ec-make-grid-columns-float(lg);
+  .ai1ec-make-grid(@grid-columns, lg, width);
+  .ai1ec-make-grid(@grid-columns, lg, pull);
+  .ai1ec-make-grid(@grid-columns, lg, push);
+  .ai1ec-make-grid(@grid-columns, lg, offset);
+}
+

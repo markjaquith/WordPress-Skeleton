@@ -1,0 +1,25 @@
+{% if recurrence is not empty %}
+	<div class="ai1ec-recurrence ai1ec-btn-group">
+		<button class="ai1ec-btn ai1ec-btn-default ai1ec-btn-xs
+			ai1ec-tooltip-trigger ai1ec-disabled ai1ec-text-muted"
+			data-html="true"
+			title="{% spaceless %}
+				{{ recurrence | capitalize | e('html_attr') }}
+				{% if exclude is not empty %}
+					{{ ( '<div class="ai1ec-recurrence-exclude">' ~ 'Excludes: ' | __ ~ exclude ~ '</div>' ) | e('html_attr') }}
+				{% endif %}
+			{% endspaceless %}">
+			<i class="ai1ec-fa ai1ec-fa-repeat"></i>
+			{{ 'Repeats' | __ }}
+		</button>
+
+		{% if edit_instance_url is not empty %}
+			<a class="ai1ec-btn ai1ec-btn-default ai1ec-btn-xs ai1ec-tooltip-trigger
+				ai1ec-text-muted"
+				title="{{ edit_instance_text | e('html_attr') }}"
+				href="{{ edit_instance_url }}">
+				<i class="ai1ec-fa ai1ec-fa-pencil"></i>
+			</a>
+		{% endif %}
+	</div>
+{% endif %}

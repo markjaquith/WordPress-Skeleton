@@ -1,0 +1,21 @@
+{% autoescape false %}
+<!-- START All-in-One Event Calendar Plugin - Version {{ version }} -->
+<div id="ai1ec-container" class="ai1ec-main-container {{ ai1ec_calendar_classes }}">
+	<!-- AI1EC_PAGE_CONTENT_PLACEHOLDER -->
+	<div id="ai1ec-calendar" class="timely ai1ec-calendar">
+		{% if ai1ec_above_calendar is defined %}
+		{{ ai1ec_above_calendar | raw }}
+		{% endif %}
+		{{ filter_menu }}
+		<div id="ai1ec-calendar-view-container" class="ai1ec-calendar-view-container">
+			<div id="ai1ec-calendar-view-loading" class="ai1ec-loading ai1ec-calendar-view-loading"></div>
+			<div id="ai1ec-calendar-view" class="ai1ec-calendar-view">
+				{{ view }}
+			</div>
+		</div>
+
+		<div class="ai1ec-pull-right">{{ subscribe_buttons }}</div>
+	</div><!-- /.timely -->
+</div>
+<!-- END All-in-One Event Calendar Plugin -->
+{% endautoescape %}

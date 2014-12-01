@@ -1,0 +1,43 @@
+{% autoescape false %}
+<div class="ai1ec-col-sm-12">
+<div id="ai1ec-embedding">
+	<div class="ai1ec-well ai1ec-prose">
+		<p>{{ text_insert_shortcode }}</p>
+		<ul>
+			<li>{{ text_month_view }} <code class="ai1ec-autoselect">[ai1ec view="monthly"]</code></li>
+			<li>{{ text_week_view }} <code class="ai1ec-autoselect">[ai1ec view="weekly"]</code></li>
+			<li>{{ text_day_view }} <code class="ai1ec-autoselect">[ai1ec view="oneday"]</code></li>
+			<li>{{ text_agenda_view }} <code class="ai1ec-autoselect">[ai1ec view="agenda"]</code></li>
+
+			{{ viewing_events_shortcodes }}
+
+			<li><em>{{ text_general_form }}</em> {{ text_other_view }} <code class="ai1ec-autoselect">[ai1ec view="someother"]</code></li>
+			<li>{{ text_default_view }} <code class="ai1ec-autoselect">[ai1ec]</code></li>
+		</ul>
+		<p>
+			<span class="ai1ec-text-muted">{{ text_optional }}</span>
+			{{ text_filter_label }}
+		</p>
+		<ul>
+			<li>{{ text_filter_category }} <code class="ai1ec-autoselect">[ai1ec cat_name="{{ text_filter_category_1 }}"]</code></li>
+			<li>{{ text_filter_category_comma }} <code class="ai1ec-autoselect">[ai1ec cat_name="{{ text_filter_category_2 }},{{ text_filter_category_3 }}"]</code></li>
+			<li>{{ text_filter_category_id }} <code class="ai1ec-autoselect">[ai1ec cat_id="1"]</code></li>
+			<li>{{ text_filter_category_id_comma }} <code class="ai1ec-autoselect">[ai1ec cat_id="1,2"]</code></li>
+
+			<li>{{ text_filter_tag }} <code class="ai1ec-autoselect">[ai1ec tag_name="{{ text_filter_tag_1 }}"]</code></li>
+			<li>{{ text_filter_tag_comma }} <code class="ai1ec-autoselect">[ai1ec tag_name="{{ text_filter_tag_2 }},{{ text_filter_tag_3 }}"]</code></li>
+			<li>{{ text_filter_tag_id }} <code class="ai1ec-autoselect">[ai1ec tag_id="1"]</code></li>
+			<li>{{ text_filter_tag_id_comma }} <code class="ai1ec-autoselect">[ai1ec tag_id="1,2"]</code></li>
+
+			<li>{{ text_filter_post_id }} <code class="ai1ec-autoselect">[ai1ec post_id="1"]</code></li>
+			<li>{{ text_filter_post_id_comma }} <code class="ai1ec-autoselect">[ai1ec post_id="1,2"]</code></li>
+			<li>{{ text_events_limit }} <code class="ai1ec-autoselect">[ai1ec events_limit="5"]</code></li>
+		</ul>
+		<div class="ai1ec-alert ai1ec-alert-warning">
+			<strong>{{ text_warning }}</strong>
+			{{ text_single_calendar }}
+		</div>
+	</div>
+</div>
+</div>
+{% endautoescape %}

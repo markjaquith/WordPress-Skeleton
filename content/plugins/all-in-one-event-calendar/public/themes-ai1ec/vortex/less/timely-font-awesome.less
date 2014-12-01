@@ -1,0 +1,46 @@
+//
+// @file
+//
+// Adapated from font-awesome.less.
+//
+
+// Variables & variable overrides
+@import "font-awesome/variables";
+@fa-font-path:  @fontdir_default;
+@fa-css-prefix: ~"ai1ec-fa";
+
+@import "font-awesome/mixins";
+
+// Namespace the font name instead of importing path.less directly.
+@font-face {
+	font-family: 'Timely_FontAwesome';
+	src: url('@{fa-font-path}/fontawesome-webfont.eot?v=@{fa-version}');
+	src: url('@{fa-font-path}/fontawesome-webfont.eot?#iefix&v=@{fa-version}') format('embedded-opentype'),
+		url(data:application/x-font-woff;charset=utf-8;base64,__BASE64_FONT_AI1EC_fontawesome-webfont.woff__) format('woff'),
+		url(data:font/truetype;charset=utf-8;base64,__BASE64_FONT_AI1EC_fontawesome-webfont.ttf__) format('truetype'),
+		url('@{fa-font-path}/fontawesome-webfont.svg?v=@{fa-version}#fontawesomeregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@import "font-awesome/core";
+@import "font-awesome/larger";
+@import "font-awesome/fixed-width";
+@import "font-awesome/list";
+@import "font-awesome/spinning";
+@import "font-awesome/stacked";
+@import "font-awesome/icons";
+
+// Other overrides
+.@{fa-css-prefix} {
+	font-family: Timely_FontAwesome;
+}
+a.ai1ec-fa.ai1ec-hide {
+	display: none;
+}
+// Sometimes theme developers place WP posts within <ul>/<li> structures. This
+// causes issues with Font Awesome. Here's how we protect against that.
+li .ai1ec-fa,
+li .ai1ec-fa-lg:before {
+	width: auto;
+}

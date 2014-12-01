@@ -1,0 +1,12 @@
+<div class="wrap">
+	{{ screen_icon() }}
+	<h2>{{ title }}</h2>
+	<div id="poststuff">
+		<form method="post" action="{{ action }}">
+			{{ wp_nonce_field( nonce.action, nonce.name, nonce.referrer ) }}
+			<div class="metabox-holder">
+				{% block layout %}{% endblock %}
+			</div>
+		</form>
+	</div>{# /#poststuff #}
+</div>{# /.wrap #}

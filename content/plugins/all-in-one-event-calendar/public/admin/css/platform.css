@@ -1,0 +1,72 @@
+/**
+ * @file
+ * Styles specific to calendar platform mode.
+ */
+
+#ai1ec-calendar-tasks {
+	background: #fff;
+}
+#ai1ec-calendar-tasks .ai1ec-btn {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 85%;
+}
+#wp-admin-bar-wp-logo > .ab-item .ab-icon {
+	background-image: url(../img/admin-bar-sprite.png);
+}
+/* Weird rendering of large icons in WP 3.2. */
+.branch-3-2 .ai1ec-fa-lg:before {
+	vertical-align: bottom;
+}
+
+#adminmenu #menu-posts-ai1ec_event.menu-top {
+  min-height: 47px;
+}
+#adminmenu #menu-posts-ai1ec_event a.menu-top,
+#adminmenu #menu-posts-ai1ec_event .wp-submenu-head {
+  font-size: 16px;
+  line-height: 36px;
+  min-width: 0;
+}
+#menu-posts-ai1ec_event > div.wp-menu-image {
+  margin-top: 8px;
+}
+#adminmenu #menu-posts-ai1ec_event > div.wp-menu-arrow,
+#adminmenu #menu-posts-ai1ec_event.wp-not-current-submenu > div.wp-menu-arrow {
+  height: 46px;
+}
+#adminmenu #menu-posts-ai1ec_event .wp-menu-arrow div,
+#adminmenu #menu-posts-ai1ec_event.wp-not-current-submenu .wp-menu-arrow div {
+  top: 15px;
+  -webkit-transform: matrix(-0.6,1.5,0.6,1.5,0,0);
+  -moz-transform: matrix(-0.6,1.5,0.6,1.5,0,0);
+  -ms-transform: matrix(-0.6,1.5,0.6,1.5,0,0);
+  -o-transform: matrix(-0.6,1.5,0.6,1.5,0,0);
+  transform: matrix(-0.6,1.5,0.6,1.5,0,0);
+}
+.branch-3-2 #adminmenu #menu-posts-ai1ec_event .wp-menu-arrow div,
+.branch-3-2 #adminmenu #menu-posts-ai1ec_event.wp-not-current-submenu .wp-menu-arrow div {
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+  -ms-background-size: 100% 100%;
+  -o-background-size: 100% 100%;
+  background-size: 100% 100%;
+  height: 47px;
+  -webkit-transform: none;
+  -moz-transform: none;
+  -ms-transform: none;
+  -o-transform: none;
+  transform: none;
+}
+
+/*
+For supporting browsers, add CSS to hide the duplicate menu items under Events
+menu so that FOUC issue isn't as severe (but this only ameliorates the issue).
+This is taken care of better via JS anyway.
+*/
+#menu-posts-ai1ec_event a[href$="all-in-one-event-calendar-themes"],
+#menu-posts-ai1ec_event a[href$="all-in-one-event-calendar-edit-css"],
+#menu-posts-ai1ec_event a[href$="all-in-one-event-calendar-settings"] {
+	display: none;
+}

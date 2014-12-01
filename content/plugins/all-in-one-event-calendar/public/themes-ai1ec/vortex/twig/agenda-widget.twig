@@ -1,0 +1,96 @@
+<style>
+<!--
+{{ css | raw }}
+-->
+</style>
+<div class="timely ai1ec-agenda-widget-view ai1ec-clearfix">
+
+	{% if dates is empty %}
+		<p class="ai1ec-no-results">
+			{{ text_upcoming_events }}
+		</p>
+	{% else %}
+		<div>
+			{% set tag_for_days = 'a' %}
+			{% if link_for_days == false %}
+				{% set tag_for_days = 'span' %}
+			{% endif %}
+			{% for date, date_info in dates %}
+				<div class="ai1ec-date
+					{% if date_info.today is not empty %}ai1ec-today{% endif %}">
+					<{{ tag_for_days }} class="ai1ec-date-title ai1ec-load-view"
+						href="{{ date_info.href | e('html_attr') }}">
+						<div class="ai1ec-month">{{ date | month }}</div>
+						<div class="ai1ec-day">{{ date | day }}</div>
+						<div class="ai1ec-weekday">{{ date | weekday }}</div>
+						{% if show_year_in_agenda_dates %}
+							<div class="ai1ec-year">{{ date | year }}</div>
+						{% endif %}
+					</{{ tag_for_days }}>
+					<div class="ai1ec-date-events">
+						{% for category in date_info.events %}
+							{% for event in category %}
+								<div class="ai1ec-event
+									ai1ec-event-id-{{ event.get( 'post_id' ) }}
+									ai1ec-event-instance-id-{{ event.get( 'instance_id' ) }}
+									{% if event.is_allday %}ai1ec-allday{% endif %}">
+
+									<a href="{{ event.permalink | e('html_attr') }}"
+										class="ai1ec-popup-trigger ai1ec-load-event">
+										{% if event.is_allday %}
+											<span class="ai1ec-allday-badge">
+												{{ text_all_day }}
+											</span>
+										{% else %}
+											<span class="ai1ec-event-time">
+												{{ event.short_start_time }}
+											</span>
+										{% endif %}
+
+										<span class="ai1ec-event-title">
+											{{ event.filtered_title | truncate | raw }}
+											{% if show_location_in_title and event.venue is not empty %}
+												<span class="ai1ec-event-location"
+													>{{ text_venue_separator | format( event.venue ) }}</span>
+											{% endif %}
+										</span>
+									</a>
+
+									{% include 'event-popup.twig' with {
+									'text_venue_separator': text_venue_separator
+									} %}
+
+								</div>
+							{% endfor %} {# event in category #}
+						{% endfor %} {# category in date_info.events #}
+					</div>
+				</div>
+			{% endfor %} {# date, date_info in dates #}
+		</div>
+	{% endif %} {# dates is not empty #}
+
+	{% if show_calendar_button or show_subscribe_buttons %}
+		<p>
+			{% if show_calendar_button %}
+				<a class="ai1ec-btn ai1ec-btn-default ai1ec-btn-xs ai1ec-pull-right
+					ai1ec-calendar-link"
+					href="{{ calendar_url | e('html_attr') }}">
+					{{ text_view_calendar }}
+					<i class="ai1ec-fa ai1ec-fa-arrow-right"></i>
+				</a>
+			{% endif %}
+
+			{% if show_subscribe_buttons %}
+				{% include 'subscribe-buttons.twig' with {
+					'button_classes':     'ai1ec-btn-xs',
+					'export_url':         subscribe_url,
+					'export_url_no_html': subscribe_url_no_html,
+					'subscribe_label':    text_subscribe_label,
+					'text':               subscribe_buttons_text,
+				} %}
+			{% endif %}
+		</p>
+	{% endif %} {# show_calendar_button or show_subscribe_buttons #}
+
+</div>
+

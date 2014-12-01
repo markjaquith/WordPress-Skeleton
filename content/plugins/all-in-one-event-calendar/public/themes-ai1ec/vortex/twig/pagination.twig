@@ -1,0 +1,14 @@
+<div class="ai1ec-pagination ai1ec-btn-group">
+	{% for link in links %}
+		{% if link is iterable %}
+			<a class="{{ link.class }} ai1ec-load-view ai1ec-btn ai1ec-btn-sm
+				ai1ec-btn-default {% if not link.enabled %}ai1ec-disabled{% endif %}"
+				{{ data_type | raw }}
+				href="{{ link.href | e('html_attr') }}">
+				{{ link.text | raw }}
+			</a>
+		{% else %}
+			{{ link | raw }}
+		{% endif %}
+	{% endfor %}
+</div>

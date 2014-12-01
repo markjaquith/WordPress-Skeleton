@@ -1,0 +1,14 @@
+<div class="ai1ec-col-sm-12">
+	<div class="checkbox">
+		<label for="{{ id }}">
+			{% from 'form-elements/input.twig' import input %}
+			{{ input( id, id, 1, 'checkbox', attributes ) }}
+
+			{{ renderer.label | raw }}
+
+		</label>
+	</div>
+	{% if renderer.help is defined %}
+		<div class="ai1ec-help-block">{{ renderer.help | raw }}</div>
+	{% endif %}
+</div>

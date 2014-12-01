@@ -1,0 +1,836 @@
+//
+// @file
+//
+// Used on the full calendar views page only (month, week, day, agenda, etc.).
+//
+
+@import "bootstrap/mixins.less";
+@import "timely-mixins.less";
+
+// =================
+// = Calendar page =
+// =================
+
+// General calendar styles.
+#ai1ec-container {
+	clear: both;
+}
+
+// Calendar view container.
+#ai1ec-calendar-view-container {
+	position: relative;
+	-webkit-transform: translateZ(0);
+}
+#ai1ec-calendar-view .post-edit-link {
+	white-space: nowrap;
+}
+
+// Calendar toolbar.
+.ai1ec-calendar-toolbar {
+	background-color: @toolbar-bg;
+	border: 1px solid @toolbar-border-color;
+	border-radius: @border-radius-large;
+	margin-bottom: 8px;
+	padding: 0 8px;
+	.ai1ec-nav {
+		margin: 0 !important;
+		padding: 0 !important;
+	}
+	.timely & .ai1ec-nav-pills > li > a {
+		border-radius: 0;
+	}
+	// Affixed toolbar.
+	&.ai1ec-affix {
+		z-index: @zindex-navbar-fixed;
+		top: 0;
+		border-top-left-radius: 0;
+		border-top-right-radius: 0;
+		.ai1ec-transition( border-radius 0.3s );
+		.ai1ec-transition( box-shadow 0.4s );
+		.ai1ec-box-shadow( 0 3px 12px rgba( 0, 0, 0, 0.2 ) );
+		.ai1ec-views-dropdown {
+			margin-bottom: 4px;
+			clear: both;
+		}
+		.ai1ec-clearfix {
+			padding-top: 8px;
+		}
+	}
+}
+// Hidden elements to detect current window mode.
+#ai1ec-bs-modes {
+	width: 0;
+	height: 0;
+	overflow: hidden;
+}
+
+// Trigger display of dropdown menus on hover on desktop devices only.
+.no-touch .ai1ec-calendar-toolbar .ai1ec-dropdown:hover > .ai1ec-dropdown-menu {
+	display: block;
+}
+
+// Views dropdown.
+.ai1ec-views-dropdown {
+	margin-left: 5px;
+	// Icons
+	i {
+		font-size: 1.9em;
+		line-height: 0.75em;
+		vertical-align: -37%;
+	}
+	.ai1ec-dropdown-menu {
+		min-width: 0;
+	}
+}
+
+// View filters.
+.ai1ec-category-filter .ai1ec-category {
+	display: block;
+}
+.ai1ec-filters {
+	.ai1ec-color-swatch {
+		height: 7px;
+		width: 7px;
+	}
+	.ai1ec-dropdown-menu {
+		padding: 1px 2px;
+	}
+}
+.ai1ec-tag-filter .ai1ec-dropdown-menu {
+	max-height: 250px;
+	min-width: 200px;
+	overflow: auto;
+}
+// Select2 filters.
+.ai1ec-select2-filters {
+	clear: both;
+	.select2-container {
+		margin: 2px 0;
+		width: 100%;
+	}
+}
+
+// Clear filter buttons.
+.ai1ec-clear-filter {
+	cursor: pointer;
+	display: none !important;
+}
+.ai1ec-dropdown.ai1ec-active > .ai1ec-dropdown-toggle {
+	> i {
+		display: none !important;
+	}
+	.ai1ec-clear-filter {
+		display: inline !important;
+	}
+}
+
+// Overhead nav buttons.
+.ai1ec-pagination {
+	> .ai1ec-btn {
+		text-transform: uppercase;
+	}
+}
+.ai1ec-calendar-title,
+.ai1ec-calendar-title-short {
+	font-size: @font-size-base;
+	line-height: 1em;
+}
+.ai1ec-calendar-title-short {
+	display: none;
+}
+@media screen and ( max-width: @screen-xs-max ) {
+	.ai1ec-calendar-title {
+		display: none;
+	}
+	.ai1ec-calendar-title-short {
+		display: inline;
+	}
+}
+.ai1ec-minical-trigger {
+	font-weight: bold !important;
+	i {
+		vertical-align: baseline;
+	}
+}
+
+// Print button.
+#ai1ec-print-button i {
+	font-size: 14px;
+	margin-top: -2px;
+}
+
+// Month, week, day tables.
+table.ai1ec-month-view,
+.ai1ec-week-view table,
+.ai1ec-oneday-view table {
+	border-collapse: collapse;
+	border: 1px solid @table-border-color !important;
+	margin: 0 !important;
+	background: @table-bg;
+	table-layout: fixed !important;
+	clear: both;
+	width: 100% !important;
+}
+table.ai1ec-month-view {
+	margin-bottom: 6px !important;
+}
+table.ai1ec-week-view-original,
+table.ai1ec-oneday-view-original {
+	visibility: hidden;
+	height: 400px;
+	&.tablescroll_body {
+		visibility: visible;
+		height: auto;
+		&,
+		& tr:first-child td {
+			border-top: none !important;
+		}
+	}
+}
+.ai1ec-week-view,
+.ai1ec-oneday-view {
+	.tablescroll_wrapper {
+		border-bottom: 1px solid @table-border-color;
+		margin-bottom: 6px;
+		position: relative;
+		width: auto !important;
+	}
+	table.tablescroll_head {
+		border-bottom: none !important;
+		& th {
+			border-bottom: none !important;
+			padding: 2.48px !important;
+		}
+	}
+	.ai1ec-reveal-full-day {
+		float: right;
+		margin: 3px 3px 3px -3em;
+		position: relative;
+	}
+	.ai1ec-day {
+		height: 1440px;
+	}
+	th {
+		position: relative;
+		.ai1ec-weekday-date {
+			font-size: 15px;
+			font-weight: normal;
+		}
+		.ai1ec-weekday-day {
+			font-size: 12px;
+			font-weight: normal;
+		}
+	}
+}
+.ai1ec-month-view,
+.ai1ec-week-view,
+.ai1ec-oneday-view {
+	td {
+		border: 1px solid @table-border-color !important;
+		background: none !important;
+		padding: 0 !important;
+		text-align: left;
+		vertical-align: top;
+	}
+	th {
+		border: none !important;
+		background: @table-header-bg !important;
+		padding: 0.2em !important;
+	}
+}
+.ai1ec-month-view td.ai1ec-empty {
+	background: @table-header-bg !important;
+}
+.ai1ec-month-view th,
+.ai1ec-week-view th,
+.ai1ec-week-view .ai1ec-hour-marker div,
+.ai1ec-week-view .ai1ec-allday-label,
+.ai1ec-oneday-view th,
+.ai1ec-oneday-view .ai1ec-hour-marker div,
+.ai1ec-oneday-view .ai1ec-allday-label {
+	color: @table-header-color !important;
+	text-shadow: 0 1px 0 @text-emboss;
+}
+.ai1ec-month-view,
+.ai1ec-oneday-view {
+	th {
+		text-align: center !important;
+	}
+}
+.ai1ec-week-view th {
+	text-align: left !important;
+}
+.ai1ec-month-view .ai1ec-day,
+.ai1ec-week-view .ai1ec-day,
+.ai1ec-week-view .ai1ec-allday-events,
+.ai1ec-oneday-view .ai1ec-day,
+.ai1ec-oneday-view .ai1ec-allday-events {
+	position: relative;
+}
+.ai1ec-month-view .ai1ec-day-stretcher {
+	float: left;
+	height: 94px;
+	width: 0;
+}
+.ai1ec-month-view,
+.ai1ec-week-view {
+	.ai1ec-today {
+		background: @today-color !important;
+	}
+}
+.ai1ec-month-view .ai1ec-date {
+	background: @month-view-date-bg;
+	color: mix( @text-color, @month-view-date-bg, 40% );
+	font-size: 10pt;
+	line-height: 13px;
+	height: 13px;
+	margin-bottom: 1px;
+	padding: 0 0.4em;
+	font-size: 8pt;
+	text-align: right;
+	text-shadow: 0 1px 0 @text-emboss;
+}
+
+// Week/day view time/"now" markers.
+.ai1ec-week-view,
+.ai1ec-oneday-view {
+	clear: both;
+	.ai1ec-grid-container {
+		position: absolute;
+		top: auto;
+		left: 0;
+		right: 0;
+	}
+	.ai1ec-now-marker,
+	.ai1ec-hour-marker,
+	.ai1ec-quarter-marker {
+		position: absolute;
+		left: 0;
+		right: 0;
+	}
+	.ai1ec-hour-marker {
+		border-top: 1px solid @table-border-color;
+		border-top: 1px solid fade( @table-border-color, 70% );
+		height: 60px;
+		background: fade( @table-border-color, 40% ) !important;
+		&.ai1ec-business-hour {
+			background: none !important;
+		}
+	}
+	.ai1ec-hour-marker div,
+	.ai1ec-allday-label {
+		position: relative;
+		z-index: 2;
+		margin-left: 1px;
+		padding: 0 3px;
+		font-size: 8pt !important;
+		font-weight: normal !important;
+		background: @table-header-bg;
+		float: left;
+		border-radius: 3px;
+	}
+	.ai1ec-allday-label {
+		margin-top: 1px;
+	}
+	.ai1ec-quarter-marker {
+		border-top: 1px solid @table-border-color;
+		border-top: 1px solid fade( @table-border-color, 40% );
+	}
+	.ai1ec-now-marker {
+		border-top: 2px solid @day-view-now-marker-color;
+		.ai1ec-box-shadow( inset 0 1px 1px rgba(0, 0, 0, 0.35) );
+		height: 4px;
+		text-shadow: 0 1px 1px rgba(0, 0, 0, 0.4);
+		z-index: 2;
+		div {
+			background-color: @day-view-now-marker-color;
+			border-radius: 0 0 3px 3px;
+			.ai1ec-box-shadow( 0 1px 1px rgba(0, 0, 0, 0.35) );
+			color: #fff;
+			.ai1ec-opacity( 0 );
+			font-size: 11px;
+			float: left;
+			padding: 1px 4px;
+			.ai1ec-transition( opacity 0.1s );
+		}
+		&:hover div {
+			.ai1ec-opacity( 1 );
+		}
+	}
+}
+
+// Event summaries in month/week/day view, including popups.
+.ai1ec-month-view,
+.ai1ec-week-view,
+.ai1ec-oneday-view {
+	a.ai1ec-event-container {
+		border: none;
+		display: block;
+		font-size: 12px;
+		.ai1ec-opacity( 0.85 );
+		&:hover,
+		&.ai1ec-hover {
+			.ai1ec-opacity( 1 );
+		}
+	}
+	.ai1ec-event {
+		max-height: 100%;
+		overflow: hidden;
+		margin: 1px 0 0;
+		padding: 0 3px 1px;
+		white-space: nowrap;
+	}
+	.ai1ec-event-time {
+		font-weight: bold;
+		font-size: 11px;
+	}
+}
+.ai1ec-month-view,
+.ai1ec-week-view .ai1ec-allday-events,
+.ai1ec-oneday-view .ai1ec-allday-events {
+	a.ai1ec-event-container {
+		position: relative;
+	}
+	.ai1ec-allday .ai1ec-event,
+	.ai1ec-multiday .ai1ec-event {
+		border-radius: 3px;
+		background-color: @event-default-color;
+		color: @event-stub-allday-text;
+		text-shadow: 0 1px 1px @event-stub-allday-text-shadow;
+	}
+}
+
+.ai1ec-oneday-view {
+	a.ai1ec-event-container {
+		margin-right: 10px;
+	}
+	.ai1ec-allday-events a.ai1ec-event-container {
+		margin: 0 0 0 53px;
+	}
+}
+.ai1ec-week-view .ai1ec-week,
+.ai1ec-oneday-view .ai1ec-oneday {
+	a.ai1ec-event-container {
+		background-color: @event-bg;
+		background-image: -webkit-linear-gradient( top, mix( @event-default-color, @event-bg, 5% ), mix( @event-default-color, @event-bg, 30% ) 120px );
+		background-image: -moz-linear-gradient( top, mix( @event-default-color, @event-bg, 5% ), mix( @event-default-color, @event-bg, 30% ) 120px );
+		background-image: -ms-linear-gradient( top, mix( @event-default-color, @event-bg, 5% ), mix( @event-default-color, @event-bg, 30% ) 120px );
+		background-image: -o-linear-gradient( top, mix( @event-default-color, @event-bg, 5% ), mix( @event-default-color, @event-bg, 30% ) 120px );
+		background-image: linear-gradient( top, mix( @event-default-color, @event-bg, 5% ), mix( @event-default-color, @event-bg, 30% ) 120px );
+		border: 1px solid mix( @event-default-color, @event-bg, 50% );
+		border-radius: 3px;
+		.ai1ec-box-shadow( 1px 2px 4px rgba(0,0,0,0.15) );
+		.ai1ec-box-sizing( border-box );
+		line-height: 15px;
+		margin: 0 -1px;
+		min-height: 34px;
+		position: absolute;
+		right: 0;
+		text-shadow: 0 1px 0 @text-emboss;
+		&.ai1ec-raised {
+			z-index: 5;
+		}
+		&:hover {
+			border-color: mix( @event-default-hover-color, @event-bg, 50% );
+		}
+	}
+	.ai1ec-event {
+		margin: 0;
+		position: absolute;
+		bottom: 1px;
+		left: 0;
+		right: 0;
+		top: 1px;
+	}
+	.ai1ec-event-title {
+		display: block;
+		white-space: normal;
+	}
+}
+
+// Month view multi-day bars and dropdowns.
+.ai1ec-month-view {
+	.ai1ec-event {
+		height: 14px;
+		line-height: 14px;
+		margin: 0 0 1px;
+	}
+	// Apply word wrapping if enabled.
+	.ai1ec-word-wrap& {
+		.ai1ec-event {
+			border-bottom: 1px dotted @table-border-color;
+			height: auto;
+			overflow: visible;
+			padding-top: 1px;
+			padding-bottom: 2px;
+			white-space: normal;
+		}
+		// Disable word wrapping styles in some contexts.
+		.ai1ec-multiday .ai1ec-event {
+			border-bottom: none;
+			overflow: hidden;
+			padding-top: 0;
+			padding-bottom: 1px;
+			white-space: nowrap;
+		}
+		.ai1ec-allday .ai1ec-event {
+			border-bottom: none;
+		}
+	}
+	.ai1ec-allday {
+		padding-left: 1px;
+		width: 97.5%;
+		&.ai1ec-multiday {
+			padding-left: 0;
+		}
+	}
+	.ai1ec-multiday {
+		z-index: 1;
+	}
+	.ai1ec-multiday-arrow1 {
+		background: @event-default-color;
+		border: 7px solid @body-bg;
+		border-left-color: @event-default-color;
+		border-right-width: 0;
+		height: 1px;
+		position: absolute;
+		right: 0;
+		top: 0;
+		width: 0;
+	}
+	.ai1ec-multiday-arrow2 {
+		border: 7px solid @event-default-color;
+		border-left-color: @body-bg;
+		border-right-width: 2px;
+		height: 1px;
+		left: 0;
+		position: absolute;
+		top: 0;
+		width: 0;
+	}
+	.ai1ec-multiday-bar {
+		background: @event-default-color;
+		border-radius: 3px;
+		height: 14px;
+		left: 0;
+		position: absolute;
+		top: 0;
+		.ai1ec-event-title {
+			margin-left: 7px;
+		}
+		.ai1ec-event {
+			margin: 0;
+		}
+		.ai1ec-event-time {
+			display: none;
+		}
+	}
+	.ai1ec-event-dropdown {
+		background: #FFF;
+		border: 1px solid #E7E7E7;
+		border-top: 0;
+		left: -1px;
+		position: absolute;
+		top: 78px;
+		width: 90px;
+		z-index: 1000;
+	}
+	.ai1ec-obscured {
+		display: none !important;
+	}
+	a.ai1ec-scroll-up,
+	a.ai1ec-scroll-down {
+		border: 1px solid @table-border-color;
+		border-radius: 0.2em;
+		.ai1ec-box-sizing( border-box );
+		display: block;
+		left: 50%;
+		height: 16px;
+		line-height: 14px;
+		margin-left: -8px;
+		position: relative;
+		text-align: center;
+		width: 16px;
+		&:hover {
+			background-color: @table-border-color;
+		}
+		&.ai1ec-disabled {
+			border: none;
+			cursor: default;
+			.ai1ec-opacity( 0.2 );
+			padding: 1px; // To compensate for height lost by invisible border.
+			&:hover {
+				background-color: transparent;
+			}
+		}
+	}
+}
+
+// Truncated events in week/day views.
+.ai1ec-oneday-view,
+.ai1ec-week-view {
+	.ai1ec-start-truncated .ai1ec-event-time {
+		display: none;
+	}
+	.ai1ec-start-truncated {
+		border-top-left-radius: 0;
+		border-top-right-radius: 0;
+	}
+	.ai1ec-end-truncated {
+		border-bottom-left-radius: 0;
+		border-bottom-right-radius: 0;
+	}
+	.ai1ec-start-truncator,
+	.ai1ec-end-truncator {
+		position: absolute;
+		line-height: 1em;
+		font-size: 7px;
+		text-shadow: none;
+		.ai1ec-opacity( 0.5 );
+	}
+	.ai1ec-start-truncator {
+		top: -1px;
+		left: -1px;
+	}
+	.ai1ec-end-truncator {
+		bottom: -1px;
+		right: -1px;
+	}
+}
+
+// Agenda view.
+.ai1ec-agenda-view {
+	clear: both;
+	overflow: hidden;
+	margin: 0 0 6px;
+	.ai1ec-date-events {
+		overflow: hidden;
+		margin: 0 0.75em 0 0;
+		// Fix for border bug in Chrome & Opera
+		@media screen and (-webkit-min-device-pixel-ratio:0) {
+			overflow: visible;
+			display: -webkit-flex;
+			-webkit-flex-wrap: wrap;
+		}
+	}
+	.ai1ec-date {
+		overflow: hidden;
+	}
+	.ai1ec-event-toggle {
+		float: right;
+		font-size: 14px;
+		font-weight: bold;
+		color: mix( @text-color, @agenda-date-title-bg, 40% );
+		.ai1ec-transition( color 0.1s );
+		// Only show '+' icon by default.
+		.ai1ec-fa-minus-circle {
+			display: none;
+		}
+	}
+	// Agenda view events.
+	.ai1ec-event {
+		background: @event-bg;
+		border: 1px solid @event-border;
+		border-radius: 0.5em;
+		clear: right;
+		margin: @font-size-base / 2 0;
+		overflow: hidden;
+		position: relative;
+		padding: 0.6em;
+		.ai1ec-transition( border-color 0.1s );
+		// Fix for border bug in Chrome & Opera
+		@media screen and (-webkit-min-device-pixel-ratio:0) {
+			overflow: visible;
+			width: 100%;
+			& + .ai1ec-event {
+				margin: 0 0 @font-size-base / 2 0;
+			}
+		}
+		&.ai1ec-expanded {
+			border-color: @event-hover-border;
+			.ai1ec-box-shadow( 0 2px 4px mix( @text-color, @agenda-date-title-bg, 15% ) );
+			// Show - icon when expanded, hide + sign.
+			.ai1ec-event-toggle {
+				.ai1ec-fa-minus-circle {
+					display: inline-block;
+				}
+				.ai1ec-fa-plus-circle {
+					display: none;
+				}
+			}
+		}
+		.ai1ec-event-header {
+			cursor: pointer;
+			&:hover .ai1ec-event-toggle {
+				color: mix( @text-color, @agenda-date-title-bg, 85% );
+			}
+		}
+		.ai1ec-event-title {
+			color: @event-default-color;
+			font-weight: bold;
+			font-size: 10.5pt;
+			margin: 0 0 0.4em;
+			.ai1ec-transition( color 0.1s );
+		}
+		.ai1ec-event-time {
+			font-size: 9pt;
+			font-weight: bold;
+			.ai1ec-opacity( 0.8 );
+		}
+		.post-edit-link {
+			.ai1ec-opacity( 0 );
+			.ai1ec-transition( opacity 0.1s );
+		}
+		&:hover {
+			border-color: @event-hover-border;
+			.ai1ec-event-title {
+				color: @event-default-hover-color;
+			}
+			.post-edit-link {
+				.ai1ec-opacity( 1 );
+			}
+		}
+	}
+
+	// Agenda view expanded events.
+	.ai1ec-event-summary {
+		display: none;
+		&.ai1ec-expanded {
+			display: block;
+		}
+	}
+	.ai1ec-event-avatar {
+		float: left;
+		margin: 0 16px 8px 0;
+		max-width: 40%;
+		img {
+			max-width: 300px;
+			max-height: 300px;
+			min-height: 0;
+			width: 100%;
+		}
+	}
+	.ai1ec-event-description {
+		font-size: 9pt;
+		line-height: 1.5em;
+		margin-top: @line-height-computed / 2;
+	}
+	// Agenda event footer (categories, tags, read more).
+	.ai1ec-event-summary-footer {
+		clear: both;
+		padding-top: 10px;
+		.ai1ec-field-label {
+			font-size: 8pt;
+		}
+	}
+	.ai1ec-categories,
+	.ai1ec-tags {
+		font-size: 8pt;
+		margin-right: 0.5em;
+	}
+	.ai1ec-actions {
+		float: right;
+		margin-top: -5px;
+	}
+}
+
+// Printed agenda view overrides
+.ai1ec-print {
+	* {
+		background: white !important;
+		color: black !important;
+	}
+	body {
+		margin: 0;
+		text-align: left;
+	}
+	#wpadminbar,
+	#comments {
+		display: none;
+	}
+	#page > header {
+		display: none;
+	}
+	#ai1ec-container {
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 100%;
+	}
+	.ai1ec-agenda-view .ai1ec-event.ai1ec-expanded {
+		box-shadow: none;
+		border: 2px solid gray !important;
+	}
+	.ai1ec-agenda-view {
+		.ai1ec-date-title {
+			border-color: #cacaca;
+			&:after {
+				display: none;
+			}
+		}
+		.ai1ec-event-summary .ai1ec-event-title {
+			display: inline;
+		}
+		.ai1ec-event-summary .ai1ec-event-time {
+			display: inline;
+			border: none !important;
+			box-shadow: none !important;
+		}
+		.ai1ec-event-summary .ai1ec-event-time {
+			display: inline;
+			border: none !important;
+			box-shadow: none !important;
+		}
+		.ai1ec-event-description {
+			padding: 0 !important;
+		}
+	}
+	.ai1ec-agenda-view .ai1ec-event.ai1ec-allday .ai1ec-allday-label {
+		border: none !important;
+		box-shadow: none !important;
+		padding-left: 0.2em !important;
+	}
+	.timely .entry-meta,
+	.timely .ai1ec-subscribe,
+	.timely .ai1ec-subscribe-google,
+	.ai1ec-agenda-view .ai1ec-event-expand,
+	.ai1ec-btn-toolbar,
+	.ai1ec-pagination,
+	.ai1ec-calendar-toolbar,
+	.ai1ec-read-more,
+	.ai1ec-color-swatch,
+	.post-edit-link,
+	.ai1ec-event-toggle,
+	.ai1ec-views-dropdown {
+		display: none !important;
+	}
+	.ai1ec-event-header {
+		cursor : text !important;
+	}
+}
+
+// Remove filtered views icon.
+#ai1ec_clear_saved_view {
+	margin-left: -4px;
+	margin-right: 5px;
+}
+
+// Disclaimer link.
+.ai1ec-collapsible-toggle {
+	cursor: pointer;
+}
+
+.ai1ec-subscribe-container {
+	.ai1ec-fa.ai1ec-fa-fw {
+		width: 20px;
+	}
+
+	ul.ai1ec-dropdown-menu {
+		list-style: none;
+		li {
+			margin: 0;
+			padding: 0;
+			list-style: none;
+		}
+	}
+}

@@ -1,0 +1,2569 @@
+# Copyright (C) 2014 All-in-One Event Calendar by Time.ly
+# This file is distributed under the same license as the All-in-One Event Calendar by Time.ly package.
+msgid ""
+msgstr ""
+"Project-Id-Version: All-in-One Event Calendar by Time.ly 2.1.8\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/all-in-one-event-calendar\n"
+"POT-Creation-Date: 2014-11-21 16:37:58+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2014-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: app/controller/extension-license.php:54 app/view/admin/add-ons.php:26
+#: app/view/admin/add-ons.php:27
+msgid "Add-ons"
+msgstr ""
+
+#: app/controller/extension-license.php:56
+msgid "Licenses"
+msgstr ""
+
+#: app/controller/extension-license.php:60
+msgid "Licences"
+msgstr ""
+
+#: app/controller/front.php:309
+msgid ""
+"Your active calendar theme could not be properly initialized. The default "
+"theme has been activated instead. Please visit %s and try reactivating your "
+"theme manually."
+msgstr ""
+
+#: app/controller/front.php:313 app/view/admin/theme-switching.php:54
+#: app/view/admin/theme-switching.php:55
+msgid "Calendar Themes"
+msgstr ""
+
+#: app/controller/front.php:886
+msgid ""
+"Your database is found to be corrupt. Likely previous update has failed. "
+"Please restore All-in-One Event Calendar tables from a backup and retry."
+"<br>Following errors were found:<br>%s"
+msgstr ""
+
+#: app/controller/front.php:1040
+msgid ""
+"You may be using a legacy custom calendar theme. If you have problems "
+"viewing the calendar, please read <a href=\"https://time.ly/\">this article</"
+"a>."
+msgstr ""
+
+#: app/controller/javascript-widget.php:47
+msgid "You must choose the Calendar page before using the Super Widget"
+msgstr ""
+
+#: app/controller/javascript.php:386
+msgid "This feed is already being imported."
+msgstr ""
+
+#: app/controller/javascript.php:389
+msgid "Please enter a valid iCalendar URL."
+msgstr ""
+
+#: app/controller/javascript.php:392
+msgid "Please enter a valid email address."
+msgstr ""
+
+#: app/controller/javascript.php:394
+msgid "Choose Image"
+msgstr ""
+
+#: app/controller/javascript.php:397
+msgid "The value you have entered is not a valid CSS length."
+msgstr ""
+
+#: app/controller/javascript.php:400
+msgid ""
+"Are you sure you want to reset your theme options to their default values?"
+msgstr ""
+
+#: app/controller/javascript.php:403
+msgid ""
+"Please enter a valid latitude. A valid latitude is comprised between +90 and "
+"-90."
+msgstr ""
+
+#: app/controller/javascript.php:406
+msgid ""
+"Please enter a valid longitude. A valid longitude is comprised between +180 "
+"and -180."
+msgstr ""
+
+#: app/controller/javascript.php:409
+msgid ""
+"When the \"Input coordinates\" checkbox is checked, \"Latitude\" is a "
+"required field."
+msgstr ""
+
+#: app/controller/javascript.php:412
+msgid ""
+"When the \"Input coordinates\" checkbox is checked, \"Longitude\" is a "
+"required field."
+msgstr ""
+
+#: app/controller/javascript.php:415
+msgid ""
+"The URL you have entered in the <b>Organizer Contact Info</b> &gt; "
+"<b>External URL</b> seems to be invalid."
+msgstr ""
+
+#: app/controller/javascript.php:418
+msgid ""
+"The URL you have entered in the <b>Event Cost and Tickets</b> &gt; <b>Buy "
+"Tickets URL</b> seems to be invalid."
+msgstr ""
+
+#: app/controller/javascript.php:421
+msgid ""
+"Please remember that URLs must start with either \"http://\" or \"https://\"."
+msgstr ""
+
+#: app/controller/javascript.php:451 app/view/admin/widget-creator.php:131
+msgid "Preview:"
+msgstr ""
+
+#: app/controller/javascript.php:452
+msgid ""
+"Loading preview&nbsp;<i class=\"ai1ec-fa ai1ec-fa-spin ai1ec-fa-spinner\"></"
+"i>"
+msgstr ""
+
+#: app/controller/javascript.php:456
+msgid ""
+"Something went wrong while fetching events.<br>The request status is: %STATUS"
+"% <br>The error thrown was: %ERROR%"
+msgstr ""
+
+#: app/model/event/parent.php:186
+msgid "Edit &#8220;%s&#8221;"
+msgstr ""
+
+#: app/model/event/parent.php:193
+msgid "Base Event"
+msgstr ""
+
+#: app/model/settings.php:345
+#: lib/html/element/setting/calendar-page-selector.php:50
+msgid "Calendar page"
+msgstr ""
+
+#: app/model/settings.php:355
+msgid "Week starts on"
+msgstr ""
+
+#: app/model/settings.php:368
+msgid "Available views"
+msgstr ""
+
+#: app/model/settings.php:376
+msgid "Agenda"
+msgid_plural "Agenda"
+msgstr[0] ""
+msgstr[1] ""
+
+#: app/model/settings.php:387
+msgid "Day"
+msgid_plural "Day"
+msgstr[0] ""
+msgstr[1] ""
+
+#: app/model/settings.php:398
+msgid "Month"
+msgid_plural "Month"
+msgstr[0] ""
+msgstr[1] ""
+
+#: app/model/settings.php:409
+msgid "Week"
+msgid_plural "Week"
+msgstr[0] ""
+msgstr[1] ""
+
+#: app/model/settings.php:423
+msgid "Timezone"
+msgstr ""
+
+#: app/model/settings.php:436
+msgid "Preselected calendar filters"
+msgstr ""
+
+#: app/model/settings.php:437 app/view/calendar/widget.php:128
+msgid ""
+"To clear, hold &#8984;/<abbr class=\"initialism\">CTRL</abbr> and click "
+"selection."
+msgstr ""
+
+#: app/model/settings.php:452
+msgid "Default calendar start date (optional)"
+msgstr ""
+
+#: app/model/settings.php:463
+msgid "Agenda pages show at most"
+msgstr ""
+
+#: app/model/settings.php:476
+msgid "Week/Day view starts at"
+msgstr ""
+
+#: app/model/settings.php:489
+msgid "Week/Day view ends at"
+msgstr ""
+
+#: app/model/settings.php:502
+msgid "<strong>Word-wrap event stubs</strong> in Month view"
+msgstr ""
+
+#: app/model/settings.php:505
+msgid "Only applies to events that span a single day."
+msgstr ""
+
+#: app/model/settings.php:517
+msgid ""
+"In <span class=\"ai1ec-tooltip-toggle\"\n"
+"\t\t\t\t\t\tdata-original-title=\"These include Agenda view,\n"
+"\t\t\t\t\t\tthe Upcoming Events widget, and some extended views.\">\n"
+"\t\t\t\t\t\tAgenda-like views</span>, <strong>include all events\n"
+"\t\t\t\t\t\tfrom last day shown</strong>"
+msgstr ""
+
+#: app/model/settings.php:533
+msgid "Keep all events <strong>expanded</strong> in Agenda view"
+msgstr ""
+
+#: app/model/settings.php:545
+msgid "<strong>Show year</strong> in calendar date labels"
+msgstr ""
+
+#: app/model/settings.php:557
+msgid "<strong>Show location in event titles</strong> in calendar views"
+msgstr ""
+
+#: app/model/settings.php:569
+msgid "<strong>Exclude</strong> events from search results"
+msgstr ""
+
+#: app/model/settings.php:581
+msgid ""
+"Hide <strong>Subscribe</strong>/<strong>Add to Calendar</strong> buttons in "
+"calendar and single event views "
+msgstr ""
+
+#: app/model/settings.php:593
+msgid " Hide <strong>Google Maps</strong> until clicked"
+msgstr ""
+
+#: app/model/settings.php:605
+msgid ""
+" <strong>Affix filter menu</strong> to top of window when it scrolls out of "
+"view"
+msgstr ""
+
+#: app/model/settings.php:608
+msgid "Only applies to first visible calendar found on the page."
+msgstr ""
+
+#: app/model/settings.php:620
+msgid "Offset affixed filter bar vertically by"
+msgstr ""
+
+#: app/model/settings.php:635
+msgid "Wide screens only (&#8805; 1200px)"
+msgstr ""
+
+#: app/model/settings.php:650
+msgid "Tablets only (< 980px)"
+msgstr ""
+
+#: app/model/settings.php:665
+msgid "Phones only (< 768px)"
+msgstr ""
+
+#: app/model/settings.php:678
+msgid "Strict compatibility content filtering"
+msgstr ""
+
+#: app/model/settings.php:690
+msgid " <strong>Hide featured image</strong> from event details page"
+msgstr ""
+
+#: app/model/settings.php:693
+msgid ""
+"Select this option if your theme already displays each post's featured image."
+msgstr ""
+
+#: app/model/settings.php:704
+msgid "Input dates in this format"
+msgstr ""
+
+#: app/model/settings.php:709
+msgid "Default (d/m/yyyy)"
+msgstr ""
+
+#: app/model/settings.php:713
+msgid "US (m/d/yyyy)"
+msgstr ""
+
+#: app/model/settings.php:717
+msgid "ISO 8601 (yyyy-m-d)"
+msgstr ""
+
+#: app/model/settings.php:721
+msgid "Dotted (m.d.yyyy)"
+msgstr ""
+
+#: app/model/settings.php:733
+msgid " Use <strong>24h time</strong> in time pickers"
+msgstr ""
+
+#: app/model/settings.php:744
+msgid "<strong>Disable address autocomplete</strong> function"
+msgstr ""
+
+#: app/model/settings.php:755
+msgid ""
+"Use the configured <strong>region</strong> (WordPress locale) to bias the "
+"address autocomplete function "
+msgstr ""
+
+#: app/model/settings.php:771
+msgid ""
+" Show the old <strong>Post Your Event</strong> button above the calendar to "
+"privileged users"
+msgstr ""
+
+#: app/model/settings.php:774
+msgid ""
+"Install the <a target=\"_blank\" href=\"http://time.ly/\">Interactive "
+"Frontend Extension</a> for the <strong>frontend Post Your Event form</"
+"strong>."
+msgstr ""
+
+#: app/model/settings.php:795
+msgid "Move calendar into this DOM element"
+msgstr ""
+
+#: app/model/settings.php:797
+msgid ""
+"Optional. Use this JavaScript-based shortcut to place the\n"
+"\t\t\t\t\t\tcalendar a DOM element other than the usual page content "
+"container\n"
+"\t\t\t\t\t\tif you are unable to create an appropriate page template\n"
+"\t\t\t\t\t\t for the calendar page. To use, enter a\n"
+"\t\t\t\t\t\t<a target=\"_blank\" href=\"http://api.jquery.com/category/"
+"selectors/\">\n"
+"\t\t\t\t\t\tjQuery selector</a> that evaluates to a single DOM element.\n"
+"\t\t\t\t\t\tAny existing markup found within the target will be replaced\n"
+"\t\t\t\t\t\tby the calendar."
+msgstr ""
+
+#: app/model/settings.php:816
+msgid ""
+"<strong>Skip <tt>in_the_loop()</tt> check </strong> that protects against "
+"multiple calendar output"
+msgstr ""
+
+#: app/model/settings.php:819
+msgid ""
+"Try enabling this option if your calendar does not appear on the calendar "
+"page. It is needed for compatibility with a small number of themes that call "
+"<tt>the_content()</tt> from outside of The Loop. Leave disabled otherwise."
+msgstr ""
+
+#: app/model/settings.php:831
+msgid "Disable <strong>gzip</strong> compression."
+msgstr ""
+
+#: app/model/settings.php:834
+msgid ""
+"Use this option if calendar is unresponsive. <a href=\"http://support.time."
+"ly/disable-gzip-compression/\">Read more</a> about the issue. (From version "
+"2.1 onwards, gzip is disabled by default for maximum compatibility.)"
+msgstr ""
+
+#: app/model/settings.php:846
+msgid ""
+"<strong>Link CSS</strong> in <code>&lt;head&gt;</code> section when file "
+"cache is unavailable."
+msgstr ""
+
+#: app/model/settings.php:849
+msgid ""
+"Use this option if file cache is unavailable and you would prefer to serve "
+"CSS as a link rather than have it output inline."
+msgstr ""
+
+#: app/model/settings.php:861
+msgid "Current <strong>robots.txt</strong> on this site"
+msgstr ""
+
+#: app/model/settings.php:865
+msgid ""
+"The Robot Exclusion Standard, also known as the Robots Exclusion Protocol "
+"or\n"
+"\t\t\t\t\t\t<code><a href=\"http://en.wikipedia.org/wiki/Robots.txt\" target="
+"\"_blank\">robots.txt</a></code>\n"
+"\t\t\t\t\t\tprotocol, is a convention for cooperating web crawlers and other "
+"web robots\n"
+"\t\t\t\t\t\tabout accessing all or part of a website that is otherwise "
+"publicly viewable.\n"
+"\t\t\t\t\t\tYou can change it manually by editing <code>robots.txt</code> in "
+"your root WordPress directory."
+msgstr ""
+
+#: app/model/settings.php:882
+msgid ""
+"<strong>Publicize, promote, and share my events</strong> marked as public on "
+"the Timely network. (<a href=\"%s\" target=\"_blank\">Learn more &#187;</a>)"
+msgstr ""
+
+#: app/model/settings.php:905
+msgid "Templates cache improves site performance"
+msgstr ""
+
+#: app/view/admin/add-new-event.php:26
+msgid "Event Details"
+msgstr ""
+
+#: app/view/admin/add-new-event.php:47
+msgid "Banner Image"
+msgstr ""
+
+#: app/view/admin/add-new-event.php:377
+msgid "Set banner image"
+msgstr ""
+
+#: app/view/admin/add-new-event.php:378
+msgid "Remove banner image"
+msgstr ""
+
+#: app/view/admin/add-ons.php:68
+msgid "Add-ons for All In One Event Calendar"
+msgstr ""
+
+#: app/view/admin/add-ons.php:71
+msgid "Browse All Extensions"
+msgstr ""
+
+#: app/view/admin/add-ons.php:74
+msgid ""
+"These add-ons extend the functionality of the All-in-One Event Calendar."
+msgstr ""
+
+#: app/view/admin/add-ons.php:77
+msgid ""
+"There was an error retrieving the extensions list from the server. Please "
+"try again later."
+msgstr ""
+
+#: app/view/admin/all-events.php:16
+msgid "Author"
+msgstr ""
+
+#: app/view/admin/all-events.php:17
+msgid "Post Date"
+msgstr ""
+
+#: app/view/admin/all-events.php:18
+msgid "Event date/time"
+msgstr ""
+
+#: app/view/admin/all-events.php:100
+msgid "Show All "
+msgstr ""
+
+#: app/view/admin/calendar-feeds.php:27 app/view/admin/calendar-feeds.php:28
+msgid "Calendar Feeds"
+msgstr ""
+
+#: app/view/admin/calendar-feeds.php:48
+msgctxt "meta box"
+msgid "Feed Subscriptions"
+msgstr ""
+
+#: app/view/admin/calendar-feeds.php:65
+msgid "All-in-One Event Calendar: Calendar Feeds"
+msgstr ""
+
+#: app/view/admin/event-category.php:30
+msgid "Color"
+msgstr ""
+
+#: app/view/admin/event-category.php:32
+msgid "Image"
+msgstr ""
+
+#: app/view/admin/event-category.php:160 app/view/admin/event-category.php:214
+msgid "Category Color"
+msgstr ""
+
+#: app/view/admin/event-category.php:161 app/view/admin/event-category.php:216
+msgid "Events in this category will be identified by this color"
+msgstr ""
+
+#: app/view/admin/event-category.php:184 app/view/admin/event-category.php:235
+msgid "Category Image"
+msgstr ""
+
+#: app/view/admin/event-category.php:185 app/view/admin/event-category.php:236
+msgid "Add Image"
+msgstr ""
+
+#: app/view/admin/event-category.php:186 app/view/admin/event-category.php:215
+msgid "Remove Image"
+msgstr ""
+
+#: app/view/admin/event-category.php:187 app/view/admin/event-category.php:237
+msgid ""
+"Assign an optional image to the category. Recommended size: square, minimum "
+"400&times;400 pixels."
+msgstr ""
+
+#: app/view/admin/get-repeat-box.php:64
+msgid "times"
+msgstr ""
+
+#: app/view/admin/get-repeat-box.php:130
+msgid "Recurrence rule cannot be empty."
+msgstr ""
+
+#: app/view/admin/get-repeat-box.php:142
+msgid "Recurrence rule was not provided."
+msgstr ""
+
+#: app/view/admin/get-repeat-box.php:169
+msgid "Never"
+msgstr ""
+
+#: app/view/admin/get-repeat-box.php:170
+msgid "After"
+msgstr ""
+
+#: app/view/admin/get-repeat-box.php:171 public/admin/box_repeat.php:84
+msgid "On date"
+msgstr ""
+
+#: app/view/admin/get-repeat-box.php:207
+msgid "day(s)"
+msgstr ""
+
+#: app/view/admin/get-repeat-box.php:272
+msgid "week(s)"
+msgstr ""
+
+#: app/view/admin/get-repeat-box.php:357 app/view/admin/get-repeat-box.php:424
+#: lib/recurrence/rule.php:260
+msgid "last"
+msgstr ""
+
+#: app/view/admin/get-repeat-box.php:365
+msgid "month(s)"
+msgstr ""
+
+#: app/view/admin/get-repeat-box.php:419
+msgid "first"
+msgstr ""
+
+#: app/view/admin/get-repeat-box.php:420
+msgid "second"
+msgstr ""
+
+#: app/view/admin/get-repeat-box.php:421
+msgid "third"
+msgstr ""
+
+#: app/view/admin/get-repeat-box.php:422
+msgid "fourth"
+msgstr ""
+
+#: app/view/admin/get-repeat-box.php:434
+msgid "Sunday"
+msgstr ""
+
+#: app/view/admin/get-repeat-box.php:435
+msgid "Monday"
+msgstr ""
+
+#: app/view/admin/get-repeat-box.php:436
+msgid "Tuesday"
+msgstr ""
+
+#: app/view/admin/get-repeat-box.php:437
+msgid "Wednesday"
+msgstr ""
+
+#: app/view/admin/get-repeat-box.php:438
+msgid "Thursday"
+msgstr ""
+
+#: app/view/admin/get-repeat-box.php:439
+msgid "Friday"
+msgstr ""
+
+#: app/view/admin/get-repeat-box.php:440
+msgid "Saturday"
+msgstr ""
+
+#: app/view/admin/get-repeat-box.php:442
+msgid "day"
+msgstr ""
+
+#: app/view/admin/get-repeat-box.php:443
+msgid "weekday"
+msgstr ""
+
+#: app/view/admin/get-repeat-box.php:444
+msgid "weekend day"
+msgstr ""
+
+#: app/view/admin/get-repeat-box.php:510
+msgid "year(s)"
+msgstr ""
+
+#: app/view/admin/nav.php:22
+msgid "<a href=\"%s\">Settings</a>"
+msgstr ""
+
+#: app/view/admin/settings.php:30
+msgid "All-in-One Event Calendar: Settings"
+msgstr ""
+
+#: app/view/admin/settings.php:65 app/view/admin/settings.php:66
+#: lib/date/timezone.php:366
+msgid "Settings"
+msgstr ""
+
+#: app/view/admin/settings.php:86
+msgctxt "meta box"
+msgid "General Settings"
+msgstr ""
+
+#: app/view/admin/settings.php:95
+msgctxt "meta box"
+msgid "Timely"
+msgstr ""
+
+#: app/view/admin/settings.php:137
+msgid "Viewing Events"
+msgstr ""
+
+#: app/view/admin/settings.php:140
+msgid "Adding/Editing Events"
+msgstr ""
+
+#: app/view/admin/settings.php:143
+msgid "Advanced"
+msgstr ""
+
+#: app/view/admin/settings.php:145
+msgid "Advanced Settings"
+msgstr ""
+
+#: app/view/admin/settings.php:146
+msgid "Shortcodes"
+msgstr ""
+
+#: app/view/admin/settings.php:147
+msgid "Email Templates"
+msgstr ""
+
+#: app/view/admin/settings.php:148
+msgid "External Services"
+msgstr ""
+
+#: app/view/admin/settings.php:149
+msgid "Cache Report"
+msgstr ""
+
+#: app/view/admin/settings.php:167
+#: public/admin/plugins/ics/display_feeds.php:24
+msgid "Save Settings"
+msgstr ""
+
+#: app/view/admin/settings.php:174
+msgid ""
+"If the form below is not working please follow <a href=\"%s\">this link</a>."
+msgstr ""
+
+#: app/view/admin/theme-options.php:50 app/view/admin/theme-options.php:51
+msgid "Theme Options"
+msgstr ""
+
+#: app/view/admin/theme-options.php:60 app/view/admin/theme-options.php:96
+msgid "Calendar Theme Options"
+msgstr ""
+
+#: app/view/admin/theme-options.php:79
+msgctxt "meta box"
+msgid "Calendar Theme Options"
+msgstr ""
+
+#: app/view/admin/theme-options.php:133
+msgid "General"
+msgstr ""
+
+#: app/view/admin/theme-options.php:136
+msgid "Tables"
+msgstr ""
+
+#: app/view/admin/theme-options.php:139
+msgid "Buttons"
+msgstr ""
+
+#: app/view/admin/theme-options.php:142
+msgid "Forms"
+msgstr ""
+
+#: app/view/admin/theme-options.php:145
+msgid "Calendar general"
+msgstr ""
+
+#: app/view/admin/theme-options.php:148
+msgid "Month/week/day view"
+msgstr ""
+
+#: app/view/admin/theme-options.php:151
+msgid "Agenda view"
+msgstr ""
+
+#: app/view/admin/theme-options.php:169
+msgid "Save Options"
+msgstr ""
+
+#: app/view/admin/theme-options.php:177
+msgid "Reset to Defaults"
+msgstr ""
+
+#: app/view/admin/theme-switching.php:31
+msgid "All-in-One Event Calendar: Themes"
+msgstr ""
+
+#: app/view/admin/widget-creator.php:24 app/view/admin/widget-creator.php:25
+#: app/view/admin/widget-creator.php:47
+msgid "Widget Creator"
+msgstr ""
+
+#: app/view/admin/widget-creator.php:74
+msgctxt "meta box"
+msgid "Widget Creator"
+msgstr ""
+
+#: app/view/admin/widget-creator.php:130
+msgid ""
+"Use this tool to generate code snippets you can place on your site to embed "
+"new calendars and widgets."
+msgstr ""
+
+#: app/view/admin/widget-creator.php:132
+msgid "Full Calendar"
+msgstr ""
+
+#: app/view/admin/widget-creator.php:133
+msgid "Paste this code onto your site:"
+msgstr ""
+
+#: app/view/admin/widget-creator.php:134
+msgid ""
+"This code will update to reflect changes made to the settings. Changing "
+"settings will not affect previously embedded widgets."
+msgstr ""
+
+#: app/view/calendar/page.php:49
+msgid ""
+"There was an error loading calendar. Please contact site administrator and "
+"inform him to configure calendar views."
+msgstr ""
+
+#: app/view/calendar/page.php:66
+msgid ""
+"Calendar was unable to initialize %s view and has reverted to Agenda view. "
+"Please check if you have installed the latest versions of calendar add-ons."
+msgstr ""
+
+#: app/view/calendar/page.php:234
+msgid "Subscribe to filtered calendar"
+msgstr ""
+
+#: app/view/calendar/page.php:235
+msgid "Subscribe"
+msgstr ""
+
+#: app/view/calendar/subscribe-button.php:21
+msgid "Subscribe in your personal calendar"
+msgstr ""
+
+#: app/view/calendar/subscribe-button.php:23
+msgid "Add to Timely Calendar"
+msgstr ""
+
+#: app/view/calendar/subscribe-button.php:24
+msgid "Add to Google"
+msgstr ""
+
+#: app/view/calendar/subscribe-button.php:25
+msgid "Add to Outlook"
+msgstr ""
+
+#: app/view/calendar/subscribe-button.php:26
+msgid "Add to Apple Calendar"
+msgstr ""
+
+#: app/view/calendar/subscribe-button.php:27
+msgid "Add to other calendar"
+msgstr ""
+
+#: app/view/calendar/subscribe-button.php:30
+msgid ""
+"Copy this URL for your own Timely calendar or click to add to your rich-text "
+"calendar"
+msgstr ""
+
+#: app/view/calendar/subscribe-button.php:31
+msgid "Subscribe to this calendar in your Google Calendar"
+msgstr ""
+
+#: app/view/calendar/subscribe-button.php:32
+msgid "Subscribe to this calendar in MS Outlook"
+msgstr ""
+
+#: app/view/calendar/subscribe-button.php:33
+msgid "Subscribe to this calendar in Apple Calendar/iCal"
+msgstr ""
+
+#: app/view/calendar/subscribe-button.php:34
+msgid "Subscribe to this calendar in another plain-text calendar"
+msgstr ""
+
+#: app/view/calendar/taxonomy.php:97
+msgid "Clear category filter"
+msgstr ""
+
+#: app/view/calendar/taxonomy.php:98 app/view/event/single.php:106
+#: lib/html/element/setting/tags-categories.php:47
+msgid "Categories"
+msgstr ""
+
+#: app/view/calendar/taxonomy.php:99
+msgid "Clear tag filter"
+msgstr ""
+
+#: app/view/calendar/taxonomy.php:100 app/view/event/single.php:107
+#: lib/html/element/setting/tags-categories.php:39
+msgid "Tags"
+msgstr ""
+
+#: app/view/calendar/view/agenda.php:113
+msgid "Collapse All"
+msgstr ""
+
+#: app/view/calendar/view/agenda.php:114
+msgid "Expand All"
+msgstr ""
+
+#: app/view/calendar/view/agenda.php:137
+msgid "There are no upcoming events to display at this time."
+msgstr ""
+
+#: app/view/calendar/view/agenda.php:138 app/view/calendar/widget.php:363
+msgid "Edit"
+msgstr ""
+
+#: app/view/calendar/view/agenda.php:139
+msgid "Read more"
+msgstr ""
+
+#: app/view/calendar/view/agenda.php:140
+msgid "Categories:"
+msgstr ""
+
+#: app/view/calendar/view/agenda.php:141 lib/theme/list.php:323
+#: public/admin/themes.php:29
+msgid "Tags:"
+msgstr ""
+
+#: app/view/calendar/view/agenda.php:142 app/view/calendar/view/month.php:82
+#: app/view/calendar/view/oneday.php:102 app/view/calendar/view/week.php:113
+#: app/view/calendar/widget.php:364
+msgid "@ %s"
+msgstr ""
+
+#: app/view/calendar/view/oneday.php:75 app/view/calendar/view/week.php:67
+msgid "g a"
+msgstr ""
+
+#: app/view/calendar/view/oneday.php:99 app/view/calendar/view/week.php:110
+msgid "Reveal full day"
+msgstr ""
+
+#: app/view/calendar/view/oneday.php:100 app/view/calendar/view/week.php:111
+msgid "All-day"
+msgstr ""
+
+#: app/view/calendar/view/oneday.php:101 app/view/calendar/view/week.php:112
+msgid "Now:"
+msgstr ""
+
+#: app/view/calendar/view/week.php:61
+msgid "Week of %s"
+msgstr ""
+
+#: app/view/calendar/widget.php:36 app/view/calendar/widget.php:56
+msgid "Upcoming Events"
+msgstr ""
+
+#: app/view/calendar/widget.php:38
+msgid "All-in-One Event Calendar: Lists upcoming events in Agenda view"
+msgstr ""
+
+#: app/view/calendar/widget.php:80
+msgid "Choose how to limit the upcoming events"
+msgstr ""
+
+#: app/view/calendar/widget.php:86 lib/post/custom-type.php:37
+msgid "Events"
+msgstr ""
+
+#: app/view/calendar/widget.php:93
+msgid "Days"
+msgstr ""
+
+#: app/view/calendar/widget.php:106
+msgid "Number of events to show"
+msgstr ""
+
+#: app/view/calendar/widget.php:115
+msgid "Number of days to show"
+msgstr ""
+
+#: app/view/calendar/widget.php:124
+msgid "Show events filtered for the following tags/categories"
+msgstr ""
+
+#: app/view/calendar/widget.php:141
+msgid "Show the subscribe button in the widget"
+msgstr ""
+
+#: app/view/calendar/widget.php:360
+msgid "There are no upcoming events."
+msgstr ""
+
+#: app/view/calendar/widget.php:361 app/view/event/time.php:131
+msgid "all-day"
+msgstr ""
+
+#: app/view/calendar/widget.php:362
+msgid "View Calendar"
+msgstr ""
+
+#: app/view/calendar/widget.php:365
+msgid "Add"
+msgstr ""
+
+#: app/view/event/content.php:33 app/view/event/single.php:101
+msgid "When:"
+msgstr ""
+
+#: app/view/event/content.php:34 app/view/event/single.php:102
+msgid "Where:"
+msgstr ""
+
+#: app/view/event/content.php:125
+msgid "Back to Calendar"
+msgstr ""
+
+#: app/view/event/content.php:126
+msgid "View all events"
+msgstr ""
+
+#: app/view/event/location.php:96
+msgid "Click to view map"
+msgstr ""
+
+#: app/view/event/location.php:97
+msgid "View Full-Size Map"
+msgstr ""
+
+#: app/view/event/post.php:29
+msgid "Event updated. <a href=\"%s\">View event</a>"
+msgstr ""
+
+#: app/view/event/post.php:32
+msgid "Custom field updated."
+msgstr ""
+
+#: app/view/event/post.php:33
+msgid "Custom field deleted."
+msgstr ""
+
+#: app/view/event/post.php:34
+msgid "Event updated."
+msgstr ""
+
+#. translators: %s: date and time of the revision
+#: app/view/event/post.php:38
+msgid "Event restored to revision from %s"
+msgstr ""
+
+#: app/view/event/post.php:43
+msgid "Event published. <a href=\"%s\">View event</a>"
+msgstr ""
+
+#: app/view/event/post.php:46
+msgid "Event saved."
+msgstr ""
+
+#: app/view/event/post.php:48
+msgid "Event submitted. <a target=\"_blank\" href=\"%s\">Preview event</a>"
+msgstr ""
+
+#: app/view/event/post.php:52
+msgid ""
+"Event scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s"
+"\">Preview event</a>"
+msgstr ""
+
+#. translators: Publish box date format, see http:php.net/date
+#: app/view/event/post.php:54
+msgid "M j, Y @ G:i"
+msgstr ""
+
+#: app/view/event/post.php:58
+msgid "Event draft updated. <a target=\"_blank\" href=\"%s\">Preview event</a>"
+msgstr ""
+
+#: app/view/event/single.php:65
+msgid "Event was created in the %s time zone"
+msgstr ""
+
+#: app/view/event/single.php:97
+msgid "Add to Calendar"
+msgstr ""
+
+#: app/view/event/single.php:103
+msgid "Cost:"
+msgstr ""
+
+#: app/view/event/single.php:104
+msgid "Contact:"
+msgstr ""
+
+#: app/view/event/single.php:105
+msgid "Free"
+msgstr ""
+
+#: app/view/event/single.php:122
+msgid "Edit this occurrence (%s)"
+msgstr ""
+
+#: app/view/event/single.php:140
+msgid ""
+"This post was replicated from another site's <a class=\"ai1ec-ics-icon\" "
+"href=\"%s\" title=\"iCalendar feed\">calendar feed</a>."
+msgstr ""
+
+#: app/view/event/single.php:141
+msgid "View original post"
+msgstr ""
+
+#: app/view/event/taxonomy.php:117
+msgid "Category image"
+msgstr ""
+
+#: app/view/event/ticket.php:24
+msgid "Register Now"
+msgstr ""
+
+#: app/view/event/ticket.php:25
+msgid "Register"
+msgstr ""
+
+#: app/view/event/ticket.php:38
+msgid "Buy Tickets"
+msgstr ""
+
+#: app/view/event/ticket.php:39
+msgid "Tickets"
+msgstr ""
+
+#: app/view/event/ticket.php:71
+msgid "Email"
+msgstr ""
+
+#: app/view/event/ticket.php:82
+msgid "Event website"
+msgstr ""
+
+#: app/view/event/time.php:83 app/view/event/time.php:117
+msgctxt "Event time separator"
+msgid " @ "
+msgstr ""
+
+#: app/view/event/time.php:99
+msgctxt "Event start/end separator"
+msgid " – "
+msgstr ""
+
+#: app/view/event/time.php:160
+msgid ", and "
+msgstr ""
+
+#: lib/calendar-feed/ics.php:38
+msgid "ICS"
+msgstr ""
+
+#: lib/calendar-feed/ics.php:69
+msgid "Another import process in progress. Please try again later."
+msgstr ""
+
+#: lib/calendar-feed/ics.php:173
+msgid ""
+"A system error has prevented calendar data from being fetched. Something is "
+"preventing the plugin from functioning correctly. This message should "
+"provide a clue: %s"
+msgstr ""
+
+#: lib/calendar-feed/ics.php:180
+msgid ""
+"Calendar data could not be fetched. If your URL is valid and contains an "
+"iCalendar resource, this is likely the result of a temporary server error "
+"and time may resolve this issue"
+msgstr ""
+
+#: lib/calendar-feed/ics.php:190
+msgid "No events were found"
+msgstr ""
+
+#: lib/calendar-feed/ics.php:199
+msgid "Imported %s event"
+msgid_plural "Imported %s events"
+msgstr[0] ""
+msgstr[1] ""
+
+#: lib/calendar-feed/ics.php:205 lib/calendar-feed/ics.php:654
+msgid "Invalid ICS feed ID"
+msgstr ""
+
+#: lib/calendar-feed/ics.php:348
+msgid "Categories (optional)"
+msgstr ""
+
+#: lib/calendar-feed/ics.php:365
+msgid ""
+"Do you want to keep the events imported from the calendar or remove them?"
+msgstr ""
+
+#: lib/calendar-feed/ics.php:371
+msgid "Removing ICS Feed"
+msgstr ""
+
+#: lib/calendar-feed/ics.php:374
+msgid "Keep Events"
+msgstr ""
+
+#: lib/calendar-feed/ics.php:377
+msgid "Remove Events"
+msgstr ""
+
+#: lib/calendar-feed/ics.php:646
+msgid "Deleted %d events"
+msgstr ""
+
+#: lib/calendar-feed/ics.php:681
+msgid "Feed deleted"
+msgstr ""
+
+#: lib/captcha/validator.php:24
+msgid ""
+"There was an error reading the word verification data. Please try again."
+msgstr ""
+
+#: lib/captcha/validator.php:37
+msgid "Please try answering the word verification again."
+msgstr ""
+
+#: lib/clone/renderer-helper.php:26 lib/clone/renderer-helper.php:27
+#: lib/clone/renderer-helper.php:45
+msgid "Clone"
+msgstr ""
+
+#: lib/clone/renderer-helper.php:44
+msgid "Make new copy of event"
+msgstr ""
+
+#: lib/clone/renderer-helper.php:47
+msgid "Copy to a new draft"
+msgstr ""
+
+#: lib/clone/renderer-helper.php:48
+msgid "Clone to Draft"
+msgstr ""
+
+#: lib/command/clone.php:166
+msgid ""
+"<p>The event <strong>%s</strong> was cloned succesfully. <a href=\"%s\">Edit "
+"cloned event</a></p>"
+msgstr ""
+
+#: lib/css/frontend.php:232
+msgid ""
+"The LESS file compiled correctly but there was an error while saving the "
+"generated CSS to persistence."
+msgstr ""
+
+#: lib/css/frontend.php:238
+msgid ""
+"<p><strong>There was an error while compiling CSS.</strong> The message "
+"returned was: <em>%s</em></p>"
+msgstr ""
+
+#: lib/css/frontend.php:266
+msgid ""
+"Theme options were successfully reset to their default values. <a "
+"href='%s'>Visit site</a>"
+msgstr ""
+
+#: lib/css/frontend.php:273
+msgid "Theme options were updated successfully. <a href='%s'>Visit site</a>"
+msgstr ""
+
+#: lib/css/frontend.php:309
+msgid ""
+"Your CSS is being compiled on every request, which causes your calendar to "
+"perform slowly. The following error occurred: %s"
+msgstr ""
+
+#: lib/database/applicator.php:182
+msgid "Date columns in table %s have different types."
+msgstr ""
+
+#: lib/database/exception/database.php:19
+msgid ""
+"Database update has failed. Please make sure, that database user, defined in "
+"<em>wp-config.php</em> has permissions, to make changes (<strong>ALTER "
+"TABLE</strong>) to the database."
+msgstr ""
+
+#: lib/database/exception/database.php:23
+msgid "Error encountered: %s"
+msgstr ""
+
+#: lib/date/system.php:177
+msgid "GMT%+d:%02d"
+msgstr ""
+
+#: lib/date/timezone.php:362
+msgid "Please select site timezone in %s <em>Timezone</em> dropdown menu."
+msgstr ""
+
+#: lib/date/timezone.php:397
+msgid ""
+"Timezone \"UTC%+d\" is not recognized. Please %suse valid%s timezone name, "
+"until then events will be created in UTC timezone."
+msgstr ""
+
+#: lib/date/timezone.php:421
+msgid "Selected timezone \"UTC%+d\" will be treated as %s."
+msgstr ""
+
+#: lib/date/timezone.php:490
+msgid "Manual Offset"
+msgstr ""
+
+#: lib/date/timezone.php:493
+msgid "Choose your timezone"
+msgstr ""
+
+#: lib/environment/check.php:53
+msgid "Select an option in the <strong>Calendar page</strong> dropdown list."
+msgstr ""
+
+#: lib/environment/check.php:66
+msgid ""
+"The plugin is installed, but has not been configured. <a href=\"%s\">Click "
+"here to set it up now &raquo;</a>"
+msgstr ""
+
+#: lib/environment/check.php:76
+msgid ""
+"The plugin is installed, but has not been configured. Please log in as an "
+"Administrator to set it up."
+msgstr ""
+
+#: lib/environment/check.php:192
+msgid "Addon %s needs to be at least in version %s"
+msgstr ""
+
+#: lib/exception/handler.php:176
+msgid "Disabled add-on \"%s\" due to an error"
+msgstr ""
+
+#: lib/exception/handler.php:393
+msgid "All In One Event Calendar has been disabled due to an error:"
+msgstr ""
+
+#: lib/exception/handler.php:401
+msgid ""
+"<p>If you corrected the error and wish to try reactivating the plugin, <a "
+"href=\"%s\">click here</a>.</p>"
+msgstr ""
+
+#: lib/factory/html.php:128
+msgid "Choose a date using calendar"
+msgstr ""
+
+#: lib/factory/html.php:270
+msgid "Tags (optional)"
+msgstr ""
+
+#: lib/html/element/setting/cache.php:38
+msgid "Check again"
+msgstr ""
+
+#: lib/html/element/setting/cache.php:39
+msgid "Templates cache is not writable"
+msgstr ""
+
+#: lib/html/element/setting/cache.php:40
+msgid "Templates cache is writable"
+msgstr ""
+
+#: lib/html/element/setting/cache.php:41
+msgid "Checking..."
+msgstr ""
+
+#: lib/html/element/setting/cache.php:42
+msgid "Performance Report"
+msgstr ""
+
+#: lib/html/element/setting/calendar-page-selector.php:70
+msgid "View"
+msgstr ""
+
+#: lib/html/element/setting/calendar-page-selector.php:114
+msgid "- Auto-Create New Page -"
+msgstr ""
+
+#: lib/html/element/setting/enabled-views.php:22
+msgid "Enabled"
+msgstr ""
+
+#: lib/html/element/setting/enabled-views.php:23
+msgid "Default"
+msgstr ""
+
+#: lib/html/element/setting/enabled-views.php:24
+msgid "Desktop"
+msgstr ""
+
+#: lib/html/element/setting/enabled-views.php:25
+msgid "Mobile"
+msgstr ""
+
+#: lib/html/element/setting/html.php:37
+msgid "Embed the calendar using a shortcode"
+msgstr ""
+
+#: lib/html/element/setting/html.php:38
+msgid ""
+"Insert one of these shortcodes into your page body to embed the calendar "
+"into any arbitrary WordPress Page:"
+msgstr ""
+
+#: lib/html/element/setting/html.php:39
+msgid "Month view:"
+msgstr ""
+
+#: lib/html/element/setting/html.php:40
+msgid "Week view:"
+msgstr ""
+
+#: lib/html/element/setting/html.php:41
+msgid "Day view:"
+msgstr ""
+
+#: lib/html/element/setting/html.php:42
+msgid "Agenda view:"
+msgstr ""
+
+#: lib/html/element/setting/html.php:43
+msgid "Some Other view:"
+msgstr ""
+
+#: lib/html/element/setting/html.php:44
+msgid "Default view as per settings:"
+msgstr ""
+
+#: lib/html/element/setting/html.php:45
+msgid "General form:"
+msgstr ""
+
+#: lib/html/element/setting/html.php:46
+msgid "Optional."
+msgstr ""
+
+#: lib/html/element/setting/html.php:47
+msgid ""
+"Add options to display a filtered calender. (You can find out category and "
+"tag IDs by inspecting the URL of your filtered calendar page.)"
+msgstr ""
+
+#: lib/html/element/setting/html.php:48
+msgid "Filter by event category name/slug:"
+msgstr ""
+
+#: lib/html/element/setting/html.php:49
+msgid "Holidays"
+msgstr ""
+
+#: lib/html/element/setting/html.php:50
+msgid "Lunar Cycles"
+msgstr ""
+
+#: lib/html/element/setting/html.php:51
+msgid "zodiac-date-ranges"
+msgstr ""
+
+#: lib/html/element/setting/html.php:52
+msgid "Filter by event category names/slugs (separate names by comma):"
+msgstr ""
+
+#: lib/html/element/setting/html.php:53
+msgid "Filter by event category ID:"
+msgstr ""
+
+#: lib/html/element/setting/html.php:54
+msgid "Filter by event category IDs (separate IDs by comma):"
+msgstr ""
+
+#: lib/html/element/setting/html.php:55
+msgid "Filter by event tag name/slug:"
+msgstr ""
+
+#: lib/html/element/setting/html.php:56
+msgid "tips-and-tricks"
+msgstr ""
+
+#: lib/html/element/setting/html.php:57
+msgid "creative writing"
+msgstr ""
+
+#: lib/html/element/setting/html.php:58
+msgid "performing arts"
+msgstr ""
+
+#: lib/html/element/setting/html.php:59
+msgid "Filter by event tag names/slugs (separate names by comma):"
+msgstr ""
+
+#: lib/html/element/setting/html.php:60
+msgid "Filter by event tag ID:"
+msgstr ""
+
+#: lib/html/element/setting/html.php:61
+msgid "Filter by event tag IDs (separate IDs by comma):"
+msgstr ""
+
+#: lib/html/element/setting/html.php:62
+msgid "Filter by post ID:"
+msgstr ""
+
+#: lib/html/element/setting/html.php:63
+msgid "Filter by post IDs (separate IDs by comma):"
+msgstr ""
+
+#: lib/html/element/setting/html.php:64
+msgid "Limit number of events per page:"
+msgstr ""
+
+#: lib/html/element/setting/html.php:65
+msgid "Warning:"
+msgstr ""
+
+#: lib/html/element/setting/html.php:66
+msgid ""
+"It is currently not supported to embed more than one calendar in the same "
+"page. Do not attempt to embed the calendar via shortcode in a page that "
+"already displays the calendar."
+msgstr ""
+
+#: lib/less/variable/font.php:64
+msgid "Custom..."
+msgstr ""
+
+#: lib/less/variable/font.php:112
+msgid "Enter custom font(s)"
+msgstr ""
+
+#: lib/less/variable/size.php:26
+msgid "Length"
+msgstr ""
+
+#: lib/notification/admin.php:180
+msgid "All-in-One Event Calendar"
+msgstr ""
+
+#: lib/post/custom-type.php:26
+msgctxt "Custom post type name"
+msgid "Events"
+msgstr ""
+
+#: lib/post/custom-type.php:27
+msgctxt "Custom post type name (singular)"
+msgid "Event"
+msgstr ""
+
+#: lib/post/custom-type.php:28
+msgid "Add New"
+msgstr ""
+
+#: lib/post/custom-type.php:29
+msgid "Add New Event"
+msgstr ""
+
+#: lib/post/custom-type.php:30
+msgid "Edit Event"
+msgstr ""
+
+#: lib/post/custom-type.php:31
+msgid "New Event"
+msgstr ""
+
+#: lib/post/custom-type.php:32
+msgid "View Event"
+msgstr ""
+
+#: lib/post/custom-type.php:33
+msgid "Search Events"
+msgstr ""
+
+#: lib/post/custom-type.php:34
+msgid "No Events found"
+msgstr ""
+
+#: lib/post/custom-type.php:35
+msgid "No Events found in Trash"
+msgstr ""
+
+#: lib/post/custom-type.php:36
+msgid "Parent Event"
+msgstr ""
+
+#: lib/post/custom-type.php:55
+msgid "event"
+msgstr ""
+
+#: lib/post/custom-type.php:85
+msgctxt "Event categories taxonomy"
+msgid "Event Categories"
+msgstr ""
+
+#: lib/post/custom-type.php:86
+msgctxt "Event categories taxonomy (singular)"
+msgid "Event Category"
+msgstr ""
+
+#: lib/post/custom-type.php:93
+msgctxt "Event tags taxonomy"
+msgid "Event Tags"
+msgstr ""
+
+#: lib/post/custom-type.php:94
+msgctxt "Event tags taxonomy (singular)"
+msgid "Event Tag"
+msgstr ""
+
+#: lib/post/custom-type.php:101
+msgctxt "Event feeds taxonomy"
+msgid "Event Feeds"
+msgstr ""
+
+#: lib/post/custom-type.php:102
+msgctxt "Event feed taxonomy (singular)"
+msgid "Event Feed"
+msgstr ""
+
+#: lib/post/custom-type.php:277
+msgid ""
+"All Events <span class=\"update-plugins count-%d\" title=\"%d Pending Events"
+"\"><span class=\"update-count\">%d</span></span>"
+msgstr ""
+
+#: lib/post/custom-type.php:288
+msgid "All Events"
+msgstr ""
+
+#: lib/recurrence/rule.php:206 lib/recurrence/rule.php:215
+#: lib/recurrence/rule.php:223
+msgctxt "Recurrence editor - weekly tab"
+msgid "on"
+msgstr ""
+
+#: lib/recurrence/rule.php:211 lib/recurrence/rule.php:240
+#: lib/recurrence/rule.php:288
+msgid "and"
+msgstr ""
+
+#: lib/recurrence/rule.php:236 lib/recurrence/rule.php:243
+#: lib/recurrence/rule.php:249 lib/recurrence/rule.php:270
+msgctxt "Recurrence editor - monthly tab"
+msgid "on"
+msgstr ""
+
+#: lib/recurrence/rule.php:236 lib/recurrence/rule.php:243
+#: lib/recurrence/rule.php:249
+msgid "of the month"
+msgstr ""
+
+#: lib/recurrence/rule.php:283 lib/recurrence/rule.php:291
+#: lib/recurrence/rule.php:298
+msgctxt "Recurrence editor - yearly tab"
+msgid "on"
+msgstr ""
+
+#: lib/recurrence/rule.php:338 public/admin/box_repeat.php:16
+#: public/admin/cron_freq.php:9
+msgid "Daily"
+msgstr ""
+
+#: lib/recurrence/rule.php:341
+msgid "Every other day"
+msgstr ""
+
+#: lib/recurrence/rule.php:344
+msgid "Every %d days"
+msgstr ""
+
+#: lib/recurrence/rule.php:353 public/admin/box_repeat.php:21
+msgid "Weekly"
+msgstr ""
+
+#: lib/recurrence/rule.php:356
+msgid "Every other week"
+msgstr ""
+
+#: lib/recurrence/rule.php:359
+msgid "Every %d weeks"
+msgstr ""
+
+#: lib/recurrence/rule.php:368 public/admin/box_repeat.php:26
+msgid "Monthly"
+msgstr ""
+
+#: lib/recurrence/rule.php:371
+msgid "Every other month"
+msgstr ""
+
+#: lib/recurrence/rule.php:374
+msgid "Every %d months"
+msgstr ""
+
+#: lib/recurrence/rule.php:383 public/admin/box_repeat.php:31
+msgid "Yearly"
+msgstr ""
+
+#: lib/recurrence/rule.php:386
+msgid "Every other year"
+msgstr ""
+
+#: lib/recurrence/rule.php:389
+msgid "Every %d years"
+msgstr ""
+
+#: lib/recurrence/rule.php:427
+msgid "until %s"
+msgstr ""
+
+#: lib/recurrence/rule.php:437
+msgid "for %d occurrences"
+msgstr ""
+
+#: lib/recurrence/rule.php:441
+msgid "forever"
+msgstr ""
+
+#: lib/robots/helper.php:71
+msgid ""
+"<strong>ERROR:</strong> There was an error connecting to the server, Please "
+"verify the settings are correct."
+msgstr ""
+
+#: lib/robots/helper.php:105
+msgid ""
+"<strong>ERROR:</strong> There was an error storing <strong>robots.txt</"
+"strong> to the server, the file could not be written."
+msgstr ""
+
+#: lib/theme/list.php:152
+msgid ""
+"You only have one theme enabled for this site right now. Visit the Network "
+"Admin to <a href=\"%1$s\">enable</a> or <a href=\"%2$s\">install</a> more "
+"themes."
+msgstr ""
+
+#: lib/theme/list.php:164
+msgid ""
+"You only have one theme enabled for this site right now. Visit the Network "
+"Admin to <a href=\"%1$s\">enable</a> more themes."
+msgstr ""
+
+#: lib/theme/list.php:179
+msgid ""
+"You only have one theme installed right now. You can choose from many free "
+"themes in the Timely Theme Directory at any time: just click on the <a href="
+"\"%s\">Install Themes</a> tab above."
+msgstr ""
+
+#: lib/theme/list.php:190
+msgid ""
+"Only the active theme is available to you. Contact the <em>%s</em> "
+"administrator to add more themes."
+msgstr ""
+
+#: lib/theme/list.php:260
+msgid "Activate &#8220;%s&#8221;"
+msgstr ""
+
+#: lib/theme/list.php:267
+msgid "Activate"
+msgstr ""
+
+#. translators: 1: theme title, 2: theme version, 3: theme author
+#: lib/theme/list.php:284 public/admin/themes.php:25
+msgid "%1$s %2$s by %3$s"
+msgstr ""
+
+#. translators: 1: theme title, 2:  template dir, 3: stylesheet_dir, 4: theme
+#. title, 5: parent_theme
+#: lib/theme/list.php:296
+msgid ""
+"The template files are located in <code>%2$s</code>. The stylesheet files "
+"are located in <code>%3$s</code>. <strong>%4$s</strong> uses templates from "
+"<strong>%5$s</strong>. Changes made to the templates will affect both themes."
+msgstr ""
+
+#: lib/theme/list.php:311
+msgid "All of this theme&#8217;s files are located in <code>%2$s</code>."
+msgstr ""
+
+#: lib/theme/loader.php:305
+msgid "We couldn't find a suitable loader for filename with extension '%s'"
+msgstr ""
+
+#: lib/theme/search.php:253
+msgid ""
+"Unable to move your old core themes from <code>wp-content/themes-ai1ec</"
+"code> to <code>wp-content/themes-ai1ec-obsolete</code> because your <code>wp-"
+"content</code> folder is not writable. Please manually remove your old core "
+"themes from <code>wp-content/themes-ai1ec</code>."
+msgstr ""
+
+#: lib/theme/search.php:264
+msgid ""
+"Failed to move your old core themes from <code>wp-content/themes-ai1ec/%s</"
+"code> to <code>wp-content/themes-ai1ec-obsolete/%s</code>. Please manually "
+"remove your old core themes from <code>wp-content/themes-ai1ec/%s</code>."
+msgstr ""
+
+#: lib/twig/environment.php:31
+msgid ""
+"We detected that your cache directory (%s) is not writable. This will make "
+"your calendar slow. Please contact your web host or server administrator to "
+"make it writable by the web server."
+msgstr ""
+
+#: public/admin/agenda-widget-form.php:2
+msgid "Title:"
+msgstr ""
+
+#: public/admin/agenda-widget-form.php:12
+msgid "Number of events to show:"
+msgstr ""
+
+#: public/admin/agenda-widget-form.php:21
+msgid "Number of days to show:"
+msgstr ""
+
+#: public/admin/agenda-widget-form.php:26
+msgid "Limit to:"
+msgstr ""
+
+#: public/admin/agenda-widget-form.php:30
+msgid "Events with these <strong>Categories</strong>"
+msgstr ""
+
+#: public/admin/agenda-widget-form.php:39
+msgid "No categories found."
+msgstr ""
+
+#: public/admin/agenda-widget-form.php:46
+msgid "<strong>Or</strong> events with these <strong>Tags</strong>"
+msgstr ""
+
+#: public/admin/agenda-widget-form.php:55
+msgid "No tags found."
+msgstr ""
+
+#: public/admin/agenda-widget-form.php:62
+msgid "Show <strong>View Calendar</strong> button"
+msgstr ""
+
+#: public/admin/agenda-widget-form.php:65
+msgid "Show <strong>Subscribe</strong> buttons"
+msgstr ""
+
+#: public/admin/agenda-widget-form.php:68
+msgid "Hide this widget on calendar page"
+msgstr ""
+
+#: public/admin/box_event_children.php:12
+msgid "Base recurrence event"
+msgstr ""
+
+#: public/admin/box_event_children.php:14
+msgid "Modified recurrence events"
+msgstr ""
+
+#: public/admin/box_event_children.php:22
+msgid "Edit parent:"
+msgstr ""
+
+#: public/admin/box_event_children.php:27
+msgid "Modified Events"
+msgstr ""
+
+#: public/admin/box_event_children.php:31
+msgid "Edit:"
+msgstr ""
+
+#: public/admin/box_event_contact.php:6
+msgid "Organizer contact info"
+msgstr ""
+
+#: public/admin/box_event_contact.php:17
+msgid "Contact name:"
+msgstr ""
+
+#: public/admin/box_event_contact.php:30
+msgid "Phone:"
+msgstr ""
+
+#: public/admin/box_event_contact.php:43
+msgid "E-mail:"
+msgstr ""
+
+#: public/admin/box_event_contact.php:56
+msgid "External URL:"
+msgstr ""
+
+#: public/admin/box_event_cost.php:6
+msgid "Event cost and Tickets"
+msgstr ""
+
+#: public/admin/box_event_cost.php:17
+msgid "Cost"
+msgstr ""
+
+#: public/admin/box_event_cost.php:35
+msgid "Free event"
+msgstr ""
+
+#: public/admin/box_event_cost.php:43
+msgid "Registration URL:"
+msgstr ""
+
+#: public/admin/box_event_cost.php:44
+msgid "Buy Tickets URL:"
+msgstr ""
+
+#: public/admin/box_event_location.php:6
+msgid "Event location details"
+msgstr ""
+
+#: public/admin/box_event_location.php:22
+msgid "Venue name:"
+msgstr ""
+
+#: public/admin/box_event_location.php:34
+msgid "Address:"
+msgstr ""
+
+#: public/admin/box_event_location.php:48
+msgid "Show Google Map"
+msgstr ""
+
+#: public/admin/box_event_location.php:57
+msgid "Input Coordinates"
+msgstr ""
+
+#: public/admin/box_event_location.php:69
+msgid "Longitude:"
+msgstr ""
+
+#: public/admin/box_event_location.php:82
+msgid "Latitude:"
+msgstr ""
+
+#: public/admin/box_eventbrite.php:1
+msgid "Eventbrite Ticketing"
+msgstr ""
+
+#: public/admin/box_eventbrite.php:7
+msgid "Register this event with Eventbrite.com?"
+msgstr ""
+
+#: public/admin/box_eventbrite.php:12 public/admin/feed_row.php:28
+#: public/admin/feed_row.php:38 public/admin/feed_row.php:49
+#: public/admin/feed_row.php:59
+msgid "Yes"
+msgstr ""
+
+#: public/admin/box_eventbrite.php:14 public/admin/feed_row.php:30
+#: public/admin/feed_row.php:40 public/admin/feed_row.php:51
+#: public/admin/feed_row.php:61
+msgid "No"
+msgstr ""
+
+#: public/admin/box_eventbrite.php:22
+msgid "Set up your first ticket"
+msgstr ""
+
+#: public/admin/box_eventbrite.php:24
+msgid ""
+"To create multiple tickets per event, submit this form, then follow the link "
+"to Eventbrite."
+msgstr ""
+
+#: public/admin/box_eventbrite.php:32
+msgid "Name"
+msgstr ""
+
+#: public/admin/box_eventbrite.php:42
+msgid "Description"
+msgstr ""
+
+#: public/admin/box_eventbrite.php:53
+msgid "Type"
+msgstr ""
+
+#: public/admin/box_eventbrite.php:58
+msgid "Set Price"
+msgstr ""
+
+#: public/admin/box_eventbrite.php:60
+msgid "Donation Based"
+msgstr ""
+
+#: public/admin/box_eventbrite.php:68
+msgid ""
+"The price for this event's first ticket will be taken from the Cost field "
+"above."
+msgstr ""
+
+#: public/admin/box_eventbrite.php:75
+msgid "Quantity"
+msgstr ""
+
+#: public/admin/box_eventbrite.php:85
+msgid "Include Fee in Price"
+msgstr ""
+
+#: public/admin/box_eventbrite.php:90
+msgid "Add Service Fee on top of price"
+msgstr ""
+
+#: public/admin/box_eventbrite.php:92
+msgid "Include Service fee in price"
+msgstr ""
+
+#: public/admin/box_eventbrite.php:98
+msgid "Payment Options"
+msgstr ""
+
+#: public/admin/box_eventbrite.php:103
+msgid "Paypal"
+msgstr ""
+
+#: public/admin/box_eventbrite.php:105
+msgid "Google Checkout"
+msgstr ""
+
+#: public/admin/box_eventbrite.php:107
+msgid "Check"
+msgstr ""
+
+#: public/admin/box_eventbrite.php:109
+msgid "Cash"
+msgstr ""
+
+#: public/admin/box_eventbrite.php:111
+msgid "Send an Invoice"
+msgstr ""
+
+#: public/admin/box_profile_timezone.php:2
+msgid "All in One Event Calendar"
+msgstr ""
+
+#: public/admin/box_profile_timezone.php:9
+msgid "Your preferred timezone"
+msgstr ""
+
+#: public/admin/box_repeat.php:5
+msgid "Select recurrence pattern:"
+msgstr ""
+
+#: public/admin/box_repeat.php:63
+msgid "End"
+msgstr ""
+
+#: public/admin/box_repeat.php:73
+msgid "Ending after"
+msgstr ""
+
+#: public/admin/box_repeat.php:100
+#: public/admin/plugins/ics/display_feeds.php:80
+msgid "Please wait&#8230;"
+msgstr ""
+
+#: public/admin/box_repeat.php:102
+msgid "Apply"
+msgstr ""
+
+#: public/admin/box_repeat.php:107
+msgid "Cancel"
+msgstr ""
+
+#: public/admin/box_support.php:4
+msgid "Timely"
+msgstr ""
+
+#: public/admin/box_support.php:11
+msgid ""
+"Timely’s All-in-One Event Calendar is a<br />revolutionary new way to find "
+"and share events."
+msgstr ""
+
+#: public/admin/box_support.php:19
+msgid "Get Add-ons"
+msgstr ""
+
+#: public/admin/box_support.php:27
+msgid "Support"
+msgstr ""
+
+#: public/admin/box_support.php:35
+msgid "Timely Events"
+msgstr ""
+
+#: public/admin/box_support.php:43
+msgid "Timely News"
+msgstr ""
+
+#: public/admin/box_support.php:47
+msgid "view all news"
+msgstr ""
+
+#: public/admin/box_support.php:95
+msgid "Follow @_Timely"
+msgstr ""
+
+#: public/admin/box_time_and_date.php:6
+msgid "Event date and time"
+msgstr ""
+
+#: public/admin/box_time_and_date.php:26
+msgid "All-day event"
+msgstr ""
+
+#: public/admin/box_time_and_date.php:35
+msgid "No end time"
+msgstr ""
+
+#: public/admin/box_time_and_date.php:42
+msgid "Start date / time"
+msgstr ""
+
+#: public/admin/box_time_and_date.php:59
+msgid "End date / time"
+msgstr ""
+
+#: public/admin/box_time_and_date.php:76
+msgid "Time zone"
+msgstr ""
+
+#: public/admin/box_time_and_date.php:81
+msgid "Choose your time zone"
+msgstr ""
+
+#: public/admin/box_time_and_date.php:108
+msgid "Repeat"
+msgstr ""
+
+#: public/admin/box_time_and_date.php:127
+msgid "Exclude"
+msgstr ""
+
+#: public/admin/box_time_and_date.php:136
+msgid "Choose a rule for exclusion"
+msgstr ""
+
+#: public/admin/box_time_and_date.php:143
+msgid "Exclude dates"
+msgstr ""
+
+#: public/admin/box_time_and_date.php:149
+msgid "Choose dates"
+msgstr ""
+
+#: public/admin/box_time_and_date.php:156
+msgid "Choose specific dates to exclude"
+msgstr ""
+
+#: public/admin/calendar_tasks.php:3
+msgid "Welcome"
+msgstr ""
+
+#: public/admin/calendar_tasks.php:4
+msgid ""
+"to the All-in-One Event Calendar by <a href=\"http://time.ly/\" target="
+"\"_blank\">Timely</a>"
+msgstr ""
+
+#: public/admin/calendar_tasks.php:13
+msgid "Post Your Event"
+msgstr ""
+
+#: public/admin/calendar_tasks.php:16
+msgid "Add a new event to the calendar."
+msgstr ""
+
+#: public/admin/calendar_tasks.php:24
+msgid "Manage Events"
+msgstr ""
+
+#: public/admin/calendar_tasks.php:27
+msgid "View and edit all your events."
+msgstr ""
+
+#: public/admin/calendar_tasks.php:39
+msgid "Manage Event Categories"
+msgstr ""
+
+#: public/admin/calendar_tasks.php:42
+msgid "Organize and color-code your events."
+msgstr ""
+
+#: public/admin/calendar_tasks.php:50
+msgid "Choose Your Theme"
+msgstr ""
+
+#: public/admin/calendar_tasks.php:53
+msgid "Change the look and feel."
+msgstr ""
+
+#: public/admin/calendar_tasks.php:63
+msgid "Manage Calendar Feeds"
+msgstr ""
+
+#: public/admin/calendar_tasks.php:66
+msgid "Subscribe to other calendars."
+msgstr ""
+
+#: public/admin/calendar_tasks.php:74
+msgid "Edit Calendar Settings"
+msgstr ""
+
+#: public/admin/calendar_tasks.php:77
+msgid "Make this calendar your own."
+msgstr ""
+
+#: public/admin/cron_freq.php:3
+msgid "Hourly"
+msgstr ""
+
+#: public/admin/cron_freq.php:6
+msgid "Twice Daily"
+msgstr ""
+
+#: public/admin/feed_row.php:3 public/admin/plugins/ics/display_feeds.php:34
+msgid "iCalendar/.ics Feed URL:"
+msgstr ""
+
+#: public/admin/feed_row.php:12
+msgid "Event categories:"
+msgstr ""
+
+#: public/admin/feed_row.php:18
+msgid "Tag with"
+msgstr ""
+
+#: public/admin/feed_row.php:25
+msgid "Allow comments"
+msgstr ""
+
+#: public/admin/feed_row.php:35
+msgid "Show map"
+msgstr ""
+
+#: public/admin/feed_row.php:46
+msgid "Keep original events categories and tags"
+msgstr ""
+
+#: public/admin/feed_row.php:56 public/admin/plugins/ics/display_feeds.php:72
+msgid "Keep old events"
+msgstr ""
+
+#: public/admin/feed_row.php:71
+msgid "Refreshing&#8230;"
+msgstr ""
+
+#: public/admin/feed_row.php:73
+msgid "Refresh"
+msgstr ""
+
+#: public/admin/feed_row.php:80
+msgid "Removing&#8230;"
+msgstr ""
+
+#: public/admin/feed_row.php:82
+msgid "Remove"
+msgstr ""
+
+#: public/admin/import.php:6
+msgid "Successfully imported events:"
+msgstr ""
+
+#: public/admin/plugins/ics/display_feeds.php:2
+msgid ""
+"Configure which other calendars your own calendar subscribes to.\n"
+"    You can add any calendar that provides an iCalendar (.ics) feed.\n"
+"    Enter the feed URL(s) below and the events from those feeds will be\n"
+"    imported periodically."
+msgstr ""
+
+#: public/admin/plugins/ics/display_feeds.php:14
+msgid "Check for new events"
+msgstr ""
+
+#: public/admin/plugins/ics/display_feeds.php:51
+msgid "Allow comments on imported events"
+msgstr ""
+
+#: public/admin/plugins/ics/display_feeds.php:58
+msgid "Show map on imported events"
+msgstr ""
+
+#: public/admin/plugins/ics/display_feeds.php:65
+msgid ""
+"Import any tags/categories provided by feed, in addition those selected above"
+msgstr ""
+
+#: public/admin/plugins/ics/display_feeds.php:82
+msgid "Add new subscription"
+msgstr ""
+
+#: public/admin/row_daily.php:3 public/admin/row_monthly.php:3
+#: public/admin/row_monthly.php:39 public/admin/row_weekly.php:3
+#: public/admin/row_yearly.php:3
+msgid "Every"
+msgstr ""
+
+#: public/admin/row_monthly.php:16
+msgid "On day of the month"
+msgstr ""
+
+#: public/admin/row_monthly.php:23
+msgid "On day of the week"
+msgstr ""
+
+#: public/admin/row_weekly.php:12
+msgctxt "Recurrence editor - weekly tab"
+msgid "On"
+msgstr ""
+
+#: public/admin/row_yearly.php:12
+msgctxt "Recurrence editor - yearly tab"
+msgid "In"
+msgstr ""
+
+#: public/admin/settings.php:19
+msgid "Update Settings"
+msgstr ""
+
+#: public/admin/themes-install.php:4
+msgid "The active theme is broken.  Reverting to the default theme."
+msgstr ""
+
+#: public/admin/themes-install.php:22 public/admin/themes.php:4
+msgid "New theme activated. <a href=\"%s\">Visit site</a>"
+msgstr ""
+
+#: public/admin/themes-install.php:28 public/admin/themes.php:10
+msgid "Theme deleted."
+msgstr ""
+
+#: public/admin/themes-install.php:39 public/admin/themes-install.php:46
+msgid "Manage Themes"
+msgstr ""
+
+#: public/admin/themes-install.php:42
+msgctxt "theme"
+msgid "Install Themes"
+msgstr ""
+
+#: public/admin/themes-updated.php:5
+msgid "Update Calendar Themes"
+msgstr ""
+
+#: public/admin/themes-updated.php:15
+msgid "All-in-One Event Calendar Settings »"
+msgstr ""
+
+#: public/admin/themes.php:18
+msgid "Current Calendar Theme"
+msgstr ""
+
+#: public/admin/themes.php:21
+msgid "Current theme preview"
+msgstr ""
+
+#: public/admin/themes.php:47
+msgid "Available Calendar Themes"
+msgstr ""
+
+#: public/themes-ai1ec/umbra/less/user_variables.php:5
+#: public/themes-ai1ec/vortex/less/user_variables.php:5
+msgid "Body background"
+msgstr ""
+
+#: public/themes-ai1ec/umbra/less/user_variables.php:11
+#: public/themes-ai1ec/vortex/less/user_variables.php:11
+msgid "Text color"
+msgstr ""
+
+#: public/themes-ai1ec/umbra/less/user_variables.php:17
+#: public/themes-ai1ec/vortex/less/user_variables.php:17
+msgid "Text emboss"
+msgstr ""
+
+#: public/themes-ai1ec/umbra/less/user_variables.php:23
+#: public/themes-ai1ec/vortex/less/user_variables.php:23
+msgid "Link"
+msgstr ""
+
+#: public/themes-ai1ec/umbra/less/user_variables.php:29
+#: public/themes-ai1ec/vortex/less/user_variables.php:29
+msgid "Link (hover)"
+msgstr ""
+
+#: public/themes-ai1ec/umbra/less/user_variables.php:35
+#: public/themes-ai1ec/vortex/less/user_variables.php:35
+msgid "Base font"
+msgstr ""
+
+#: public/themes-ai1ec/umbra/less/user_variables.php:41
+#: public/themes-ai1ec/vortex/less/user_variables.php:41
+msgid "Base font size"
+msgstr ""
+
+#: public/themes-ai1ec/umbra/less/user_variables.php:47
+#: public/themes-ai1ec/vortex/less/user_variables.php:47
+msgid "Table background"
+msgstr ""
+
+#: public/themes-ai1ec/umbra/less/user_variables.php:53
+#: public/themes-ai1ec/vortex/less/user_variables.php:53
+msgid "Table header background"
+msgstr ""
+
+#: public/themes-ai1ec/umbra/less/user_variables.php:59
+#: public/themes-ai1ec/vortex/less/user_variables.php:59
+msgid "Table header text"
+msgstr ""
+
+#: public/themes-ai1ec/umbra/less/user_variables.php:65
+#: public/themes-ai1ec/vortex/less/user_variables.php:65
+msgid "Primary brand color"
+msgstr ""
+
+#: public/themes-ai1ec/umbra/less/user_variables.php:71
+#: public/themes-ai1ec/vortex/less/user_variables.php:71
+msgid "Button background"
+msgstr ""
+
+#: public/themes-ai1ec/umbra/less/user_variables.php:77
+#: public/themes-ai1ec/vortex/less/user_variables.php:77
+msgid "Button border"
+msgstr ""
+
+#: public/themes-ai1ec/umbra/less/user_variables.php:83
+#: public/themes-ai1ec/vortex/less/user_variables.php:83
+msgid "Button text"
+msgstr ""
+
+#: public/themes-ai1ec/umbra/less/user_variables.php:89
+#: public/themes-ai1ec/vortex/less/user_variables.php:89
+msgid "Input field text"
+msgstr ""
+
+#: public/themes-ai1ec/umbra/less/user_variables.php:95
+#: public/themes-ai1ec/vortex/less/user_variables.php:95
+msgid "Input field background"
+msgstr ""
+
+#: public/themes-ai1ec/umbra/less/user_variables.php:101
+#: public/themes-ai1ec/vortex/less/user_variables.php:101
+msgid "Input field border"
+msgstr ""
+
+#: public/themes-ai1ec/umbra/less/user_variables.php:107
+#: public/themes-ai1ec/vortex/less/user_variables.php:107
+msgid "Input field border (focus)"
+msgstr ""
+
+#: public/themes-ai1ec/umbra/less/user_variables.php:113
+#: public/themes-ai1ec/vortex/less/user_variables.php:113
+msgid "Input field background (disabled)"
+msgstr ""
+
+#: public/themes-ai1ec/umbra/less/user_variables.php:119
+#: public/themes-ai1ec/vortex/less/user_variables.php:119
+msgid "Field label"
+msgstr ""
+
+#: public/themes-ai1ec/umbra/less/user_variables.php:125
+#: public/themes-ai1ec/vortex/less/user_variables.php:125
+msgid "Dropdown list background"
+msgstr ""
+
+#: public/themes-ai1ec/umbra/less/user_variables.php:131
+#: public/themes-ai1ec/vortex/less/user_variables.php:131
+msgid "Dropdown list border"
+msgstr ""
+
+#: public/themes-ai1ec/umbra/less/user_variables.php:137
+#: public/themes-ai1ec/vortex/less/user_variables.php:137
+msgid "List item text"
+msgstr ""
+
+#: public/themes-ai1ec/umbra/less/user_variables.php:143
+#: public/themes-ai1ec/vortex/less/user_variables.php:143
+msgid "List item text (active/hover)"
+msgstr ""
+
+#: public/themes-ai1ec/umbra/less/user_variables.php:149
+#: public/themes-ai1ec/vortex/less/user_variables.php:149
+msgid "List item background (active/hover)"
+msgstr ""
+
+#: public/themes-ai1ec/umbra/less/user_variables.php:155
+#: public/themes-ai1ec/vortex/less/user_variables.php:155
+msgid "Input field placeholder text"
+msgstr ""
+
+#: public/themes-ai1ec/umbra/less/user_variables.php:161
+#: public/themes-ai1ec/vortex/less/user_variables.php:161
+msgid "Today color"
+msgstr ""
+
+#: public/themes-ai1ec/umbra/less/user_variables.php:167
+#: public/themes-ai1ec/vortex/less/user_variables.php:167
+msgid "All-day badge color"
+msgstr ""
+
+#: public/themes-ai1ec/umbra/less/user_variables.php:173
+#: public/themes-ai1ec/vortex/less/user_variables.php:173
+msgid "Event image shadow"
+msgstr ""
+
+#: public/themes-ai1ec/umbra/less/user_variables.php:179
+#: public/themes-ai1ec/vortex/less/user_variables.php:179
+msgid "Event default color"
+msgstr ""
+
+#: public/themes-ai1ec/umbra/less/user_variables.php:185
+#: public/themes-ai1ec/vortex/less/user_variables.php:185
+msgid "Event default color (hover)"
+msgstr ""
+
+#: public/themes-ai1ec/umbra/less/user_variables.php:191
+#: public/themes-ai1ec/vortex/less/user_variables.php:191
+msgid "All-day/multi-day event stub text"
+msgstr ""
+
+#: public/themes-ai1ec/umbra/less/user_variables.php:197
+#: public/themes-ai1ec/vortex/less/user_variables.php:197
+msgid "All-day/multi-day event stub text shadow"
+msgstr ""
+
+#: public/themes-ai1ec/umbra/less/user_variables.php:203
+#: public/themes-ai1ec/vortex/less/user_variables.php:203
+msgid "Event border"
+msgstr ""
+
+#: public/themes-ai1ec/umbra/less/user_variables.php:209
+#: public/themes-ai1ec/vortex/less/user_variables.php:209
+msgid "Event background"
+msgstr ""
+
+#: public/themes-ai1ec/umbra/less/user_variables.php:215
+#: public/themes-ai1ec/vortex/less/user_variables.php:215
+msgid "Event time background"
+msgstr ""
+
+#: public/themes-ai1ec/umbra/less/user_variables.php:221
+#: public/themes-ai1ec/vortex/less/user_variables.php:221
+msgid "Event text"
+msgstr ""
+
+#: public/themes-ai1ec/umbra/less/user_variables.php:227
+#: public/themes-ai1ec/vortex/less/user_variables.php:227
+msgid "Month view date background"
+msgstr ""
+
+#: public/themes-ai1ec/umbra/less/user_variables.php:233
+#: public/themes-ai1ec/vortex/less/user_variables.php:233
+msgid "Week/day view now marker"
+msgstr ""
+
+#: public/themes-ai1ec/umbra/less/user_variables.php:239
+#: public/themes-ai1ec/vortex/less/user_variables.php:239
+msgid "Date label accent color"
+msgstr ""
+
+#: public/themes-ai1ec/umbra/less/user_variables.php:245
+#: public/themes-ai1ec/vortex/less/user_variables.php:245
+msgid "Date label background"
+msgstr ""
+
+#: public/themes-ai1ec/umbra/less/user_variables.php:251
+#: public/themes-ai1ec/vortex/less/user_variables.php:251
+msgid "Date background"
+msgstr ""
+
+#: public/themes-ai1ec/umbra/less/user_variables.php:257
+#: public/themes-ai1ec/vortex/less/user_variables.php:257
+msgid "Today background"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "All-in-One Event Calendar by Time.ly"
+msgstr ""
+
+#. #-#-#-#-#  all-in-one-event-calendar.pot (All-in-One Event Calendar by Time.ly 2.1.8)  #-#-#-#-#
+#. Plugin URI of the plugin/theme
+#. #-#-#-#-#  all-in-one-event-calendar.pot (All-in-One Event Calendar by Time.ly 2.1.8)  #-#-#-#-#
+#. Author URI of the plugin/theme
+msgid "http://time.ly/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"A calendar system with month, week, day, agenda views, upcoming events "
+"widget, color-coded categories, recurrence, and import/export of .ics feeds."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Time.ly Network Inc."
+msgstr ""

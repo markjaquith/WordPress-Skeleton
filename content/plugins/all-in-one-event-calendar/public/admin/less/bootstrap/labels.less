@@ -1,0 +1,64 @@
+//
+// Labels
+// --------------------------------------------------
+
+.ai1ec-label {
+  display: inline;
+  padding: .2em .6em .3em;
+  font-size: 75%;
+  font-weight: bold;
+  line-height: 1;
+  color: @label-color;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: .25em;
+
+  // Add hover effects, but only for links
+  &[href] {
+    &:hover,
+    &:focus {
+      color: @label-link-hover-color;
+      text-decoration: none;
+      cursor: pointer;
+    }
+  }
+
+  // Empty labels collapse automatically (not available in IE8)
+  &:empty {
+    display: none;
+  }
+
+  // Quick fix for labels in buttons
+  .ai1ec-btn & {
+    position: relative;
+    top: -1px;
+  }
+}
+
+// Colors
+// Contextual variations (linked labels get darker on :hover)
+
+.ai1ec-label-default {
+  .ai1ec-label-variant(@label-default-bg);
+}
+
+.ai1ec-label-primary {
+  .ai1ec-label-variant(@label-primary-bg);
+}
+
+.ai1ec-label-success {
+  .ai1ec-label-variant(@label-success-bg);
+}
+
+.ai1ec-label-info {
+  .ai1ec-label-variant(@label-info-bg);
+}
+
+.ai1ec-label-warning {
+  .ai1ec-label-variant(@label-warning-bg);
+}
+
+.ai1ec-label-danger {
+  .ai1ec-label-variant(@label-danger-bg);
+}

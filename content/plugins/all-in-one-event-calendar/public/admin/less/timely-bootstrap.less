@@ -1,0 +1,392 @@
+//
+// @file
+//
+// Adaptation of bootstrap.less, with appropriate overrides.
+//
+
+// =============================
+// = Core variables and mixins =
+// =============================
+@import "bootstrap/mixins.less";
+@import "timely-mixins.less";
+@import "bootstrap/variables.less";
+@import "timely-variables.less"; // Modify this for custom colors, fonts, etc.
+
+// =========
+// = Fonts =
+// =========
+@import "timely-font-awesome.less";
+
+// =============
+// = Bootstrap =
+// =============
+
+// Reset
+.timely { @import "bootstrap/normalize.less"; }
+
+// Core CSS
+.timely { @import "bootstrap/scaffolding.less"; }
+.timely { @import "bootstrap/code.less"; }
+@import "bootstrap/grid.less";
+.timely { @import "bootstrap/tables.less"; }
+.timely { @import "bootstrap/forms.less"; }
+.timely { @import "bootstrap/buttons.less"; }
+.timely { @import "bootstrap/type.less"; }
+
+// Components
+@import "bootstrap/component-animations.less";
+@import "bootstrap/dropdowns.less";
+@import "bootstrap/button-groups.less";
+@import "bootstrap/input-groups.less";
+.timely { @import "bootstrap/navs.less"; }
+@import "bootstrap/labels.less";
+@import "bootstrap/jumbotron.less";
+@import "bootstrap/alerts.less";
+@import "bootstrap/panels.less";
+@import "bootstrap/wells.less";
+.timely { @import "bootstrap/close.less"; }
+
+// Components w/ JavaScript
+@import "bootstrap/modals.less";
+@import "bootstrap/tooltip.less";
+@import "bootstrap/popovers.less";
+
+// Utility classes
+@import "bootstrap/utilities.less";
+
+// ===========
+// = Plugins =
+// ===========
+
+@import "plugins/select2.less";
+@import "plugins/datepicker3.less";
+
+// ==========================
+// = Unnamespaced overrides =
+// ==========================
+
+//
+// Bootstrap
+//
+
+// Popovers
+.ai1ec-popover-title {
+	font-family: @headings-font-family;
+	font-size: @font-size-base * 1.25 !important;
+}
+.ai1ec-popover-content {
+	border-radius: 0 0 4px 4px;
+	p {
+		margin: 0;
+	}
+}
+.ai1ec-popover {
+	ul.ai1ec-fa-ul {
+		text-indent: -0.6em;
+	}
+}
+// Dropdowns
+ul.ai1ec-dropdown-menu {
+	list-style: none;
+	margin: 0;
+	li {
+		margin: 0;
+	}
+}
+// Buttons
+.ai1ec-btn-group > .ai1ec-btn-primary {
+	z-index: 3;
+}
+// Modals
+.ai1ec-modal {
+	text-align: left;
+}
+.timely h4.ai1ec-modal-title {
+	margin: 0;
+}
+.ai1ec-modal-footer {
+	margin-top: 0;
+}
+// Collapse & accordions
+.ai1ec-panel-group {
+	margin-bottom: 0;
+	.ai1ec-panel {
+		&.ai1ec-overflow-visible {
+			overflow: visible;
+		}
+		background-color: @body-bg;
+		table {
+			margin-bottom: 0;
+		}
+	}
+}
+.ai1ec-panel-heading {
+	text-transform: uppercase;
+	.ai1ec-fa:before {
+		font-size: 1.1em;
+		width: 1.25em;
+		text-align: center;
+	}
+	a:hover {
+		text-decoration: none;
+	}
+}
+
+//
+// Select2
+//
+
+.select2-container {
+	margin-bottom: 9px;
+	width: 100%;
+}
+.select2-choices {
+	border-radius: 3px;
+	.ai1ec-box-shadow( inset 0 1px 1px rgba(0,0,0,.075) );
+	.select2-dropdown-open & {
+		border-radius: @input-border-radius @input-border-radius 0 0;
+	}
+	.select2-dropdown-open.select2-drop-above & {
+		border-radius: 0 0 @input-border-radius @input-border-radius;
+	}
+}
+.select2-container-multi {
+	.select2-choices {
+		background-color: @input-bg;
+		background-image: none;
+		border-color: @input-border;
+		.select2-search-field input {
+			color: @text-color;
+			margin: 0;
+			&.select2-default {
+				color: @input-color-placeholder !important;
+			}
+		}
+	}
+}
+.select2-drop-mask {
+	z-index: @zindex-dropdown - 1;
+	.ai1ec-modal-open & {
+		z-index: @zindex-dropdown + @zindex-modal-background - 1;
+	}
+}
+.select2-drop {
+	background-color: @body-bg;
+	border-color: rgba(82,168,236,.8);
+	color: @text-color;
+	font-family: @font-family-base;
+	font-size: @font-size-base;
+	line-height: @line-height-base;
+	z-index: @zindex-dropdown;
+	.ai1ec-modal-open & {
+		z-index: @zindex-dropdown + @zindex-modal-background;
+	}
+}
+.select2-results {
+	margin: 4px 0;
+	padding: 0;
+	.select2-no-results,
+	.select2-searching,
+	.select2-selection-limit {
+		background-color: mix( @text-color, @body-bg, 10% );
+	}
+}
+.select2-result {
+	margin: 0;
+}
+.timely a.select2-search-choice-close {
+	.ai1ec-transition( none );
+	background: url('../img/select2.png') right top no-repeat;
+	left: 5px;
+	top: 3px;
+}
+.select2-container,
+.select2-drop {
+	.ai1ec-color-swatch,
+	.ai1ec-color-swatch-empty {
+		width: 7px;
+		height: 7px;
+	}
+}
+
+// ========================
+// = Namespaced overrides =
+// ========================
+.timely {
+	//
+	// Extra Resets
+	//
+
+	// Copied from scaffolding body reset, with additions; needed to apply to
+	// .timely, not body.
+	font-family: @font-family-base;
+	font-size: @font-size-base;
+	line-height: @line-height-base;
+	color: @text-color;
+
+	h4 {
+		font-size: 14px;
+		font-weight: bold;
+		line-height: @line-height-base * 1.5;
+	}
+	hr {
+		margin: 14px 0;
+	}
+
+	//
+	// Forms
+	//
+
+	input[type="radio"] {
+		margin: 0 3px 0 0;
+	}
+	input[type="checkbox"] {
+		margin: -1px 3px 0 0;
+	}
+	textarea.ai1ec-form-control {
+		height: auto;
+	}
+	.ai1ec-help-block {
+		color: #777;
+		margin-top: 2px;
+		margin-bottom: 5px;
+	}
+	.ai1ec-form-group {
+		margin-bottom: 10px;
+	}
+	label {
+		font-weight: normal;
+	}
+
+	// Code
+	pre {
+		overflow: auto;
+		white-space: nowrap;
+	}
+
+	//
+	// Navs
+	//
+	.ai1ec-nav.ai1ec-nav-tabs {
+		margin-bottom: @navbar-padding-vertical;
+	}
+	.ai1ec-tab-pane h4:first-child {
+		margin-top: 0;
+	}
+
+	//
+	// Close
+	//
+	button.ai1ec-close {
+		padding: 0;
+		cursor: pointer;
+		background: transparent;
+		border: 0;
+		-webkit-appearance: none;
+	}
+}
+
+// AJAX loaders
+.ai1ec-loader-icon {
+	background: url('../img/ajax-loader.gif') no-repeat center center;
+	display: inline-block;
+	height: 32px;
+	width: 32px;
+	vertical-align: bottom;
+}
+.ai1ec-loader-icon-small {
+	background: url('../img/ajax-loader-small.gif') no-repeat center center;
+	display: inline-block;
+	height: 16px;
+	width: 16px;
+	vertical-align: bottom;
+}
+
+// Tooltip triggers
+.ai1ec-tooltip-toggle {
+	cursor: help;
+	border-bottom: 1px dotted @gray-light;
+}
+
+// =======================================================================
+// = Modal open status tracking (adapted from earlier ver. of Bootstrap) =
+// =======================================================================
+// Recalculate z-index where appropriate
+.ai1ec-modal-open {
+	.ai1ec-dropdown-menu {
+		z-index: @zindex-dropdown + @zindex-modal-background !important;
+	}
+	.ai1ec-dropdown.ai1ec-open {
+		*z-index: @zindex-dropdown + @zindex-modal-background !important;
+	}
+	.ai1ec-popover {
+		z-index: @zindex-popover  + @zindex-modal-background !important;
+	}
+	.ai1ec-tooltip {
+		z-index: @zindex-tooltip  + @zindex-modal-background !important;
+	}
+}
+
+// Accordion headings custom styling
+.ai1ec-panel-heading {
+	font-size: 14px;
+	font-weight: bold;
+}
+
+// =============================================================================
+// = Category colors (should be synced with vortex/less/style.less)            =
+// =============================================================================
+
+.ai1ec-color-swatch,
+.ai1ec-color-swatch-empty {
+	display: inline-block;
+	height: 6px;
+	margin: 0 1px;
+	padding: 1px;
+	width: 6px;
+}
+.ai1ec-color-swatch {
+	border-radius: 4px;
+	border-color: rgba(0,0,0,0.5);
+	.ai1ec-opacity( 0.8 );
+}
+
+// ============================================================================
+// = Gmaps Autocomplete results (synced with interactive-frontend.less)       =
+// ============================================================================
+
+.ai1ec-geo-ac-results-not-ready {
+	// Hide by default (using a hiding attribute unused by the library).
+	// Only show once we have had a chance to do some markup-based styling in JS.
+	visibility: hidden;
+}
+.ai1ec-geo-ac-results {
+	img {
+		float: left;
+		margin-right: 5px;
+	}
+	.ai1ec-dropdown-menu {
+		display: block;
+		width: 275px;
+		li {
+			clear: left;
+			color: @dropdown-link-color;
+			cursor: pointer;
+			margin: 2px 0;
+			padding: 0 5px;
+			&:hover {
+				color: @dropdown-link-hover-color;
+				background-color: @dropdown-link-hover-bg;
+			}
+		}
+	}
+	.ai1ec-modal-open & {
+		z-index: @zindex-dropdown + @zindex-modal-background;
+	}
+}
+
+// ===========================
+// = Dashboard common styles =
+// ===========================
+
+@import "timely-admin.less";

@@ -1,0 +1,7 @@
+{% extends "bootstrap_tabs.twig" %}
+{% block extra_html %}
+  {% from 'form-elements/input.twig' import button %}
+  <div class="ai1ec-text-right">
+    {{ button( submit.id, submit.id, submit.value, 'submit', submit.args ) }}
+  </div>
+{% endblock %}

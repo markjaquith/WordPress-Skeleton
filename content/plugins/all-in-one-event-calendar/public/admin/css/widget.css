@@ -1,0 +1,55 @@
+/* Style the multi-select container & selection div in the widget options */
+
+.widget .widget-inside p.ai1ec-limit-by-container {
+	margin: 0;
+}
+
+.ai1ec-limit-by-options-container {
+	background-color: #f3f3f3;
+	border: 1px solid #e3e3e3;
+	border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px;
+	float: left;
+	width: 94%;
+	margin:  0.6em 0 0.6em 0.3em;
+	padding: 0.6em;
+}
+.ai1ec-widget-option-ids {
+	width: 110px;
+}
+.ai1ec-category-selected-items {
+	margin: 0;
+	display: block;
+	padding-left: 0;
+	list-style: none;
+}
+.ai1ec-category-selected-item {
+	margin: 0.4em 0.3em 0.2em 0;
+	padding: 0.4em 0.5em;
+	list-style: none;
+	background: linear-gradient( top, #fff, #eee );
+	background: -o-linear-gradient( top, #fff, #eee );
+	background: -moz-linear-gradient( top, #fff, #eee );
+	background: -webkit-gradient( linear, left top, left bottom, color-stop( 0, #fff ), color-stop( 1, #eee ) );
+	background: -webkit-linear-gradient( top, #fff, #eee );
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff', endColorstr='#eee' );
+	-ms-filter: "progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff', endColorstr='#eee' )";
+	border: 1px solid #ccc;
+	line-height: 1em;
+	float: left;
+	border-radius: 8px;
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+}
+.ai1ec-category-selected-item-label {
+	padding-right: 0.5em;
+}
+.ai1ec-category-selected-item-remove {
+	text-decoration: none;
+}
+.ai1ec-category-selected-item-remove img {
+	vertical-align: bottom;
+}
+
+.ai1ec-widget-cat-ids, .ai1ec-widget-tag-ids, .ai1ec-widget-event-ids {
+	width: 99%;
+}

@@ -1,0 +1,51 @@
+//
+// Badges
+// --------------------------------------------------
+
+
+// Base classes
+.ai1ec-badge {
+  display: inline-block;
+  min-width: 10px;
+  padding: 3px 7px;
+  font-size: @font-size-small;
+  font-weight: @badge-font-weight;
+  color: @badge-color;
+  line-height: @badge-line-height;
+  vertical-align: baseline;
+  white-space: nowrap;
+  text-align: center;
+  background-color: @badge-bg;
+  border-radius: @badge-border-radius;
+
+  // Empty badges collapse automatically (not available in IE8)
+  &:empty {
+    display: none;
+  }
+
+  // Quick fix for badges in buttons
+  .ai1ec-btn & {
+    position: relative;
+    top: -1px;
+  }
+}
+
+// Hover state, but only for links
+a.ai1ec-badge {
+  &:hover,
+  &:focus {
+    color: @badge-link-hover-color;
+    text-decoration: none;
+    cursor: pointer;
+  }
+}
+
+// Account for counters in navs
+a.ai1ec-list-group-item.ai1ec-active > .ai1ec-badge,
+.ai1ec-nav-pills > .ai1ec-active > a > .ai1ec-badge {
+  color: @badge-active-color;
+  background-color: @badge-active-bg;
+}
+.ai1ec-nav-pills > li > a > .ai1ec-badge {
+  margin-left: 3px;
+}

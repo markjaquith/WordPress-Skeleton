@@ -1,0 +1,32 @@
+{% if available_views | length > 1 %}
+	<div class="ai1ec-views-dropdown ai1ec-btn-group ai1ec-pull-right">
+		<a class="ai1ec-btn ai1ec-btn-sm ai1ec-btn-default ai1ec-dropdown-toggle"
+			data-toggle="ai1ec-dropdown">
+			<i class="ai1ec-icon-{{ current_view }} ai1ec-view-icon ai1ec-tooltip-trigger"
+				title="{{ view_names[current_view] | e('html_attr') }}"
+				data-placement="left"></i>
+			<span class="ai1ec-hidden-xs ai1ec-hidden-sm">
+				{{ view_names[current_view] }}
+			</span>
+			<span class="ai1ec-caret"></span>
+		</a>
+		<div class="ai1ec-dropdown-menu">
+			{% for key, args in available_views %}
+				<div class="{% if key == current_view %}ai1ec-active{% endif %}"
+					data-action="{{ key }}">
+					<a id="ai1ec-view-{{ key }}"
+						{{ data_type | raw }}
+						class="ai1ec-load-view {{ key }}"
+						href="{{ available_views[key].href }}">
+						<i class="ai1ec-icon-{{ key }} ai1ec-view-icon ai1ec-tooltip-trigger"
+							title="{{ view_names[key] | e('html_attr') }}"
+							data-placement="left"></i>
+						<span class="ai1ec-hidden-xs ai1ec-hidden-sm">
+							{{ available_views[key].desc }}
+						</span>
+					</a>
+				</div>
+			{% endfor %}
+		</div>
+	</div>
+{% endif %}

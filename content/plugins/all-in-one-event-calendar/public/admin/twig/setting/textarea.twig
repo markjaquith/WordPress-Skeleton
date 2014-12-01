@@ -1,0 +1,22 @@
+<label class="ai1ec-col-sm-12" for="{{ id }}">
+	{{ label | raw }}
+</label>
+<div class="ai1ec-col-sm-12">
+	{% if append is defined %}
+		<div class="ai1ec-input-group">
+	{% endif %}
+
+	{% from 'form-elements/textarea.twig' import textarea %}
+	{% spaceless %}
+	{{ textarea( id, id, value, input_args ) }}
+
+	{% if append is defined %}
+			<span class="ai1ec-input-group-addon">{{ append }}</span>
+		</div>
+	{% endif %}
+	{% endspaceless %}
+</div>
+
+{% if help is defined %}
+	<div class="ai1ec-col-sm-12 ai1ec-help-block">{{ help | raw }}</div>
+{% endif %}

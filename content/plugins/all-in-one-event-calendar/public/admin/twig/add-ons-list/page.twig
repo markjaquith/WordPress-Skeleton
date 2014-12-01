@@ -1,0 +1,12 @@
+<div class="wrap" id="ai1ec-add-ons">
+	<h2>
+		{{ labels.title }}
+		&nbsp;&mdash;&nbsp;<a href="https://time.ly/downloads/" class="button-primary" title="{{ labels.button_title | e("html_attr") }}" target="_blank">{{ labels.button_title }}</a>
+	</h2>
+	<p>{{ labels.paragraph_content }}</p>
+	{% if is_error %}
+		<div class="error"><p>{{ labels.error }}</p></div>
+	{% else %}
+		{{ content | raw }}
+	{% endif %}
+</div>

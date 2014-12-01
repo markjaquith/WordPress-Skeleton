@@ -1,0 +1,9 @@
+{{ before_widget | raw }}
+
+{% if title is not empty %}
+	{{ ( before_title ~ title ~ after_title ) | raw }}
+{% endif %}
+
+{{ widget_html | raw }}
+
+{{ after_widget | raw }}

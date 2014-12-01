@@ -1,0 +1,398 @@
+/* Event details meta box arrow and handle fix */
+
+.js #ai1ec_event .handlediv:before {
+	content: '\f142';
+	right: 12px;
+	font: 400 20px/1 dashicons;
+	speak: none;
+	display: inline-block;
+	padding: 8px 10px;
+	top: 0;
+	position: relative;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-decoration: none!important;
+}
+.js #ai1ec_event.closed .handlediv:before {
+	content: '\f140';
+}
+.js #ai1ec_event .hndle {
+	cursor: default;
+}
+
+/* General form attributes */
+
+/* Add/edit event form hidden by default to that DOM can be rearranged without
+	 flashing of unstyled content. */
+.icon32-posts-ai1ec_event ~ #post {
+	visibility: hidden;
+}
+.icon32-posts-ai1ec_event ~ #post.ai1ec-visible {
+	visibility: visible;
+}
+#ai1ec-time-and-date-box .ai1ec-panel-body {
+	min-height: 200px;
+}
+.ai1ec-form, .ai1ec-form-nested {
+	width: 100%;
+	margin-bottom: 1em;
+}
+.ai1ec-form td.ai1ec-first, .ai1ec-form-nested td.ai1ec-first {
+	width: 8.5em;
+}
+.ai1ec-first-padding {
+	padding-left: 8.5em;
+}
+.ai1ec-form label,
+.ai1ec-form-nested label {
+	font-weight: normal;
+	margin-bottom: 0;
+}
+.ai1ec-form td, .ai1ec-form-nested td {
+	line-height: 1.5em;
+}
+
+/**
+ * Event post fields
+ */
+
+.timely .ai1ec-date-input {
+	background: no-repeat url(../img/date-field-icon.png) 95% 40%;
+	display: inline-block;
+	width: 8.5em;
+}
+.timely .ai1ec-time-input {
+	display: inline-block;
+	width: 5.5em;
+}
+
+.timely .ai1ec-input-warn {
+	border-color: red;
+	background-color: #f5f5f5;
+}
+
+/* Recurrence fields */
+#ai1ec_repeat_text a,
+#ai1ec_exclude_text a,
+#ai1ec_exclude-dates-input {
+	text-decoration: none;
+	border-bottom: 1px dashed red;
+}
+#ai1ec_exclude_text {
+	margin-right: 20px;
+}
+
+#ai1ec_venue,
+#ai1ec_address,
+#ai1ec_cost,
+#ai1ec_contact_name,
+#ai1ec_contact_phone,
+#ai1ec_contact_email,
+#ai1ec_contact_url,
+#ai1ec_ticket_url {
+	width: 100%;
+	max-width: 24em;
+}
+#ai1ec-event-location-box {
+	overflow: hidden;
+}
+#ai1ec-event-location-box .ai1ec-panel-body {
+	min-width: 625px;
+}
+.ai1ec-form.ai1ec-location-form {
+	width: 360px;
+}
+#side-info-column .ai1ec-form.ai1ec-location-form {
+	float: none;
+	width: 100%;
+}
+
+/* Google map */
+.ai1ec_box_map {
+	float: right;
+	/* These two are needed for proper map initialization: */
+	position: absolute;
+	visibility: hidden;
+	border: 1px solid #ddd;
+}
+.ai1ec_box_map.ai1ec_box_map_visible {
+	position: static;
+	visibility: visible;
+}
+#ai1ec_map_canvas {
+	width: 250px;
+	height: 155px;
+}
+
+/* Bottom publish button */
+.ai1ec_bottom_publish {
+	min-width: 80px;
+	text-align: center;
+}
+
+/**
+ * Calendrical date/timepicker widget
+ */
+
+.calendricalDatePopup, .calendricalTimePopup {
+	z-index: 2;
+}
+.calendricalDatePopup {
+	background: white;
+	border: solid 1px #999999;
+	padding: 2px;
+	text-align: center;
+	width: 200px;
+}
+.calendricalDatePopup table {
+	border-collapse: collapse;
+	width: 200px;
+}
+.calendricalDatePopup table .monthCell {
+	padding: 2px 0;
+}
+.calendricalDatePopup table .monthCell a {
+	display: block;
+	float: left;
+	line-height: 20px;
+}
+.calendricalDatePopup table .monthCell .prevMonth, .calendricalDatePopup table .monthCell .nextMonth {
+	width: 24px;
+}
+.calendricalDatePopup table .monthCell .monthName {
+	width: 150px;
+}
+.calendricalDatePopup table a {
+	text-decoration: none !important; padding: 0;
+}
+.calendricalDatePopup table th {
+	text-align: center;
+}
+.calendricalDatePopup table td {
+	text-align: center;
+	font-size: 12px;
+	padding: 0;
+	font-family: inherit;
+}
+.calendricalDatePopup table td a {
+	display: block;
+	color: black;
+	padding: 2px 3px;
+}
+.calendricalDatePopup table td a:hover {
+	background: #ccccff;
+	border: none;
+	padding: 2px 3px;
+}
+.calendricalDatePopup table td.today a {
+	background: #f8f8c0;
+}
+.calendricalDatePopup table td.selected a {
+	background: #ccccff;
+}
+.calendricalDatePopup table td.today_selected a {
+	background: #f8f8c0;
+	border: solid 1px #dddd66;
+	padding: 1px 2px;
+}
+.calendricalDatePopup table td.nonMonth a {
+	color: #999999;
+}
+
+.calendricalTimePopup {
+	background: white;
+	border: solid 1px #999999;
+	width: 110px;
+	height: 130px;
+	overflow: auto;
+}
+.calendricalTimePopup ul {
+	margin: 0 !important;
+	padding: 0 !important;
+}
+.calendricalTimePopup ul li {
+	list-style: none !important;
+	padding: 0 !important;
+	margin: 0;
+}
+.calendricalTimePopup ul li a, .calendricalTimePopup ul li a:visited {
+	text-indent: 10px;
+	padding: 4px;
+	display: block;
+	color: black;
+	text-decoration: none !important;
+}
+.calendricalTimePopup ul li a:hover, .calendricalTimePopup ul li.selected a {
+	background: #ccccff;
+}
+
+.calendricalEndTimePopup {
+	width: 200px;
+}
+
+
+/**
+ * Recurrence modal controls
+ */
+
+/* Recurrence tabs styling override */
+.timely #ai1ec_repeat_box .ai1ec-nav-pills > li + li {
+	margin-left: 0;
+}
+#ai1ec_repeat_box .ai1ec-nav > .ai1ec-col-xs-3 {
+	padding: 0 8px;
+}
+.timely #ai1ec_repeat_box .ai1ec-nav > li > a {
+	padding: 10px 0;
+}
+
+/* Range input (from jQuery Tools) */
+
+/* slider root element */
+.ai1ec-slider {
+	background:#eee;
+	height:0.4em;
+	position:relative;
+	cursor:pointer;
+	border:1px solid #ccc;
+	width:8.8em;
+	margin: 0.7em 0.25em 0 0;
+	float:left;
+	clear:right;
+	border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+}
+/* progress bar (enabled with progress: true) */
+.ai1ec-progress {
+	display: none;
+}
+/* drag handle */
+.timely .ai1ec-handle {
+	background:#fff;
+	height: 1em;
+	width: 1em;
+	top: -0.5em;
+	margin-top: 1px;
+	position: absolute;
+	z-index: 0;
+	display: block;
+	border: 1px solid #ccc;
+	cursor:move;
+	border-radius: 0.25em;
+	-webkit-box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+	-moz-box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+	-ms-box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+	-o-box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+	box-shadow: 0 2px 5px rgba(0,0,0,0.15);
+}
+/* the input field */
+.ai1ec-range {
+	text-align:center;
+	width:3em;
+	border: 1px solid #dfdfdf;
+	background: #fff;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+/**
+ * Weekday/day/month button groups
+ */
+
+.ai1ec-btn-group-grid > .ai1ec-pull-left {
+	padding: 0 0.5em 0.5em 0;
+	width: 14.2%;
+}
+#ai1ec_yearly_date_select > .ai1ec-pull-left {
+	width: 16.6%;
+}
+
+/**
+ * Exclude dates multiselect widget
+ */
+
+#datepicker-widget {
+	position: relative;
+}
+#widgetCalendar {
+	position: absolute;
+	top: 26px;
+	left: 0;
+	height: 186px;
+	overflow: hidden;
+	width: 648px !important;
+	background: #FFFFFF;
+	z-index: 2;
+	display: none;
+}
+#widgetCalendar .datepicker {
+	position: absolute;
+	bottom: 0;
+	top: auto;
+}
+#widgetCalendar .datepickerContainer,
+#widgetCalendar .datepickerBorderT,
+#widgetCalendar .datepickerBorderB,
+#widgetCalendar .datepickerBorderL,
+#widgetCalendar .datepickerBorderR,
+#widgetCalendar .datepickerBorderTL,
+#widgetCalendar .datepickerBorderTR,
+#widgetCalendar .datepickerBorderBL,
+#widgetCalendar .datepickerBorderBR {
+	background: transparent !important;
+}
+#widgetCalendar .ai1ec-datepicker-week,
+#widgetCalendar .ai1ec-datepicker-header-week {
+	display: none;
+}
+#widgetField input {
+	width: 320px;
+	padding-right: 24px;
+	background-position: 99% 40%;
+}
+.ai1ec-info-text {
+	font-size: 10px;
+	float: left;
+}
+/* input coordinates */
+#ai1ec-inside-wrapper{
+	width: 33em;
+}
+
+.ai1ec-cost-label {
+	vertical-align: top;
+	margin-top: 5px;
+}
+#ai1ec_cost {
+	-webkit-transition: width 0.2s, padding 0.2s, opacity 0.2s;
+	-moz-transition: width 0.2s, padding 0.2s, opacity 0.2s;
+	-ms-transition: width 0.2s, padding 0.2s, opacity 0.2s;
+	-o-transition: width 0.2s, padding 0.2s, opacity 0.2s;
+	transition: width 0.2s, padding 0.2s, opacity 0.2s;
+}
+#ai1ec_cost.ai1ec-hidden {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	opacity: 0;
+	padding: 0;
+	width: 0;
+}
+
+#s2id_timezone-select {
+	width: 172px;
+	margin: 0;
+}
+
+#ai1ec_event_banner > .inside > p {
+	margin-bottom: 0 !important;
+}
+.ai1ec-banner-image-frame .edit-attachment {
+	display: none !important;
+}

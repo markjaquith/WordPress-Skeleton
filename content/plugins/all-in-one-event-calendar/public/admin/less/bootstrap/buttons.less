@@ -1,0 +1,155 @@
+//
+// Buttons
+// --------------------------------------------------
+
+
+// Base styles
+// --------------------------------------------------
+
+.ai1ec-btn {
+  display: inline-block;
+  margin-bottom: 0; // For input.ai1ec-btn
+  font-weight: @btn-font-weight;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  background-image: none; // Reset unusual Firefox-on-Android default style; see https://github.ai1ec-com/necolas/normalize.ai1ec-css/issues/214
+  border: 1px solid transparent;
+  white-space: nowrap;
+  .ai1ec-button-size(@padding-base-vertical; @padding-base-horizontal; @font-size-base; @line-height-base; @border-radius-base);
+  .ai1ec-user-select(none);
+
+  &:focus {
+    .ai1ec-tab-focus();
+  }
+
+  &:hover,
+  &:focus {
+    color: @btn-default-color;
+    text-decoration: none;
+  }
+
+  &:active,
+  &.ai1ec-active {
+    outline: 0;
+    background-image: none;
+    .ai1ec-box-shadow(inset 0 3px 5px rgba(0,0,0,.125));
+  }
+
+  &.ai1ec-disabled,
+  &[disabled],
+  fieldset[disabled] & {
+    cursor: not-allowed;
+    pointer-events: none; // Future-proof disabling of clicks
+    .ai1ec-opacity(.65);
+    .ai1ec-box-shadow(none);
+  }
+}
+
+
+// Alternate buttons
+// --------------------------------------------------
+
+.ai1ec-btn-default {
+  .ai1ec-button-variant(@btn-default-color; @btn-default-bg; @btn-default-border);
+}
+.ai1ec-btn-primary {
+  .ai1ec-button-variant(@btn-primary-color; @btn-primary-bg; @btn-primary-border);
+}
+// Warning appears as orange
+.ai1ec-btn-warning {
+  .ai1ec-button-variant(@btn-warning-color; @btn-warning-bg; @btn-warning-border);
+}
+// Danger and error appear as red
+.ai1ec-btn-danger {
+  .ai1ec-button-variant(@btn-danger-color; @btn-danger-bg; @btn-danger-border);
+}
+// Success appears as green
+.ai1ec-btn-success {
+  .ai1ec-button-variant(@btn-success-color; @btn-success-bg; @btn-success-border);
+}
+// Info appears as blue-green
+.ai1ec-btn-info {
+  .ai1ec-button-variant(@btn-info-color; @btn-info-bg; @btn-info-border);
+}
+
+
+// Link buttons
+// -------------------------
+
+// Make a button look and behave like a link
+.ai1ec-btn-link {
+  color: @link-color;
+  font-weight: normal;
+  cursor: pointer;
+  border-radius: 0;
+
+  &,
+  &:active,
+  &[disabled],
+  fieldset[disabled] & {
+    background-color: transparent;
+    .ai1ec-box-shadow(none);
+  }
+  &,
+  &:hover,
+  &:focus,
+  &:active {
+    border-color: transparent;
+  }
+  &:hover,
+  &:focus {
+    color: @link-hover-color;
+    text-decoration: underline;
+    background-color: transparent;
+  }
+  &[disabled],
+  fieldset[disabled] & {
+    &:hover,
+    &:focus {
+      color: @btn-link-disabled-color;
+      text-decoration: none;
+    }
+  }
+}
+
+
+// Button Sizes
+// --------------------------------------------------
+
+.ai1ec-btn-lg {
+  // line-height: ensure even-numbered height of button next to large input
+  .ai1ec-button-size(@padding-large-vertical; @padding-large-horizontal; @font-size-large; @line-height-large; @border-radius-large);
+}
+.ai1ec-btn-sm {
+  // line-height: ensure proper height of button next to small input
+  .ai1ec-button-size(@padding-small-vertical; @padding-small-horizontal; @font-size-small; @line-height-small; @border-radius-small);
+}
+.ai1ec-btn-xs {
+  .ai1ec-button-size(@padding-xs-vertical; @padding-xs-horizontal; @font-size-small; @line-height-small; @border-radius-small);
+}
+
+
+// Block button
+// --------------------------------------------------
+
+.ai1ec-btn-block {
+  display: block;
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+// Vertically space out multiple block buttons
+.ai1ec-btn-block + .ai1ec-btn-block {
+  margin-top: 5px;
+}
+
+// Specificity overrides
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+  &.ai1ec-btn-block {
+    width: 100%;
+  }
+}

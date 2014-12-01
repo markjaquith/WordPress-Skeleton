@@ -1,0 +1,28 @@
+{% if edit %}
+	<tr class="form-field">
+		<th scope="row" valign="top">
+			<label for="tag-color">
+				{{ label }}
+			</label>
+		</th>
+		<td>
+			<div id="tag-color">
+				<div id="tag-color-background" {{ style | raw }}></div>
+			</div>
+			<input type="hidden" name="tag-color-value" id="tag-color-value"
+				value="{{ color }}">
+			<p class="description">{{ description | raw }}.</p>
+		</td>
+	</tr>
+{% else %}
+	<div class="form-field">
+		<label for="tag-color">
+			{{ label }}
+		</label>
+		<div id="tag-color">
+			<div id="tag-color-background"></div>
+		</div>
+		<input type="hidden" name="tag-color-value" id="tag-color-value" value="">
+		<p>{{ description | raw }}.</p>
+	</div>
+{% endif %}

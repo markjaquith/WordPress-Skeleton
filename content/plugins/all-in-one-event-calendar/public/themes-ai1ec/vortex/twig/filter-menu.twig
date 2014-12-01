@@ -1,0 +1,24 @@
+{% if ai1ec_before_filter_menu is defined %}
+	{{ ai1ec_before_filter_menu | raw }}
+{% endif %}
+<div class="timely ai1ec-calendar-toolbar ai1ec-clearfix
+{% if categories           is empty       and
+      tags                 is empty       and
+      additional_filters   is not defined and
+      contribution_buttons is empty
+%}
+	ai1ec-hidden
+{% endif %}
+	">
+	<ul class="ai1ec-nav ai1ec-nav-pills ai1ec-pull-left ai1ec-filters">
+		{{ categories | raw }}
+		{{ tags | raw }}
+		{% if additional_filters is defined %}
+			{{ additional_filters | raw }}
+		{% endif %}
+	</ul>
+  <div class="ai1ec-pull-right">
+  	{{ contribution_buttons | raw }}
+  </div>
+</div>{# /.ai1ec-calendar-toolbar #}
+

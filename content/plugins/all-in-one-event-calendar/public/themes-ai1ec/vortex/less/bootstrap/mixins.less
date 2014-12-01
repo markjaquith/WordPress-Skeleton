@@ -1,0 +1,845 @@
+//
+// Mixins
+// --------------------------------------------------
+
+
+// Utilities
+// -------------------------
+
+// Clearfix
+// Source: http://nicolasgallagher.ai1ec-com/micro-clearfix-hack/
+//
+// For modern browsers
+// 1. The space content is one way to avoid an Opera bug when the
+//    contenteditable attribute is included anywhere else in the document.
+//    Otherwise it causes space to appear at the top and bottom of elements
+//    that are clearfixed.
+// 2. The use of `table` rather than `block` is only necessary if using
+//    `:before` to contain the top-margins of child elements.
+.ai1ec-clearfix() {
+  &:before,
+  &:after {
+    content: " "; // 1
+    display: table; // 2
+  }
+  &:after {
+    clear: both;
+  }
+}
+
+// WebKit-style focus
+.ai1ec-tab-focus() {
+  // Default
+  outline: thin dotted;
+  // WebKit
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+
+// Center-align a block level element
+.ai1ec-center-block() {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+// Sizing shortcuts
+.ai1ec-size(@width; @height) {
+  width: @width;
+  height: @height;
+}
+.ai1ec-square(@size) {
+  .ai1ec-size(@size; @size);
+}
+
+// Placeholder text
+.ai1ec-placeholder(@color: @input-color-placeholder) {
+  &:-moz-placeholder            { color: @color; } // Firefox 4-18
+  &::-moz-placeholder           { color: @color;   // Firefox 19+
+                                  opacity: 1; } // See https://github.ai1ec-com/twbs/bootstrap/pull/11526
+  &:-ms-input-placeholder       { color: @color; } // Internet Explorer 10+
+  &::-webkit-input-placeholder  { color: @color; } // Safari and Chrome
+}
+
+// Text overflow
+// Requires inline-block or block for proper styling
+.ai1ec-text-overflow() {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+// CSS image replacement
+//
+// Heads up! v3 launched with with only `.ai1ec-hide-text()`, but per our pattern for
+// mixins being reused as classes with the same name, this doesn't hold up. As
+// of v3.0.1 we have added `.ai1ec-text-hide()` and deprecated `.ai1ec-hide-text()`. Note
+// that we cannot chain the mixins together in Less, so they are repeated.
+//
+// Source: https://github.ai1ec-com/h5bp/html5-boilerplate/commit/aa0396eae757
+
+// Deprecated as of v3.0.1 (will be removed in v4)
+.ai1ec-hide-text() {
+  font: ~"0/0" a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+// New mixin to use as of v3.0.1
+.ai1ec-text-hide() {
+  .ai1ec-hide-text();
+}
+
+
+
+// CSS3 PROPERTIES
+// --------------------------------------------------
+
+// Single side border-radius
+.ai1ec-border-top-radius(@radius) {
+  border-top-right-radius: @radius;
+   border-top-left-radius: @radius;
+}
+.ai1ec-border-right-radius(@radius) {
+  border-bottom-right-radius: @radius;
+     border-top-right-radius: @radius;
+}
+.ai1ec-border-bottom-radius(@radius) {
+  border-bottom-right-radius: @radius;
+   border-bottom-left-radius: @radius;
+}
+.ai1ec-border-left-radius(@radius) {
+  border-bottom-left-radius: @radius;
+     border-top-left-radius: @radius;
+}
+
+// Drop shadows
+.ai1ec-box-shadow(@shadow) {
+  -webkit-box-shadow: @shadow; // iOS <4.3 & Android <4.1
+          box-shadow: @shadow;
+}
+
+// Transitions
+.ai1ec-transition(@transition) {
+  -webkit-transition: @transition;
+          transition: @transition;
+}
+.ai1ec-transition-property(@transition-property) {
+  -webkit-transition-property: @transition-property;
+          transition-property: @transition-property;
+}
+.ai1ec-transition-delay(@transition-delay) {
+  -webkit-transition-delay: @transition-delay;
+          transition-delay: @transition-delay;
+}
+.ai1ec-transition-duration(@transition-duration) {
+  -webkit-transition-duration: @transition-duration;
+          transition-duration: @transition-duration;
+}
+.ai1ec-transition-transform(@transition) {
+  -webkit-transition: -webkit-transform @transition;
+     -moz-transition: -moz-transform @transition;
+       -o-transition: -o-transform @transition;
+          transition: transform @transition;
+}
+
+// Transformations
+.ai1ec-rotate(@degrees) {
+  -webkit-transform: rotate(@degrees);
+      -ms-transform: rotate(@degrees); // IE9+
+          transform: rotate(@degrees);
+}
+.ai1ec-scale(@ratio) {
+  -webkit-transform: scale(@ratio);
+      -ms-transform: scale(@ratio); // IE9+
+          transform: scale(@ratio);
+}
+.ai1ec-translate(@x; @y) {
+  -webkit-transform: translate(@x, @y);
+      -ms-transform: translate(@x, @y); // IE9+
+          transform: translate(@x, @y);
+}
+.ai1ec-skew(@x; @y) {
+  -webkit-transform: skew(@x, @y);
+      -ms-transform: skewX(@x) skewY(@y); // See https://github.ai1ec-com/twbs/bootstrap/issues/4885; IE9+
+          transform: skew(@x, @y);
+}
+.ai1ec-translate3d(@x; @y; @z) {
+  -webkit-transform: translate3d(@x, @y, @z);
+          transform: translate3d(@x, @y, @z);
+}
+
+.ai1ec-rotateX(@degrees) {
+  -webkit-transform: rotateX(@degrees);
+      -ms-transform: rotateX(@degrees); // IE9+
+          transform: rotateX(@degrees);
+}
+.ai1ec-rotateY(@degrees) {
+  -webkit-transform: rotateY(@degrees);
+      -ms-transform: rotateY(@degrees); // IE9+
+          transform: rotateY(@degrees);
+}
+.ai1ec-perspective(@perspective) {
+  -webkit-perspective: @perspective;
+     -moz-perspective: @perspective;
+          perspective: @perspective;
+}
+.ai1ec-perspective-origin(@perspective) {
+  -webkit-perspective-origin: @perspective;
+     -moz-perspective-origin: @perspective;
+          perspective-origin: @perspective;
+}
+.ai1ec-transform-origin(@origin) {
+  -webkit-transform-origin: @origin;
+     -moz-transform-origin: @origin;
+          transform-origin: @origin;
+}
+
+// Animations
+.ai1ec-animation(@animation) {
+  -webkit-animation: @animation;
+          animation: @animation;
+}
+
+// Backface visibility
+// Prevent browsers from flickering when using CSS 3D transforms.
+// Default value is `visible`, but can be changed to `hidden`
+.ai1ec-backface-visibility(@visibility){
+  -webkit-backface-visibility: @visibility;
+     -moz-backface-visibility: @visibility;
+          backface-visibility: @visibility;
+}
+
+// Box sizing
+.ai1ec-box-sizing(@boxmodel) {
+  -webkit-box-sizing: @boxmodel;
+     -moz-box-sizing: @boxmodel;
+          box-sizing: @boxmodel;
+}
+
+// User select
+// For selecting text on the page
+.ai1ec-user-select(@select) {
+  -webkit-user-select: @select;
+     -moz-user-select: @select;
+      -ms-user-select: @select; // IE10+
+       -o-user-select: @select;
+          user-select: @select;
+}
+
+// Resize anything
+.ai1ec-resizable(@direction) {
+  resize: @direction; // Options: horizontal, vertical, both
+  overflow: auto; // Safari fix
+}
+
+// CSS3 Content Columns
+.ai1ec-content-columns(@column-count; @column-gap: @grid-gutter-width) {
+  -webkit-column-count: @column-count;
+     -moz-column-count: @column-count;
+          column-count: @column-count;
+  -webkit-column-gap: @column-gap;
+     -moz-column-gap: @column-gap;
+          column-gap: @column-gap;
+}
+
+// Optional hyphenation
+.ai1ec-hyphens(@mode: auto) {
+  word-wrap: break-word;
+  -webkit-hyphens: @mode;
+     -moz-hyphens: @mode;
+      -ms-hyphens: @mode; // IE10+
+       -o-hyphens: @mode;
+          hyphens: @mode;
+}
+
+// Opacity
+.ai1ec-opacity(@opacity) {
+  opacity: @opacity;
+  // IE8 filter
+  @opacity-ie: (@opacity * 100);
+  filter: ~"alpha(opacity=@{opacity-ie})";
+}
+
+
+
+// GRADIENTS
+// --------------------------------------------------
+
+#gradient {
+
+  // Horizontal gradient, from left to right
+  //
+  // Creates two color stops, start and end, by specifying a color and position for each color stop.
+  // Color stops are not available in IE9 and below.
+  .ai1ec-horizontal(@start-color: #555; @end-color: #333; @start-percent: 0%; @end-percent: 100%) {
+    background-image: -webkit-linear-gradient(left, color-stop(@start-color @start-percent), color-stop(@end-color @end-percent)); // Safari 5.1-6, Chrome 10+
+    background-image:  linear-gradient(to right, @start-color @start-percent, @end-color @end-percent); // Standard, IE10, Firefox 16+, Opera 12.10+, Safari 7+, Chrome 26+
+    background-repeat: repeat-x;
+    filter: e(%("progid:DXImageTransform.Microsoft.gradient(startColorstr='%d', endColorstr='%d', GradientType=1)",argb(@start-color),argb(@end-color))); // IE9 and down
+  }
+
+  // Vertical gradient, from top to bottom
+  //
+  // Creates two color stops, start and end, by specifying a color and position for each color stop.
+  // Color stops are not available in IE9 and below.
+  .ai1ec-vertical(@start-color: #555; @end-color: #333; @start-percent: 0%; @end-percent: 100%) {
+    background-image: -webkit-linear-gradient(top, @start-color @start-percent, @end-color @end-percent);  // Safari 5.1-6, Chrome 10+
+    background-image: linear-gradient(to bottom, @start-color @start-percent, @end-color @end-percent); // Standard, IE10, Firefox 16+, Opera 12.10+, Safari 7+, Chrome 26+
+    background-repeat: repeat-x;
+    filter: e(%("progid:DXImageTransform.Microsoft.gradient(startColorstr='%d', endColorstr='%d', GradientType=0)",argb(@start-color),argb(@end-color))); // IE9 and down
+  }
+
+  .ai1ec-directional(@start-color: #555; @end-color: #333; @deg: 45deg) {
+    background-repeat: repeat-x;
+    background-image: -webkit-linear-gradient(@deg, @start-color, @end-color); // Safari 5.1-6, Chrome 10+
+    background-image: linear-gradient(@deg, @start-color, @end-color); // Standard, IE10, Firefox 16+, Opera 12.10+, Safari 7+, Chrome 26+
+  }
+  .ai1ec-horizontal-three-colors(@start-color: #00b3ee; @mid-color: #7a43b6; @color-stop: 50%; @end-color: #c3325f) {
+    background-image: -webkit-linear-gradient(left, @start-color, @mid-color @color-stop, @end-color);
+    background-image: linear-gradient(to right, @start-color, @mid-color @color-stop, @end-color);
+    background-repeat: no-repeat;
+    filter: e(%("progid:DXImageTransform.Microsoft.gradient(startColorstr='%d', endColorstr='%d', GradientType=1)",argb(@start-color),argb(@end-color))); // IE9 and down, gets no color-stop at all for proper fallback
+  }
+  .ai1ec-vertical-three-colors(@start-color: #00b3ee; @mid-color: #7a43b6; @color-stop: 50%; @end-color: #c3325f) {
+    background-image: -webkit-linear-gradient(@start-color, @mid-color @color-stop, @end-color);
+    background-image: linear-gradient(@start-color, @mid-color @color-stop, @end-color);
+    background-repeat: no-repeat;
+    filter: e(%("progid:DXImageTransform.Microsoft.gradient(startColorstr='%d', endColorstr='%d', GradientType=0)",argb(@start-color),argb(@end-color))); // IE9 and down, gets no color-stop at all for proper fallback
+  }
+  .ai1ec-radial(@inner-color: #555; @outer-color: #333) {
+    background-image: -webkit-radial-gradient(circle, @inner-color, @outer-color);
+    background-image: radial-gradient(circle, @inner-color, @outer-color);
+    background-repeat: no-repeat;
+  }
+  .ai1ec-striped(@color: rgba(255,255,255,.15); @angle: 45deg) {
+    background-image: -webkit-linear-gradient(@angle, @color 25%, transparent 25%, transparent 50%, @color 50%, @color 75%, transparent 75%, transparent);
+    background-image: linear-gradient(@angle, @color 25%, transparent 25%, transparent 50%, @color 50%, @color 75%, transparent 75%, transparent);
+  }
+}
+
+// Reset filters for IE
+//
+// When you need to remove a gradient background, do not forget to use this to reset
+// the IE filter for IE9 and below.
+.ai1ec-reset-filter() {
+  filter: e(%("progid:DXImageTransform.Microsoft.gradient(enabled = false)"));
+}
+
+
+
+// Retina images
+//
+// Short retina mixin for setting background-image and -size
+
+.ai1ec-img-retina(@file-1x; @file-2x; @width-1x; @height-1x) {
+  background-image: url("@{file-1x}");
+
+  @media
+  only screen and (-webkit-min-device-pixel-ratio: 2),
+  only screen and (   min--moz-device-pixel-ratio: 2),
+  only screen and (     -o-min-device-pixel-ratio: 2/1),
+  only screen and (        min-device-pixel-ratio: 2),
+  only screen and (                min-resolution: 192dpi),
+  only screen and (                min-resolution: 2dppx) {
+    background-image: url("@{file-2x}");
+    background-size: @width-1x @height-1x;
+  }
+}
+
+
+// Responsive image
+//
+// Keep images from scaling beyond the width of their parents.
+
+.ai1ec-img-responsive(@display: block;) {
+  display: @display;
+  max-width: 100%; // Part 1: Set a maximum relative to the parent
+  height: auto; // Part 2: Scale the height according to the width, otherwise you get stretching
+}
+
+
+// COMPONENT MIXINS
+// --------------------------------------------------
+
+// Horizontal dividers
+// -------------------------
+// Dividers (basically an hr) within dropdowns and nav lists
+.ai1ec-nav-divider(@color: #e5e5e5) {
+  height: 1px;
+  margin: ((@line-height-computed / 2) - 1) 0;
+  overflow: hidden;
+  background-color: @color;
+}
+
+// Panels
+// -------------------------
+.ai1ec-panel-variant(@border; @heading-text-color; @heading-bg-color; @heading-border) {
+  border-color: @border;
+
+  & > .ai1ec-panel-heading {
+    color: @heading-text-color;
+    background-color: @heading-bg-color;
+    border-color: @heading-border;
+
+    + .ai1ec-panel-collapse .ai1ec-panel-body {
+      border-top-color: @border;
+    }
+  }
+  & > .ai1ec-panel-footer {
+    + .ai1ec-panel-collapse .ai1ec-panel-body {
+      border-bottom-color: @border;
+    }
+  }
+}
+
+// Alerts
+// -------------------------
+.ai1ec-alert-variant(@background; @border; @text-color) {
+  background-color: @background;
+  border-color: @border;
+  color: @text-color;
+
+  hr {
+    border-top-color: darken(@border, 5%);
+  }
+  .ai1ec-alert-link {
+    color: darken(@text-color, 10%);
+  }
+}
+
+// Tables
+// -------------------------
+.ai1ec-table-row-variant(@state; @background) {
+  // Exact selectors below required to override `.ai1ec-table-striped` and prevent
+  // inheritance to nested tables.
+  .ai1ec-table {
+    > thead,
+    > tbody,
+    > tfoot {
+      > tr > .@{state},
+      > .@{state} > td,
+      > .@{state} > th {
+        background-color: @background;
+      }
+    }
+  }
+
+  // Hover states for `.ai1ec-table-hover`
+  // Note: this is not available for cells or rows within `thead` or `tfoot`.
+  .ai1ec-table-hover > tbody {
+    > tr > .@{state}:hover,
+    > .@{state}:hover > td,
+    > .@{state}:hover > th {
+      background-color: darken(@background, 5%);
+    }
+  }
+}
+
+// Button variants
+// -------------------------
+// Easily pump out default styles, as well as :hover, :focus, :active,
+// and disabled options for all buttons
+.ai1ec-button-variant(@color; @background; @border) {
+  color: @color;
+  background-color: @background;
+  border-color: @border;
+
+  &:hover,
+  &:focus,
+  &:active,
+  &.ai1ec-active,
+  .ai1ec-open .ai1ec-dropdown-toggle& {
+    color: @color;
+    background-color: darken(@background, 8%);
+        border-color: darken(@border, 12%);
+  }
+  &:active,
+  &.ai1ec-active,
+  .ai1ec-open .ai1ec-dropdown-toggle& {
+    background-image: none;
+  }
+  &.ai1ec-disabled,
+  &[disabled],
+  fieldset[disabled] & {
+    &,
+    &:hover,
+    &:focus,
+    &:active,
+    &.ai1ec-active {
+      background-color: @background;
+          border-color: @border;
+    }
+  }
+
+  .ai1ec-badge {
+    color: @background;
+    background-color: #fff;
+  }
+}
+
+// Button sizes
+// -------------------------
+.ai1ec-button-size(@padding-vertical; @padding-horizontal; @font-size; @line-height; @border-radius) {
+  padding: @padding-vertical @padding-horizontal;
+  font-size: @font-size;
+  line-height: @line-height;
+  border-radius: @border-radius;
+}
+
+// Pagination
+// -------------------------
+.ai1ec-pagination-size(@padding-vertical; @padding-horizontal; @font-size; @border-radius) {
+  > li {
+    > a,
+    > span {
+      padding: @padding-vertical @padding-horizontal;
+      font-size: @font-size;
+    }
+    &:first-child {
+      > a,
+      > span {
+        .ai1ec-border-left-radius(@border-radius);
+      }
+    }
+    &:last-child {
+      > a,
+      > span {
+        .ai1ec-border-right-radius(@border-radius);
+      }
+    }
+  }
+}
+
+// Labels
+// -------------------------
+.ai1ec-label-variant(@color) {
+  background-color: @color;
+  &[href] {
+    &:hover,
+    &:focus {
+      background-color: darken(@color, 10%);
+    }
+  }
+}
+
+// Navbar vertical align
+// -------------------------
+// Vertically center elements in the navbar.
+// Example: an element has a height of 30px, so write out `.ai1ec-navbar-vertical-align(30px);` to calculate the appropriate top margin.
+.ai1ec-navbar-vertical-align(@element-height) {
+  margin-top: ((@navbar-height - @element-height) / 2);
+  margin-bottom: ((@navbar-height - @element-height) / 2);
+}
+
+// Progress bars
+// -------------------------
+.ai1ec-progress-bar-variant(@color) {
+  background-color: @color;
+  .ai1ec-progress-striped & {
+    #gradient > .ai1ec-striped();
+  }
+}
+
+// Responsive utilities
+// -------------------------
+// More easily include all the states for responsive-utilities.less.
+.ai1ec-responsive-visibility() {
+  display: block !important;
+  table&  { display: table; }
+  tr&     { display: table-row !important; }
+  th&,
+  td&     { display: table-cell !important; }
+}
+
+.ai1ec-responsive-invisibility() {
+    &,
+  tr&,
+  th&,
+  td& { display: none !important; }
+}
+
+
+// Grid System
+// -----------
+
+// Centered container element
+.ai1ec-container-fixed() {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left:  (@grid-gutter-width / 2);
+  padding-right: (@grid-gutter-width / 2);
+  .ai1ec-clearfix();
+}
+
+// Creates a wrapper for a series of columns
+.ai1ec-make-row(@gutter: @grid-gutter-width) {
+  margin-left:  (@gutter / -2);
+  margin-right: (@gutter / -2);
+  .ai1ec-clearfix();
+}
+
+// Generate the extra small columns
+.ai1ec-make-xs-column(@columns; @gutter: @grid-gutter-width) {
+  position: relative;
+  float: left;
+  width: percentage((@columns / @grid-columns));
+  // Prevent columns from collapsing when empty
+  min-height: 1px;
+  // Inner gutter via padding
+  padding-left:  (@gutter / 2);
+  padding-right: (@gutter / 2);
+}
+
+// Generate the small columns
+.ai1ec-make-sm-column(@columns; @gutter: @grid-gutter-width) {
+  position: relative;
+  // Prevent columns from collapsing when empty
+  min-height: 1px;
+  // Inner gutter via padding
+  padding-left:  (@gutter / 2);
+  padding-right: (@gutter / 2);
+
+  // Calculate width based on number of columns available
+  @media (min-width: @screen-sm-min) {
+    float: left;
+    width: percentage((@columns / @grid-columns));
+  }
+}
+
+// Generate the small column offsets
+.ai1ec-make-sm-column-offset(@columns) {
+  @media (min-width: @screen-sm-min) {
+    margin-left: percentage((@columns / @grid-columns));
+  }
+}
+.ai1ec-make-sm-column-push(@columns) {
+  @media (min-width: @screen-sm-min) {
+    left: percentage((@columns / @grid-columns));
+  }
+}
+.ai1ec-make-sm-column-pull(@columns) {
+  @media (min-width: @screen-sm-min) {
+    right: percentage((@columns / @grid-columns));
+  }
+}
+
+// Generate the medium columns
+.ai1ec-make-md-column(@columns; @gutter: @grid-gutter-width) {
+  position: relative;
+  // Prevent columns from collapsing when empty
+  min-height: 1px;
+  // Inner gutter via padding
+  padding-left:  (@gutter / 2);
+  padding-right: (@gutter / 2);
+
+  // Calculate width based on number of columns available
+  @media (min-width: @screen-md-min) {
+    float: left;
+    width: percentage((@columns / @grid-columns));
+  }
+}
+
+// Generate the medium column offsets
+.ai1ec-make-md-column-offset(@columns) {
+  @media (min-width: @screen-md-min) {
+    margin-left: percentage((@columns / @grid-columns));
+  }
+}
+.ai1ec-make-md-column-push(@columns) {
+  @media (min-width: @screen-md) {
+    left: percentage((@columns / @grid-columns));
+  }
+}
+.ai1ec-make-md-column-pull(@columns) {
+  @media (min-width: @screen-md-min) {
+    right: percentage((@columns / @grid-columns));
+  }
+}
+
+// Generate the large columns
+.ai1ec-make-lg-column(@columns; @gutter: @grid-gutter-width) {
+  position: relative;
+  // Prevent columns from collapsing when empty
+  min-height: 1px;
+  // Inner gutter via padding
+  padding-left:  (@gutter / 2);
+  padding-right: (@gutter / 2);
+
+  // Calculate width based on number of columns available
+  @media (min-width: @screen-lg-min) {
+    float: left;
+    width: percentage((@columns / @grid-columns));
+  }
+}
+
+// Generate the large column offsets
+.ai1ec-make-lg-column-offset(@columns) {
+  @media (min-width: @screen-lg-min) {
+    margin-left: percentage((@columns / @grid-columns));
+  }
+}
+.ai1ec-make-lg-column-push(@columns) {
+  @media (min-width: @screen-lg-min) {
+    left: percentage((@columns / @grid-columns));
+  }
+}
+.ai1ec-make-lg-column-pull(@columns) {
+  @media (min-width: @screen-lg-min) {
+    right: percentage((@columns / @grid-columns));
+  }
+}
+
+
+// Framework grid generation
+//
+// Used only by Bootstrap to generate the correct number of grid classes given
+// any value of `@grid-columns`.
+
+.ai1ec-make-grid-columns() {
+  // Common styles for all sizes of grid columns, widths 1-12
+  .ai1ec-col(@index) when (@index = 1) { // initial
+    @item: ~".ai1ec-col-xs-@{index}, .ai1ec-col-sm-@{index}, .ai1ec-col-md-@{index}, .ai1ec-col-lg-@{index}";
+    .ai1ec-col(@index + 1, @item);
+  }
+  .ai1ec-col(@index, @list) when (@index =< @grid-columns) { // general; "=<" isn't a typo
+    @item: ~".ai1ec-col-xs-@{index}, .ai1ec-col-sm-@{index}, .ai1ec-col-md-@{index}, .ai1ec-col-lg-@{index}";
+    .ai1ec-col(@index + 1, ~"@{list}, @{item}");
+  }
+  .ai1ec-col(@index, @list) when (@index > @grid-columns) { // terminal
+    @{list} {
+      position: relative;
+      // Prevent columns from collapsing when empty
+      min-height: 1px;
+      // Inner gutter via padding
+      padding-left:  (@grid-gutter-width / 2);
+      padding-right: (@grid-gutter-width / 2);
+    }
+  }
+  .ai1ec-col(1); // kickstart it
+}
+
+.ai1ec-make-grid-columns-float(@class) {
+  .ai1ec-col(@index) when (@index = 1) { // initial
+    @item: ~".ai1ec-col-@{class}-@{index}";
+    .ai1ec-col(@index + 1, @item);
+  }
+  .ai1ec-col(@index, @list) when (@index =< @grid-columns) { // general
+    @item: ~".ai1ec-col-@{class}-@{index}";
+    .ai1ec-col(@index + 1, ~"@{list}, @{item}");
+  }
+  .ai1ec-col(@index, @list) when (@index > @grid-columns) { // terminal
+    @{list} {
+      float: left;
+    }
+  }
+  .ai1ec-col(1); // kickstart it
+}
+
+.ai1ec-calc-grid(@index, @class, @type) when (@type = width) and (@index > 0) {
+  .ai1ec-col-@{class}-@{index} {
+    width: percentage((@index / @grid-columns));
+  }
+}
+.ai1ec-calc-grid(@index, @class, @type) when (@type = push) {
+  .ai1ec-col-@{class}-push-@{index} {
+    left: percentage((@index / @grid-columns));
+  }
+}
+.ai1ec-calc-grid(@index, @class, @type) when (@type = pull) {
+  .ai1ec-col-@{class}-pull-@{index} {
+    right: percentage((@index / @grid-columns));
+  }
+}
+.ai1ec-calc-grid(@index, @class, @type) when (@type = offset) {
+  .ai1ec-col-@{class}-offset-@{index} {
+    margin-left: percentage((@index / @grid-columns));
+  }
+}
+
+// Basic looping in LESS
+.ai1ec-make-grid(@index, @class, @type) when (@index >= 0) {
+  .ai1ec-calc-grid(@index, @class, @type);
+  // next iteration
+  .ai1ec-make-grid(@index - 1, @class, @type);
+}
+
+
+// Form validation states
+//
+// Used in forms.less to generate the form validation CSS for warnings, errors,
+// and successes.
+
+.ai1ec-form-control-validation(@text-color: #555; @border-color: #ccc; @background-color: #f5f5f5) {
+  // Color the label and help text
+  .ai1ec-help-block,
+  .ai1ec-control-label,
+  .ai1ec-radio,
+  .ai1ec-checkbox,
+  .ai1ec-radio-inline,
+  .ai1ec-checkbox-inline  {
+    color: @text-color;
+  }
+  // Set the border and box shadow on specific inputs to match
+  .ai1ec-form-control {
+    border-color: @border-color;
+    .ai1ec-box-shadow(inset 0 1px 1px rgba(0,0,0,.075)); // Redeclare so transitions work
+    &:focus {
+      border-color: darken(@border-color, 10%);
+      @shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 6px lighten(@border-color, 20%);
+      .ai1ec-box-shadow(@shadow);
+    }
+  }
+  // Set validation states also for addons
+  .ai1ec-input-group-addon {
+    color: @text-color;
+    border-color: @border-color;
+    background-color: @background-color;
+  }
+}
+
+// Form control focus state
+//
+// Generate a customized focus state and for any input with the specified color,
+// which defaults to the `@input-focus-border` variable.
+//
+// We highly encourage you to not customize the default value, but instead use
+// this to tweak colors on an as-needed basis. This aesthetic change is based on
+// WebKit's default styles, but applicable to a wider range of browsers. Its
+// usability and accessibility should be taken into account with any change.
+//
+// Example usage: change the default blue border and shadow to white for better
+// contrast against a dark gray background.
+
+.ai1ec-form-control-focus(@color: @input-border-focus) {
+  @color-rgba: rgba(red(@color), green(@color), blue(@color), .6);
+  &:focus {
+    border-color: @color;
+    outline: 0;
+    .ai1ec-box-shadow(~"inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px @{color-rgba}");
+  }
+}
+
+// Form control sizing
+//
+// Relative text size, padding, and border-radii changes for form controls. For
+// horizontal sizing, wrap controls in the predefined grid classes. `<select>`
+// element gets special love because it's special, and that's a fact!
+
+.ai1ec-input-size(@input-height; @padding-vertical; @padding-horizontal; @font-size; @line-height; @border-radius) {
+  height: @input-height;
+  padding: @padding-vertical @padding-horizontal;
+  font-size: @font-size;
+  line-height: @line-height;
+  border-radius: @border-radius;
+
+  select& {
+    height: @input-height;
+    line-height: @input-height;
+  }
+
+  textarea& {
+    height: auto;
+  }
+}

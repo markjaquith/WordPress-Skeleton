@@ -1,0 +1,15 @@
+{% extends "base_page.twig" %}
+{% block layout %}
+<div class="post-box-container column-1-ai1ec left-side timely">
+	{{ do_meta_boxes( metabox.screen, metabox.action, metabox.object ) }}
+	{% if submit is defined %}
+		{% from 'form-elements/input.twig' import button %}
+		<div class="ai1ec-pull-right">
+			{{ button( submit.id, submit.id, submit.value, 'submit', submit.args ) }}
+		</div>
+	{% endif %}
+</div>
+<div class="post-box-container column-2-ai1ec right-side timely">
+		{{ do_meta_boxes( support.screen, support.action, support.object ) }}
+</div>
+{% endblock %}

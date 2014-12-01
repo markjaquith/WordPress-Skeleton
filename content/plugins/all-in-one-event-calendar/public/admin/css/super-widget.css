@@ -1,0 +1,11 @@
+#ai1ec-superwidget-preview iframe {
+	width: 100%;
+	height: 350px;
+}
+#ai1ec-superwidget-code {
+	height: 140px;
+	white-space: normal;
+}
+#ai1ec-super_widget .ai1ec-nav {
+	margin-bottom: 8px;
+}

@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+//
+// @file
+//
+// Adds additional LESS rules to Plana.
+//
+
+@import "bootstrap/mixins.less";
+
+.ai1ec-btn,
+.ai1ec-calendar-toolbar {
+	border: 1px solid #ddd;
+	border-color: rgba( 0, 0, 0, 0.1 );
+	background-image: none;
+}
+.ai1ec-btn,
+.ai1ec-btn.ai1ec-active,
+.ai1ec-btn:active,
+.ai1ec-btn-group .ai1ec-dropdown-toggle,
+.ai1ec-btn-group.ai1ec-open .ai1ec-dropdown-toggle,
+.ai1ec-dropdown-menu,
+.timely .ai1ec-form-control,
+.ai1ec-calendar-toolbar.ai1ec-affix {
+	.ai1ec-box-shadow( none );
+}
+.ai1ec-nav > li > a:hover,
+.ai1ec-nav-pills > .ai1ec-active > a,
+.ai1ec-nav > .ai1ec-dropdown:hover > a,
+.ai1ec-nav-pills > .ai1ec-active > a:hover,
+.ai1ec-nav > .ai1ec-dropdown.ai1ec-active > a:hover,
+.ai1ec-nav-tabs .ai1ec-open .ai1ec-dropdown-toggle,
+.ai1ec-nav-pills .ai1ec-open .ai1ec-dropdown-toggle,
+.ai1ec-nav > li.ai1ec-dropdown.ai1ec-open.ai1ec-active > a:hover {
+	background-image: none;
+	.ai1ec-box-shadow( inset 0 0 2px fade( @dropdown-link-hover-color, 30% ) );
+}
+
+.ai1ec-filter-selector,
+.ai1ec-agenda-view .ai1ec-event.ai1ec-expanded,
+.ai1ec-month-view .ai1ec-event:hover,
+.ai1ec-month-view .ai1ec-event-summary,
+.ai1ec-week-view .ai1ec-event-summary,
+.ai1ec-oneday-view .ai1ec-event-summary,
+.ai1ec-agenda-view .ai1ec-event,
+.ai1ec-agenda-view .ai1ec-year,
+.ai1ec-agenda-widget-view .ai1ec-year,
+.ai1ec-modal-content,
+.select2-drop,
+.ai1ec-allday-badge,
+.ai1ec-popover.ai1ec-popup,
+.ai1ec-post_thumbnail,
+.ai1ec-content_img {
+	.ai1ec-box-shadow( none );
+}
+.ai1ec-agenda-view .ai1ec-date,
+.ai1ec-agenda-widget-view .ai1ec-date {
+	background: none;
+	border-top: 1px dotted mix( @body-bg, @text-color, 80% ) !important;
+}
+.ai1ec-agenda-view .ai1ec-date.ai1ec-today,
+.ai1ec-agenda-widget-view .ai1ec-date.ai1ec-today {
+	background: rgba(244, 244, 191, 0.5);
+	border-top: 1px dotted mix( @today-color, @text-color, 80% ) !important;
+}
+.ai1ec-agenda-view .ai1ec-date-title,
+.ai1ec-agenda-widget-view .ai1ec-date-title,
+.ai1ec-week-view .ai1ec-week .ai1ec-event-container,
+.ai1ec-oneday-view .ai1ec-oneday .ai1ec-event-container {
+	background-image: none !important;
+	.ai1ec-box-shadow( none );
+}
+.ai1ec-full-event th,
+.ai1ec-excerpt .ai1ec-field-label {
+	background: mix( @body-bg, @text-color, 94% );
+	background: rgba(0,0,0,0.05);
+}

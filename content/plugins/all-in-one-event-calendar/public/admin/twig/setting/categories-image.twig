@@ -1,0 +1,47 @@
+{% if edit %}
+
+    <tr class="form-field">
+        <th scope="row" valign="top">
+            <label for="tag-color">
+                {{ section_name }}
+            </label>
+        </th>
+        <td>
+
+            <img src='{{ image_src }}' {{ image_style }} alt='' id='ai1ec_category_imag_preview' />
+            <input type="hidden" name="ai1ec_category_image_url" id="ai1ec_category_image_url" value="">
+            <input class="button at-upload_image_button" type="button" id='ai1ec_category_image_uploader' value="{{ label }}">
+
+            {% if image_src %}
+            <p>
+                <input type="checkbox" style="width:auto;" name="ai1ec_category_image_url_remove" id="ai1ec_category_image_url_remove" value="1" />
+                <label for="ai1ec_category_image_url_remove">{{ remove_label }}</label>
+            </p>
+            {% endif %}
+
+            <div class="desc-field">
+                <p class="description">
+                    {{ description|raw }}
+                </p>
+            </div>
+        </td>
+    </tr>
+
+{% else %}
+    <div class="form-field">
+        <label for="ai1ec_image_field_id">
+            {{ section_name }}
+        </label>
+
+        <img src='{{ image_src }}' {{ image_style }} alt='' id='ai1ec_category_imag_preview' />
+        <input type="hidden" name="ai1ec_category_image_url" id="ai1ec_category_image_url" value="">
+        <input class="button at-upload_image_button" type="button" id='ai1ec_category_image_uploader' value="{{ label }}">
+
+        <div class="desc-field">
+            <p class="description">
+                {{ description|raw }}
+            </p>
+        </div>
+    </div>
+
+{% endif %}

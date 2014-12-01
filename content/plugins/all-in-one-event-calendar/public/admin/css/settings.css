@@ -1,0 +1,198 @@
+/* General */
+
+.column-1-ai1ec {
+	float: left;
+	width: 54%;
+}
+.column-2-ai1ec {
+	float: right;
+	width: 45%;
+}
+.column-3-ai1ec {
+	float: left;
+	width: 100%;
+}
+
+/* Support box */
+
+.ai1ec-support-buttons {
+	text-align: center;
+	margin: 20px 0;
+}
+.timely .ai1ec-support-buttons .ai1ec-btn-block {
+	margin-bottom: 5px;
+}
+@media ( min-width: 1200px ) {
+	#ai1ec-addons-col {
+		padding-right: 0;
+	}
+	#ai1ec-events-col {
+		padding-left: 0;
+	}
+}
+#ai1ec-support {
+	background: #f9f9f9;
+	min-width: 350px;
+}
+#ai1ec-support div.inside {
+  margin: 0;
+  padding: 6px 12px 8px;
+}
+#ai1ec-support h2 {
+  font-size: 19px;
+  line-height: 28px;
+  margin: 10px 0;
+  padding: 0;
+}
+#ai1ec-support h2:first-line {
+  white-space: nowrap;
+}
+#ai1ec-support .timely-logo a {
+	background: url(../img/timely-logo.png) no-repeat center center;
+	-webkit-background-size: 250px auto;
+	background-size: 250px auto;
+	display: block;
+	height: 109px;
+}
+#ai1ec-support .timely-intro {
+	text-align: center;
+}
+#ai1ec-support .ai1ec-follow-fan {
+  text-align: center;
+}
+#ai1ec-support .ai1ec-facebook-like-top {
+  display: inline-block;
+  vertical-align: top;
+}
+#ai1ec-support a.ai1ec-btn,
+#ai1ec-support a.ai1ec-btn:hover {
+  text-decoration: none;
+}
+#ai1ec-support .ai1ec-download {
+	text-align: center;
+}
+#ai1ec-support .ai1ec-download .ai1ec-download-btn {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	display: inline-block;
+	font-size: 13px;
+	margin-bottom: 5px;
+	padding: 10px 4px;
+	min-width: 300px;
+}
+#ai1ec-support .ai1ec-download .ai1ec-download-btn div {
+	font-size: 28px;
+	padding: 4px 0;
+}
+#ai1ec-support .ai1ec-account .ai1ec-btn {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	min-width: 150px;
+}
+#ai1ec-support .ai1ec-license-status {
+	font-size: 11px;
+	margin-left: 5px;
+	text-transform: uppercase;
+}
+#ai1ec-support .ai1ec-license-status span {
+	font-weight: normal;
+	cursor: help;
+}
+#ai1ec-support .ai1ec-account {
+	text-align: center;
+	margin-bottom: 5px;
+}
+#ai1ec-support .ai1ec-account > .ai1ec-btn-group {
+	display: inline-block;
+}
+
+#ai1ec-support .ai1ec-news h2 small {
+	font-size: 0.8em;
+	margin-left: 0.3em;
+}
+#ai1ec-support .ai1ec-news article {
+	border-bottom: 1px solid #e0e0e0;
+	margin-bottom: 7px;
+	padding-bottom: 5px;
+}
+#ai1ec-support .ai1ec-news article:first-child {
+	border-top: 1px solid #e0e0e0;
+	padding-top: 5px;
+}
+
+/* General settings */
+
+.ai1ec-tab-content > .ai1ec-tab-pane.ai1ec-active ~ .ai1ec-tab-pane-not-loaded {
+	display: none;
+}
+
+.ai1ec-admin-view-settings {
+	margin: 0 0 0.75em;
+}
+.ai1ec-admin-view-settings td {
+	text-align: center;
+}
+.ai1ec-admin-view-settings td:first-child {
+	text-align: right;
+}
+.timely .ai1ec-default-filters .ai1ec-help-block {
+	font-size: 0.85em;
+	line-height: 1.4em;
+	margin-bottom: 0;
+}
+
+#exact_date {
+	background: no-repeat url(../img/date-field-icon.png) 95% 40%;
+	width: 110px;
+}
+
+#show_front_end_create_form,
+#allow_anonymous_submissions,
+#allow_anonymous_uploads,
+#publish_anonymous_submissions {
+	margin-left: 17px;
+}
+.ai1ec-recaptcha-settings label {
+	width: 180px;
+}
+.ai1ec-recaptcha-settings #recaptcha-private-key {
+	margin-bottom: 0;
+}
+
+#ai1ec-embedding-trigger:hover {
+	text-decoration: none;
+}
+#ai1ec-embedding .ai1ec-alert:last-child {
+	margin-bottom: 0;
+}
+
+.ai1ec-week-view-hours input.ai1ec-input-sm {
+	width: 2em;
+}
+.ai1ec-week-view-hours .input-group {
+	display: inline-block;
+}
+
+/* ICS Feeds */
+
+.ai1ec-feed-comments-enabled,
+.ai1ec-feed-map-display-enabled,
+.ai1ec-feed-category {
+	margin-right: 0.5em;
+}
+
+#ics .ajax-loading {
+	margin: 0.45em;
+}
+
+/* Calendar theme options */
+
+#ai1ec-less-variables-tabs .inside {
+	margin: 10px 0;
+}
+.ai1ec_event_page_all-in-one-event-calendar-edit-css #poststuff,
+.ai1ec_event_page_all-in-one-event-calendar-edit-css .metabox-holder {
+	padding-top: 0;
+}

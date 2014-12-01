@@ -1,0 +1,246 @@
+{{ navigation | raw }}
+
+<table class="ai1ec-{{ type }}-view-original">
+	<thead>
+		<tr>
+			{% for date, day in cell_array %}
+				<th class="ai1ec-weekday
+					{% if day.today is not empty %}ai1ec-today{% endif %}">
+					{# Display Reveal button in last cell only #}
+					{% if show_reveal_button and loop.last %}
+						<div class="ai1ec-reveal-full-day">
+							<button class="ai1ec-btn ai1ec-btn-info ai1ec-btn-xs
+									ai1ec-tooltip-trigger"
+								data-placement="left"
+								title="{{ text_full_day | e('html_attr') }}">
+								<i class="ai1ec-fa ai1ec-fa-expand"></i>
+							</button>
+						</div>
+					{% endif %}
+					<a class="ai1ec-load-view" href="{{ day.href | e( 'html_attr' ) }}"
+						{{ data_type | raw }}>
+						<span class="ai1ec-weekday-date">{{ day.day }}</span>
+						<span class="ai1ec-weekday-day">{{ day.weekday }}</span>
+					</a>
+				</th>
+			{% endfor %}
+		</tr>
+		<tr>
+			{% for day in cell_array %}
+				<td class="ai1ec-allday-events
+					{% if day.today is not empty %}ai1ec-today{% endif %}">
+
+					{% if loop.first %}
+						<div class="ai1ec-allday-label">{{ text_all_day }}</div>
+					{% endif %}
+
+					{% for event in day.allday %}
+						<a href="{{ event.permalink | e( 'html_attr' ) }}"
+							{{ data_type_events | raw }}
+							data-instance-id="{{ event.instance_id }}"
+							class="ai1ec-event-container ai1ec-load-event ai1ec-popup-trigger
+								ai1ec-event-id-{{ event.post_id }}
+								ai1ec-event-instance-id-{{ event.instance_id }}
+								ai1ec-allday
+								{% if event.is_multiday %}ai1ec-multiday{% endif %}"
+							>
+							<div class="ai1ec-event"
+								 style="{{ event.color_style | e( 'html_attr' ) }}">
+								<span class="ai1ec-event-title">
+									{{ event.filtered_title | raw }}
+									{% if show_location_in_title and event.venue %}
+										<span class="ai1ec-event-location"
+											>{{ text_venue_separator | format( event.venue ) }}</span>
+									{% endif %}
+								</span>
+							</div>
+						</a>
+
+						<div class="ai1ec-popover ai1ec-popup ai1ec-popup-in-{{ type }}-view">
+							{% if event.category_colors %}
+								<div class="ai1ec-color-swatches">{{ event.category_colors | raw }}</div>
+							{% endif %}
+							<span class="ai1ec-popup-title">
+								<a class="ai1ec-load-event"
+									{{ data_type_events | raw }}
+									href="{{ event.permalink | e( 'html_attr' ) }}"
+									>{{ event.filtered_title | raw }}</a>
+								{% if show_location_in_title and event.venue %}
+									<span class="ai1ec-event-location"
+										>{{ text_venue_separator | format( event.venue ) }}</span>
+								{% endif %}
+								{% if is_ticket_button_enabled and event.ticket_url %}
+									<a class="ai1ec-pull-right ai1ec-btn ai1ec-btn-primary ai1ec-btn-xs
+										ai1ec-buy-tickets" target="_blank"
+										href="{{ event.ticket_url | e( 'html_attr' ) }}"
+										>{{ event.ticket_url_label }}</a>
+								{% endif %}
+							</span>
+
+							{% if event.edit_post_link %}
+								<a class="post-edit-link"
+									href="{{ event.edit_post_link | raw }}">
+									<i class="ai1ec-fa ai1ec-fa-pencil"></i> {{ text_edit }}
+								</a>
+							{% endif %}
+
+							<div class="ai1ec-event-time">
+								{{ event.popup_timespan | raw }}
+							</div>
+
+							<a class="ai1ec-load-event"
+								href="{{ event.permalink | e('html_attr') }}"
+								{{ data_type_events | raw }}>
+								{{ event.avatar | raw }}
+							</a>
+
+							{% if event.post_excerpt %}
+								<div class="ai1ec-popup-excerpt">{{ event.post_excerpt | raw }}</div>
+							{% endif %}
+						</div>
+
+					{% endfor %} {# event in day.allday #}
+
+				</td>
+			{% endfor %} {# day in cell_array #}
+		</tr>
+
+	</thead>
+	<tbody>
+		<tr class="ai1ec-{{ type }}">
+			{% for day in cell_array %}
+				<td {% if day.today %}class="ai1ec-today"{% endif %}>today
+
+					{% if loop.first %}
+						<div class="ai1ec-grid-container">
+							{% for h, hour in hours %}
+								<div class="ai1ec-hour-marker
+									{% if h >= 8 and h < 18 %}ai1ec-business-hour{% endif %}"
+									style="top: {{ h * 60 }}px;">
+									<div>
+										{{ hour | raw }}
+									</div>
+								</div>
+								{% for quarter in 1..3 %}
+									<div class="ai1ec-quarter-marker"
+										style="top: {{ h * 60 + quarter * 15 }}px;"></div>
+								{% endfor %}
+							{% endfor %}
+							{% if day.today %}
+								<div class="ai1ec-now-marker" style="top: {{ now_top }}px;">
+									<div>
+										{{ text_now_label }} {{ now_text }}
+									</div>
+								</div>
+							{% endif %}
+						</div>
+					{% endif %}
+
+					<div class="ai1ec-day">
+
+						{% for day_array in day.notallday %}
+							{% set event = day_array.event %}
+							<a href="{{ event.permalink | e( 'html_attr' ) }}"
+								{{ data_type_events | raw }}
+								data-instance-id="{{ event.instance_id }}"
+								class="ai1ec-event-container ai1ec-load-event ai1ec-popup-trigger
+									ai1ec-event-id-{{ event.post_id }}
+									ai1ec-event-instance-id-{{ event.instance_id }}
+									{% if event.start_truncated %}ai1ec-start-truncated{% endif %}
+									{% if event.end_truncated %}ai1ec-end-truncated{% endif %}
+									{% if event.is_multiday %}ai1ec-multiday{% endif %}"
+								style="top: {{ day_array.top }}px;
+									height: {{ day_array.height }}px;
+									left: {{ day_array.indent * indent_multiplier + indent_offset }}px;
+									{{ event.color_style }}
+									{% set faded_color = event.faded_color %}
+									{% set rgba_color  = event.rgba_color %}
+									{% if faded_color %}
+										{% set rgba1 = rgba_color | format( '0.05' ) %}
+										{% set rgba3 = rgba_color | format( '0.3' ) %}
+										border: 1px solid {{ faded_color }};
+										border-color: {{ rgba_color | format( '0.5' ) }};
+										background-image: -webkit-linear-gradient( top, {{ rgba1 }}, {{ rgba3 }} 50px );
+										background-image: -moz-linear-gradient( top, {{ rgba1 }}, {{ rgba3 }} 50px );
+										background-image: -ms-linear-gradient( top, {{ rgba1 }}, {{ rgba3 }} 50px );
+										background-image: -o-linear-gradient( top, {{ rgba1 }}, {{ rgba3 }} 50px );
+										background-image: linear-gradient( top, {{ rgba1 }}, {{ rgba3 }} 50px );
+									{% endif %}
+									">
+
+								{% if event.start_truncated %}
+									<div class="ai1ec-start-truncator">◤</div>
+								{% endif %}
+								{% if event.end_truncated %}
+									<div class="ai1ec-end-truncator">◢</div>
+								{% endif %}
+
+								<div class="ai1ec-event">
+									<span class="ai1ec-event-time">
+										{{ event.short_start_time }}
+									</span>
+									<span class="ai1ec-event-title">
+										{{ event.filtered_title | raw }}
+										{% if show_location_in_title and event.venue %}
+											<span class="ai1ec-event-location"
+												>{{ text_venue_separator | format( event.venue ) }}</span>
+										{% endif %}
+									</span>
+								</div>
+
+							</a>
+
+							<div class="ai1ec-popover ai1ec-popup ai1ec-popup-in-{{ type }}-view">
+								{% if event.category_colors %}
+									<div class="ai1ec-color-swatches">{{ event.category_colors | raw }}</div>
+								{% endif %}
+								<span class="ai1ec-popup-title">
+									<a class="ai1ec-load-event"
+										{{ data_type_events | raw }}
+										href="{{ event.permalink | e( 'html_attr' ) }}"
+										>{{ event.filtered_title | raw }}</a>
+									{% if show_location_in_title and event.venue %}
+										<span class="ai1ec-event-location"
+											>{{ text_venue_separator | format( event.venue ) }}</span>
+									{% endif %}
+									{% if is_ticket_button_enabled and event.ticket_url %}
+										<a class="ai1ec-pull-right ai1ec-btn ai1ec-btn-primary ai1ec-btn-xs
+											ai1ec-buy-tickets" target="_blank"
+											href="{{ event.ticket_url | e( 'html_attr' ) }}"
+											>{{ event.ticket_url_label }}</a>
+									{% endif %}
+								</span>
+
+								{% if event.edit_post_link %}
+									<a class="post-edit-link"
+										href="{{ event.edit_post_link | raw }}">
+										<i class="ai1ec-fa ai1ec-fa-pencil"></i> {{ text_edit }}
+									</a>
+								{% endif %}
+
+								<div class="ai1ec-event-time">
+									{{ event.popup_timespan | raw }}
+								</div>
+
+								<a class="ai1ec-load-event"
+									href="{{ event.permalink | e('html_attr') }}"
+									{{ data_type_events | raw }}>
+									{{ event.avatar | raw }}
+								</a>
+
+								{% if event.post_excerpt %}
+									<div class="ai1ec-popup-excerpt">{{ event.post_excerpt | raw }}</div>
+								{% endif %}
+							</div>
+
+						{% endfor %} {# dayarray in day.notallday #}
+					</div>
+
+				</td>
+			{% endfor %} {# day in cell_array #}
+		</tr>
+	</tbody>
+
+</table>
+
+<div class="ai1ec-pull-left">{{ pagination_links | raw }}</div>

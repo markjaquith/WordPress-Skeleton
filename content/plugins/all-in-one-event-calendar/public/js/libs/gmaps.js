@@ -1,0 +1,1 @@
+timely.define(["ai1ec_config"],function(e){var t=e.language,n="async!https://maps.google.com/maps/api/js?sensor=false&language="+t;return function(e){typeof google=="object"&&typeof google.maps=="object"?e():timely.require([n],e)}});

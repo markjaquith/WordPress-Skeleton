@@ -1,0 +1,15 @@
+{% macro textarea( id, name='', value = '', attributes = [] ) %}
+	{% if name == '' %}
+		{% set id = name %}
+	{% endif %}
+	<textarea
+		name="{{ name }}"
+		id="{{ id }}"
+		class="ai1ec-form-control {{ attributes.class }}"
+		{% for attribute, value in attributes %}
+			{% if attribute != 'class' %}
+				{{ attribute }}="{{ value }}"
+			{% endif %}
+		{% endfor %}
+		>{{ value }}</textarea>
+{% endmacro %}

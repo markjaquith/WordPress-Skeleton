@@ -1,0 +1,227 @@
+//
+// Button groups
+// --------------------------------------------------
+
+// Make the div behave like a button
+.ai1ec-btn-group,
+.ai1ec-btn-group-vertical {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle; // match .ai1ec-btn alignment given font-size hack above
+  > .ai1ec-btn {
+    position: relative;
+    float: left;
+    // Bring the "active" button to the front
+    &:hover,
+    &:focus,
+    &:active,
+    &.ai1ec-active {
+      z-index: 2;
+    }
+    &:focus {
+      // Remove focus outline when dropdown JS adds it after closing the menu
+      outline: none;
+    }
+  }
+}
+
+// Prevent double borders when buttons are next to each other
+.ai1ec-btn-group {
+  .ai1ec-btn + .ai1ec-btn,
+  .ai1ec-btn + .ai1ec-btn-group,
+  .ai1ec-btn-group + .ai1ec-btn,
+  .ai1ec-btn-group + .ai1ec-btn-group {
+    margin-left: -1px;
+  }
+}
+
+// Optional: Group multiple button groups together for a toolbar
+.ai1ec-btn-toolbar {
+  .ai1ec-clearfix();
+
+  .ai1ec-btn-group {
+    float: left;
+  }
+  // Space out series of button groups
+  > .ai1ec-btn,
+  > .ai1ec-btn-group {
+    + .ai1ec-btn,
+    + .ai1ec-btn-group {
+      margin-left: 5px;
+    }
+  }
+}
+
+.ai1ec-btn-group > .ai1ec-btn:not(:first-child):not(:last-child):not(.ai1ec-dropdown-toggle) {
+  border-radius: 0;
+}
+
+// Set corners individual because sometimes a single button can be in a .ai1ec-btn-group and we need :first-child and :last-child to both match
+.ai1ec-btn-group > .ai1ec-btn:first-child {
+  margin-left: 0;
+  &:not(:last-child):not(.ai1ec-dropdown-toggle) {
+    .ai1ec-border-right-radius(0);
+  }
+}
+// Need .ai1ec-dropdown-toggle since :last-child doesn't apply given a .ai1ec-dropdown-menu immediately after it
+.ai1ec-btn-group > .ai1ec-btn:last-child:not(:first-child),
+.ai1ec-btn-group > .ai1ec-dropdown-toggle:not(:first-child) {
+  .ai1ec-border-left-radius(0);
+}
+
+// Custom edits for including btn-groups within btn-groups (useful for including dropdown buttons within a btn-group)
+.ai1ec-btn-group > .ai1ec-btn-group {
+  float: left;
+}
+.ai1ec-btn-group > .ai1ec-btn-group:not(:first-child):not(:last-child) > .ai1ec-btn {
+  border-radius: 0;
+}
+.ai1ec-btn-group > .ai1ec-btn-group:first-child {
+  > .ai1ec-btn:last-child,
+  > .ai1ec-dropdown-toggle {
+    .ai1ec-border-right-radius(0);
+  }
+}
+.ai1ec-btn-group > .ai1ec-btn-group:last-child > .ai1ec-btn:first-child {
+  .ai1ec-border-left-radius(0);
+}
+
+// On active and open, don't show outline
+.ai1ec-btn-group .ai1ec-dropdown-toggle:active,
+.ai1ec-btn-group.ai1ec-open .ai1ec-dropdown-toggle {
+  outline: 0;
+}
+
+
+// Sizing
+//
+// Remix the default button sizing classes into new ones for easier manipulation.
+
+.ai1ec-btn-group-xs > .ai1ec-btn { .ai1ec-btn-xs(); }
+.ai1ec-btn-group-sm > .ai1ec-btn { .ai1ec-btn-sm(); }
+.ai1ec-btn-group-lg > .ai1ec-btn { .ai1ec-btn-lg(); }
+
+
+// Split button dropdowns
+// ----------------------
+
+// Give the line between buttons some depth
+.ai1ec-btn-group > .ai1ec-btn + .ai1ec-dropdown-toggle {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.ai1ec-btn-group > .ai1ec-btn-lg + .ai1ec-dropdown-toggle {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+// The clickable button for toggling the menu
+// Remove the gradient and set the same inset shadow as the :active state
+.ai1ec-btn-group.ai1ec-open .ai1ec-dropdown-toggle {
+  .ai1ec-box-shadow(inset 0 3px 5px rgba(0,0,0,.125));
+
+  // Show no shadow for `.ai1ec-btn-link` since it has no other button styles.
+  &.ai1ec-btn-link {
+    .ai1ec-box-shadow(none);
+  }
+}
+
+
+// Reposition the caret
+.ai1ec-btn .ai1ec-caret {
+  margin-left: 0;
+}
+// Carets in other button sizes
+.ai1ec-btn-lg .ai1ec-caret {
+  border-width: @caret-width-large @caret-width-large 0;
+  border-bottom-width: 0;
+}
+// Upside down carets for .ai1ec-dropup
+.ai1ec-dropup .ai1ec-btn-lg .ai1ec-caret {
+  border-width: 0 @caret-width-large @caret-width-large;
+}
+
+
+// Vertical button groups
+// ----------------------
+
+.ai1ec-btn-group-vertical {
+  > .ai1ec-btn,
+  > .ai1ec-btn-group,
+  > .ai1ec-btn-group > .ai1ec-btn {
+    display: block;
+    float: none;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  // Clear floats so dropdown menus can be properly placed
+  > .ai1ec-btn-group {
+    .ai1ec-clearfix();
+    > .ai1ec-btn {
+      float: none;
+    }
+  }
+
+  > .ai1ec-btn + .ai1ec-btn,
+  > .ai1ec-btn + .ai1ec-btn-group,
+  > .ai1ec-btn-group + .ai1ec-btn,
+  > .ai1ec-btn-group + .ai1ec-btn-group {
+    margin-top: -1px;
+    margin-left: 0;
+  }
+}
+
+.ai1ec-btn-group-vertical > .ai1ec-btn {
+  &:not(:first-child):not(:last-child) {
+    border-radius: 0;
+  }
+  &:first-child:not(:last-child) {
+    border-top-right-radius: @border-radius-base;
+    .ai1ec-border-bottom-radius(0);
+  }
+  &:last-child:not(:first-child) {
+    border-bottom-left-radius: @border-radius-base;
+    .ai1ec-border-top-radius(0);
+  }
+}
+.ai1ec-btn-group-vertical > .ai1ec-btn-group:not(:first-child):not(:last-child) > .ai1ec-btn {
+  border-radius: 0;
+}
+.ai1ec-btn-group-vertical > .ai1ec-btn-group:first-child {
+  > .ai1ec-btn:last-child,
+  > .ai1ec-dropdown-toggle {
+    .ai1ec-border-bottom-radius(0);
+  }
+}
+.ai1ec-btn-group-vertical > .ai1ec-btn-group:last-child > .ai1ec-btn:first-child {
+  .ai1ec-border-top-radius(0);
+}
+
+
+
+// Justified button groups
+// ----------------------
+
+.ai1ec-btn-group-justified {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: separate;
+  > .ai1ec-btn,
+  > .ai1ec-btn-group {
+    float: none;
+    display: table-cell;
+    width: 1%;
+  }
+  > .ai1ec-btn-group .ai1ec-btn {
+    width: 100%;
+  }
+}
+
+
+// Checkbox and radio options
+[data-toggle="buttons"] > .ai1ec-btn > input[type="radio"],
+[data-toggle="buttons"] > .ai1ec-btn > input[type="checkbox"] {
+  display: none;
+}

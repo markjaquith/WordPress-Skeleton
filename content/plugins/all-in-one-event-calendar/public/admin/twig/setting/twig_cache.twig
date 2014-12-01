@@ -1,0 +1,17 @@
+<div class="ai1ec-col-sm-12">
+	<ul class="ai1ec-fa-ul">
+		<li id="ai1ec-cache-scan-success" class="ai1ec-text-success{% if cache_available == false %} ai1ec-hide{% endif %}">
+			<i class="ai1ec-fa ai1ec-fa-li ai1ec-fa-check-circle"></i>
+			{{ text.okcache | raw }}
+		</li>
+		<li id="ai1ec-cache-scan-danger" class="ai1ec-text-danger{% if cache_available == true %} ai1ec-hide{% endif %}">
+			<i class="ai1ec-fa ai1ec-fa-li ai1ec-fa-times-circle"></i>
+			{{ text.nocache | raw }}
+			<button class="ai1ec-btn ai1ec-btn-default ai1ec-btn-xs" id="ai1ec-button-refresh"
+				data-loading-text="&lt;i class=&quot;ai1ec-fa ai1ec-fa-fw ai1ec-fa-refresh ai1ec-fa-spin&quot;&gt;&lt;/i&gt; {{ text.rescan }}">
+				<i class="ai1ec-fa ai1ec-fa-fw ai1ec-fa-refresh"></i>
+				{{ text.refresh | raw }}
+			</button>
+		</li>
+	</ul>
+</div>

@@ -1,0 +1,37 @@
+<li class="ai1ec-dropdown ai1ec-category-filter
+	{% if selected_cat_ids is not empty %}ai1ec-active{% endif %}">
+	<a class="ai1ec-dropdown-toggle" data-toggle="ai1ec-dropdown">
+		<i class="ai1ec-fa ai1ec-fa-folder-open"></i>
+		<span class="ai1ec-clear-filter ai1ec-tooltip-trigger"
+			data-href="{{ clear_filter }}"
+			{{ data_type | raw }}
+			title="{{ text_clear_category_filter }}">
+			<i class="ai1ec-fa ai1ec-fa-times-circle"></i>
+		</span>
+		{{ text_categories }}
+		<span class="ai1ec-caret"></span>
+	</a>
+	<div class="ai1ec-dropdown-menu">
+		{% for term in categories %}
+			<div data-term="{{ term.term_id }}"
+				{% if term.term_id in selected_cat_ids %}
+					class="ai1ec-active"
+				{% endif %}>
+				<a class="ai1ec-load-view ai1ec-category"
+					{% if term.description is not empty %}
+						title="{{ term.description|e('html_attr') }}"
+					{% endif %}
+					{{ data_type | raw }}
+					href="{{ term.href }}">
+					{% if term.color is empty %}
+						<span class="ai1ec-color-swatch-empty"></span>
+					{% else %}
+						{{ term.color | raw }}
+					{% endif %}
+					{{ term.name | raw }}
+				</a>
+			</div>
+		{% endfor %}
+	</div>
+</li>
+

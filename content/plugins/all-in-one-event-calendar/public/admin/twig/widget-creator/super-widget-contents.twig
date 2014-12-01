@@ -1,0 +1,45 @@
+<div id="ai1ec-super_widget" class="ai1ec-collapse ai1ec-in">
+	<p>{{ common_info | raw }}</p>
+	<div class="ai1ec-col-12">
+		<ul class="ai1ec-nav ai1ec-nav-pills" role="tablist">
+			{% for id, data in tabs %}
+				<li >
+					<a href="#{{ id | e('html_attr') }}" data-toggle="ai1ec-tab" >
+						<i class="ai1ec-fa ai1ec-fa-calendar ai1ec-fa-lg ai1ec-fa-fw"></i>
+						{{ data.name | raw }}
+					</a>
+				</li>
+			{% endfor %}
+		</ul>
+	</div>
+	<div class="ai1ec-col-md-6">
+		<div class="ai1ec-tab-content">
+			{% for id, data in tabs %}
+				<div class="ai1ec-tab-pane" id="{{ id }}">
+					{% if data.requirements is not empty %}
+						<div class="ai1ec-alert ai1ec-alert-info">
+							<i class="ai1ec-fa ai1ec-fa-info-circle ai1ec-fa-fw"></i>
+							{{ data.requirements | raw }}
+						</div>
+					{% endif %}
+					{% for element in data.elements %}
+						{{ element | raw }}
+					{% endfor %}
+				</div>
+			{% endfor %}
+		</div>
+	</div>
+	<div class="ai1ec-col-md-6">
+		<p><strong>{{ paste_text | raw }}</strong></p>
+		<pre id="ai1ec-superwidget-code" class="ai1ec-autoselect"
+			data-url="{{ siteurl | e('html_attr') }}?ai1ec_super_widget" data-widget-url="{{ siteurl | e('html_attr') }}?ai1ec_js_widget"></pre>
+		<div class="ai1ec-alert ai1ec-alert-info">
+			<i class="ai1ec-fa ai1ec-fa-info-circle ai1ec-fa-fw"></i>
+			{{ updated_code_text
+				| format( 'http://time.ly/document/manage-add-ons/embed-calendar-sites-super-widget/' )
+				| raw }}
+		</div>
+	</div>
+	<h2 id="widget-preview-title">{{ preview }}</h2>
+	<div id="ai1ec-superwidget-preview" class="ai1ec-well ai1ec-hidden"></div>
+</div>

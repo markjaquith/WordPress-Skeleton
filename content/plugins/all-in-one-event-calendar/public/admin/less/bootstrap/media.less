@@ -1,0 +1,56 @@
+// Media objects
+// Source: http://stubbornella.ai1ec-org/content/?p=497
+// --------------------------------------------------
+
+
+// Common styles
+// -------------------------
+
+// Clear the floats
+.ai1ec-media,
+.ai1ec-media-body {
+  overflow: hidden;
+  zoom: 1;
+}
+
+// Proper spacing between instances of .ai1ec-media
+.ai1ec-media,
+.ai1ec-media .ai1ec-media {
+  margin-top: 15px;
+}
+.ai1ec-media:first-child {
+  margin-top: 0;
+}
+
+// For images and videos, set to block
+.ai1ec-media-object {
+  display: block;
+}
+
+// Reset margins on headings for tighter default spacing
+.ai1ec-media-heading {
+  margin: 0 0 5px;
+}
+
+
+// Media image alignment
+// -------------------------
+
+.ai1ec-media {
+  > .ai1ec-pull-left {
+    margin-right: 10px;
+  }
+  > .ai1ec-pull-right {
+    margin-left: 10px;
+  }
+}
+
+
+// Media list variation
+// -------------------------
+
+// Undo default ul/ol styles
+.ai1ec-media-list {
+  padding-left: 0;
+  list-style: none;
+}

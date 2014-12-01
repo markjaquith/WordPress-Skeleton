@@ -1,0 +1,56 @@
+<div class="ai1ec-admin-view-settings ai1ec-form-group">
+	<label class="ai1ec-control-label ai1ec-col-lg-5">{{ label }}</label>
+	<div class="ai1ec-col-lg-7">
+		<table class="ai1ec-table ai1ec-table-striped">
+			<thead>
+				<tr>
+					<th scope="row"></th>
+					<th scope="col" colspan="2" class="ai1ec-text-center">
+						<i class="ai1ec-fa ai1ec-fa-desktop ai1ec-fa-lg ai1ec-fa-fw"></i>
+						{{ text_desktop }}
+					</th>
+					<th scope="col" colspan="2" class="ai1ec-text-center">
+						<i class="ai1ec-fa ai1ec-fa-mobile ai1ec-fa-lg ai1ec-fa-fw"></i>
+						{{ text_mobile }}
+					</th>
+				</tr>
+				<tr>
+					<th scope="row"></th>
+					<th scope="col" class="ai1ec-text-center"><small>{{ text_enabled }}</small></th>
+					<th scope="col" class="ai1ec-text-center"><small>{{ text_default }}</small></th>
+					<th scope="col" class="ai1ec-text-center"><small>{{ text_enabled }}</small></th>
+					<th scope="col" class="ai1ec-text-center"><small>{{ text_default }}</small></th>
+				</tr>
+			</thead>
+			<tbody>
+				{% for view, args in views %}
+					<tr>
+						<td>
+							{{ args.longname }}
+						</td>
+						<td>
+							<input class="ai1ec-toggle-view" type="checkbox"
+								name="view_{{ view }}_enabled" value="1"
+								{{ args.enabled }}>
+						</td>
+						<td>
+							<input class="ai1ec-toggle-default-view" type="radio"
+								name="default_calendar_view" value="{{ view }}"
+								{{ args.default }}>
+						</td>
+						<td>
+							<input class="ai1ec-toggle-view" type="checkbox"
+								name="view_{{ view }}_enabled_mobile" value="1"
+								{{ args.enabled_mobile }}>
+						</td>
+						<td>
+							<input class="ai1ec-toggle-default-view" type="radio"
+								name="default_calendar_view_mobile" value="{{ view }}"
+								{{ args.default_mobile }}>
+						</td>
+					</tr>
+				{% endfor %}
+			</tbody>
+		</table>
+	</div>
+</div>

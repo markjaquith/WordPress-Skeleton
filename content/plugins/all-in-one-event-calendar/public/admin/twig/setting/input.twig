@@ -1,0 +1,37 @@
+<label class="ai1ec-control-label ai1ec-col-sm-5" for="{{ id }}">
+	{{ label | raw }}
+</label>
+{% if append is defined or licence_valid is defined %}
+	<div class="{{ group_class is defined ?
+		group_class : 'ai1ec-col-lg-3 ai1ec-col-md-4 ai1ec-col-sm-5' }}">
+		<div class="ai1ec-input-group">
+{% else %}
+	<div class="ai1ec-col-sm-7">
+{% endif %}
+
+	{% from 'form-elements/input.twig' import input %}
+	{% spaceless %}
+	{{ input( id, id, value, input_type, input_args ) }}
+
+
+	{% if append is defined %}
+			<span class="ai1ec-input-group-addon">{{ append }}</span>
+		</div>
+	{% elseif licence_valid is defined %}
+			<span class="ai1ec-input-group-addon">
+				<i class="ai1ec-fa
+					{% if licence_valid %}
+						ai1ec-fa-check ai1ec-text-success
+					{% else %}
+						ai1ec-fa-times ai1ec-text-danger
+					{% endif %}">
+				</i>
+			</span>
+		</div>
+	{% endif %}
+	{% endspaceless %}
+</div>
+
+{% if help is defined %}
+	<div class="ai1ec-col-sm-12 ai1ec-help-block">{{ help | raw }}</div>
+{% endif %}

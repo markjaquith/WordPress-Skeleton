@@ -1,0 +1,13 @@
+<div class="wrap">
+	{{ screen_icon() }}
+	<h2>{{ title }}</h2>
+	<div id="poststuff">
+		<div class="metabox-holder">
+			<div class="post-box-container left-side timely">
+				<div class="ai1ec-tab-content-container ai1ec-form-horizontal">
+				{{ do_meta_boxes( metabox.screen, metabox.action, metabox.object ) }}
+				</div>
+			</div>
+		</div>
+	</div>{# /#poststuff #}
+</div>{# /.wrap #}

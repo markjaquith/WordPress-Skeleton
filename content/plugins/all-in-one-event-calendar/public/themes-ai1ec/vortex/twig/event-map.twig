@@ -1,0 +1,19 @@
+{% if hide_maps_until_clicked %}
+	<div class="ai1ec-gmap-placeholder">
+		<strong>
+			<i class="ai1ec-fa ai1ec-fa-map-marker"></i>
+			{{ text_view_map }}
+		</strong>
+	</div>
+{% endif %}
+<div class="ai1ec-gmap-container {% if hide_maps_until_clicked %}ai1ec-gmap-container-hidden{% endif %}">
+	<div id="ai1ec-gmap-canvas"></div>
+	<input type="hidden" id="ai1ec-gmap-address" value="{{ address | e('html_attr') }}" />
+
+	<a class="ai1ec-gmap-link ai1ec-btn ai1ec-btn-primary ai1ec-btn-xs ai1ec-tooltip-trigger"
+		href="{{ gmap_url_link | e('html_attr') }}" target="_blank"
+		title="{{ text_full_map }}"
+		data-placement="bottom">
+			<i class="ai1ec-fa ai1ec-fa-search-plus ai1ec-fa-lg"></i>
+	</a>
+</div>

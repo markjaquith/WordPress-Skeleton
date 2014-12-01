@@ -1,0 +1,106 @@
+// Fileupload.less
+// CSS for file upload button and fileupload widget
+// ------------------------------------------------
+
+.ai1ec-btn-file {
+  overflow: hidden;
+  position: relative;
+  vertical-align: middle;
+  > input {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    height: 32px;
+    border: solid transparent;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    direction: ltr;
+    cursor: pointer;
+  }
+}
+
+.ai1ec-fileupload {
+  margin-bottom: 9px;
+  .ai1ec-uneditable-input {
+    display: inline-block;
+    margin-bottom: 0px;
+    vertical-align: middle;
+    cursor: text;
+  }
+  .ai1ec-thumbnail {
+    overflow: hidden;
+    display: inline-block;
+    margin-bottom: 5px;
+    vertical-align: middle;
+    text-align: center;
+    > img {
+      display: inline-block;
+      vertical-align: middle;
+      max-height: 100%;
+    }
+  }
+  .ai1ec-btn {
+    vertical-align: middle;
+  }
+}
+.ai1ec-fileupload-exists .ai1ec-fileupload-new,
+.ai1ec-fileupload-new .ai1ec-fileupload-exists {
+  display: none;
+}
+.ai1ec-fileupload-inline .ai1ec-fileupload-controls {
+  display: inline;
+}
+
+// Not 100% correct, but helps in typical use case
+.ai1ec-fileupload-new .ai1ec-input-append .ai1ec-btn-file {
+  border-radius: 0 3px 3px 0
+}
+
+.ai1ec-thumbnail-borderless .ai1ec-thumbnail {
+  border: none;
+  padding: 0;
+  border-radius: 0;
+  .ai1ec-box-shadow(none);
+}
+.ai1ec-fileupload-new.ai1ec-thumbnail-borderless .ai1ec-thumbnail {
+  border: 1px solid #ddd;
+}
+
+.ai1ec-form-group.ai1ec-has-warning .ai1ec-fileupload {
+  .ai1ec-uneditable-input {
+    color: #a47e3c;
+    border-color: #a47e3c;
+  }
+  .ai1ec-fileupload-preview {
+    color: #a47e3c;
+  }
+  .ai1ec-thumbnail {
+    border-color: #a47e3c;
+  }
+}
+.ai1ec-form-group.ai1ec-has-error .ai1ec-fileupload {
+  .ai1ec-uneditable-input {
+    color: #b94a48;
+    border-color: #b94a48;
+  }
+  .ai1ec-fileupload-preview {
+    color: #b94a48;
+  }
+  .ai1ec-thumbnail {
+    border-color: #b94a48;
+  }
+}
+.ai1ec-form-group.ai1ec-has-success .ai1ec-fileupload {
+  .ai1ec-uneditable-input {
+    color: #468847;
+    border-color: #468847;
+  }
+  .ai1ec-fileupload-preview {
+    color: #468847;
+  }
+  .ai1ec-thumbnail {
+    border-color: #468847;
+  }
+}

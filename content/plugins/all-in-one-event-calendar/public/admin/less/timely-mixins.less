@@ -1,0 +1,26 @@
+// =====================================================================
+// = Bootstrap fix, due to requirement to .timely-namespace forms.less =
+// =====================================================================
+// Copied from forms.less
+.ai1ec-input-sm() {
+  .ai1ec-input-size(@input-height-small; @padding-small-vertical; @padding-small-horizontal; @font-size-small; @line-height-small; @border-radius-small);
+}
+.ai1ec-input-lg() {
+  .ai1ec-input-size(@input-height-large; @padding-large-vertical; @padding-large-horizontal; @font-size-large; @line-height-large; @border-radius-large);
+}
+
+// buttons.less needs to be .timely-namespaced since its rules sometimes aren't
+// strong enough to override global link styles, but this makes .ai1ec-btn-lg,
+// .ai1ec-btn-sm, and .ai1ec-btn-xs inaccessible as mixins. So we copy them from
+// buttons.less:
+.ai1ec-btn-lg {
+  // line-height: ensure even-numbered height of button next to large input
+  .ai1ec-button-size(@padding-large-vertical; @padding-large-horizontal; @font-size-large; @line-height-large; @border-radius-large);
+}
+.ai1ec-btn-sm {
+  // line-height: ensure proper height of button next to small input
+  .ai1ec-button-size(@padding-small-vertical; @padding-small-horizontal; @font-size-small; @line-height-small; @border-radius-small);
+}
+.ai1ec-btn-xs {
+  .ai1ec-button-size(@padding-xs-vertical; @padding-xs-horizontal; @font-size-small; @line-height-small; @border-radius-small);
+}

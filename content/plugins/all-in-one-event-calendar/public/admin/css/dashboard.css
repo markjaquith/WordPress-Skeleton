@@ -1,0 +1,17 @@
+div.ai1ec-calendar-tasks {
+  padding: 0.25em 0.5em;
+  position: relative;
+}
+#ai1ec-calendar-tasks a.ai1ec-big-button {
+  font-size: 23px !important;
+  min-width: 275px;
+  width: 55%;
+}
+
+#dashboard-widgets > #postbox-container-1 {
+  width: 65% !important;
+}
+
+#dashboard-widgets > #postbox-container-2 {
+  width: 35% !important;
+}

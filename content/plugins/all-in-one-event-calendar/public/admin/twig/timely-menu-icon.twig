@@ -1,0 +1,28 @@
+<style type="text/css" media="all">
+  @font-face {
+    font-family: 'Timely Icons';
+    src:url('{{ admin_theme_font_url }}timely-icons.eot');
+    src:url('{{ admin_theme_font_url }}timely-icons.eot?#iefix') format('embedded-opentype'),
+    url('{{ admin_theme_font_url }}timely-icons.svg#Timely-Icons') format('svg'),
+    url('{{ admin_theme_font_url }}timely-icons.woff') format('woff'),
+    url('{{ admin_theme_font_url }}timely-icons.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  {% if before_font_icons %}
+  #menu-posts-ai1ec_event > .menu-icon-post > div.wp-menu-image {
+    background-image: url('{{ admin_theme_img_url }}/timely-admin-menu.png') !important;
+  }
+  {% else %}
+  #menu-posts-ai1ec_event > .menu-icon-post > div.wp-menu-image:before {
+    content:        '\21' !important;
+    display:        inline-block !important;
+    font-family:    'Timely Icons' !important;
+    font-style:     normal !important;
+    font-weight:    normal !important;
+    speak:          none !important;
+    vertical-align: baseline !important;
+    line-height:    16px !important;
+  }
+  {% endif %}
+</style>

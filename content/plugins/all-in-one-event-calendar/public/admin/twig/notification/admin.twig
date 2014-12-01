@@ -1,0 +1,24 @@
+<div class="message {{class}} ai1ec-message">
+	{% if label is not defined %}
+          {% set label = text_label %}
+	{% endif %}
+	<h3>{{ label }}</h3>
+
+	<p>{{ message | raw }}</p>
+
+	{% if persistent == true %}
+		<div>
+			<input type="button" class="button ai1ec-dismissable"
+				data-key="{{ msg_key }}"
+				value="{{ "Dismiss" | __ }}">
+		</div>
+		<p></p>
+	{% endif %}
+	{% if button %}
+		<div>
+			<input type="button" class="button {{ button.class }}"
+				value="{{ button.value }}">
+		</div>
+		<p></p>
+	{% endif %}
+</div>

@@ -1,0 +1,77 @@
+<div class="ai1ec-subscribe-container ai1ec-btn-group ai1ec-pull-left
+		ai1ec-tooltip-trigger" data-placement="left" title="{{ text.tooltip }}">
+	<button
+		type="button"
+		class="ai1ec-btn ai1ec-btn-default ai1ec-btn-sm ai1ec-dropdown-toggle
+			ai1ec-subscribe {{ button_classes }}"
+			data-toggle="ai1ec-dropdown">
+		<i class="ai1ec-fa ai1ec-icon-rss ai1ec-fa-lg ai1ec-fa-fw"></i>
+		<span class="ai1ec-hidden-xs">
+			<span class="ai1ec-hidden-xs">
+			{% if subscribe_label is not empty %}
+				{{ subscribe_label }}
+			{% else %}
+				{% if is_filtered %}
+					{{ text_filtered }}
+				{% else %}
+					{{ text_subscribe }}
+				{% endif %}
+			{% endif %}
+			</span>
+			<span class="ai1ec-caret"></span>
+		</span>
+	</button>
+	{% set url = export_url | replace( {"webcal://": "http://"} ) ~ url_args %}
+	<ul class="ai1ec-dropdown-menu ai1ec-pull-right" role="menu">
+		<li>
+			<a class="ai1ec-tooltip-trigger ai1ec-tooltip-auto"
+			   target="_blank"
+			   data-placement="left"
+			   href="{{ url | e('html_attr') }}"
+			   title="{{ text.title.timely }}" >
+				<i class="ai1ec-fa ai1ec-fa-lg ai1ec-fa-fw ai1ec-icon-timely"></i>
+				{{ text.label.timely }}
+			</a>
+		</li>
+		<li>
+			<a class="ai1ec-tooltip-trigger ai1ec-tooltip-auto"
+			   target="_blank"
+			   data-placement="left"
+			   href="http://www.google.com/calendar/render?cid={{ url | url_encode | e('html_attr') }}"
+			   title="{{ text.title.google }}" >
+				<i class="ai1ec-fa ai1ec-icon-google ai1ec-fa-lg ai1ec-fa-fw"></i>
+				{{ text.label.google }}
+			</a>
+		</li>
+		<li>
+			<a class="ai1ec-tooltip-trigger ai1ec-tooltip-auto"
+			   target="_blank"
+			   data-placement="left"
+			   href="{{ ( export_url_no_html ~ url_args ) | e('html_attr') }}"
+			   title="{{ text.title.outlook }}" >
+				<i class="ai1ec-fa ai1ec-icon-windows ai1ec-fa-lg ai1ec-fa-fw"></i>
+				{{ text.label.outlook }}
+			</a>
+		</li>
+		<li>
+			<a class="ai1ec-tooltip-trigger ai1ec-tooltip-auto"
+			   target="_blank"
+			   data-placement="left"
+			   href="{{ ( export_url_no_html ~ url_args ) | e('html_attr') }}"
+			   title="{{ text.title.apple }}" >
+				<i class="ai1ec-fa ai1ec-icon-apple ai1ec-fa-lg ai1ec-fa-fw"></i>
+				{{ text.label.apple }}
+			</a>
+		</li>
+		<li>
+			{% set export_url_no_html_http = export_url_no_html | replace( {"webcal://": "http://"} ) %}
+			<a class="ai1ec-tooltip-trigger ai1ec-tooltip-auto"
+			   data-placement="left"
+			   href="{{ ( export_url_no_html_http ~ url_args ) | e('html_attr') }}"
+			   title="{{ text.title.plaintext }}" >
+				<i class="ai1ec-fa ai1ec-icon-calendar ai1ec-fa-fw"></i>
+				{{ text.label.plaintext }}
+			</a>
+		</li>
+	</ul>
+</div>

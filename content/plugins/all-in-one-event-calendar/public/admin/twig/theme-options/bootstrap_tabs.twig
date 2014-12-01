@@ -1,0 +1,10 @@
+{% extends "bootstrap_tabs.twig" %}
+{% block extra_html %}
+	{% from 'form-elements/input.twig' import button %}
+	<div class="ai1ec-text-right">
+		<div class="ai1ec-btn-toolbar">
+			{{ button( submit.id, submit.id, submit.value, 'submit', submit.args ) }}
+			{{ button( reset.id, reset.id, reset.value, 'submit', reset.args ) }}
+		</div>
+	</div>
+{% endblock %}

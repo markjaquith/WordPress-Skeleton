@@ -1,0 +1,37 @@
+{% macro select( id, name='', attributes = [], options = [] ) %}
+	{% if name == '' %}
+		{% set name = id %}
+	{% endif %}
+	<select
+		name="{{ name }}"
+		id="{{ id }}"
+		class="ai1ec-form-control {{ attributes.class }}"
+		{% for attribute, value in attributes %}
+			{% if attribute != 'class' %}
+				{{ attribute }}="{{ value }}"
+			{% endif %}
+		{% endfor %}
+		>
+		{% for key, option in options %}
+			{% if key is string %}
+				<optgroup label="{{ key }}">
+					{% for opt in option %}
+						<option
+							value="{{ opt.value }}"
+						{% for attribute, value in opt.args %}
+							{{ attribute }}="{{ value }}"
+						{% endfor %}
+						>{{ opt.text }}</option>
+					{% endfor %}
+				</optgroup>
+			{% else %}
+				<option
+					value="{{ option.value }}"
+				{% for attribute, value in option.args %}
+					{{ attribute }}="{{ value }}"
+				{% endfor %}
+				>{{ option.text }}</option>
+			{% endif %}
+		{% endfor %}
+		</select>
+{% endmacro %}

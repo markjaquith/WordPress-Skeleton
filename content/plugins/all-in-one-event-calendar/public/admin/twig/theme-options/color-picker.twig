@@ -1,0 +1,18 @@
+{% extends "theme-options/base_option.twig" %}
+
+{% block variable %}
+{% spaceless %}
+<div class="ai1ec-col-sm-6 ai1ec-col-xs-9">
+  <div class="ai1ec-input-group color colorpickers"
+    data-color="{{ value }}"
+    data-color-format="{{ format }}">
+  	<input type="text" id="{{ id }}" name="{{ id }}" class="ai1ec-form-control"
+      {{ readonly }} value="{{ value }}">
+  	<span class="ai1ec-input-group-addon">
+      <i style="background-color: {{ value }}"></i>
+    </span>
+  </div>
+</div>
+{% endspaceless %}
+{% endblock %}
+

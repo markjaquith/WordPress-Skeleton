@@ -1,0 +1,67 @@
+//
+// Alerts
+// --------------------------------------------------
+
+
+// Base styles
+// -------------------------
+
+.ai1ec-alert {
+  padding: @alert-padding;
+  margin-bottom: @line-height-computed;
+  border: 1px solid transparent;
+  border-radius: @alert-border-radius;
+
+  // Headings for larger alerts
+  h4 {
+    margin-top: 0;
+    // Specified for the h4 to prevent conflicts of changing @headings-color
+    color: inherit;
+  }
+  // Provide class for links that match alerts
+  .ai1ec-alert-link {
+    font-weight: @alert-link-font-weight;
+  }
+
+  // Improve alignment and spacing of inner content
+  > p,
+  > ul {
+    margin-bottom: 0;
+  }
+  > p + p {
+    margin-top: 5px;
+  }
+}
+
+// Dismissable alerts
+//
+// Expand the right padding and account for the close button's positioning.
+
+.ai1ec-alert-dismissable {
+ padding-right: (@alert-padding + 20);
+
+  // Adjust close link position
+  .ai1ec-close {
+    position: relative;
+    top: -2px;
+    right: -21px;
+    color: inherit;
+  }
+}
+
+// Alternate styles
+//
+// Generate contextual modifier classes for colorizing the alert.
+
+.ai1ec-alert-success {
+  .ai1ec-alert-variant(@alert-success-bg; @alert-success-border; @alert-success-text);
+}
+.ai1ec-alert-info {
+  .ai1ec-alert-variant(@alert-info-bg; @alert-info-border; @alert-info-text);
+}
+.ai1ec-alert-warning {
+  .ai1ec-alert-variant(@alert-warning-bg; @alert-warning-border; @alert-warning-text);
+}
+.ai1ec-alert-danger {
+  .ai1ec-alert-variant(@alert-danger-bg; @alert-danger-border; @alert-danger-text);
+}

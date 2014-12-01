@@ -1,0 +1,8 @@
+<div 
+	{% if container_class != false %}
+		class="{{ container_class }}"
+	{% endif %}
+	>
+	{% from 'form-elements/select.twig' import select %}
+	{{ select( id, name, select2_args, options ) }}
+</div>

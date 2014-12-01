@@ -1,0 +1,51 @@
+{% if stacked %}<div class="ai1ec-row"><div class="ai1ec-col-sm-3">{% endif %}
+
+<ul class="ai1ec-nav
+	{% if stacked %}
+		ai1ec-nav-pills ai1ec-nav-stacked
+	{% else %}
+		ai1ec-nav-tabs
+	{% endif %}">
+
+	{% for id, data in tabs if data.name is defined %}
+		{% if data.items is defined %}
+			<li class="ai1ec-dropdown">
+				<a href="#" data-toggle="ai1ec-dropdown">
+					{{ data.name }} <i class="ai1ec-fa ai1ec-fa-caret-down"></i>
+				</a>
+				<ul class="ai1ec-dropdown-menu">
+					{% for drop_id, drop_name in data.items %}
+						<li>
+							<a href="#ai1ec-{{ drop_id }}" data-toggle="ai1ec-tab">
+								{{ drop_name }}
+							</a>
+						</li>
+					{% endfor %}
+				</ul>
+			</li>
+		{% else %}
+			<li>
+				<a href="#ai1ec-{{ id }}" data-toggle="ai1ec-tab">{{ data.name }}</a>
+			</li>
+		{% endif %}
+	{% endfor %}
+
+</ul>
+
+{% if stacked %}</div><div class="ai1ec-col-sm-9">{% endif %}
+
+<div class="ai1ec-tab-content {{ content_class }}">
+	{{ pre_tabs_markup | raw}}
+	{% for id, data in tabs %}
+		<div class="ai1ec-tab-pane" id="ai1ec-{{ id }}">
+			{% for element in data.elements %}
+				{{ element.html | raw }}
+			{% endfor %}
+		</div>
+	{% endfor %}
+</div>
+
+{% block extra_html %}
+{% endblock %}
+
+{% if stacked %}</div></div>{% endif %}

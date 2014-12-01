@@ -1,0 +1,22 @@
+<p class="ai1ec-banner-image-block hide-if-no-js {{ src ? '' : 'ai1ec-hidden' }}">
+	<a href="#">
+		<img width="100%" class="ai1ec-set-banner-image"
+			src="{{ src | e( 'html_attr' ) }}">
+	</a>
+	<input type="hidden" name="ai1ec_banner_image"
+		value="{{ src | e( 'html_attr' ) }}">
+</p>
+<p class="ai1ec-set-banner-block hide-if-no-js {{ src ? 'ai1ec-hidden' : '' }}">
+	<a href="#" class="ai1ec-set-banner-image">{{ set_text }}</a>
+</p>
+<p class="ai1ec-remove-banner-block hide-if-no-js {{ src ? '' : 'ai1ec-hidden' }}">
+	<a class="ai1ec-remove-banner" href="#">{{ remove_text }}</a>
+</p>
+<div class="media-toolbar ai1ec-hidden ai1ec-media-toolbar">
+	<div class="media-toolbar-primary search-form">
+		<a href="#" class="button media-button button-primary button-large
+			ai1ec-save-banner-image">
+			{{ set_text }}
+		</a>
+	</div>
+</div>

@@ -1,0 +1,242 @@
+//
+// @file
+//
+// Custom mixins where Bootstrap mixins fall short.
+//
+
+// Gradients.
+#gradient {
+	// Use these for the following behaviour:
+	// If browser supports the gradient syntax it will *replace the background
+	// color* behind it, and is *especially important for translucent gradients*.
+	.ai1ec-horizontal-replace(@startColor: #555, @endColor: #333) {
+		background: @endColor;
+		background: -moz-linear-gradient(left, @startColor, @endColor); // FF 3.6+
+		background: -ms-linear-gradient(left, @startColor, @endColor); // IE10
+		background: -webkit-gradient(linear, 0 0, 100% 0, from(@startColor), to(@endColor)); // Safari 4+, Chrome 2+
+		background: -webkit-linear-gradient(left, @startColor, @endColor); // Safari 5.1+, Chrome 10+
+		background: -o-linear-gradient(left, @startColor, @endColor); // Opera 11.10
+		background: linear-gradient(left, @startColor, @endColor); // Le standard
+		background-repeat: repeat-x;
+	}
+	.ai1ec-vertical-replace(@startColor: #555, @endColor: #333) {
+		background: mix(@startColor, @endColor, 60%);
+		background: -moz-linear-gradient(top, @startColor, @endColor); // FF 3.6+
+		background: -ms-linear-gradient(top, @startColor, @endColor); // IE10
+		background: -webkit-gradient(linear, 0 0, 0 100%, from(@startColor), to(@endColor)); // Safari 4+, Chrome 2+
+		background: -webkit-linear-gradient(top, @startColor, @endColor); // Safari 5.1+, Chrome 10+
+		background: -o-linear-gradient(top, @startColor, @endColor); // Opera 11.10
+		background: linear-gradient(top, @startColor, @endColor); // The standard
+		background-repeat: repeat-x;
+	}
+	.ai1ec-vertical-three-colors-replace(@startColor: #00b3ee, @midColor: #7a43b6, @colorStop: 50%, @endColor: #c3325f) {
+		background: mix(@midColor, @endColor, 80%);
+		background: -webkit-gradient(linear, 0 0, 0 100%, from(@startColor), color-stop(@colorStop, @midColor), to(@endColor));
+		background: -webkit-linear-gradient(@startColor, @midColor @colorStop, @endColor);
+		background: -moz-linear-gradient(top, @startColor, @midColor @colorStop, @endColor);
+		background: -ms-linear-gradient(@startColor, @midColor @colorStop, @endColor);
+		background: -o-linear-gradient(@startColor, @midColor @colorStop, @endColor);
+		background: linear-gradient(@startColor, @midColor @colorStop, @endColor);
+		background-repeat: no-repeat;
+	}
+	.ai1ec-horizontal-three-colors-replace(@startColor: #00b3ee, @midColor: #7a43b6, @colorStop: 50%, @endColor: #c3325f) {
+		background: mix(@midColor, @endColor, 80%);
+		background: -webkit-gradient(linear, 0 0, 100% 0, from(@startColor), color-stop(@colorStop, @midColor), to(@endColor));
+		background: -webkit-linear-gradient(left, @startColor, @midColor @colorStop, @endColor);
+		background: -moz-linear-gradient(left, @startColor, @midColor @colorStop, @endColor);
+		background: -ms-linear-gradient(left, @startColor, @midColor @colorStop, @endColor);
+		background: -o-linear-gradient(left, @startColor, @midColor @colorStop, @endColor);
+		background: linear-gradient(left, @startColor, @midColor @colorStop, @endColor);
+		background-repeat: no-repeat;
+	}
+}
+
+/*
+// Popover arrows
+// -------------------------
+
+.ai1ec-inner-arrow-styles() {
+		content: " ";
+		height: 0;
+		width: 0;
+		position: absolute;
+		z-index: 10;
+		border: solid transparent;
+}
+
+#timelyPopoverArrow {
+	.ai1ec-top(@arrowWidth: 5px, @color: @black) {
+		bottom: 0;
+		left: 50%;
+		margin-left: -@arrowWidth;
+		margin-bottom: ceil( @arrowWidth * -1.5 + 3 );
+		border: solid transparent;
+		border-width: @arrowWidth;
+		border-top-color: @color;
+	}
+	.ai1ec-left(@arrowWidth: 5px, @color: @black) {
+		top: 50%;
+		right: 0;
+		margin-top: -@arrowWidth;
+		margin-right: ceil( @arrowWidth * -1.5 + 3 );
+		border: solid transparent;
+		border-width: @arrowWidth;
+		border-left-color: @color;
+	}
+	.ai1ec-bottom(@arrowWidth: 5px, @color: @black) {
+		top: 0;
+		left: 50%;
+		margin-left: -@arrowWidth;
+		margin-top: ceil( @arrowWidth * -1.5 + 3 );
+		border: solid transparent;
+		border-width: @arrowWidth;
+		border-bottom-color: @color;
+	}
+	.ai1ec-right(@arrowWidth: 5px, @color: @black) {
+		top: 50%;
+		left: 0;
+		margin-top: -@arrowWidth;
+		margin-left: ceil( @arrowWidth * -1.5 + 3 );
+		border: solid transparent;
+		border-width: @arrowWidth;
+		border-right-color: @color;
+	}
+	#outlinedArrow {
+		.ai1ec-top( @mainArrowWidth: 5px, @outlineWidth: 1px, @color: @white ) {
+			.ai1ec-inner-arrow-styles();
+			border-width: @mainArrowWidth + @outlineWidth;
+			border-top-color: @color;
+			margin-left: -@mainArrowWidth - @outlineWidth;
+			margin-top: -@mainArrowWidth + -(@outlineWidth * 2)
+		}
+		.ai1ec-left( @mainArrowWidth: 5px, @outlineWidth: 1px, @color: @white ) {
+			.ai1ec-inner-arrow-styles();
+			border-width: @mainArrowWidth + @outlineWidth;
+			border-left-color: @color;
+			margin-top: -@mainArrowWidth - @outlineWidth;
+			margin-left: -@mainArrowWidth + -(@outlineWidth * 2);
+		}
+		.ai1ec-bottom( @mainArrowWidth: 5px, @outlineWidth: 1px, @color: @white ) {
+			.ai1ec-inner-arrow-styles();
+			border-width: @mainArrowWidth + @outlineWidth;
+			border-bottom-color: @color;
+			margin-left: -@mainArrowWidth - @outlineWidth;
+			margin-top: -@mainArrowWidth;
+		}
+		.ai1ec-right( @mainArrowWidth: 5px, @outlineWidth: 1px, @color: @white ) {
+			.ai1ec-inner-arrow-styles();
+			border-width: @mainArrowWidth + @outlineWidth;
+			border-right-color: @color;
+			margin-top: -@mainArrowWidth - @outlineWidth;
+			margin-left: -@mainArrowWidth;
+		}
+	}
+}*/
+
+// =================
+// = Avatar styles =
+// =================
+
+.ai1ec-avatar( natural ) {
+	background-color: @body-bg;
+	.ai1ec-box-shadow( 0 1px 4px @event-image-shadow );
+	img {
+		height: auto;
+		display: block;
+		min-height: 90px;
+		width: auto;
+	}
+}
+.ai1ec-avatar( thumbnail ) {
+	width: 90px;
+	img {
+		display: block;
+		margin: auto;
+		height: 90px !important;
+		max-width: 90px !important;
+		min-height: 0 !important;
+		min-width: 0 !important;
+		width: auto !important;
+	}
+}
+
+// ====================
+// = List item styles =
+// ====================
+.ai1ec-listItem() {
+	color: @dropdown-link-color;
+}
+.ai1ec-listItemActive( @extra-shadow: ~"" ) {
+	background-color: @dropdown-link-hover-bg;
+	border-color: @dropdown-link-hover-bg;
+	.ai1ec-box-shadow( inset 0 0 2px fade( @dropdown-link-hover-color, 30% ) @extra-shadow );
+	color: @dropdown-link-hover-color;
+}
+
+// ============================
+// = Multiline overflow trick =
+// ============================
+.ai1ec-multilineOverflow( @container-height, @line-height, @bg-color ) {
+	line-height: @line-height;
+	height: @container-height;
+	overflow: hidden;
+	&:before {
+		content: "";
+		float: left;
+		width: 5px;
+		height: @container-height;
+	}
+	> *:first-child {
+		float: right;
+		width: 100%;
+		margin-left: -5px;
+	}
+	&:after {
+		content: "…";
+		.ai1ec-box-sizing( content-box );
+		float: right;
+		left: 100%;
+		margin-left: -1.25em;
+		padding-right: 5px;
+		position: relative;
+		text-align: right;
+		top: -@line-height;
+		width: 1.25em;
+		#gradient > .ai1ec-horizontal-three-colors-replace(
+			fade( @bg-color, 0% ),
+			@bg-color,
+			50%,
+			@bg-color
+		);
+	}
+}
+
+// =========================
+// = Bug fixes/workarounds =
+// =========================
+
+// forms.less needs to be .timely-namespaced since it contains unclassed HTML
+// tagsf, but this makes .ai1ec-input-sm and .ai1ec-input-lg inaccessible as
+// mixins. So we copy them from forms.less:
+.ai1ec-input-sm() {
+  .ai1ec-input-size(@input-height-small; @padding-small-vertical; @padding-small-horizontal; @font-size-small; @line-height-small; @border-radius-small);
+}
+.ai1ec-input-lg() {
+  .ai1ec-input-size(@input-height-large; @padding-large-vertical; @padding-large-horizontal; @font-size-large; @line-height-large; @border-radius-large);
+}
+
+// buttons.less needs to be .timely-namespaced since its rules sometimes aren't
+// strong enough to override global link styles, but this makes .ai1ec-btn-lg,
+// .ai1ec-btn-sm, and .ai1ec-btn-xs inaccessible as mixins. So we copy them from
+// buttons.less:
+.ai1ec-btn-lg {
+  // line-height: ensure even-numbered height of button next to large input
+  .ai1ec-button-size(@padding-large-vertical; @padding-large-horizontal; @font-size-large; @line-height-large; @border-radius-large);
+}
+.ai1ec-btn-sm {
+  // line-height: ensure proper height of button next to small input
+  .ai1ec-button-size(@padding-small-vertical; @padding-small-horizontal; @font-size-small; @line-height-small; @border-radius-small);
+}
+.ai1ec-btn-xs {
+  .ai1ec-button-size(@padding-xs-vertical; @padding-xs-horizontal; @font-size-small; @line-height-small; @border-radius-small);
+}

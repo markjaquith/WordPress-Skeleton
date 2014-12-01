@@ -1,0 +1,13 @@
+<a
+	class="ai1ec-minical-trigger ai1ec-btn ai1ec-btn-sm ai1ec-btn-default
+    ai1ec-tooltip-trigger"
+	{% for attribute, value in attributes %}
+		{{ attribute }}="{{ value }}"
+	{% endfor %}
+	{{ data_type | raw }}
+	title="{{ text_date }}"
+	>
+	<i class="ai1ec-fa ai1ec-fa-calendar-o ai1ec-fa-fw ai1ec-fa-lg"></i>
+  <span class="ai1ec-calendar-title">{{ title }}</span>
+  <span class="ai1ec-calendar-title-short">{{ title_short }}</span>
+</a>
