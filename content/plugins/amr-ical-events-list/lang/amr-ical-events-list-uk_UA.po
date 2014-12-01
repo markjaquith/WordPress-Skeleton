@@ -1,0 +1,2460 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: amr events calendar or lists with ical files v4.6\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2014-05-16 21:33:41+1000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%100/10==1 ? 2 : n%10==1 ? 0 : (n+9)%10>3 ? 2 : 1;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: \n"
+"X-Poedit-Country: \n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#  Copyright (C) 2014 amr events calendar or lists with ical files
+#  This file is distributed under the same license as the amr events calendar or lists with ical files package.
+#: includes/amr-ical-calendar.php:48
+#@ amr-ical-events-list
+msgid "Go to events for this day only"
+msgstr "Перейти до подій цього дня тільки"
+
+#: includes/amr-ical-config.php:141
+#: includes/amr-ical-list-admin.php:293
+#@ amr-ical-events-list
+msgid "Column"
+msgstr "Колонка"
+
+#: includes/amr-ical-config.php:142
+#: includes/amr-ical-list-admin.php:296
+#@ amr-ical-events-list
+msgid "Order"
+msgstr "Порядок"
+
+#: includes/amr-ical-config.php:143
+#: includes/amr-ical-list-admin.php:297
+#@ amr-ical-events-list
+msgid "Before"
+msgstr "До"
+
+#: includes/amr-ical-config.php:144
+#: includes/amr-ical-list-admin.php:298
+#@ amr-ical-events-list
+msgid "After"
+msgstr "Після"
+
+#: includes/amr-ical-config.php:202
+#@ amr-ical-events-list
+msgid "A link to allow user to add the whole calendar to their google calendar."
+msgstr ""
+
+#: includes/amr-ical-config.php:203
+#@ amr-ical-events-list
+msgid "A link to allow user to refetch an ics file"
+msgstr "Посилання, що дозволяє користувачеві отримати файл ics"
+
+#: includes/amr-ical-config.php:204
+#@ amr-ical-events-list
+msgid "The time the ics file was last modified"
+msgstr "Час останього редагування ics файлу"
+
+#: includes/amr-ical-config.php:206
+#@ amr-ical-events-list
+msgid "WordPress post title or ICS SUMMARY"
+msgstr "WordPress заголовок поста або ics резюме"
+
+#: includes/amr-ical-config.php:207
+#@ amr-ical-events-list
+msgid "WordPress content or ICS description"
+msgstr "Зміст WordPress або опис ics"
+
+#: includes/amr-ical-config.php:208
+#@ amr-ical-events-list
+msgid "WordPress excerpt"
+msgstr "WordPress виписка"
+
+#: includes/amr-ical-config.php:209
+#@ amr-ical-events-list
+msgid "WordPress post thumbnail"
+msgstr "WordPress повідомлення зі слайдами"
+
+#: includes/amr-ical-config.php:210
+#@ amr-ical-events-list
+msgid "Address"
+msgstr "Адреса"
+
+#: includes/amr-ical-config.php:211
+#@ amr-ical-events-list
+msgid "Link to map"
+msgstr "Посилання на мапі"
+
+#: includes/amr-ical-config.php:212
+#@ amr-ical-events-list
+msgid "Link to add event to a google calendar"
+msgstr "Посилання для додавання події до календаря Google"
+
+#: includes/amr-ical-config.php:213
+#@ amr-ical-events-list
+msgid "Link to single event ics file"
+msgstr "Посилання на подію ics файла"
+
+#: includes/amr-ical-config.php:214
+#@ amr-ical-events-list
+msgid "Link to recurring event series ics file"
+msgstr "Посилання на серію подій ics файла"
+
+#: includes/amr-ical-config.php:215
+#@ amr-ical-events-list
+msgid "The latitude and longitude"
+msgstr "Широта і довгота"
+
+#: includes/amr-ical-config.php:216
+#@ amr-ical-events-list
+msgid "Links to specified ATTACHMENTS (ics)"
+msgstr "Посилання на специфічні вкладення (ics)"
+
+#: includes/amr-ical-config.php:218
+#@ amr-ical-events-list
+msgid "WordPress or ics file categories "
+msgstr "Категорії ics або WordPress"
+
+#: includes/amr-ical-config.php:219
+#@ amr-ical-events-list
+msgid "ics class"
+msgstr "ics класи"
+
+#: includes/amr-ical-config.php:220
+#@ amr-ical-events-list
+msgid "ics comment"
+msgstr "ics коментар"
+
+#: includes/amr-ical-config.php:222
+#@ amr-ical-events-list
+msgid "ics event priority"
+msgstr "пріоритет ics подій"
+
+#: includes/amr-ical-config.php:224
+#@ amr-ical-events-list
+msgid "ics event status"
+msgstr "статус ics подій"
+
+#: includes/amr-ical-config.php:225
+#@ amr-ical-events-list
+msgid "The date of instance of a repeating date, or the event date"
+msgstr "Дата примірника повторюваної дати або дати проведення заходу"
+
+#: includes/amr-ical-config.php:226
+#@ amr-ical-events-list
+msgid "The time of instance of a repeating date, or the event date"
+msgstr "Час примірника повторюваної дати або дати проведення заходу"
+
+#: includes/amr-ical-config.php:227
+#@ amr-ical-events-list
+msgid "The date an event instance ends.  Blank if same as event date "
+msgstr "Подія закінчується. Бланк дати події"
+
+#: includes/amr-ical-config.php:228
+#@ amr-ical-events-list
+msgid "The time an event instance ends. "
+msgstr "Час примірник подія закінчується."
+
+#: includes/amr-ical-config.php:229
+#@ amr-ical-events-list
+msgid "The original or first event date of a recurring series"
+msgstr "Оригінал або перша подія з повторюваної серії"
+
+#: includes/amr-ical-config.php:231
+#@ amr-ical-events-list
+msgid "The original or first event's end date of a recurring series"
+msgstr "Дата закінчення оригіналу або першого заходу з повторюваної серії"
+
+#: includes/amr-ical-config.php:232
+#@ amr-ical-events-list
+msgid "The due date of a task."
+msgstr "Термін виконання завдання."
+
+#: includes/amr-ical-config.php:233
+#@ amr-ical-events-list
+msgid "The duration of an event."
+msgstr "Тривалість події."
+
+#: includes/amr-ical-config.php:234
+#@ amr-ical-events-list
+msgid "Says \"all day\" (translated) if the event has full days."
+msgstr "Каже \"all day\" (в перекладі), якщо подія має повні дні."
+
+#: includes/amr-ical-config.php:235
+#@ amr-ical-events-list
+msgid "If a task is completed."
+msgstr "Якщо завдання виконане."
+
+#: includes/amr-ical-config.php:236
+#@ amr-ical-events-list
+msgid "Show busy (translated) if the freebusy component is in use."
+msgstr "Показати зайнятий (переклад), якщо FreeBusy компонент знаходиться у використанні."
+
+#: includes/amr-ical-config.php:240
+#@ amr-ical-events-list
+msgid "Users who have accepted."
+msgstr "Користувачі, які приймаються."
+
+#: includes/amr-ical-config.php:242
+#@ amr-ical-events-list
+msgid "Add register button. Registration settings can be set as global defaults or per event."
+msgstr ""
+
+#: includes/amr-ical-config.php:243
+#@ amr-ical-events-list
+msgid "Links to indicate if attending."
+msgstr "Посилання для індикації при відвідуванні."
+
+#: includes/amr-ical-config.php:244
+#@ amr-ical-events-list
+msgid "The contact person if available."
+msgstr "Контактна особа, якщо доступна."
+
+#: includes/amr-ical-config.php:245
+#@ amr-ical-events-list
+msgid "The author of the event."
+msgstr "Автор події."
+
+#: includes/amr-ical-config.php:246
+#@ amr-ical-events-list
+msgid "Users who are attending."
+msgstr "Користувачі, які відвідують."
+
+#: includes/amr-ical-config.php:247
+#@ amr-ical-events-list
+msgid "The unique id of a recurrence instance or exception."
+msgstr "Унікальний ідентифікатор повторюваності інстанції або виключення."
+
+#: includes/amr-ical-config.php:249
+#@ amr-ical-events-list
+msgid "The events url as provided by ics file, or the wordpress event permalink."
+msgstr ""
+
+#: includes/amr-ical-config.php:250
+#@ amr-ical-events-list
+msgid "The unique identifier of the event."
+msgstr "Унікальний ідентифікатор події."
+
+#: includes/amr-ical-config.php:251
+#@ amr-ical-events-list
+msgid "Dates excluded from the recurring series"
+msgstr "Терміни, виключені з повторюваних серій"
+
+#: includes/amr-ical-config.php:252
+#@ amr-ical-events-list
+msgid "Exclusion rule - no longer in spec"
+msgstr "Правило виключення - вже не у специфікації"
+
+#: includes/amr-ical-config.php:253
+#@ amr-ical-events-list
+msgid "Individual dates on which event is to be repeated"
+msgstr "Індивідуальні терміни, за якою подією повинна бути повторена"
+
+#: includes/amr-ical-config.php:254
+#@ amr-ical-events-list
+msgid "The rule for the recurrence of the event."
+msgstr "Правило для повторення події."
+
+#: includes/amr-ical-config.php:255
+#@ amr-ical-events-list
+msgid "Alarm action."
+msgstr "Дія сигналу тривоги."
+
+#: includes/amr-ical-config.php:256
+#@ amr-ical-events-list
+msgid "Alarm repeat."
+msgstr "Повторити сигналізацію."
+
+#: includes/amr-ical-config.php:257
+#@ amr-ical-events-list
+msgid "Alarm trigger."
+msgstr "По тривозі."
+
+#: includes/amr-ical-config.php:258
+#@ amr-ical-events-list
+msgid "Date event created."
+msgstr "Дата створення події."
+
+#: includes/amr-ical-config.php:259
+#@ amr-ical-events-list
+msgid "Date event published."
+msgstr "Дата публікації події."
+
+#: includes/amr-ical-config.php:260
+#@ amr-ical-events-list
+msgid "Modification level of event."
+msgstr "Рівень модифікації події."
+
+#: includes/amr-ical-config.php:261
+#@ amr-ical-events-list
+msgid "Date event last modified."
+msgstr "Дата останньої зміни події."
+
+#: includes/amr-ical-config.php:262
+#@ amr-ical-events-list
+msgid "Events in an ics file"
+msgstr "Події у ics файлі"
+
+#: includes/amr-ical-config.php:263
+#@ amr-ical-events-list
+msgid "Items in an ics file that indicate busy or available time slots"
+msgstr "Елементи у файлі ics, які вказують зайняті або доступні тимчасові інтервали"
+
+#: includes/amr-ical-config.php:264
+#@ amr-ical-events-list
+msgid "Todo Task Items in an ics file"
+msgstr "Завдання елементу у ics файлі"
+
+#: includes/amr-ical-config.php:265
+#@ amr-ical-events-list
+msgid "Journal notes in an ics file - no date or time"
+msgstr "Журнал логу, у ics файлі - немає дати або часу"
+
+#: includes/amr-ical-config.php:361
+#@ amr-ical-events-list
+msgid "No events found within criteria"
+msgstr "По заданим крітеріям подію не знайдено"
+
+#: includes/amr-ical-config.php:362
+#: includes/amr-pluggable.php:1379
+#@ amr-ical-events-list
+msgid "Look for more"
+msgstr "Переглянути більше"
+
+#: includes/amr-ical-config.php:363
+#@ amr-ical-events-list
+msgid "Look for previous"
+msgstr "Переглянути попередні"
+
+#: includes/amr-ical-config.php:364
+#: includes/amr-ical-config.php:1156
+#@ amr-ical-events-list
+msgid "Reset"
+msgstr "Скидання"
+
+#: includes/amr-ical-config.php:386
+#@ amr-ical-events-list
+msgid "Default"
+msgstr "За замовчанням"
+
+#: includes/amr-ical-config.php:387
+#@ amr-ical-events-list
+msgid "A default calendar list. This one set to tables with lists in the cells.  Usually needs the css file enabled. If you configure it, I suggest changing this description to aid your memory of how/why it is configured the way that it is. "
+msgstr ""
+
+#: includes/amr-ical-config.php:365
+#@ amr-ical-events-list
+msgid "Year"
+msgstr "Рік"
+
+#: includes/amr-ical-config.php:366
+#@ amr-ical-events-list
+msgid "Quarter"
+msgstr "Чверть"
+
+#: includes/amr-ical-config.php:367
+#@ amr-ical-events-list
+msgid "Astronomical Season"
+msgstr "Астрономічний сезон"
+
+#: includes/amr-ical-config.php:368
+#@ amr-ical-events-list
+msgid "Traditional Season"
+msgstr "Традиційний сезон"
+
+#: includes/amr-ical-config.php:369
+#@ amr-ical-events-list
+msgid "Western Zodiac"
+msgstr "Західні зодіаки"
+
+#: includes/amr-ical-config.php:370
+#@ amr-ical-events-list
+msgid "Month"
+msgstr "Місяць"
+
+#: includes/amr-ical-config.php:371
+#@ amr-ical-events-list
+msgid "Week"
+msgstr "Тиждень"
+
+#: includes/amr-ical-config.php:372
+#@ amr-ical-events-list
+msgid "Day"
+msgstr "День"
+
+#: includes/amr-ical-config.php:410
+#@ amr-ical-events-list
+msgid "When"
+msgstr "Коли"
+
+#: includes/amr-ical-config.php:411
+#@ amr-ical-events-list
+msgid "What"
+msgstr "Що"
+
+#: includes/amr-ical-config.php:412
+#@ amr-ical-events-list
+msgid "Where"
+msgstr "Де"
+
+#: includes/amr-ical-config.php:459
+#@ amr-ical-events-list
+msgid "More info: "
+msgstr "Додаткова інформація:"
+
+#: includes/amr-ical-config.php:473
+#@ amr-ical-events-list
+msgid " to"
+msgstr "до"
+
+#: includes/amr-ical-config.php:552
+#: includes/amr-pluggable.php:506
+#@ amr-ical-events-list
+msgid "Show in Google map"
+msgstr "Показати в карті Google"
+
+#: includes/amr-ical-config.php:559
+#: includes/amr-pluggable.php:513
+#@ amr-ical-events-list
+msgid "Show location in Google Maps"
+msgstr "Показати розташування в Google Maps"
+
+#: includes/amr-ical-config.php:572
+#@ amr-ical-events-list
+msgid "On Tour"
+msgstr "On Tour"
+
+#: includes/amr-ical-config.php:573
+#@ amr-ical-events-list
+msgid "Default setting uses the original table with lists in the cells. It is grouped by month. If you configure it, I suggest changing this description to aid your memory of how/why it is configured the way that it is. "
+msgstr ""
+
+#: includes/amr-ical-config.php:581
+#@ amr-ical-events-list
+msgid "Venue"
+msgstr "Місце зустрічі"
+
+#: includes/amr-ical-config.php:582
+#@ amr-ical-events-list
+msgid "Description"
+msgstr "Опис"
+
+#: includes/amr-ical-config.php:586
+#@ amr-ical-events-list
+msgid "Timetable"
+msgstr "Розклад"
+
+#: includes/amr-ical-config.php:587
+#@ amr-ical-events-list
+msgid "Default setting uses the original table with lists in the cells. It is grouped by day. If you configure it, I suggest changing this description to aid your memory of how/why it is configured the way that it is. "
+msgstr ""
+
+#: includes/amr-ical-config.php:598
+#@ amr-ical-events-list
+msgid "Date"
+msgstr "Дата"
+
+#: includes/amr-ical-config.php:599
+#@ amr-ical-events-list
+msgid "Class"
+msgstr "Клас"
+
+#: includes/amr-ical-config.php:600
+#@ amr-ical-events-list
+msgid "Room"
+msgstr "Номер"
+
+#: includes/amr-ical-config.php:605
+#@ amr-ical-events-list
+msgid "Widget"
+msgstr "Віджет"
+
+#: includes/amr-ical-config.php:606
+#@ amr-ical-events-list
+msgid "The new default setting for widgets uses lists for the table rows. Good for themes that cannot cope with tables in the sidebar. No grouping. If you configure it, I suggest changing this description to aid your memory of how/why it is configured the way that it is. "
+msgstr ""
+
+#: includes/amr-ical-config.php:627
+#@ amr-ical-events-list
+msgid "HTML5 Exp 1"
+msgstr "HTML5 Досвід 1"
+
+#: includes/amr-ical-config.php:628
+#@ amr-ical-events-list
+msgid "Table style aiming to use html5 tags, but still within a table structure to allow columns. One cannot have two levels of grouping with this option as tbody cannot be nested. If you configure it, I suggest changing this description to aid your memory of how/why it is configured the way that it is. "
+msgstr ""
+
+#: includes/amr-ical-config.php:659
+#@ amr-ical-events-list
+msgid "HTML5 Exp 2"
+msgstr "HTML5 Досвід 2"
+
+#: includes/amr-ical-config.php:660
+#@ amr-ical-events-list
+msgid "An HTML5 test option that tries to be leaner. You can have two level of grouping with this option. If you configure it, I suggest changing this description to aid your memory of how/why it is configured the way that it is. "
+msgstr ""
+
+#: includes/amr-ical-config.php:704
+#@ amr-ical-events-list
+msgid "EventInfo"
+msgstr "Инфо подій"
+
+#: includes/amr-ical-config.php:705
+#@ amr-ical-events-list
+msgid "For displaying additional event info on posts created as events. The summary and description are switched off as these are the post title and the post content. Calendar properties and groupings are also not relevant. If you configure it, I suggest changing this description to aid your memory of how/why it is configured the way that it is. "
+msgstr ""
+
+#: includes/amr-ical-config.php:736
+#@ amr-ical-events-list
+msgid "Small-Calendar"
+msgstr "Малий-календар"
+
+#: includes/amr-ical-config.php:737
+#@ amr-ical-events-list
+msgid "The new default setting for calendar widgets. No grouping, No headings. If you configure it, I suggest changing this description to aid your memory of how/why it is configured the way that it is. "
+msgstr ""
+
+#: includes/amr-ical-config.php:765
+#@ amr-ical-events-list
+msgid "Large-Calendar"
+msgstr "Великий-календар"
+
+#: includes/amr-ical-config.php:766
+#@ amr-ical-events-list
+msgid "The new default setting for a large monthly calendar. No grouping, No headings. If you configure it, I suggest changing this description to aid your memory of how/why it is configured the way that it is."
+msgstr ""
+
+#: includes/amr-ical-config.php:795
+#@ amr-ical-events-list
+msgid "Testing"
+msgstr "Тестування"
+
+#: includes/amr-ical-config.php:796
+#@ amr-ical-events-list
+msgid "A test option with lots of fields switched on. It has 2 levels of grouping - this is fine so long as the html in use can be nested. If you configure it, I suggest changing this description to aid your memory of how/why it is configured the way that it is. "
+msgstr ""
+
+#: includes/amr-ical-config.php:846
+#@ amr-ical-events-list
+msgid "Weekly Horizontal"
+msgstr "Щотижневий Горизонтально"
+
+#: includes/amr-ical-config.php:848
+#@ amr-ical-events-list
+msgid "Like the large calendar, but different - grouped by week and the weeks continue across months.  Really 2 weeks should be displayed a time."
+msgstr ""
+
+#: includes/amr-ical-config.php:849
+#: includes/amr-ical-config.php:881
+#: includes/amr-ical-config.php:925
+#@ amr-ical-events-list
+msgid " If you configure it, I suggest changing this description to aid your memory of how/why it is configured the way that it is. "
+msgstr ""
+
+#: includes/amr-ical-config.php:878
+#@ amr-ical-events-list
+msgid "Weekly Vertical"
+msgstr "Щотижневий Вертикально"
+
+#: includes/amr-ical-config.php:880
+#@ amr-ical-events-list
+msgid "Grouped by day, but only showing 1 week. 3 columns, with excerpt not full description. No icons."
+msgstr ""
+
+#: includes/amr-ical-config.php:922
+#@ amr-ical-events-list
+msgid "Event Master"
+msgstr "Головна подія"
+
+#: includes/amr-ical-config.php:924
+#@ amr-ical-events-list
+msgid "Grouped by category, intended to be used with no recurrences"
+msgstr "Згруповані за категоріями, призначені для використання без будь-яких повторів"
+
+#: includes/amr-ical-config.php:1101
+#@ amr-ical-events-list
+msgid "Resetting options..."
+msgstr "Скидання опцій ..."
+
+#: includes/amr-ical-config.php:1104
+#@ amr-ical-events-list
+msgid "Options Deleted..."
+msgstr "Опції видалені..."
+
+#: includes/amr-ical-config.php:1105
+#@ amr-ical-events-list
+msgid "Option was not saved before or error deleting option..."
+msgstr "Варіант не був збережений або помилока видалення записів ..."
+
+#: includes/amr-ical-config.php:1135
+#@ amr-ical-events-list
+msgid " Converting option key to lowercase"
+msgstr "Перетворення ключа опції в нижній регістр"
+
+#: includes/amr-ical-config.php:1155
+#@ amr-ical-events-list
+msgid "Look for Previous"
+msgstr "Шукайте Попередній"
+
+#: includes/amr-ical-config.php:1163
+#@ amr-ical-events-list
+msgid "Busy"
+msgstr "Зайнято"
+
+#: includes/amr-ical-config.php:1186
+#@ amr-ical-events-list
+msgid "Daily"
+msgstr "Щодня"
+
+#: includes/amr-ical-config.php:1187
+#@ amr-ical-events-list
+msgid "Weekly"
+msgstr "Щотижня"
+
+#: includes/amr-ical-config.php:1188
+#@ amr-ical-events-list
+msgid "Monthly"
+msgstr "Щомісяця"
+
+#: includes/amr-ical-config.php:1189
+#@ amr-ical-events-list
+msgid "Yearly"
+msgstr "Річний"
+
+#: includes/amr-ical-config.php:1190
+#@ amr-ical-events-list
+msgid "Hourly"
+msgstr "Щогодини"
+
+#: includes/amr-ical-config.php:1191
+#@ amr-ical-events-list
+msgid "on certain dates"
+msgstr "в певні дати"
+
+#: includes/amr-ical-config.php:1192
+#@ amr-ical-events-list
+msgid "day"
+msgstr "день"
+
+#: includes/amr-ical-config.php:1193
+#@ amr-ical-events-list
+msgid "week"
+msgstr "тиждень"
+
+#: includes/amr-ical-config.php:1194
+#@ amr-ical-events-list
+msgid "month"
+msgstr "місяць"
+
+#: includes/amr-ical-config.php:1195
+#@ amr-ical-events-list
+msgid "year"
+msgstr "рік"
+
+#: includes/amr-ical-config.php:1196
+#@ amr-ical-events-list
+msgid "hour"
+msgstr "годину"
+
+#: includes/amr-ical-events-list-main.php:14
+#@ amr-ical-events-list
+msgid "The <a href=\"http://au.php.net/manual/en/class.datetime.php\"> DateTime Class </a> must be enabled on your system for this plugin to work. They may need to be enabled at compile time.  The class should exist by default in PHP version 5.2."
+msgstr "\"&quot; <a href=\"http://au.php.net/manual/en/class.datetime.php"
+
+#: includes/amr-ical-events-list-main.php:54
+#, php-format
+#@ amr-ical-events-list
+msgctxt " the 11, 12 or 13th "
+msgid "%s th"
+msgstr "%s, й"
+
+#: includes/amr-ical-events-list-main.php:61
+#, php-format
+#@ amr-ical-events-list
+msgctxt " the twenty first etc "
+msgid "%s st"
+msgstr "%s й"
+
+#: includes/amr-ical-events-list-main.php:64
+#, php-format
+#@ amr-ical-events-list
+msgctxt " the second "
+msgid "%s nd"
+msgstr "%s й"
+
+#: includes/amr-ical-events-list-main.php:67
+#, php-format
+#@ amr-ical-events-list
+msgctxt " the third "
+msgid "%s rd"
+msgstr "%s й"
+
+#: includes/amr-ical-events-list-main.php:70
+#, php-format
+#@ amr-ical-events-list
+msgctxt " the nth "
+msgid "%s th"
+msgstr "%s, й"
+
+#: includes/amr-ical-events-list-main.php:78
+#@ amr-ical-events-list
+msgid "the first"
+msgstr "перший"
+
+#: includes/amr-ical-events-list-main.php:80
+#@ amr-ical-events-list
+msgid "every"
+msgstr "кожен"
+
+#: includes/amr-ical-events-list-main.php:82
+#@ amr-ical-events-list
+msgid "the last"
+msgstr "останній"
+
+#: includes/amr-ical-events-list-main.php:84
+#, php-format
+#@ amr-ical-events-list
+msgid "the %s last"
+msgstr "%s останній"
+
+#: includes/amr-ical-events-list-main.php:86
+#, php-format
+#@ amr-ical-events-list
+msgid "the %s"
+msgstr "%s"
+
+#: includes/amr-ical-events-list-main.php:122
+#@ default
+msgid "Monday"
+msgstr "Понеділок"
+
+#: includes/amr-ical-events-list-main.php:124
+#@ default
+msgid "Tuesday"
+msgstr "Вівторок"
+
+#: includes/amr-ical-events-list-main.php:126
+#@ default
+msgid "Wednesday"
+msgstr "Середа"
+
+#: includes/amr-ical-events-list-main.php:128
+#@ default
+msgid "Thursday"
+msgstr "Четвер"
+
+#: includes/amr-ical-events-list-main.php:130
+#@ default
+msgid "Friday"
+msgstr "П&#39;ятниця"
+
+#: includes/amr-ical-events-list-main.php:132
+#@ default
+msgid "Saturday"
+msgstr "Субота"
+
+#: includes/amr-ical-events-list-main.php:134
+#@ default
+msgid "Sunday"
+msgstr "Неділя"
+
+#: includes/amr-ical-events-list-main.php:304
+#, php-format
+#@ amr-ical-events-list
+msgid "Error creating custom css directory %s. Please check permissions"
+msgstr "Помилка створення каталогу CSS %s. Будь ласка, спитайте дозволу"
+
+#: includes/amr-ical-events-list-main.php:326
+#@ amr-ical-events-list
+msgid "Could not copy file."
+msgstr "Неможливо скопіювати файл."
+
+#: includes/amr-ical-events-list-main.php:1362
+#, php-format
+#@ amr-ical-events-list
+msgid "Unable to load or cache ical calendar %s"
+msgstr "Неможливо завантажити або кешувати календар %s"
+
+#: includes/amr-ical-events-list-main.php:1370
+#, php-format
+#@ amr-ical-events-list
+msgid "Error finding or parsing ical calendar %s"
+msgstr "Висновок про помилку або розбір ical календаря %s"
+
+#: includes/amr-ical-events-list-main.php:1406
+#@ amr-ical-events-list
+msgid "This feature requires the plugin amr-events"
+msgstr "Ця функція вимагає плагін AMR-подій"
+
+#: includes/amr-ical-events-list-main.php:1407
+#@ amr-ical-events-list
+msgid "Get it here"
+msgstr "Отримати його тут"
+
+#: includes/amr-ical-events-list-main.php:1536
+#@ amr-ical-events-list
+msgid "No url entered - did you want events from posts ?"
+msgstr "URL Не війшли - ти хотів події з повідомлень?"
+
+#: includes/amr-ical-events-list-main.php:1569
+#@ amr-ical-events-list
+msgid "No ical components requested for display"
+msgstr "Немає ical компонентів запитуваних на дисплеї"
+
+#: includes/amr-ical-events-list-main.php:1742
+#, php-format
+#@ amr-ical-events-list
+msgid "Invalid Ical URL %s"
+msgstr "Невірний Ical URL %s"
+
+#: includes/amr-ical-events-list-main.php:1828
+#, php-format
+#@ amr-ical-events-list
+msgid "System error - event list type %s missing - please inform administrator."
+msgstr ""
+
+#: includes/amr-ical-events-list-main.php:1830
+#@ amr-ical-events-list
+msgid "Now using an available list type to list events"
+msgstr "Тепер, використовуйте доступний тип списку в списоку подій"
+
+#: includes/amr-ical-events-list-main.php:1966
+#@ amr-ical-events-list
+msgid "Invalid Start Date"
+msgstr "Невірна початкова дата"
+
+#: includes/amr-ical-events-list-main.php:2323
+#@ amr-ical-events-list
+msgid "Uncaught exception: "
+msgstr "Неперехоплений виняток:"
+
+#: includes/amr-ical-events-list-main.php:2324
+#@ amr-ical-events-list
+msgid "<br /><br />An error in the input data may prevent correct display of this page.  Please advise the administrator as soon as possible."
+msgstr ""
+
+#: includes/amr-ical-events-list-main.php:2331
+#@ amr-ical-events-list
+msgid "Your existing saved list types have been converted.  If you wish to return to the earlier version of the plugin, you will have to reset the list types and reapply your changes. Or use your DB backup to set the amr-ical-events-list option back to previous version. You do have regular backups right? "
+msgstr ""
+
+#: includes/amr-ical-events-list-main.php:2358
+#@ amr-ical-events-list
+msgid "General listing Settings"
+msgstr "Загальні налаштування зі списку"
+
+#: includes/amr-ical-events-list-main.php:2360
+#: includes/amr-ical-list-admin.php:16
+#: includes/amr-ical-plugin-form-html.php:48
+#@ amr-ical-events-list
+#@ default
+msgid "Settings"
+msgstr "Налаштування"
+
+#: includes/amr-ical-events-list-main.php:2361
+#@ amr-ical-events-list
+msgid "List Type Settings"
+msgstr "Налаштування список"
+
+#: includes/amr-ical-events-list-main.php:2362
+#: includes/amr-ical-list-admin.php:27
+#@ amr-ical-events-list
+msgid "Documentation"
+msgstr "Документація"
+
+#: includes/amr-ical-groupings.php:6
+#@ amr-ical-events-list
+msgid "Show all"
+msgstr "Показати все"
+
+#: includes/amr-ical-groupings.php:7
+#@ amr-ical-events-list
+msgid "Hide all"
+msgstr "Приховати все"
+
+#: includes/amr-ical-list-admin.php:30
+#@ amr-ical-events-list
+msgid "Support"
+msgstr "Підтримка"
+
+#: includes/amr-ical-list-admin.php:33
+#@ amr-ical-events-list
+msgid "Videos"
+msgstr "Відео"
+
+#: includes/amr-ical-list-admin.php:36
+#@ amr-ical-events-list
+msgid "Rate it at WP"
+msgstr "Оцінити на WP"
+
+#: includes/amr-ical-list-admin.php:38
+#@ amr-ical-events-list
+msgid "Plugin feed"
+msgstr "Плагін feed"
+
+#: includes/amr-ical-list-admin.php:43
+#@ amr-ical-events-list
+msgid "Forum feed"
+msgstr "Форум feed"
+
+#: includes/amr-ical-list-admin.php:67
+#, php-format
+#@ amr-ical-events-list
+msgid "Your timezone db version is: %s"
+msgstr "Часовий пояс і версія вашої бази даних: %s"
+
+#: includes/amr-ical-list-admin.php:69
+#@ amr-ical-events-list
+msgid "Plugin cannot determine timezonedb version in php &lt; 5.3."
+msgstr "Плагін не може визначити часовий пояс бази даних у версії PHP <5.3."
+
+#: includes/amr-ical-list-admin.php:72
+#@ amr-ical-events-list
+msgid "Php timezonedb versions"
+msgstr "Філ timezonedb версії"
+
+#: includes/amr-ical-list-admin.php:74
+#@ amr-ical-events-list
+msgid "Info on what changes are in which timezonedb version"
+msgstr "Інформація про те, що змінилося в кожній часовій зоні"
+
+#: includes/amr-ical-list-admin.php:77
+#@ amr-ical-events-list
+msgid "No global timezone - is there a problem here? "
+msgstr "Ні глобальному часовому поясу - чи є тут проблема?"
+
+#: includes/amr-ical-list-admin.php:80
+#@ amr-ical-events-list
+msgid "Go to settings"
+msgstr "Перейдіть в налаштування"
+
+#: includes/amr-ical-list-admin.php:84
+#@ amr-ical-events-list
+msgid "You are using the \"old\" gmt_offset setting "
+msgstr "Ви використовуєте \"old\" настройки gmt_offset"
+
+#: includes/amr-ical-list-admin.php:85
+#@ amr-ical-events-list
+msgid "Consider changing to the more accurate timezone setting"
+msgstr "Розглянемо зміни для точної установки часового поясу"
+
+#: includes/amr-ical-list-admin.php:90
+#@ amr-ical-events-list
+msgid "The plugin thinks your timezone is: "
+msgstr "Плагін думає ваша часова зона:"
+
+#: includes/amr-ical-list-admin.php:94
+#@ amr-ical-events-list
+msgid "The current UTC offset for that timezone is: "
+msgstr "Нинішній UTC зсув для цієї часової зони є:"
+
+#: includes/amr-ical-list-admin.php:107
+#, php-format
+#@ amr-ical-events-list
+msgid "Switches to %s on %s. GMT offset: %d"
+msgstr "Перемикання з %s на %s. Часовий пояс:%d"
+
+#: includes/amr-ical-list-admin.php:113
+#@ amr-ical-events-list
+msgid "Current time (unlocalised): "
+msgstr "Поточний час (нелокалізованно):"
+
+#: includes/amr-ical-list-admin.php:123
+#@ amr-ical-events-list
+msgid "Save the settings"
+msgstr "Зберегти налаштування"
+
+#: includes/amr-ical-list-admin.php:125
+#@ amr-ical-events-list
+msgid "Update"
+msgstr "Оновлення"
+
+#: includes/amr-ical-list-admin.php:130
+#@ amr-ical-events-list
+msgid "Uninstall the plugin and delete the options from the database."
+msgstr "Видаліть плагін і параметри з бази даних."
+
+#: includes/amr-ical-list-admin.php:132
+#@ amr-ical-events-list
+msgid "Uninstall"
+msgstr "Видалення"
+
+#: includes/amr-ical-list-admin.php:137
+#@ amr-ical-events-list
+msgid "Warning: This will reset ALL the listing options immediately."
+msgstr "Попередження: Це скине всі варіанти лістингу відразу."
+
+#: includes/amr-ical-list-admin.php:140
+#@ amr-ical-events-list
+msgid "Reset all listing options"
+msgstr "Скинути все в лістінгу опцій"
+
+#: includes/amr-ical-list-admin.php:155
+#: includes/amr-ical-list-admin.php:1130
+#@ amr-ical-events-list
+msgid "Manage Event List Types"
+msgstr "Управління типів списку подій"
+
+#: includes/amr-ical-list-admin.php:170
+#@ amr-ical-events-list
+msgid "Configure event list type: "
+msgstr "Налаштування тип списку подій:"
+
+#: includes/amr-ical-list-admin.php:177
+#: includes/amr-ical-list-admin.php:631
+#@ amr-ical-events-list
+msgid "Preview the list using a calendar page."
+msgstr "Попередній перегляд списку з використанням сторінки календаря."
+
+#: includes/amr-ical-list-admin.php:178
+#: includes/amr-ical-list-admin.php:632
+#@ amr-ical-events-list
+msgid "Preview"
+msgstr "Попередній перегляд"
+
+#: includes/amr-ical-list-admin.php:184
+#: includes/amr-ical-list-admin.php:686
+#@ amr-ical-events-list
+msgid "Saving...."
+msgstr "Збереження ...."
+
+#: includes/amr-ical-list-admin.php:186
+#@ amr-ical-events-list
+msgid "Lists saved"
+msgstr "Списки збережені"
+
+#: includes/amr-ical-list-admin.php:187
+#@ amr-ical-events-list
+msgid "No change to options or unexpected error in saving"
+msgstr "Опції не збереглися або виникла помилка при збережені"
+
+#: includes/amr-ical-list-admin.php:203
+#@ amr-ical-events-list
+msgid "Check for lists to delete"
+msgstr "Перевірте списки щоб видалити"
+
+#: includes/amr-ical-list-admin.php:210
+#, php-format
+#@ amr-ical-events-list
+msgid "List %s will be deleted"
+msgstr "Список %s буде видалений"
+
+#: includes/amr-ical-list-admin.php:225
+#@ amr-ical-events-list
+msgid "Column Headings:"
+msgstr "Колонка Рубрики:"
+
+#: includes/amr-ical-list-admin.php:251
+#@ amr-ical-events-list
+msgid "Calendar properties"
+msgstr "Властивості календаря"
+
+#: includes/amr-ical-list-admin.php:277
+#@ amr-ical-events-list
+msgid "Specify fields to show:"
+msgstr "Вибір полів, щоб показати:"
+
+#: includes/amr-ical-list-admin.php:280
+#@ amr-ical-events-list
+msgid "Note: a 0 (zero) in column = do not show that field."
+msgstr "Примітка: 0 (нуль) в колонці означає, що поле не буде показано."
+
+#: includes/amr-ical-list-admin.php:282
+#@ amr-ical-events-list
+msgid "Uppercase fields are those defined in the iCal specification."
+msgstr "Прописні поля є ті, які визначені в специфікації iCal."
+
+#: includes/amr-ical-list-admin.php:286
+#@ amr-ical-events-list
+msgid "Lowercase fields are additional fields added by this plugin and derived from the iCal fields for your convenience."
+msgstr ""
+
+#: includes/amr-ical-list-admin.php:287
+#@ amr-ical-events-list
+msgid "Fields show if \"column\" > 0 and if there is data available in your event or ics file."
+msgstr "\"&quot;Показати поля, якщо \"column"
+
+#: includes/amr-ical-list-admin.php:292
+#@ amr-ical-events-list
+msgid "Field"
+msgstr "Поле"
+
+#: includes/amr-ical-list-admin.php:294
+#@ amr-ical-events-list
+msgid "(0 to hide)"
+msgstr "(0, щоб приховати)"
+
+#: includes/amr-ical-list-admin.php:342
+#@ amr-ical-events-list
+msgid "Define grouping:"
+msgstr "Визначити групування:"
+
+#: includes/amr-ical-list-admin.php:346
+#@ amr-ical-events-list
+msgid "Possible Groupings"
+msgstr "Можливі групування"
+
+#: includes/amr-ical-list-admin.php:346
+#@ amr-ical-events-list
+msgid "Level"
+msgstr "Рівень"
+
+#: includes/amr-ical-list-admin.php:358
+#@ amr-ical-events-list
+msgid "No grouping"
+msgstr "Ні групованню"
+
+#: includes/amr-ical-list-admin.php:367
+#@ amr-ical-events-list
+msgid "Taxonomies"
+msgstr "Таксономії"
+
+#: includes/amr-ical-list-admin.php:367
+#@ amr-ical-events-list
+msgid "(Requires amr-events)"
+msgstr "(Потрібно AMR-події)"
+
+#: includes/amr-ical-list-admin.php:386
+#@ amr-ical-events-list
+msgid "Date based"
+msgstr "Дата на основі"
+
+#: includes/amr-ical-list-admin.php:386
+#@ amr-ical-events-list
+msgid "(See also date and time formats)"
+msgstr "(Див. також формати дати і часу)"
+
+#: includes/amr-ical-list-admin.php:413
+#@ amr-ical-events-list
+msgid "Select components to show:"
+msgstr "Виберіть компоненти, щоб показати:"
+
+#: includes/amr-ical-list-admin.php:415
+#@ amr-ical-events-list
+msgid "Wikipedia entry describing components"
+msgstr "Опис вхідних компонентів Wikipedia"
+
+#: includes/amr-ical-list-admin.php:438
+#@ amr-ical-events-list
+msgid "Define maximums:"
+msgstr "Визначити максимуми:"
+
+#: includes/amr-ical-list-admin.php:441
+#@ amr-ical-events-list
+msgid "Note cache times are in hours"
+msgstr "Примітка кеша в годинах"
+
+#: includes/amr-ical-list-admin.php:481
+#@ amr-ical-events-list
+msgid "Configure another list type: "
+msgstr "Налаштуйте інший тип списку:"
+
+#: includes/amr-ical-list-admin.php:494
+#@ amr-ical-events-list
+msgid "Return to manage list types"
+msgstr "Повернутися до управління типами списків"
+
+#: includes/amr-ical-list-admin.php:531
+#@ amr-ical-events-list
+msgid "Please use numbers > 1"
+msgstr "Будь ласка, використовуйте номери> 1"
+
+#: includes/amr-ical-list-admin.php:574
+#, php-format
+#@ amr-ical-events-list
+msgid "Imported settings for list %s invalid - not saved"
+msgstr "Імпортовані параметри для списку %s невалідні - не збережено"
+
+#: includes/amr-ical-list-admin.php:580
+#, php-format
+#@ amr-ical-events-list
+msgid "List %s will be saved with imported data"
+msgstr "Список %s буде збережений з імпортованих даних"
+
+#: includes/amr-ical-list-admin.php:622
+#@ amr-ical-events-list
+msgid "Configure: "
+msgstr "Налаштування:"
+
+#: includes/amr-ical-list-admin.php:626
+#@ amr-ical-events-list
+msgid "Click to choose the fields, the columns and set other parameters."
+msgstr "Натисніть, щоб вибрати поля, стовпці і встановити інші параметри."
+
+#: includes/amr-ical-list-admin.php:627
+#@ amr-ical-events-list
+msgid "Configure"
+msgstr "Конфігурувати"
+
+#: includes/amr-ical-list-admin.php:636
+#@ amr-ical-events-list
+msgid "Calendar Page URL for previews must be entered above"
+msgstr "URL сторінки превью календаря повина бути введена вище"
+
+#: includes/amr-ical-list-admin.php:637
+#@ amr-ical-events-list
+msgid "n/a"
+msgstr "н/д"
+
+#: includes/amr-ical-list-admin.php:661
+#@ amr-ical-events-list
+msgid "Enter a list number to start a list type with new default settings."
+msgstr "Введіть номер списку, щоб почати тип списку з новими налаштуваннями за замовчуванням."
+
+#: includes/amr-ical-list-admin.php:663
+#@ amr-ical-events-list
+msgid "After that, cut and paste from the list type closest to what you want to get you started"
+msgstr ""
+
+#: includes/amr-ical-list-admin.php:673
+#@ amr-ical-events-list
+msgid "iCal Events List "
+msgstr "Список подій iCal"
+
+#: includes/amr-ical-list-admin.php:690
+#@ amr-ical-events-list
+msgid "List saved"
+msgstr "Список збережено"
+
+#: includes/amr-ical-list-admin.php:712
+#@ amr-ical-events-list
+msgid "iCal Events List"
+msgstr "Список подій iCal"
+
+#: includes/amr-ical-list-admin.php:720
+#@ amr-ical-events-list
+msgid "Listing Events"
+msgstr "Переліку подій"
+
+#: includes/amr-ical-list-admin.php:740
+#@ amr-ical-events-list
+msgid "iCal Events Lists"
+msgstr "Списоки подій iCal"
+
+#: includes/amr-ical-list-admin.php:741
+#@ amr-ical-events-list
+msgid "List types"
+msgstr "Типи Список"
+
+#: includes/amr-ical-list-admin.php:956
+#@ amr-ical-events-list
+msgid "Error in form - calprop array not found"
+msgstr "Помилка у формі - calprop масив не знайдено"
+
+#: includes/amr-ical-list-admin.php:1026
+#: includes/amr-ical-list-admin.php:1338
+#@ amr-ical-events-list
+msgid "Name"
+msgstr "Назва"
+
+#: includes/amr-ical-list-admin.php:1030
+#@ amr-ical-events-list
+msgid "Internal Description"
+msgstr "Внутрішній Опис"
+
+#: includes/amr-ical-list-admin.php:1054
+#@ amr-ical-events-list
+msgid "Other:"
+msgstr "Інше:"
+
+#: includes/amr-ical-list-admin.php:1060
+#: includes/amr-ical-list-admin.php:1339
+#@ amr-ical-events-list
+msgid "List HTML Style"
+msgstr "Список стилю HTML"
+
+#: includes/amr-ical-list-admin.php:1062
+#@ amr-ical-events-list
+msgid "Table"
+msgstr "Таблиця"
+
+#: includes/amr-ical-list-admin.php:1063
+#@ amr-ical-events-list
+msgid "HTML5 in table"
+msgstr "HTML5 в таблиці"
+
+#: includes/amr-ical-list-admin.php:1064
+#@ amr-ical-events-list
+msgid "HTML5 clean and lean"
+msgstr "HTML5 чистий і худий"
+
+#: includes/amr-ical-list-admin.php:1065
+#@ amr-ical-events-list
+msgid "Custom - file required"
+msgstr "необхідний файл користувача"
+
+#: includes/amr-ical-list-admin.php:1066
+#@ amr-ical-events-list
+msgid "Breaks for rows!"
+msgstr "Перерви для рядків!"
+
+#: includes/amr-ical-list-admin.php:1067
+#@ amr-ical-events-list
+msgid "Small box calendar"
+msgstr "Малий календар"
+
+#: includes/amr-ical-list-admin.php:1068
+#@ amr-ical-events-list
+msgid "Large box calendar"
+msgstr "Великий календар"
+
+#: includes/amr-ical-list-admin.php:1069
+#@ amr-ical-events-list
+msgid "Weeks calendar"
+msgstr "Календар Тижня"
+
+#: includes/amr-ical-list-admin.php:1070
+#@ amr-ical-events-list
+msgid "Lists for rows"
+msgstr "Списки для рядків"
+
+#: includes/amr-ical-list-admin.php:1070
+#@ amr-ical-events-list
+msgid " *Avoid - deprecated"
+msgstr "*Уникайте - застаріло"
+
+#: includes/amr-ical-list-admin.php:1071
+#@ amr-ical-events-list
+msgid "Table with lists in cells (original)"
+msgstr "Таблиця зі списками в клітинах (оригінал)"
+
+#: includes/amr-ical-list-admin.php:1077
+#, php-format
+#@ amr-ical-events-list
+msgid "Custom HTML style file at %s..."
+msgstr "Файл з HTML стилем у %s..."
+
+#: includes/amr-ical-list-admin.php:1078
+#@ amr-ical-events-list
+msgid " (Html and some php knowledge required)"
+msgstr "(HTML і деякі PHP знання обов&#39;язкові)"
+
+#: includes/amr-ical-list-admin.php:1089
+#@ amr-ical-events-list
+msgid "Default Event URL"
+msgstr "URL подій за замовчуванням"
+
+#: includes/amr-ical-list-admin.php:1091
+#@ amr-ical-events-list
+msgid " (For ics files in widget. External, or calendar page.)"
+msgstr "(Для ics файлів в віджеті. Зовнішня, або сторінка календаря.)"
+
+#: includes/amr-ical-list-admin.php:1093
+#: includes/amr-pluggable.php:812
+#@ amr-ical-events-list
+msgid "More information"
+msgstr "Більш детальна інформація"
+
+#: includes/amr-ical-list-admin.php:1127
+#@ amr-ical-events-list
+msgid "General Options"
+msgstr "Загальні параметри"
+
+#: includes/amr-ical-list-admin.php:1128
+#@ amr-ical-events-list
+msgid "Styling and Images"
+msgstr "Стилізація та зображення"
+
+#: includes/amr-ical-list-admin.php:1129
+#@ amr-ical-events-list
+msgid "Advanced"
+msgstr "Просунутий"
+
+#: includes/amr-ical-list-admin.php:1148
+#@ amr-ical-events-list
+msgid "Message if no events found: "
+msgstr "Повідомлення, якщо ніяких подій не знайдено:"
+
+#: includes/amr-ical-list-admin.php:1155
+#@ amr-ical-events-list
+msgid "Look for more events message: "
+msgstr "Шукайте більше повідомленнь подій:"
+
+#: includes/amr-ical-list-admin.php:1165
+#@ amr-ical-events-list
+msgid "Look for previous events message: "
+msgstr "Шукайте попередні повідомлення подій:"
+
+#: includes/amr-ical-list-admin.php:1172
+#@ amr-ical-events-list
+msgid "Reset events message: "
+msgstr "Скидання повідомлення о подіях:"
+
+#: includes/amr-ical-list-admin.php:1179
+#@ amr-ical-events-list
+msgid "Free busy text: "
+msgstr "Безкоштовний зайнятий текст:"
+
+#: includes/amr-ical-list-admin.php:1180
+#@ amr-ical-events-list
+msgid " - replaces the summary text (Busy)in a VFREEBUSY component."
+msgstr "- Замінює короткий текст (Зайнято) в компоненті VFREEBUSY."
+
+#: includes/amr-ical-list-admin.php:1190
+#@ amr-ical-events-list
+msgid "Use human time like midday, midnight"
+msgstr "Використовуйте час, як полуденне, опівночі"
+
+#: includes/amr-ical-list-admin.php:1195
+#@ amr-ical-events-list
+msgid "Do not give credit to the author"
+msgstr "Чи не віддати належне автору?"
+
+#: includes/amr-ical-list-admin.php:1204
+#@ amr-ical-events-list
+msgid "Use javascript to collapse event groupings"
+msgstr "Використовуйте JS для руйнування групування подій"
+
+#: includes/amr-ical-list-admin.php:1211
+#@ amr-ical-events-list
+msgid "Use my theme css, not plugin css"
+msgstr "Використовувати тему CSS, не плагін CSS"
+
+#: includes/amr-ical-list-admin.php:1218
+#@ amr-ical-events-list
+msgid " No images (tick for text only)"
+msgstr "Нема зображення (відзначте тільки для тексту)"
+
+#: includes/amr-ical-list-admin.php:1224
+#@ amr-ical-events-list
+msgid "Image icon size:"
+msgstr "Розмір значків зображення:"
+
+#: includes/amr-ical-list-admin.php:1227
+#@ amr-ical-events-list
+msgid "16"
+msgstr "16"
+
+#: includes/amr-ical-list-admin.php:1231
+#@ amr-ical-events-list
+msgid "32"
+msgstr "32"
+
+#: includes/amr-ical-list-admin.php:1234
+#@ amr-ical-events-list
+msgid "The css provided works with the default twenty-ten theme and similar themes.  Your theme may be different."
+msgstr ""
+
+#: includes/amr-ical-list-admin.php:1236
+#@ amr-ical-events-list
+msgid "To edit the file, download the custom one added to your uploads folder: uploads/css."
+msgstr ""
+
+#: includes/amr-ical-list-admin.php:1237
+#@ amr-ical-events-list
+msgid "Edit it and then re-upload to that same folder. Then select it in the box below."
+msgstr ""
+
+#: includes/amr-ical-list-admin.php:1239
+#@ amr-ical-events-list
+msgid "This file will not be overwritten when the plugin is upgraded or when your theme is upgraded. "
+msgstr ""
+
+#: includes/amr-ical-list-admin.php:1240
+#@ amr-ical-events-list
+msgid "More info"
+msgstr "Детальніше"
+
+#: includes/amr-ical-list-admin.php:1242
+#@ amr-ical-events-list
+msgid "Download the latest provided css file for editing"
+msgstr "Завантажте останній представлений CSS файл для редагування"
+
+#: includes/amr-ical-list-admin.php:1242
+#@ amr-ical-events-list
+msgid "(optional)"
+msgstr "(За бажанням)"
+
+#: includes/amr-ical-list-admin.php:1243
+#@ amr-ical-events-list
+msgid "Choose plugin default css or choose a custom css and edit it."
+msgstr "Виберіть плагін CSS за замовчуванням або вибрати користувальницький CSS і редагувати його."
+
+#: includes/amr-ical-list-admin.php:1245
+#@ amr-ical-events-list
+msgid "No css files found in css directory "
+msgstr "Ніякі CSS файли, не знайдені в каталозі CSS"
+
+#: includes/amr-ical-list-admin.php:1255
+#@ amr-ical-events-list
+msgid "Advanced:"
+msgstr "Додатково:"
+
+#: includes/amr-ical-list-admin.php:1257
+#, php-format
+#@ amr-ical-events-list
+msgid "Your php version is: %s"
+msgstr "Ваша PHP версія: %s"
+
+#: includes/amr-ical-list-admin.php:1259
+#@ amr-ical-events-list
+msgid "Minimum Php version 5.3 required for events cacheing. "
+msgstr "Мінімальна версія PHP 5.3 потрібно для подій кешування."
+
+#: includes/amr-ical-list-admin.php:1260
+#@ amr-ical-events-list
+msgid "Cacheing of generated events for re-use on same page (eg: widget plus list) will not be attempted. "
+msgstr "\"&quot;Кешування згенерованих подій для повторного використання на одній сторінці (наприклад, віджет плюс список)\" "
+
+#: includes/amr-ical-list-admin.php:1261
+#@ amr-ical-events-list
+msgid "Apparently objects do not serialise correctly in php < 5.3."
+msgstr "Мабуть об&#39;єкти не правильної форми в PHP <5.3."
+
+#: includes/amr-ical-list-admin.php:1267
+#@ amr-ical-events-list
+msgid "Choose date localisation method:"
+msgstr "Виберіть дату методу локалізації:"
+
+#: includes/amr-ical-list-admin.php:1270
+#@ amr-ical-events-list
+msgid "none"
+msgstr "жоден"
+
+#: includes/amr-ical-list-admin.php:1272
+#@ amr-ical-events-list
+msgid "amr"
+msgstr "amr"
+
+#: includes/amr-ical-list-admin.php:1274
+#@ amr-ical-events-list
+msgid "wp"
+msgstr "wp"
+
+#: includes/amr-ical-list-admin.php:1276
+#@ amr-ical-events-list
+msgid "wpgmt"
+msgstr "wpgmt"
+
+#: includes/amr-ical-list-admin.php:1280
+#@ amr-ical-events-list
+msgid "Http timeout for external ics files:"
+msgstr "Таймаут Http для зовнішніх ics файлів:"
+
+#: includes/amr-ical-list-admin.php:1285
+#@ amr-ical-events-list
+msgid "Choose seconds before timeout for each ics file fetch"
+msgstr "Виберіть кількість секунд до завершення часу очікування для кожного ics файлу"
+
+#: includes/amr-ical-list-admin.php:1294
+#@ amr-ical-events-list
+msgid "Warning - 30 seconds is a long time! Let it use cache rather if things are slow"
+msgstr "Примітка: 30 секунд це довго, підключіть кеш якщо працює повільно"
+
+#: includes/amr-ical-list-admin.php:1310
+#@ amr-ical-events-list
+msgid "Calendar Page URL for Previews:"
+msgstr "url сторінки календаря для перегляду"
+
+#: includes/amr-ical-list-admin.php:1311
+#@ amr-ical-events-list
+msgid "Enter the url of a page with [events] or [largecalendar] in the content to use for list type previews."
+msgstr "Введіть URL-адрес сторінки з [подією] або [великим календарем] зі змістом, щоб використовувати список для перегляду."
+
+#: includes/amr-ical-list-admin.php:1323
+#@ amr-ical-events-list
+msgid "Click the name of each list type below to configure that list."
+msgstr "Натисніть на ім&#39;я кожного типу списка що нижче, щоб настроїти цей список \"."
+
+#: includes/amr-ical-list-admin.php:1325
+#@ amr-ical-events-list
+msgid "Go to plugin website for documentation."
+msgstr "Перейти на сайт плагіна для перегляду документації."
+
+#: includes/amr-ical-list-admin.php:1327
+#@ amr-ical-events-list
+msgid "Configuration help"
+msgstr "Конфігурація допомоги"
+
+#: includes/amr-ical-list-admin.php:1328
+#@ amr-ical-events-list
+msgid "Be careful when editing or deleting - some listtypes are defaults for shortcodes and widgets. "
+msgstr ""
+
+#: includes/amr-ical-list-admin.php:1329
+#@ amr-ical-events-list
+msgid "Add listtype=n in the parameters of the shortcode or widget to use another list type."
+msgstr ""
+
+#: includes/amr-ical-list-admin.php:1333
+#@ amr-ical-events-list
+msgid "Warning: This will delete all selected list types immediately."
+msgstr "Попередження: Це видалить всі вибрані типи списків відразу."
+
+#: includes/amr-ical-list-admin.php:1334
+#@ default
+msgid "Delete"
+msgstr "Видаляти"
+
+#: includes/amr-ical-list-admin.php:1337
+#@ amr-ical-events-list
+msgid "List"
+msgstr "Список"
+
+#: includes/amr-ical-list-admin.php:1341
+#@ amr-ical-events-list
+msgid "To export or copy a list type"
+msgstr "Щоб експортувати або скопіювати тип списку"
+
+#: includes/amr-ical-list-admin.php:1342
+#@ amr-ical-events-list
+msgid "Select ALL the content, and COPY."
+msgstr "Вибрати весь вміст, а також копіювати."
+
+#: includes/amr-ical-list-admin.php:1344
+#@ amr-ical-events-list
+msgid "The encoding is to prevent errors when copying and pasting."
+msgstr "Кодування потрібно для запобігання помилок при копіюванні і вставці."
+
+#: includes/amr-ical-list-admin.php:1345
+#@ amr-ical-events-list
+msgid "The whole string must be selected (it should be when you click on the text box)"
+msgstr "\""
+
+#: includes/amr-ical-list-admin.php:1346
+#@ amr-ical-events-list
+msgid "The list type is a huge array."
+msgstr "Тип списку є величезним масивом."
+
+#: includes/amr-ical-list-admin.php:1347
+#@ amr-ical-events-list
+msgid "Without encoding, there were varying problems with slashes. Encoding was more stable."
+msgstr "\""
+
+#: includes/amr-ical-list-admin.php:1348
+#@ amr-ical-events-list
+msgid "Why encode?"
+msgstr "Чому кодувати?"
+
+#: includes/amr-ical-list-admin.php:1352
+#@ amr-ical-events-list
+msgid "To import or paste a list type"
+msgstr "Для імпорту або вставки типу списку"
+
+#: includes/amr-ical-list-admin.php:1353
+#@ amr-ical-events-list
+msgid "PASTE list type string"
+msgstr "Вставити тип списку рядка"
+
+#: includes/amr-ical-list-admin.php:1355
+#@ amr-ical-events-list
+msgid "If you did not produce the string and are concerned about the contents, then inspect the list type string using a decode tool. You should see a serialised array."
+msgstr ""
+
+#: includes/amr-ical-list-admin.php:1356
+#@ amr-ical-events-list
+msgid "Click to search for decoding tools"
+msgstr "Натисніть, щоб шукати інструменти декодування"
+
+#: includes/amr-ical-list-admin.php:1356
+#@ amr-ical-events-list
+msgid "Test decode"
+msgstr "Тест декодування"
+
+#: includes/amr-ical-list-admin.php:1392
+#@ amr-ical-events-list
+msgid " Define date and time formats:"
+msgstr "Визначити формати дати і часу:"
+
+#: includes/amr-ical-list-admin.php:1394
+#@ amr-ical-events-list
+msgid "Define the formats for the day (eg: Event date, End Date) and time (eg: Start time, End Time) fields. You can actually use any of these to display a full Date time string too. Use the Event date for event instances - the DTSTART field is the first startdate of a recurring event sequence."
+msgstr "\"&quot;Визначити формати протягом дня (наприклад: Дата події, дата завершення) і час (наприклад:&quot;"
+
+#: includes/amr-ical-list-admin.php:1395
+#@ amr-ical-events-list
+msgid "These are also used for the date related grouping headings (ie: will show the date in that format as a heading for that group of dates if relevant.)"
+msgstr ""
+
+#: includes/amr-ical-list-admin.php:1396
+#@ amr-ical-events-list
+msgid "Use the standard PHP format strings: "
+msgstr "Використовуйте стандартні рядки форматування PHP:"
+
+#: includes/amr-ical-list-admin.php:1397
+#@ amr-ical-events-list
+msgid "Php manual - date datetime formats"
+msgstr "Керівництво по PHP - формати DateTime"
+
+#: includes/amr-ical-list-admin.php:1399
+#@ amr-ical-events-list
+msgid "See php date function format strings"
+msgstr "Див рядки форматування функцій дати PHP"
+
+#: includes/amr-ical-list-admin.php:1400
+#@ amr-ical-events-list
+msgid " (will localise) "
+msgstr "(Буде локалізовано)"
+
+#: includes/amr-ical-list-admin.php:1430
+#@ amr-ical-events-list
+msgid "Expand/Contract all"
+msgstr "Розгорнути / згорнути все"
+
+#: includes/amr-ical-plugin-form-html.php:146
+#@ amr-ical-events-list
+msgid "Why not do any or all of the following:"
+msgstr "Чому б не зробити будь-яке з наступних дій:"
+
+#: includes/amr-ical-plugin-form-html.php:148
+#@ amr-ical-events-list
+msgid "Link to it so other folks can find out about it."
+msgstr "Посилання на нього, щоб інші люди могли дізнатися про це."
+
+#: includes/amr-ical-plugin-form-html.php:156
+#@ amr-ical-events-list
+msgid "If you have any problems with this plugin or good ideas for improvements or new features, please talk about them in the"
+msgstr ""
+
+#: includes/amr-ical-plugin-form-html.php:156
+#@ amr-ical-events-list
+msgid "Support forums"
+msgstr "Форуми підтримки"
+
+#: includes/amr-ical-pretty-print.php:5
+#, php-format
+#@ amr-ical-events-list
+msgid "Weeks start on %s"
+msgstr "Почати тиждень з %s"
+
+#: includes/amr-ical-pretty-print.php:33
+#: includes/amr-ical-pretty-print.php:41
+#: includes/amr-ical-pretty-print.php:57
+#: includes/amr-ical-pretty-print.php:145
+#@ amr-ical-events-list
+msgid " and "
+msgstr "і"
+
+#: includes/amr-ical-pretty-print.php:43
+#@ amr-ical-events-list
+msgid "every "
+msgstr "кожен"
+
+#: includes/amr-ical-pretty-print.php:72
+#@ amr-ical-events-list
+msgid " or "
+msgstr "або"
+
+#: includes/amr-ical-pretty-print.php:109
+#, php-format
+#@ amr-ical-events-list
+msgid "Every %s %s"
+msgstr "Кожен %s %s"
+
+#: includes/amr-ical-pretty-print.php:119
+#, php-format
+#@ amr-ical-events-list
+msgid "On %s instance within %s"
+msgstr "%s На примірнику з %s"
+
+#: includes/amr-ical-pretty-print.php:124
+#, php-format
+#@ amr-ical-events-list
+msgid "%s times"
+msgstr "%s разів"
+
+#: includes/amr-ical-pretty-print.php:129
+#, php-format
+#@ amr-ical-events-list
+msgid "until %s %s"
+msgstr "до %s %s"
+
+#: includes/amr-ical-pretty-print.php:131
+#, php-format
+#@ amr-ical-events-list
+msgid " if month is %s"
+msgstr "якщо місяць %s"
+
+#: includes/amr-ical-pretty-print.php:133
+#, php-format
+#@ amr-ical-events-list
+msgid " in %s weeks of the year"
+msgstr "у %s тижнів у році"
+
+#: includes/amr-ical-pretty-print.php:135
+#, php-format
+#@ amr-ical-events-list
+msgid "on %s day of the year"
+msgstr "на %s день року"
+
+#: includes/amr-ical-pretty-print.php:136
+#, php-format
+#@ amr-ical-events-list
+msgid "on %s day of each month"
+msgstr "на %s день кожного місяця"
+
+#: includes/amr-ical-pretty-print.php:137
+#: includes/amr-ical-pretty-print.php:138
+#, php-format
+#@ amr-ical-events-list
+msgid "on %s "
+msgstr "на %s"
+
+#: includes/amr-ical-pretty-print.php:149
+#, php-format
+#@ amr-ical-events-list
+msgid "at the %s hour"
+msgstr "на %s годині"
+
+#: includes/amr-ical-pretty-print.php:150
+#, php-format
+#@ amr-ical-events-list
+msgid "at the %s minute"
+msgstr "на %s хвилині"
+
+#: includes/amr-ical-pretty-print.php:151
+#, php-format
+#@ amr-ical-events-list
+msgid "at the %s second"
+msgstr "на %s секунді"
+
+#: includes/amr-import-ical.php:36
+#, php-format
+#@ amr-ical-events-list
+msgid "Your cache directory %s has been created"
+msgstr "Ваш кеш каталогу %s був створений"
+
+#: includes/amr-import-ical.php:39
+#, php-format
+#@ amr-ical-events-list
+msgid "Error creating cache directory %s. Please check permissions"
+msgstr "Помилка при створенні кеша каталогу %s . Будь ласка, перевірте дозволи"
+
+#: includes/amr-import-ical.php:67
+#@ amr-ical-events-list
+msgid "Unexpected data contents. Please tell administrator."
+msgstr "Несподіваний зміст даних. Будь ласка, скажіть адміністратору."
+
+#: includes/amr-import-ical.php:68
+#@ amr-ical-events-list
+msgid "See comments in source for response received from ics server."
+msgstr "Див коментарі в джерелі для відповіді, отриманої від ics сервера."
+
+#: includes/amr-import-ical.php:158
+#, php-format
+#@ amr-ical-events-list
+msgid "Error getting calendar file with htpp or curl %s"
+msgstr "Помилка при отриманні файлу календаря з htpp або curl %s"
+
+#: includes/amr-import-ical.php:162
+#, php-format
+#@ amr-ical-events-list
+msgid "Using File last cached at %s"
+msgstr "Використання минулого файлу кешу в %s"
+
+#: includes/amr-import-ical.php:164
+#@ amr-ical-events-list
+msgid "File last cached time not available"
+msgstr "Минулий файл кешу у даний час не доступний"
+
+#: includes/amr-import-ical.php:166
+#@ amr-ical-events-list
+msgid "Warning: Events may be out of date. "
+msgstr "Попередження: Події можуть бути застарілими."
+
+#: includes/amr-import-ical.php:172
+#@ amr-ical-events-list
+msgid "No cached ical file for events"
+msgstr "Немае кешу ical файлів для подій"
+
+#: includes/amr-pluggable.php:69
+#@ amr-ical-events-list
+msgid "midnight"
+msgstr "опівночі"
+
+#: includes/amr-pluggable.php:70
+#@ amr-ical-events-list
+msgid "midday"
+msgstr "опівдні"
+
+#: includes/amr-pluggable.php:105
+#@ amr-ical-events-list
+msgid "Go to agenda or list view"
+msgstr "До порядку денного або зі списку"
+
+#: includes/amr-pluggable.php:105
+#@ amr-ical-events-list
+msgid "Agenda"
+msgstr "Порядок денний"
+
+#: includes/amr-pluggable.php:113
+#@ amr-ical-events-list
+msgid "Go to calendar view"
+msgstr "До календаря"
+
+#: includes/amr-pluggable.php:113
+#@ amr-ical-events-list
+msgid "Calendar"
+msgstr "Календар"
+
+#: includes/amr-pluggable.php:120
+#@ amr-ical-events-list
+msgid "Go to map view"
+msgstr "Перейти до карти перегляду"
+
+#: includes/amr-pluggable.php:120
+#@ amr-ical-events-list
+msgid "Map"
+msgstr "Карта"
+
+#: includes/amr-pluggable.php:138
+#@ amr-ical-events-list
+msgid "Go to date"
+msgstr "До дати"
+
+#: includes/amr-pluggable.php:168
+#: includes/amr-pluggable.php:174
+#, php-format
+#@ amr-ical-events-list
+msgid "Week starting %1$s"
+msgstr "Починаючи тиждень %1$s"
+
+#: includes/amr-pluggable.php:169
+#@ amr-ical-events-list
+msgctxt "for prev navigation, translate allows you to use words"
+msgid "&larr;"
+msgstr "←"
+
+#: includes/amr-pluggable.php:175
+#@ amr-ical-events-list
+msgctxt "for next navigation, translate allows you to use words"
+msgid "&rarr;"
+msgstr "→"
+
+#: includes/amr-pluggable.php:209
+#: includes/amr-pluggable.php:216
+#, php-format
+#@ amr-ical-events-list
+msgid "Go to %1$s %2$s"
+msgstr "Іти до %1$s %2$s"
+
+#: includes/amr-pluggable.php:284
+#, php-format
+#@ amr-ical-events-list
+msgid "Week starting %s"
+msgstr "Тиждень починати з %s"
+
+#: includes/amr-pluggable.php:323
+#@ amr-ical-events-list
+msgid "hours"
+msgstr "годин"
+
+#: includes/amr-pluggable.php:343
+#@ amr-ical-events-list
+msgid "months"
+msgstr "місяців"
+
+#: includes/amr-pluggable.php:359
+#@ amr-ical-events-list
+msgid "days"
+msgstr "днів"
+
+#: includes/amr-pluggable.php:367
+#@ amr-ical-events-list
+msgid "show past events"
+msgstr "показати минулі події"
+
+#: includes/amr-pluggable.php:368
+#@ amr-ical-events-list
+msgid "show less"
+msgstr "показати менше"
+
+#: includes/amr-pluggable.php:369
+#@ amr-ical-events-list
+msgid "show more"
+msgstr "показати більше"
+
+#: includes/amr-pluggable.php:370
+#@ amr-ical-events-list
+msgid "show much less"
+msgstr "показати набагато менше"
+
+#: includes/amr-pluggable.php:371
+#@ amr-ical-events-list
+msgid "show much more"
+msgstr "показати набагато більше"
+
+#: includes/amr-pluggable.php:374
+#@ amr-ical-events-list
+msgid "show future events"
+msgstr "показати майбутні події"
+
+#: includes/amr-pluggable.php:375
+#@ amr-ical-events-list
+msgid "show maximum 10 events if available"
+msgstr "показати максимум 10 подій при наявності"
+
+#: includes/amr-pluggable.php:376
+#@ amr-ical-events-list
+msgid "show maximum 50 events if available"
+msgstr "показати максимальні 50 подій при наявності"
+
+#: includes/amr-pluggable.php:377
+#@ amr-ical-events-list
+msgid "show maximum 100 events if available"
+msgstr "показати максимум 100 подій за наявності"
+
+#: includes/amr-pluggable.php:579
+#@ amr-ical-events-list
+msgid "Event attachment"
+msgstr "вкладенні події"
+
+#: includes/amr-pluggable.php:648
+#: includes/amr-pluggable.php:655
+#, php-format
+#@ amr-ical-events-list
+msgid "View events in %s %s"
+msgstr "Переглянути події в %s %s"
+
+#: includes/amr-pluggable.php:649
+#@ default
+msgid "category"
+msgstr "категорія"
+
+#: includes/amr-pluggable.php:689
+#@ amr-ical-events-list
+msgid "Total events: "
+msgstr "Всього подій:"
+
+#: includes/amr-pluggable.php:695
+#@ amr-ical-events-list
+msgid "No description available"
+msgstr "Немає опису"
+
+#: includes/amr-pluggable.php:703
+#: includes/amr-pluggable.php:713
+#, php-format
+#@ amr-ical-events-list
+msgid "Subscribe to %s Calendar"
+msgstr "Підписатися на %s календар"
+
+#: includes/amr-pluggable.php:720
+#@ amr-ical-events-list
+msgid "Subscribe to calendar in your calendar application."
+msgstr "Підписатися на календар у вашому додатку календаря."
+
+#: includes/amr-pluggable.php:722
+#@ amr-ical-events-list
+msgid "Subscribe to calendar"
+msgstr "Підписатися на календарі"
+
+#: includes/amr-pluggable.php:828
+#@ amr-ical-events-list
+msgid "Add to google calendar"
+msgstr "Додати в Google Calendar"
+
+#: includes/amr-pluggable.php:830
+#@ amr-ical-events-list
+msgid "Add to google"
+msgstr "Додати в Google"
+
+#: includes/amr-pluggable.php:846
+#@ amr-ical-events-list
+msgid "Add event to google"
+msgstr "Додати подію в Google"
+
+#: includes/amr-pluggable.php:870
+#@ amr-ical-events-list
+msgid "Last Refresh time unexpectedly not available"
+msgstr "Останній час оновлення несподівано не доступний"
+
+#: includes/amr-pluggable.php:874
+#@ amr-ical-events-list
+msgid "Refresh calendars"
+msgstr "Оновити календарі"
+
+#: includes/amr-pluggable.php:875
+#, php-format
+#@ amr-ical-events-list
+msgid "Last refresh was at %s. "
+msgstr "Останнє оновлення було в %s."
+
+#: includes/amr-pluggable.php:877
+#@ amr-ical-events-list
+msgid "Remote file had no modifications. "
+msgstr "Віддалений файл не мав модифікацій."
+
+#: includes/amr-pluggable.php:881
+#, php-format
+#@ amr-ical-events-list
+msgid "The remote file was last modified on %s."
+msgstr "Віддалений файл остання зміна на %s."
+
+#: includes/amr-pluggable.php:886
+#@ amr-ical-events-list
+msgid "Click to refresh"
+msgstr "Натисніть, щоб оновити"
+
+#: includes/amr-pluggable.php:1006
+#, php-format
+#@ amr-ical-events-list
+msgid "Week  %u"
+msgstr "Тиждень %u"
+
+#: includes/amr-pluggable.php:1384
+#, php-format
+#@ amr-ical-events-list
+msgid "Look for more from %s"
+msgstr "Шукайте більше від %s"
+
+#: includes/amr-pluggable.php:1408
+#@ amr-ical-events-list
+msgid "Go back to initial view"
+msgstr "Повернутися до початкового подання"
+
+#: includes/amr-pluggable.php:1413
+#@ amr-ical-events-list
+msgid "Go back to previous events"
+msgstr "Повернутися до попередніх подій"
+
+#: includes/amr-pluggable.php:1442
+#@ amr-ical-events-list
+msgid "Sent by "
+msgstr "Надіслав"
+
+#: includes/amr-pluggable.php:1750
+#, php-format
+#@ amr-ical-events-list
+msgid "%u year"
+msgid_plural "%u years"
+msgstr[0] ""
+
+#: includes/amr-pluggable.php:1755
+#, php-format
+#@ amr-ical-events-list
+msgid "%u month "
+msgid_plural "%u months "
+msgstr[0] ""
+
+#: includes/amr-pluggable.php:1760
+#, php-format
+#@ amr-ical-events-list
+msgid "%u week "
+msgid_plural "%u weeks"
+msgstr[0] ""
+
+#: includes/amr-pluggable.php:1765
+#, php-format
+#@ amr-ical-events-list
+msgid "%u day"
+msgid_plural "%u days"
+msgstr[0] ""
+
+#: includes/amr-pluggable.php:1771
+#, php-format
+#@ amr-ical-events-list
+msgid "%u hour"
+msgid_plural "%u hours"
+msgstr[0] ""
+
+#: includes/amr-pluggable.php:1776
+#, php-format
+#@ amr-ical-events-list
+msgid "%u minute"
+msgid_plural "%u minutes"
+msgstr[0] ""
+
+#: includes/amr-pluggable.php:1781
+#, php-format
+#@ amr-ical-events-list
+msgid "%u second"
+msgid_plural "%u seconds"
+msgstr[0] ""
+
+#: includes/amr-pluggable.php:1800
+#@ amr-ical-events-list
+msgid "Change Timezone"
+msgstr "Змінити часовий пояс"
+
+#: includes/amr-pluggable.php:1801
+#, php-format
+#@ amr-ical-events-list
+msgid "Timezone: %s, Click for %s"
+msgstr "Часовий пояс: %s, Натисніть для%s"
+
+#: includes/amr-upcoming-events-widget.php:9
+#: includes/amr-upcoming-events-widget.php:116
+#: includes/amr-upcoming-events-widget.php:186
+#: includes/amr-upcoming-events-widget.php:269
+#@ amr-ical-events-list
+msgid "Upcoming Events"
+msgstr "Майбутні події"
+
+#: includes/amr-upcoming-events-widget.php:10
+#@ amr-ical-events-list
+msgid "Upcoming Events List"
+msgstr "Майбутній список подій"
+
+#: includes/amr-upcoming-events-widget.php:137
+#@ amr-ical-events-list
+msgid "See plugin website for more details"
+msgstr "Дивитися веб-сайт плагіну для отримання більш докладної інформації"
+
+#: includes/amr-upcoming-events-widget.php:140
+#: includes/amr-upcoming-events-widget.php:280
+#@ amr-ical-events-list
+msgid "Title"
+msgstr "Назва"
+
+#: includes/amr-upcoming-events-widget.php:146
+#: includes/amr-upcoming-events-widget.php:286
+#@ amr-ical-events-list
+msgid "Calendar page url"
+msgstr "URL сторінки календаря"
+
+#: includes/amr-upcoming-events-widget.php:147
+#@ amr-ical-events-list
+msgid "Calendar page url in this website"
+msgstr "URL сторінки календаря на цьому сайті"
+
+#: includes/amr-upcoming-events-widget.php:153
+#@ amr-ical-events-list
+msgid "Hover description on Title"
+msgstr "Наведіть опис до Розділу"
+
+#: includes/amr-upcoming-events-widget.php:154
+#@ amr-ical-events-list
+msgid "Do an event summary hyperlink with event description as title text "
+msgstr "Зробіть резюме подій гіперпосиланнь з описом подій як текст заголовку"
+
+#: includes/amr-upcoming-events-widget.php:161
+#: includes/amr-upcoming-events-widget.php:293
+#@ amr-ical-events-list
+msgid "External events only"
+msgstr "Тільки зовнішні події"
+
+#: includes/amr-upcoming-events-widget.php:162
+#: includes/amr-upcoming-events-widget.php:294
+#@ amr-ical-events-list
+msgid "Show events from external ics only, do NOT pickup any internal events."
+msgstr "Показати події тільки із зовнішніх ics, не показувати будь-які внутрішні події."
+
+#: includes/amr-upcoming-events-widget.php:163
+#: includes/amr-upcoming-events-widget.php:295
+#@ amr-ical-events-list
+msgid "Else include events created internally too"
+msgstr "Інакше включають події створені внутрішньо"
+
+#: includes/amr-upcoming-events-widget.php:169
+#: includes/amr-upcoming-events-widget.php:301
+#@ amr-ical-events-list
+msgid "External ics urls and advanced options"
+msgstr "Зовнішні ics адреси і додаткові опції"
+
+#: includes/amr-upcoming-events-widget.php:170
+#: includes/amr-upcoming-events-widget.php:302
+#@ amr-ical-events-list
+msgid "External ics urls and/or optional shortcode parameters separated by spaces.)"
+msgstr ""
+
+#: includes/amr-upcoming-events-widget.php:171
+#@ amr-ical-events-list
+msgid " Examples: listtype=4 events=10 days=60 start=yyyymmdd startoffset=-2... )"
+msgstr ""
+
+#: includes/amr-upcoming-events-widget.php:173
+#@ amr-ical-events-list
+msgid "See more parameters"
+msgstr "Дивитися більше параметрів"
+
+#: includes/amr-upcoming-events-widget.php:189
+#@ amr-ical-events-list
+msgid "Upcoming Events Calendar"
+msgstr "Календар майбутніх подій"
+
+#: includes/amr-upcoming-events-widget.php:278
+#@ amr-ical-events-list
+msgid "See more"
+msgstr "Детальніше"
+
+#: includes/amr-upcoming-events-widget.php:287
+#@ amr-ical-events-list
+msgid "Calendar page url in this website, for links from widget"
+msgstr "Календар URL сторінки на цьому сайті, посилання з віджета"
+
+#: includes/amr-upcoming-events-widget.php:303
+#@ amr-ical-events-list
+msgid " Examples: listtype=8 events=10 days=60 start=yymmdd startoffset=-2... )"
+msgstr ""
+
+#: includes/functions.php:199
+#: includes/functions.php:203
+#@ amr-ical-events-list
+msgid "Invalid Url"
+msgstr "Неправильний URL"
+
+#: includes/functions.php:243
+#@ amr-ical-events-list
+msgid "I try to make these plugins work <strong>\"out of the box\"</strong> with minimal effort; that they be easy to use but <strong>very configurable</strong>; <strong>well tested</strong>; with <strong>valid html and css</strong> both at the front and admin area."
+msgstr "\"&quot;Я намагаюся зробити ці плагіни працючи <strong>&quot; з коробки  &quot;&quot;</strong> &quot;з мінімальними зусиллями; щоб вони були простими у використанні, але <strong>дуже добре перевіреними</strong> </strong> <strong>; Добре перевірені; з валідним HTML і CSS</strong> </"
+
+#: includes/functions.php:244
+#@ amr-ical-events-list
+msgid "If you have a feature request, please do let me know. "
+msgstr "Якщо у вас є запит на виділення відео, будь ласка, дайте мені знати."
+
+#: includes/functions.php:246
+#@ amr-ical-events-list
+msgid "To edit events in wordpress:"
+msgstr "Для редагування події в WordPress:"
+
+#: includes/functions.php:248
+#@ amr-ical-events-list
+msgid "Upgrade to amr-events at "
+msgstr "Оновлення AMR-подій в"
+
+#: includes/functions.php:253
+#@ amr-ical-events-list
+msgid "Keep all these settings and lists"
+msgstr "Тримайте всі ці настройки і списки"
+
+#: includes/functions.php:255
+#@ amr-ical-events-list
+msgid "Offers many additional benefits."
+msgstr "Пропонує безліч додаткових переваг."
+
+#: includes/functions.php:256
+#@ amr-ical-events-list
+msgid "Find out more"
+msgstr "Дізнайтеся більше"
+
+#: includes/functions.php:287
+#@ amr-ical-events-list
+msgid "Events plugin by anmari"
+msgstr "Події плагіна по anmari"
+
+#: includes/functions.php:303
+#@ amr-ical-events-list
+msgid "Click to toggle"
+msgstr "Натисніть, щоб переключити"
+
+#: uninstall.php:22
+#@ amr-ical-events-list
+msgid "amr ical options deleted from database"
+msgstr "AMR ical опції видалений з бази даних"
+
+#: uninstall.php:33
+#@ amr-ical-events-list
+msgid "amr ical cached ics files deleted "
+msgstr "AMR ical кешування ics файли, видалені"
+
+#: uninstall.php:34
+#@ amr-ical-events-list
+msgid "Css files may also exist.  They and the css folder have not been deleted as they have been shared with other plugins."
+msgstr ""
+
+#. translators: plugin header field 'Name'
+#: amr-ical-events-list.php:0
+#@ amr-ical-events-list
+msgid "amr events calendar or lists with ical files"
+msgstr ""
+
+#. translators: plugin header field 'PluginURI'
+#: amr-ical-events-list.php:0
+#@ amr-ical-events-list
+msgid "http://icalevents.com"
+msgstr ""
+
+#. translators: plugin header field 'Description'
+#: amr-ical-events-list.php:0
+#@ amr-ical-events-list
+msgid "Display simple or highly customisable and styleable list of events.  Handles all types of recurring events, notes, journals, freebusy etc. Offers links to add events to viewers calendar or subscribe to whole calendar.  Write Calendar Page</a>  and put [iCal http://yoururl.ics ] where you want the list of events of an ics file and [events] to get internal events.      To tweak: <a href=\"admin.php?page=manage_amr_ical\">Manage Settings Page</a>,  <a href=\"widgets.php\">Manage Widget</a>."
+msgstr ""
+
+#. translators: plugin header field 'Author'
+#: amr-ical-events-list.php:0
+#@ amr-ical-events-list
+msgid "anmari"
+msgstr ""
+
+#. translators: plugin header field 'AuthorURI'
+#: amr-ical-events-list.php:0
+#@ amr-ical-events-list
+msgid "http://anmari.com/"
+msgstr ""
+
+#. translators: plugin header field 'Version'
+#: amr-ical-events-list.php:0
+#@ amr-ical-events-list
+msgid "4.6"
+msgstr ""
+
+#: includes/amr-ical-pretty-print.php:142
+#@ amr-ical-events-list
+msgctxt "eg: last day of the month"
+msgid " of the month"
+msgstr ""
+
+#: includes/amr-ical-pretty-print.php:144
+#@ amr-ical-events-list
+msgctxt "eg: last day of the year"
+msgid " of the year"
+msgstr ""
+
+#. translators: ignore this and translate the string found earlier " No events...
+#: includes/amr-pluggable.php:54
+#@ amr-ical-events-list
+msgid "noeventsmessage"
+msgstr ""
+
+#: includes/amr-pluggable.php:139
+#@ amr-ical-events-list
+msgctxt "Submit button for month and year navigation.  Use translation to replace with words if you want."
+msgid "&raquo;&raquo;"
+msgstr ""
+
+#: includes/amr-pluggable.php:619
+#@ amr-ical-events-list
+msgctxt "when an event runs for full days, note the &nbsp; prevents the text wrappping in a table."
+msgid "all&nbsp;day"
+msgstr ""
+
+#: includes/amr-pluggable.php:692
+#@ amr-ical-events-list
+msgid "X-WR-CALDESC"
+msgstr ""
+
+#: includes/amr-pluggable.php:698
+#@ amr-ical-events-list
+msgid "X-WR-CALNAME"
+msgstr ""
+
+#: includes/amr-pluggable.php:1280
+#@ amr-ical-events-list
+msgid "listtypesheading"
+msgstr ""
+
+#. translators: ignore, the text appears for translation eslewhere
+#: includes/amr-pluggable.php:1382
+#@ amr-ical-events-list
+msgid "lookmoremessage"
+msgstr ""
+
+#. translators: ignore, the text appears for translation eslewhere
+#: includes/amr-pluggable.php:1392
+#@ amr-ical-events-list
+msgid "lookprevmessage"
+msgstr ""
+
+#. translators: ignore, the text appears for translation eslewhere
+#: includes/amr-pluggable.php:1398
+#@ amr-ical-events-list
+msgid "resetmessage"
+msgstr ""
+
+#: includes/functions.php:27
+#@ amr-ical-events-list
+msgid "Invalid Event Date"
+msgstr ""
+
