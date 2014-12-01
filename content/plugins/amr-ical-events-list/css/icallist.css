@@ -1,0 +1,413 @@
+/* AmRiCal Default Style for first calendar on page 
+This file should have been copied to a css folder in your uploads directory.  It may safely be edited in the uploads folder and will not be overwritten by upgrades,
+You can always refer back to the default css in the plugin folder for the latest suggested or example css.
+*/
+
+/* TwentyTwelve widget compatibility*/
+.widget .ical .enddate,
+.widget .ical .eventdate,
+.widget .ical .endtime,
+.widget .ical .starttime {
+    color: #AAAAAA;
+    line-height: 1.84615;
+    font-size: 0.785714rem;
+}
+/*----------------------------------------------- */
+/* html5 code */
+	article, aside, figure, footer, header, hgroup, menu, nav, section { 
+	/* for browsers  that are not up to html5 yet, except will not work on IE  */
+		display: block;
+	}
+/* Optional - for grouping collapseability  */
+ .master th.level0  { font-weight: bold; background-color: #ddd; }
+ .master th.group .termdesc  {  font-weight: normal; text-transform: none; }
+
+ #calendar_toggle {
+	float: right;
+	}
+tr.level0 {
+	background: #ccc;
+}	
+/*----------------------------------------------- */
+#events_wrap {  
+	word-wrap: break-word; /* make sure that any very long words do not cause overflow*/
+}
+.event abbr,
+#events_wrap abbr {  
+/* do not show the hcalendar abbr underline - the abbr is confusing  especially since the format of the date is ISO8601, not human friendly 
+However is required if we want hcal functionality */
+	border-bottom: none;
+}
+#events_wrap .largecalendar tbody td {  /* wordpress default too big */
+	font-size: small;
+}
+#events_wrap  thead th { 
+	text-align: center;
+}
+#events_wrap  .largecalendar thead th,
+#events_wrap  .largecalendar tbody td {
+	padding: 3px 0 2px; /*  the 0 so that the multi-days line up */
+}
+
+#events_wrap  .largecalendar tbody td {
+	/* padding: 3px 3px 2px; */ /*- no for multi day - need them next to each other */
+}
+#events_wrap  .largecalendar tbody td .day {
+padding: 0 3px 0;
+}
+#events_wrap  .largecalendar tbody td .event {
+padding: 0 3px;
+}
+#events_wrap table.largecalendar td { 
+	width: 100px; /* the min width*/
+}
+#events_wrap table.largecalendar {
+	table-layout: fixed;  
+	width: 100%;
+	/* width: 650px; */ /* if you wanted to fix to a certain size,  - or use margins instead*/
+}	
+#events_wrap table a { /* generally in the table , better not to have these */
+	text-decoration: none;
+}
+
+/*----------------------------------------------- */
+/* Calendar Widget  - styles to look like the post calendar widget */
+/* Note this works for 2011 theme to override default table settings and achieve compatibility with the wpcalendar widget .
+  You need to find out what works for your theme */
+.widget_calendar .smallcalendar  caption,
+.widget_calendar .smallcalendar td,
+.widget_calendar .smallcalendarp th {
+	text-align: center;
+}
+.widget_calendar .smallcalendar {
+	color: #555;
+	text-align: center;
+	width: 100%;
+}
+.widget_calendar .smallcalendar caption {
+	font-size: 11px;
+	font-weight: 500;
+	padding: 5px 0 3px 0;
+	text-transform: uppercase;
+}
+.widget_calendar .smallcalendar th {
+	background: #f4f4f4;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	font-weight: bold;
+}
+.widget_calendar .smallcalendar tfoot td {
+	background: #f4f4f4;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}	
+
+/*-----------------------------------boxcalendar days------------ */
+
+#events_wrap table td {
+	vertical-align: top;
+}
+.smallcalendar td.day1, 
+.smallcalendar td.day2, 
+.smallcalendar td.day3, 
+.smallcalendar td.day4, 
+.smallcalendar td.day5 {
+/* 	background: #f5f5f5; 	*/   /* if you want the days of the week to be styled*/
+}
+#events_wrap table td.day6,
+ table.ical td.day7 { /* to style the weekend  */
+	 /* background: #eee; */
+}
+#events_wrap table td.pad {
+	/* background: #fefefe; */  /* if you wanted the padding cells to show - else let background come through */
+}
+
+/* highlight which day we are hovering over */
+#events_wrap .smallcalendar td.hasevents a:hover {
+color: #fff;
+}
+/* highlight which day we are hovering over */
+#events_wrap  .largecalendar td.hasevents:hover .day{
+	background: #777;
+	color: #fff;
+}
+#events_wrap  .largecalendar td.hasevents:hover .day a{
+	color: #fff;
+}
+#events_wrap table.largecalendar td.today a,
+table.smallcalendar td.selected a,
+table.smallcalendar td.today a {
+	color: #fff;
+}
+table.largecalendar td.today a {
+	color: #111;
+}	
+table.smallcalendar td.hasevents{
+	/* background: green; */  /* enter a colour code here to have days with events stand out - maybe for availability */
+}
+table.smallcalendar,
+#events_wrap  table.smallcalendar {
+
+	max-width: 200px;
+	border: 0;
+	margin: 0 auto;
+}
+#events_wrap  table.smallcalendar tbody td {
+/*	background: #f5f5f5; */
+/*	border: 1px solid #fff; */
+	padding: 3px 0 2px;
+	text-align: center;	
+}
+
+#events_wrap table.largecalendar tbody td {
+	height:100px; /* it will expand if necessary */
+}
+#events_wrap  table tbody td .event { /* use something like this if you want to force each event to take one line only */
+ /*     overflow: hidden;
+	  height: 20px;  /* need a height for th eoverflow to work and still to keep table flexible ? */  
+	  }
+#events_wrap  table tbody td .firstday,	  
+#events_wrap  table tbody td .middleday,  
+#events_wrap  table tbody td .lastday { /* Multi day styling */
+      background: #eee;
+     }	
+/* must be after multiday */
+#events_wrap .smallcalendar td.hasevents:hover,
+#events_wrap table.largecalendar td.today ,
+#multismallcalendar td.today,
+table.smallcalendar td.selected,
+table.smallcalendar td.today {
+	background: #777;
+	color: #fff;
+}	 
+	 
+/* to override Multi day styling  */	
+#events_wrap  table tbody td.today .firstday,	  
+#events_wrap  table tbody td.today  .middleday,  
+#events_wrap  table tbody td.today  .lastday 
+#events_wrap  table tbody td.today  .firstday,	  
+#events_wrap  table tbody td.today  .middleday,  
+#events_wrap  table tbody td.today  .lastday { 
+    background: #777; 
+     }
+	 
+/* unfortunately we need to use divs to hide the details if we want to allow html in details and keep html valid */
+/* ------------------------------ In Box Calendar-- hide the details until we want them -----------*/
+#events_wrap table.ical td .event div.details2{ /* hide column 2 */
+	display: none;
+}
+#events_wrap table.ical .event:hover  div.details2 {
+        color:#333333; 
+        background:#ffffff; 
+        display:block;
+        position:absolute; 
+        margin-top: 12px; 
+		margin-left: 50px;
+        padding:10px; 
+        width:200px; 
+        z-index:100;
+		border: 1px solid #000000;
+		overflow: hidden;  /* v 4.0.12 */
+        }
+#events_wrap table.ical .event:hover  div.details2 {
+	display: block;
+         }
+#events_wrap table.ical .event:hover  div.details2 img {
+	width: 200px;  /* make any images smaller */
+         }	
+#events_wrap table.ical td.endweek .event:hover  div.details2 {  /* shift the last column right side over a bit so it fits on the page*/
+		margin-left: -110px;
+        }	
+	
+/*-------------------------------------------calendar_navigation */
+
+.calendar_navigation {
+	clear: both;
+	margin: 0;
+	padding: 0;
+	border: hidden;
+}
+#icallookmore a#icalalookmore,
+.calendar_navigation .nextweek,
+.calendar_navigation .nextmonth {
+	text-align: right;
+	float:right;
+}
+#icallookmore a#icalalookprev,
+.calendar_navigation .prevweek,
+.calendar_navigation .prevmonth {
+	text-align: left;
+	float: left;
+}
+.calendar_navigation .prevweek,
+.calendar_navigation .nextweek {
+	font-size: XX-large;
+}
+
+.calendar_navigation form { 
+	/* display: inline; */
+	padding: 0 8px;
+	text-align: center;
+	margin: auto;
+
+}
+.calendar_navigation  input,
+.calendar_navigation  select{ 
+	margin: 0;
+	line-height: 14px;
+	font-size: 12px;
+}
+
+.calendar_navigation a {
+	text-decoration: none;
+}
+
+/*-------------------------------------------calendar_views */	
+#calendar_views {
+	float:right;
+	padding-left: 5px;
+}
+#calendar_views a {
+	text-decoration: none;
+}
+/* -------------------------------------------------if you have a bunch of small calendars-----------------*/
+#multismallcalendar {
+/*	margin: 0 auto;
+	text-align: center; */
+}	
+#multismallcalendar	table {
+	padding: 0; 
+	float: left; /* chrome browser will not float - why?? */
+	width: 32%; 
+	max-width: 200px;
+	min-width: 150px;  
+	margin:1%;
+	text-align: center; 
+	table-layout: fixed;  
+	font-size: small;
+}
+#multismallcalendar	.day {
+	text-align: center;
+}
+#multismallcalendar	 caption,
+#multismallcalendar	 tr th,
+#multismallcalendar	 tr td {
+	text-align: center;
+	padding: 0;
+}
+/*----------------------------------------weeks calendar  */	
+#events_wrap table.weekscalendar  caption {
+	/* text-align: left; */
+}
+#events_wrap  .weekscalendar  	tr.caption {
+	background: #eee; /* do not normally want to do this, but looks shite in 2011 otherwise*/
+}
+#events_wrap  .weekscalendar  	th,
+#events_wrap  .weekscalendar  	td {
+	width: 14%;
+	padding: 0;
+	margin: 0;
+}
+#events_wrap  .weekscalendar 	td div.event {
+	padding-left: 2px;
+	padding-right: 2px; 
+}
+/*----------------------------------------ics calendar properties  */
+.icalprop,
+#events_wrap .icalprop,
+#multismallcalendar .icalprop {
+	border: 0;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	max-width: 100%;
+}	
+.icalprop td,
+#events_wrap .icalprop td,
+#multismallcalendar .icalprop td {
+	border: 0;
+	text-align: left;
+	padding: 0;
+}
+
+/* -------------------------------images can look strange in some themes -------------------------------*/
+#events_wrap img {
+	border: none !important;
+	vertical-align: text-bottom;
+	}
+#events_wrap .vevent {  /*--/ helps */
+	clear: right;
+}
+/*------------------------------if event posts have large images in the content - can make the table too wide -------------- */
+#events_wrap table img {
+		max-width: 400px;
+}	
+/* ------------------------------- the bling icons -------------------------------*/
+.amr-bling { /* float our little icons to the right */
+	float: right;
+	padding:0; 
+	margin: 0;   /* required where sometimes they don't line up nicely if limited text */
+	font-size: small;
+}
+.amr-bling img {
+	/* padding: 0 0 0 0.5em; */
+}
+/* -------------------------------------------------- for semi paginate  ------------------------------------------------------- */	
+#icalnavs {
+	width: 250px;
+	text-align: center; 
+	vertical-align: middle;
+	margin: 0 auto;
+	font-size:small;
+	}
+.icalnav { vertical-align:middle;}
+.icalnav a { text-decoration: none; color: 	#ADADAD;}
+.icalnav a.symbol { font-size:large; }
+.icalnavs:hover  { background-color: #ffffff;}
+.icalnav a:hover  { color: #000000;}
+.add-new-event {display: block; clear:both;}
+
+/* for credits if shown - keep it low key  ------------------------------------------------------- */	
+.amrical_credit,.amrical_credit a,.amrical_credit a:visited {
+	font-size:x-small; 
+	color: 	#ADADAD;
+	font-style: italic;
+	vertical-align: middle;
+}
+.amrical_credit a:hover  {
+	font-size: x-small; 
+	font-style: italic;
+	color: #000000;
+}
+/* ---- ----------------------------------------------  to make large images okay */
+.eventinfo ul li {  
+	clear: both;
+}	
+/* ---------------------------------------------------OPTIONAL --------------*/
+
+/* #events_wrap .largecalendar tbody td div.event    { /* use this if you want to force each box to be a fixed size - day div required because one cannot force a td height  */
+/* 	line-height: 26px; 
+	  overflow: hidden;
+white-space: nowrap;	  
+ } */
+table.largecalendar tbody td:hover div.day { /* and then use this to see the day box on hover - confusing with too manu hover's though, so maybe do not use desc hover then */
+/*	position: absolute;
+	border: 1px solid #000000;
+	padding: 10px;
+	background: #eee; 
+	overflow: visible;
+	z-index:100; */
+} 
+
+#events_wrap .history { 
+	/* to style past events */
+}
+/* ------------------------------------------------------ more optional catgeory or tag styling , by name or id (using tid) 
+#events_wrap .eventscat,
+#events_wrap table tr.eventscat td.amrcol1 {     
+	border-left: solid 5px green;
+}
+#events_wrap table tr.t1 td.amrcol1 { 
+	border-left: solid 5px red;
+}
+ */

@@ -1,0 +1,47 @@
+<?php
+// get the latest windows timezone xml file from unicode.org (in case they change!)
+
+libxml_use_internal_errors(true); 
+$url = "http://unicode.org/repos/cldr/trunk/common/supplemental/windowsZones.xml";
+$xml = simplexml_load_file($url);
+if (!$xml)  
+	printf('Error accessing xml file at %s',$url); //,'amr-windows-timezones');
+	
+$zones = iterator_to_array( $xml->windowsZones->mapTimezones->mapZone,0);
+
+foreach ($zones as $zone) {
+	$wz 					= (string) $zone['other'];
+	$terr 					= (string) $zone['territory'];
+	$tzmapping[$wz][$terr] 	= (string) $zone['type'];;
+}
+//var_dump($tzmapping);
+
+// produce code to set up the array for php to check values against
+$phptext = '<?php // mapping of windows zones to timezones (IANA, Ohlson, PHP etc)'.PHP_EOL;
+foreach ($tzmapping as $z=>$terr) {
+	foreach ($terr as $t=>$tz) {
+		//$phptext .= '$wz["'.$z.'"]["'.$t.'"] = "'.$tz.'";'.PHP_EOL; // not using territories now - keep it simpler
+		$phptext .= '$wz["'.$z.'"] = "'.$tz.'";'.PHP_EOL;
+		break;  
+	}
+} 
+
+$filename = 'WindowsZonesToTimeZones.txt';
+// ideally if in wordpress save somewhere one has access to
+$result = file_put_contents ( $filename   //string $filename 
+,$phptext //mixed $data [
+,  LOCK_EX //int $flags = 0 [
+//, //resource $context ]]
+ );
+ 
+if ($result) {
+	?><h2>Windows zones to timezones mapping (<?php echo $result; ?>characters) written to file: <a href="<?php echo $filename; ?>"><?php echo $filename; ?></a></h2><?php
+ }
+ else {
+	?><h2>Error writing to windows zones mapping file <?php echo $filename; ?></h2>
+	<p>If permissions prevent updating the file, you can run this script on any server and/or change the filename and then move it to the plugins timezones folder. 
+	It only needs to be updated in the possibly unlikley event that windows or unicode.org change the mappings.</p>
+<?php }
+?><p>Full mapping loaded, but currently only using first territory of each, only the first was written.
+<?php var_dump($tzmapping);?>
+</p><?php

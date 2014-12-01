@@ -1,0 +1,2468 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: amr events calendar or lists with ical files v4.12\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-09-23 20:54+0100\n"
+"PO-Revision-Date: 2014-09-20 11:31:53+0000\n"
+"Last-Translator: Team Blogos <wordpress@blogos.dk>\n"
+"Language-Team: Team Blogos <wordpress@blogos.dk>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.5.3\n"
+"X-Poedit-Language: \n"
+"X-Poedit-Country: \n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: d:/wordpress/plugins/amr-ical-events-list\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: d:/wordpress/plugins/amr-ical-events-list\n"
+"X-Textdomain-Support: yes"
+
+#: uninstall.php:22
+#@ amr-ical-events-list
+msgid "amr ical options deleted from database"
+msgstr "amr ical-indstillinger slettet fra databasen"
+
+#: uninstall.php:33
+#@ amr-ical-events-list
+msgid "amr ical cached ics files deleted "
+msgstr "De filer, amr ical har cachet, er slettet "
+
+#: uninstall.php:34
+#@ amr-ical-events-list
+msgid "Css files may also exist.  They and the css folder have not been deleted as they have been shared with other plugins."
+msgstr "CSS-filer findes måske også. De og CSS-mappen er ikke blevet slettet, da de er delt med andre plugins."
+
+#: includes/amr-ical-calendar.php:48
+#@ amr-ical-events-list
+msgid "Go to events for this day only"
+msgstr "Gå kun til denne dags begivenheder"
+
+#: includes/amr-ical-config.php:141
+#: includes/amr-ical-list-admin.php:294
+#@ amr-ical-events-list
+msgid "Column"
+msgstr "Kolonne"
+
+#: includes/amr-ical-config.php:142
+#: includes/amr-ical-list-admin.php:297
+#@ amr-ical-events-list
+msgid "Order"
+msgstr "Rækkefølge"
+
+#: includes/amr-ical-config.php:143
+#: includes/amr-ical-list-admin.php:298
+#@ amr-ical-events-list
+msgid "Before"
+msgstr "Før"
+
+#: includes/amr-ical-config.php:144
+#: includes/amr-ical-list-admin.php:299
+#@ amr-ical-events-list
+msgid "After"
+msgstr "Efter"
+
+#: includes/amr-ical-config.php:202
+#@ amr-ical-events-list
+msgid "A link to allow user to add the whole calendar to their google calendar."
+msgstr "Et link til at lade bruger tilføje hele kalenderen til sin Google-kalender."
+
+#: includes/amr-ical-config.php:203
+#@ amr-ical-events-list
+msgid "A link to allow user to refetch an ics file"
+msgstr "Et link, der tillader bruger at hente en ICS-fil igen"
+
+#: includes/amr-ical-config.php:204
+#@ amr-ical-events-list
+msgid "The time the ics file was last modified"
+msgstr "Tidspunktet, ICS-filen senest blev ændret"
+
+#: includes/amr-ical-config.php:206
+#@ amr-ical-events-list
+msgid "WordPress post title or ICS SUMMARY"
+msgstr "WordPress-indlægtstitel eller ICS-resumé"
+
+#: includes/amr-ical-config.php:207
+#@ amr-ical-events-list
+msgid "WordPress content or ICS description"
+msgstr "WordPress-indhold eller ICS-beskrivelse"
+
+#: includes/amr-ical-config.php:208
+#@ amr-ical-events-list
+msgid "WordPress excerpt"
+msgstr "WordPress-uddrag"
+
+#: includes/amr-ical-config.php:209
+#@ amr-ical-events-list
+msgid "WordPress post thumbnail"
+msgstr "WordPress-indlægsminiature"
+
+#: includes/amr-ical-config.php:210
+#@ amr-ical-events-list
+msgid "Address"
+msgstr "Adresse"
+
+#: includes/amr-ical-config.php:211
+#@ amr-ical-events-list
+msgid "Link to map"
+msgstr "Link til kort"
+
+#: includes/amr-ical-config.php:212
+#@ amr-ical-events-list
+msgid "Link to add event to a google calendar"
+msgstr "Link til at tilføje begivenhed til en Google Kalender"
+
+#: includes/amr-ical-config.php:213
+#@ amr-ical-events-list
+msgid "Link to single event ics file"
+msgstr "Link til ICS-fil med enkeltbegivenheder"
+
+#: includes/amr-ical-config.php:214
+#@ amr-ical-events-list
+msgid "Link to recurring event series ics file"
+msgstr "Link til ICS-fil med gentagne begivenhedsrækker"
+
+#: includes/amr-ical-config.php:215
+#@ amr-ical-events-list
+msgid "The latitude and longitude"
+msgstr "Bredde- og højdegrad"
+
+#: includes/amr-ical-config.php:216
+#@ amr-ical-events-list
+msgid "Links to specified ATTACHMENTS (ics)"
+msgstr "Links til angivne Vedhæftede filer (ICS)"
+
+#: includes/amr-ical-config.php:218
+#@ amr-ical-events-list
+msgid "WordPress or ics file categories "
+msgstr "WordPress- eller ICS-filkategorier"
+
+#: includes/amr-ical-config.php:219
+#@ amr-ical-events-list
+msgid "ics class"
+msgstr "ICS-klasse"
+
+#: includes/amr-ical-config.php:220
+#@ amr-ical-events-list
+msgid "ics comment"
+msgstr "ICS-kommentar"
+
+#: includes/amr-ical-config.php:222
+#@ amr-ical-events-list
+msgid "ics event priority"
+msgstr "ICS-begivenhedsprioritet"
+
+#: includes/amr-ical-config.php:224
+#@ amr-ical-events-list
+msgid "ics event status"
+msgstr "ICS-begivenhedsstatus"
+
+#: includes/amr-ical-config.php:225
+#@ amr-ical-events-list
+msgid "The date of instance of a repeating date, or the event date"
+msgstr "Dato for begivenhed i tilbagevendende begivenhed eller for begivenhed"
+
+#: includes/amr-ical-config.php:226
+#@ amr-ical-events-list
+msgid "The time of instance of a repeating date, or the event date"
+msgstr "Tidspunkt for begivenhed i tilbagevendende begivenhed eller for begivenhed"
+
+#: includes/amr-ical-config.php:227
+#@ amr-ical-events-list
+msgid "The date an event instance ends.  Blank if same as event date "
+msgstr "Datoen, en enkeltbegivenhed ender. Tom, hvis samme som begivenhedsdatoen "
+
+#: includes/amr-ical-config.php:228
+#@ amr-ical-events-list
+msgid "The time an event instance ends. "
+msgstr "Tidspunktet, en enkeltbegivenhed i gentagen begivenhed ender."
+
+#: includes/amr-ical-config.php:229
+#@ amr-ical-events-list
+msgid "The original or first event date of a recurring series"
+msgstr "Datoen for den oprindelige eller første begivenhed i en gentagen begivenhedsserie"
+
+#: includes/amr-ical-config.php:231
+#@ amr-ical-events-list
+msgid "The original or first event's end date of a recurring series"
+msgstr "Slutdato for den oprindelige eller første begivenhed i en tilbagevende serie"
+
+#: includes/amr-ical-config.php:232
+#@ amr-ical-events-list
+msgid "The due date of a task."
+msgstr "En opgaves termin"
+
+#: includes/amr-ical-config.php:233
+#@ amr-ical-events-list
+msgid "The duration of an event."
+msgstr "Begivenhedens længde"
+
+#: includes/amr-ical-config.php:234
+#@ amr-ical-events-list
+msgid "Says \"all day\" (translated) if the event has full days."
+msgstr "Siger \"hele dagen\" (oversat), hvis begivenheden tager hele dagen."
+
+#: includes/amr-ical-config.php:235
+#@ amr-ical-events-list
+msgid "If a task is completed."
+msgstr "Hvis en opgave er udført."
+
+#: includes/amr-ical-config.php:236
+#@ amr-ical-events-list
+msgid "Show busy (translated) if the freebusy component is in use."
+msgstr "Vis optaget (oversat), hvis fri-optaget-komponenten anvendes."
+
+#: includes/amr-ical-config.php:240
+#@ amr-ical-events-list
+msgid "Users who have accepted."
+msgstr "Brugere, der har accepteret."
+
+#: includes/amr-ical-config.php:242
+#@ amr-ical-events-list
+msgid "Add register button. Registration settings can be set as global defaults or per event."
+msgstr "Tilføj registreringsknap. Indstillinger for registrering kan sættes som globale standarder eller for hvert enkelt event."
+
+#: includes/amr-ical-config.php:243
+#@ amr-ical-events-list
+msgid "Links to indicate if attending."
+msgstr "Links til at angive, om man deltager."
+
+#: includes/amr-ical-config.php:244
+#@ amr-ical-events-list
+msgid "The contact person if available."
+msgstr "Eventuel kontaktperson."
+
+#: includes/amr-ical-config.php:245
+#@ amr-ical-events-list
+msgid "The author of the event."
+msgstr "Ophavsmand til begivenheden."
+
+#: includes/amr-ical-config.php:246
+#@ amr-ical-events-list
+msgid "Users who are attending."
+msgstr "Brugere, der deltager."
+
+#: includes/amr-ical-config.php:247
+#@ amr-ical-events-list
+msgid "The unique id of a recurrence instance or exception."
+msgstr "Unik id for en enkeltbegivenhed i tilbagevende begivenhed eller for en undtagelse."
+
+#: includes/amr-ical-config.php:249
+#@ amr-ical-events-list
+msgid "The events url as provided by ics file, or the wordpress event permalink."
+msgstr "Begivenhedens URL som angivet af ICS-filen, eller WordPress-permalink for begivenheden."
+
+#: includes/amr-ical-config.php:250
+#@ amr-ical-events-list
+msgid "The unique identifier of the event."
+msgstr "Unik id for begivenheden."
+
+#: includes/amr-ical-config.php:251
+#@ amr-ical-events-list
+msgid "Dates excluded from the recurring series"
+msgstr "Datoer udeladt fra tilbagevendende serie"
+
+#: includes/amr-ical-config.php:252
+#@ amr-ical-events-list
+msgid "Exclusion rule - no longer in spec"
+msgstr "Udeladelsesregel &ndash; ikke længere med i specifikationen"
+
+#: includes/amr-ical-config.php:253
+#@ amr-ical-events-list
+msgid "Individual dates on which event is to be repeated"
+msgstr "Enkeltdatoer, som begivenheden skal gentages på"
+
+#: includes/amr-ical-config.php:254
+#@ amr-ical-events-list
+msgid "The rule for the recurrence of the event."
+msgstr "Regel for begivenhedens gentagelse."
+
+#: includes/amr-ical-config.php:255
+#@ amr-ical-events-list
+msgid "Alarm action."
+msgstr "Alarmhandling."
+
+#: includes/amr-ical-config.php:256
+#@ amr-ical-events-list
+msgid "Alarm repeat."
+msgstr "Gentagelse af alarm."
+
+#: includes/amr-ical-config.php:257
+#@ amr-ical-events-list
+msgid "Alarm trigger."
+msgstr "Udløser af alarm."
+
+#: includes/amr-ical-config.php:258
+#@ amr-ical-events-list
+msgid "Date event created."
+msgstr "Begivenhedsdato oprettet."
+
+#: includes/amr-ical-config.php:259
+#@ amr-ical-events-list
+msgid "Date event published."
+msgstr "Begivenhedsdato udgivet."
+
+#: includes/amr-ical-config.php:260
+#@ amr-ical-events-list
+msgid "Modification level of event."
+msgstr "Begivenhedens ændringsniveau."
+
+#: includes/amr-ical-config.php:261
+#@ amr-ical-events-list
+msgid "Date event last modified."
+msgstr "Begivenhedsdato sidst ændret."
+
+#: includes/amr-ical-config.php:262
+#@ amr-ical-events-list
+msgid "Events in an ics file"
+msgstr "Begivenheder i en ICS-fil"
+
+#: includes/amr-ical-config.php:263
+#@ amr-ical-events-list
+msgid "Items in an ics file that indicate busy or available time slots"
+msgstr "Optegnelser i en ICS-fil, som angiver tidsrum, hvor man er optaget eller tilgængelig"
+
+#: includes/amr-ical-config.php:264
+#@ amr-ical-events-list
+msgid "Todo Task Items in an ics file"
+msgstr "Gøremål i en opgaveliste i en ICS-fil"
+
+#: includes/amr-ical-config.php:265
+#@ amr-ical-events-list
+msgid "Journal notes in an ics file - no date or time"
+msgstr "Dagbogsnoter i en ICS-fil – ingen dato eller klokkeslæt"
+
+#: includes/amr-ical-config.php:361
+#@ amr-ical-events-list
+msgid "No events found within criteria"
+msgstr "Ingen begivenheder opfyldte kriterierne"
+
+#: includes/amr-ical-config.php:362
+#: includes/amr-pluggable.php:1387
+#@ amr-ical-events-list
+msgid "Look for more"
+msgstr "Se efter mere"
+
+#: includes/amr-ical-config.php:363
+#@ amr-ical-events-list
+msgid "Look for previous"
+msgstr "Se efter tidligere"
+
+#: includes/amr-ical-config.php:364
+#: includes/amr-ical-config.php:1156
+#@ amr-ical-events-list
+msgid "Reset"
+msgstr "Nulstil"
+
+#: includes/amr-ical-config.php:386
+#@ amr-ical-events-list
+msgid "Default"
+msgstr "Standard"
+
+#: includes/amr-ical-config.php:387
+#@ amr-ical-events-list
+msgid "A default calendar list. This one set to tables with lists in the cells.  Usually needs the css file enabled. If you configure it, I suggest changing this description to aid your memory of how/why it is configured the way that it is. "
+msgstr "En standard-kalenderliste. Denne er sat op med tabeller med lister i celler. Kræver normalt, at CSS-filen er aktiveret. Hvis du tilpasser den, foreslår jeg, at du ændrer denne beskrivelse som et praj om, hvordan/hvorfor den er tilpasset, som den er. "
+
+#: includes/amr-ical-config.php:365
+#@ amr-ical-events-list
+msgid "Year"
+msgstr "År"
+
+#: includes/amr-ical-config.php:366
+#@ amr-ical-events-list
+msgid "Quarter"
+msgstr "Kvartal"
+
+#: includes/amr-ical-config.php:367
+#@ amr-ical-events-list
+msgid "Astronomical Season"
+msgstr "Astronomisk årstid"
+
+#: includes/amr-ical-config.php:368
+#@ amr-ical-events-list
+msgid "Traditional Season"
+msgstr "Traditionel årstid"
+
+#: includes/amr-ical-config.php:369
+#@ amr-ical-events-list
+msgid "Western Zodiac"
+msgstr "Vestlig stjernekreds"
+
+#: includes/amr-ical-config.php:370
+#@ amr-ical-events-list
+msgid "Month"
+msgstr "Måned"
+
+#: includes/amr-ical-config.php:371
+#@ amr-ical-events-list
+msgid "Week"
+msgstr "Uge"
+
+#: includes/amr-ical-config.php:372
+#@ amr-ical-events-list
+msgid "Day"
+msgstr "Dag"
+
+#: includes/amr-ical-config.php:410
+#@ amr-ical-events-list
+msgid "When"
+msgstr "Hvornår"
+
+#: includes/amr-ical-config.php:411
+#@ amr-ical-events-list
+msgid "What"
+msgstr "Hvad"
+
+#: includes/amr-ical-config.php:412
+#@ amr-ical-events-list
+msgid "Where"
+msgstr "Hvor"
+
+#: includes/amr-ical-config.php:459
+#@ amr-ical-events-list
+msgid "More info: "
+msgstr "Flere oplysninger: "
+
+#: includes/amr-ical-config.php:473
+#@ amr-ical-events-list
+msgid " to"
+msgstr " til"
+
+#: includes/amr-ical-config.php:552
+#: includes/amr-pluggable.php:506
+#@ amr-ical-events-list
+msgid "Show in Google map"
+msgstr "Vis på Google-kort"
+
+#: includes/amr-ical-config.php:559
+#: includes/amr-pluggable.php:513
+#@ amr-ical-events-list
+msgid "Show location in Google Maps"
+msgstr "Vis sted på Google Maps"
+
+#: includes/amr-ical-config.php:572
+#@ amr-ical-events-list
+msgid "On Tour"
+msgstr "På turné"
+
+#: includes/amr-ical-config.php:573
+#@ amr-ical-events-list
+msgid "Default setting uses the original table with lists in the cells. It is grouped by month. If you configure it, I suggest changing this description to aid your memory of how/why it is configured the way that it is. "
+msgstr "Standardindstillingen bruger den oprindelige tabel med lister i cellerne. Den er grupperet efter måneder. Hvis du tilpasser den, foreslår jeg, at du ændrer denne beskrivelse som et praj om, hvordan/hvorfor den er tilpasset, som den er. "
+
+#: includes/amr-ical-config.php:581
+#@ amr-ical-events-list
+msgid "Venue"
+msgstr "Sted"
+
+#: includes/amr-ical-config.php:582
+#@ amr-ical-events-list
+msgid "Description"
+msgstr "Beskrivelse"
+
+#: includes/amr-ical-config.php:586
+#@ amr-ical-events-list
+msgid "Timetable"
+msgstr "Tidsplan"
+
+#: includes/amr-ical-config.php:587
+#@ amr-ical-events-list
+msgid "Default setting uses the original table with lists in the cells. It is grouped by day. If you configure it, I suggest changing this description to aid your memory of how/why it is configured the way that it is. "
+msgstr "Standardindstillingen bruger den oprindelige tabel med lister i cellerne. Den er grupperet efter dage. Hvis du tilpasser den, foreslår jeg, at du ændrer denne beskrivelse som et praj om, hvordan/hvorfor den er tilpasset, som den er. "
+
+#: includes/amr-ical-config.php:598
+#@ amr-ical-events-list
+msgid "Date"
+msgstr "Dato"
+
+#: includes/amr-ical-config.php:599
+#@ amr-ical-events-list
+msgid "Class"
+msgstr "Klasse"
+
+#: includes/amr-ical-config.php:600
+#@ amr-ical-events-list
+msgid "Room"
+msgstr "Rum"
+
+#: includes/amr-ical-config.php:605
+#@ amr-ical-events-list
+msgid "Widget"
+msgstr "Widget"
+
+#: includes/amr-ical-config.php:606
+#@ amr-ical-events-list
+msgid "The new default setting for widgets uses lists for the table rows. Good for themes that cannot cope with tables in the sidebar. No grouping. If you configure it, I suggest changing this description to aid your memory of how/why it is configured the way that it is. "
+msgstr "Den nye standardindstilling for widgets bruger lister som tabelrækker. Så fungerer det også med temaer, som ikke kan vise tabeller i sidepanelerne. Ingen gruppering. Hvis du tilpasser den, foreslår jeg, at du ændrer denne beskrivelse som et praj om, hvordan/hvorfor den er tilpasset, som den er. "
+
+#: includes/amr-ical-config.php:627
+#@ amr-ical-events-list
+msgid "HTML5 Exp 1"
+msgstr "HTML5 Eks. 1"
+
+#: includes/amr-ical-config.php:628
+#@ amr-ical-events-list
+msgid "Table style aiming to use html5 tags, but still within a table structure to allow columns. One cannot have two levels of grouping with this option as tbody cannot be nested. If you configure it, I suggest changing this description to aid your memory of how/why it is configured the way that it is. "
+msgstr "En tabel-style beregnet på brug af HTML5-tags, men stadig i en tabelstruktur, så der kan bruges kolonner. Man kan ikke have to grupperingsniveauer med denne opsætning, fordi tbody ikke kan anvendes inden i en tbody-struktur. Hvis du tilpasser den, foreslår jeg, at du ændrer denne beskrivelse som et praj om, hvordan/hvorfor den er tilpasset, som den er. "
+
+#: includes/amr-ical-config.php:659
+#@ amr-ical-events-list
+msgid "HTML5 Exp 2"
+msgstr "HTML5 Eks. 2"
+
+#: includes/amr-ical-config.php:660
+#@ amr-ical-events-list
+msgid "An HTML5 test option that tries to be leaner. You can have two level of grouping with this option. If you configure it, I suggest changing this description to aid your memory of how/why it is configured the way that it is. "
+msgstr "En HTML5-testopsætning, som forsøger at være enklere. Man kan have to grupperingsniveauer med denne indstilling. Hvis du tilpasser den, foreslår jeg, at du ændrer denne beskrivelse som et praj om, hvordan/hvorfor den er tilpasset, som den er. "
+
+#: includes/amr-ical-config.php:704
+#@ amr-ical-events-list
+msgid "EventInfo"
+msgstr "Begivenhedsinfo"
+
+#: includes/amr-ical-config.php:705
+#@ amr-ical-events-list
+msgid "For displaying additional event info on posts created as events. The summary and description are switched off as these are the post title and the post content. Calendar properties and groupings are also not relevant. If you configure it, I suggest changing this description to aid your memory of how/why it is configured the way that it is. "
+msgstr "Til visning af yderligere begivenhedsinformationer på indlæg oprettet som begivenheder. Resumé og beskrivelse vises ikke, eftersom de bruges som indlægstitel og indlægsindhold. Kalenderegenskaber og grupperinger er heller ikke relevante. Hvis du tilpasser den, foreslår jeg, at du ændrer denne beskrivelse som et praj om, hvordan/hvorfor den er tilpasset, som den er. "
+
+#: includes/amr-ical-config.php:736
+#@ amr-ical-events-list
+msgid "Small-Calendar"
+msgstr "Lille kalender"
+
+#: includes/amr-ical-config.php:737
+#@ amr-ical-events-list
+msgid "The new default setting for calendar widgets. No grouping, No headings. If you configure it, I suggest changing this description to aid your memory of how/why it is configured the way that it is. "
+msgstr "Den nye standardopsætning for kalenderwidgets. Ingen gruppering, ingen overskrifter. Hvis du tilpasser den, foreslår jeg, at du ændrer denne beskrivelse som et praj om, hvordan/hvorfor den er tilpasset, som den er. "
+
+#: includes/amr-ical-config.php:765
+#@ amr-ical-events-list
+msgid "Large-Calendar"
+msgstr "Stor kalender"
+
+#: includes/amr-ical-config.php:766
+#@ amr-ical-events-list
+msgid "The new default setting for a large monthly calendar. No grouping, No headings. If you configure it, I suggest changing this description to aid your memory of how/why it is configured the way that it is."
+msgstr "De nye standardindstillinger for en stor månedskalender. Ingen grupperinger, ingen overskrifter. Hvis du tilpasser dem, foreslår jeg, at du ændrer denne beskrivelse som et praj om, hvordan/hvorfor de er tilpasset, som de er."
+
+#: includes/amr-ical-config.php:795
+#@ amr-ical-events-list
+msgid "Testing"
+msgstr "Test"
+
+#: includes/amr-ical-config.php:796
+#@ amr-ical-events-list
+msgid "A test option with lots of fields switched on. It has 2 levels of grouping - this is fine so long as the html in use can be nested. If you configure it, I suggest changing this description to aid your memory of how/why it is configured the way that it is. "
+msgstr "En testopsætning med et stort antal felter slået til. Den har to grupperingsniveauer &ndash; det er fint, så længe der bruges HTML, der kan indlejres. Hvis du tilpasser den, foreslår jeg, at du ændrer denne beskrivelse som et praj om, hvordan/hvorfor den er tilpasset, som den er. "
+
+#: includes/amr-ical-config.php:846
+#@ amr-ical-events-list
+msgid "Weekly Horizontal"
+msgstr "Ugentligt, horisontalt"
+
+#: includes/amr-ical-config.php:848
+#@ amr-ical-events-list
+msgid "Like the large calendar, but different - grouped by week and the weeks continue across months.  Really 2 weeks should be displayed a time."
+msgstr "Som den store kalender, men anderledes &ndash; grupperet efter uger, og ugerne fortsætter over månedsskifter. Mindst to uger bør vises ad gangen!"
+
+#: includes/amr-ical-config.php:849
+#: includes/amr-ical-config.php:881
+#: includes/amr-ical-config.php:925
+#@ amr-ical-events-list
+msgid " If you configure it, I suggest changing this description to aid your memory of how/why it is configured the way that it is. "
+msgstr " Hvis du tilpasser den, foreslår jeg, at du ændrer denne beskrivelse som et praj om, hvordan/hvorfor den er tilpasset, som den er. "
+
+#: includes/amr-ical-config.php:878
+#@ amr-ical-events-list
+msgid "Weekly Vertical"
+msgstr "Ugentligt, vertikalt"
+
+#: includes/amr-ical-config.php:880
+#@ amr-ical-events-list
+msgid "Grouped by day, but only showing 1 week. 3 columns, with excerpt not full description. No icons."
+msgstr "Grupperet efter dage, men viser kun én uge. Tre kolonner, med uddrag, ikke fuld beskrivelse. Ingen ikoner."
+
+#: includes/amr-ical-config.php:922
+#@ amr-ical-events-list
+msgid "Event Master"
+msgstr "Begivenhedsmaster"
+
+#: includes/amr-ical-config.php:924
+#@ amr-ical-events-list
+msgid "Grouped by category, intended to be used with no recurrences"
+msgstr "Grupperet efter kategori; ikke til brug med gentagelser"
+
+#: includes/amr-ical-config.php:1101
+#@ amr-ical-events-list
+msgid "Resetting options..."
+msgstr "Nulstiller indstillinger ..."
+
+#: includes/amr-ical-config.php:1104
+#@ amr-ical-events-list
+msgid "Options Deleted..."
+msgstr "Indstillinger slettet ..."
+
+#: includes/amr-ical-config.php:1105
+#@ amr-ical-events-list
+msgid "Option was not saved before or error deleting option..."
+msgstr "Indstilling blev ikke gemt før, eller fejl i forsøg på slette indstilling &hellip;"
+
+#: includes/amr-ical-config.php:1135
+#@ amr-ical-events-list
+msgid " Converting option key to lowercase"
+msgstr " Konverterer nøgler i Indstillinger til små bogstaver"
+
+#: includes/amr-ical-config.php:1155
+#@ amr-ical-events-list
+msgid "Look for Previous"
+msgstr "Se efter tidligere"
+
+#: includes/amr-ical-config.php:1163
+#@ amr-ical-events-list
+msgid "Busy"
+msgstr "Optaget"
+
+#: includes/amr-ical-config.php:1186
+#@ amr-ical-events-list
+msgid "Daily"
+msgstr "Daglig"
+
+#: includes/amr-ical-config.php:1187
+#@ amr-ical-events-list
+msgid "Weekly"
+msgstr "Ugentlig"
+
+#: includes/amr-ical-config.php:1188
+#@ amr-ical-events-list
+msgid "Monthly"
+msgstr "Månedlig"
+
+#: includes/amr-ical-config.php:1189
+#@ amr-ical-events-list
+msgid "Yearly"
+msgstr "Årlig"
+
+#: includes/amr-ical-config.php:1190
+#@ amr-ical-events-list
+msgid "Hourly"
+msgstr "Hver time"
+
+#: includes/amr-ical-config.php:1191
+#@ amr-ical-events-list
+msgid "on certain dates"
+msgstr "på visse dage"
+
+#: includes/amr-ical-config.php:1192
+#@ amr-ical-events-list
+msgid "day"
+msgstr "dag"
+
+#: includes/amr-ical-config.php:1193
+#@ amr-ical-events-list
+msgid "week"
+msgstr "uge"
+
+#: includes/amr-ical-config.php:1194
+#@ amr-ical-events-list
+msgid "month"
+msgstr "måned"
+
+#: includes/amr-ical-config.php:1195
+#@ amr-ical-events-list
+msgid "year"
+msgstr "år"
+
+#: includes/amr-ical-config.php:1196
+#@ amr-ical-events-list
+msgid "hour"
+msgstr "time"
+
+#: includes/amr-ical-events-list-main.php:14
+#@ amr-ical-events-list
+msgid "The <a href=\"http://au.php.net/manual/en/class.datetime.php\"> DateTime Class </a> must be enabled on your system for this plugin to work. They may need to be enabled at compile time.  The class should exist by default in PHP version 5.2."
+msgstr "<a href=\"http://au.php.net/manual/en/class.datetime.php\">DateTime Class</a> skal være aktiveret på dit system, hvis dette plugin skal virker. Måske skal klassen være aktiveret, når PHP kompileres. Klassen bør som standard være med i PHP-version 5.2.should exist by default in PHP version 5.2."
+
+#: includes/amr-ical-events-list-main.php:54
+#, php-format
+#@ amr-ical-events-list
+msgctxt " the 11, 12 or 13th "
+msgid "%s th"
+msgstr "%s."
+
+#: includes/amr-ical-events-list-main.php:61
+#, php-format
+#@ amr-ical-events-list
+msgctxt " the twenty first etc "
+msgid "%s st"
+msgstr "%s."
+
+#: includes/amr-ical-events-list-main.php:64
+#, php-format
+#@ amr-ical-events-list
+msgctxt " the second "
+msgid "%s nd"
+msgstr "%s."
+
+#: includes/amr-ical-events-list-main.php:67
+#, php-format
+#@ amr-ical-events-list
+msgctxt " the third "
+msgid "%s rd"
+msgstr "%s."
+
+#: includes/amr-ical-events-list-main.php:70
+#, php-format
+#@ amr-ical-events-list
+msgctxt " the nth "
+msgid "%s th"
+msgstr "%s."
+
+#: includes/amr-ical-events-list-main.php:78
+#@ amr-ical-events-list
+msgid "the first"
+msgstr "den første"
+
+#: includes/amr-ical-events-list-main.php:80
+#@ amr-ical-events-list
+msgid "every"
+msgstr "alle"
+
+#: includes/amr-ical-events-list-main.php:82
+#@ amr-ical-events-list
+msgid "the last"
+msgstr "den sidste"
+
+#: includes/amr-ical-events-list-main.php:84
+#, php-format
+#@ amr-ical-events-list
+msgid "the %s last"
+msgstr "den %s sidste"
+
+#: includes/amr-ical-events-list-main.php:86
+#, php-format
+#@ amr-ical-events-list
+msgid "the %s"
+msgstr "den %s"
+
+#: includes/amr-ical-events-list-main.php:122
+#@ default
+msgid "Monday"
+msgstr "Mandag"
+
+#: includes/amr-ical-events-list-main.php:124
+#@ default
+msgid "Tuesday"
+msgstr "Tirsdag"
+
+#: includes/amr-ical-events-list-main.php:126
+#@ default
+msgid "Wednesday"
+msgstr "Onsdag"
+
+#: includes/amr-ical-events-list-main.php:128
+#@ default
+msgid "Thursday"
+msgstr "Torsdag"
+
+#: includes/amr-ical-events-list-main.php:130
+#@ default
+msgid "Friday"
+msgstr "Fredag"
+
+#: includes/amr-ical-events-list-main.php:132
+#@ default
+msgid "Saturday"
+msgstr "Lørdag"
+
+#: includes/amr-ical-events-list-main.php:134
+#@ default
+msgid "Sunday"
+msgstr "Søndag"
+
+#: includes/amr-ical-events-list-main.php:308
+#, php-format
+#@ amr-ical-events-list
+msgid "Error creating custom css directory %s. Please check permissions"
+msgstr "Fejl i oprettelse af brugerdefineret CSS-mappe %s. Tjek venligst rettigheder"
+
+#: includes/amr-ical-events-list-main.php:330
+#@ amr-ical-events-list
+msgid "Could not copy file."
+msgstr "Kunne ikke kopiere fil."
+
+#: includes/amr-ical-events-list-main.php:1370
+#, php-format
+#@ amr-ical-events-list
+msgid "Unable to load or cache ical calendar %s"
+msgstr "Kan ikke indlæse eller cache iCa-kalenderen %s"
+
+#: includes/amr-ical-events-list-main.php:1378
+#, php-format
+#@ amr-ical-events-list
+msgid "Error finding or parsing ical calendar %s"
+msgstr "Fejl i forsøg på at finde eller parse iCa-kalenderen %s"
+
+#: includes/amr-ical-events-list-main.php:1414
+#@ amr-ical-events-list
+msgid "This feature requires the plugin amr-events"
+msgstr "Den ønskede funktion kræver pluginnet amr-events"
+
+#: includes/amr-ical-events-list-main.php:1415
+#@ amr-ical-events-list
+msgid "Get it here"
+msgstr "Få det her"
+
+#: includes/amr-ical-events-list-main.php:1544
+#@ amr-ical-events-list
+msgid "No url entered - did you want events from posts ?"
+msgstr "Ingen URL indtastet &ndash; ønkede du begivenheder fra indlæg?"
+
+#: includes/amr-ical-events-list-main.php:1577
+#@ amr-ical-events-list
+msgid "No ical components requested for display"
+msgstr "Ingen visningsanmodninger for iCal-komponenter"
+
+#: includes/amr-ical-events-list-main.php:1750
+#, php-format
+#@ amr-ical-events-list
+msgid "Invalid Ical URL %s"
+msgstr "Ugyldig iCal-URL %s"
+
+#: includes/amr-ical-events-list-main.php:1836
+#, php-format
+#@ amr-ical-events-list
+msgid "System error - event list type %s missing - please inform administrator."
+msgstr "Systemfejl - begivenhedslistetypen %s mangler - informér venligst administratoren."
+
+#: includes/amr-ical-events-list-main.php:1838
+#@ amr-ical-events-list
+msgid "Now using an available list type to list events"
+msgstr "Bruger nu en tilgængelig listetype til at lave liste med begivenhederne"
+
+#: includes/amr-ical-events-list-main.php:1974
+#@ amr-ical-events-list
+msgid "Invalid Start Date"
+msgstr "Ugyldig startdato"
+
+#: includes/amr-ical-events-list-main.php:2317
+#@ amr-ical-events-list
+msgid "Uncaught exception: "
+msgstr "Ubehandlet undtagelse: "
+
+#: includes/amr-ical-events-list-main.php:2318
+#@ amr-ical-events-list
+msgid "<br /><br />An error in the input data may prevent correct display of this page.  Please advise the administrator as soon as possible."
+msgstr "<br /><br />En fejl i input-data kan forhindre en korrekt visning af denne side. Orientér venligst administrator så hurtigt som muligt."
+
+#: includes/amr-ical-events-list-main.php:2325
+#@ amr-ical-events-list
+msgid "Your existing saved list types have been converted.  If you wish to return to the earlier version of the plugin, you will have to reset the list types and reapply your changes. Or use your DB backup to set the amr-ical-events-list option back to previous version. You do have regular backups right? "
+msgstr "Dine eksisterende gemte listetyper er blevet konverteret. Hvis du ønsker at vende tilbage til den tidligere version af pluginnet, skal du nulstille listetyperne og indtaste dine ændringer igen. Eller bruge din databasesikkerhedskopi til at føre amr-ical-events-list-indstillingerne tilbage til den tidligere version. Du tager regelmæssige sikkerhedskopier, ikke?"
+
+#: includes/amr-ical-events-list-main.php:2353
+#@ amr-ical-events-list
+msgid "General listing Settings"
+msgstr "Generelle listeindstillinger"
+
+#: includes/amr-ical-events-list-main.php:2355
+#: includes/amr-ical-list-admin.php:16
+#: includes/amr-ical-plugin-form-html.php:48
+#@ amr-ical-events-list
+#@ default
+msgid "Settings"
+msgstr "Opsætning"
+
+#: includes/amr-ical-events-list-main.php:2356
+#@ amr-ical-events-list
+msgid "List Type Settings"
+msgstr "Listtype-indstillinger"
+
+#: includes/amr-ical-events-list-main.php:2357
+#: includes/amr-ical-list-admin.php:28
+#@ amr-ical-events-list
+msgid "Documentation"
+msgstr "Dokumentation"
+
+#: includes/amr-ical-groupings.php:6
+#@ amr-ical-events-list
+msgid "Show all"
+msgstr "Vis alle"
+
+#: includes/amr-ical-groupings.php:7
+#@ amr-ical-events-list
+msgid "Hide all"
+msgstr "Skjul alle"
+
+#: includes/amr-ical-list-admin.php:31
+#@ amr-ical-events-list
+msgid "Support"
+msgstr "Support"
+
+#: includes/amr-ical-list-admin.php:34
+#@ amr-ical-events-list
+msgid "Videos"
+msgstr "Videoer"
+
+#: includes/amr-ical-list-admin.php:37
+#@ amr-ical-events-list
+msgid "Rate it at WP"
+msgstr "Bedøm det på WP"
+
+#: includes/amr-ical-list-admin.php:39
+#@ amr-ical-events-list
+msgid "Plugin feed"
+msgstr "Plugin-feed"
+
+#: includes/amr-ical-list-admin.php:44
+#@ amr-ical-events-list
+msgid "Forum feed"
+msgstr "Forumfeed"
+
+#: includes/amr-ical-list-admin.php:68
+#, php-format
+#@ amr-ical-events-list
+msgid "Your timezone db version is: %s"
+msgstr "Versionen af din tidszonedatabase er: %s"
+
+#: includes/amr-ical-list-admin.php:70
+#@ amr-ical-events-list
+msgid "Plugin cannot determine timezonedb version in php &lt; 5.3."
+msgstr "Kan ikke finde version på tidszonedatabasen i PHP &lt; 5.3."
+
+#: includes/amr-ical-list-admin.php:73
+#@ amr-ical-events-list
+msgid "Php timezonedb versions"
+msgstr "Versioner af PHP-tidszonedatabaser"
+
+#: includes/amr-ical-list-admin.php:75
+#@ amr-ical-events-list
+msgid "Info on what changes are in which timezonedb version"
+msgstr "Oplysninger om, hvilke ændringer der er foretaget i hvilken tidszonedatabaseversioner"
+
+#: includes/amr-ical-list-admin.php:78
+#@ amr-ical-events-list
+msgid "No global timezone - is there a problem here? "
+msgstr "Ingen global tidszone &ndash; er der et problem her? "
+
+#: includes/amr-ical-list-admin.php:81
+#@ amr-ical-events-list
+msgid "Go to settings"
+msgstr "Gå til opsætning"
+
+#: includes/amr-ical-list-admin.php:85
+#@ amr-ical-events-list
+msgid "You are using the \"old\" gmt_offset setting "
+msgstr "Du bruger den \"gamle\" gmt_offset-indstilling "
+
+#: includes/amr-ical-list-admin.php:86
+#@ amr-ical-events-list
+msgid "Consider changing to the more accurate timezone setting"
+msgstr "Overvej at skifte til den mere præcise tidszoneindstilling"
+
+#: includes/amr-ical-list-admin.php:91
+#@ amr-ical-events-list
+msgid "The plugin thinks your timezone is: "
+msgstr "Pluginnet har bestemt din tidszone som: "
+
+#: includes/amr-ical-list-admin.php:95
+#@ amr-ical-events-list
+msgid "The current UTC offset for that timezone is: "
+msgstr "Den aktuelle UTC-forskel for denne tidszone er: "
+
+#: includes/amr-ical-list-admin.php:108
+#, php-format
+#@ amr-ical-events-list
+msgid "Switches to %s on %s. GMT offset: %d"
+msgstr "Skifter til %s den %s. GMT-tidsforskel: %d"
+
+#: includes/amr-ical-list-admin.php:114
+#@ amr-ical-events-list
+msgid "Current time (unlocalised): "
+msgstr "Aktuel tid (ikke-lokaliseret): "
+
+#: includes/amr-ical-list-admin.php:124
+#@ amr-ical-events-list
+msgid "Save the settings"
+msgstr "Gem opsætning"
+
+#: includes/amr-ical-list-admin.php:126
+#@ amr-ical-events-list
+msgid "Update"
+msgstr "Opdatér"
+
+#: includes/amr-ical-list-admin.php:131
+#@ amr-ical-events-list
+msgid "Uninstall the plugin and delete the options from the database."
+msgstr "Afinstallér pluginnet og slet indstillingerne fra databasen."
+
+#: includes/amr-ical-list-admin.php:133
+#@ amr-ical-events-list
+msgid "Uninstall"
+msgstr "Afinstallér"
+
+#: includes/amr-ical-list-admin.php:138
+#@ amr-ical-events-list
+msgid "Warning: This will reset ALL the listing options immediately."
+msgstr "Advarsel: Dette vil nulstille <em>alle</em> indstillinger for lister med det samme."
+
+#: includes/amr-ical-list-admin.php:141
+#@ amr-ical-events-list
+msgid "Reset all listing options"
+msgstr "Nulstil alle indstillinger for lister"
+
+#: includes/amr-ical-list-admin.php:156
+#: includes/amr-ical-list-admin.php:1131
+#@ amr-ical-events-list
+msgid "Manage Event List Types"
+msgstr "Håndtér iCal-begivenhedstyper"
+
+#: includes/amr-ical-list-admin.php:171
+#@ amr-ical-events-list
+msgid "Configure event list type: "
+msgstr "Konfigurér begivenhedslistetype: "
+
+#: includes/amr-ical-list-admin.php:178
+#: includes/amr-ical-list-admin.php:632
+#@ amr-ical-events-list
+msgid "Preview the list using a calendar page."
+msgstr "Preview listen på en kalenderside."
+
+#: includes/amr-ical-list-admin.php:179
+#: includes/amr-ical-list-admin.php:633
+#@ amr-ical-events-list
+msgid "Preview"
+msgstr "Preview"
+
+#: includes/amr-ical-list-admin.php:185
+#: includes/amr-ical-list-admin.php:687
+#@ amr-ical-events-list
+msgid "Saving...."
+msgstr "Gemmer ..."
+
+#: includes/amr-ical-list-admin.php:187
+#@ amr-ical-events-list
+msgid "Lists saved"
+msgstr "Lister gemt"
+
+#: includes/amr-ical-list-admin.php:188
+#@ amr-ical-events-list
+msgid "No change to options or unexpected error in saving"
+msgstr "Ingen ændringer i indstillinger eller en uventet fejl under gemning"
+
+#  TJEK
+#: includes/amr-ical-list-admin.php:204
+#@ amr-ical-events-list
+msgid "Check for lists to delete"
+msgstr "Tjek for lister, der skal slettes"
+
+#: includes/amr-ical-list-admin.php:211
+#, php-format
+#@ amr-ical-events-list
+msgid "List %s will be deleted"
+msgstr "Liste %s vil blive slettet"
+
+#: includes/amr-ical-list-admin.php:226
+#@ amr-ical-events-list
+msgid "Column Headings:"
+msgstr "Kolonneoverskrifter:"
+
+#: includes/amr-ical-list-admin.php:252
+#@ amr-ical-events-list
+msgid "Calendar properties"
+msgstr "Egenskaber for kalender"
+
+#: includes/amr-ical-list-admin.php:278
+#@ amr-ical-events-list
+msgid "Specify fields to show:"
+msgstr "Vælg felter at vise:"
+
+#: includes/amr-ical-list-admin.php:281
+#@ amr-ical-events-list
+msgid "Note: a 0 (zero) in column = do not show that field."
+msgstr "Bemærk: Et 0 (nul) i kolonnen betyder, at feltet ikke skal vises."
+
+#: includes/amr-ical-list-admin.php:283
+#@ amr-ical-events-list
+msgid "Uppercase fields are those defined in the iCal specification."
+msgstr "Felter med store bogstaver er defineret i iCal-specifikationen."
+
+#: includes/amr-ical-list-admin.php:287
+#@ amr-ical-events-list
+msgid "Lowercase fields are additional fields added by this plugin and derived from the iCal fields for your convenience."
+msgstr "Felter med små bogstaver er ekstra felter tilføjet af dette plugin og udledt af iCal-felterne for at gøre det lettere for dig."
+
+#: includes/amr-ical-list-admin.php:288
+#@ amr-ical-events-list
+msgid "Fields show if \"column\" > 0 and if there is data available in your event or ics file."
+msgstr "Felter vises, hvis \"kolonne\" > 0, og hvis der er tilgængelige data i din begivenhed eller ICS-fil."
+
+#: includes/amr-ical-list-admin.php:293
+#@ amr-ical-events-list
+msgid "Field"
+msgstr "Felt"
+
+#: includes/amr-ical-list-admin.php:295
+#@ amr-ical-events-list
+msgid "(0 to hide)"
+msgstr "(0 for at skjule)"
+
+#: includes/amr-ical-list-admin.php:343
+#@ amr-ical-events-list
+msgid "Define grouping:"
+msgstr "Definér grupperinger:"
+
+#: includes/amr-ical-list-admin.php:347
+#@ amr-ical-events-list
+msgid "Possible Groupings"
+msgstr "Mulige grupperinger"
+
+#: includes/amr-ical-list-admin.php:347
+#@ amr-ical-events-list
+msgid "Level"
+msgstr "Niveau"
+
+#: includes/amr-ical-list-admin.php:359
+#@ amr-ical-events-list
+msgid "No grouping"
+msgstr "Ingen grupperinger"
+
+#: includes/amr-ical-list-admin.php:368
+#@ amr-ical-events-list
+msgid "Taxonomies"
+msgstr "Taksonomier"
+
+#: includes/amr-ical-list-admin.php:368
+#@ amr-ical-events-list
+msgid "(Requires amr-events)"
+msgstr "(Kræver amr-events)"
+
+#: includes/amr-ical-list-admin.php:387
+#@ amr-ical-events-list
+msgid "Date based"
+msgstr "Datobaseret"
+
+#: includes/amr-ical-list-admin.php:387
+#@ amr-ical-events-list
+msgid "(See also date and time formats)"
+msgstr "(Se også formater for dato og klokkeslæt)"
+
+#: includes/amr-ical-list-admin.php:414
+#@ amr-ical-events-list
+msgid "Select components to show:"
+msgstr "Vælg komponenter at vise:"
+
+#: includes/amr-ical-list-admin.php:416
+#@ amr-ical-events-list
+msgid "Wikipedia entry describing components"
+msgstr "Wikipediaopslag, der beskriver komponenterne"
+
+#: includes/amr-ical-list-admin.php:439
+#@ amr-ical-events-list
+msgid "Define maximums:"
+msgstr "Definér maksimummer:"
+
+#: includes/amr-ical-list-admin.php:442
+#@ amr-ical-events-list
+msgid "Note cache times are in hours"
+msgstr "Bemærk, at cachetider er i timer"
+
+#: includes/amr-ical-list-admin.php:482
+#@ amr-ical-events-list
+msgid "Configure another list type: "
+msgstr "Konfigurér ny listetype: "
+
+#: includes/amr-ical-list-admin.php:495
+#@ amr-ical-events-list
+msgid "Return to manage list types"
+msgstr "Tilbage til håndtering af listetyper"
+
+#: includes/amr-ical-list-admin.php:532
+#@ amr-ical-events-list
+msgid "Please use numbers > 1"
+msgstr "Brug venligst tal > 1"
+
+#: includes/amr-ical-list-admin.php:575
+#, php-format
+#@ amr-ical-events-list
+msgid "Imported settings for list %s invalid - not saved"
+msgstr "Importerede indstillinger for listen %s er ugyldige &ndash; blev ikke gemt"
+
+#: includes/amr-ical-list-admin.php:581
+#, php-format
+#@ amr-ical-events-list
+msgid "List %s will be saved with imported data"
+msgstr "Listen %s vil blive gemt med importerede data"
+
+#: includes/amr-ical-list-admin.php:623
+#@ amr-ical-events-list
+msgid "Configure: "
+msgstr "Konfigurér: "
+
+#: includes/amr-ical-list-admin.php:627
+#@ amr-ical-events-list
+msgid "Click to choose the fields, the columns and set other parameters."
+msgstr "Klik for at vælge felter, kolonner og andre parametre."
+
+#: includes/amr-ical-list-admin.php:628
+#@ amr-ical-events-list
+msgid "Configure"
+msgstr "Konfigurér"
+
+#: includes/amr-ical-list-admin.php:637
+#@ amr-ical-events-list
+msgid "Calendar Page URL for previews must be entered above"
+msgstr "URL for kalenderside til previews skal indtastes ovenfor"
+
+#: includes/amr-ical-list-admin.php:638
+#@ amr-ical-events-list
+msgid "n/a"
+msgstr "&nbsp;&ndash;&nbsp;"
+
+#: includes/amr-ical-list-admin.php:662
+#@ amr-ical-events-list
+msgid "Enter a list number to start a list type with new default settings."
+msgstr "Indtast nummer på liste for at begynde på en listetype med nye standardindstillinger."
+
+#: includes/amr-ical-list-admin.php:664
+#@ amr-ical-events-list
+msgid "After that, cut and paste from the list type closest to what you want to get you started"
+msgstr "Derefter skal du kopiere og indsætte fra listetypen, der er tættest på, hvad du ønsker, for at komme i gang"
+
+#: includes/amr-ical-list-admin.php:674
+#@ amr-ical-events-list
+msgid "iCal Events List "
+msgstr "iCal Events List"
+
+#: includes/amr-ical-list-admin.php:691
+#@ amr-ical-events-list
+msgid "List saved"
+msgstr "Liste gemt"
+
+#: includes/amr-ical-list-admin.php:713
+#@ amr-ical-events-list
+msgid "iCal Events List"
+msgstr "iCal Events List"
+
+#: includes/amr-ical-list-admin.php:721
+#@ amr-ical-events-list
+msgid "Listing Events"
+msgstr "Laver liste med begivenheder"
+
+#: includes/amr-ical-list-admin.php:741
+#@ amr-ical-events-list
+msgid "iCal Events Lists"
+msgstr "Liste med iCal-begivenheder"
+
+#: includes/amr-ical-list-admin.php:742
+#@ amr-ical-events-list
+msgid "List types"
+msgstr "Listetyper"
+
+#: includes/amr-ical-list-admin.php:957
+#@ amr-ical-events-list
+msgid "Error in form - calprop array not found"
+msgstr "Fejl i formular &ndash; calprop-arrayet ikke fundet"
+
+#: includes/amr-ical-list-admin.php:1027
+#: includes/amr-ical-list-admin.php:1339
+#@ amr-ical-events-list
+msgid "Name"
+msgstr "Navn"
+
+#: includes/amr-ical-list-admin.php:1031
+#@ amr-ical-events-list
+msgid "Internal Description"
+msgstr "Intern beskrivelse"
+
+#: includes/amr-ical-list-admin.php:1055
+#@ amr-ical-events-list
+msgid "Other:"
+msgstr "Andet:"
+
+#  tjekkes
+#: includes/amr-ical-list-admin.php:1061
+#: includes/amr-ical-list-admin.php:1340
+#@ amr-ical-events-list
+msgid "List HTML Style"
+msgstr "HTML-style for liste"
+
+#: includes/amr-ical-list-admin.php:1063
+#@ amr-ical-events-list
+msgid "Table"
+msgstr "Tabel"
+
+#: includes/amr-ical-list-admin.php:1064
+#@ amr-ical-events-list
+msgid "HTML5 in table"
+msgstr "HTML5 i tabel"
+
+#: includes/amr-ical-list-admin.php:1065
+#@ amr-ical-events-list
+msgid "HTML5 clean and lean"
+msgstr "HTML5 enkelt og simpelt"
+
+#: includes/amr-ical-list-admin.php:1066
+#@ amr-ical-events-list
+msgid "Custom - file required"
+msgstr "Egen - fil påkrævet"
+
+#: includes/amr-ical-list-admin.php:1067
+#@ amr-ical-events-list
+msgid "Breaks for rows!"
+msgstr "Rækker med ny linje!"
+
+#: includes/amr-ical-list-admin.php:1068
+#@ amr-ical-events-list
+msgid "Small box calendar"
+msgstr "Lille box-kalender"
+
+#: includes/amr-ical-list-admin.php:1069
+#@ amr-ical-events-list
+msgid "Large box calendar"
+msgstr "Stor box-kalender"
+
+#: includes/amr-ical-list-admin.php:1070
+#@ amr-ical-events-list
+msgid "Weeks calendar"
+msgstr "Ugekalender"
+
+#: includes/amr-ical-list-admin.php:1071
+#@ amr-ical-events-list
+msgid "Lists for rows"
+msgstr "Rækker som lister"
+
+#: includes/amr-ical-list-admin.php:1071
+#@ amr-ical-events-list
+msgid " *Avoid - deprecated"
+msgstr " *Undgå – frarådes pga. forældelse"
+
+#: includes/amr-ical-list-admin.php:1072
+#@ amr-ical-events-list
+msgid "Table with lists in cells (original)"
+msgstr "Tabel med lister i celler (oprindelig)"
+
+#: includes/amr-ical-list-admin.php:1078
+#, php-format
+#@ amr-ical-events-list
+msgid "Custom HTML style file at %s..."
+msgstr "Fil med egen HTML-style i %s..."
+
+#: includes/amr-ical-list-admin.php:1079
+#@ amr-ical-events-list
+msgid " (Html and some php knowledge required)"
+msgstr " (HTML og en vis viden om PHP påkrævet)"
+
+#: includes/amr-ical-list-admin.php:1090
+#@ amr-ical-events-list
+msgid "Default Event URL"
+msgstr "Standard-URL for begivenhed"
+
+#: includes/amr-ical-list-admin.php:1092
+#@ amr-ical-events-list
+msgid " (For ics files in widget. External, or calendar page.)"
+msgstr " (Vedr. ICS-filer i widget. Ekstern, eller kalenderside.)"
+
+#: includes/amr-ical-list-admin.php:1094
+#: includes/amr-pluggable.php:818
+#@ amr-ical-events-list
+msgid "More information"
+msgstr "Flere oplysninger"
+
+#: includes/amr-ical-list-admin.php:1128
+#@ amr-ical-events-list
+msgid "General Options"
+msgstr "Generelle indstillinger"
+
+#: includes/amr-ical-list-admin.php:1129
+#@ amr-ical-events-list
+msgid "Styling and Images"
+msgstr "Styling og billeder"
+
+#: includes/amr-ical-list-admin.php:1130
+#@ amr-ical-events-list
+msgid "Advanced"
+msgstr "Avanceret"
+
+#: includes/amr-ical-list-admin.php:1149
+#@ amr-ical-events-list
+msgid "Message if no events found: "
+msgstr "Besked, hvis ingen begivenheder fundet: "
+
+#: includes/amr-ical-list-admin.php:1156
+#@ amr-ical-events-list
+msgid "Look for more events message: "
+msgstr "Se efter flere begivenheder-besked: "
+
+#: includes/amr-ical-list-admin.php:1166
+#@ amr-ical-events-list
+msgid "Look for previous events message: "
+msgstr "Se efter tidligere begivenheder-besked: "
+
+#: includes/amr-ical-list-admin.php:1173
+#@ amr-ical-events-list
+msgid "Reset events message: "
+msgstr "Nulstil begivenheder-besked: "
+
+#: includes/amr-ical-list-admin.php:1180
+#@ amr-ical-events-list
+msgid "Free busy text: "
+msgstr "Fri/optaget-tekst: "
+
+#: includes/amr-ical-list-admin.php:1181
+#@ amr-ical-events-list
+msgid " - replaces the summary text (Busy)in a VFREEBUSY component."
+msgstr " – erstatter resumeteksten (Optaget) i en VFREEBUSY-komponent."
+
+#: includes/amr-ical-list-admin.php:1191
+#@ amr-ical-events-list
+msgid "Use human time like midday, midnight"
+msgstr "Brug menneskelig tid som middag og midnat"
+
+#: includes/amr-ical-list-admin.php:1196
+#@ amr-ical-events-list
+msgid "Do not give credit to the author"
+msgstr "Giv ikke kreditering til udvikler"
+
+#: includes/amr-ical-list-admin.php:1205
+#@ amr-ical-events-list
+msgid "Use javascript to collapse event groupings"
+msgstr "Brug JavaScript til at skjule begivenhedsgrupperinger"
+
+#: includes/amr-ical-list-admin.php:1212
+#@ amr-ical-events-list
+msgid "Use my theme css, not plugin css"
+msgstr "Brug mit temas CSS, ikke pluginnets CSS"
+
+#: includes/amr-ical-list-admin.php:1219
+#@ amr-ical-events-list
+msgid " No images (tick for text only)"
+msgstr " Ingen billeder (markér for kun tekst)"
+
+#: includes/amr-ical-list-admin.php:1225
+#@ amr-ical-events-list
+msgid "Image icon size:"
+msgstr "Størrelse på ikonbillede:"
+
+#: includes/amr-ical-list-admin.php:1228
+#@ amr-ical-events-list
+msgid "16"
+msgstr "16"
+
+#: includes/amr-ical-list-admin.php:1232
+#@ amr-ical-events-list
+msgid "32"
+msgstr "32"
+
+#: includes/amr-ical-list-admin.php:1235
+#@ amr-ical-events-list
+msgid "The css provided works with the default twenty-ten theme and similar themes.  Your theme may be different."
+msgstr "CSS-filen, som er inkluderet, fungerer med Twenty Ten-temaet og lignende temaer. Dit tema kan ske at være anderledes."
+
+#: includes/amr-ical-list-admin.php:1237
+#@ amr-ical-events-list
+msgid "To edit the file, download the custom one added to your uploads folder: uploads/css."
+msgstr "For at redigere filen skal du downloade den, der er tilføjet til din uploads-mappe: uploads/css (hvis ellers pluginnet har rettigheder til det. o.a.)."
+
+#: includes/amr-ical-list-admin.php:1238
+#@ amr-ical-events-list
+msgid "Edit it and then re-upload to that same folder. Then select it in the box below."
+msgstr "Redigér det og upload det til den samme mappe. Vælg så filen i feltet nedenfor."
+
+#: includes/amr-ical-list-admin.php:1240
+#@ amr-ical-events-list
+msgid "This file will not be overwritten when the plugin is upgraded or when your theme is upgraded. "
+msgstr "Denne fil vil ikke blive overskrevet, når pluginnet eller dit tema opdateres."
+
+#: includes/amr-ical-list-admin.php:1241
+#@ amr-ical-events-list
+msgid "More info"
+msgstr "Flere oplysninger"
+
+#: includes/amr-ical-list-admin.php:1243
+#@ amr-ical-events-list
+msgid "Download the latest provided css file for editing"
+msgstr "Download den seneste CSS-fil, du kan redigere"
+
+#: includes/amr-ical-list-admin.php:1243
+#@ amr-ical-events-list
+msgid "(optional)"
+msgstr "(valgfri)"
+
+#: includes/amr-ical-list-admin.php:1244
+#@ amr-ical-events-list
+msgid "Choose plugin default css or choose a custom css and edit it."
+msgstr "Vælg pluginnets standard-CSS-fil, eller vælg din egen CSS og redigér det."
+
+#: includes/amr-ical-list-admin.php:1246
+#@ amr-ical-events-list
+msgid "No css files found in css directory "
+msgstr "Ingen CSS-filer i CSS-mappen "
+
+#: includes/amr-ical-list-admin.php:1256
+#@ amr-ical-events-list
+msgid "Advanced:"
+msgstr "Avanceret:"
+
+#: includes/amr-ical-list-admin.php:1258
+#, php-format
+#@ amr-ical-events-list
+msgid "Your php version is: %s"
+msgstr "Din PHP-version er: %s"
+
+#: includes/amr-ical-list-admin.php:1260
+#@ amr-ical-events-list
+msgid "Minimum Php version 5.3 required for events cacheing. "
+msgstr "Der kræves mindst PHP version 5.3 for caching af begivenheder."
+
+#: includes/amr-ical-list-admin.php:1261
+#@ amr-ical-events-list
+msgid "Cacheing of generated events for re-use on same page (eg: widget plus list) will not be attempted. "
+msgstr "Caching af genererede begivenheder for genbrug på samme side (fx: widget plus liste) vil ikke blive forsøgt."
+
+#: includes/amr-ical-list-admin.php:1262
+#@ amr-ical-events-list
+msgid "Apparently objects do not serialise correctly in php < 5.3."
+msgstr "Objekter serialiseres tilsyneladende ikke korrekt i PHP < 5.3."
+
+#: includes/amr-ical-list-admin.php:1268
+#@ amr-ical-events-list
+msgid "Choose date localisation method:"
+msgstr "Vælg lokaliseringsmetode for dato:"
+
+#: includes/amr-ical-list-admin.php:1271
+#@ amr-ical-events-list
+msgid "none"
+msgstr "ingen"
+
+#: includes/amr-ical-list-admin.php:1273
+#@ amr-ical-events-list
+msgid "amr"
+msgstr "amr"
+
+#: includes/amr-ical-list-admin.php:1275
+#@ amr-ical-events-list
+msgid "wp"
+msgstr "WP"
+
+#: includes/amr-ical-list-admin.php:1277
+#@ amr-ical-events-list
+msgid "wpgmt"
+msgstr "WPGMT"
+
+#: includes/amr-ical-list-admin.php:1281
+#@ amr-ical-events-list
+msgid "Http timeout for external ics files:"
+msgstr "HTTP-timeout for eksterne ICS-filer:"
+
+#: includes/amr-ical-list-admin.php:1286
+#@ amr-ical-events-list
+msgid "Choose seconds before timeout for each ics file fetch"
+msgstr "Vælg, hvor mange sekunder der skal gå inden timout for hver ICS-filhentning"
+
+#: includes/amr-ical-list-admin.php:1295
+#@ amr-ical-events-list
+msgid "Warning - 30 seconds is a long time! Let it use cache rather if things are slow"
+msgstr "Advarsel – 30 sekunder er lang tid! Brug hellere cache, hvis tingene går så langsomt"
+
+#: includes/amr-ical-list-admin.php:1311
+#@ amr-ical-events-list
+msgid "Calendar Page URL for Previews:"
+msgstr "URL for kalenderside til previews:"
+
+#: includes/amr-ical-list-admin.php:1312
+#@ amr-ical-events-list
+msgid "Enter the url of a page with [events] or [largecalendar] in the content to use for list type previews."
+msgstr "Indtast URL'en for en side med [events] eller [largecalendar] i indholdet til at anvende til previews med listetyper."
+
+#: includes/amr-ical-list-admin.php:1324
+#@ amr-ical-events-list
+msgid "Click the name of each list type below to configure that list."
+msgstr "Klik på navnet på hver listetype nedenfor for at konfigurere den."
+
+#: includes/amr-ical-list-admin.php:1326
+#@ amr-ical-events-list
+msgid "Go to plugin website for documentation."
+msgstr "Se dokumentation på pluginwebsitet."
+
+#: includes/amr-ical-list-admin.php:1328
+#@ amr-ical-events-list
+msgid "Configuration help"
+msgstr "Hjælp til konfigurering"
+
+#: includes/amr-ical-list-admin.php:1329
+#@ amr-ical-events-list
+msgid "Be careful when editing or deleting - some listtypes are defaults for shortcodes and widgets. "
+msgstr "Vær forsigtig, når du ændrer eller sletter &ndash; nogle listetyper er standarder for kortkoder (shortcodes) og widgets. "
+
+#: includes/amr-ical-list-admin.php:1330
+#@ amr-ical-events-list
+msgid "Add listtype=n in the parameters of the shortcode or widget to use another list type."
+msgstr "Tilføj listtype=n i parametrene for kortkoden eller widgetten for at bruge en anden listetype."
+
+#: includes/amr-ical-list-admin.php:1334
+#@ amr-ical-events-list
+msgid "Warning: This will delete all selected list types immediately."
+msgstr "Advarsel: Dette vil slette alle de valgte listetyper med det samme."
+
+#: includes/amr-ical-list-admin.php:1335
+#@ default
+msgid "Delete"
+msgstr "Slet"
+
+#: includes/amr-ical-list-admin.php:1338
+#@ amr-ical-events-list
+msgid "List"
+msgstr "Liste"
+
+#: includes/amr-ical-list-admin.php:1342
+#@ amr-ical-events-list
+msgid "To export or copy a list type"
+msgstr "For at eksportere eller kopiere en listetype"
+
+#: includes/amr-ical-list-admin.php:1343
+#@ amr-ical-events-list
+msgid "Select ALL the content, and COPY."
+msgstr "Vælg ALT indhold og KOPIÉR."
+
+#: includes/amr-ical-list-admin.php:1345
+#@ amr-ical-events-list
+msgid "The encoding is to prevent errors when copying and pasting."
+msgstr "Kodningen tjener til at forebygge fejl, når der kopieres og indsættes."
+
+#: includes/amr-ical-list-admin.php:1346
+#@ amr-ical-events-list
+msgid "The whole string must be selected (it should be when you click on the text box)"
+msgstr "Hele strengen skal vælges (det burde ske, når du klikker på tekstfeltet)"
+
+#: includes/amr-ical-list-admin.php:1347
+#@ amr-ical-events-list
+msgid "The list type is a huge array."
+msgstr "Listetypen er en meget stor array."
+
+#: includes/amr-ical-list-admin.php:1348
+#@ amr-ical-events-list
+msgid "Without encoding, there were varying problems with slashes. Encoding was more stable."
+msgstr "Uden kodning var der diverse problemer med skråstreger. Med kodning var det mere stabilt."
+
+#: includes/amr-ical-list-admin.php:1349
+#@ amr-ical-events-list
+msgid "Why encode?"
+msgstr "Hvorfor kode?"
+
+#: includes/amr-ical-list-admin.php:1353
+#@ amr-ical-events-list
+msgid "To import or paste a list type"
+msgstr "For at importere eller indsætte en listetype"
+
+#: includes/amr-ical-list-admin.php:1354
+#@ amr-ical-events-list
+msgid "PASTE list type string"
+msgstr "INDSÆT listetypestrengen"
+
+#: includes/amr-ical-list-admin.php:1356
+#@ amr-ical-events-list
+msgid "If you did not produce the string and are concerned about the contents, then inspect the list type string using a decode tool. You should see a serialised array."
+msgstr "Hvis du ikke dannede strengen og er bekymret over, hvad det indeholder, kan du undersøge listetypestrengen med et program til at dekode med. Du skulle gerne se en serialiseret array."
+
+#: includes/amr-ical-list-admin.php:1357
+#@ amr-ical-events-list
+msgid "Click to search for decoding tools"
+msgstr "Klik for at søge efter dekodningsprogrammer"
+
+#: includes/amr-ical-list-admin.php:1357
+#@ amr-ical-events-list
+msgid "Test decode"
+msgstr "Test dekodning"
+
+#: includes/amr-ical-list-admin.php:1392
+#@ amr-ical-events-list
+msgid " Define date and time formats:"
+msgstr " Definér formater for dato og klokkeslæt:"
+
+#: includes/amr-ical-list-admin.php:1394
+#@ amr-ical-events-list
+msgid "Define the formats for the day (eg: Event date, End Date) and time (eg: Start time, End Time) fields. You can actually use any of these to display a full Date time string too. Use the Event date for event instances - the DTSTART field is the first startdate of a recurring event sequence."
+msgstr "Definér formaterne for Dag- (fx Begivenhedsdato, Slutdato) og Klokkeslæt- (fx Starttidspunkt, Sluttidspunkt) felterne."
+
+#: includes/amr-ical-list-admin.php:1395
+#@ amr-ical-events-list
+msgid "These are also used for the date related grouping headings (ie: will show the date in that format as a heading for that group of dates if relevant.)"
+msgstr "Disse definitioner bruges også for datorelaterede gruppeoverskrifter (dvs. de vil vise datoen i dette format som overskrift for en gruppe af datoer, hvis relevant.)"
+
+#: includes/amr-ical-list-admin.php:1396
+#@ amr-ical-events-list
+msgid "Use the standard PHP format strings: "
+msgstr "Brug PHP's gængse formatteringsstrenge: "
+
+#: includes/amr-ical-list-admin.php:1397
+#@ amr-ical-events-list
+msgid "Php manual - date datetime formats"
+msgstr "PHP-manual &ndash; formater for dato og klokkeslæt"
+
+#: includes/amr-ical-list-admin.php:1399
+#@ amr-ical-events-list
+msgid "See php date function format strings"
+msgstr "See PHP's datoformatteringsstrenge"
+
+#: includes/amr-ical-list-admin.php:1400
+#@ amr-ical-events-list
+msgid " (will localise) "
+msgstr " (bliver lokaliseret) "
+
+#: includes/amr-ical-list-admin.php:1430
+#@ amr-ical-events-list
+msgid "Expand/Contract all"
+msgstr "Vis/Skjul alle"
+
+#: includes/amr-ical-plugin-form-html.php:146
+#@ amr-ical-events-list
+msgid "Why not do any or all of the following:"
+msgstr "Hvorfor ikke prøve et af – eller alle de følgende forslag:"
+
+#: includes/amr-ical-plugin-form-html.php:148
+#@ amr-ical-events-list
+msgid "Link to it so other folks can find out about it."
+msgstr "Link til det, så andre kan lære det at kende."
+
+#: includes/amr-ical-plugin-form-html.php:156
+#@ amr-ical-events-list
+msgid "If you have any problems with this plugin or good ideas for improvements or new features, please talk about them in the"
+msgstr "Hvis du har problemer med dette plugin eller gode ideer til forbedringer eller nye funktioner, så nævn dem i"
+
+#: includes/amr-ical-plugin-form-html.php:156
+#@ amr-ical-events-list
+msgid "Support forums"
+msgstr "Supportforum"
+
+#: includes/amr-ical-pretty-print.php:5
+#, php-format
+#@ amr-ical-events-list
+msgid "Weeks start on %s"
+msgstr "Uger starter på %s"
+
+#: includes/amr-ical-pretty-print.php:36
+#: includes/amr-ical-pretty-print.php:44
+#: includes/amr-ical-pretty-print.php:60
+#: includes/amr-ical-pretty-print.php:148
+#@ amr-ical-events-list
+msgid " and "
+msgstr " og "
+
+#: includes/amr-ical-pretty-print.php:46
+#@ amr-ical-events-list
+msgid "every "
+msgstr "alle "
+
+#: includes/amr-ical-pretty-print.php:75
+#@ amr-ical-events-list
+msgid " or "
+msgstr " eller "
+
+#: includes/amr-ical-pretty-print.php:112
+#, php-format
+#@ amr-ical-events-list
+msgid "Every %s %s"
+msgstr "Alle %s %s"
+
+#: includes/amr-ical-pretty-print.php:122
+#, php-format
+#@ amr-ical-events-list
+msgid "On %s instance within %s"
+msgstr "På den %s i %s"
+
+#: includes/amr-ical-pretty-print.php:127
+#, php-format
+#@ amr-ical-events-list
+msgid "%s times"
+msgstr "%s gange"
+
+#: includes/amr-ical-pretty-print.php:132
+#, php-format
+#@ amr-ical-events-list
+msgid "until %s %s"
+msgstr "indtil %s %s"
+
+#: includes/amr-ical-pretty-print.php:134
+#, php-format
+#@ amr-ical-events-list
+msgid " if month is %s"
+msgstr " hvis måned er %s"
+
+#: includes/amr-ical-pretty-print.php:136
+#, php-format
+#@ amr-ical-events-list
+msgid " in %s weeks of the year"
+msgstr " i %s uger af året"
+
+#: includes/amr-ical-pretty-print.php:138
+#, php-format
+#@ amr-ical-events-list
+msgid "on %s day of the year"
+msgstr "på %s dag i året"
+
+#: includes/amr-ical-pretty-print.php:139
+#, php-format
+#@ amr-ical-events-list
+msgid "on %s day of each month"
+msgstr "på %s dag i hver måned"
+
+#: includes/amr-ical-pretty-print.php:140
+#: includes/amr-ical-pretty-print.php:141
+#, php-format
+#@ amr-ical-events-list
+msgid "on %s "
+msgstr "på %s "
+
+#: includes/amr-ical-pretty-print.php:152
+#, php-format
+#@ amr-ical-events-list
+msgid "at the %s hour"
+msgstr "i den %s time"
+
+#: includes/amr-ical-pretty-print.php:153
+#, php-format
+#@ amr-ical-events-list
+msgid "at the %s minute"
+msgstr "i den %s minut"
+
+#: includes/amr-ical-pretty-print.php:154
+#, php-format
+#@ amr-ical-events-list
+msgid "at the %s second"
+msgstr "i den %s sekund"
+
+#: includes/amr-pluggable.php:1761
+#, php-format
+#@ amr-ical-events-list
+msgid "%u year"
+msgid_plural "%u years"
+msgstr[0] "%u år"
+msgstr[1] "%u år"
+
+#: includes/amr-pluggable.php:1766
+#, php-format
+#@ amr-ical-events-list
+msgid "%u month "
+msgid_plural "%u months "
+msgstr[0] "%u måned "
+msgstr[1] "%u måneder "
+
+#: includes/amr-pluggable.php:1771
+#, php-format
+#@ amr-ical-events-list
+msgid "%u week "
+msgid_plural "%u weeks"
+msgstr[0] "%u uge "
+msgstr[1] "%u uger"
+
+#: includes/amr-pluggable.php:1776
+#, php-format
+#@ amr-ical-events-list
+msgid "%u day"
+msgid_plural "%u days"
+msgstr[0] "%u dag"
+msgstr[1] "%u dage"
+
+#: includes/amr-pluggable.php:1782
+#, php-format
+#@ amr-ical-events-list
+msgid "%u hour"
+msgid_plural "%u hours"
+msgstr[0] "%u time"
+msgstr[1] "%u timer"
+
+#: includes/amr-pluggable.php:1787
+#, php-format
+#@ amr-ical-events-list
+msgid "%u minute"
+msgid_plural "%u minutes"
+msgstr[0] "%u minut"
+msgstr[1] "%u minutter"
+
+#: includes/amr-pluggable.php:1792
+#, php-format
+#@ amr-ical-events-list
+msgid "%u second"
+msgid_plural "%u seconds"
+msgstr[0] "%u sekunder"
+msgstr[1] "%u sekunder"
+
+#: includes/amr-pluggable.php:1811
+#@ amr-ical-events-list
+msgid "Change Timezone"
+msgstr "Skift tidszone"
+
+#: includes/amr-pluggable.php:1812
+#, php-format
+#@ amr-ical-events-list
+msgid "Timezone: %s, Click for %s"
+msgstr "Tidszone: %s, Klik for %s"
+
+#: includes/amr-import-ical.php:37
+#, php-format
+#@ amr-ical-events-list
+msgid "Your cache directory %s has been created"
+msgstr "Din cache-mappe %s er blevet oprettet"
+
+#: includes/amr-import-ical.php:40
+#, php-format
+#@ amr-ical-events-list
+msgid "Error creating cache directory %s. Please check permissions"
+msgstr "Fejl i oprettelse af cache-mappen %s. Tjek venligst rettigheder"
+
+#: includes/amr-import-ical.php:68
+#@ amr-ical-events-list
+msgid "Unexpected data contents. Please tell administrator."
+msgstr "Uventet dataindhold. Giv venligst administrator besked."
+
+#: includes/amr-import-ical.php:69
+#@ amr-ical-events-list
+msgid "See comments in source for response received from ics server."
+msgstr "Se kommentarer i kilden for svar modtaget fra ICS-server."
+
+#: includes/amr-import-ical.php:159
+#, php-format
+#@ amr-ical-events-list
+msgid "Error getting calendar file with htpp or curl %s"
+msgstr "Fejl i hentning af kalenderfil med HTTP eller cURL %s"
+
+#: includes/amr-import-ical.php:163
+#, php-format
+#@ amr-ical-events-list
+msgid "Using File last cached at %s"
+msgstr "Bruger fil der senest blev cachet: %s"
+
+#: includes/amr-import-ical.php:165
+#@ amr-ical-events-list
+msgid "File last cached time not available"
+msgstr "Tidspunkt for filens sidste cache ikke tilgængelig"
+
+#: includes/amr-import-ical.php:167
+#@ amr-ical-events-list
+msgid "Warning: Events may be out of date. "
+msgstr "Advarsel: Begivenhederne kan være forældet. "
+
+#: includes/amr-import-ical.php:173
+#@ amr-ical-events-list
+msgid "No cached ical file for events"
+msgstr "Ingen cachet iCal-fil med begivenheder"
+
+#: includes/amr-pluggable.php:69
+#@ amr-ical-events-list
+msgid "midnight"
+msgstr "midnat"
+
+#: includes/amr-pluggable.php:70
+#@ amr-ical-events-list
+msgid "midday"
+msgstr "middag"
+
+#: includes/amr-pluggable.php:105
+#@ amr-ical-events-list
+msgid "Go to agenda or list view"
+msgstr "Gå til visning af program eller liste"
+
+#: includes/amr-pluggable.php:105
+#@ amr-ical-events-list
+msgid "Agenda"
+msgstr "Program"
+
+#: includes/amr-pluggable.php:113
+#@ amr-ical-events-list
+msgid "Go to calendar view"
+msgstr "Gå til kalendervisning"
+
+#: includes/amr-pluggable.php:113
+#@ amr-ical-events-list
+msgid "Calendar"
+msgstr "Kalender"
+
+#: includes/amr-pluggable.php:120
+#@ amr-ical-events-list
+msgid "Go to map view"
+msgstr "Gå til kortvisning"
+
+#: includes/amr-pluggable.php:120
+#@ amr-ical-events-list
+msgid "Map"
+msgstr "Kort"
+
+#: includes/amr-pluggable.php:138
+#@ amr-ical-events-list
+msgid "Go to date"
+msgstr "Gå til dato"
+
+#: includes/amr-pluggable.php:168
+#: includes/amr-pluggable.php:174
+#, php-format
+#@ amr-ical-events-list
+msgid "Week starting %1$s"
+msgstr "Uge startende med %1$s"
+
+#: includes/amr-pluggable.php:169
+#@ amr-ical-events-list
+msgctxt "for prev navigation, translate allows you to use words"
+msgid "&larr;"
+msgstr "&larr;"
+
+#: includes/amr-pluggable.php:175
+#@ amr-ical-events-list
+msgctxt "for next navigation, translate allows you to use words"
+msgid "&rarr;"
+msgstr "&rarr;"
+
+#: includes/amr-pluggable.php:209
+#: includes/amr-pluggable.php:216
+#, php-format
+#@ amr-ical-events-list
+msgid "Go to %1$s %2$s"
+msgstr "Gå til %1$s %2$s"
+
+#: includes/amr-pluggable.php:284
+#, php-format
+#@ amr-ical-events-list
+msgid "Week starting %s"
+msgstr "Uge startende med %s"
+
+#: includes/amr-pluggable.php:323
+#@ amr-ical-events-list
+msgid "hours"
+msgstr "timer"
+
+#: includes/amr-pluggable.php:343
+#@ amr-ical-events-list
+msgid "months"
+msgstr "måneder"
+
+#: includes/amr-pluggable.php:359
+#@ amr-ical-events-list
+msgid "days"
+msgstr "dage"
+
+#: includes/amr-pluggable.php:367
+#@ amr-ical-events-list
+msgid "show past events"
+msgstr "vis afholdte begivenheder"
+
+#: includes/amr-pluggable.php:368
+#@ amr-ical-events-list
+msgid "show less"
+msgstr "vis mindre"
+
+#: includes/amr-pluggable.php:369
+#@ amr-ical-events-list
+msgid "show more"
+msgstr "vis mere"
+
+#: includes/amr-pluggable.php:370
+#@ amr-ical-events-list
+msgid "show much less"
+msgstr "vis meget mindre"
+
+#: includes/amr-pluggable.php:371
+#@ amr-ical-events-list
+msgid "show much more"
+msgstr "vis meget mere"
+
+#: includes/amr-pluggable.php:374
+#@ amr-ical-events-list
+msgid "show future events"
+msgstr "vis fremtidige begivenheder"
+
+#: includes/amr-pluggable.php:375
+#@ amr-ical-events-list
+msgid "show maximum 10 events if available"
+msgstr "vis de maksimale 10 begivenheder, hvis de findes"
+
+#: includes/amr-pluggable.php:376
+#@ amr-ical-events-list
+msgid "show maximum 50 events if available"
+msgstr "vis de maksimale 50 begivenheder, hvis de findes"
+
+#: includes/amr-pluggable.php:377
+#@ amr-ical-events-list
+msgid "show maximum 100 events if available"
+msgstr "vis de maksimale 100 begivenheder, hvis de findes"
+
+#: includes/amr-pluggable.php:585
+#@ amr-ical-events-list
+msgid "Event attachment"
+msgstr "Fil vedhæftet begivenhed"
+
+#: includes/amr-pluggable.php:654
+#: includes/amr-pluggable.php:661
+#, php-format
+#@ amr-ical-events-list
+msgid "View events in %s %s"
+msgstr "Se begivenheder i %s %s"
+
+#: includes/amr-pluggable.php:695
+#@ amr-ical-events-list
+msgid "Total events: "
+msgstr "Samlet antal begivenheder: "
+
+#: includes/amr-pluggable.php:701
+#@ amr-ical-events-list
+msgid "No description available"
+msgstr "Ingen beskrivelse"
+
+#: includes/amr-pluggable.php:709
+#: includes/amr-pluggable.php:719
+#, php-format
+#@ amr-ical-events-list
+msgid "Subscribe to %s Calendar"
+msgstr "Abonnér på %s-kalender"
+
+#: includes/amr-pluggable.php:726
+#@ amr-ical-events-list
+msgid "Subscribe to calendar in your calendar application."
+msgstr "Abonnér på kalender i dit kalenderprogram."
+
+#: includes/amr-pluggable.php:728
+#@ amr-ical-events-list
+msgid "Subscribe to calendar"
+msgstr "Abonnér på kalender"
+
+#: includes/amr-pluggable.php:834
+#@ amr-ical-events-list
+msgid "Add to google calendar"
+msgstr "Tilføj til Google Kalender"
+
+#: includes/amr-pluggable.php:836
+#@ amr-ical-events-list
+msgid "Add to google"
+msgstr "Tilføj til Google"
+
+#: includes/amr-pluggable.php:852
+#@ amr-ical-events-list
+msgid "Add event to google"
+msgstr "Tilføj begivenhed til Google"
+
+#: includes/amr-pluggable.php:876
+#@ amr-ical-events-list
+msgid "Last Refresh time unexpectedly not available"
+msgstr "Tidspunkt for Sidste genindlæsning mangler uventet"
+
+#: includes/amr-pluggable.php:880
+#@ amr-ical-events-list
+msgid "Refresh calendars"
+msgstr "Genindlæs kalender"
+
+#: includes/amr-pluggable.php:881
+#, php-format
+#@ amr-ical-events-list
+msgid "Last refresh was at %s. "
+msgstr "Sidste genindlæsning skete %s"
+
+#: includes/amr-pluggable.php:883
+#@ amr-ical-events-list
+msgid "Remote file had no modifications. "
+msgstr "Fjernfil indeholdt ingen ændringer. "
+
+#: includes/amr-pluggable.php:887
+#, php-format
+#@ amr-ical-events-list
+msgid "The remote file was last modified on %s."
+msgstr "Fjernfilen blev senest ændret %s."
+
+#: includes/amr-pluggable.php:892
+#@ amr-ical-events-list
+msgid "Click to refresh"
+msgstr "Klik for at genindlæse"
+
+#: includes/amr-pluggable.php:1013
+#, php-format
+#@ amr-ical-events-list
+msgid "Week  %u"
+msgstr "Uge %u"
+
+#: includes/amr-pluggable.php:1392
+#, php-format
+#@ amr-ical-events-list
+msgid "Look for more from %s"
+msgstr "Se efter mere fra %s"
+
+#: includes/amr-pluggable.php:1416
+#@ amr-ical-events-list
+msgid "Go back to initial view"
+msgstr "Tilbage til første visning"
+
+#: includes/amr-pluggable.php:1421
+#@ amr-ical-events-list
+msgid "Go back to previous events"
+msgstr "Tilbage til tidligere begivenheder"
+
+#: includes/amr-pluggable.php:1450
+#@ amr-ical-events-list
+msgid "Sent by "
+msgstr "Sendt af "
+
+#: includes/amr-upcoming-events-widget.php:9
+#: includes/amr-upcoming-events-widget.php:117
+#: includes/amr-upcoming-events-widget.php:187
+#: includes/amr-upcoming-events-widget.php:270
+#@ amr-ical-events-list
+msgid "Upcoming Events"
+msgstr "Kommende begivenheder"
+
+#: includes/amr-upcoming-events-widget.php:10
+#@ amr-ical-events-list
+msgid "Upcoming Events List"
+msgstr "Liste med kommende begivenheder"
+
+#: includes/amr-upcoming-events-widget.php:138
+#@ amr-ical-events-list
+msgid "See plugin website for more details"
+msgstr "Se flere detaljer på pluginwebsitet"
+
+#: includes/amr-upcoming-events-widget.php:141
+#: includes/amr-upcoming-events-widget.php:281
+#@ amr-ical-events-list
+msgid "Title"
+msgstr "Titel"
+
+#: includes/amr-upcoming-events-widget.php:147
+#: includes/amr-upcoming-events-widget.php:287
+#@ amr-ical-events-list
+msgid "Calendar page url"
+msgstr "URL for side med kalender"
+
+#: includes/amr-upcoming-events-widget.php:148
+#@ amr-ical-events-list
+msgid "Calendar page url in this website"
+msgstr "URL til kalenderside på dette website"
+
+#: includes/amr-upcoming-events-widget.php:154
+#@ amr-ical-events-list
+msgid "Hover description on Title"
+msgstr "Beskrivelse på titel ved mus-over"
+
+#: includes/amr-upcoming-events-widget.php:155
+#@ amr-ical-events-list
+msgid "Do an event summary hyperlink with event description as title text "
+msgstr "Lav et link til resumé af begivenhed med beskrivelse af begivenheden som titeltekst"
+
+#: includes/amr-upcoming-events-widget.php:162
+#: includes/amr-upcoming-events-widget.php:294
+#@ amr-ical-events-list
+msgid "External events only"
+msgstr "Kun eksterne begivenheder"
+
+#: includes/amr-upcoming-events-widget.php:163
+#: includes/amr-upcoming-events-widget.php:295
+#@ amr-ical-events-list
+msgid "Show events from external ics only, do NOT pickup any internal events."
+msgstr "Vis kun begivenheder fra ekstern ics, medtag <i>ikke</i> interne begivenheder."
+
+#: includes/amr-upcoming-events-widget.php:164
+#: includes/amr-upcoming-events-widget.php:296
+#@ amr-ical-events-list
+msgid "Else include events created internally too"
+msgstr "Alternativt, inkludér også begivenheder oprettet internt"
+
+#: includes/amr-upcoming-events-widget.php:170
+#: includes/amr-upcoming-events-widget.php:302
+#@ amr-ical-events-list
+msgid "External ics urls and advanced options"
+msgstr "Eksterne ics-URL&#39;er og avancerede indstillinger"
+
+#: includes/amr-upcoming-events-widget.php:171
+#: includes/amr-upcoming-events-widget.php:303
+#@ amr-ical-events-list
+msgid "External ics urls and/or optional shortcode parameters separated by spaces.)"
+msgstr "Eksterne ics-URL&#39;er og/eller valgfri kortkode-parametre adskilte af mellemrum.)"
+
+#: includes/amr-upcoming-events-widget.php:172
+#@ amr-ical-events-list
+msgid " Examples: listtype=4 events=10 days=60 start=yyyymmdd startoffset=-2... )"
+msgstr " Eksempler: listtype=4 events=10 days=60 start=yyyymmdd startoffset=-2... )"
+
+#: includes/amr-upcoming-events-widget.php:174
+#@ amr-ical-events-list
+msgid "See more parameters"
+msgstr "Se flere parametre"
+
+#: includes/amr-upcoming-events-widget.php:190
+#@ amr-ical-events-list
+msgid "Upcoming Events Calendar"
+msgstr "Kalender med kommende begivenheder"
+
+#: includes/amr-upcoming-events-widget.php:279
+#@ amr-ical-events-list
+msgid "See more"
+msgstr "Se efter mere"
+
+#: includes/amr-upcoming-events-widget.php:288
+#@ amr-ical-events-list
+msgid "Calendar page url in this website, for links from widget"
+msgstr "URL til kalenderside på denne website, for links i widget"
+
+#: includes/amr-upcoming-events-widget.php:304
+#@ amr-ical-events-list
+msgid " Examples: listtype=8 events=10 days=60 start=yymmdd startoffset=-2... )"
+msgstr " Eksempler: listtype=8 events=10 days=60 start=yymmdd startoffset=-2... )"
+
+#: includes/functions.php:220
+#: includes/functions.php:224
+#@ amr-ical-events-list
+msgid "Invalid Url"
+msgstr "Ugyldig URL"
+
+#: includes/functions.php:264
+#@ amr-ical-events-list
+msgid "I try to make these plugins work <strong>\"out of the box\"</strong> with minimal effort; that they be easy to use but <strong>very configurable</strong>; <strong>well tested</strong>; with <strong>valid html and css</strong> both at the front and admin area."
+msgstr "Jeg prøver at sikre, at disse plugins <strong>uden videre virker</strong> med et minimum af indsats, er nemme at bruge, men også <strong>har mange indstillinger</strong>, at de er <strong>gennemtestede</strong>, at de er <strong>gennemtestede</strong>, at de genererer <strong>gyldig HTML og CSS</strong> både i selve bloggen og i administrationspanelet."
+
+#: includes/functions.php:265
+#@ amr-ical-events-list
+msgid "If you have a feature request, please do let me know. "
+msgstr "Hvis du har et ønske om en funktion, så lad mig det vide. "
+
+#: includes/functions.php:267
+#@ amr-ical-events-list
+msgid "To edit events in wordpress:"
+msgstr "For at redigere begivenheder i WordPress:"
+
+#: includes/functions.php:269
+#@ amr-ical-events-list
+msgid "Upgrade to amr-events at "
+msgstr "Opgradér til amr-events på "
+
+#: includes/functions.php:274
+#@ amr-ical-events-list
+msgid "Keep all these settings and lists"
+msgstr "Behold alle disse opsætninger og lister"
+
+#: includes/functions.php:276
+#@ amr-ical-events-list
+msgid "Offers many additional benefits."
+msgstr "Giver mange flere fordele. "
+
+#: includes/functions.php:277
+#@ amr-ical-events-list
+msgid "Find out more"
+msgstr "Find ud af mere"
+
+#: includes/functions.php:308
+#@ amr-ical-events-list
+msgid "Events plugin by anmari"
+msgstr "Events-plugin af anmari"
+
+#  toggle
+#: includes/functions.php:324
+#@ amr-ical-events-list
+msgid "Click to toggle"
+msgstr "Klik for at skifte"
+
+#. translators: plugin header field 'Name'
+#: amr-ical-events-list.php:0
+#@ amr-ical-events-list
+msgid "amr events calendar or lists with ical files"
+msgstr ""
+
+#. translators: plugin header field 'PluginURI'
+#: amr-ical-events-list.php:0
+#@ amr-ical-events-list
+msgid "http://icalevents.com"
+msgstr ""
+
+#. translators: plugin header field 'Description'
+#: amr-ical-events-list.php:0
+#@ amr-ical-events-list
+msgid "Display simple or highly customisable and styleable list of events.  Handles all types of recurring events, notes, journals, freebusy etc. Offers links to add events to viewers calendar or subscribe to whole calendar.  Write Calendar Page</a>  and put [iCal http://yoururl.ics ] where you want the list of events of an ics file and [events] to get internal events.      To tweak: <a href=\"admin.php?page=manage_amr_ical\">Manage Settings Page</a>,  <a href=\"widgets.php\">Manage Widget</a>."
+msgstr ""
+
+#. translators: plugin header field 'Author'
+#: amr-ical-events-list.php:0
+#@ amr-ical-events-list
+msgid "anmari"
+msgstr ""
+
+#. translators: plugin header field 'AuthorURI'
+#: amr-ical-events-list.php:0
+#@ amr-ical-events-list
+msgid "http://anmari.com/"
+msgstr ""
+
+#: includes/amr-pluggable.php:139
+#@ amr-ical-events-list
+msgctxt "Submit button for month and year navigation.  Use translation to replace with words if you want."
+msgid "&raquo;&raquo;"
+msgstr ""
+
+#: includes/amr-pluggable.php:625
+#@ amr-ical-events-list
+msgctxt "when an event runs for full days, note the &nbsp; prevents the text wrappping in a table."
+msgid "all&nbsp;day"
+msgstr ""
+
+#: includes/amr-pluggable.php:655
+#@ default
+msgid "category"
+msgstr ""
+
+#: includes/amr-pluggable.php:698
+#@ amr-ical-events-list
+msgid "X-WR-CALDESC"
+msgstr ""
+
+#: includes/amr-pluggable.php:704
+#@ amr-ical-events-list
+msgid "X-WR-CALNAME"
+msgstr ""
+
+#: includes/amr-pluggable.php:1287
+#@ amr-ical-events-list
+msgid "listtypesheading"
+msgstr ""
+
+#: includes/functions.php:48
+#@ amr-ical-events-list
+msgid "Invalid Event Date"
+msgstr ""
+
+#: includes/amr-ical-pretty-print.php:145
+#@ amr-ical-events-list
+msgctxt "eg: last day of the month"
+msgid " of the month"
+msgstr ""
+
+#: includes/amr-ical-pretty-print.php:147
+#@ amr-ical-events-list
+msgctxt "eg: last day of the year"
+msgid " of the year"
+msgstr ""
+
+#. translators: ignore this and translate the string found earlier " No events...
+#: includes/amr-pluggable.php:54
+#@ amr-ical-events-list
+msgid "noeventsmessage"
+msgstr ""
+
+#. translators: ignore, the text appears for translation eslewhere
+#: includes/amr-pluggable.php:1390
+#@ amr-ical-events-list
+msgid "lookmoremessage"
+msgstr ""
+
+#. translators: ignore, the text appears for translation eslewhere
+#: includes/amr-pluggable.php:1400
+#@ amr-ical-events-list
+msgid "lookprevmessage"
+msgstr ""
+
+#. translators: ignore, the text appears for translation eslewhere
+#: includes/amr-pluggable.php:1406
+#@ amr-ical-events-list
+msgid "resetmessage"
+msgstr ""
+
+#. translators: plugin header field 'Version'
+#: amr-ical-events-list.php:0
+#@ amr-ical-events-list
+msgid "4.12"
+msgstr ""
+

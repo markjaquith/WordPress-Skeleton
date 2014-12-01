@@ -1,0 +1,29 @@
+ical.sprite-accept_16{ background-position: 0 0; width: 16px; height: 16px; } 
+ical.sprite-addtogoogle{ background-position: 0 -66px; width: 16px; height: 16px; } 
+ical.sprite-addtogoogle_16{ background-position: 0 -132px; width: 16px; height: 16px; } 
+ical.sprite-arrow_refresh_16{ background-position: 0 -198px; width: 16px; height: 16px; } 
+ical.sprite-calendar_16{ background-position: 0 -264px; width: 16px; height: 16px; } 
+ical.sprite-calendar_add_16{ background-position: 0 -330px; width: 16px; height: 16px; } 
+ical.sprite-calendar_link_16{ background-position: 0 -396px; width: 16px; height: 16px; } 
+ical.sprite-calendar_view_day_16{ background-position: 0 -462px; width: 16px; height: 16px; } 
+ical.sprite-calendar_view_month_16{ background-position: 0 -528px; width: 16px; height: 16px; } 
+ical.sprite-calendar_view_week_16{ background-position: 0 -594px; width: 16px; height: 16px; } 
+ical.sprite-clock_add{ background-position: 0 -660px; width: 16px; height: 16px; } 
+ical.sprite-date_add_16{ background-position: 0 -726px; width: 16px; height: 16px; } 
+ical.sprite-email_16{ background-position: 0 -792px; width: 16px; height: 16px; } 
+ical.sprite-facebook_16{ background-position: 0 -858px; width: 16px; height: 16px; } 
+ical.sprite-feed_add_16{ background-position: 0 -924px; width: 16px; height: 16px; } 
+ical.sprite-google_16{ background-position: 0 -990px; width: 16px; height: 16px; } 
+ical.sprite-info_16{ background-position: 0 -1056px; width: 16px; height: 16px; } 
+ical.sprite-linkedin_16{ background-position: 0 -1122px; width: 16px; height: 16px; } 
+ical.sprite-map_16{ background-position: 0 -1188px; width: 16px; height: 16px; } 
+ical.sprite-music_16{ background-position: 0 -1254px; width: 16px; height: 16px; } 
+ical.sprite-stumbleupon_16{ background-position: 0 -1320px; width: 16px; height: 16px; } 
+ical.sprite-timezone_16{ background-position: 0 -1386px; width: 16px; height: 16px; } 
+ical.sprite-twitter_1_16{ background-position: 0 -1452px; width: 16px; height: 16px; } 
+ical.sprite-youtube_16{ background-position: 0 -1518px; width: 16px; height: 16px; } 
+
+/*Don't forget to add a background rule to reference the sprite image. Something like this, for example: */
+#container li {
+   background: url(csg-4da5455767b51.png) no-repeat top left;
+}

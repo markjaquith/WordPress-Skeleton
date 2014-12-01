@@ -1,0 +1,45 @@
+div#amrical fieldset {margin-top: 1em;}
+div#amrical 	{margin: 0 1em;}
+div#amrical .expandall	{margin: 0 2.5em; color: #D54E21; font-size: smaller;}
+div#amrical ul {list-style: none; padding: 0; margin:0;}
+div#amrical .List {width: 100%; clear:both; padding-top: 20px;}
+div#amrical fieldset#amrglobal label {margin-top: 1em;}
+div#amrical fieldset#amrglobal { width: 35em; }
+div#amrical fieldset#submit { margin: 1em 2em 0 1em;}
+
+div#amrical fieldset#ListTypes fieldset { padding: 0 0.5em; }				
+
+div#amrical legend {font-weight: bold; }
+div#amrical fieldset.layout legend {font-weight: normal; }
+div#amrical textarea,
+div#amrical input {margin-left: 1em; padding: 0.5em; }
+div#amrical .formats input {width: 20em;}
+div#amrical fieldset.layout input {margin: 0; padding: 0.2em;}
+div#amrical fieldset#submit input {padding: 0.4em;}
+div#amrical fieldset#ListTypes fieldset.formats input { } 
+
+div#amrical fieldset.limits label  {margin-left: 1em; }
+div#amrical fieldset.general label {margin-left: 1em; }
+
+div#amrical fieldset#amrglobal label {  display: block;}
+div#amrical label.Column {margin-left: 9em; }
+div#amrical fieldset#ListTypes fieldset.formats label 
+{	margin-left: 1em; 
+}
+div#amrical fieldset.layout label 
+{	font-size: xx-small; 
+	position:relative; 
+	top: -2.5em;
+	right: -4em;
+}
+div#amrical input.wide {
+width: 90%;
+}
+div#amrical h4 { padding:0; margin: 0 0 0.4em 0;
+}
+.layout td {text-align: left ;}
+.layout  th .desc {
+	font-weight: light;	
+}
+
+	
