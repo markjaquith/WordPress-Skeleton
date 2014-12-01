@@ -1,0 +1,2034 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Event Organiser\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-10-31 11:49+0000\n"
+"PO-Revision-Date: 2013-12-10 16:05:10+0000\n"
+"Last-Translator: Jan Kupsa <jan.kupsa@gmail.com>\n"
+"Language-Team: \n"
+"Language: Czech (Czech Republic)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+
+#: classes/class-eo-agenda-widget.php:11
+msgid "Displays a list of events, grouped by date"
+msgstr "Zobrazí seznam událostí seskupených podle data"
+
+#: classes/class-eo-agenda-widget.php:19
+msgid "Events Agenda"
+msgstr "Agenda událostí"
+
+#: classes/class-eo-agenda-widget.php:35
+#: classes/class-eo-calendar-widget.php:46
+#: classes/class-eo-event-list-widget.php:40
+#: classes/class-eo-event-list-widget.php:69
+msgid "Title"
+msgstr "Název"
+
+#: classes/class-eo-agenda-widget.php:39
+msgid "Group by"
+msgstr "Seskupit podle"
+
+#: classes/class-eo-agenda-widget.php:41 event-organiser-calendar.php:237
+msgid "Day"
+msgstr "Den"
+
+#: classes/class-eo-agenda-widget.php:42 event-organiser-calendar.php:237
+msgid "Week"
+msgstr "Týden"
+
+#: classes/class-eo-agenda-widget.php:43 event-organiser-calendar.php:237
+msgid "Month"
+msgstr "Měsíc"
+
+#: classes/class-eo-agenda-widget.php:47
+msgid "Group date format"
+msgstr "Formát data skupiny."
+
+#: classes/class-eo-agenda-widget.php:51
+msgid "Event date/time format"
+msgstr "Formát data/času události"
+
+#: classes/class-eo-agenda-widget.php:55
+msgid "Include 'Add To Google' link"
+msgstr "Zahrnout odkaz 'Přidat do Googlu'"
+
+#: classes/class-eo-calendar-widget.php:22
+msgid "Displays a calendar of your events"
+msgstr "Zobrazí kalendář vašich události"
+
+#: classes/class-eo-calendar-widget.php:24 event-organiser-calendar.php:233
+msgid "Events Calendar"
+msgstr "Kalendář událostí"
+
+#: classes/class-eo-calendar-widget.php:57
+#: classes/class-eo-event-list-widget.php:78
+msgid "Include past events"
+msgstr "Včetně minulých událostí"
+
+#: classes/class-eo-calendar-widget.php:68
+msgid "Show long events"
+msgstr "Ukázat dlouhé události"
+
+#: classes/class-eo-calendar-widget.php:79
+msgid "Link directly to event for days with only one event"
+msgstr "Odkazovat přímo na událost u dní s pouze jednou událostí"
+
+#: classes/class-eo-calendar-widget.php:91
+#: classes/class-eo-event-list-widget.php:48
+msgid "Event categories"
+msgstr "Kategorie události"
+
+#: classes/class-eo-calendar-widget.php:94
+#: classes/class-eo-event-list-widget.php:50
+msgid "List category slug(s), seperate by comma. Leave blank for all"
+msgstr "Seznam slugů, oddělený čárkou. Nechte prázdné pro (zobrazení) všech."
+
+#: classes/class-eo-calendar-widget.php:103
+msgid "Event venue"
+msgstr "Místo události"
+
+#: classes/class-eo-calendar-widget.php:106
+#: classes/class-eo-event-list-widget.php:58
+#: includes/event-organiser-cpt.php:34
+msgid "All Venues"
+msgstr "Všechna místa"
+
+#: classes/class-eo-calendar-widget.php:284
+msgid "Previous month"
+msgstr "Předcházející měsíc"
+
+#: classes/class-eo-calendar-widget.php:287
+msgid "Next month"
+msgstr "Následující měsíc"
+
+#: classes/class-eo-event-list-widget.php:22
+msgid "Displays a list of events"
+msgstr "Zobrazit seznam událostí"
+
+#: classes/class-eo-event-list-widget.php:23 event-organiser-venues.php:481
+#: event-organiser.php:132 includes/event-organiser-cpt.php:217
+#: includes/event-organiser-cpt.php:229
+#: includes/event-organiser-install.php:96 templates/archive-event.php:42
+msgid "Events"
+msgstr "Události"
+
+#: classes/class-eo-event-list-widget.php:44
+msgid "Number of events"
+msgstr "Počet událostí"
+
+#: classes/class-eo-event-list-widget.php:55
+#: includes/event-organiser-cpt.php:32
+msgid "Venue"
+msgstr "Místo"
+
+#: classes/class-eo-event-list-widget.php:66
+msgid "Order by"
+msgstr "Seřadit podle"
+
+#: classes/class-eo-event-list-widget.php:68
+msgid "Start date"
+msgstr "Datum začátku"
+
+#: classes/class-eo-event-list-widget.php:70
+msgid "Publish date"
+msgstr "Datum publikování"
+
+#: classes/class-eo-event-list-widget.php:73
+msgid "ASC"
+msgstr "vzest."
+
+#: classes/class-eo-event-list-widget.php:74
+msgid "DESC"
+msgstr "sest."
+
+#: classes/class-eo-event-list-widget.php:82 event-organiser-settings.php:189
+msgid "Group occurrences"
+msgstr "Seskupit podle výskytu"
+
+#: classes/class-eo-event-list-widget.php:88
+msgid "Template (leave blank for default)"
+msgstr "Šablona (ponechejte prázdné pro výchozí)"
+
+#: classes/class-eo-event-list-widget.php:90
+msgid "Event list widget placeholders"
+msgstr "Zástupné symboly pro widgety seznamu události"
+
+#: classes/class-eo-event-list-widget.php:92
+#, php-format
+msgid ""
+"You can use specified tags as placeholders for event information which you "
+"want to appear in the widget. <a href=\"%s\" target=\"_blank\"> Find out "
+"more</a>."
+msgstr ""
+"Můžete použít určité tagy jako zástupný symbol pro informace událostí, které "
+"chcete, aby se zobrazily ve widgetu. <a href=\"%s\" target=\"_blank\"> "
+"Zjistit více</a>."
+
+#: classes/class-eo-event-list-widget.php:102
+msgid "'No events' message"
+msgstr "zpráva 'Žádné události'"
+
+#: classes/class-eo-venue-list-table.php:72 templates/single-event.php:71
+msgid "Edit"
+msgstr "Upravit"
+
+#: classes/class-eo-venue-list-table.php:73
+#: classes/class-eo-venue-list-table.php:128
+msgid "Delete"
+msgstr "Smazat"
+
+#: classes/class-eo-venue-list-table.php:74
+#: includes/event-organiser-ajax.php:676
+msgid "View"
+msgstr "Ukázat"
+
+#: classes/class-eo-widget-categories.php:10
+msgid "A list or dropdown of event categories"
+msgstr "Seznam nebo rozbalovací menu kategorií událostí"
+
+#: classes/class-eo-widget-categories.php:11 event-organiser-settings.php:329
+#: includes/event-organiser-cpt.php:92
+msgid "Event Categories"
+msgstr "Kategorie události"
+
+#: classes/class-eo-widget-categories.php:28 event-organiser-manage.php:35
+#: includes/event-organiser-cpt.php:103
+#: includes/event-organiser-event-functions.php:1494
+#: templates/event-meta-event-single.php:69
+msgid "Categories"
+msgstr "Kategorie"
+
+#: classes/class-eo-widget-categories.php:54
+msgid "Select Category"
+msgstr "Výběr kategorie"
+
+#: classes/class-eo-widget-categories.php:125
+#: classes/class-eo-widget-venues.php:127
+msgid "Title:"
+msgstr "Název:"
+
+#: classes/class-eo-widget-categories.php:129
+#: classes/class-eo-widget-venues.php:131
+msgid "Display as dropdown"
+msgstr "Zobrazit jako výběr"
+
+#: classes/class-eo-widget-categories.php:132
+msgid "Show hierarchy"
+msgstr "Ukázat hierarchii"
+
+#: classes/class-eo-widget-venues.php:11
+msgid "A list or dropdown of event venues"
+msgstr "Seznam nebo výběr míst událostí."
+
+#: classes/class-eo-widget-venues.php:12
+msgid "Event Venues"
+msgstr "Místa události"
+
+#: classes/class-eo-widget-venues.php:32 event-organiser-settings.php:319
+#: event-organiser-venues.php:185 includes/event-organiser-cpt.php:31
+msgid "Venues"
+msgstr "Místa"
+
+#: classes/class-eo-widget-venues.php:57
+msgid "Select Venue"
+msgstr "Vybrat místo"
+
+#: classes/class-eventorganiser-shortcodes.php:377
+msgid "There is no excerpt because this is a protected post."
+msgstr "Není zde žádný výstřižek, jelikož se jedná o chráněný post."
+
+#: event-organiser-add-ons.php:19 event-organiser-add-ons.php:95
+msgid "Event Organiser Extensions"
+msgstr "Rozšíření Event Organiseru"
+
+#: event-organiser-add-ons.php:20
+msgid "Extensions"
+msgstr "Rozšíření"
+
+#: event-organiser-add-ons.php:99
+msgid ""
+"Event Organiser offers a range of extension which add additional features to "
+"the plug-in."
+msgstr ""
+"Event Organiser nabízí řadu rozšíření, která přinášejí další vlastnosti "
+"tomuto plug-inu."
+
+#: event-organiser-add-ons.php:130 event-organiser-go-pro.php:90
+msgid "Find out more &hellip;"
+msgstr "Zjistit více..."
+
+#: event-organiser-calendar.php:22 event-organiser-calendar.php:23
+msgid "Calendar View"
+msgstr "Zobrazení kalendáře"
+
+#: event-organiser-calendar.php:58 includes/event-organiser-register.php:57
+msgid "today"
+msgstr "dnes"
+
+#: event-organiser-calendar.php:59 includes/event-organiser-register.php:58
+#: includes/event-organiser-register.php:247
+msgid "day"
+msgstr "den"
+
+#: event-organiser-calendar.php:60 includes/event-organiser-register.php:59
+#: includes/event-organiser-register.php:249
+msgid "week"
+msgstr "týden"
+
+#: event-organiser-calendar.php:61 includes/event-organiser-register.php:60
+#: includes/event-organiser-register.php:251
+msgid "month"
+msgstr "měsíc"
+
+#: event-organiser-calendar.php:62 includes/event-organiser-register.php:61
+msgid "go to date"
+msgstr "jít na datum"
+
+#: event-organiser-calendar.php:63 event-organiser-manage.php:122
+#: includes/event-organiser-cpt.php:105
+msgid "View all categories"
+msgstr "Ukázat všechny kategorie"
+
+#: event-organiser-calendar.php:64 includes/event-organiser-cpt.php:45
+msgid "View all venues"
+msgstr "Ukázat všechna místa"
+
+#: event-organiser-calendar.php:111
+msgid "You do not have sufficient permissions to create events. "
+msgstr "Pro vytvoření události nemáte dostatečná proprávnění"
+
+#: event-organiser-calendar.php:167
+msgid "You do not have sufficient permissions to edit this event. "
+msgstr "Pro upravení události nemáte dostatečná proprávnění"
+
+#: event-organiser-calendar.php:185
+msgid "You do not have sufficient permissions to delete this event. "
+msgstr "Pro smazání události nemáte dostatečná proprávnění"
+
+#: event-organiser-calendar.php:195
+msgid "Occurrence deleted."
+msgstr "Opakování smazáno."
+
+#: event-organiser-calendar.php:211
+msgid "Calendar options"
+msgstr "Vlastnosti kalendáře"
+
+#: event-organiser-calendar.php:218
+msgid "24 hour time"
+msgstr "24 hodinový čas"
+
+#: event-organiser-calendar.php:240
+#: includes/event-organiser-event-functions.php:1441
+msgid "Loading&#8230;"
+msgstr "Načítám..."
+
+#: event-organiser-calendar.php:247
+msgid "Current date/time"
+msgstr "Aktuální datum/čas"
+
+#: event-organiser-calendar.php:252
+msgid "Create an event"
+msgstr "Vytvořit událost"
+
+#: event-organiser-calendar.php:257
+msgid "When"
+msgstr "Kdy"
+
+#: event-organiser-calendar.php:261
+msgid "Event Title"
+msgstr "Název události"
+
+#: event-organiser-calendar.php:268 includes/event-organiser-ajax.php:399
+msgid "Where"
+msgstr "Kde"
+
+#: event-organiser-calendar.php:293
+msgid "Save Draft"
+msgstr "Uložit koncept"
+
+#: event-organiser-calendar.php:294 event-organiser-calendar.php:301
+#: event-organiser-edit.php:258
+msgid "Cancel"
+msgstr "Zrušit"
+
+#: event-organiser-calendar.php:297
+msgid "Publish Event"
+msgstr "Publikovat"
+
+#: event-organiser-calendar.php:303
+msgid "Submit for Review"
+msgstr "Poslat k revizi"
+
+#: event-organiser-calendar.php:324 event-organiser-edit.php:14
+#: templates/event-meta-event-single.php:37
+msgid "Event Details"
+msgstr "Detaily události"
+
+#: event-organiser-calendar.php:326
+msgid "Event Detail"
+msgstr "Detail události"
+
+#: event-organiser-debug.php:13 event-organiser-debug.php:14
+#: event-organiser-debug.php:59
+msgid "System Info"
+msgstr "Systémové informace"
+
+#: event-organiser-debug.php:65
+msgid ""
+"This page highlights useful information for debugging. If you're reporting a "
+"bug, please include this information."
+msgstr ""
+"Tato stránka shrnuje užitečné informace pro debugging. Pokud chcete ohlásit "
+"chybu, zahrňte prosím tuto informaci."
+
+#: event-organiser-debug.php:67
+msgid ""
+"The 'system info' link in under the Events admin tab is only visible to "
+"admins and only when <code>WP_DEBUG</code> is set to <code>true</code>."
+msgstr ""
+"Odkaz 'systémové info' pod administrátorskou záložkou Event Organiseru je "
+"viditelné pouze adminům a pouze když je <code>WP_DEBUG</code> nastaven na "
+"<code>true</code>."
+
+#: event-organiser-debug.php:72
+msgid ""
+"Most bugs arise from theme or plug-in conflicts. You can check this by "
+"disabling all other plug-ins and switching to TwentyTweleve."
+msgstr ""
+"Většina chyb vzniká konflikty s šablonami vzhledu nebo plug-iny. Toto můžete "
+"ověřit deaktivací ostatních plug-inů a přepnutím na šablonu TwentyTwelve"
+
+#: event-organiser-debug.php:74
+msgid ""
+"To help speed things along, if you report a bug please indicate if you have "
+"done so. Once the plug-in or theme has been identified it is often easy to "
+"resolve the issue."
+msgstr ""
+"Pro zrychlení věcí, pokud nahlašujete nějaké problém, naznačte, zda jste tak "
+"učinili, Jakmile byl plug-in nebo šablona vzhledu identifikován, je často "
+"jednoduché vyřešit daný problém."
+
+#: event-organiser-debug.php:76
+msgid ""
+"Below any <strong>known</strong> plug-in and theme conflicts are highlighted "
+"in red."
+msgstr ""
+"Níže jsou všechny <strong>známe</strong> konfilkty plug-inů a šablon vzhledu "
+"zvýrazněné červeně."
+
+#: event-organiser-debug.php:84
+msgid "Download system information file"
+msgstr "Stáhnout soubor se systémovými informacemi"
+
+#: event-organiser-debug.php:182 event-organiser-debug.php:186
+#: event-organiser-debug.php:190 event-organiser-settings.php:205
+msgid "Yes"
+msgstr "Ano"
+
+#: event-organiser-debug.php:182 event-organiser-debug.php:186
+#: event-organiser-debug.php:190 event-organiser-settings.php:204
+msgid "No"
+msgstr "Ne"
+
+#: event-organiser-debug.php:257
+msgid ""
+"Known plug-in & theme conflicts, highlighted in red, may be minor or have a "
+"simple resolution. Please contact support."
+msgstr ""
+"Známé konflikty plug-inu a šablon vzhledu, zvýrazněné červeně, mohou být "
+"malého významu nebo mohou mít jednoduché řešení. Kontaktujte prosím podporu."
+
+#. / TRANSLATORS: [this plugin] has only been tested up to [required plugin] [required plugin version]
+#: event-organiser-debug.php:430
+#, php-format
+msgid "%s has only been tested up to %s %s"
+msgstr "%s byl pouze s vyžadovaným pluginem %s až do verze %s"
+
+#. / TRANSLATORS: [this plugin] requires [required plugin] version [required plugin version] or higher
+#: event-organiser-debug.php:439
+#, php-format
+msgid "%s requires %s version %s or higher"
+msgstr "%s vyžaduje %s verze %s nebo vyšší"
+
+#: event-organiser-debug.php:460
+msgid "unknown"
+msgstr "neznámý"
+
+#: event-organiser-edit.php:31 event-organiser-manage.php:23
+#: event-organiser-settings.php:142 includes/event-organiser-ajax.php:386
+msgid "Organiser"
+msgstr "Plánovač"
+
+#: event-organiser-edit.php:75
+msgid "This is a reoccurring event"
+msgstr "Tato událost se opakuje"
+
+#: event-organiser-edit.php:76
+msgid "Check to edit this event and its reoccurrences"
+msgstr "Zaškrtněte pro editaci této události a jejích dalších výskytů."
+
+#: event-organiser-edit.php:98
+#, php-format
+msgid "Ensure dates are entered in %1$s format and times in 24 hour format"
+msgstr ""
+
+#: event-organiser-edit.php:100
+#, php-format
+msgid "Ensure dates are entered in %1$s format and times in 12 hour format"
+msgstr ""
+
+#: event-organiser-edit.php:107 event-organiser-manage.php:36
+msgid "Start Date/Time"
+msgstr "Datum/čas zahájení"
+
+#: event-organiser-edit.php:120 event-organiser-manage.php:37
+msgid "End Date/Time"
+msgstr "Datum/čas ukončení"
+
+#: event-organiser-edit.php:132
+msgid "All day"
+msgstr "Celý den"
+
+#: event-organiser-edit.php:139
+msgid "Reoccurence:"
+msgstr "Opakování"
+
+#: event-organiser-edit.php:141
+msgid "once"
+msgstr "jednou"
+
+#: event-organiser-edit.php:141
+msgid "daily"
+msgstr "denně"
+
+#: event-organiser-edit.php:141
+msgid "weekly"
+msgstr "týdně"
+
+#: event-organiser-edit.php:142
+msgid "monthly"
+msgstr "měsíčně"
+
+#: event-organiser-edit.php:142
+msgid "yearly"
+msgstr "ročně"
+
+#: event-organiser-edit.php:142
+msgid "custom"
+msgstr "ručně"
+
+#: event-organiser-edit.php:155
+msgid "Repeat every"
+msgstr "Opakovat každých"
+
+#: event-organiser-edit.php:161 templates/shortcode-event-list.php:52
+#: templates/widget-event-list.php:49
+msgid "on"
+msgstr "v"
+
+#: event-organiser-edit.php:176
+msgid "day of month"
+msgstr "den v měsíci"
+
+#: event-organiser-edit.php:180
+msgid "day of week"
+msgstr "den v týdnu"
+
+#: event-organiser-edit.php:185
+#: includes/event-organiser-event-functions.php:819
+#: includes/event-organiser-register.php:264
+msgid "until"
+msgstr "dokud"
+
+#: event-organiser-edit.php:195
+msgid "Include/Exclude occurrences"
+msgstr "Přidat/Ubrat opakování"
+
+#: event-organiser-edit.php:198 includes/event-organiser-register.php:241
+msgid "Show dates"
+msgstr "Ukázat data"
+
+#: event-organiser-edit.php:230
+#: includes/event-organiser-venue-functions.php:988
+msgid "Select a venue"
+msgstr "Vybrat místo"
+
+#: event-organiser-edit.php:240
+msgid "Venue Name"
+msgstr "Název místa"
+
+#: event-organiser-edit.php:410
+msgid "Event dates were not saved."
+msgstr "Data události nebyla uložena"
+
+#: event-organiser-go-pro.php:24
+msgid "Get Event Organiser Pro Add-On"
+msgstr "Získat rozšíření Event Organiser Pro"
+
+#: event-organiser-go-pro.php:25
+msgid "Go Pro"
+msgstr "Jít Pro"
+
+#: event-organiser-go-pro.php:52
+msgid "Get Event Organiser Pro"
+msgstr "Získat Event Organiser Pro"
+
+#: event-organiser-go-pro.php:55
+msgid ""
+"Event Organiser Pro is a premium add-on bringing advanced booking management "
+"to Event Organiser."
+msgstr ""
+"Event Organiser Pro je premiové rozšíření, které přínáší vylepšenou správu "
+"rezervací do Event Organiseru."
+
+#: event-organiser-go-pro.php:56
+msgid "But that's not all &hellip;"
+msgstr "Ale to není vše..."
+
+#: event-organiser-go-pro.php:71
+msgid "Flexible Booking Options"
+msgstr "Flexibilní možnosti rezervací"
+
+#: event-organiser-go-pro.php:72
+msgid ""
+"Sell tickets for specific dates or sell tickets for all dates of an event - "
+"such as booking places on a course. You can offer multiple tickets, and "
+"customise the booking form to suit your needs."
+msgstr ""
+"Prodávat lístky pro specifická data nebo prodávat lístky pro všechna data "
+"dané události - např. zamluvení místa na kurzech. Můžete nabídnout rozličné "
+"lístky a upravit rezervovací formulář, aby vyhovoval vašim požadavkům"
+
+#: event-organiser-go-pro.php:76
+msgid "Additional shortcodes & improved UI"
+msgstr "Další shortcody a vylepšené UI"
+
+#: event-organiser-go-pro.php:77
+msgid ""
+"Give your users the ability to search and filter through your events with "
+"the event search shortcode. Event Organiser Pro also adds a text editor "
+"button to make inserting and configuring your shortcodes that bit easier. "
+msgstr ""
+"Dát vašim uživatelům možnost vyhledávat a filtrovat události s pomocí "
+"shortcodu pro vyhledávání. Event Organiser Pro také přidává tlačítko "
+"textového editoru pro zlehčení vkládání a konfigurace shortcodů."
+
+#: event-organiser-go-pro.php:81
+msgid "Venue custom fields & thumbnails"
+msgstr "Vlastní pole a náhledy míst"
+
+#: event-organiser-go-pro.php:82
+msgid ""
+"Add information on your venue pages with venue custom fields, or give your "
+"venues more attentioned with their own 'featured image'"
+msgstr ""
+"Přidat informaci na stránku místa pomocí vlastní polí místa, nebo zvýraznit "
+"vaše místo s pomocí jejich vlastního 'featured image'"
+
+#: event-organiser-go-pro.php:96
+msgid "Go to Event Organiser settings"
+msgstr "Jít na nastavení Event Organiseru"
+
+#: event-organiser-manage.php:19 includes/event-organiser-cpt.php:218
+msgid "Event"
+msgstr "Událost"
+
+#: event-organiser-manage.php:38
+msgid "Reoccurrence"
+msgstr "Opakování"
+
+#: event-organiser-manage.php:153
+msgid "View all events"
+msgstr "Ukázat všechny události"
+
+#: event-organiser-manage.php:154
+msgid "Future events"
+msgstr "Budoucí události"
+
+#: event-organiser-manage.php:155
+msgid "Expired events"
+msgstr "Expirované události"
+
+#: event-organiser-manage.php:156
+msgid "Events within 24 hours"
+msgstr "Události v následujících 24 hodinách"
+
+#: event-organiser-manage.php:157
+msgid "Events within 1 week"
+msgstr "Události v následujícím týdnu"
+
+#: event-organiser-manage.php:158
+#, php-format
+msgid "Events within %d weeks"
+msgstr "Události v následujících %d týdnech"
+
+#: event-organiser-manage.php:159
+msgid "Events within 1 month"
+msgstr "Události v následujícím měsíci"
+
+#: event-organiser-manage.php:160
+#, php-format
+msgid "Events within %d months"
+msgstr "Události v následujících %d měsících"
+
+#: event-organiser-manage.php:161
+msgid "Events within 1 year"
+msgstr "Události během 1 roku"
+
+#: event-organiser-manage.php:212
+msgid "&mdash; No Change &mdash;"
+msgstr "— Beze změny —"
+
+#: event-organiser-settings.php:29 event-organiser-settings.php:74
+msgid "General"
+msgstr "Obecné"
+
+#: event-organiser-settings.php:30
+msgid "Permissions"
+msgstr "Oprávnění"
+
+#: event-organiser-settings.php:31
+msgid "Permalinks"
+msgstr "Trvalé odkazy"
+
+#: event-organiser-settings.php:32
+msgid "Import"
+msgstr "Import"
+
+#: event-organiser-settings.php:32
+msgid "Export"
+msgstr "Export"
+
+#: event-organiser-settings.php:40
+msgid "Event Organiser Settings"
+msgstr "Nastavení Event Organizeru"
+
+#: event-organiser-settings.php:41
+msgid "Event Organiser"
+msgstr "Event Organizer"
+
+#: event-organiser-settings.php:46 event-organiser.php:105
+#: includes/event-organiser-install.php:112
+msgid "Edit Events"
+msgstr "Upravit událost"
+
+#: event-organiser-settings.php:47 event-organiser.php:106
+#: includes/event-organiser-install.php:113
+msgid "Publish Events"
+msgstr "Publikovat událost"
+
+#: event-organiser-settings.php:48 event-organiser.php:107
+#: includes/event-organiser-install.php:114
+msgid "Delete Events"
+msgstr "Smazat událost"
+
+#: event-organiser-settings.php:49 event-organiser.php:108
+#: includes/event-organiser-install.php:115
+msgid "Edit Others' Events"
+msgstr "Upravit cizí události"
+
+#: event-organiser-settings.php:50 event-organiser.php:109
+#: includes/event-organiser-install.php:116
+msgid "Delete Other's Events"
+msgstr "Smazat cizí události"
+
+#: event-organiser-settings.php:51 event-organiser.php:110
+#: includes/event-organiser-install.php:117
+msgid "Read Private Events"
+msgstr "Číst soukromé události"
+
+#: event-organiser-settings.php:52 event-organiser.php:111
+#: includes/event-organiser-install.php:118
+msgid "Manage Venues"
+msgstr "Spravovat Místa"
+
+#: event-organiser-settings.php:53 event-organiser.php:112
+#: includes/event-organiser-install.php:119
+msgid "Manage Event Categories & Tags"
+msgstr "Spravovat kategorie a štítky událostí"
+
+#: event-organiser-settings.php:73
+msgid "Add-on Licence keys"
+msgstr "Licenční klíče rozšíření"
+
+#: event-organiser-settings.php:75
+msgid "Templates"
+msgstr "Šablony"
+
+#: event-organiser-settings.php:137
+msgid "Select which features events should support"
+msgstr "Vyberte, které funkce by měli události podporovat"
+
+#: event-organiser-settings.php:142
+msgid "Author"
+msgstr "Autor"
+
+#: event-organiser-settings.php:143
+msgid "Thumbnail"
+msgstr "Náhled"
+
+#: event-organiser-settings.php:144
+msgid "Excerpt"
+msgstr "Zkrácený popis"
+
+#: event-organiser-settings.php:145
+msgid "Custom Fields"
+msgstr "Uživatelská pole"
+
+#: event-organiser-settings.php:146
+msgid "Comments"
+msgstr "Komentáře"
+
+#: event-organiser-settings.php:147
+msgid "Revisions"
+msgstr "Revize"
+
+#: event-organiser-settings.php:148 event-organiser-settings.php:338
+#: includes/event-organiser-cpt.php:146
+msgid "Event Tags"
+msgstr "Štítky události"
+
+#: event-organiser-settings.php:153 event-organiser-settings.php:180
+msgid "Show past events:"
+msgstr "Ukázat i minulé události"
+
+#: event-organiser-settings.php:159 event-organiser-settings.php:186
+msgid ""
+"Display past events on calendars, event lists and archives (this can be over-"
+"ridden by shortcode attributes and widget options)."
+msgstr ""
+"Zobrazit minulé události v kalendáři, seznamu událostí a archivu (toto je "
+"možné změnit parametry shortcodu a nastaveném widgetu)."
+
+#: event-organiser-settings.php:162
+msgid "Add an 'events' link to the navigation menu:"
+msgstr "Přidat link 'události' do navigační ho menu:"
+
+#: event-organiser-settings.php:167
+msgid "Date Format:"
+msgstr "Formát data:"
+
+#: event-organiser-settings.php:173
+msgid "dd-mm-yyyy"
+msgstr "dd.mm.yyyy"
+
+#: event-organiser-settings.php:174
+msgid "mm-dd-yyyy"
+msgstr "mm-dd-yyyy"
+
+#: event-organiser-settings.php:175
+msgid "yyyy-mm-dd"
+msgstr "rrrr-mm-dd"
+
+#: event-organiser-settings.php:177
+msgid "This alters the default format for inputting dates."
+msgstr "Toto změní výchozí formát pro vkládání časových dat."
+
+#: event-organiser-settings.php:195
+msgid ""
+"If selected only one occurrence of an event will be displayed on event lists "
+"and archives (this can be over-ridden by shortcode attributes and widget "
+"options."
+msgstr ""
+"Pokud vybráno, bude v seznamu událostí a archivu zobrazen pouze jeden výskyt/"
+"opakování událostiv (toto je možné změnit parametry shortcodu a nastavením "
+"widgetu)."
+
+#: event-organiser-settings.php:198
+msgid "Are current events past?"
+msgstr "Brát právě probíhající události jako minulé?"
+
+#: event-organiser-settings.php:207
+msgid ""
+"If 'no' is selected, an occurrence of an event is only past when it has "
+"finished. Otherwise, an occurrence is considered 'past' as soon as it starts."
+msgstr ""
+"Pokud je vybráno 'ne', výskyt události je minulý pouze v případě, že již "
+"skončil. Jinak je výskyt události považován za 'minulost' v okamřiku, kdy "
+"událost začla."
+
+#: event-organiser-settings.php:210
+msgid "Delete expired events:"
+msgstr "Smazat prošlé události:"
+
+#: event-organiser-settings.php:216
+msgid ""
+"If selected the event will be automatically trashed 24 hours after the last "
+"occurrence finishes."
+msgstr ""
+"Pokud zvoleno, události budou automaticky umístěny do koše 24 po ukončení "
+"jejich posledního výskytu/opakování."
+
+#: event-organiser-settings.php:219
+msgid "Enable events ICAL feed:"
+msgstr "Zapnout ICAL feed událostí:"
+
+#: event-organiser-settings.php:225
+#, php-format
+msgid "If selected, visitors can subscribe to your events with the url: %s"
+msgstr ""
+"Pokud zvoleno, návštěvníci se mohou přihlásit k odběru vašich událostí "
+"pomocí url: %s"
+
+#: event-organiser-settings.php:228
+msgid "Exclude events from searches:"
+msgstr "Vyloučit události z vyhledávání:"
+
+#: event-organiser-settings.php:236
+msgid "Enable templates:"
+msgstr "Zapnout šablony:"
+
+#: event-organiser-settings.php:242
+msgid ""
+"For each of the pages, the corresponding template is used. To use your own "
+"template simply give it the same name and store in your theme folder. By "
+"default, if Event Organiser cannot find a template in your theme directory, "
+"it will use its own default template. To prevent this, uncheck this option. "
+"WordPress will then decide which template from your theme's folder to use."
+msgstr ""
+"Pro každou ze stránek je použita odpovídající šablona. Pro použití vlastní "
+"šablony jí jednoduše dejte stejné jméno a uložte ve složce vaší šablohy "
+"vzhledu. Ve výchozím stavu, pokud nemůže Event Organiser najít šablonu ve "
+"složce vaší šablony vzhledu, použije šablonu výchozí. Pokud tomu chcete "
+"zabránit, odškrtněte tuto volbu. WordPress poté rozhodne, kterou šablonu ze "
+"složky šablony vzhledu použije."
+
+#: event-organiser-settings.php:248
+msgid "Events archives:"
+msgstr "Archiv událostí:"
+
+#: event-organiser-settings.php:249
+msgid "Event page:"
+msgstr "Stránka události:"
+
+#: event-organiser-settings.php:250
+msgid "Venue page:"
+msgstr "Stránka místa:"
+
+#: event-organiser-settings.php:251
+msgid "Events Category page:"
+msgstr "Stránka kategorie místa:"
+
+#: event-organiser-settings.php:254
+#, php-format
+msgid ""
+"For more information see documentation <a href='%s'>on editing the "
+"templates</a>"
+msgstr ""
+"Pro více informací navštivte dokumentaci o <a href='%s'> editování šablon</a>"
+
+#: event-organiser-settings.php:259
+msgid "Disable CSS:"
+msgstr "Zakázat CSS:"
+
+#: event-organiser-settings.php:265
+msgid ""
+"Check this option to prevent any stylesheets from Event Organiser being "
+"loaded on the front-end"
+msgstr ""
+"Zaškrtněte tuto možnost pro zabránění nahrání jakéhokoliv stylesheetu z "
+"Event organizeru do front-endu"
+
+#: event-organiser-settings.php:274
+msgid "Enable event pretty permalinks:"
+msgstr "Zapnout pěkné trvalé odkazy pro události:"
+
+#: event-organiser-settings.php:280
+msgid ""
+"If you have pretty permalinks enabled, select to have pretty premalinks for "
+"events."
+msgstr ""
+"Pokud máte zanuty pěkné trvalé odkazy, zaškrtněte, abyste měli pěkné trvalé "
+"odkazy pro události."
+
+#: event-organiser-settings.php:284
+msgid "Event (single)"
+msgstr "Událost (příspěvek)"
+
+#: event-organiser-settings.php:293
+msgid "Events page"
+msgstr ""
+
+#: event-organiser-settings.php:306
+msgid "Event (date archive)"
+msgstr ""
+
+#: event-organiser-settings.php:312
+msgid "Year archive"
+msgstr "Roční archiv"
+
+#: event-organiser-settings.php:313
+msgid "Month archive"
+msgstr "Měsíční archiv"
+
+#: event-organiser-settings.php:314
+msgid "Day archive"
+msgstr "Denní archiv"
+
+#: event-organiser-settings.php:612
+msgid "Event management permissions"
+msgstr "Povolení managmentu událostí"
+
+#: event-organiser-settings.php:613
+msgid "Set permissions for events and venue management"
+msgstr "Nastavit oprávnění pro správu událostí a míst"
+
+#: event-organiser-settings.php:618
+msgid "Role"
+msgstr "Role"
+
+#: event-organiser-settings.php:629
+msgid "None"
+msgstr "Žádná"
+
+#: event-organiser-settings.php:658
+msgid ""
+"Choose a custom permalink structure for events, venues, event categories and "
+"event tags."
+msgstr ""
+"Vyberte vlastní strukturu trvalých odkazů pro události, místa, kategorie "
+"událostí nebo tagy událostí."
+
+#: event-organiser-settings.php:659
+msgid ""
+"Please note to enable these structures you must first have pretty permalinks "
+"enabled on WordPress in Settings > Permalinks."
+msgstr ""
+"Pro zapnutí těchto struktur musíte mít nejdříve povoleny pěkné trvalé odkazy "
+"ve Wordpress v nastavení > Trvalé odkazy"
+
+#: event-organiser-settings.php:660
+msgid ""
+"You may also need to go to WordPress Settings > Permalinks and click 'Save "
+"Changes' before any changes will take effect."
+msgstr ""
+"Možná budete muset také jít do Nastavení WordPressu > Trvalé odkazy a "
+"kliknout na 'Uložit změny' než se změny projeví"
+
+#: event-organiser-settings.php:696
+msgid "Do not add to menu"
+msgstr "Nepřidávat do menu"
+
+#: event-organiser-settings.php:700
+msgid "Page list (fallback)"
+msgstr "Seznam stránek (fallback)"
+
+#: event-organiser-venues.php:49
+msgid "You do not have permission to manage venues"
+msgstr "Nemáte oprávnění spravovat místa"
+
+#: event-organiser-venues.php:54 event-organiser-venues.php:83
+msgid "You do not have permission to edit this venue."
+msgstr "Nemáte oprávnění upravit toto místo."
+
+#: event-organiser-venues.php:61
+msgid "Venue <strong>was not</strong> updated"
+msgstr "Místo <strong>nebylo</strong> aktualizováno"
+
+#: event-organiser-venues.php:98
+msgid "Venue <strong>was not</strong> created"
+msgstr "Místo <strong>nebylo</strong> vytvořeno"
+
+#: event-organiser-venues.php:127
+msgid "You do not have permission to delete this venue"
+msgstr "Nemáte oprávnění smazat toto místo."
+
+#: event-organiser-venues.php:154
+msgid "Venue(s) <strong>were not </strong> deleted"
+msgstr "Místo "
+
+#: event-organiser-venues.php:166
+msgid "Save"
+msgstr "Uložit"
+
+#: event-organiser-venues.php:193
+msgid "Venue <strong>created</strong>"
+msgstr "Místo <strong>vytvořeno</strong>"
+
+#: event-organiser-venues.php:194
+msgid "Venue <strong>updated</strong>"
+msgstr "Místo <strong>upraveno</strong>"
+
+#: event-organiser-venues.php:195
+msgid "Venue(s) <strong>deleted</strong>"
+msgstr "Místo <strong>smazáno</strong>"
+
+#: event-organiser-venues.php:255 event-organiser-venues.php:294
+#: includes/event-organiser-cpt.php:219
+#, fuzzy
+msgctxt "post"
+msgid "Add New"
+msgstr "Přidat nové"
+
+#: event-organiser-venues.php:258
+#, php-format
+msgid "Search results for &#8220;%s&#8221;"
+msgstr "Výsledky hledání pro “%s”"
+
+#: event-organiser-venues.php:417
+msgid "Latitude/Longitude:"
+msgstr ""
+
+#: event-organiser-venues.php:445
+msgid "Venue name"
+msgstr "Název místa"
+
+#: event-organiser-venues.php:451
+msgid "Permalink:"
+msgstr "Trvalý odkaz:"
+
+#: event-organiser-venues.php:458
+msgid "Get Link"
+msgstr "Získat odkaz"
+
+#: event-organiser-venues.php:480
+msgid "Slug"
+msgstr "Slug"
+
+#: includes/class-eo-ical-parser.php:193
+msgid "There was an error detecting iCal source."
+msgstr "Nastala chyba při detekci iCal zdroje."
+
+#: includes/class-eo-ical-parser.php:201
+msgid "Unable to read iCal file"
+msgstr "Nebylo možné přečít iCal soubor."
+
+#: includes/class-eo-ical-parser.php:208
+msgid "Feed not found"
+msgstr "Feed nenalezen"
+
+#: includes/class-eo-ical-parser.php:274
+#, php-format
+msgid "There was an error fetching the feed. Response code: %s."
+msgstr "Nastala chyba při záskávání feedu. Kód odpovědi: %s."
+
+#: includes/class-eo-ical-parser.php:294
+msgid "There was an error opening the ICAL file."
+msgstr "Nastala chyba při otevírání ICAL souboru."
+
+#: includes/class-eo-ical-parser.php:495 includes/class-eo-ical-parser.php:520
+#, php-format
+msgid "[Lines %1$d-%2$d]"
+msgstr "[Lines %1$d-%2$d]"
+
+#: includes/class-eo-ical-parser.php:502 includes/class-eo-ical-parser.php:527
+#, php-format
+msgid "[Line %1$d]"
+msgstr "[Line %1$d]"
+
+#: includes/class-eo-ical-parser.php:885
+#, php-format
+msgid "Invalid date \"%s\". Date expected in YYYYMMDD format."
+msgstr "Neplatné datum \"%s\". Datum očekáváno v YYYYMMDD formátu."
+
+#: includes/class-eo-ical-parser.php:923
+#, php-format
+msgid ""
+"Invalid datetime \"%s\". Date expected in YYYYMMDDTHHiissZ or "
+"YYYYMMDDTHHiiss format."
+msgstr ""
+"Neplatný časový údaj \"%s\". Datum očekáváno v YYYYMMDDTHHiissZ nebo "
+"YYYYMMDDTHHiiss formátu."
+
+#: includes/class-event-organiser-im-export.php:61
+#, php-format
+msgid "File Error encountered: %d"
+msgstr "File Error encountered: %d"
+
+#: includes/class-event-organiser-im-export.php:68
+msgid "No file detected."
+msgstr "Nezjištěn žádný soubor"
+
+#: includes/class-event-organiser-im-export.php:71
+msgid ""
+"Invalid file uploaded. The file must be a ics calendar file of type 'text/"
+"calendar', no larger than 2MB."
+msgstr ""
+"Nahrán neplatný soubor. Soubor musí být kalendářový soubor ics typu 'text/"
+"calendar', ne větší než 2MB."
+
+#: includes/class-event-organiser-im-export.php:73
+#, php-format
+msgid "File size: %s. File type: %s"
+msgstr "Velikost souboru: %s. Typ souboru: %s"
+
+#: includes/class-event-organiser-im-export.php:91
+msgid "Export Events"
+msgstr "Exportovat události"
+
+#: includes/class-event-organiser-im-export.php:94
+msgid ""
+"The export button below generates an ICS file of your events that can be "
+"imported in to other calendar applications such as Google Calendar."
+msgstr ""
+"Tlačítko export generuje ICS soubor vašich událostí, který může být "
+"importován do jiných aplikací, jako je Google Calendar."
+
+#: includes/class-event-organiser-im-export.php:97
+msgid "Download Export File"
+msgstr "Stažení exportovaného souboru"
+
+#: includes/class-event-organiser-im-export.php:100
+msgid "Import Events"
+msgstr "Importovat události."
+
+#: includes/class-event-organiser-im-export.php:103
+msgid "Import an ICS file."
+msgstr "Importova ICS soubor."
+
+#: includes/class-event-organiser-im-export.php:105
+msgid "Import venues"
+msgstr "Import míst"
+
+#: includes/class-event-organiser-im-export.php:107
+msgid "Import categories"
+msgstr "Import kategorií"
+
+#: includes/class-event-organiser-im-export.php:111
+msgid "Upload ICS file"
+msgstr "Nahrát ICS soubor"
+
+#: includes/class-event-organiser-im-export.php:162
+msgid "You do not have sufficient permissions to import events."
+msgstr "Nemáte dostatečné oprávnění k importování událostí."
+
+#: includes/class-event-organiser-im-export.php:244
+msgid "No events were imported."
+msgstr "Nebyla importována žádná místa."
+
+#: includes/class-event-organiser-im-export.php:253
+msgid "Error:"
+msgstr "Chyba:"
+
+#: includes/class-event-organiser-im-export.php:263
+msgid "Warning:"
+msgstr "Varování:"
+
+#: includes/class-event-organiser-im-export.php:268
+msgid "1 event was successfully imported"
+msgstr "1 událost byla úspěšně importována"
+
+#: includes/class-event-organiser-im-export.php:271
+#, php-format
+msgid "%d events were successfully imported"
+msgstr "%d událostí bylo úspěšně importováno"
+
+#: includes/class-event-organiser-im-export.php:274
+msgid "1 venue was created"
+msgstr "1 místo bylo vytvořeno"
+
+#: includes/class-event-organiser-im-export.php:277
+#, php-format
+msgid "%d venues were created"
+msgstr "%d míst bylo vytvořeno"
+
+#: includes/class-event-organiser-im-export.php:281
+msgid "1 category was created"
+msgstr "1 kategorie byla vytvořena"
+
+#: includes/class-event-organiser-im-export.php:284
+#, php-format
+msgid "%d categories were created"
+msgstr "%d kategorií vytvořeno"
+
+#: includes/event-organiser-ajax.php:352
+msgid "Protected"
+msgstr "Chráněno"
+
+#: includes/event-organiser-ajax.php:354
+msgid "Private"
+msgstr "Privátní"
+
+#: includes/event-organiser-ajax.php:356
+msgid "Draft"
+msgstr "Koncept"
+
+#: includes/event-organiser-ajax.php:383
+#: templates/event-meta-event-single.php:58
+msgid "Start"
+msgstr "Start"
+
+#: includes/event-organiser-ajax.php:384
+msgid "End"
+msgstr "Konec"
+
+#: includes/event-organiser-ajax.php:425
+msgid "This event reoccurs"
+msgstr "Tato událost se opakuje"
+
+#: includes/event-organiser-ajax.php:431 includes/event-organiser-cpt.php:221
+msgid "Edit Event"
+msgstr "Upravit událost"
+
+#: includes/event-organiser-ajax.php:450
+msgid "Delete this occurrence"
+msgstr "Smazat toto opakování"
+
+#: includes/event-organiser-ajax.php:464
+msgid "Break this series"
+msgstr "Zrušit tuto serií"
+
+#: includes/event-organiser-ajax.php:672
+#: includes/event-organiser-event-functions.php:1399
+msgid "All Day"
+msgstr "Celodenní"
+
+#: includes/event-organiser-ajax.php:677
+msgid "Add To Google Calendar"
+msgstr "Přidat do Google kalendáře"
+
+#: includes/event-organiser-cpt.php:33
+msgid "Search Venues"
+msgstr "Prohledávat místa"
+
+#: includes/event-organiser-cpt.php:35
+msgid "View Venue"
+msgstr "Ukázat místo"
+
+#: includes/event-organiser-cpt.php:36
+msgid "Edit Venue"
+msgstr "Upravit místa"
+
+#: includes/event-organiser-cpt.php:37
+msgid "Update Venue"
+msgstr "Upravit místo"
+
+#: includes/event-organiser-cpt.php:38
+msgid "Add New Venue"
+msgstr "Přidat nové místo"
+
+#: includes/event-organiser-cpt.php:39
+msgid "New Venue Name"
+msgstr "Název nového místa"
+
+#: includes/event-organiser-cpt.php:40
+msgid "No venues found"
+msgstr "Nenalezena žádná místa"
+
+#: includes/event-organiser-cpt.php:41
+msgid "Add or remove venues"
+msgstr "Přidat/odebrat místa"
+
+#: includes/event-organiser-cpt.php:42
+msgid "Separate venues with commas"
+msgstr "Místa od sebe oddělte čárkou"
+
+#: includes/event-organiser-cpt.php:44
+msgid "Venue Location"
+msgstr "Adresa místa"
+
+#: includes/event-organiser-cpt.php:46
+#, fuzzy
+msgid "Venue:"
+msgstr "Místo"
+
+#: includes/event-organiser-cpt.php:47
+msgid "No Venue"
+msgstr "Žádné místo"
+
+#: includes/event-organiser-cpt.php:93
+#, fuzzy
+msgctxt "taxonomy singular name"
+msgid "Category"
+msgstr "Kategorie"
+
+#: includes/event-organiser-cpt.php:94
+msgid "Search Categories"
+msgstr "Prohledat kategorie"
+
+#: includes/event-organiser-cpt.php:95
+msgid "All Categories"
+msgstr "Všechny kategorie"
+
+#: includes/event-organiser-cpt.php:96
+msgid "Parent Category"
+msgstr "Nadřízená kategorie"
+
+#: includes/event-organiser-cpt.php:97
+#, fuzzy
+msgid "Parent Category:"
+msgstr "Nadřízená kategorie"
+
+#: includes/event-organiser-cpt.php:98
+msgid "Edit Category"
+msgstr "Upravit kategorii"
+
+#: includes/event-organiser-cpt.php:99
+msgid "Update Category"
+msgstr "Uložit kategorii"
+
+#: includes/event-organiser-cpt.php:100
+msgid "Add New Category"
+msgstr "Přidat novou kategorii"
+
+#: includes/event-organiser-cpt.php:101
+msgid "New Category Name"
+msgstr "Název nové kategorie"
+
+#: includes/event-organiser-cpt.php:102
+msgid "No categories found"
+msgstr "Kategorie nenalezeny"
+
+#: includes/event-organiser-cpt.php:147
+#, fuzzy
+msgctxt "taxonomy singular name"
+msgid "Tag"
+msgstr "Štítky"
+
+#: includes/event-organiser-cpt.php:148
+msgid "Search Tags"
+msgstr "Prohledávat tagy"
+
+#: includes/event-organiser-cpt.php:149
+msgid "All Tags"
+msgstr "Všechny štítky"
+
+#: includes/event-organiser-cpt.php:150
+msgid "Popular Tags"
+msgstr "Populární štítky"
+
+#: includes/event-organiser-cpt.php:151
+msgid "Edit Tag"
+msgstr "Upravit štítek"
+
+#: includes/event-organiser-cpt.php:152
+msgid "Update Tag"
+msgstr "Uložit štítek"
+
+#: includes/event-organiser-cpt.php:153
+msgid "Add New Tag"
+msgstr "Přidat nový štítek"
+
+#: includes/event-organiser-cpt.php:154
+msgid "New Tag Name"
+msgstr "Název nového štítku"
+
+#: includes/event-organiser-cpt.php:155
+msgid "No tags found"
+msgstr "Štítky nenalezeny"
+
+#: includes/event-organiser-cpt.php:156
+msgid "Choose from the most used tags"
+msgstr "Vyberte z nejpoužívanějších štítků"
+
+#: includes/event-organiser-cpt.php:157
+#: includes/event-organiser-event-functions.php:1501
+#: templates/event-meta-event-single.php:74
+msgid "Tags"
+msgstr "Štítky"
+
+#: includes/event-organiser-cpt.php:158
+msgid "Add or remove tags"
+msgstr "Přidat/odebrat štítky"
+
+#: includes/event-organiser-cpt.php:159
+msgid "Separate tags with commas"
+msgstr "Štítky od sebe oddělte čáskou"
+
+#: includes/event-organiser-cpt.php:161
+msgid "View all tags"
+msgstr ""
+
+#: includes/event-organiser-cpt.php:220
+msgid "Add New Event"
+msgstr "Přidat novou událost"
+
+#: includes/event-organiser-cpt.php:222
+msgid "New Event"
+msgstr "Nová událost"
+
+#: includes/event-organiser-cpt.php:223
+msgid "All events"
+msgstr "Všechny události"
+
+#: includes/event-organiser-cpt.php:224
+msgid "View Event"
+msgstr "Zobrazit událost"
+
+#: includes/event-organiser-cpt.php:225
+msgid "Search events"
+msgstr "Prohledat události"
+
+#: includes/event-organiser-cpt.php:226
+msgid "No events found"
+msgstr "Událost nenalezena"
+
+#: includes/event-organiser-cpt.php:227
+msgid "No events found in Trash"
+msgstr "V koši není žádná událost"
+
+#: includes/event-organiser-cpt.php:310
+#, php-format
+msgid "Event updated. <a href=\"%s\">View event</a>"
+msgstr "Událost upravena. <a href=\"%s\">Zobrazit</a>"
+
+#: includes/event-organiser-cpt.php:311
+msgid "Custom field updated."
+msgstr "Uživatelské pole upraveno."
+
+#: includes/event-organiser-cpt.php:312
+msgid "Custom field deleted."
+msgstr "Vlastní pole smazáno"
+
+#: includes/event-organiser-cpt.php:313
+msgid "Event updated."
+msgstr "Událost upravena."
+
+#: includes/event-organiser-cpt.php:315
+#, php-format
+msgid "Event restored to revision from %s"
+msgstr "Událost upravena do verze z %s"
+
+#: includes/event-organiser-cpt.php:316
+#, php-format
+msgid "Event published. <a href=\"%s\">View event</a>"
+msgstr "Událost publikována. <a href=\"%s\">Zobrazit</a>"
+
+#: includes/event-organiser-cpt.php:317
+msgid "Event saved."
+msgstr "Událost uložena."
+
+#: includes/event-organiser-cpt.php:318
+#, php-format
+msgid "Event submitted. <a target=\"_blank\" href=\"%s\">Preview event</a>"
+msgstr "Událost odeslána. <a target=\"_blank\" href=\"%s\">Zobrazit náhled</a>"
+
+#: includes/event-organiser-cpt.php:319
+#, php-format
+msgid ""
+"Event scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s"
+"\">Preview event</a>"
+msgstr ""
+"Událost naplánována na: <strong>%1$s</strong>. <a target=\"_blank\" href="
+"\"%2$s\">Zobrazit náhled</a>"
+
+#: includes/event-organiser-cpt.php:321
+msgid "M j, Y @ G:i"
+msgstr "M j, Y @ G:i"
+
+#: includes/event-organiser-cpt.php:322
+#, php-format
+msgid "Event draft updated. <a target=\"_blank\" href=\"%s\">Preview event</a>"
+msgstr ""
+"Koncept události aktualizován. <a target=\"_blank\" href=\"%s\">Náhled "
+"události</a>"
+
+#: includes/event-organiser-cpt.php:323
+msgid "This event has been broken from a recurring event."
+msgstr "Tato událost byla oddělena od opakující se události."
+
+#: includes/event-organiser-cpt.php:516
+msgid "Creating events"
+msgstr "Tvorba událostí"
+
+#: includes/event-organiser-cpt.php:517
+msgid "Creating events:"
+msgstr "Tvorba událostí:"
+
+#: includes/event-organiser-cpt.php:519
+msgid ""
+"The start date is the date the event starts. If the event is a reoccuring "
+"event, this is the start date of the first occurrence."
+msgstr ""
+"Datum začátku je datum, kdy událost začíná. Pokud se jedná o opakující se "
+"událost, je toto začátek prvního výskytu."
+
+#: includes/event-organiser-cpt.php:520
+msgid ""
+"The end date is the date the event finishes. If the event is a reoccuring "
+"event, this is the end date of the first occurrence."
+msgstr ""
+"Datum konce je datum, kdy událost končí. Pokud se jedná o opakující se "
+"událost, je toto konec prvního výskytu."
+
+#: includes/event-organiser-cpt.php:521
+msgid ""
+"All dates and times must be entered in the specified format. This format can "
+"changed in the settings page."
+msgstr ""
+"Všechna data a časy musí být vloženy v daném formátu. Tento formát může být "
+"změněn na stránce nastavení."
+
+#: includes/event-organiser-cpt.php:526
+msgid "Repeating events"
+msgstr "Opakující se události."
+
+#: includes/event-organiser-cpt.php:527
+msgid ""
+"To repeat an event according to some regular pattern, use the reoccurrence "
+"dropdown menu to select how the event is to repeat. Further options then "
+"appear, "
+msgstr ""
+"Pro opakování události podle nějakého pravidelného vzoru, použijte "
+"vyskakovací menu opakování pro výběr, jak se bude událost opakovat. Další "
+"možnosti se pak objeví,"
+
+#: includes/event-organiser-cpt.php:529
+msgid "Specify how regularly the event should repeat (default 1)"
+msgstr "Specifikujte, jak často se má událost opakovat (výchozí - 1)"
+
+#: includes/event-organiser-cpt.php:530
+msgid ""
+"Choose the reoccurrence end date. No further occurrences are added after "
+"this date, but an occurrence that starts before may finish after this date."
+msgstr ""
+"Vyberte konečné datum pro opakování výskytu. Žádné další výskyty nebudou po "
+"tomto datu přidány, ale výskyty, které před ním začali, mohou dle nastavení "
+"skončit až po něm."
+
+#: includes/event-organiser-cpt.php:531
+msgid ""
+"If monthly reoccurrence is selected, select whether this should repeat on "
+"that date of the month (e.g. on the 24th) or on the day of the month (e.g. "
+"on the third Tuesday) "
+msgstr ""
+"Pokud je vybráno měsíční opakování události, vyberte, zda se má událost "
+"opakovat v dané datum (např. 24) nebo v daný den měsíce (např. třetí čtvrtek)"
+
+#: includes/event-organiser-cpt.php:532
+msgid ""
+"If weekly reoccurrence is selected, select which days of the week the event "
+"should be repeated. If no days are selected, the day of the start date is "
+"used"
+msgstr ""
+"Pokud je zvoleno týdení opakování, vyberte, které dny v týdnu by se měla "
+"událost opakovat. Pokud nejsou žádné dny vybrány, bude vybrán den, kdy "
+"událost začala."
+
+#: includes/event-organiser-cpt.php:537 includes/event-organiser-cpt.php:538
+msgid "Selecting a venue"
+msgstr "Vybrání místa"
+
+#: includes/event-organiser-cpt.php:540
+msgid "Use the venues input field to search for existing venues"
+msgstr "Použijte vstupní pole míst pro vyhledávání existujících míst"
+
+#: includes/event-organiser-cpt.php:541
+msgid ""
+"Only pre-existing venues can be selected. To add a venue, go to the venues "
+"page."
+msgstr ""
+"Lze vybrat pouze již existující místa. Pro přidání místa jděte na stránku "
+"míst."
+
+#: includes/event-organiser-cpt.php:551 includes/event-organiser-cpt.php:570
+msgid "Overview"
+msgstr "Přehled"
+
+#: includes/event-organiser-cpt.php:552
+msgid ""
+"This is the list of all saved events. Note that <strong> reoccurring events "
+"appear as a single row </strong> in the table and the start and end date "
+"refers to the first occurrence of that event."
+msgstr ""
+"Toto je seznam všech uložených událostí. Berte na vědomí, že <strong> "
+"opakující se události se ukazují jako jeden řádek </strong> v tabulce a že "
+"datum začátku a konce odpovídá prvnímu výskytu dané události."
+
+#: includes/event-organiser-cpt.php:558
+msgid ""
+"Hovering over a row in the venues list will display action links that allow "
+"you to manage that venue. You can perform the following actions:"
+msgstr ""
+"Přejetí přes řádek v seznamu míst zobrazí seznam akcí, které dovolují "
+"spravovat dané místo. Můžete provést následující akce:"
+
+#: includes/event-organiser-cpt.php:560
+msgid ""
+"Edit takes you to the editing screen for that venue. You can also reach that "
+"screen by clicking on the venue title."
+msgstr ""
+"Editace vás vezme na editační obrazovku pro dané místo. Té můžete také "
+"dosáhnout kliknutím na název místa."
+
+#: includes/event-organiser-cpt.php:561
+msgid "Delete will permanently remove the venue"
+msgstr "Smazání natrvalo odstraní místo"
+
+#: includes/event-organiser-cpt.php:562
+msgid "View will take you to the venue's page"
+msgstr "'Zobrazit' vás přenese na stránku místa."
+
+#: includes/event-organiser-cpt.php:571
+msgid ""
+"This page shows all (occurrances of) events. You can view the summary of an "
+"event by clicking on it. If you have the necessary permissions, a link to "
+"the event's edit page will appear also."
+msgstr ""
+"Tato stránka ukazuje všechny (výskyty) událostí. Můžete vidět souhrn "
+"události, pokud na ní kliknete. Pokud máte potřebná oprávnění, zobrazí se i "
+"odkaz na editační stránku události."
+
+#: includes/event-organiser-cpt.php:572
+msgid ""
+"By clicking the relevant tab, you can view events in Month, Week or Day "
+"mode. You can also filter the events by events by category and venue. The "
+"'go to date' button allows you to quickly jump to a specific date."
+msgstr ""
+"Kliknutím na danou záložku, můžete vidět události v měsíčním, týdením nebo "
+"denním zobrazení. Můžete také filtrovat události podle kategorie a místa. "
+"Tlačítko 'jít na datum' umožňuje rychle přejít na speficikované datum."
+
+#: includes/event-organiser-cpt.php:576
+msgid "Add Event"
+msgstr "Přidat událost"
+
+#: includes/event-organiser-cpt.php:577
+msgid ""
+"You can create an event on this Calendar, by clicking on day or dragging "
+"over multiple days (in Month view) or multiple times (in Week and Day view). "
+"You can give the event a title, specify a venue and provide a descripton. "
+"The event can be immediately published or saved as a draft. In any case, the "
+"event is created and you are forwarded to that event's edit page."
+msgstr ""
+"Můžete vytvořit událost v tomto kalendáři kliknutím na den nebo tažením přes "
+"více dní (v měsíčním zobrazení) nebo před více časů (v týdenním a dením "
+"zobrazení). Můžete zadat název události, specifikovat místo a zadat popis. "
+"Událost bude okamžitě publikována nebo uložena jako koncept. V každém "
+"případě, událost je uložena a by budete přesměrováni na editační stránku "
+"události."
+
+#: includes/event-organiser-cpt.php:583
+msgid "For more information"
+msgstr "Pro více informací"
+
+#: includes/event-organiser-cpt.php:584
+#, php-format
+msgid "See the <a %s> documentation</a>"
+msgstr "otevřít <a %s> dokumentaci</a>"
+
+#: includes/event-organiser-cpt.php:585
+msgid "Debugging Event Organiser"
+msgstr "Debug Event Organiseru"
+
+#: includes/event-organiser-cpt.php:586
+msgid "Go Pro!"
+msgstr "Jít Pro!"
+
+#: includes/event-organiser-cpt.php:703 includes/event-organiser-cpt.php:726
+msgid "Color"
+msgstr "Barva"
+
+#: includes/event-organiser-cpt.php:709
+msgid "Assign the category a colour."
+msgstr "Přířadit barvu kategorii."
+
+#: includes/event-organiser-event-functions.php:740
+#: includes/event-organiser-register.php:265
+msgid "last"
+msgstr "poslední"
+
+#: includes/event-organiser-event-functions.php:740
+#: includes/event-organiser-register.php:265
+msgid "first"
+msgstr "první"
+
+#: includes/event-organiser-event-functions.php:740
+#: includes/event-organiser-register.php:265
+msgid "second"
+msgstr "druhý"
+
+#: includes/event-organiser-event-functions.php:740
+#: includes/event-organiser-register.php:265
+msgid "third"
+msgstr "třetí"
+
+#: includes/event-organiser-event-functions.php:740
+#: includes/event-organiser-register.php:265
+msgid "fourth"
+msgstr "čtvrtý"
+
+#: includes/event-organiser-event-functions.php:750
+msgid "one time only"
+msgstr "jen jednou"
+
+#: includes/event-organiser-event-functions.php:753
+msgid "custom reoccurrence"
+msgstr "ručně nastavené opakování"
+
+#: includes/event-organiser-event-functions.php:760
+#: includes/event-organiser-register.php:255
+msgid "every day"
+msgstr "každý den"
+
+#: includes/event-organiser-event-functions.php:762
+#: includes/event-organiser-register.php:256
+#, php-format
+msgid "every %d days"
+msgstr "každých %d dní"
+
+#: includes/event-organiser-event-functions.php:768
+#: includes/event-organiser-register.php:257
+msgid "every week on"
+msgstr "každý týden v"
+
+#: includes/event-organiser-event-functions.php:770
+#: includes/event-organiser-register.php:258
+#, php-format
+msgid "every %d weeks on"
+msgstr "každých %d týdnů v"
+
+#: includes/event-organiser-event-functions.php:781
+#: includes/event-organiser-register.php:259
+msgid "every month on the"
+msgstr "každý měsíc v"
+
+#: includes/event-organiser-event-functions.php:783
+#: includes/event-organiser-register.php:260
+#, php-format
+msgid "every %d months on the"
+msgstr "každých %d měsíců v"
+
+#: includes/event-organiser-event-functions.php:812
+msgid "every year"
+msgstr "každý rok"
+
+#: includes/event-organiser-event-functions.php:814
+#, php-format
+msgid "every %d years"
+msgstr "každých %d let"
+
+#: includes/event-organiser-register.php:55
+msgid "Show More"
+msgstr "Ukázat více"
+
+#: includes/event-organiser-register.php:56
+msgid "Show Less"
+msgstr "Ukázat méně"
+
+#: includes/event-organiser-register.php:242
+msgid "Hide dates"
+msgstr "Skrýt data"
+
+#: includes/event-organiser-register.php:245
+msgid "Hour"
+msgstr "Hodina"
+
+#: includes/event-organiser-register.php:246
+msgid "Minute"
+msgstr "Minuta"
+
+#: includes/event-organiser-register.php:248
+msgid "days"
+msgstr "dny"
+
+#: includes/event-organiser-register.php:250
+msgid "weeks"
+msgstr "týdny"
+
+#: includes/event-organiser-register.php:252
+msgid "months"
+msgstr "měsíce"
+
+#: includes/event-organiser-register.php:253
+msgid "year"
+msgstr "rok"
+
+#: includes/event-organiser-register.php:254
+msgid "years"
+msgstr "roky"
+
+#: includes/event-organiser-register.php:261
+msgid "every year on the"
+msgstr "každý rok v"
+
+#: includes/event-organiser-register.php:262
+#, php-format
+msgid "every %d years on the"
+msgstr "každých %d let v"
+
+#: includes/event-organiser-register.php:263
+msgid "This event will repeat"
+msgstr "Tato událost se bude opakovat"
+
+#: includes/event-organiser-register.php:364
+msgid "Settings"
+msgstr "Nastavení"
+
+#: includes/event-organiser-register.php:667
+#, php-format
+msgid ""
+"<h4>City & State Fields Added</h4>City and state / province fields for "
+"venues have now been added. </br> If you'd like, Event Organiser can <a "
+"href='%s'>attempt to auto-fill them</a>. You can always manually change the "
+"details aftewards."
+msgstr ""
+"<h4>Pole město a stát byly přidány</h4>Pole město a stát / provincie u míst "
+"byly nyní přidány. </br> Pokud chcete, Event Organiser <a href='%s'>se může "
+"pokusit je automaticky doplnit</a>. Detaily můžete vždy následně manuálně "
+"změnit."
+
+#: includes/event-organiser-register.php:674
+msgid ""
+"<h4>The Default Templates Have Changed</h4>Don't panic! If you've set up "
+"your own templates in your theme you won't notice any change. </br> If you "
+"haven't and want the old templates back, <a href='http://wp-event-organiser."
+"com/blog/new-default-templates-in-1-7'>see this post<a/>."
+msgstr ""
+"<h4>Výchozí šablona byla změněna</h4>Nepanikařte! Pokud jste nastavili "
+"vlastní šablonu ve vaší šabloně vzhledu, nepoznáte žádnou změnu. </br> "
+"Popkud jste tak neudělali, a chcete starou šablonu zpět, <a href='http://wp-"
+"event-organiser.com/blog/new-default-templates-in-1-7'>navštivte tuto "
+"stránku<a/>."
+
+#: includes/event-organiser-register.php:710
+msgid "Dismiss this notice"
+msgstr "Zrušit toto oznámení."
+
+#: includes/event-organiser-register.php:711
+msgid "Dismiss"
+msgstr "Zrušit"
+
+#: includes/event-organiser-venue-functions.php:953
+msgid "Address"
+msgstr "Adresa"
+
+#: includes/event-organiser-venue-functions.php:954
+msgid "City"
+msgstr "Město"
+
+#: includes/event-organiser-venue-functions.php:955
+msgid "State / Province"
+msgstr "Stát / kraj"
+
+#: includes/event-organiser-venue-functions.php:956
+msgid "Post Code"
+msgstr "PSČ"
+
+#: includes/event-organiser-venue-functions.php:957
+msgid "Country"
+msgstr "Země"
+
+#: includes/event.php:573
+msgid "Schedule not recognised."
+msgstr "Naplánování nerozpoznáno."
+
+#: includes/event.php:582
+msgid "Start date not provided."
+msgstr "Počáteční datum nestanoveno"
+
+#: includes/event.php:600
+msgid "Start date occurs after end date."
+msgstr "Počáteční datum je po datu konce."
+
+#: includes/event.php:603
+msgid "Schedule end date is before is before the start date."
+msgstr "Naplánované datum konce události je před jeho počátečním datem."
+
+#: includes/event.php:686
+msgid "Invalid monthly schedule (invalid ordinal)"
+msgstr "Neplatný měsíční rozvrh (neplatná pořadová číslovka)"
+
+#: includes/event.php:806
+msgid "Event does not contain any dates."
+msgstr "Událost neobsahuje žádná data"
+
+#: includes/event.php:947
+msgid "Occurrence not deleted. Occurrence not found."
+msgstr "Výskyt nesmazán. Výskyt nenalezen."
+
+#. / TRANSLATORS: This is the description that of the plug-in that appears in the "Plugins" page.
+#: includes/i18n.php:8
+msgid ""
+"Creates a custom post type 'events' with features such as reoccurring "
+"events, venues, Google Maps, calendar views and events and venue pages"
+msgstr ""
+
+#: templates/archive-event.php:34 templates/archive-event.php:37
+#: templates/archive-event.php:40
+msgid "Events: "
+msgstr "Události:"
+
+#: templates/archive-event.php:55 templates/archive-event.php:110
+#: templates/taxonomy-event-category.php:48
+#: templates/taxonomy-event-category.php:106
+#: templates/taxonomy-event-tag.php:48 templates/taxonomy-event-tag.php:106
+#: templates/taxonomy-event-venue.php:48
+#: templates/taxonomy-event-venue.php:105
+msgid "Later events <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Pozdější události <span class=\"meta-nav\">→</span>"
+
+#: templates/archive-event.php:56 templates/archive-event.php:111
+#: templates/taxonomy-event-category.php:49
+#: templates/taxonomy-event-category.php:107
+#: templates/taxonomy-event-tag.php:49 templates/taxonomy-event-tag.php:107
+#: templates/taxonomy-event-venue.php:49
+#: templates/taxonomy-event-venue.php:106
+msgid " <span class=\"meta-nav\">&larr;</span> Newer events"
+msgstr "<span class=\"meta-nav\">←</span> Novější události"
+
+#: templates/archive-event.php:119 templates/taxonomy-event-category.php:116
+#: templates/taxonomy-event-tag.php:116 templates/taxonomy-event-venue.php:115
+msgid "Nothing Found"
+msgstr "Nenalezeno"
+
+#: templates/archive-event.php:123
+msgid "Apologies, but no results were found for the requested archive. "
+msgstr "Omlouváme se, ale pro tento archiv nebyly nalezeny žádné záznamy"
+
+#: templates/event-meta-event-single.php:46
+#, php-format
+msgid ""
+"This event is running from %1$s until %2$s. It is next occurring on %3$s"
+msgstr "Tato událost probíhá od %1$s do %2$s. Další výskyt je %3$s"
+
+#: templates/event-meta-event-single.php:50
+#, php-format
+msgid "This event finished on %s"
+msgstr "Tato událost skončila %s"
+
+#: templates/event-meta-event-single.php:89
+msgid "Upcoming Dates"
+msgstr "Nadcházející události"
+
+#: templates/single-event.php:58
+#, php-format
+msgid ""
+"This event was posted in %1$s by <a href=\"%5$s\">%4$s</a>. Bookmark the <a "
+"href=\"%2$s\" title=\"Permalink to %3$s\" rel=\"bookmark\">permalink</a>."
+msgstr ""
+"Tuto událost publikoval <a href=\"%5$s\">%4$s</a> v %1$s \n"
+". Uložit<a href=\"%2$s\" title=\"Permalink to %3$s\" rel=\"bookmark\">Trvalý "
+"odkaz</a>."
+
+#: templates/single-event.php:60
+#, php-format
+msgid ""
+"This event was posted by <a href=\"%5$s\">%4$s</a>. Bookmark the <a href="
+"\"%2$s\" title=\"Permalink to %3$s\" rel=\"bookmark\">permalink</a>."
+msgstr ""
+"Tuto událost publikoval <a href=\"%5$s\">%4$s</a>. Uložit <a href=\"%2$s\" "
+"title=\"Permalink to %3$s\" rel=\"bookmark\">trvalý odkaz</a>."
+
+#: templates/taxonomy-event-category.php:31
+#, php-format
+msgid "Event Category Archives: %s"
+msgstr "Archiv událostí pro kategorii: %s"
+
+#: templates/taxonomy-event-category.php:120
+msgid "Apologies, but no events were found for the requested category. "
+msgstr "Omlouváme se, ale pro tuto kategorii nebyla nalezena žádná událost."
+
+#: templates/taxonomy-event-tag.php:31
+#, php-format
+msgid "Event Tag Archives: %s"
+msgstr "Archiv pro štítky událostí: %s"
+
+#: templates/taxonomy-event-tag.php:120
+msgid "Apologies, but no events were found for the requested tag. "
+msgstr "Omlouváme se, ale pro tento štítek nebyly nalezeny žádné záznamy"
+
+#: templates/taxonomy-event-venue.php:31
+#, php-format
+msgid "Events at: %s"
+msgstr "Události v místě: %s"
+
+#: templates/taxonomy-event-venue.php:118
+msgid "Apologies, but no events were found for the requested venue. "
+msgstr "Omlouváme se, ale žádné události nebyly nalezeny pro požadované místo."
+
+#~ msgid "Add Venue"
+#~ msgstr "Přidat místo"

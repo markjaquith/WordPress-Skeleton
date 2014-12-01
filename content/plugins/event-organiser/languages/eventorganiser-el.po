@@ -1,0 +1,2048 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Event Organiser\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-10-31 11:49+0000\n"
+"PO-Revision-Date: 2014-04-28 11:40:00+0000\n"
+"Last-Translator: Panagiotis <ngf7mmp@hotmail.com>\n"
+"Language-Team: \n"
+"Language: Greek, Modern\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: classes/class-eo-agenda-widget.php:11
+msgid "Displays a list of events, grouped by date"
+msgstr "Εμφάνιση λίστας event ανα ημερομηνία"
+
+#: classes/class-eo-agenda-widget.php:19
+msgid "Events Agenda"
+msgstr "Ατζέντα Events"
+
+#: classes/class-eo-agenda-widget.php:35
+#: classes/class-eo-calendar-widget.php:46
+#: classes/class-eo-event-list-widget.php:40
+#: classes/class-eo-event-list-widget.php:69
+msgid "Title"
+msgstr "Τίτλος"
+
+#: classes/class-eo-agenda-widget.php:39
+msgid "Group by"
+msgstr "Ταξινόμηση με"
+
+#: classes/class-eo-agenda-widget.php:41 event-organiser-calendar.php:237
+msgid "Day"
+msgstr "Ημέρα"
+
+#: classes/class-eo-agenda-widget.php:42 event-organiser-calendar.php:237
+msgid "Week"
+msgstr "Εβδομάδα"
+
+#: classes/class-eo-agenda-widget.php:43 event-organiser-calendar.php:237
+msgid "Month"
+msgstr "Μήνας"
+
+#: classes/class-eo-agenda-widget.php:47
+msgid "Group date format"
+msgstr "Διαμόρφωση ημερομηνίας group"
+
+#: classes/class-eo-agenda-widget.php:51
+msgid "Event date/time format"
+msgstr "Διαμόρφωση Ημερομηνίας/ώρας Event"
+
+#: classes/class-eo-agenda-widget.php:55
+msgid "Include 'Add To Google' link"
+msgstr "Συμπερίληψη 'Προσθήκη στο Google'"
+
+#: classes/class-eo-calendar-widget.php:22
+msgid "Displays a calendar of your events"
+msgstr "Εμφανίζει ενα ημερολόγιο με τα events."
+
+#: classes/class-eo-calendar-widget.php:24 event-organiser-calendar.php:233
+msgid "Events Calendar"
+msgstr "Γεγονότα Ημερολογίου"
+
+#: classes/class-eo-calendar-widget.php:57
+#: classes/class-eo-event-list-widget.php:78
+msgid "Include past events"
+msgstr "Συμπερίληψη παλιών event"
+
+#: classes/class-eo-calendar-widget.php:68
+msgid "Show long events"
+msgstr "Προβολή μακρινών events"
+
+#: classes/class-eo-calendar-widget.php:79
+msgid "Link directly to event for days with only one event"
+msgstr "Άμεσος σύνδεσμος στο event τις ημέρες που υπάρχει μόνο ένα event."
+
+#: classes/class-eo-calendar-widget.php:91
+#: classes/class-eo-event-list-widget.php:48
+msgid "Event categories"
+msgstr "Κατηγορίες Events"
+
+#: classes/class-eo-calendar-widget.php:94
+#: classes/class-eo-event-list-widget.php:50
+msgid "List category slug(s), seperate by comma. Leave blank for all"
+msgstr "List category slug(s), seperate by comma. Leave blank for all"
+
+#: classes/class-eo-calendar-widget.php:103
+msgid "Event venue"
+msgstr "Τοποθεσία Event"
+
+#: classes/class-eo-calendar-widget.php:106
+#: classes/class-eo-event-list-widget.php:58
+#: includes/event-organiser-cpt.php:34
+msgid "All Venues"
+msgstr "Όλες οι τοποθεσίες"
+
+#: classes/class-eo-calendar-widget.php:284
+msgid "Previous month"
+msgstr "Προηγούμενος Μήνας"
+
+#: classes/class-eo-calendar-widget.php:287
+msgid "Next month"
+msgstr "Επόμενος Μήνας"
+
+#: classes/class-eo-event-list-widget.php:22
+msgid "Displays a list of events"
+msgstr "Εμφάνιση λίστας με events"
+
+#: classes/class-eo-event-list-widget.php:23 event-organiser-venues.php:481
+#: event-organiser.php:132 includes/event-organiser-cpt.php:217
+#: includes/event-organiser-cpt.php:229
+#: includes/event-organiser-install.php:96 templates/archive-event.php:42
+msgid "Events"
+msgstr "Γεγονότα"
+
+#: classes/class-eo-event-list-widget.php:44
+msgid "Number of events"
+msgstr "Αριθμός Events"
+
+#: classes/class-eo-event-list-widget.php:55
+#: includes/event-organiser-cpt.php:32
+msgid "Venue"
+msgstr "Τοποθεσία"
+
+#: classes/class-eo-event-list-widget.php:66
+msgid "Order by"
+msgstr "Ταξινόμηση με"
+
+#: classes/class-eo-event-list-widget.php:68
+msgid "Start date"
+msgstr "Ημερομηνία Έναρξης"
+
+#: classes/class-eo-event-list-widget.php:70
+msgid "Publish date"
+msgstr "Ημερομηνία δημοσίευσης"
+
+#: classes/class-eo-event-list-widget.php:73
+msgid "ASC"
+msgstr "ASC"
+
+#: classes/class-eo-event-list-widget.php:74
+msgid "DESC"
+msgstr "DESC"
+
+#: classes/class-eo-event-list-widget.php:82 event-organiser-settings.php:189
+msgid "Group occurrences"
+msgstr "Ομάδα περιστατικών ή εμφανίσεων"
+
+#: classes/class-eo-event-list-widget.php:88
+msgid "Template (leave blank for default)"
+msgstr "Template (leave blank for default)"
+
+#: classes/class-eo-event-list-widget.php:90
+msgid "Event list widget placeholders"
+msgstr "Event list widget placeholders"
+
+#: classes/class-eo-event-list-widget.php:92
+#, php-format
+msgid ""
+"You can use specified tags as placeholders for event information which you "
+"want to appear in the widget. <a href=\"%s\" target=\"_blank\"> Find out "
+"more</a>."
+msgstr ""
+"You can use specified tags as placeholders for event information which you "
+"want to appear in the widget. <a href=\"%s\" target=\"_blank\"> Find out "
+"more</a>."
+
+#: classes/class-eo-event-list-widget.php:102
+msgid "'No events' message"
+msgstr "'Κανένα Event' Μήνυμα"
+
+#: classes/class-eo-venue-list-table.php:72 templates/single-event.php:71
+msgid "Edit"
+msgstr "Επεξεργασία "
+
+#: classes/class-eo-venue-list-table.php:73
+#: classes/class-eo-venue-list-table.php:128
+msgid "Delete"
+msgstr "Διαγραφή"
+
+#: classes/class-eo-venue-list-table.php:74
+#: includes/event-organiser-ajax.php:676
+msgid "View"
+msgstr "Εμφάνιση"
+
+#: classes/class-eo-widget-categories.php:10
+msgid "A list or dropdown of event categories"
+msgstr "Μιά λίστα ή αναπτυσσόμενη λίστα των κατηγορίων events."
+
+#: classes/class-eo-widget-categories.php:11 event-organiser-settings.php:329
+#: includes/event-organiser-cpt.php:92
+msgid "Event Categories"
+msgstr "Κατηγορίες Event"
+
+#: classes/class-eo-widget-categories.php:28 event-organiser-manage.php:35
+#: includes/event-organiser-cpt.php:103
+#: includes/event-organiser-event-functions.php:1494
+#: templates/event-meta-event-single.php:69
+msgid "Categories"
+msgstr "Κατηγορίες"
+
+#: classes/class-eo-widget-categories.php:54
+msgid "Select Category"
+msgstr "Διάλεξε κατηγορία"
+
+#: classes/class-eo-widget-categories.php:125
+#: classes/class-eo-widget-venues.php:127
+msgid "Title:"
+msgstr "Τίτλος"
+
+#: classes/class-eo-widget-categories.php:129
+#: classes/class-eo-widget-venues.php:131
+msgid "Display as dropdown"
+msgstr "Εμφάνιση ως αναπτυσσόμενη λίστα"
+
+#: classes/class-eo-widget-categories.php:132
+msgid "Show hierarchy"
+msgstr "Εμφάνιση Ιεαρχίας"
+
+#: classes/class-eo-widget-venues.php:11
+msgid "A list or dropdown of event venues"
+msgstr "Μιά λίστα ή αναπτυσσόμενη λίστα των τοποθεσιών."
+
+#: classes/class-eo-widget-venues.php:12
+msgid "Event Venues"
+msgstr "Τοποθεσίες Event"
+
+#: classes/class-eo-widget-venues.php:32 event-organiser-settings.php:319
+#: event-organiser-venues.php:185 includes/event-organiser-cpt.php:31
+msgid "Venues"
+msgstr "Χώροι"
+
+#: classes/class-eo-widget-venues.php:57
+msgid "Select Venue"
+msgstr "Επιλογή τόπου"
+
+#: classes/class-eventorganiser-shortcodes.php:377
+msgid "There is no excerpt because this is a protected post."
+msgstr "There is no excerpt because this is a protected post."
+
+#: event-organiser-add-ons.php:19 event-organiser-add-ons.php:95
+msgid "Event Organiser Extensions"
+msgstr "Επεκτάσεις του Event Organizer"
+
+#: event-organiser-add-ons.php:20
+msgid "Extensions"
+msgstr "Επεκτάσεις"
+
+#: event-organiser-add-ons.php:99
+msgid ""
+"Event Organiser offers a range of extension which add additional features to "
+"the plug-in."
+msgstr ""
+"Ο Event Organizer προσφέρει μια σειρά από επεκτάσεις που του προσθέτουν "
+"επιπλέον δυνατότητες."
+
+#: event-organiser-add-ons.php:130 event-organiser-go-pro.php:90
+msgid "Find out more &hellip;"
+msgstr "Δείτε περισσότερα..."
+
+#: event-organiser-calendar.php:22 event-organiser-calendar.php:23
+msgid "Calendar View"
+msgstr "Εμφάνιση Ημερολόγιου."
+
+#: event-organiser-calendar.php:58 includes/event-organiser-register.php:57
+msgid "today"
+msgstr "Σήμερα"
+
+#: event-organiser-calendar.php:59 includes/event-organiser-register.php:58
+#: includes/event-organiser-register.php:247
+msgid "day"
+msgstr "Ημέρα"
+
+#: event-organiser-calendar.php:60 includes/event-organiser-register.php:59
+#: includes/event-organiser-register.php:249
+msgid "week"
+msgstr "Εβδομάδα"
+
+#: event-organiser-calendar.php:61 includes/event-organiser-register.php:60
+#: includes/event-organiser-register.php:251
+msgid "month"
+msgstr "Μήνας"
+
+#: event-organiser-calendar.php:62 includes/event-organiser-register.php:61
+msgid "go to date"
+msgstr "Πήγαινε στην ημερομηνία"
+
+#: event-organiser-calendar.php:63 event-organiser-manage.php:122
+#: includes/event-organiser-cpt.php:105
+msgid "View all categories"
+msgstr "Εμφάνιση όλοων των κατηγοριών"
+
+#: event-organiser-calendar.php:64 includes/event-organiser-cpt.php:45
+msgid "View all venues"
+msgstr "Δείτε όλους τους χώρους"
+
+#: event-organiser-calendar.php:111
+msgid "You do not have sufficient permissions to create events. "
+msgstr "Δεν έχετε δικαίωμα δημιουργίας events."
+
+#: event-organiser-calendar.php:167
+msgid "You do not have sufficient permissions to edit this event. "
+msgstr "Δεν έχετε δικαίωμα ενημέρωσης του παρόντος event."
+
+#: event-organiser-calendar.php:185
+msgid "You do not have sufficient permissions to delete this event. "
+msgstr "Δεν έχετε δικαίωμα διαγραφής του παρόντος event."
+
+#: event-organiser-calendar.php:195
+msgid "Occurrence deleted."
+msgstr "Διαγραφή εμφάνισης."
+
+#: event-organiser-calendar.php:211
+msgid "Calendar options"
+msgstr "Επιλογές ημερολογίου"
+
+#: event-organiser-calendar.php:218
+msgid "24 hour time"
+msgstr "24 ώρες"
+
+#: event-organiser-calendar.php:240
+#: includes/event-organiser-event-functions.php:1441
+msgid "Loading&#8230;"
+msgstr "Φόρτωση ..."
+
+#: event-organiser-calendar.php:247
+msgid "Current date/time"
+msgstr "Τρέχουσα ημερομηνία / ώρα"
+
+#: event-organiser-calendar.php:252
+msgid "Create an event"
+msgstr "Δημιουργήστε ένα γεγονός"
+
+#: event-organiser-calendar.php:257
+msgid "When"
+msgstr "Όταν"
+
+#: event-organiser-calendar.php:261
+msgid "Event Title"
+msgstr "Τίτλος γεγονότος"
+
+#: event-organiser-calendar.php:268 includes/event-organiser-ajax.php:399
+msgid "Where"
+msgstr "Που"
+
+#: event-organiser-calendar.php:293
+msgid "Save Draft"
+msgstr "Αποθήκευση προχείρου"
+
+#: event-organiser-calendar.php:294 event-organiser-calendar.php:301
+#: event-organiser-edit.php:258
+msgid "Cancel"
+msgstr "Άκυρο"
+
+#: event-organiser-calendar.php:297
+msgid "Publish Event"
+msgstr "Δημοσίευση γεγονότος"
+
+#: event-organiser-calendar.php:303
+msgid "Submit for Review"
+msgstr "Υποβολή για αναθεώρηση"
+
+#: event-organiser-calendar.php:324 event-organiser-edit.php:14
+#: templates/event-meta-event-single.php:37
+msgid "Event Details"
+msgstr "Λεπτομέρειες Event"
+
+#: event-organiser-calendar.php:326
+msgid "Event Detail"
+msgstr "Λεπτομέρεια γεγονότος"
+
+#: event-organiser-debug.php:13 event-organiser-debug.php:14
+#: event-organiser-debug.php:59
+msgid "System Info"
+msgstr "Πληροφορίες Συστύματος"
+
+#: event-organiser-debug.php:65
+msgid ""
+"This page highlights useful information for debugging. If you're reporting a "
+"bug, please include this information."
+msgstr ""
+"Αυτή η σελίδα σκιαγραφεί χρήσιμες πληροφορίες για τα σφάλματα*.Αν αναφέρετε "
+"ένα σφάλμα, παρακαλούμε να συμπεριλάβετε αυτήν την πληροφορία."
+
+#: event-organiser-debug.php:67
+msgid ""
+"The 'system info' link in under the Events admin tab is only visible to "
+"admins and only when <code>WP_DEBUG</code> is set to <code>true</code>."
+msgstr ""
+"Ο σύνδεσμος 'πληροφορίες συστήματος' κάτω από την καρτέλα Events είναι "
+"διαθέσιμη μόνο στους διαχειριστές και μόνο όταν το <code>WP_DEBUG</code> "
+"έχει οριστεί σε <code>true</code>."
+
+#: event-organiser-debug.php:72
+msgid ""
+"Most bugs arise from theme or plug-in conflicts. You can check this by "
+"disabling all other plug-ins and switching to TwentyTweleve."
+msgstr ""
+"Τα περισσότερα προβλήματα προκύπτουν από το θέμα ή από την \"σύγκρουση\" του "
+"plug-in.Μπορείτε να το ελέγξετε αυτό,με την απενεργοποίηση όλων των άλλων "
+"plugins και αλλάζοντας σε Twenty Twelve."
+
+#: event-organiser-debug.php:74
+msgid ""
+"To help speed things along, if you report a bug please indicate if you have "
+"done so. Once the plug-in or theme has been identified it is often easy to "
+"resolve the issue."
+msgstr ""
+"Για να βοηθήσετε την ταχύτητα των πραγμάτων,όταν αναφέρετε ένα σφάλμα "
+"ταυτόχρονα να υποδεικνύετε ότι το έχετε κάνει.Μόλις το plug-in ή το θέμα "
+"έχει εντοπιστεί είναι πιο εύκολο να επιλυθεί το ζήτημα."
+
+#: event-organiser-debug.php:76
+msgid ""
+"Below any <strong>known</strong> plug-in and theme conflicts are highlighted "
+"in red."
+msgstr ""
+"Κάτω από κάθε <strong>known</strong> plug-in και θέμα των \"συγκρούσεων\" "
+"επισημαίνονται με κόκκινο χρώμα."
+
+#: event-organiser-debug.php:84
+msgid "Download system information file"
+msgstr "Λήψη πληροφοριών συστήματος"
+
+#: event-organiser-debug.php:182 event-organiser-debug.php:186
+#: event-organiser-debug.php:190 event-organiser-settings.php:205
+msgid "Yes"
+msgstr "Ναι"
+
+#: event-organiser-debug.php:182 event-organiser-debug.php:186
+#: event-organiser-debug.php:190 event-organiser-settings.php:204
+msgid "No"
+msgstr "Όχι"
+
+#: event-organiser-debug.php:257
+msgid ""
+"Known plug-in & theme conflicts, highlighted in red, may be minor or have a "
+"simple resolution. Please contact support."
+msgstr ""
+"Γνωστά plug-in και θέματα, επισημαίνονται με κόκκινο χρώμα, μπορεί να είναι "
+"μικρά ή να έχουν μια απλή ανάλυση. Παρακαλούμε επικοινωνήστε με την "
+"υποστήριξη."
+
+#. / TRANSLATORS: [this plugin] has only been tested up to [required plugin] [required plugin version]
+#: event-organiser-debug.php:430
+#, php-format
+msgid "%s has only been tested up to %s %s"
+msgstr "%s έχει δοκιμαστεί μόνο μέχρι %s %s"
+
+#. / TRANSLATORS: [this plugin] requires [required plugin] version [required plugin version] or higher
+#: event-organiser-debug.php:439
+#, php-format
+msgid "%s requires %s version %s or higher"
+msgstr "%s απαιτήσεις %s έκδοση %s ή υψηλότερα"
+
+#: event-organiser-debug.php:460
+msgid "unknown"
+msgstr "Άγνωστο"
+
+#: event-organiser-edit.php:31 event-organiser-manage.php:23
+#: event-organiser-settings.php:142 includes/event-organiser-ajax.php:386
+msgid "Organiser"
+msgstr "Διοργανωτής"
+
+#: event-organiser-edit.php:75
+msgid "This is a reoccurring event"
+msgstr "Αυτο είναι ένα επαναλαμβανόμενο event."
+
+#: event-organiser-edit.php:76
+msgid "Check to edit this event and its reoccurrences"
+msgstr "Τσέκαρε για επεξεργασία"
+
+#: event-organiser-edit.php:98
+#, php-format
+msgid "Ensure dates are entered in %1$s format and times in 24 hour format"
+msgstr ""
+
+#: event-organiser-edit.php:100
+#, php-format
+msgid "Ensure dates are entered in %1$s format and times in 12 hour format"
+msgstr ""
+
+#: event-organiser-edit.php:107 event-organiser-manage.php:36
+msgid "Start Date/Time"
+msgstr "Έναρξη Ημέρα/Ώρα"
+
+#: event-organiser-edit.php:120 event-organiser-manage.php:37
+msgid "End Date/Time"
+msgstr "Λήξη Ημέρα/Ώρα"
+
+#: event-organiser-edit.php:132
+msgid "All day"
+msgstr "Ολοήμερο"
+
+#: event-organiser-edit.php:139
+msgid "Reoccurence:"
+msgstr "Επαναλαμβάνεται"
+
+#: event-organiser-edit.php:141
+msgid "once"
+msgstr "Μια φορά"
+
+#: event-organiser-edit.php:141
+msgid "daily"
+msgstr "Καθημερινά"
+
+#: event-organiser-edit.php:141
+msgid "weekly"
+msgstr "Εβδομαδιαία"
+
+#: event-organiser-edit.php:142
+msgid "monthly"
+msgstr "Μηνιαία"
+
+#: event-organiser-edit.php:142
+msgid "yearly"
+msgstr "Κάθε Χρόνο"
+
+#: event-organiser-edit.php:142
+msgid "custom"
+msgstr "custom"
+
+#: event-organiser-edit.php:155
+msgid "Repeat every"
+msgstr "Επανάληψη κάθε"
+
+#: event-organiser-edit.php:161 templates/shortcode-event-list.php:52
+#: templates/widget-event-list.php:49
+msgid "on"
+msgstr "on"
+
+#: event-organiser-edit.php:176
+msgid "day of month"
+msgstr "Ημέρα του μήνα"
+
+#: event-organiser-edit.php:180
+msgid "day of week"
+msgstr "Ημέρα της Εβδομάδος"
+
+#: event-organiser-edit.php:185
+#: includes/event-organiser-event-functions.php:819
+#: includes/event-organiser-register.php:264
+msgid "until"
+msgstr "Μέχρι"
+
+#: event-organiser-edit.php:195
+msgid "Include/Exclude occurrences"
+msgstr "Συμπερίληψη/Εξαίρεση περιστατικών"
+
+#: event-organiser-edit.php:198 includes/event-organiser-register.php:241
+msgid "Show dates"
+msgstr "Εμφάνιση Ημέρων"
+
+#: event-organiser-edit.php:230
+#: includes/event-organiser-venue-functions.php:988
+msgid "Select a venue"
+msgstr "Διάλεξε Τοποθεσία"
+
+#: event-organiser-edit.php:240
+msgid "Venue Name"
+msgstr "Ονομα Τοποθεσίας"
+
+#: event-organiser-edit.php:410
+msgid "Event dates were not saved."
+msgstr "Ημερομηνίες γεγονότων δεν σώθηκαν."
+
+#: event-organiser-go-pro.php:24
+msgid "Get Event Organiser Pro Add-On"
+msgstr "Πάρτε το Event Organiser Pro Add-On"
+
+#: event-organiser-go-pro.php:25
+msgid "Go Pro"
+msgstr "Αναβάθμιση σε Pro"
+
+#: event-organiser-go-pro.php:52
+msgid "Get Event Organiser Pro"
+msgstr "Λήψη του Event Organizer Pro"
+
+#: event-organiser-go-pro.php:55
+msgid ""
+"Event Organiser Pro is a premium add-on bringing advanced booking management "
+"to Event Organiser."
+msgstr ""
+"Το Event Organiser Pro Add-On είναι ένα Premium Add-On που προσφέρει "
+"προχωρημένες δυνατότητες διαχείρισης για τα events."
+
+#: event-organiser-go-pro.php:56
+msgid "But that's not all &hellip;"
+msgstr "Όχι μόνο αυτά..."
+
+#: event-organiser-go-pro.php:71
+msgid "Flexible Booking Options"
+msgstr "Ευέλικτες επιλογές κράτησης"
+
+#: event-organiser-go-pro.php:72
+msgid ""
+"Sell tickets for specific dates or sell tickets for all dates of an event - "
+"such as booking places on a course. You can offer multiple tickets, and "
+"customise the booking form to suit your needs."
+msgstr ""
+"Πωλήστε εισιτήρια για συγκεκριμένες ημερομηνίες ή πωλήστε εισιτήρια για όλες "
+"τις ημερομηνίες ενός event. Μπορείτε να προσφέρετε πολλαπλά εισιτήρια και να "
+"προσαρμόσετε τη φόρμα κράτησης σύμφωνα με τις ανάγκες σας."
+
+#: event-organiser-go-pro.php:76
+msgid "Additional shortcodes & improved UI"
+msgstr "Επιπλέον shortcodes και βελτιωμένο UI."
+
+#: event-organiser-go-pro.php:77
+msgid ""
+"Give your users the ability to search and filter through your events with "
+"the event search shortcode. Event Organiser Pro also adds a text editor "
+"button to make inserting and configuring your shortcodes that bit easier. "
+msgstr ""
+"Δώστε στους χρήστες της δυνατότητα αναζήτησης και φιλτραρίσματος των events "
+"με το event search shortcode. Επιπρόσθετα, ο Event Organizer Pro προσθέτει "
+"ένα κουμπί στον text editor για να κάνει τη διαδικασία πιο εύκολη."
+
+#: event-organiser-go-pro.php:81
+msgid "Venue custom fields & thumbnails"
+msgstr "Προσαρμοσμένα πεδία για τον τόπο συνάντησης και μικρογραφίες"
+
+#: event-organiser-go-pro.php:82
+msgid ""
+"Add information on your venue pages with venue custom fields, or give your "
+"venues more attentioned with their own 'featured image'"
+msgstr ""
+"Προσθέστε πληροφορίες στις σελίδες των τόπων συνάντησης με χρήση των custom "
+"πεδίων ή δώστε περισσότερη προσοχή στους τόπους συνάντησης ορίζοντας τη "
+"δικιά τους εικόνα."
+
+#: event-organiser-go-pro.php:96
+msgid "Go to Event Organiser settings"
+msgstr "Μετάβαση στις ρυθμίσεις του Event Organizer"
+
+#: event-organiser-manage.php:19 includes/event-organiser-cpt.php:218
+msgid "Event"
+msgstr "Γεγονός"
+
+#: event-organiser-manage.php:38
+msgid "Reoccurrence"
+msgstr "Επανεμφάνιση-επανάληψη"
+
+#: event-organiser-manage.php:153
+msgid "View all events"
+msgstr "Δείτε όλα τα γεγονότα"
+
+#: event-organiser-manage.php:154
+msgid "Future events"
+msgstr "Μελλοντικά γεγονότα"
+
+#: event-organiser-manage.php:155
+msgid "Expired events"
+msgstr "Γεγονότα που έχουν λήξει"
+
+#: event-organiser-manage.php:156
+msgid "Events within 24 hours"
+msgstr "Γεγονότα εντός 24 ωρών"
+
+#: event-organiser-manage.php:157
+msgid "Events within 1 week"
+msgstr "Γεγονότα εντός 1 εβδομάδας"
+
+#: event-organiser-manage.php:158
+#, php-format
+msgid "Events within %d weeks"
+msgstr "Γεγονότα εντός %d εβδομάδων"
+
+#: event-organiser-manage.php:159
+msgid "Events within 1 month"
+msgstr "Γεγονότα εντός 1 μήνα"
+
+#: event-organiser-manage.php:160
+#, php-format
+msgid "Events within %d months"
+msgstr "Γεγονότα εντός %d μηνών"
+
+#: event-organiser-manage.php:161
+msgid "Events within 1 year"
+msgstr "Γεγονότα εντός 1 χρόνου"
+
+#: event-organiser-manage.php:212
+msgid "&mdash; No Change &mdash;"
+msgstr "— Καμία Αλλαγή  —-"
+
+#: event-organiser-settings.php:29 event-organiser-settings.php:74
+msgid "General"
+msgstr "Γενικά"
+
+#: event-organiser-settings.php:30
+msgid "Permissions"
+msgstr "Δικαιώματα"
+
+#: event-organiser-settings.php:31
+msgid "Permalinks"
+msgstr "Permalinks"
+
+#: event-organiser-settings.php:32
+msgid "Import"
+msgstr "Εισαγωγή"
+
+#: event-organiser-settings.php:32
+msgid "Export"
+msgstr "Εξαγωγή"
+
+#: event-organiser-settings.php:40
+msgid "Event Organiser Settings"
+msgstr "Ρυθμίσεις"
+
+#: event-organiser-settings.php:41
+msgid "Event Organiser"
+msgstr "Event Organiser"
+
+#: event-organiser-settings.php:46 event-organiser.php:105
+#: includes/event-organiser-install.php:112
+msgid "Edit Events"
+msgstr "Επεξεργασία Event"
+
+#: event-organiser-settings.php:47 event-organiser.php:106
+#: includes/event-organiser-install.php:113
+msgid "Publish Events"
+msgstr "Δημοσίευση Event"
+
+#: event-organiser-settings.php:48 event-organiser.php:107
+#: includes/event-organiser-install.php:114
+msgid "Delete Events"
+msgstr "Διαγραφή Event"
+
+#: event-organiser-settings.php:49 event-organiser.php:108
+#: includes/event-organiser-install.php:115
+msgid "Edit Others' Events"
+msgstr "Επεξεργασία άλλων event"
+
+#: event-organiser-settings.php:50 event-organiser.php:109
+#: includes/event-organiser-install.php:116
+msgid "Delete Other's Events"
+msgstr "Διαγραφή άλλων Event"
+
+#: event-organiser-settings.php:51 event-organiser.php:110
+#: includes/event-organiser-install.php:117
+msgid "Read Private Events"
+msgstr "Διαβασε ιδιωτικά Event"
+
+#: event-organiser-settings.php:52 event-organiser.php:111
+#: includes/event-organiser-install.php:118
+msgid "Manage Venues"
+msgstr "Διαχείρηση Χώρων"
+
+#: event-organiser-settings.php:53 event-organiser.php:112
+#: includes/event-organiser-install.php:119
+msgid "Manage Event Categories & Tags"
+msgstr "Διαχείρηση Κατηγοριών και Tags"
+
+#: event-organiser-settings.php:73
+msgid "Add-on Licence keys"
+msgstr "Add-on Licence keys"
+
+#: event-organiser-settings.php:75
+msgid "Templates"
+msgstr "Θέματα"
+
+#: event-organiser-settings.php:137
+msgid "Select which features events should support"
+msgstr "Επιλέξτε ποια χαρακτηριστικά γεγονότα θα πρέπει να στηριχθούν"
+
+#: event-organiser-settings.php:142
+msgid "Author"
+msgstr "Συντάκτης"
+
+#: event-organiser-settings.php:143
+msgid "Thumbnail"
+msgstr "Μικρογραφία"
+
+#: event-organiser-settings.php:144
+msgid "Excerpt"
+msgstr "Excerpt"
+
+#: event-organiser-settings.php:145
+msgid "Custom Fields"
+msgstr "Custom Fields"
+
+#: event-organiser-settings.php:146
+msgid "Comments"
+msgstr "Σχόλια"
+
+#: event-organiser-settings.php:147
+msgid "Revisions"
+msgstr "Αναθεωρήσεις"
+
+#: event-organiser-settings.php:148 event-organiser-settings.php:338
+#: includes/event-organiser-cpt.php:146
+msgid "Event Tags"
+msgstr "Eτικέτα"
+
+#: event-organiser-settings.php:153 event-organiser-settings.php:180
+msgid "Show past events:"
+msgstr "Εμφάνιση παλιών event."
+
+#: event-organiser-settings.php:159 event-organiser-settings.php:186
+msgid ""
+"Display past events on calendars, event lists and archives (this can be over-"
+"ridden by shortcode attributes and widget options)."
+msgstr ""
+"Εμφάνισε παλιά event στο ημερολόγιο, στις λίστες και στα αρχεία. (this can "
+"be over-ridden by shortcode attributes and widget options)."
+
+#: event-organiser-settings.php:162
+msgid "Add an 'events' link to the navigation menu:"
+msgstr "Πρόσθεσε Event σύνδεση στο μενού πλοήγησης"
+
+#: event-organiser-settings.php:167
+msgid "Date Format:"
+msgstr "Διαμόρφωση Ημερομηνίας"
+
+#: event-organiser-settings.php:173
+msgid "dd-mm-yyyy"
+msgstr "dd-mm-yyyy"
+
+#: event-organiser-settings.php:174
+msgid "mm-dd-yyyy"
+msgstr "mm-dd-yyyy"
+
+#: event-organiser-settings.php:175
+msgid "yyyy-mm-dd"
+msgstr "yyyy-mm-dd"
+
+#: event-organiser-settings.php:177
+msgid "This alters the default format for inputting dates."
+msgstr "Αυτό αλλάζει την προεπιλεγμένη μορφή για την εισαγωγή ημερομηνιών."
+
+#: event-organiser-settings.php:195
+msgid ""
+"If selected only one occurrence of an event will be displayed on event lists "
+"and archives (this can be over-ridden by shortcode attributes and widget "
+"options."
+msgstr ""
+"Αν επιλέξετε μόνο μία εμφάνιση ενός γεγονότος θα εμφανιστεί στις λίστες των "
+"γεγονότων και των αρχείων.(αυτό μπορεί να παρακαμφθεί από τα shortcode "
+"χαρακτηριστικά και widget επιλογές)."
+
+#: event-organiser-settings.php:198
+msgid "Are current events past?"
+msgstr "Ειναι τα τωρινά event παλιά;"
+
+#: event-organiser-settings.php:207
+msgid ""
+"If 'no' is selected, an occurrence of an event is only past when it has "
+"finished. Otherwise, an occurrence is considered 'past' as soon as it starts."
+msgstr ""
+"Αν «όχι» είναι επιλεγμένο, η επέλευση ενός γεγονότος είναι παρελθόν, όταν "
+"αυτό έχει ολοκληρωθεί.Διαφορετικά, ένα περιστατικό θεωρείται «παρελθόν», "
+"αμέσως μόλις αρχίσει."
+
+#: event-organiser-settings.php:210
+msgid "Delete expired events:"
+msgstr "Διέγραψε τα "
+
+#: event-organiser-settings.php:216
+msgid ""
+"If selected the event will be automatically trashed 24 hours after the last "
+"occurrence finishes."
+msgstr ""
+"Αν επιλεγεί το γεγονός θα διαγραφθεί αυτόματα 24 ώρες μετά την τελευταία "
+"εμφάνιση."
+
+#: event-organiser-settings.php:219
+msgid "Enable events ICAL feed:"
+msgstr "Ενεργοποίηση γεγονότων ICAL feed:"
+
+#: event-organiser-settings.php:225
+#, php-format
+msgid "If selected, visitors can subscribe to your events with the url: %s"
+msgstr ""
+"Αν το επιλέξετε,οι επισκέπτες μπορούν να εγγραφουν στα γεγονότα σας με την "
+"url: %s"
+
+#: event-organiser-settings.php:228
+msgid "Exclude events from searches:"
+msgstr "Αποκλείστε γεγονότα από τις αναζητήσεις:"
+
+#: event-organiser-settings.php:236
+msgid "Enable templates:"
+msgstr "Ενεργοποίηση templates - προτύπων -"
+
+#: event-organiser-settings.php:242
+msgid ""
+"For each of the pages, the corresponding template is used. To use your own "
+"template simply give it the same name and store in your theme folder. By "
+"default, if Event Organiser cannot find a template in your theme directory, "
+"it will use its own default template. To prevent this, uncheck this option. "
+"WordPress will then decide which template from your theme's folder to use."
+msgstr ""
+"Για καθεμία από τις σελίδες, το αντίστοιχο πρότυπο έχει χρησιμοποιείτθει. "
+"Για να χρησιμοποιήσετε το δικό σας template(πρότυπο) απλά δώστε το ίδιο "
+"όνομα και αποθηκεύστε το στο φάκελο του θέματος σας. Από προεπιλογή,άν οι "
+"Event Organiser δεν μπορεί να βρει το πρότυπο στον κατάλογο θεμάτων σας, θα "
+"χρησιμοποιήσει το δικό σας πρότυπο από προεπιλογή. Για να αποφευχθεί αυτό, "
+"απενεργοποιήστε αυτήν την επιλογή. WordPress θα αποφασίσει ποιο πρότυπο από "
+"το φάκελο των θεμάτων σας θα χρησιμοποιήσετε."
+
+#: event-organiser-settings.php:248
+msgid "Events archives:"
+msgstr "Αρχείο"
+
+#: event-organiser-settings.php:249
+msgid "Event page:"
+msgstr "Σελίδα Event"
+
+#: event-organiser-settings.php:250
+msgid "Venue page:"
+msgstr "Τοποθεσίες"
+
+#: event-organiser-settings.php:251
+msgid "Events Category page:"
+msgstr "Κατηγορία"
+
+#: event-organiser-settings.php:254
+#, php-format
+msgid ""
+"For more information see documentation <a href='%s'>on editing the "
+"templates</a>"
+msgstr ""
+"Για περισσότερες πληροφορίες δείτε την τεκμηρίωση <a href='%s'> στην ενότητα "
+"για την επεξεργασία των templates."
+
+#: event-organiser-settings.php:259
+msgid "Disable CSS:"
+msgstr "Απενεργοποίηση CSS"
+
+#: event-organiser-settings.php:265
+msgid ""
+"Check this option to prevent any stylesheets from Event Organiser being "
+"loaded on the front-end"
+msgstr ""
+"Επιλέξτε αυτή την επιλογή ώστε ο Event Organizer να μη φορτώνει stylesheets "
+"στο front-end."
+
+#: event-organiser-settings.php:274
+msgid "Enable event pretty permalinks:"
+msgstr "Enable event pretty permalinks"
+
+#: event-organiser-settings.php:280
+msgid ""
+"If you have pretty permalinks enabled, select to have pretty premalinks for "
+"events."
+msgstr ""
+"Αν έχετε αρκετά permalinks ενεργοποιημένα, επιλέξτε αρκετά permalinks για "
+"γεγονότα"
+
+#: event-organiser-settings.php:284
+msgid "Event (single)"
+msgstr "Event (μονάδα)"
+
+#: event-organiser-settings.php:293
+msgid "Events page"
+msgstr ""
+
+#: event-organiser-settings.php:306
+msgid "Event (date archive)"
+msgstr ""
+
+#: event-organiser-settings.php:312
+msgid "Year archive"
+msgstr "Αρχείο ανα Χρόνο"
+
+#: event-organiser-settings.php:313
+msgid "Month archive"
+msgstr "Αρχείο ανα Μήνα"
+
+#: event-organiser-settings.php:314
+msgid "Day archive"
+msgstr "Αρχείο ανα Ημέρα"
+
+#: event-organiser-settings.php:612
+msgid "Event management permissions"
+msgstr "Δικαιώματα διαχείρισης events."
+
+#: event-organiser-settings.php:613
+msgid "Set permissions for events and venue management"
+msgstr "Ορίσετε δικαιώματα για "
+
+#: event-organiser-settings.php:618
+msgid "Role"
+msgstr "Ρόλος"
+
+#: event-organiser-settings.php:629
+msgid "None"
+msgstr "Τίποτα"
+
+#: event-organiser-settings.php:658
+msgid ""
+"Choose a custom permalink structure for events, venues, event categories and "
+"event tags."
+msgstr ""
+"Επιλέξτε μια προσαρμοσμένη δομή permalink για γεγονότα, χώρους, κατηγορίες "
+"και ετικέτες γεγονότων"
+
+#: event-organiser-settings.php:659
+msgid ""
+"Please note to enable these structures you must first have pretty permalinks "
+"enabled on WordPress in Settings > Permalinks."
+msgstr ""
+"Παρακαλείστε να σημειώσετε ότι για την ενεργοποιήση αυτών των δομών θα "
+"πρέπει πρώτα να έχετε αρκετά permalinks ενεργοποιημένα για WordPress στις "
+"Ρυθμίσεις> Permalinks."
+
+#: event-organiser-settings.php:660
+msgid ""
+"You may also need to go to WordPress Settings > Permalinks and click 'Save "
+"Changes' before any changes will take effect."
+msgstr ""
+"Μπορεί επίσης να χρειαστεί να πάτε στις WordPress Ρυθμίσεις> Permalinks και "
+"κάντε κλικ στο κουμπί \"Αποθήκευση αλλαγών\" πριν από οποιεσδήποτε αλλαγές "
+"τεθούν σε ισχύ."
+
+#: event-organiser-settings.php:696
+msgid "Do not add to menu"
+msgstr "Μην το προσθέσεις στο μενου"
+
+#: event-organiser-settings.php:700
+msgid "Page list (fallback)"
+msgstr "Λίστα σελίδων (εφεδρική)"
+
+#: event-organiser-venues.php:49
+msgid "You do not have permission to manage venues"
+msgstr "Δεν έχετε άδεια  να διαχειρίζεστε αυτούς τους χώρους"
+
+#: event-organiser-venues.php:54 event-organiser-venues.php:83
+msgid "You do not have permission to edit this venue."
+msgstr "Δεν έχετε άδεια να επεξεργαστείτε αυτό το χώρο."
+
+#: event-organiser-venues.php:61
+msgid "Venue <strong>was not</strong> updated"
+msgstr "Χώρος <strong>δεν είναι</strong> ενημερωμένος"
+
+#: event-organiser-venues.php:98
+msgid "Venue <strong>was not</strong> created"
+msgstr "Χώρος <strong>δεν έχει</strong> δημιουργηθεί"
+
+#: event-organiser-venues.php:127
+msgid "You do not have permission to delete this venue"
+msgstr "Δεν έχετε άδεια να διαγράψετε αυτό το χώρο."
+
+#: event-organiser-venues.php:154
+msgid "Venue(s) <strong>were not </strong> deleted"
+msgstr "Χώρος/οι <strong>δεν έχουν</strong> διαγραφεί"
+
+#: event-organiser-venues.php:166
+msgid "Save"
+msgstr "Αποθήκευση"
+
+#: event-organiser-venues.php:193
+msgid "Venue <strong>created</strong>"
+msgstr "Χώρος <strong>δημιουργήθηκε</strong>"
+
+#: event-organiser-venues.php:194
+msgid "Venue <strong>updated</strong>"
+msgstr "Χώρος <strong>ενημερωμένος</strong>"
+
+#: event-organiser-venues.php:195
+msgid "Venue(s) <strong>deleted</strong>"
+msgstr "Χώρος <strong>διαγραμένος</strong>"
+
+#: event-organiser-venues.php:255 event-organiser-venues.php:294
+#: includes/event-organiser-cpt.php:219
+#, fuzzy
+msgctxt "post"
+msgid "Add New"
+msgstr "Προσθήκη νέου"
+
+#: event-organiser-venues.php:258
+#, php-format
+msgid "Search results for &#8220;%s&#8221;"
+msgstr "Αποτελέσματα αναζήτησης για “%s”"
+
+#: event-organiser-venues.php:417
+msgid "Latitude/Longitude:"
+msgstr ""
+
+#: event-organiser-venues.php:445
+msgid "Venue name"
+msgstr "Ονομασία χώρου"
+
+#: event-organiser-venues.php:451
+msgid "Permalink:"
+msgstr "Permalink:"
+
+#: event-organiser-venues.php:458
+msgid "Get Link"
+msgstr "Λήψη συνδέσμου"
+
+#: event-organiser-venues.php:480
+msgid "Slug"
+msgstr "Slug"
+
+#: includes/class-eo-ical-parser.php:193
+msgid "There was an error detecting iCal source."
+msgstr "Προέκυψε σφάλμα κατά τον εντοπισμό της πηγής iCal."
+
+#: includes/class-eo-ical-parser.php:201
+msgid "Unable to read iCal file"
+msgstr "Αδυναμία ανάγνωσης του αρχείου iCal"
+
+#: includes/class-eo-ical-parser.php:208
+msgid "Feed not found"
+msgstr "Το feed δεν βρέθηκε"
+
+#: includes/class-eo-ical-parser.php:274
+#, php-format
+msgid "There was an error fetching the feed. Response code: %s."
+msgstr "Προέκυψε σφάλμα κατά τη λήψη του feed. Response code: %s."
+
+#: includes/class-eo-ical-parser.php:294
+msgid "There was an error opening the ICAL file."
+msgstr "Προέκυψε σφάλμα κατά την ανάγνωση του αρχείου ICAL."
+
+#: includes/class-eo-ical-parser.php:495 includes/class-eo-ical-parser.php:520
+#, php-format
+msgid "[Lines %1$d-%2$d]"
+msgstr "[Γραμμές %1$d-%2$d]"
+
+#: includes/class-eo-ical-parser.php:502 includes/class-eo-ical-parser.php:527
+#, php-format
+msgid "[Line %1$d]"
+msgstr "[Γραμμή %1$d]"
+
+#: includes/class-eo-ical-parser.php:885
+#, php-format
+msgid "Invalid date \"%s\". Date expected in YYYYMMDD format."
+msgstr ""
+"Μη έγκυρη ημερομηνία \"%s\". Η ημερομηνία πρέπει να είναι σε YYYYMMDD format."
+
+#: includes/class-eo-ical-parser.php:923
+#, php-format
+msgid ""
+"Invalid datetime \"%s\". Date expected in YYYYMMDDTHHiissZ or "
+"YYYYMMDDTHHiiss format."
+msgstr ""
+"Μη έγκυρη ημερομηνία \"%s\". Η ημερομηνία πρέπει να είναι σε "
+"YYYYMMDDTHHiissZ ή YYYYMMDDTHHiiss format."
+
+#: includes/class-event-organiser-im-export.php:61
+#, php-format
+msgid "File Error encountered: %d"
+msgstr "Σφάλματα αρχείου :% d"
+
+#: includes/class-event-organiser-im-export.php:68
+msgid "No file detected."
+msgstr "Το Αρχείο δεν βρέθηκε"
+
+#: includes/class-event-organiser-im-export.php:71
+msgid ""
+"Invalid file uploaded. The file must be a ics calendar file of type 'text/"
+"calendar', no larger than 2MB."
+msgstr "Το αρχείο δεν πρέπει να είανι πάνω απο 2mb και να έιναι ICS αρχείο."
+
+#: includes/class-event-organiser-im-export.php:73
+#, php-format
+msgid "File size: %s. File type: %s"
+msgstr "Μέγεθος αρχείου:% s. Τύπος αρχείου:% s"
+
+#: includes/class-event-organiser-im-export.php:91
+msgid "Export Events"
+msgstr "Εξαγωγή Event."
+
+#: includes/class-event-organiser-im-export.php:94
+msgid ""
+"The export button below generates an ICS file of your events that can be "
+"imported in to other calendar applications such as Google Calendar."
+msgstr ""
+"The export button below generates an ICS file of your events that can be "
+"imported in to other calendar applications such as Google Calendar."
+
+#: includes/class-event-organiser-im-export.php:97
+msgid "Download Export File"
+msgstr "Κατέβασμα Αρχείου Εξαγωγής"
+
+#: includes/class-event-organiser-im-export.php:100
+msgid "Import Events"
+msgstr "Εισαγωγή Events"
+
+#: includes/class-event-organiser-im-export.php:103
+msgid "Import an ICS file."
+msgstr "Εισαγωγή ICS Αρχείου"
+
+#: includes/class-event-organiser-im-export.php:105
+msgid "Import venues"
+msgstr "Εισαγωγή Τοποθεσιών"
+
+#: includes/class-event-organiser-im-export.php:107
+msgid "Import categories"
+msgstr "Εισαγωγή Κατηγοριων"
+
+#: includes/class-event-organiser-im-export.php:111
+msgid "Upload ICS file"
+msgstr "Ανέβασμα ICS αρχείου"
+
+#: includes/class-event-organiser-im-export.php:162
+msgid "You do not have sufficient permissions to import events."
+msgstr "Δεν έχετε δικαιώματα για εισαγωγή events."
+
+#: includes/class-event-organiser-im-export.php:244
+msgid "No events were imported."
+msgstr "Κανένα Event δεν εισάχθηκε."
+
+#: includes/class-event-organiser-im-export.php:253
+msgid "Error:"
+msgstr "Σφάλμα:"
+
+#: includes/class-event-organiser-im-export.php:263
+msgid "Warning:"
+msgstr "Προειδοποίηση:"
+
+#: includes/class-event-organiser-im-export.php:268
+msgid "1 event was successfully imported"
+msgstr "1 event προστέθηκε με επιτυχία"
+
+#: includes/class-event-organiser-im-export.php:271
+#, php-format
+msgid "%d events were successfully imported"
+msgstr "%d event προστέθηκαν με επιτυχία"
+
+#: includes/class-event-organiser-im-export.php:274
+msgid "1 venue was created"
+msgstr "1 τοποθεσία προσθέτηκε"
+
+#: includes/class-event-organiser-im-export.php:277
+#, php-format
+msgid "%d venues were created"
+msgstr "%d τοποθεσίες δημιουργήθηκαν."
+
+#: includes/class-event-organiser-im-export.php:281
+msgid "1 category was created"
+msgstr "1 κατηγορία προσθέτηκε"
+
+#: includes/class-event-organiser-im-export.php:284
+#, php-format
+msgid "%d categories were created"
+msgstr "%d κατηγορίες δημιουργήθηκαν."
+
+#: includes/event-organiser-ajax.php:352
+msgid "Protected"
+msgstr "Προστατευόμενο"
+
+#: includes/event-organiser-ajax.php:354
+msgid "Private"
+msgstr "Προσωπικό"
+
+#: includes/event-organiser-ajax.php:356
+msgid "Draft"
+msgstr "Πρόχειρο"
+
+#: includes/event-organiser-ajax.php:383
+#: templates/event-meta-event-single.php:58
+msgid "Start"
+msgstr "Αφετηρία"
+
+#: includes/event-organiser-ajax.php:384
+msgid "End"
+msgstr "Τέλος"
+
+#: includes/event-organiser-ajax.php:425
+msgid "This event reoccurs"
+msgstr "Αυτο το event επαναλαμβάνεται"
+
+#: includes/event-organiser-ajax.php:431 includes/event-organiser-cpt.php:221
+msgid "Edit Event"
+msgstr "Επεξεργασία Event"
+
+#: includes/event-organiser-ajax.php:450
+msgid "Delete this occurrence"
+msgstr "Delete this occurrence"
+
+#: includes/event-organiser-ajax.php:464
+msgid "Break this series"
+msgstr "Break this series"
+
+#: includes/event-organiser-ajax.php:672
+#: includes/event-organiser-event-functions.php:1399
+msgid "All Day"
+msgstr "Ολοήμερο"
+
+#: includes/event-organiser-ajax.php:677
+msgid "Add To Google Calendar"
+msgstr "Προσθήκη στο Google Ημερολόγιο"
+
+#: includes/event-organiser-cpt.php:33
+msgid "Search Venues"
+msgstr "Αναζήτηση χώρων"
+
+#: includes/event-organiser-cpt.php:35
+msgid "View Venue"
+msgstr "Εμφάνιση τοποθεσίας"
+
+#: includes/event-organiser-cpt.php:36
+msgid "Edit Venue"
+msgstr "Επεξεργασία χώρου"
+
+#: includes/event-organiser-cpt.php:37
+msgid "Update Venue"
+msgstr "Ανανέωση χώρου"
+
+#: includes/event-organiser-cpt.php:38
+msgid "Add New Venue"
+msgstr "Προσθήκη νέου χώρου"
+
+#: includes/event-organiser-cpt.php:39
+msgid "New Venue Name"
+msgstr "Νέο όνομα τοποθεσίας"
+
+#: includes/event-organiser-cpt.php:40
+msgid "No venues found"
+msgstr "Δεν βρέθηκαν τοποθεσίες"
+
+#: includes/event-organiser-cpt.php:41
+msgid "Add or remove venues"
+msgstr "Προσθήκη ή αφαίρεση τοποθεσίας"
+
+#: includes/event-organiser-cpt.php:42
+msgid "Separate venues with commas"
+msgstr "Διαχωρίστε τις τοποθεσίες με κόμα"
+
+#: includes/event-organiser-cpt.php:44
+msgid "Venue Location"
+msgstr "Τοποθεσία χώρου"
+
+#: includes/event-organiser-cpt.php:46
+#, fuzzy
+msgid "Venue:"
+msgstr "Τοποθεσία"
+
+#: includes/event-organiser-cpt.php:47
+msgid "No Venue"
+msgstr "Χωρίς τοποθεσία"
+
+#: includes/event-organiser-cpt.php:93
+#, fuzzy
+msgctxt "taxonomy singular name"
+msgid "Category"
+msgstr "Κατηγορίες"
+
+#: includes/event-organiser-cpt.php:94
+msgid "Search Categories"
+msgstr "Αναζήτηση κατηγοριών"
+
+#: includes/event-organiser-cpt.php:95
+msgid "All Categories"
+msgstr "Όλες οι κατηγορίες"
+
+#: includes/event-organiser-cpt.php:96
+msgid "Parent Category"
+msgstr "Μητρική κατηγορία"
+
+#: includes/event-organiser-cpt.php:97
+#, fuzzy
+msgid "Parent Category:"
+msgstr "Μητρική κατηγορία"
+
+#: includes/event-organiser-cpt.php:98
+msgid "Edit Category"
+msgstr "Επεξεργασία κατηγορίας"
+
+#: includes/event-organiser-cpt.php:99
+msgid "Update Category"
+msgstr "Ενημέρωση κατηγορίας"
+
+#: includes/event-organiser-cpt.php:100
+msgid "Add New Category"
+msgstr "Προσθήκη νέας κατηγορίας"
+
+#: includes/event-organiser-cpt.php:101
+msgid "New Category Name"
+msgstr "Προσθήκη "
+
+#: includes/event-organiser-cpt.php:102
+msgid "No categories found"
+msgstr "Δεν βρέθηκαν κατηγορίες"
+
+#: includes/event-organiser-cpt.php:147
+#, fuzzy
+msgctxt "taxonomy singular name"
+msgid "Tag"
+msgstr "Ετικέτες"
+
+#: includes/event-organiser-cpt.php:148
+msgid "Search Tags"
+msgstr "Αναζήτηση ετικέτας"
+
+#: includes/event-organiser-cpt.php:149
+msgid "All Tags"
+msgstr "Όλες οι ετικέτες"
+
+#: includes/event-organiser-cpt.php:150
+msgid "Popular Tags"
+msgstr "Δημοφιλείς ετικέτες"
+
+#: includes/event-organiser-cpt.php:151
+msgid "Edit Tag"
+msgstr "Επεξεργασία ετικέτας"
+
+#: includes/event-organiser-cpt.php:152
+msgid "Update Tag"
+msgstr "Ενημέρωση ετικέτας"
+
+#: includes/event-organiser-cpt.php:153
+msgid "Add New Tag"
+msgstr "Νέα ετικέτα"
+
+#: includes/event-organiser-cpt.php:154
+msgid "New Tag Name"
+msgstr "Νέο όνομα ετικέτας"
+
+#: includes/event-organiser-cpt.php:155
+msgid "No tags found"
+msgstr "Δεν βρέθηκαν ετικέτες"
+
+#: includes/event-organiser-cpt.php:156
+msgid "Choose from the most used tags"
+msgstr "Επιλέξτε απο τις πιο δημοφιλής ετικέτες"
+
+#: includes/event-organiser-cpt.php:157
+#: includes/event-organiser-event-functions.php:1501
+#: templates/event-meta-event-single.php:74
+msgid "Tags"
+msgstr "Ετικέτες"
+
+#: includes/event-organiser-cpt.php:158
+msgid "Add or remove tags"
+msgstr "Προσθήκη ή αφαίρεση ετικέτας"
+
+#: includes/event-organiser-cpt.php:159
+msgid "Separate tags with commas"
+msgstr "Διαχωρίστε τις ετικέτες με κόμα."
+
+#: includes/event-organiser-cpt.php:161
+msgid "View all tags"
+msgstr ""
+
+#: includes/event-organiser-cpt.php:220
+msgid "Add New Event"
+msgstr "Προσθήκη Νέου Event"
+
+#: includes/event-organiser-cpt.php:222
+msgid "New Event"
+msgstr "Νέο Event"
+
+#: includes/event-organiser-cpt.php:223
+msgid "All events"
+msgstr "Όλα τα event"
+
+#: includes/event-organiser-cpt.php:224
+msgid "View Event"
+msgstr "Εμφάνιση Event"
+
+#: includes/event-organiser-cpt.php:225
+msgid "Search events"
+msgstr "Αναζήτηση Event"
+
+#: includes/event-organiser-cpt.php:226
+msgid "No events found"
+msgstr "Δεν βρέθηκαν Event"
+
+#: includes/event-organiser-cpt.php:227
+msgid "No events found in Trash"
+msgstr "Δεν βρέθηκαν Event στον κάδο"
+
+#: includes/event-organiser-cpt.php:310
+#, php-format
+msgid "Event updated. <a href=\"%s\">View event</a>"
+msgstr "Το event ενημερώθηκε. <a href=\"%s\">Εμφάνιση event</a>"
+
+#: includes/event-organiser-cpt.php:311
+msgid "Custom field updated."
+msgstr "Custom field updated."
+
+#: includes/event-organiser-cpt.php:312
+msgid "Custom field deleted."
+msgstr "Custom field deleted."
+
+#: includes/event-organiser-cpt.php:313
+msgid "Event updated."
+msgstr "Το event ενημερώθηκε."
+
+#: includes/event-organiser-cpt.php:315
+#, php-format
+msgid "Event restored to revision from %s"
+msgstr "Το event επαναφέρθηκε απο  %s"
+
+#: includes/event-organiser-cpt.php:316
+#, php-format
+msgid "Event published. <a href=\"%s\">View event</a>"
+msgstr "To event δημοσιέυθηκε <a href=\"%s\">Εμφάνιση</a>"
+
+#: includes/event-organiser-cpt.php:317
+msgid "Event saved."
+msgstr "Το Event αποθηκέυτηκε"
+
+#: includes/event-organiser-cpt.php:318
+#, php-format
+msgid "Event submitted. <a target=\"_blank\" href=\"%s\">Preview event</a>"
+msgstr ""
+"Το event υποβλήθηκε.  <a target=\"_blank\" href=\"%s\">Προεπισκόπηση event</"
+"a>"
+
+#: includes/event-organiser-cpt.php:319
+#, php-format
+msgid ""
+"Event scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s"
+"\">Preview event</a>"
+msgstr ""
+"Το event προγραμματίστηκε για  <strong>%1$s</strong>. <a target=\"_blank\" "
+"href=\"%2$s\">Προεπισκόπηση event</a>"
+
+#: includes/event-organiser-cpt.php:321
+msgid "M j, Y @ G:i"
+msgstr "M j, Y @ G:i"
+
+#: includes/event-organiser-cpt.php:322
+#, php-format
+msgid "Event draft updated. <a target=\"_blank\" href=\"%s\">Preview event</a>"
+msgstr ""
+"Το Event Πρόχειρο ενημερώθηκε. <a target=\"_blank\" href=\"%s"
+"\">Προεπισκόπηση</a>"
+
+#: includes/event-organiser-cpt.php:323
+msgid "This event has been broken from a recurring event."
+msgstr "Το event έχει διακοπεί από ένα επαναλαμβανόμενο event."
+
+#: includes/event-organiser-cpt.php:516
+msgid "Creating events"
+msgstr "Δημιουργία events"
+
+#: includes/event-organiser-cpt.php:517
+msgid "Creating events:"
+msgstr "Δημιουργία events:"
+
+#: includes/event-organiser-cpt.php:519
+msgid ""
+"The start date is the date the event starts. If the event is a reoccuring "
+"event, this is the start date of the first occurrence."
+msgstr ""
+"Η ημερομηνία έναρξης είναι η ημερομηνία κατά την έναρξη του γεγονότος. Αν η "
+"εκδήλωση είναι μια reoccuring περιπτώσει, αυτή είναι η ημερομηνία έναρξης "
+"της πρώτης εμφάνισης."
+
+#: includes/event-organiser-cpt.php:520
+msgid ""
+"The end date is the date the event finishes. If the event is a reoccuring "
+"event, this is the end date of the first occurrence."
+msgstr ""
+"Η ημερομηνία λήξης είναι η ημερομηνία κατά την λήξη του γεγονότος. Αν η "
+"εκδήλωση είναι μια reoccuring περιπτώσει, αυτή είναι η ημερομηνία λήξης της "
+"πρώτης εμφάνισης."
+
+#: includes/event-organiser-cpt.php:521
+msgid ""
+"All dates and times must be entered in the specified format. This format can "
+"changed in the settings page."
+msgstr ""
+"Όλες οι ημερομηνίες και οι ώρες πρέπει να αναγράφονται με συγκεκριμένο "
+"τρόπο. Αυτή η μορφή μπορεί να αλλάξει στην σελίδα ρυθμίσεων."
+
+#: includes/event-organiser-cpt.php:526
+msgid "Repeating events"
+msgstr "Events που επαναλαμβάνονται"
+
+#: includes/event-organiser-cpt.php:527
+msgid ""
+"To repeat an event according to some regular pattern, use the reoccurrence "
+"dropdown menu to select how the event is to repeat. Further options then "
+"appear, "
+msgstr ""
+"Για να ορίσετε ένα event επαναλαμβανόμενο σύμφωνα με κάποιο μοτίβο, "
+"χρησιμοποιείστε το ανάλογο dropdown μενού για να επιλέξετε πως το event θα "
+"επαναλαμβάνεται."
+
+#: includes/event-organiser-cpt.php:529
+msgid "Specify how regularly the event should repeat (default 1)"
+msgstr "Καθορίστε πόσο συχνά το γεγονός θα πρέπει να επαναλάβει (προεπιλογή 1)"
+
+#: includes/event-organiser-cpt.php:530
+msgid ""
+"Choose the reoccurrence end date. No further occurrences are added after "
+"this date, but an occurrence that starts before may finish after this date."
+msgstr ""
+"Επιλέξτε την ημερομηνία λήξης επανεμφάνισης. Δεν χρειάζονται περαιτέρω "
+"περιστατικά προστίθενται μετά την ημερομηνία αυτή, αλλά ένα περιστατικό που "
+"ξεκινά πριν να ολοκληρωθεί μετά την ημερομηνία αυτή."
+
+#: includes/event-organiser-cpt.php:531
+msgid ""
+"If monthly reoccurrence is selected, select whether this should repeat on "
+"that date of the month (e.g. on the 24th) or on the day of the month (e.g. "
+"on the third Tuesday) "
+msgstr ""
+"Εάν η μηνιαία επανεμφάνιση είναι επιλεγμένο, επιλέξτε αν αυτό θα πρέπει να "
+"επαναλάβει την εν λόγω ημερομηνία του μήνα (π.χ. για την 24η), είτε την "
+"ημέρα του μήνα (π.χ. για την τρίτη Τρίτη)"
+
+#: includes/event-organiser-cpt.php:532
+msgid ""
+"If weekly reoccurrence is selected, select which days of the week the event "
+"should be repeated. If no days are selected, the day of the start date is "
+"used"
+msgstr ""
+"Αν εβδομαδιαία επανάληψη έχει επιλεγεί, επιλέξτε ποιες ημέρες της εβδομάδας, "
+"η εκδήλωση θα πρέπει να επαναληφθεί. Εάν δεν έχουν επιλεγεί ημέρες, από την "
+"ημέρα από την ημερομηνία έναρξης χρησιμοποιείται"
+
+#: includes/event-organiser-cpt.php:537 includes/event-organiser-cpt.php:538
+msgid "Selecting a venue"
+msgstr "Επιλέγοντας ένα χώρο"
+
+#: includes/event-organiser-cpt.php:540
+msgid "Use the venues input field to search for existing venues"
+msgstr ""
+"Χρησιμοποιήστε το πεδίο εισαγωγής χώρους για την αναζήτηση υπάρχον χώρους"
+
+#: includes/event-organiser-cpt.php:541
+msgid ""
+"Only pre-existing venues can be selected. To add a venue, go to the venues "
+"page."
+msgstr ""
+"Μόνο προϋπάρχουσα χώρους μπορεί να επιλεγεί. Για να προσθέσετε ένα χώρο, "
+"μεταβείτε στη σελίδα χώρους."
+
+#: includes/event-organiser-cpt.php:551 includes/event-organiser-cpt.php:570
+msgid "Overview"
+msgstr "Περίληψη"
+
+#: includes/event-organiser-cpt.php:552
+msgid ""
+"This is the list of all saved events. Note that <strong> reoccurring events "
+"appear as a single row </strong> in the table and the start and end date "
+"refers to the first occurrence of that event."
+msgstr ""
+"Αυτή είναι η λίστα όλων των αποθηκευμένων συμβάντων. Σημειώστε ότι <strong> "
+"επαναλαμβανόμενο συμβάντα εμφανίζονται ως ενιαία γραμμή </ strong> στον "
+"πίνακα και την ημερομηνία έναρξης και λήξης αναφέρεται στην πρώτη εμφάνιση "
+"αυτού του γεγονότος."
+
+#: includes/event-organiser-cpt.php:558
+msgid ""
+"Hovering over a row in the venues list will display action links that allow "
+"you to manage that venue. You can perform the following actions:"
+msgstr ""
+"Πλανάται πάνω σε μια σειρά στη λίστα χώρους θα εμφανιστούν σύνδεσμοι δράσης "
+"που σας επιτρέπουν να διαχειριστεί το εν λόγω χώρο. Μπορείτε να εκτελέσετε "
+"τις ακόλουθες ενέργειες:"
+
+#: includes/event-organiser-cpt.php:560
+msgid ""
+"Edit takes you to the editing screen for that venue. You can also reach that "
+"screen by clicking on the venue title."
+msgstr ""
+"Επεξεργασία σας μεταφέρει στην οθόνη επεξεργασίας για το συγκεκριμένο χώρο. "
+"Μπορείτε να φτάσετε επίσης ότι η οθόνη κάνοντας κλικ στον τίτλο τόπο."
+
+#: includes/event-organiser-cpt.php:561
+msgid "Delete will permanently remove the venue"
+msgstr "Διαγραφή θα αφαιρέσει οριστικά το χώρο"
+
+#: includes/event-organiser-cpt.php:562
+msgid "View will take you to the venue's page"
+msgstr "Η Εμφάνιση θα οδηγήσει σην σελίδα με τις τοποθεσίες."
+
+#: includes/event-organiser-cpt.php:571
+msgid ""
+"This page shows all (occurrances of) events. You can view the summary of an "
+"event by clicking on it. If you have the necessary permissions, a link to "
+"the event's edit page will appear also."
+msgstr ""
+"This page shows all (occurrances of) events. You can view the summary of an "
+"event by clicking on it. If you have the necessary permissions, a link to "
+"the event's edit page will appear also."
+
+#: includes/event-organiser-cpt.php:572
+msgid ""
+"By clicking the relevant tab, you can view events in Month, Week or Day "
+"mode. You can also filter the events by events by category and venue. The "
+"'go to date' button allows you to quickly jump to a specific date."
+msgstr ""
+"By clicking the relevant tab, you can view events in Month, Week or Day "
+"mode. You can also filter the events by events by category and venue. The "
+"'go to date' button allows you to quickly jump to a specific date."
+
+#: includes/event-organiser-cpt.php:576
+msgid "Add Event"
+msgstr "Προσθήκη Event"
+
+#: includes/event-organiser-cpt.php:577
+msgid ""
+"You can create an event on this Calendar, by clicking on day or dragging "
+"over multiple days (in Month view) or multiple times (in Week and Day view). "
+"You can give the event a title, specify a venue and provide a descripton. "
+"The event can be immediately published or saved as a draft. In any case, the "
+"event is created and you are forwarded to that event's edit page."
+msgstr ""
+"You can create an event on this Calendar, by clicking on day or dragging "
+"over multiple days (in Month view) or multiple times (in Week and Day view). "
+"You can give the event a title, specify a venue and provide a descripton. "
+"The event can be immediately published or saved as a draft. In any case, the "
+"event is created and you are forwarded to that event's edit page."
+
+#: includes/event-organiser-cpt.php:583
+msgid "For more information"
+msgstr "Για περισσότερες πληροφορίες"
+
+#: includes/event-organiser-cpt.php:584
+#, php-format
+msgid "See the <a %s> documentation</a>"
+msgstr "Δες την <a %s> αρθογραφία</a>"
+
+#: includes/event-organiser-cpt.php:585
+msgid "Debugging Event Organiser"
+msgstr "Αποσφαλμάτωση Event Organizer"
+
+#: includes/event-organiser-cpt.php:586
+msgid "Go Pro!"
+msgstr "Αναβάθμιση σε Pro!"
+
+#: includes/event-organiser-cpt.php:703 includes/event-organiser-cpt.php:726
+msgid "Color"
+msgstr "Χρώμα"
+
+#: includes/event-organiser-cpt.php:709
+msgid "Assign the category a colour."
+msgstr "Ορισε στην κατηγορία ένα χρώμα"
+
+#: includes/event-organiser-event-functions.php:740
+#: includes/event-organiser-register.php:265
+msgid "last"
+msgstr "τελεταίο"
+
+#: includes/event-organiser-event-functions.php:740
+#: includes/event-organiser-register.php:265
+msgid "first"
+msgstr "πρώτα"
+
+#: includes/event-organiser-event-functions.php:740
+#: includes/event-organiser-register.php:265
+msgid "second"
+msgstr "δεύτερο"
+
+#: includes/event-organiser-event-functions.php:740
+#: includes/event-organiser-register.php:265
+msgid "third"
+msgstr "τρίτο"
+
+#: includes/event-organiser-event-functions.php:740
+#: includes/event-organiser-register.php:265
+msgid "fourth"
+msgstr "τέταρτο"
+
+#: includes/event-organiser-event-functions.php:750
+msgid "one time only"
+msgstr "Μόνο μια φορά"
+
+#: includes/event-organiser-event-functions.php:753
+msgid "custom reoccurrence"
+msgstr "custom reoccurrence"
+
+#: includes/event-organiser-event-functions.php:760
+#: includes/event-organiser-register.php:255
+msgid "every day"
+msgstr "Καθημερινά"
+
+#: includes/event-organiser-event-functions.php:762
+#: includes/event-organiser-register.php:256
+#, fuzzy, php-format
+msgid "every %d days"
+msgstr "κάθε &d μέρες"
+
+#: includes/event-organiser-event-functions.php:768
+#: includes/event-organiser-register.php:257
+msgid "every week on"
+msgstr "Εβδομαδιαία στις "
+
+#: includes/event-organiser-event-functions.php:770
+#: includes/event-organiser-register.php:258
+#, fuzzy, php-format
+msgid "every %d weeks on"
+msgstr "κάθε 7d βδομάδες "
+
+#: includes/event-organiser-event-functions.php:781
+#: includes/event-organiser-register.php:259
+msgid "every month on the"
+msgstr "Κάθε μήνα στις"
+
+#: includes/event-organiser-event-functions.php:783
+#: includes/event-organiser-register.php:260
+#, php-format
+msgid "every %d months on the"
+msgstr "κάθε %d μήνα στις"
+
+#: includes/event-organiser-event-functions.php:812
+msgid "every year"
+msgstr "Κάθε χρόνο"
+
+#: includes/event-organiser-event-functions.php:814
+#, php-format
+msgid "every %d years"
+msgstr "κάθε %d χρόνια"
+
+#: includes/event-organiser-register.php:55
+msgid "Show More"
+msgstr "Δείξε Περισσότερα"
+
+#: includes/event-organiser-register.php:56
+msgid "Show Less"
+msgstr "Δείξε Λιγότερα"
+
+#: includes/event-organiser-register.php:242
+msgid "Hide dates"
+msgstr "Κρύψε Ημερομηνίες"
+
+#: includes/event-organiser-register.php:245
+msgid "Hour"
+msgstr "Ώρα"
+
+#: includes/event-organiser-register.php:246
+msgid "Minute"
+msgstr "Λεπτό"
+
+#: includes/event-organiser-register.php:248
+msgid "days"
+msgstr "Ημέρες"
+
+#: includes/event-organiser-register.php:250
+msgid "weeks"
+msgstr "Εβδομάδες"
+
+#: includes/event-organiser-register.php:252
+msgid "months"
+msgstr "Μήνες"
+
+#: includes/event-organiser-register.php:253
+msgid "year"
+msgstr "Χρόνος"
+
+#: includes/event-organiser-register.php:254
+msgid "years"
+msgstr "χρόνια"
+
+#: includes/event-organiser-register.php:261
+msgid "every year on the"
+msgstr "Κάθε χρόνο στις"
+
+#: includes/event-organiser-register.php:262
+#, php-format
+msgid "every %d years on the"
+msgstr "Κάθε %d χρόνια στις"
+
+#: includes/event-organiser-register.php:263
+msgid "This event will repeat"
+msgstr "Αυτο το event θα επαναληφθεί"
+
+#: includes/event-organiser-register.php:364
+msgid "Settings"
+msgstr "Ρυθμίσεις"
+
+#: includes/event-organiser-register.php:667
+#, php-format
+msgid ""
+"<h4>City & State Fields Added</h4>City and state / province fields for "
+"venues have now been added. </br> If you'd like, Event Organiser can <a "
+"href='%s'>attempt to auto-fill them</a>. You can always manually change the "
+"details aftewards."
+msgstr ""
+"<h4>City & State Fields Added</h4>City and state / province fields for "
+"venues have now been added. </br> If you'd like, Event Organiser can <a "
+"href='%s'>attempt to auto-fill them</a>. You can always manually change the "
+"details aftewards."
+
+#: includes/event-organiser-register.php:674
+msgid ""
+"<h4>The Default Templates Have Changed</h4>Don't panic! If you've set up "
+"your own templates in your theme you won't notice any change. </br> If you "
+"haven't and want the old templates back, <a href='http://wp-event-organiser."
+"com/blog/new-default-templates-in-1-7'>see this post<a/>."
+msgstr ""
+"<h4>The Default Templates Have Changed</h4>Don't panic! If you've set up "
+"your own templates in your theme you won't notice any change. </br> If you "
+"haven't and want the old templates back, <a href='http://wp-event-organiser."
+"com/blog/new-default-templates-in-1-7'>see this post<a/>."
+
+#: includes/event-organiser-register.php:710
+msgid "Dismiss this notice"
+msgstr "Απόρριψη σημειώματος"
+
+#: includes/event-organiser-register.php:711
+msgid "Dismiss"
+msgstr "Απόρριψη"
+
+#: includes/event-organiser-venue-functions.php:953
+msgid "Address"
+msgstr "Διέυθυνση"
+
+#: includes/event-organiser-venue-functions.php:954
+msgid "City"
+msgstr "Πόλη"
+
+#: includes/event-organiser-venue-functions.php:955
+msgid "State / Province"
+msgstr "Περιοχή"
+
+#: includes/event-organiser-venue-functions.php:956
+msgid "Post Code"
+msgstr "Ταχυδρομικός Κώδικας"
+
+#: includes/event-organiser-venue-functions.php:957
+msgid "Country"
+msgstr "Χώρα"
+
+#: includes/event.php:573
+msgid "Schedule not recognised."
+msgstr "Δεν αναγνωρίζεται το πρόγραμμα"
+
+#: includes/event.php:582
+msgid "Start date not provided."
+msgstr "Δεν ορίσθηκε η μέρα έναρξης"
+
+#: includes/event.php:600
+msgid "Start date occurs after end date."
+msgstr "Η ημέρα έναρξης είναι μετα της λήξης"
+
+#: includes/event.php:603
+msgid "Schedule end date is before is before the start date."
+msgstr "Η προγραμματισμένη μέρα λήξης είναι πριν την ημέρα έναρξης"
+
+#: includes/event.php:686
+msgid "Invalid monthly schedule (invalid ordinal)"
+msgstr "Λάθος μηνιαίο πρόγραμμα"
+
+#: includes/event.php:806
+msgid "Event does not contain any dates."
+msgstr "Το event δεν περιέχει ημερομηνίες."
+
+#: includes/event.php:947
+msgid "Occurrence not deleted. Occurrence not found."
+msgstr "Το αντικείμενο δεν διαγράφηκε. Το αντικείμενο δεν βρέθηκε."
+
+#. / TRANSLATORS: This is the description that of the plug-in that appears in the "Plugins" page.
+#: includes/i18n.php:8
+msgid ""
+"Creates a custom post type 'events' with features such as reoccurring "
+"events, venues, Google Maps, calendar views and events and venue pages"
+msgstr ""
+
+#: templates/archive-event.php:34 templates/archive-event.php:37
+#: templates/archive-event.php:40
+msgid "Events: "
+msgstr "Γεγονότα: "
+
+#: templates/archive-event.php:55 templates/archive-event.php:110
+#: templates/taxonomy-event-category.php:48
+#: templates/taxonomy-event-category.php:106
+#: templates/taxonomy-event-tag.php:48 templates/taxonomy-event-tag.php:106
+#: templates/taxonomy-event-venue.php:48
+#: templates/taxonomy-event-venue.php:105
+msgid "Later events <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Μετέπειτα γεγονότα <span class=\"meta-nav\">→</span>"
+
+#: templates/archive-event.php:56 templates/archive-event.php:111
+#: templates/taxonomy-event-category.php:49
+#: templates/taxonomy-event-category.php:107
+#: templates/taxonomy-event-tag.php:49 templates/taxonomy-event-tag.php:107
+#: templates/taxonomy-event-venue.php:49
+#: templates/taxonomy-event-venue.php:106
+msgid " <span class=\"meta-nav\">&larr;</span> Newer events"
+msgstr "<span class=\"meta-nav\">←</span> Νέα γεγονότα"
+
+#: templates/archive-event.php:119 templates/taxonomy-event-category.php:116
+#: templates/taxonomy-event-tag.php:116 templates/taxonomy-event-venue.php:115
+msgid "Nothing Found"
+msgstr "Τίποτα δεν βρέθηκε"
+
+#: templates/archive-event.php:123
+msgid "Apologies, but no results were found for the requested archive. "
+msgstr "Ζητάμε συγνώμη. Δεν βρέθηκαν αποτελέσματα για το ζητούμενο αρχείο."
+
+#: templates/event-meta-event-single.php:46
+#, php-format
+msgid ""
+"This event is running from %1$s until %2$s. It is next occurring on %3$s"
+msgstr ""
+"Αυτό το συμβάν εκτελείται από %1$s μέχρι %2$s. Είναι επόμενο για την "
+"εμφάνιση %3$s"
+
+#: templates/event-meta-event-single.php:50
+#, php-format
+msgid "This event finished on %s"
+msgstr " Αυτό το γεγονός τελείσε στις %s"
+
+#: templates/event-meta-event-single.php:89
+msgid "Upcoming Dates"
+msgstr "Προσεχείς Ημερομηνίες"
+
+#: templates/single-event.php:58
+#, fuzzy, php-format
+msgid ""
+"This event was posted in %1$s by <a href=\"%5$s\">%4$s</a>. Bookmark the <a "
+"href=\"%2$s\" title=\"Permalink to %3$s\" rel=\"bookmark\">permalink</a>."
+msgstr ""
+"Το γεγονός αυτό δημοσιεύτηκε την% 1 $ s από <a href=\"%5$s\">%4$s</a>. "
+"Bookmark the <a href=\"%2$s\" title=\"Permalink to %3$s\" rel=\"bookmark"
+"\">permalink</a>."
+
+#: templates/single-event.php:60
+#, php-format
+msgid ""
+"This event was posted by <a href=\"%5$s\">%4$s</a>. Bookmark the <a href="
+"\"%2$s\" title=\"Permalink to %3$s\" rel=\"bookmark\">permalink</a>."
+msgstr ""
+"Το γεγονός αυτό δημοσιεύτηκε από<a href=\"%5$s\">%4$s</a>. Bookmark the <a "
+"href=\"%2$s\" title=\"Permalink to %3$s\" rel=\"bookmark\">permalink</a>."
+
+#: templates/taxonomy-event-category.php:31
+#, php-format
+msgid "Event Category Archives: %s"
+msgstr "Αρχείο:  %s"
+
+#: templates/taxonomy-event-category.php:120
+msgid "Apologies, but no events were found for the requested category. "
+msgstr "Συγνώμη, αλλά δεν βρέθηκαν γεγονότα για την κατηγορία που επιλέξατε."
+
+#: templates/taxonomy-event-tag.php:31
+#, php-format
+msgid "Event Tag Archives: %s"
+msgstr "Ετικέτα αρχείων: %s"
+
+#: templates/taxonomy-event-tag.php:120
+msgid "Apologies, but no events were found for the requested tag. "
+msgstr "Συγνώμη, αλλά δεν βρέθηκαν γεγονότα για την αιτούμενη ετικέτα."
+
+#: templates/taxonomy-event-venue.php:31
+#, php-format
+msgid "Events at: %s"
+msgstr "Γεγονότα στα: %s"
+
+#: templates/taxonomy-event-venue.php:118
+msgid "Apologies, but no events were found for the requested venue. "
+msgstr "Συγνώμη, αλλά δεν βρέθηκαν γεγονότα για το αιτούμενο χώρο."
+
+#~ msgid "Add Venue"
+#~ msgstr "Προσθήκη χώρου"
