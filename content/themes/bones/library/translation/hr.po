@@ -1,0 +1,548 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wp theme bones\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-10-01 19:37+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Jurica Zuanović <jurica.zuanovic@gmail.com>\n"
+"Language-Team: fulgor <frag.fulgor@gmail.com>\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n;_x\n"
+"X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 1.5.3\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:13
+msgid "Epic 404 - Article Not Found"
+msgstr "Epski 404 - Članak nije pronađen"
+
+#: 404.php:19
+msgid ""
+"The article you were looking for was not found, but maybe try looking again!"
+msgstr ""
+"Članak koji ste tražili nije pronađen, ali pokušajte ponovno potražiti!"
+
+#: 404.php:31
+msgid "This is the 404.php template."
+msgstr "Ovo je predložak 404.php."
+
+#: archive-custom_type.php:19 page-custom.php:23 page.php:17
+#, php-format
+msgid ""
+"Posted <time class=\"updated\" datetime=\"%1$s\" pubdate>%2$s</time> by "
+"<span class=\"author\">%3$s</span>."
+msgstr ""
+"Objavljeno <time class=\"updated\" datetime=\"%1$s\" pubdate>%2$s</time> "
+"autor <span class=\"author\">%3$s</span>."
+
+#: archive-custom_type.php:19 archive.php:52 functions.php:135
+#: page-custom.php:23 page.php:17 search.php:18
+msgid "F jS, Y"
+msgstr "j. F Y."
+
+#: archive-custom_type.php:43 archive.php:78 index.php:42 search.php:41
+#: taxonomy-custom_cat.php:57
+msgid "&laquo; Older Entries"
+msgstr "&laquo; Stariji Unosi"
+
+#: archive-custom_type.php:44 archive.php:79 index.php:43 search.php:42
+#: taxonomy-custom_cat.php:58
+msgid "Newer Entries &raquo;"
+msgstr "Noviji Unosi &raquo;"
+
+#: archive-custom_type.php:53 archive.php:88 index.php:52 page-custom.php:48
+#: page.php:40 single-custom_type.php:58 single.php:41
+#: taxonomy-custom_cat.php:67
+msgid "Oops, Post Not Found!"
+msgstr "Uups, Post nije pronađen!"
+
+#: archive-custom_type.php:56 archive.php:91 index.php:55 page-custom.php:51
+#: page.php:43 single-custom_type.php:61 single.php:44
+#: taxonomy-custom_cat.php:70
+msgid "Uh Oh. Something is missing. Try double checking things."
+msgstr "Oh. Nešto nedostaje. Dobro provjerite."
+
+#: archive-custom_type.php:59
+msgid "This is the error message in the custom posty type archive template."
+msgstr "Ovo je poruka greške u predlošku arhive prilagođenog post tipa."
+
+#: archive.php:11 taxonomy-custom_cat.php:24
+msgid "Posts Categorized:"
+msgstr "Postovi Kategorizirani:"
+
+#: archive.php:16
+msgid "Posts Tagged:"
+msgstr "Postovi Označeni:"
+
+#: archive.php:25
+msgid "Posts By:"
+msgstr "Postovi od:"
+
+#: archive.php:30
+msgid "Daily Archives:"
+msgstr "Dnevne Arhive:"
+
+#: archive.php:35
+msgid "Monthly Archives:"
+msgstr "Mjesečne Arhive:"
+
+#: archive.php:40
+msgid "Yearly Archives:"
+msgstr "Godišnje Arhive:"
+
+#: archive.php:52 index.php:17 search.php:18 single-custom_type.php:32
+#: taxonomy-custom_cat.php:34
+#, php-format
+msgid ""
+"Posted <time class=\"updated\" datetime=\"%1$s\" pubdate>%2$s</time> by "
+"<span class=\"author\">%3$s</span> <span class=\"amp\">&</span> filed under "
+"%4$s."
+msgstr ""
+"Objavljeno <time class=\"updated\" datetime=\"%1$s\" pubdate>%2$s</time> "
+"autor <span class=\"author\">%3$s</span> <span class=\"amp\">&amp;</span> "
+"objavljeno u %4$s."
+
+#: archive.php:94
+msgid "This is the error message in the archive.php template."
+msgstr "Ovo je poruka greške u predlošku archive.php."
+
+#: comments.php:12
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+"Ovaj post je zaštićen lozinkom. Unesite lozinku kako bi vidjeli komentare."
+
+#: comments.php:22
+msgid "<span>No</span> Responses"
+msgstr "<span>Nema</span> Odgovora"
+
+#: comments.php:22
+msgid "<span>One</span> Response"
+msgstr "<span>Jedan</span> Odgovor"
+
+#: comments.php:22
+msgid "<span>%</span> Response"
+msgstr "<span>%</span> Odgovor"
+
+#: comments.php:50
+msgid "Comments are closed."
+msgstr "Komentari su zatvoreni."
+
+#: comments.php:61
+msgid "Leave a Reply"
+msgstr "Napišite Odgovor"
+
+#: comments.php:61
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr "Napišite Odgovor %s"
+
+#: comments.php:69
+#, php-format
+msgid "You must be %1$slogged in%2$s to post a comment."
+msgstr "Morate biti %1$slogged in%2$s kako bi napisali komentar."
+
+#: comments.php:77
+msgid "Logged in as"
+msgstr "Prijavljeni kao"
+
+#: comments.php:77
+msgid "Log out of this account"
+msgstr "Odjava sa ovog računa"
+
+#: comments.php:77
+msgid "Log out"
+msgstr "Odjava"
+
+#: comments.php:77
+msgid "&raquo;"
+msgstr "&raquo;"
+
+#: comments.php:84
+msgid "Name"
+msgstr "Ime"
+
+#: comments.php:84 comments.php:89
+msgid "(required)"
+msgstr "(obavezno)"
+
+#: comments.php:85
+msgid "Your Name*"
+msgstr "Vaše Ime*"
+
+#: comments.php:89
+msgid "Mail"
+msgstr "E-pošta"
+
+#: comments.php:90
+msgid "Your E-Mail*"
+msgstr "Vaša E-pošta*"
+
+#: comments.php:91
+msgid "(will not be published)"
+msgstr "(neće biti objavljeno)"
+
+#: comments.php:95
+msgid "Website"
+msgstr "Web stranica"
+
+#: comments.php:96
+msgid "Got a website?"
+msgstr "Imate Web stranicu?"
+
+#: comments.php:103
+msgid "Your Comment here..."
+msgstr "Vaš komentar ovdje..."
+
+#: comments.php:106
+msgid "Submit"
+msgstr "Pošalji"
+
+#: comments.php:111
+msgid "You can use these tags"
+msgstr "Možete koristiti ove oznake"
+
+#: functions.php:79
+msgid "Sidebar 1"
+msgstr "Bočna traka 1"
+
+#: functions.php:80
+msgid "The first (primary) sidebar."
+msgstr "Prva (primarna) bočna traka."
+
+#: functions.php:134
+#, php-format
+msgid "<cite class=\"fn\">%s</cite>"
+msgstr "<cite class=\"fn\">%s</cite>"
+
+#: functions.php:136
+msgid "(Edit)"
+msgstr "(Uredi)"
+
+#: functions.php:140
+msgid "Your comment is awaiting moderation."
+msgstr "Vaš komentar čeka moderaciju."
+
+#: functions.php:157
+msgid "Search for:"
+msgstr "Pretraži:"
+
+#: functions.php:158
+msgid "Search the Site..."
+msgstr "Pretraži stranicu..."
+
+#: index.php:27 page-custom.php:34 page.php:28 single.php:27
+msgid "Tags:"
+msgstr "Oznake:"
+
+#: index.php:58
+msgid "This is the error message in the index.php template."
+msgstr "Ovo je poruka greške u predlošku index.php."
+
+#: page-custom.php:54
+msgid "This is the error message in the page-custom.php template."
+msgstr "Ovo je poruka greške u predlošku page-custom.php."
+
+#: page.php:46
+msgid "This is the error message in the page.php template."
+msgstr "Ovo je poruka greške u predlošku page.php."
+
+#: search.php:8
+msgid "Search Results for:"
+msgstr "Rezultati pretrage za:"
+
+#: search.php:24
+msgid "Read more &raquo;"
+msgstr "Nastavi čitati &raquo;"
+
+#: search.php:51
+msgid "Sorry, No Results."
+msgstr "Žalim, nema rezultata."
+
+#: search.php:54
+msgid "Try your search again."
+msgstr "Pokušajte ponoviti pretragu."
+
+#: search.php:57
+msgid "This is the error message in the search.php template."
+msgstr "Ovo je poruka greške u predlošku search.php."
+
+#: sidebar.php:12
+msgid "Please activate some Widgets."
+msgstr "Molim aktivirajte neke Widgete."
+
+#: single-custom_type.php:32 single.php:17 taxonomy-custom_cat.php:34
+msgid "F jS, Y"
+msgstr "j. F Y."
+
+#: single-custom_type.php:44
+msgid "Custom Tags:"
+msgstr "Prilagođene Oznake:"
+
+#: single-custom_type.php:64
+msgid "This is the error message in the single-custom_type.php template."
+msgstr "Ovo je poruka greške u predlošku single-custom_type.php."
+
+#: single.php:17
+#, php-format
+msgid ""
+"Posted <time class=\"updated\" datetime=\"%1$s\" pubdate>%2$s</time> by "
+"<span class=\"author\">%3$s</span> <span class=\"amp\">&amp;</span> filed "
+"under %4$s."
+msgstr ""
+"Objavljeno <time class=\"updated\" datetime=\"%1$s\" pubdate>%2$s</time> "
+"autor <span class=\"author\">%3$s</span> <span class=\"amp\">&amp;</span> "
+"objavljeno u %4$s."
+
+#: single.php:47
+msgid "This is the error message in the single.php template."
+msgstr "Ovo je poruka greške u predlošku single.php."
+
+#: taxonomy-custom_cat.php:40
+msgid "Read More &raquo;"
+msgstr "Nastavi čitati &raquo;"
+
+#: taxonomy-custom_cat.php:73
+msgid "This is the error message in the taxonomy-custom_cat.php template."
+msgstr "Ovo je poruka greške u predlošku taxonomy-custom_cat.php."
+
+#: library/admin.php:66
+msgid "j F Y @ g:i a"
+msgstr "j F Y @ g:i a"
+
+#: library/admin.php:78
+msgid "Recently on Themble (Customize on admin.php)"
+msgstr "Najnovije sa Themble (Prilagodi u admin.php)"
+
+#: library/admin.php:123
+msgid ""
+"<span id=\"footer-thankyou\">Developed by <a href=\"http://yoursite.com\" "
+"target=\"_blank\">Your Site Name</a></span>. Built using <a href=\"http://"
+"themble.com/bones\" target=\"_blank\">Bones</a>."
+msgstr ""
+"<span id=\"footer-thankyou\">Razvio <a href=\"http://jurica-zuanovic.from.hr"
+"\" target=\"_blank\">juricazuanovic</a></span>. Izgrađeno koristeći <a href="
+"\"http://hr.wordpress.org\" target=\"_blank\">WordPress</a> i <a href="
+"\"http://themble.com/bones\" target=\"_blank\">Bones</a>."
+
+#: library/bones.php:217 library/bones.php:234
+msgid "The Main Menu"
+msgstr "Glavni Izbornik"
+
+#: library/bones.php:218 library/bones.php:252
+msgid "Footer Links"
+msgstr "Poveznice Podnožja"
+
+#: library/bones.php:296
+msgid "No Related Posts Yet!"
+msgstr "Još nema srodnih postova!"
+
+#: library/bones.php:340
+msgid "First"
+msgstr "Prva"
+
+#: library/bones.php:357
+msgid "Last"
+msgstr "Posljednja"
+
+#: library/bones.php:391
+#, php-format
+msgid "Posts by %s"
+msgstr "Postovi od %s"
+
+#: library/custom-post-type.php:24
+msgid "Custom Types"
+msgstr "Prilagođeni Tipovi"
+
+#: library/custom-post-type.php:25
+msgid "Custom Post"
+msgstr "Prilagođeni Post"
+
+#: library/custom-post-type.php:26
+msgid "All Custom Posts"
+msgstr "Svi Prilagođeni Postovi"
+
+#: library/custom-post-type.php:27
+msgid "Add New"
+msgstr "Dodaj Novi"
+
+#: library/custom-post-type.php:28
+msgid "Add New Custom Type"
+msgstr "Dodaj Novi Prilagođeni Tip"
+
+#: library/custom-post-type.php:29
+msgid "Edit"
+msgstr "Uredi"
+
+#: library/custom-post-type.php:30
+msgid "Edit Post Types"
+msgstr "Uredi Post Tipove"
+
+#: library/custom-post-type.php:31
+msgid "New Post Type"
+msgstr "Novi Post Tip"
+
+#: library/custom-post-type.php:32
+msgid "View Post Type"
+msgstr "Pregledaj Post Tip"
+
+#: library/custom-post-type.php:33
+msgid "Search Post Type"
+msgstr "Pretraži Post Tip"
+
+#: library/custom-post-type.php:34
+msgid "Nothing found in the Database."
+msgstr "Ništa nije pronađeno u Bazi podataka."
+
+#: library/custom-post-type.php:35
+msgid "Nothing found in Trash"
+msgstr "Ništa nije pronađeno u Smeću."
+
+#: library/custom-post-type.php:38
+msgid "This is the example custom post type"
+msgstr "Ovo je primjer prilagođenog post tipa"
+
+#: library/custom-post-type.php:75
+msgid "Custom Categories"
+msgstr "Prilagođene Kategorije"
+
+#: library/custom-post-type.php:76
+msgid "Custom Category"
+msgstr "Prilagođena Kategorija"
+
+#: library/custom-post-type.php:77
+msgid "Search Custom Categories"
+msgstr "Pretraži Prilagođene Kategorije"
+
+#: library/custom-post-type.php:78
+msgid "All Custom Categories"
+msgstr "Sve Prilagođene Kategorije"
+
+#: library/custom-post-type.php:79
+msgid "Parent Custom Category"
+msgstr "Matična Prilagođena Kategorija"
+
+#: library/custom-post-type.php:80
+msgid "Parent Custom Category:"
+msgstr "Matična Prilagođena Kategorija:"
+
+#: library/custom-post-type.php:81
+msgid "Edit Custom Category"
+msgstr "Uredi Prilagođenu Kategoriju"
+
+#: library/custom-post-type.php:82
+msgid "Update Custom Category"
+msgstr "Ažuriraj Prilagođenu Kategoriju"
+
+#: library/custom-post-type.php:83
+msgid "Add New Custom Category"
+msgstr "Dodaj Novu Prilagođenu Kategoriju"
+
+#: library/custom-post-type.php:84
+msgid "New Custom Category Name"
+msgstr "Novo Ime Prilagođene Kategorije"
+
+#: library/custom-post-type.php:97
+msgid "Custom Tags"
+msgstr "Prilagođene Oznake"
+
+#: library/custom-post-type.php:98
+msgid "Custom Tag"
+msgstr "Prilagođena Oznaka"
+
+#: library/custom-post-type.php:99
+msgid "Search Custom Tags"
+msgstr "Pretraži Prilagođene Oznake"
+
+#: library/custom-post-type.php:100
+msgid "All Custom Tags"
+msgstr "Sve Prilagođene Oznake"
+
+#: library/custom-post-type.php:101
+msgid "Parent Custom Tag"
+msgstr "Matična Prilagođena Oznaka"
+
+#: library/custom-post-type.php:102
+msgid "Parent Custom Tag:"
+msgstr "Matična Prilagođena Oznaka:"
+
+#: library/custom-post-type.php:103
+msgid "Edit Custom Tag"
+msgstr "Uredi Prilagođenu Oznaku"
+
+#: library/custom-post-type.php:104
+msgid "Update Custom Tag"
+msgstr "Ažuriraj Prilagođenu Oznaku"
+
+#: library/custom-post-type.php:105
+msgid "Add New Custom Tag"
+msgstr "Dodaj Novu Prilagođenu Oznaku"
+
+#: library/custom-post-type.php:106
+msgid "New Custom Tag Name"
+msgstr "Novo Ime Prilagođene Kategorije"
+
+#~ msgid "Posted"
+#~ msgstr "Objavljeno"
+
+#~ msgid "by"
+#~ msgstr "autor"
+
+#~ msgid "filed under"
+#~ msgstr "objavljeno u"
+
+#~ msgid "Response"
+#~ msgstr "Odgovor"
+
+#~ msgid "Responses"
+#~ msgstr "Odgovori"
+
+#~ msgid "One"
+#~ msgstr "Jedan"
+
+#~ msgid "No"
+#~ msgstr "Ne"
+
+#~ msgid "to"
+#~ msgstr "na"
+
+#~ msgid "You must be"
+#~ msgstr "Morate biti"
+
+#~ msgid "logged in"
+#~ msgstr "prijavljeni"
+
+#~ msgid "to post a comment"
+#~ msgstr "kako bi objavili komentar"
+
+#~ msgid "Email"
+#~ msgstr "E-pošta"
+
+#~ msgid "Page %s"
+#~ msgstr "Stranica %s"
+
+#~ msgid "Read more"
+#~ msgstr "Nastavi čitati"
+
+#~ msgid "Read more on"
+#~ msgstr "Pročitaj više o"
+
+#~ msgid "Tag"
+#~ msgstr "Oznaka"
+
+#~ msgid "Read the rest of this entry"
+#~ msgstr "Pročitaj ostatak ovog unosa"
+
+#~ msgid "Sorry, no attachments matched your criteria."
+#~ msgstr "Žalim, nema priloga koji odgovoraju vašim kriterijima."
+
+#~ msgid "is powered by"
+#~ msgstr "pokreće"
+
+#~ msgid "Sorry, but the requested resource was not found on this site."
+#~ msgstr "Žalim, ali zatraženi resurs nije pronađen na ovoj stranici."

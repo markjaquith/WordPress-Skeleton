@@ -1,0 +1,579 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wp theme bones\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tags/bones\n"
+"POT-Creation-Date: 2013-04-11 12:54:20+00:00\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: Pierre-Emmanuel Fringant <pierre.fringant@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n\n"
+"X-Generator: Poedit 1.5.5\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: 404.php:13
+msgid "Epic 404 - Article Not Found"
+msgstr "404 Epique - Article non trouvé"
+
+#: 404.php:19
+msgid ""
+"The article you were looking for was not found, but maybe try looking again!"
+msgstr ""
+"L'article que vous demandez n'a pas été trouvé, essayez une nouvelle "
+"recherche"
+
+#: 404.php:31
+msgid "This is the 404.php template."
+msgstr "Ceci est la page 404.php"
+
+#: archive-custom_type.php:19 page-custom.php:23 page.php:17
+msgid ""
+"Posted <time class=\"updated\" datetime=\"%1$s\" pubdate>%2$s</time> by "
+"<span class=\"author\">%3$s</span>."
+msgstr ""
+"Publié le <time class=\"updated\" datetime=\"%1$s\" pubdate>%2$s</time> par "
+"<span class=\"author\">%3$s</span>."
+
+#: archive-custom_type.php:19 archive.php:52 functions.php:135
+#: page-custom.php:23 page.php:17 search.php:18 single-custom_type.php:32
+#: taxonomy-custom_cat.php:34
+msgid "F jS, Y"
+msgstr "j F Y"
+
+#: archive-custom_type.php:43 archive.php:78 index.php:42 search.php:41
+#: taxonomy-custom_cat.php:57
+msgid "&laquo; Older Entries"
+msgstr "&laquo; Articles plus anciens"
+
+#: archive-custom_type.php:44 archive.php:79 index.php:43 search.php:42
+#: taxonomy-custom_cat.php:58
+msgid "Newer Entries &raquo;"
+msgstr "Articles plus récents &raquo;"
+
+#: archive-custom_type.php:53 archive.php:88 index.php:52 page-custom.php:46
+#: page.php:40 single-custom_type.php:58 single.php:41
+#: taxonomy-custom_cat.php:67
+msgid "Oops, Post Not Found!"
+msgstr "Article introuvable"
+
+#: archive-custom_type.php:56 archive.php:91 index.php:55 page-custom.php:49
+#: page.php:43 single-custom_type.php:61 single.php:44
+#: taxonomy-custom_cat.php:70
+msgid "Uh Oh. Something is missing. Try double checking things."
+msgstr "Rien à afficher."
+
+#: archive-custom_type.php:59
+msgid "This is the error message in the custom posty type archive template."
+msgstr ""
+"Ceci est le message d'erreur dans la page des archives de type d'article "
+"personnalisé."
+
+#: archive.php:11 taxonomy-custom_cat.php:24
+msgid "Posts Categorized:"
+msgstr "Articles classés dans la catégorie :"
+
+#: archive.php:16
+msgid "Posts Tagged:"
+msgstr "Articles taggés :"
+
+#: archive.php:25
+msgid "Posts By:"
+msgstr "Articles par :"
+
+#: archive.php:30
+msgid "Daily Archives:"
+msgstr "Archives quotidiennes :"
+
+#: archive.php:35
+msgid "Monthly Archives:"
+msgstr "Archives mensuelles :"
+
+#: archive.php:40
+msgid "Yearly Archives:"
+msgstr "Archives annuelles :"
+
+#: archive.php:52 index.php:17 search.php:18 single-custom_type.php:32
+#: taxonomy-custom_cat.php:34
+msgid ""
+"Posted <time class=\"updated\" datetime=\"%1$s\" pubdate>%2$s</time> by "
+"<span class=\"author\">%3$s</span> <span class=\"amp\">&</span> filed under "
+"%4$s."
+msgstr ""
+"Publié le <time class=\"updated\" datetime=\"%1$s\" pubdate>%2$s</time> par "
+"<span class=\"author\">%3$s</span> <span class=\"amp\">&</span> classé dans "
+"%4$s."
+
+#: archive.php:94
+msgid "This is the error message in the archive.php template."
+msgstr "Ceci est le message d'erreur de la page archive.php."
+
+#: comments.php:12
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+"Cet article est protégé par un mot de passe. Entrer le mot de passe pour "
+"voir les commentaires."
+
+#: comments.php:22
+msgid "<span>No</span> Responses"
+msgstr "<span>Aucun</span> commentaire"
+
+#: comments.php:22
+msgid "<span>One</span> Response"
+msgstr "<span>Un</span> commentaire"
+
+#: comments.php:22
+msgid "<span>%</span> Response"
+msgid_plural "<span>%</span> Responses"
+msgstr[0] "<span>%</span> commentaire"
+msgstr[1] "<span>%</span> commentaires"
+
+#: comments.php:50
+msgid "Comments are closed."
+msgstr "Les commentaires sont clos."
+
+#: comments.php:61
+msgid "Leave a Reply"
+msgstr "Laisser un commentaire"
+
+#: comments.php:61
+msgid "Leave a Reply to %s"
+msgstr "Répondre à %s"
+
+#: comments.php:69
+msgid "You must be %1$slogged in%2$s to post a comment."
+msgstr "Vous devez être %1$sconnecté%2$s pour laisser un commentaire."
+
+#: comments.php:77
+msgid "Logged in as"
+msgstr "Connecté en tant que"
+
+#: comments.php:77
+msgid "Log out of this account"
+msgstr "Se déconnecter de ce compte"
+
+#: comments.php:77
+msgid "Log out"
+msgstr "Se déconnecter"
+
+#: comments.php:77
+msgid "&raquo;"
+msgstr "&raquo;"
+
+#: comments.php:84
+msgid "Name"
+msgstr "Nom"
+
+#: comments.php:84 comments.php:89
+msgid "(required)"
+msgstr "(requis)"
+
+#: comments.php:85
+msgid "Your Name*"
+msgstr "Votre nom*"
+
+#: comments.php:89
+msgid "Mail"
+msgstr "Email"
+
+#: comments.php:90
+msgid "Your E-Mail*"
+msgstr "Votre Email*"
+
+#: comments.php:91
+msgid "(will not be published)"
+msgstr "(ne sera pas publié)"
+
+#: comments.php:95
+msgid "Website"
+msgstr "Site internet"
+
+#: comments.php:96
+msgid "Got a website?"
+msgstr "Votre site internet"
+
+#: comments.php:103
+msgid "Your Comment here..."
+msgstr "Votre commentaire ici…"
+
+#: comments.php:106
+msgid "Submit"
+msgstr "Envoyer"
+
+#: comments.php:111
+msgid "You can use these tags"
+msgstr "Vous pouvez utiliser ces balises"
+
+#: functions.php:79
+msgid "Sidebar 1"
+msgstr "Barre latérale 1"
+
+#: functions.php:80
+msgid "The first (primary) sidebar."
+msgstr "La première et principale barre latérale."
+
+#: functions.php:134
+msgid "<cite class=\"fn\">%s</cite>"
+msgstr "<cite class=\"fn\">%s</cite>"
+
+#: functions.php:136
+msgid "(Edit)"
+msgstr "(Editer)"
+
+#: functions.php:140
+msgid "Your comment is awaiting moderation."
+msgstr "Votre commentaire est en attente de modération"
+
+#: functions.php:157
+msgid "Search for:"
+msgstr "Rechercher :"
+
+#: functions.php:158
+msgid "Search the Site..."
+msgstr "Chercher sur le site…"
+
+#: functions.php:159
+msgid "Search"
+msgstr "Recherche"
+
+#: index.php:27 page-custom.php:34 page.php:28 single.php:27
+msgid "Tags:"
+msgstr "Tags :"
+
+#: index.php:58
+msgid "This is the error message in the index.php template."
+msgstr "Ceci est le message d'erreur de la page index.php."
+
+#: library/admin.php:66
+msgid "j F Y @ g:i a"
+msgstr "j F Y à G:i"
+
+#: library/admin.php:78
+msgid "Recently on Themble (Customize on admin.php)"
+msgstr "Récemment sur Themble (Changer dans le fichier admin.php)"
+
+#: library/admin.php:125
+msgid ""
+"<span id=\"footer-thankyou\">Developed by <a href=\"http://yoursite.com\" "
+"target=\"_blank\">Your Site Name</a></span>. Built using <a href=\"http://"
+"themble.com/bones\" target=\"_blank\">Bones</a>."
+msgstr ""
+"<span id=\"footer-thankyou\">Developpé par <a href=\"http://votresite.com\" "
+"target=\"_blank\">Votre Nom</a></span>. Thème basé sur <a href=\"http://"
+"themble.com/bones\" target=\"_blank\">Bones</a>."
+
+#: library/bones.php:213 library/bones.php:230
+msgid "The Main Menu"
+msgstr "Le Menu Principal"
+
+#: library/bones.php:214 library/bones.php:248
+msgid "Footer Links"
+msgstr "Liens du pied de page"
+
+#: library/bones.php:300
+msgid "No Related Posts Yet!"
+msgstr "Aucun article en rapport"
+
+#: library/bones.php:344
+msgid "First"
+msgstr "Début"
+
+#: library/bones.php:361
+msgid "Last"
+msgstr "Fin"
+
+#: library/bones.php:380
+msgid "Read"
+msgstr "Lire"
+
+#: library/bones.php:380 search.php:24
+msgid "Read more &raquo;"
+msgstr "Lire la suite &raquo;"
+
+#: library/bones.php:395
+msgid "Posts by %s"
+msgstr "Articles par %s"
+
+#: library/custom-post-type.php:24
+msgid "Custom Types"
+msgstr "Types personnalisés"
+
+#: library/custom-post-type.php:25
+msgid "Custom Post"
+msgstr "Article personnalisé"
+
+#: library/custom-post-type.php:26
+msgid "All Custom Posts"
+msgstr "Articles personnalisés"
+
+#: library/custom-post-type.php:27
+msgid "Add New"
+msgstr "Ajouter nouveau"
+
+#: library/custom-post-type.php:28
+msgid "Add New Custom Type"
+msgstr "Ajouter un nouveau type personnalisé"
+
+#: library/custom-post-type.php:29
+msgid "Edit"
+msgstr "Editer"
+
+#: library/custom-post-type.php:30
+msgid "Edit Post Types"
+msgstr "Editer les types d'article"
+
+#: library/custom-post-type.php:31
+msgid "New Post Type"
+msgstr "Nouveau type d'article"
+
+#: library/custom-post-type.php:32
+msgid "View Post Type"
+msgstr "Voir le type d'article"
+
+#: library/custom-post-type.php:33
+msgid "Search Post Type"
+msgstr "Rechercher un type d'article"
+
+#: library/custom-post-type.php:34
+msgid "Nothing found in the Database."
+msgstr "Rien trouvé dans la base de données"
+
+#: library/custom-post-type.php:35
+msgid "Nothing found in Trash"
+msgstr "Rien trouvé dans la corbeille"
+
+#: library/custom-post-type.php:38
+msgid "This is the example custom post type"
+msgstr "Ceci est un exemple de type d'article personnalisé"
+
+#: library/custom-post-type.php:75
+msgid "Custom Categories"
+msgstr "Catégories personnalisées"
+
+#: library/custom-post-type.php:76
+msgid "Custom Category"
+msgstr "Catégorie personnalisée"
+
+#: library/custom-post-type.php:77
+msgid "Search Custom Categories"
+msgstr "Rechercher dans les catégories personnalisées"
+
+#: library/custom-post-type.php:78
+msgid "All Custom Categories"
+msgstr "Toutes les catégories personnalisées"
+
+#: library/custom-post-type.php:79
+msgid "Parent Custom Category"
+msgstr "Catégorie personnalisée parente"
+
+#: library/custom-post-type.php:80
+msgid "Parent Custom Category:"
+msgstr "Catégorie personnalisée parente :"
+
+#: library/custom-post-type.php:81
+msgid "Edit Custom Category"
+msgstr "Editer la catégorie personnalisée"
+
+#: library/custom-post-type.php:82
+msgid "Update Custom Category"
+msgstr "Mettre à jour la catégorie personnalisée"
+
+#: library/custom-post-type.php:83
+msgid "Add New Custom Category"
+msgstr "Ajouter une catégorie personnalisée"
+
+#: library/custom-post-type.php:84
+msgid "New Custom Category Name"
+msgstr "Nouveau libellé de catégorie personnalisée"
+
+#: library/custom-post-type.php:98
+msgid "Custom Tags"
+msgstr "Tags personnalisés"
+
+#: library/custom-post-type.php:99
+msgid "Custom Tag"
+msgstr "Tag personnalisé"
+
+#: library/custom-post-type.php:100
+msgid "Search Custom Tags"
+msgstr "Rechercher un tag personnalisé"
+
+#: library/custom-post-type.php:101
+msgid "All Custom Tags"
+msgstr "Tous les tags personnalisés"
+
+#: library/custom-post-type.php:102
+msgid "Parent Custom Tag"
+msgstr "Tag personnalisé parent"
+
+#: library/custom-post-type.php:103
+msgid "Parent Custom Tag:"
+msgstr "Tag personnalisé parent :"
+
+#: library/custom-post-type.php:104
+msgid "Edit Custom Tag"
+msgstr "Editer le tag personnalisé"
+
+#: library/custom-post-type.php:105
+msgid "Update Custom Tag"
+msgstr "Mettre à jour le tag personnalisé"
+
+#: library/custom-post-type.php:106
+msgid "Add New Custom Tag"
+msgstr "Ajouter un nouveau tag personnalisé"
+
+#: library/custom-post-type.php:107
+msgid "New Custom Tag Name"
+msgstr "Libellé du nouveau tag personnalisé"
+
+#: page-custom.php:52
+msgid "This is the error message in the page-custom.php template."
+msgstr "Ceci est le message d'erreur de la page "
+
+#: page.php:46
+msgid "This is the error message in the page.php template."
+msgstr "Ceci est le message d'erreur de la page "
+
+#: search.php:8
+msgid "Search Results for:"
+msgstr "Résultats de recherche pour :"
+
+#: search.php:51
+msgid "Sorry, No Results."
+msgstr "Désolé, aucun résultat."
+
+#: search.php:54
+msgid "Try your search again."
+msgstr "Tentez une autre recherche."
+
+#: search.php:57
+msgid "This is the error message in the search.php template."
+msgstr "Ceci est le message d'erreur de la page search.php."
+
+#: sidebar.php:12
+msgid "Please activate some Widgets."
+msgstr "Veuillez activer quelques widgets."
+
+#: single-custom_type.php:44
+msgid "Custom Tags:"
+msgstr "Tags personnalisés :"
+
+#: single-custom_type.php:64
+msgid "This is the error message in the single-custom_type.php template."
+msgstr ""
+"Ceci est le message d'erreur de la page single-custom_type.php template."
+
+#: single.php:17
+msgid ""
+"Posted <time class=\"updated\" datetime=\"%1$s\" pubdate>%2$s</time> by "
+"<span class=\"author\">%3$s</span> <span class=\"amp\">&amp;</span> filed "
+"under %4$s."
+msgstr ""
+"Publié le <time class=\"updated\" datetime=\"%1$s\" pubdate>%2$s</time> par "
+"<span class=\"author\">%3$s</span> <span class=\"amp\">&</span> classé dans "
+"%4$s."
+
+#: single.php:47
+msgid "This is the error message in the single.php template."
+msgstr "Ceci est le message d'erreur de la page single.php template."
+
+#: taxonomy-custom_cat.php:40
+msgid "Read More &raquo;"
+msgstr "En lire plus &raquo;"
+
+#: taxonomy-custom_cat.php:73
+msgid "This is the error message in the taxonomy-custom_cat.php template."
+msgstr "Ceci est le message d'erreur de la page taxonomy-custom_cat.php."
+
+#. Theme Name of the plugin/theme
+msgid "Bones (Rename Me!)"
+msgstr "Bones (renommez moi !)"
+
+#. Theme URI of the plugin/theme
+msgid "http://www.themble.com/bones"
+msgstr "http://www.themble.com/bones"
+
+#. Description of the plugin/theme
+msgid ""
+"This site was built using the Bones Development Theme. For more information "
+"about Bones or to view documentation, you can visit the <a href=\"https://"
+"github.com/eddiemachado/bones/issues\" title=\"Bones Issues\">Bones Issues</"
+"a> page on Github. You'll want to customize this for your clients with your "
+"own information."
+msgstr ""
+"Site construit à partir du thème de développement Bones. Pour plus "
+"d'informations à propos de Bones ou pour lire la documentation, rendez vous "
+"sur la page <a href=\"https://github.com/eddiemachado/bones/issues\" title="
+"\"Bones Issues\">Bones Issues</a> sur Github. Vous pouvez éditer le présent "
+"texte pour y mettre vos propres informations à destination de vos clients."
+
+#. Author of the plugin/theme
+msgid "Your Name Here"
+msgstr "Votre nom ici"
+
+#. Author URI of the plugin/theme
+msgid "http://www.yoururlhere.com"
+msgstr "http://www.votresite.com"
+
+#. Template Name of the plugin/theme
+msgid "Custom Page Example"
+msgstr "Exemple de page personnalisée"
+
+#~ msgid "Response"
+#~ msgstr "Réponse"
+
+#~ msgid "Responses"
+#~ msgstr "Réponses"
+
+#~ msgid "One"
+#~ msgstr "Un"
+
+#~ msgid "No"
+#~ msgstr "Aucun"
+
+#~ msgid "to"
+#~ msgstr "à"
+
+#~ msgid "You must be"
+#~ msgstr "Vous devez être"
+
+#~ msgid "logged in"
+#~ msgstr "identifié"
+
+#~ msgid "to post a comment"
+#~ msgstr "pour laisser un commentaire."
+
+#~ msgid "Email"
+#~ msgstr "Email"
+
+#~ msgid "Page %s"
+#~ msgstr "Page %s"
+
+#~ msgid "Posted"
+#~ msgstr "Publié"
+
+#~ msgid "by"
+#~ msgstr "par"
+
+#~ msgid "filed under"
+#~ msgstr "dans la catégorie"
+
+#~ msgid "Read more on"
+#~ msgstr "En lire plus sur"
+
+#~ msgid "Tag"
+#~ msgstr "Tag"
+
+#~ msgid "Read the rest of this entry"
+#~ msgstr "Lire la suite de cette article"
+
+#~ msgid "Sorry, no attachments matched your criteria."
+#~ msgstr "Désolé, aucun attachement ne correspond à vos critères."
+
+#~ msgid "is powered by"
+#~ msgstr "est propulsé par"
+
+#~ msgid "Sorry, but the requested resource was not found on this site."
+#~ msgstr "Désolé mais la ressource recherchée est introuvable sur ce site."

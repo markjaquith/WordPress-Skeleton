@@ -1,0 +1,380 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wp theme bones\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-04-04 21:46+0100\n"
+"PO-Revision-Date: \n"
+"Language-Team: fulgor <frag.fulgor@gmail.com>\n"
+"Language-Team: fulgor <frag.fulgor@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;_n\n"
+"X-Poedit-Basepath: /home/fulgor/GIT/bones\n"
+"Last-Translator: Ole Christian Rynning <oc@rynning.no>\n"
+"X-Poedit-SearchPath-0: /home/fulgor/GIT/bones\n"
+
+#: comments.php:12
+msgid "This post is password protected. Enter the password to view comments."
+msgstr "Dette innlegget er passordbeskyttet. Skriv inn passord for å se kommentarer."
+
+#: comments.php:23
+msgid "Response"
+msgstr "Svar"
+
+#: comments.php:24
+msgid "Responses"
+msgstr "Svar"
+
+#: comments.php:25
+msgid "One"
+msgstr "En"
+
+#: comments.php:26
+msgid "No"
+msgstr "Nei"
+
+#: comments.php:32
+msgid "to"
+msgstr "til"
+
+#: comments.php:59
+msgid "Comments are closed."
+msgstr "Kommentering er stengt."
+
+#: comments.php:70
+msgid "Leave a Reply"
+msgstr "Legg igjen en kommentar"
+
+#: comments.php:70
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr "Legg igjen en kommentar til %s"
+
+#: comments.php:78
+msgid "You must be"
+msgstr "Du må være"
+
+#: comments.php:78
+msgid "logged in"
+msgstr "logget inn"
+
+#: comments.php:78
+msgid "to post a comment"
+msgstr "for å kommentere"
+
+#: comments.php:86
+msgid "Logged in as"
+msgstr "Logget inn som"
+
+#: comments.php:86
+msgid "Log out of this account"
+msgstr "Logg ut konto"
+
+#: comments.php:86
+msgid "Log out"
+msgstr "Logg ut"
+
+#: comments.php:93
+msgid "Name"
+msgstr "Navn"
+
+#: comments.php:93
+#: comments.php:98
+msgid "(required)"
+msgstr "(obligatorisk)"
+
+#: comments.php:94
+msgid "Your Name"
+msgstr "Ditt navn"
+
+#: comments.php:98
+msgid "Email"
+msgstr "E-post"
+
+#: comments.php:99
+msgid "Your Email"
+msgstr "Din E-post"
+
+#: comments.php:100
+msgid "will not be published"
+msgstr "kommer ikke å bli publisert"
+
+#: comments.php:104
+msgid "Website"
+msgstr "Website"
+
+#: comments.php:105
+msgid "Your Website"
+msgstr "Din website"
+
+#: comments.php:112
+msgid "Your Comment Here..."
+msgstr "Din kommentar her..."
+
+#: comments.php:115
+msgid "Submit Comment"
+msgstr "Send inn kommentar"
+
+#: comments.php:120
+msgid "You can use these tags"
+msgstr "Du kan bruke disse taggene"
+
+#: header.php:23
+#, php-format
+msgid "Page %s"
+msgstr "Side %s"
+
+#: taxonomy-custom_cat.php:22
+#: archive.php:9
+msgid "Posts Categorized:"
+msgstr "Kategoriserte innlegg:"
+
+#: taxonomy-custom_cat.php:32
+#: embed-post_meta.php:1
+#: single-custom_type.php:30
+msgid "Posted"
+msgstr "Skrevet"
+
+#: taxonomy-custom_cat.php:32
+#: embed-post_meta.php:1
+#: single-custom_type.php:30
+msgid "by"
+msgstr "av"
+
+#: taxonomy-custom_cat.php:32
+#: embed-post_meta.php:1
+#: single-custom_type.php:30
+msgid "filed under"
+msgstr "sortert under"
+
+#: taxonomy-custom_cat.php:41
+msgid "Read more"
+msgstr "Les mer"
+
+#: functions.php:103
+msgid "(Edit)"
+msgstr "(Rediger)"
+
+#: functions.php:107
+msgid "Your comment is awaiting moderation."
+msgstr "Din kommentar venter moderering."
+
+#: functions.php:124
+msgid "Search for:"
+msgstr "Søk etter:"
+
+#: functions.php:125
+msgid "Search the Site..."
+msgstr "Søk på siten..."
+
+#: 404.php:11
+msgid "Epic 404 - Article Not Found"
+msgstr "Episk 404 - Artikkelen kan ikke finnes"
+
+#: 404.php:17
+msgid "The article you were looking for was not found, but maybe try looking again!"
+msgstr "Artikkelen du leter etter kan ikke finnes. Prøv igjen!"
+
+#: search.php:7
+msgid "Search Results for:"
+msgstr "Søkeresultat for:"
+
+#: search.php:23
+msgid "Read more on"
+msgstr "Les mer på"
+
+#: archive.php:13
+msgid "Posts Tagged:"
+msgstr "Taggede innlegg"
+
+#: archive.php:17
+#: author.php:8
+msgid "Posts By:"
+msgstr "Innlegg av:"
+
+#: archive.php:21
+msgid "Daily Archives:"
+msgstr "Dagsarkiv"
+
+#: archive.php:25
+msgid "Monthly Archives:"
+msgstr "Månedsarkiv"
+
+#: archive.php:29
+msgid "Yearly Archives:"
+msgstr "Årsarkiv"
+
+#: single-custom_type.php:43
+msgid "Custom Tags"
+msgstr "Spesialtagger"
+
+#: embed-tags.php:3
+msgid "Tag"
+msgstr "Tagg"
+
+#: embed-tags.php:3
+msgid "Tags"
+msgstr "Tagger"
+
+#: image.php:20
+msgid "Read the rest of this entry"
+msgstr "Les resten av innlegget"
+
+#: image.php:38
+msgid "Sorry, no attachments matched your criteria."
+msgstr "Beklager, fant ingen vedlegg som passet dine valg."
+
+#: embed-prev_next.php:3
+msgid "&laquo; Older Entries"
+msgstr "&laquo; Eldre innlegg"
+
+#: embed-prev_next.php:4
+msgid "Newer Entries &raquo;"
+msgstr "Nyere innlegg &raquo;"
+
+#: footer.php:9
+msgid "is powered by"
+msgstr "kjører på"
+
+#: embed-not_found.php:3
+msgid "Not Found"
+msgstr "Kan ikke finnes"
+
+#: embed-not_found.php:6
+msgid "Sorry, but the requested resource was not found on this site."
+msgstr "Beklager, men den etterspurte ressursen kunne ikke finnes på siten."
+
+#: sidebar.php:15
+msgid "Please activate some Widgets."
+msgstr "Vennligst aktiver noen widgets."
+
+#: library/bones.php:52
+msgid "Read more &raquo;"
+msgstr "Les mer &raquo;"
+
+#: library/custom-post-type.php:24
+msgid "Custom Types"
+msgstr "Tilpassede typer"
+
+#: library/custom-post-type.php:25
+msgid "Custom Post"
+msgstr "Tilpasset innlegg"
+
+#: library/custom-post-type.php:26
+msgid "Add New"
+msgstr "Legg til"
+
+#: library/custom-post-type.php:27
+msgid "Add New Custom Type"
+msgstr "Legg til ny tilpasset type"
+
+#: library/custom-post-type.php:28
+msgid "Edit"
+msgstr "Rediger"
+
+#: library/custom-post-type.php:29
+msgid "Edit Post Types"
+msgstr "Rediger innleggstyper"
+
+#: library/custom-post-type.php:30
+msgid "New Post Type"
+msgstr "Ny innleggstype"
+
+#: library/custom-post-type.php:31
+msgid "View Post Type"
+msgstr "Vis innleggstype"
+
+#: library/custom-post-type.php:32
+msgid "Search Post Type"
+msgstr "Søk innleggstype"
+
+#: library/custom-post-type.php:33
+msgid "Nothing found in the Database."
+msgstr "Ingenting funnet i databasen"
+
+#: library/custom-post-type.php:34
+msgid "Nothing found in Trash"
+msgstr "Ingenting funnet i søppelkassen"
+
+#: library/custom-post-type.php:37
+msgid "This is the example custom post type"
+msgstr "Dette er et eksempel på en tilpasset innleggstype"
+
+#: library/custom-post-type.php:73
+msgid "Custom Categories"
+msgstr "Tilpassede kategorier"
+
+#: library/custom-post-type.php:74
+msgid "Custom Category"
+msgstr "Tilpasset kategori"
+
+#: library/custom-post-type.php:75
+msgid "Search Custom Categories"
+msgstr "Søk i de tilpassede kategoriene"
+
+#: library/custom-post-type.php:76
+msgid "All Custom Categories"
+msgstr "Alle tilpassede kategorier"
+
+#: library/custom-post-type.php:77
+msgid "Parent Custom Category"
+msgstr "Forelder til tilpasset kategori"
+
+#: library/custom-post-type.php:78
+msgid "Parent Custom Category:"
+msgstr "Forelder til tilpasset kategori:"
+
+#: library/custom-post-type.php:79
+msgid "Edit Custom Category"
+msgstr "Rediger tilpasset kategori"
+
+#: library/custom-post-type.php:80
+msgid "Update Custom Category"
+msgstr "Oppdater tilpasset kategori"
+
+#: library/custom-post-type.php:81
+msgid "Add New Custom Category"
+msgstr "Legg til ny tilpasset kategori"
+
+#: library/custom-post-type.php:82
+msgid "New Custom Category Name"
+msgstr "Navn på ny tilpasset kategori"
+
+#: library/custom-post-type.php:95
+msgid "Custom Tag"
+msgstr "Egen tagg"
+
+#: library/custom-post-type.php:96
+msgid "Search Custom Tags"
+msgstr "Søk egne tagger"
+
+#: library/custom-post-type.php:97
+msgid "All Custom Tags"
+msgstr "Alle egne tagger"
+
+#: library/custom-post-type.php:98
+msgid "Parent Custom Tag"
+msgstr "Forelder til spesialtagg"
+
+#: library/custom-post-type.php:99
+msgid "Parent Custom Tag:"
+msgstr "Foreldre til spesialtagg:"
+
+#: library/custom-post-type.php:100
+msgid "Edit Custom Tag"
+msgstr "Rediger spesialtagg"
+
+#: library/custom-post-type.php:101
+msgid "Update Custom Tag"
+msgstr "Oppdater spesialtagg"
+
+#: library/custom-post-type.php:102
+msgid "Add New Custom Tag"
+msgstr "Legg til ny spesialtagg"
+
+#: library/custom-post-type.php:103
+msgid "New Custom Tag Name"
+msgstr "Nytt navn på spesialtagg"
+

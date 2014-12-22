@@ -1,0 +1,374 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wp theme bones\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-03-02 22:11+0100\n"
+"PO-Revision-Date: \n"
+"Language-Team: fulgor <frag.fulgor@gmail.com>\n"
+"Language-Team: fulgor <frag.fulgor@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;_n\n"
+"X-Poedit-Basepath: /home/fulgor/GIT/bones\n"
+"Last-Translator: \n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-SearchPath-0: /home/fulgor/GIT/bones\n"
+
+#: comments.php:12
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+"Dette indlæg er kodeordsbeskyttet. Skriv kodeordet for at se kommentarer."
+
+#: comments.php:23
+msgid "Response"
+msgstr "Svar"
+
+#: comments.php:24
+msgid "Responses"
+msgstr "Svar"
+
+#: comments.php:25
+msgid "One"
+msgstr "En"
+
+#: comments.php:26
+msgid "No"
+msgstr "Nej"
+
+#: comments.php:32
+msgid "to"
+msgstr "til"
+
+#: comments.php:59
+msgid "Comments are closed."
+msgstr "Der er lukket for kommentarer."
+
+#: comments.php:70
+msgid "Leave a Reply"
+msgstr "Efterlad et svar"
+
+#: comments.php:70
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr "Efterlad et svar til %s"
+
+#: comments.php:78
+msgid "You must be"
+msgstr "Du skal være"
+
+#: comments.php:78
+msgid "logged in"
+msgstr "logget ind"
+
+#: comments.php:78
+msgid "to post a comment"
+msgstr "for at kunne kommentere"
+
+#: comments.php:86
+msgid "Logged in as"
+msgstr "Logget ind som"
+
+#: comments.php:86
+msgid "Log out of this account"
+msgstr "Log ud af denne konto"
+
+#: comments.php:86
+msgid "Log out"
+msgstr "Log ud"
+
+#: comments.php:93
+msgid "Name"
+msgstr "Navn"
+
+#: comments.php:93 comments.php:98
+msgid "(required)"
+msgstr "(obligatorisk)"
+
+#: comments.php:94
+msgid "Your Name"
+msgstr "Dit navn"
+
+#: comments.php:98
+msgid "Email"
+msgstr "Email"
+
+#: comments.php:99
+msgid "Your Email"
+msgstr "Din Email"
+
+#: comments.php:100
+msgid "will not be published"
+msgstr "vil ikke blive offentliggjort"
+
+#: comments.php:104
+msgid "Website"
+msgstr "Webside"
+
+#: comments.php:105
+msgid "Your Website"
+msgstr "Din Webside"
+
+#: comments.php:112
+msgid "Your Comment Here..."
+msgstr "Din Kommentar her…"
+
+#: comments.php:115
+msgid "Submit Comment"
+msgstr "Indsend Kommentar"
+
+#: comments.php:120
+msgid "You can use these tags"
+msgstr "Du kan anvende disse tags"
+
+#: header.php:23
+#, php-format
+msgid "Page %s"
+msgstr "Side %s"
+
+#: taxonomy-custom_cat.php:22 archive.php:9
+msgid "Posts Categorized:"
+msgstr "Kategoriserede Indlæg:"
+
+#: taxonomy-custom_cat.php:32 embed-post_meta.php:1 single-custom_type.php:30
+msgid "Posted"
+msgstr "Skrevet"
+
+#: taxonomy-custom_cat.php:32 embed-post_meta.php:1 single-custom_type.php:30
+msgid "by"
+msgstr "af"
+
+#: taxonomy-custom_cat.php:32 embed-post_meta.php:1 single-custom_type.php:30
+msgid "filed under"
+msgstr "sorteret under"
+
+#: taxonomy-custom_cat.php:41
+msgid "Read more"
+msgstr "Læs mere"
+
+#: functions.php:103
+msgid "(Edit)"
+msgstr "(Rediger)"
+
+#: functions.php:107
+msgid "Your comment is awaiting moderation."
+msgstr "Din kommentar afventer moderation."
+
+#: functions.php:124
+msgid "Search for:"
+msgstr "Søg efter:"
+
+#: functions.php:125
+msgid "Search the Site..."
+msgstr "Søg på siden…"
+
+#: 404.php:11
+msgid "Epic 404 - Article Not Found"
+msgstr "Episk 404 - Emne Blev Ikke Fundet"
+
+#: 404.php:17
+msgid ""
+"The article you were looking for was not found, but maybe try looking again!"
+msgstr ""
+"Det emne, du ledte efter blev ikke fundet, men prøv måske at lede igen!"
+
+#: search.php:7
+msgid "Search Results for:"
+msgstr "Søgeresultater for:"
+
+#: search.php:23
+msgid "Read more on"
+msgstr "Læs mere på"
+
+#: archive.php:13
+msgid "Posts Tagged:"
+msgstr "Taggede Indlæg:"
+
+#: archive.php:17 author.php:8
+msgid "Posts By:"
+msgstr "Indlæg Af:"
+
+#: archive.php:21
+msgid "Daily Archives:"
+msgstr "Daglige Arkiver:"
+
+#: archive.php:25
+msgid "Monthly Archives:"
+msgstr "Månedlige Arkiver:"
+
+#: archive.php:29
+msgid "Yearly Archives:"
+msgstr "Årlige Arkiver:"
+
+#: single-custom_type.php:43
+msgid "Custom Tags"
+msgstr "Brugerdefinerede Tags"
+
+#: embed-tags.php:3
+msgid "Tag"
+msgstr "Tag"
+
+#: embed-tags.php:3
+msgid "Tags"
+msgstr "Tags"
+
+#: image.php:20
+msgid "Read the rest of this entry"
+msgstr "Læs resten af dette indlæg"
+
+#: image.php:38
+msgid "Sorry, no attachments matched your criteria."
+msgstr "Beklager, ingen vedhæftninger matchede dine kriterier."
+
+#: embed-prev_next.php:3
+msgid "&laquo; Older Entries"
+msgstr "&laquo; Ældre Indlæg"
+
+#: embed-prev_next.php:4
+msgid "Newer Entries &raquo;"
+msgstr "Nyere Indlæg &raquo;"
+
+#: footer.php:9
+msgid "is powered by"
+msgstr "drives af"
+
+#: embed-not_found.php:3
+msgid "Not Found"
+msgstr "Ikke Fundet"
+
+#: embed-not_found.php:6
+msgid "Sorry, but the requested resource was not found on this site."
+msgstr "Beklager, men det søgte emne blev ikke fundet på denne side."
+
+#: sidebar.php:15
+msgid "Please activate some Widgets."
+msgstr "Aktiver venligst nogle Widgets."
+
+#: library/bones.php:52
+msgid "Read more &raquo;"
+msgstr "Læs mere &raquo;"
+
+#: library/custom-post-type.php:24
+msgid "Custom Types"
+msgstr "Brugerdefinerede Typer:"
+
+#: library/custom-post-type.php:25
+msgid "Custom Post"
+msgstr "Brugerdefineret Indlæg"
+
+#: library/custom-post-type.php:26
+msgid "Add New"
+msgstr "Tilføj Nyt"
+
+#: library/custom-post-type.php:27
+msgid "Add New Custom Type"
+msgstr "Tilføj Ny Brugerdefineret Type"
+
+#: library/custom-post-type.php:28
+msgid "Edit"
+msgstr "Rediger"
+
+#: library/custom-post-type.php:29
+msgid "Edit Post Types"
+msgstr "Rediger Indlæg Typer"
+
+#: library/custom-post-type.php:30
+msgid "New Post Type"
+msgstr "Ny Indlæg Type"
+
+#: library/custom-post-type.php:31
+msgid "View Post Type"
+msgstr "Se Indlæg Type "
+
+#: library/custom-post-type.php:32
+msgid "Search Post Type"
+msgstr "Søg Indlæg Type"
+
+#: library/custom-post-type.php:33
+msgid "Nothing found in the Database."
+msgstr "Intet fundet i Databasen."
+
+#: library/custom-post-type.php:34
+msgid "Nothing found in Trash"
+msgstr "Intet fundet i Papirkurven"
+
+#: library/custom-post-type.php:37
+msgid "This is the example custom post type"
+msgstr "Dette er et ekempel på en brugerdefineret indlæg type."
+
+#: library/custom-post-type.php:73
+msgid "Custom Categories"
+msgstr "Brugerdefinerede Kategorier"
+
+#: library/custom-post-type.php:74
+msgid "Custom Category"
+msgstr "Brugerdefineret Kategori"
+
+#: library/custom-post-type.php:75
+msgid "Search Custom Categories"
+msgstr "Søg Brugerdefinerede Kategorier"
+
+#: library/custom-post-type.php:76
+msgid "All Custom Categories"
+msgstr "Alle Brugerdefinerede Kategorier"
+
+#: library/custom-post-type.php:77
+msgid "Parent Custom Category"
+msgstr "Forældre Brugerdefineret Kategori"
+
+#: library/custom-post-type.php:78
+msgid "Parent Custom Category:"
+msgstr "Forældre Brugerdefineret Kategori:"
+
+#: library/custom-post-type.php:79
+msgid "Edit Custom Category"
+msgstr "Rediger Brugerdefineret Kategori"
+
+#: library/custom-post-type.php:80
+msgid "Update Custom Category"
+msgstr "Updater brugerdefineret Kategori"
+
+#: library/custom-post-type.php:81
+msgid "Add New Custom Category"
+msgstr "Tilføj Nyt Brugerdefineret Kategori"
+
+#: library/custom-post-type.php:82
+msgid "New Custom Category Name"
+msgstr "Nyt Brugerdefineret Kategori Navn"
+
+#: library/custom-post-type.php:95
+msgid "Custom Tag"
+msgstr "Brugerdefineret Tag"
+
+#: library/custom-post-type.php:96
+msgid "Search Custom Tags"
+msgstr "Søg Brugerdefinerede Tags"
+
+#: library/custom-post-type.php:97
+msgid "All Custom Tags"
+msgstr "Alle Brugerdefinerede Tags"
+
+#: library/custom-post-type.php:98
+msgid "Parent Custom Tag"
+msgstr "Forældre Brugerdefineret Tag"
+
+#: library/custom-post-type.php:99
+msgid "Parent Custom Tag:"
+msgstr "Forældre Brugerdefineret Tag:"
+
+#: library/custom-post-type.php:100
+msgid "Edit Custom Tag"
+msgstr "Rediger Brugerdefineret Tag"
+
+#: library/custom-post-type.php:101
+msgid "Update Custom Tag"
+msgstr "Opdater Brugerdefineret Tag"
+
+#: library/custom-post-type.php:102
+msgid "Add New Custom Tag"
+msgstr "Tilføj Nyt Brugerdefineret Tag"
+
+#: library/custom-post-type.php:103
+msgid "New Custom Tag Name"
+msgstr "Nyt Brugerdefineret Tag Navn"

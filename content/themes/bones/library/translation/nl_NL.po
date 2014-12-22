@@ -1,0 +1,539 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wp theme bones\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-09-02 15:22+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Patrick van Efferen <patrickvanefferen@gmail.com>\n"
+"Language-Team: fulgor <frag.fulgor@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n\n"
+"X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-SearchPath-0: ../..\n"
+
+#: ../../404.php:13
+msgid "Epic 404 - Article Not Found"
+msgstr "Episch 404 - Artikel niet gevonden"
+
+#: ../../404.php:19
+msgid ""
+"The article you were looking for was not found, but maybe try looking again!"
+msgstr ""
+"Helaas, maar de opgevraagde pagina kon niet worden gevonden. Misschien kan "
+"de zoekfunctie helpen!"
+
+#: ../../404.php:31
+msgid "This is the 404.php template."
+msgstr "Dit is het 404.php sjabloon."
+
+#: ../../archive-custom_type.php:19 ../../page-custom.php:23 ../../page.php:17
+#, php-format
+msgid ""
+"Posted <time class=\"updated\" datetime=\"%1$s\" pubdate>%2$s</time> by "
+"<span class=\"author\">%3$s</span>."
+msgstr ""
+"Geplaatst op <time class=\"updated\" datetime=\"%1$s\" pubdate>%2$s</time> "
+"door <span class=\"author\">%3$s</span>."
+
+#: ../../archive-custom_type.php:19 ../../archive.php:52
+#: ../../functions.php:135 ../../page-custom.php:23 ../../page.php:17
+#: ../../search.php:18 ../../single-custom_type.php:32
+#: ../../taxonomy-custom_cat.php:34
+msgid "F jS, Y"
+msgstr ""
+
+#: ../../archive-custom_type.php:43 ../../archive.php:78 ../../index.php:42
+#: ../../search.php:41 ../../taxonomy-custom_cat.php:57
+msgid "&laquo; Older Entries"
+msgstr "&laquo; Oudere artikelen"
+
+#: ../../archive-custom_type.php:44 ../../archive.php:79 ../../index.php:43
+#: ../../search.php:42 ../../taxonomy-custom_cat.php:58
+msgid "Newer Entries &raquo;"
+msgstr "Nieuwere artikelen &raquo;"
+
+#: ../../archive-custom_type.php:53 ../../archive.php:88 ../../index.php:52
+#: ../../page-custom.php:46 ../../page.php:40 ../../single-custom_type.php:58
+#: ../../single.php:41 ../../taxonomy-custom_cat.php:67
+msgid "Oops, Post Not Found!"
+msgstr "Oeps, Bericht Niet Gevonden"
+
+#: ../../archive-custom_type.php:56 ../../archive.php:91 ../../index.php:55
+#: ../../page-custom.php:49 ../../page.php:43 ../../single-custom_type.php:61
+#: ../../single.php:44 ../../taxonomy-custom_cat.php:70
+msgid "Uh Oh. Something is missing. Try double checking things."
+msgstr "Oh Oh. Er mist nog iets. Controleer jouw invoer."
+
+#: ../../archive-custom_type.php:59
+msgid "This is the error message in the custom posty type archive template."
+msgstr "Dit is de foutmelding in het archive-custom_type.php sjabloon."
+
+#: ../../archive.php:11 ../../taxonomy-custom_cat.php:24
+msgid "Posts Categorized:"
+msgstr "Berichten in de categorie:"
+
+#: ../../archive.php:16
+msgid "Posts Tagged:"
+msgstr "Berichten Getagged:"
+
+#: ../../archive.php:25
+msgid "Posts By:"
+msgstr "Berichten Door:"
+
+#: ../../archive.php:30
+msgid "Daily Archives:"
+msgstr "Dagelijks archief:"
+
+#: ../../archive.php:35
+msgid "Monthly Archives:"
+msgstr "Maandelijks archief:"
+
+#: ../../archive.php:40
+msgid "Yearly Archives:"
+msgstr "Jaarlijks archief:"
+
+#: ../../archive.php:52 ../../index.php:17 ../../search.php:18
+#: ../../single-custom_type.php:32 ../../taxonomy-custom_cat.php:34
+#, php-format
+msgid ""
+"Posted <time class=\"updated\" datetime=\"%1$s\" pubdate>%2$s</time> by "
+"<span class=\"author\">%3$s</span> <span class=\"amp\">&</span> filed under "
+"%4$s."
+msgstr ""
+"Geplaatst op <time class=\"updated\" datetime=\"%1$s\" pubdate>%2$s</time> "
+"door <span class=\"author\">%3$s</span> <span class=\"amp\">&</span> onder "
+"%4$s."
+
+#: ../../archive.php:94
+msgid "This is the error message in the archive.php template."
+msgstr "Dit is de foutmelding in het archive.php sjabloon."
+
+#: ../../comments.php:12
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+"Dit bericht is beveiligd met een wachtwoord. Geef het wachtwoord om reacties "
+"te bekijken."
+
+#: ../../comments.php:22
+msgid "<span>No</span> Responses"
+msgstr "<span>Geen</span> Reacties"
+
+#: ../../comments.php:22
+msgid "<span>One</span> Response"
+msgstr "<span>Een</span> Reactie"
+
+#: ../../comments.php:22
+msgid "<span>%</span> Response"
+msgstr "<span>%</span> Reactie"
+
+#: ../../comments.php:50
+msgid "Comments are closed."
+msgstr "Reageren is niet mogelijk"
+
+#: ../../comments.php:61
+msgid "Leave a Reply"
+msgstr "Reageer"
+
+#: ../../comments.php:61
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr "Reageer op %s"
+
+#: ../../comments.php:69
+#, php-format
+msgid "You must be %1$slogged in%2$s to post a comment."
+msgstr "Je moet %1$singelogd%2$s zijn om een opmerking te plaatsen."
+
+#: ../../comments.php:77
+msgid "Logged in as"
+msgstr "Aangemeld als"
+
+#: ../../comments.php:77
+msgid "Log out of this account"
+msgstr "Afmelden bij dit account"
+
+#: ../../comments.php:77
+msgid "Log out"
+msgstr "Afmelden"
+
+#: ../../comments.php:77
+msgid "&raquo;"
+msgstr ""
+
+#: ../../comments.php:84
+msgid "Name"
+msgstr "Naam"
+
+#: ../../comments.php:84 ../../comments.php:89
+msgid "(required)"
+msgstr "(verplicht)"
+
+#: ../../comments.php:85
+msgid "Your Name*"
+msgstr "Jouw naam*"
+
+#: ../../comments.php:89
+msgid "Mail"
+msgstr "Email"
+
+#: ../../comments.php:90
+msgid "Your E-Mail*"
+msgstr "Jouw Email*"
+
+#: ../../comments.php:91
+msgid "(will not be published)"
+msgstr "(wordt niet gepubliceerd)"
+
+#: ../../comments.php:95
+msgid "Website"
+msgstr "Website"
+
+#: ../../comments.php:96
+msgid "Got a website?"
+msgstr "Heb jij een website?"
+
+#: ../../comments.php:103
+msgid "Your Comment here..."
+msgstr "Reageer hier…."
+
+#: ../../comments.php:106
+msgid "Submit"
+msgstr "Versturen"
+
+#: ../../comments.php:111
+msgid "You can use these tags"
+msgstr "Je kan deze tags gebruiken"
+
+#: ../../functions.php:79
+msgid "Sidebar 1"
+msgstr "Zijbalk 1"
+
+#: ../../functions.php:80
+msgid "The first (primary) sidebar."
+msgstr "De eerste (primary) zijbalk."
+
+#: ../../functions.php:134
+#, php-format
+msgid "<cite class=\"fn\">%s</cite>"
+msgstr ""
+
+#: ../../functions.php:136
+#, fuzzy
+msgid "(Edit)"
+msgstr "(Bewerken)"
+
+#: ../../functions.php:140
+msgid "Your comment is awaiting moderation."
+msgstr "Uw reactie wordt beoordeeld."
+
+#: ../../functions.php:157
+msgid "Search for:"
+msgstr "Zoeken naar:"
+
+#: ../../index.php:27 ../../page-custom.php:34 ../../page.php:28
+#: ../../single.php:27
+msgid "Tags:"
+msgstr "Tags:"
+
+#: ../../index.php:58
+msgid "This is the error message in the index.php template."
+msgstr "Dit is de foutmelding in het index.php sjabloon."
+
+#: ../../page-custom.php:52
+msgid "This is the error message in the page-custom.php template."
+msgstr "Dit is de foutmelding in het page-custom.php sjabloon."
+
+#: ../../page.php:46
+msgid "This is the error message in the page.php template."
+msgstr "Dit is de foutmelding in het page.php sjabloon."
+
+#: ../../search.php:8
+msgid "Search Results for:"
+msgstr "Zoekresultaten voor:"
+
+#: ../../search.php:24 ../../library/bones.php:350
+msgid "Read more &raquo;"
+msgstr "Lees meer &raquo;"
+
+#: ../../search.php:51
+msgid "Sorry, No Results."
+msgstr "Helaas, Geen Resultaten."
+
+#: ../../search.php:54
+msgid "Try your search again."
+msgstr "Voer de zoekopdracht opnieuw uit."
+
+#: ../../search.php:57
+msgid "This is the error message in the search.php template."
+msgstr "Dit is de foutmelding in het search.php sjabloon."
+
+#: ../../sidebar.php:12
+msgid "Please activate some Widgets."
+msgstr "Activeer een widget. "
+
+#: ../../single-custom_type.php:44
+msgid "Custom Tags:"
+msgstr "Maatwerk Tags:"
+
+#: ../../single-custom_type.php:64
+msgid "This is the error message in the single-custom_type.php template."
+msgstr "Dit is de foutmelding in het single-custom_type.php sjabloon."
+
+#: ../../single.php:17
+#, php-format
+msgid ""
+"Posted <time class=\"updated\" datetime=\"%1$s\" pubdate>%2$s</time> by "
+"<span class=\"author\">%3$s</span> <span class=\"amp\">&amp;</span> filed "
+"under %4$s."
+msgstr ""
+"Geplaatst op <time class=\"updated\" datetime=\"%1$s\" pubdate>%2$s</time> "
+"door <span class=\"author\">%3$s</span> <span class=\"amp\">&amp;</span> "
+"onder %4$s."
+
+#: ../../single.php:47
+msgid "This is the error message in the single.php template."
+msgstr "Dit is de foutmelding in het single.php sjabloon."
+
+#: ../../taxonomy-custom_cat.php:40
+msgid "Read More &raquo;"
+msgstr "Lees meer &raquo;"
+
+#: ../../taxonomy-custom_cat.php:73
+msgid "This is the error message in the taxonomy-custom_cat.php template."
+msgstr "Dit is de foutmelding in het taxonomy-custom_cat.php sjabloon."
+
+#: ../../library/admin.php:66
+msgid "j F Y @ g:i a"
+msgstr ""
+
+#: ../../library/admin.php:78
+msgid "Recently on Themble (Customize on admin.php)"
+msgstr "Onlangs op Themble (Pas aan in admin.php)"
+
+#: ../../library/admin.php:125
+msgid ""
+"<span id=\"footer-thankyou\">Developed by <a href=\"http://yoursite.com\" "
+"target=\"_blank\">Your Site Name</a></span>. Built using <a href=\"http://"
+"themble.com/bones\" target=\"_blank\">Bones</a>."
+msgstr ""
+"<span id=\"footer-thankyou\">Ontwikkeld door <a href=\"http://yoursite.com\" "
+"target=\"_blank\">Naam Van Jouw Website</a></span>. Gemaakt met <a href="
+"\"http://themble.com/bones\" target=\"_blank\">Bones</a>."
+
+#: ../../library/bones.php:213 ../../library/bones.php:230
+msgid "The Main Menu"
+msgstr "Het Hoofd Menu"
+
+#: ../../library/bones.php:214 ../../library/bones.php:248
+msgid "Footer Links"
+msgstr "Voeter Links"
+
+#: ../../library/bones.php:302
+msgid "No Related Posts Yet!"
+msgstr "Nog Geen Gerelateerde Berichten!"
+
+#: ../../library/bones.php:350
+msgid "Read"
+msgstr "Lezen"
+
+#: ../../library/bones.php:365
+#, php-format
+msgid "Posts by %s"
+msgstr "Berichten door %s"
+
+#: ../../library/custom-post-type.php:24
+msgid "Custom Types"
+msgstr "Maatwerk Berichttypes"
+
+#: ../../library/custom-post-type.php:25
+msgid "Custom Post"
+msgstr "Maatwerk Bericht"
+
+#: ../../library/custom-post-type.php:26
+msgid "All Custom Posts"
+msgstr "Alle Maatwerk Berichten"
+
+#: ../../library/custom-post-type.php:27
+msgid "Add New"
+msgstr "Nieuwe toevoegen"
+
+#: ../../library/custom-post-type.php:28
+msgid "Add New Custom Type"
+msgstr "Nieuw custom type toevoegen"
+
+#: ../../library/custom-post-type.php:29
+msgid "Edit"
+msgstr "Bewerken"
+
+#: ../../library/custom-post-type.php:30
+msgid "Edit Post Types"
+msgstr "Berichttypes bewerken"
+
+#: ../../library/custom-post-type.php:31
+msgid "New Post Type"
+msgstr "Nieuw berichttype"
+
+#: ../../library/custom-post-type.php:32
+msgid "View Post Type"
+msgstr "Bekijk berichttype"
+
+#: ../../library/custom-post-type.php:33
+msgid "Search Post Type"
+msgstr "Zoek berichttype"
+
+#: ../../library/custom-post-type.php:34
+msgid "Nothing found in the Database."
+msgstr "Niets gevonden in de database."
+
+#: ../../library/custom-post-type.php:35
+msgid "Nothing found in Trash"
+msgstr "Niets gevonden in de prullenbak."
+
+#: ../../library/custom-post-type.php:38
+msgid "This is the example custom post type"
+msgstr "Dit is het voorbeeld maatwerk berichttype"
+
+#: ../../library/custom-post-type.php:75
+msgid "Custom Categories"
+msgstr "Custom categorieën"
+
+#: ../../library/custom-post-type.php:76
+msgid "Custom Category"
+msgstr "Custom categorie"
+
+#: ../../library/custom-post-type.php:77
+msgid "Search Custom Categories"
+msgstr "Zoek custos categorie"
+
+#: ../../library/custom-post-type.php:78
+msgid "All Custom Categories"
+msgstr "Alle custom categorieën"
+
+#: ../../library/custom-post-type.php:79
+msgid "Parent Custom Category"
+msgstr "Parent custom categorie"
+
+#: ../../library/custom-post-type.php:80
+msgid "Parent Custom Category:"
+msgstr "Parent custom categorie"
+
+#: ../../library/custom-post-type.php:81
+msgid "Edit Custom Category"
+msgstr "Custom categorie bewerken"
+
+#: ../../library/custom-post-type.php:82
+msgid "Update Custom Category"
+msgstr "Custom categorie aanpassen"
+
+#: ../../library/custom-post-type.php:83
+msgid "Add New Custom Category"
+msgstr "Custom categorie toevoegen"
+
+#: ../../library/custom-post-type.php:84
+msgid "New Custom Category Name"
+msgstr "Naam nieuwe custom categorie"
+
+#: ../../library/custom-post-type.php:98
+msgid "Custom Tags"
+msgstr "Maatwerk Tags"
+
+#: ../../library/custom-post-type.php:99
+msgid "Custom Tag"
+msgstr "Maatwerk Tag"
+
+#: ../../library/custom-post-type.php:100
+msgid "Search Custom Tags"
+msgstr "Zoek Maatwerk Tags"
+
+#: ../../library/custom-post-type.php:101
+msgid "All Custom Tags"
+msgstr "Alle Maatwerk Tags"
+
+#: ../../library/custom-post-type.php:102
+msgid "Parent Custom Tag"
+msgstr ""
+
+#: ../../library/custom-post-type.php:103
+msgid "Parent Custom Tag:"
+msgstr ""
+
+#: ../../library/custom-post-type.php:104
+msgid "Edit Custom Tag"
+msgstr "Maatwerk Tag Bewerken"
+
+#: ../../library/custom-post-type.php:105
+msgid "Update Custom Tag"
+msgstr "Maatwerk Tag Bijwerken"
+
+#: ../../library/custom-post-type.php:106
+msgid "Add New Custom Tag"
+msgstr "Nieuwe Maatwerk Tag Toevoegen"
+
+#: ../../library/custom-post-type.php:107
+msgid "New Custom Tag Name"
+msgstr "Nieuwe Maatwerk Tag Naam"
+
+#~ msgid "Response"
+#~ msgstr "Antwoord"
+
+#~ msgid "Responses"
+#~ msgstr "Antwoorden"
+
+#~ msgid "One"
+#~ msgstr "Een"
+
+#~ msgid "No"
+#~ msgstr "Geen"
+
+#~ msgid "to"
+#~ msgstr "Aan"
+
+#~ msgid "You must be"
+#~ msgstr "Je moet"
+
+#~ msgid "logged in"
+#~ msgstr "aangemeld zijn"
+
+#~ msgid "to post a comment"
+#~ msgstr "om te reageren"
+
+#~ msgid "Email"
+#~ msgstr "Email"
+
+#~ msgid "Page %s"
+#~ msgstr "Pagina %s"
+
+#~ msgid "Posted"
+#~ msgstr "Geplaatst"
+
+#~ msgid "by"
+#~ msgstr "door"
+
+#~ msgid "filed under"
+#~ msgstr "in de categorie"
+
+#~ msgid "Search the Site..."
+#~ msgstr "Doorzoek de site...."
+
+#~ msgid "Read more on"
+#~ msgstr "Lees meer over"
+
+#~ msgid "Tag"
+#~ msgstr "Label"
+
+#~ msgid "Read the rest of this entry"
+#~ msgstr "Lees de rest van dit bericht"
+
+#~ msgid "Sorry, no attachments matched your criteria."
+#~ msgstr ""
+#~ "Sorry, er zijn geen bijlagen gevonden die aan uw criteria voldoen.\""
+
+#~ msgid "is powered by"
+#~ msgstr "wordt mogelijk gemaakt door"
+
+#~ msgid "Sorry, but the requested resource was not found on this site."
+#~ msgstr "Sorry, maar de opgevraagde bron is niet gevonden op deze site."
