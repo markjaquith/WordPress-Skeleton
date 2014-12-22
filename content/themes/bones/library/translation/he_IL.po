@@ -1,0 +1,382 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wp theme bones\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-03-02 22:11+0100\n"
+"PO-Revision-Date: \n"
+"Language-Team: \n"
+"Language-Team: fulgor <frag.fulgor@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;_n\n"
+"X-Poedit-Basepath: /home/fulgor/GIT/bones\n"
+"Last-Translator: Elron <elron100duck@gmail.com>\n"
+"X-Poedit-Language: Hebrew\n"
+"X-Poedit-Country: ISRAEL\n"
+"X-Poedit-SearchPath-0: /home/fulgor/GIT/bones\n"
+
+#: comments.php:12
+msgid "This post is password protected. Enter the password to view comments."
+msgstr "פוסט זה מוגן בסיסמא. נא להזין סיסמא להצגת התגובות."
+
+#: comments.php:23
+msgid "Response"
+msgstr "תגובה"
+
+#: comments.php:24
+msgid "Responses"
+msgstr "תגובות"
+
+#: comments.php:25
+msgid "One"
+msgstr "אחד"
+
+#: comments.php:26
+msgid "No"
+msgstr "לא"
+
+#: comments.php:32
+msgid "to"
+msgstr "אל"
+
+#: comments.php:59
+msgid "Comments are closed."
+msgstr "התגובות סגורות."
+
+#: comments.php:70
+msgid "Leave a Reply"
+msgstr "השארת תגובה"
+
+#: comments.php:70
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr "השארת תגובה ל-%s"
+
+#: comments.php:78
+msgid "You must be"
+msgstr "עליך להיות"
+
+#: comments.php:78
+msgid "logged in"
+msgstr "מחובר"
+
+#: comments.php:78
+msgid "to post a comment"
+msgstr "להגיב"
+
+#: comments.php:86
+msgid "Logged in as"
+msgstr "מחובר כ"
+
+#: comments.php:86
+msgid "Log out of this account"
+msgstr "להתנתק ממשתמש זה"
+
+#: comments.php:86
+msgid "Log out"
+msgstr "להתנתק"
+
+#: comments.php:93
+msgid "Name"
+msgstr "שם"
+
+#: comments.php:93
+#: comments.php:98
+msgid "(required)"
+msgstr "(חובה)"
+
+#: comments.php:94
+msgid "Your Name"
+msgstr "השם שלך"
+
+#: comments.php:98
+msgid "Email"
+msgstr "אימייל"
+
+#: comments.php:99
+msgid "Your Email"
+msgstr "האימייל שלך"
+
+#: comments.php:100
+msgid "will not be published"
+msgstr "לא יפורסם"
+
+#: comments.php:104
+msgid "Website"
+msgstr "אתר אינטרנט"
+
+#: comments.php:105
+msgid "Your Website"
+msgstr "אתר האינטרנט שלך"
+
+#: comments.php:112
+msgid "Your Comment Here..."
+msgstr "התגובה שלך כאן..."
+
+#: comments.php:115
+msgid "Submit Comment"
+msgstr "שלח תגובה"
+
+#: comments.php:120
+msgid "You can use these tags"
+msgstr "אפשר להשתמש בתגים אלו"
+
+#: header.php:23
+#, php-format
+msgid "Page %s"
+msgstr "עמוד %s"
+
+#: taxonomy-custom_cat.php:22
+#: archive.php:9
+msgid "Posts Categorized:"
+msgstr "פוסטים לפי קטגוריות:"
+
+#: taxonomy-custom_cat.php:32
+#: embed-post_meta.php:1
+#: single-custom_type.php:30
+msgid "Posted"
+msgstr "פורסם"
+
+#: taxonomy-custom_cat.php:32
+#: embed-post_meta.php:1
+#: single-custom_type.php:30
+msgid "by"
+msgstr "מאת"
+
+#: taxonomy-custom_cat.php:32
+#: embed-post_meta.php:1
+#: single-custom_type.php:30
+msgid "filed under"
+msgstr "משוייך תחת"
+
+#: taxonomy-custom_cat.php:41
+msgid "Read more"
+msgstr "לקרוא עוד"
+
+#: functions.php:103
+msgid "(Edit)"
+msgstr "(לערוך)"
+
+#: functions.php:107
+msgid "Your comment is awaiting moderation."
+msgstr "תגובתך ממתינה לאישור."
+
+#: functions.php:124
+msgid "Search for:"
+msgstr "חפש עבור:"
+
+#: functions.php:125
+msgid "Search the Site..."
+msgstr "חיפוש באתר..."
+
+#: 404.php:11
+msgid "Epic 404 - Article Not Found"
+msgstr "404 - המאמר לא נמצא"
+
+#: 404.php:17
+msgid "The article you were looking for was not found, but maybe try looking again!"
+msgstr "המאמר שחיפשת לא נמצא, אבל אפשר לנסות לחפש שוב!"
+
+#: search.php:7
+msgid "Search Results for:"
+msgstr "תוצאות חיפוש עבור:"
+
+#: search.php:23
+msgid "Read more on"
+msgstr "לקרוא עוד בנושא"
+
+#: archive.php:13
+msgid "Posts Tagged:"
+msgstr "פוסטים מתוייגים:"
+
+#: archive.php:17
+#: author.php:8
+msgid "Posts By:"
+msgstr "פוסטים מאת:"
+
+#: archive.php:21
+msgid "Daily Archives:"
+msgstr "ארכיון יומי:"
+
+#: archive.php:25
+msgid "Monthly Archives:"
+msgstr "ארכיון חודשי:"
+
+#: archive.php:29
+msgid "Yearly Archives:"
+msgstr "ארכיון שנתי:"
+
+#: single-custom_type.php:43
+msgid "Custom Tags"
+msgstr "תגים מיוחדים"
+
+#: embed-tags.php:3
+msgid "Tag"
+msgstr "תג"
+
+#: embed-tags.php:3
+msgid "Tags"
+msgstr "תגים"
+
+#: image.php:20
+msgid "Read the rest of this entry"
+msgstr "לקרוא את ההמשך"
+
+#: image.php:38
+msgid "Sorry, no attachments matched your criteria."
+msgstr "מצטערים, לא נמצא השתייכות לקרטריון שלך."
+
+#: embed-prev_next.php:3
+msgid "&laquo; Older Entries"
+msgstr "ישן יותר &raquo;"
+
+#: embed-prev_next.php:4
+msgid "Newer Entries &raquo;"
+msgstr "&laquo; חדש יותר"
+
+#: footer.php:9
+msgid "is powered by"
+msgstr "מופעל על ידי"
+
+#: embed-not_found.php:3
+msgid "Not Found"
+msgstr "לא נמצא"
+
+#: embed-not_found.php:6
+msgid "Sorry, but the requested resource was not found on this site."
+msgstr "מצטערים, התוכן המבוקש לא נמצא באתר."
+
+#: sidebar.php:15
+msgid "Please activate some Widgets."
+msgstr "נא להפעיל כמה וידג'טים."
+
+#: library/bones.php:52
+msgid "Read more &raquo;"
+msgstr "להמשיך לקרוא &laquo;"
+
+#: library/custom-post-type.php:24
+msgid "Custom Types"
+msgstr "סוגים מיוחדים"
+
+#: library/custom-post-type.php:25
+msgid "Custom Post"
+msgstr "פוסט מיוחד"
+
+#: library/custom-post-type.php:26
+msgid "Add New"
+msgstr "להוסיף חדש"
+
+#: library/custom-post-type.php:27
+msgid "Add New Custom Type"
+msgstr "להוסיף סוג מיוחד חדש"
+
+#: library/custom-post-type.php:28
+msgid "Edit"
+msgstr "לערוך"
+
+#: library/custom-post-type.php:29
+msgid "Edit Post Types"
+msgstr "לערוך סוגי פוסט"
+
+#: library/custom-post-type.php:30
+msgid "New Post Type"
+msgstr "סוג פוסט חדש"
+
+#: library/custom-post-type.php:31
+msgid "View Post Type"
+msgstr "הצגת סוג פוסט"
+
+#: library/custom-post-type.php:32
+msgid "Search Post Type"
+msgstr "חיפוש פוסט מיוחד"
+
+#: library/custom-post-type.php:33
+msgid "Nothing found in the Database."
+msgstr "לא נמצא כלום במאגר הנתונים."
+
+#: library/custom-post-type.php:34
+msgid "Nothing found in Trash"
+msgstr "הפח מרוקן"
+
+#: library/custom-post-type.php:37
+msgid "This is the example custom post type"
+msgstr "זוהי דוגמא לסוג פוסט מיוחד"
+
+#: library/custom-post-type.php:73
+msgid "Custom Categories"
+msgstr "קטגוריות מיוחדות"
+
+#: library/custom-post-type.php:74
+msgid "Custom Category"
+msgstr "קטגוריה מיוחדת"
+
+#: library/custom-post-type.php:75
+msgid "Search Custom Categories"
+msgstr "חיפוש קטגוריות מיוחדות"
+
+#: library/custom-post-type.php:76
+msgid "All Custom Categories"
+msgstr "כל הקטגוריות המיוחדות"
+
+#: library/custom-post-type.php:77
+msgid "Parent Custom Category"
+msgstr "הורה של קטגוריה מיוחדת"
+
+#: library/custom-post-type.php:78
+msgid "Parent Custom Category:"
+msgstr "הורה של קטגוריה מיוחדת:"
+
+#: library/custom-post-type.php:79
+msgid "Edit Custom Category"
+msgstr "עריכת קטגוריה מיוחדת"
+
+#: library/custom-post-type.php:80
+msgid "Update Custom Category"
+msgstr "לעדכן קטגוריה מיוחדת"
+
+#: library/custom-post-type.php:81
+msgid "Add New Custom Category"
+msgstr "להוסיף קטגוריה מיוחדת חדשה"
+
+#: library/custom-post-type.php:82
+msgid "New Custom Category Name"
+msgstr "להוסיף שם קטגוריה חדשה"
+
+#: library/custom-post-type.php:95
+msgid "Custom Tag"
+msgstr "תג מיוחד"
+
+#: library/custom-post-type.php:96
+msgid "Search Custom Tags"
+msgstr "חיפוש תגים מיוחדים"
+
+#: library/custom-post-type.php:97
+msgid "All Custom Tags"
+msgstr "כל התגים המיוחדים"
+
+#: library/custom-post-type.php:98
+msgid "Parent Custom Tag"
+msgstr "הורה של תג מיוחד"
+
+#: library/custom-post-type.php:99
+msgid "Parent Custom Tag:"
+msgstr "הורה של תג מיוחד"
+
+#: library/custom-post-type.php:100
+msgid "Edit Custom Tag"
+msgstr "לערוך תג מיוחד"
+
+#: library/custom-post-type.php:101
+msgid "Update Custom Tag"
+msgstr "לעדכן תג מיוחד"
+
+#: library/custom-post-type.php:102
+msgid "Add New Custom Tag"
+msgstr "להוסיף תג מיוחד חדש"
+
+#: library/custom-post-type.php:103
+msgid "New Custom Tag Name"
+msgstr "שם חדש לתג מיוחד"
+

@@ -1,0 +1,65 @@
+/******************************************************************
+Site Name:
+Author:
+
+Stylesheet: Login Stylesheet
+
+This stylesheet is loaded (if admin.php is setup in your
+functions file) on the login page. This way you can style
+the login page. It won't affect any other page, admin or front-end.
+
+For more info, check out the codex:
+http://codex.wordpress.org/Creating_Admin_Themes
+
+******************************************************************/
+/* the form box */
+/*
+This is the Wordpress logo in the admin area.
+You'll have to load your own images and mess
+with the width and height.
+*/
+.login h1 a {
+  background: url(../images/login-logo.png) no-repeat top center;
+  /* make sure to replace this! */
+  width: 326px;
+  height: 67px;
+  text-indent: -9999px;
+  overflow: hidden;
+  padding-bottom: 15px;
+  display: block; }
+
+form {
+  margin-left: 8px;
+  padding: 26px 24px 46px;
+  font-weight: normal;
+  background: white;
+  border: 1px solid #E5E5E5;
+  border-radius: 3px;
+  box-shadow: none; }
+
+body form .input {
+  font-family: "HelveticaNeue-Light","Helvetica Neue Light","Helvetica Neue",sans-serif;
+  font-weight: 200;
+  font-size: 24px;
+  width: 97%;
+  padding: 3px;
+  margin-top: 2px;
+  margin-right: 6px;
+  margin-bottom: 16px;
+  border: 1px solid #E5E5E5;
+  background: #FBFBFB;
+  outline: none;
+  box-shadow: inset 1px 1px 2px rgba(200, 200, 200, 0.2); }
+
+/*
+You'll have to override some of the default styles
+but since we're referencing the id, it should be easy.
+*/
+/* login button*/
+/*
+retina login logo
+*/
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min--moz-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5) {
+  .login h1 a {
+    background: url(../images/login-logo@2x.png) no-repeat top center;
+    /* make sure to replace this! */ } }

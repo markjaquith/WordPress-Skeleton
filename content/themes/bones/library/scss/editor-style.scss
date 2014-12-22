@@ -1,0 +1,221 @@
+/******************************************************************
+Site Name:
+Author:
+
+Stylesheet: TinyMCE Editor
+
+This stylesheet is loaded automatically by Wordpress when compiled
+and placed in the root theme directory folder as editor-style.css
+
+For more info, check out the codex:
+http://codex.wordpress.org/Editor_Style
+
+******************************************************************/
+
+/* Wrap the entire post style inside the TinyMCE selector, as suggested
+here http://codex.wordpress.org/Function_Reference/add_editor_style */
+body#tinymce.wp-editor {
+
+	// normalize: http://necolas.github.io/normalize.css/
+	@import "partials/normalize";
+
+	// Sass variables
+	@import "partials/variables";
+
+	// typography
+	@import "partials/typography";
+
+	// Sass functions
+	@import "partials/functions";
+
+	// import mixins
+	@import "partials/mixins";
+
+	width: 731px;
+	font-family: $lato;
+	font-size: 100%;
+	line-height: 1.5;
+	color: $text-color;
+  -webkit-font-smoothing: antialiased;
+
+  /*********************
+	LINK STYLES
+	*********************/
+
+	a, a:visited {
+		color: $link-color;
+
+		/* on hover */
+		&:hover, &:focus {
+			color: $link-hover;
+		}
+
+		/* on click */
+		&:active {
+
+		}
+
+		&:link {
+
+			-webkit-tap-highlight-color : rgba( 0, 0, 0, 0.3 );
+		}
+	}
+
+	/******************************************************************
+	H1, H2, H3, H4, H5 STYLES
+	******************************************************************/
+
+	h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
+		text-rendering: optimizelegibility;
+		font-weight: 500;
+		a {
+			text-decoration: none;
+		}
+	}
+
+	h1, .h1 {
+		font-size: 2.5em;
+		line-height: 1.333em;
+	}
+
+	h2, .h2 {
+		font-size: 1.75em;
+		line-height: 1.4em;
+		margin-bottom: 0.375em;
+	}
+
+	h3, .h3 {
+		font-size: 1.125em;
+	}
+
+	h4, .h4 {
+		font-size: 1.1em;
+		font-weight: 700;
+	}
+
+	h5, .h5 {
+		font-size: 0.846em;
+		line-height: 2.09em;
+		text-transform: uppercase;
+		letter-spacing: 2px;
+	}
+
+	padding: 1.5em 1.5em 0;
+
+		p {
+			margin: 0 0 1.5em;
+		}
+
+		table {
+			width: 100%;
+			border: 1px solid $gray;
+			margin-bottom: 1.5em;
+
+			caption {
+				margin: 0 0 7px;
+				font-size: 0.75em;
+				color: $meta-gray;
+				text-transform: uppercase;
+				letter-spacing: 1px;
+			}
+		}
+
+		tr {
+			border-bottom: 1px solid $gray;
+			&:nth-child(even) {
+				background-color: $light-gray;
+			}
+		}
+
+		td {
+			padding: 7px;
+			border-right: 1px solid $gray;
+
+			&:last-child {
+				border-right: 0;
+			}
+		}
+
+		th {
+			background-color: $light-gray;
+			border-bottom: 1px solid $gray;
+			border-right: 1px solid $gray;
+
+			&:last-child {
+				border-right: 0;
+			}
+		}
+
+		blockquote {
+			margin: 0 0 1.5em 0.75em;
+			padding: 0 0 0 0.75em;
+			border-left: 3px solid $blue;
+			font-style: italic;
+			color: $meta-gray;
+
+			&:before {}
+
+		}
+
+		dd {
+			margin-left: 0;
+			font-size: 0.9em;
+			color: #787878;
+			margin-bottom: 1.5em;
+		}
+
+		img {
+			margin: 0 0 1.5em 0;
+			max-width: 100%;
+			height: auto;
+		}
+
+		.size-auto,
+		.size-full,
+		.size-large,
+		.size-medium,
+		.size-thumbnail {
+			max-width: 100%;
+			height: auto;
+		}
+
+		pre {
+			background: $black;
+			color: $light-gray;
+			font-size: 0.9em;
+			padding: 1.5em;
+			margin: 0 0 1.5em;
+			border-radius: 3px;
+		}
+
+		/*********************
+		LARGER MOBILE DEVICES
+		This is for devices like the Galaxy Note or something that's
+		larger than an iPhone but smaller than a tablet. Let's call them
+		tweeners.
+		*********************/
+		@media only screen and (min-width: 481px) {
+
+			/* at this larger size, we can start to align images */
+			.alignleft, img.alignleft {
+				margin-right: 1.5em;
+				display: inline;
+				float: left;
+			}
+			.alignright, img.alignright {
+				margin-left: 1.5em;
+				display: inline;
+				float: right;
+			}
+			.aligncenter, img.aligncenter {
+				margin-right: auto;
+				margin-left: auto;
+				display: block;
+				clear: both;
+			}
+
+		}
+
+
+}
+

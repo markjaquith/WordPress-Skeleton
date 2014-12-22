@@ -1,0 +1,117 @@
+/******************************************************************
+Site Name:
+Author:
+
+Stylesheet: 481px and Up Stylesheet
+
+This stylesheet is loaded for larger devices. It's set to
+481px because at 480px it would load on a landscaped iPhone.
+This isn't ideal because then you would be loading all those
+extra styles on that same mobile connection.
+
+A word of warning. This size COULD be a larger mobile device,
+so you still want to keep it pretty light and simply expand
+upon your base.scss styles.
+
+******************************************************************/
+
+/*
+IMPORTANT NOTE ABOUT SASS 3.3 & UP
+You can't use @extend within media queries
+anymore, so just be aware that if you drop
+them in here, they won't work.
+*/
+
+
+/*********************
+NAVIGATION STYLES
+*********************/
+
+.nav {}
+
+	/* .menu is clearfixed inside mixins.scss */
+	.menu {
+		ul {
+			li {
+				a {
+
+					/*
+					you can use hover styles here even though this size
+					has the possibility of being a mobile device.
+					*/
+					&:hover, &:focus {
+
+					}
+				}
+
+				&:first-child {}
+				&:last-child {}
+
+				/*
+				plan your menus and drop-downs wisely.
+				*/
+				ul.sub-menu,
+				ul.children {
+					li {
+						a {
+							&:hover,
+							&:focus {}
+							&:link {}
+						}
+						&:first-child {}
+						&:last-child {}
+					}
+				}
+			} /* end .menu ul li */
+
+			/* highlight current page */
+			li.current-menu-item,
+			li.current_page_item,
+			li.current_page_ancestor {
+				a {}
+			}  /* end current highlighters */
+		} /* end .menu ul */
+	} /* end .menu */
+
+/*********************
+POSTS & CONTENT STYLES
+*********************/
+
+/* entry content */
+.entry-content {
+
+
+	/* at this larger size, we can start to align images */
+	.alignleft, img.alignleft {
+		margin-right: 1.5em;
+		display: inline;
+		float: left;
+	}
+	.alignright, img.alignright {
+		margin-left: 1.5em;
+		display: inline;
+		float: right;
+	}
+	.aligncenter, img.aligncenter {
+		margin-right: auto;
+		margin-left: auto;
+		display: block;
+		clear: both;
+	}
+
+} /* end .entry-content */
+
+/*********************
+FOOTER STYLES
+*********************/
+
+/*
+check your menus here. do they look good?
+do they need tweaking?
+*/
+.footer-links {
+	ul {
+		li {}
+	}
+} /* end .footer-links */
+

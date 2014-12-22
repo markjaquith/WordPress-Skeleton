@@ -1,0 +1,374 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wp theme bones\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-03-02 22:11+0100\n"
+"PO-Revision-Date: \n"
+"Language-Team: fulgor <frag.fulgor@gmail.com>\n"
+"Language-Team: fulgor <frag.fulgor@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n\n"
+"X-Poedit-Basepath: /home/fulgor/GIT/bones\n"
+"Last-Translator: Miron Catalin Gabriel <mironcatalin@gmail.com>\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-SearchPath-0: /home/fulgor/GIT/bones\n"
+
+#: comments.php:12
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+"Acest post este protejat cu parolă. Introduce-ți parola pentru a vedea "
+"comentariile."
+
+#: comments.php:23
+msgid "Response"
+msgstr "Răspuns"
+
+#: comments.php:24
+msgid "Responses"
+msgstr "Răspunsuri"
+
+#: comments.php:25
+msgid "One"
+msgstr "Unu"
+
+#: comments.php:26
+msgid "No"
+msgstr "Nu"
+
+#: comments.php:32
+msgid "to"
+msgstr "către"
+
+#: comments.php:59
+msgid "Comments are closed."
+msgstr "Comentarii sunt închise"
+
+#: comments.php:70
+msgid "Leave a Reply"
+msgstr "Răspunde"
+
+#: comments.php:70
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr "Răspunde-i lui %s"
+
+#: comments.php:78
+msgid "You must be"
+msgstr "Trebuie să"
+
+#: comments.php:78
+msgid "logged in"
+msgstr "autentificat"
+
+#: comments.php:78
+msgid "to post a comment"
+msgstr "pentru a posta un comentariu"
+
+#: comments.php:86
+msgid "Logged in as"
+msgstr "Autentificat ca"
+
+#: comments.php:86
+msgid "Log out of this account"
+msgstr "Deconectează din acest cont"
+
+#: comments.php:86
+msgid "Log out"
+msgstr "Deconectare"
+
+#: comments.php:93
+msgid "Name"
+msgstr "Nume"
+
+#: comments.php:93 comments.php:98
+msgid "(required)"
+msgstr "(necesar)"
+
+#: comments.php:94
+msgid "Your Name"
+msgstr "Numele tau"
+
+#: comments.php:98
+msgid "Email"
+msgstr "Email"
+
+#: comments.php:99
+msgid "Your Email"
+msgstr "Email-ul tau"
+
+#: comments.php:100
+msgid "will not be published"
+msgstr "nu va fi publicat"
+
+#: comments.php:104
+msgid "Website"
+msgstr "Site"
+
+#: comments.php:105
+msgid "Your Website"
+msgstr "Site-ul tau"
+
+#: comments.php:112
+msgid "Your Comment Here..."
+msgstr "Comentariul tău aici..."
+
+#: comments.php:115
+msgid "Submit Comment"
+msgstr "Adaugă comentariu"
+
+#: comments.php:120
+msgid "You can use these tags"
+msgstr "Poți folosi aceste etichete"
+
+#: header.php:23
+#, php-format
+msgid "Page %s"
+msgstr "Pagina %s"
+
+#: taxonomy-custom_cat.php:22 archive.php:9
+msgid "Posts Categorized:"
+msgstr "Clasificare posturi:"
+
+#: taxonomy-custom_cat.php:32 embed-post_meta.php:1 single-custom_type.php:30
+msgid "Posted"
+msgstr "Postat"
+
+#: taxonomy-custom_cat.php:32 embed-post_meta.php:1 single-custom_type.php:30
+msgid "by"
+msgstr "de"
+
+#: taxonomy-custom_cat.php:32 embed-post_meta.php:1 single-custom_type.php:30
+msgid "filed under"
+msgstr "adăugat în"
+
+#: taxonomy-custom_cat.php:41
+msgid "Read more"
+msgstr "Citește mai mult"
+
+#: functions.php:103
+msgid "(Edit)"
+msgstr "(Modifică)"
+
+#: functions.php:107
+msgid "Your comment is awaiting moderation."
+msgstr "Comentariul tău asteaptă aprobare."
+
+#: functions.php:124
+msgid "Search for:"
+msgstr "Caută dupa:"
+
+#: functions.php:125
+msgid "Search the Site..."
+msgstr "Caută site-ul..."
+
+#: 404.php:11
+msgid "Epic 404 - Article Not Found"
+msgstr "Epic 404 - Articolul nu a fost găsit"
+
+#: 404.php:17
+msgid ""
+"The article you were looking for was not found, but maybe try looking again!"
+msgstr "Articolul căutat nu a fost găsit, dar puteți încerca din nou!"
+
+#: search.php:7
+msgid "Search Results for:"
+msgstr "Rezultatele căutarii pentru:"
+
+#: search.php:23
+msgid "Read more on"
+msgstr "Citește mai mult pe"
+
+#: archive.php:13
+msgid "Posts Tagged:"
+msgstr "Postări etichetate:"
+
+#: archive.php:17 author.php:8
+msgid "Posts By:"
+msgstr "Postări făcute de:"
+
+#: archive.php:21
+msgid "Daily Archives:"
+msgstr "Arhive zilnice:"
+
+#: archive.php:25
+msgid "Monthly Archives:"
+msgstr "Arhive lunare:"
+
+#: archive.php:29
+msgid "Yearly Archives:"
+msgstr "Arhive anuale:"
+
+#: single-custom_type.php:43
+msgid "Custom Tags"
+msgstr "Etichete personalizate"
+
+#: embed-tags.php:3
+msgid "Tag"
+msgstr "Etichetă"
+
+#: embed-tags.php:3
+msgid "Tags"
+msgstr "Etichete"
+
+#: image.php:20
+msgid "Read the rest of this entry"
+msgstr "Citește restul acestui conținut"
+
+#: image.php:38
+msgid "Sorry, no attachments matched your criteria."
+msgstr "Ne pare rău, dar niciun atașament nu întrunește cerința ta."
+
+#: embed-prev_next.php:3
+msgid "&laquo; Older Entries"
+msgstr "&laquo; Intrări vechi"
+
+#: embed-prev_next.php:4
+msgid "Newer Entries &raquo;"
+msgstr "Intrări noi &raquo;"
+
+#: footer.php:9
+msgid "is powered by"
+msgstr "este produs de"
+
+#: embed-not_found.php:3
+msgid "Not Found"
+msgstr "Nu a fost găsit"
+
+#: embed-not_found.php:6
+msgid "Sorry, but the requested resource was not found on this site."
+msgstr "Ne pare rău, dar cerința nu a putut fi găsită pe acest site."
+
+#: sidebar.php:15
+msgid "Please activate some Widgets."
+msgstr "Vă rog să vă activați câteva Widget-uri."
+
+#: library/bones.php:52
+msgid "Read more &raquo;"
+msgstr "Citește mai mult &raquo;"
+
+#: library/custom-post-type.php:24
+msgid "Custom Types"
+msgstr "Tipuri Personalizate"
+
+#: library/custom-post-type.php:25
+msgid "Custom Post"
+msgstr "Posturi Personalizate"
+
+#: library/custom-post-type.php:26
+msgid "Add New"
+msgstr "Adaugă unul nou"
+
+#: library/custom-post-type.php:27
+msgid "Add New Custom Type"
+msgstr "Adaugă un Tip Personalizat nou"
+
+#: library/custom-post-type.php:28
+msgid "Edit"
+msgstr "Modifică"
+
+#: library/custom-post-type.php:29
+msgid "Edit Post Types"
+msgstr "Modifică Tip Post"
+
+#: library/custom-post-type.php:30
+msgid "New Post Type"
+msgstr "Tip Post nou"
+
+#: library/custom-post-type.php:31
+msgid "View Post Type"
+msgstr "Vezi Tip Post"
+
+#: library/custom-post-type.php:32
+msgid "Search Post Type"
+msgstr "Caută Tip Post"
+
+#: library/custom-post-type.php:33
+msgid "Nothing found in the Database."
+msgstr "Nu s-a găsit nimic în baza de date."
+
+#: library/custom-post-type.php:34
+msgid "Nothing found in Trash"
+msgstr "Nu s-a găsit nimic in Gunoi"
+
+#: library/custom-post-type.php:37
+msgid "This is the example custom post type"
+msgstr "Acesta exemplul de Tip Post Personalizat"
+
+#: library/custom-post-type.php:73
+msgid "Custom Categories"
+msgstr "Categorii personalizate"
+
+#: library/custom-post-type.php:74
+msgid "Custom Category"
+msgstr "Categorie personalizată"
+
+#: library/custom-post-type.php:75
+msgid "Search Custom Categories"
+msgstr "Caută în Categoriile personalizate"
+
+#: library/custom-post-type.php:76
+msgid "All Custom Categories"
+msgstr "Toate Categoriile personalizate"
+
+#: library/custom-post-type.php:77
+msgid "Parent Custom Category"
+msgstr "Părintele Categoriei personalizate"
+
+#: library/custom-post-type.php:78
+msgid "Parent Custom Category:"
+msgstr "Părintele Categoriei personalizate:"
+
+#: library/custom-post-type.php:79
+msgid "Edit Custom Category"
+msgstr "Modifică Categoria personalizată"
+
+#: library/custom-post-type.php:80
+msgid "Update Custom Category"
+msgstr "Actualizează Categoria personalizată"
+
+#: library/custom-post-type.php:81
+msgid "Add New Custom Category"
+msgstr "Adaugă o nouă Categorie personalizată"
+
+#: library/custom-post-type.php:82
+msgid "New Custom Category Name"
+msgstr "Nume nou pentru Categorie personalizată"
+
+#: library/custom-post-type.php:95
+msgid "Custom Tag"
+msgstr "Etichetă personalizată"
+
+#: library/custom-post-type.php:96
+msgid "Search Custom Tags"
+msgstr "Caută Etichete personalizate"
+
+#: library/custom-post-type.php:97
+msgid "All Custom Tags"
+msgstr "Toate Etichetele personalizate"
+
+#: library/custom-post-type.php:98
+msgid "Parent Custom Tag"
+msgstr "Părintele Etichetei personalizate"
+
+#: library/custom-post-type.php:99
+msgid "Parent Custom Tag:"
+msgstr "Părintele Etichetei personalizate:"
+
+#: library/custom-post-type.php:100
+msgid "Edit Custom Tag"
+msgstr "Modifică Eticheta personalizată"
+
+#: library/custom-post-type.php:101
+msgid "Update Custom Tag"
+msgstr "Actualizează Eticheta personalizată"
+
+#: library/custom-post-type.php:102
+msgid "Add New Custom Tag"
+msgstr "Adaugă o nouă Etichetă personalizată"
+
+#: library/custom-post-type.php:103
+msgid "New Custom Tag Name"
+msgstr "Nume nou pentru Eticheta personalizată"

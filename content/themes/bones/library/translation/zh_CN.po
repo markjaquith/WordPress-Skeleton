@@ -1,0 +1,420 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wp theme bones\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-03-02 22:11+0100\n"
+"PO-Revision-Date: \n"
+"Language: zh_CN\n"
+"Language-Team: Colt Ma <mumchristmas@gmail.com>\n"
+"Language-Team: fulgor <frag.fulgor@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n\n"
+"X-Poedit-Basepath: ../../\n"
+"X-Generator: Poedit 1.6.7\n"
+"Last-Translator: Daniel Zhang <danielzhme@gmail.com>\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:13
+msgid "Epic 404 - Article Not Found"
+msgstr "错误 404 － 您所访问的文档似乎并不存在"
+
+#: 404.php:19
+msgid ""
+"The article you were looking for was not found, but maybe try looking again!"
+msgstr "您寻找的内容并不存在，要不再找找？"
+
+#: 404.php:31
+msgid "This is the 404.php template."
+msgstr "这是模板“404.php”。"
+
+#: archive-custom_type.php:33 index.php:17 page-custom.php:33 page.php:18
+#: post-formats/format-aside.php:10 post-formats/format-audio.php:10
+#: post-formats/format-chat.php:10 post-formats/format-gallery.php:10
+#: post-formats/format-image.php:10 post-formats/format-link.php:10
+#: post-formats/format-quote.php:10 post-formats/format-status.php:10
+#: post-formats/format-video.php:10 post-formats/format.php:24 search.php:19
+#, php-format
+msgid ""
+"Posted <time class=\"updated\" datetime=\"%1$s\" pubdate>%2$s</time> by "
+"<span class=\"author\">%3$s</span>"
+msgstr ""
+"<span class=\"author\">%3$s</span> 发布于 <time class=\"updated\" datetime="
+"\"%1$s\" pubdate>%2$s</time>"
+
+#: archive-custom_type.php:33 archive.php:52 functions.php:176
+#: taxonomy-custom_cat.php:33
+msgid "F jS, Y"
+msgstr ""
+
+#: archive-custom_type.php:58 archive.php:79 index.php:49 page-custom.php:80
+#: page.php:61 single-custom_type.php:80 single.php:34
+#: taxonomy-custom_cat.php:57
+msgid "Oops, Post Not Found!"
+msgstr "哎呀，没找到文章！"
+
+#: archive-custom_type.php:61 archive.php:82 index.php:52 page-custom.php:83
+#: page.php:64 single-custom_type.php:83 single.php:37
+#: taxonomy-custom_cat.php:60
+msgid "Uh Oh. Something is missing. Try double checking things."
+msgstr "噢，少一些东西，再仔细检查一下。"
+
+#: archive-custom_type.php:64
+msgid "This is the error message in the custom posty type archive template."
+msgstr "这是来自自定义文章类型存档模板的错误消息。"
+
+#: archive.php:11 taxonomy-custom_cat.php:23
+msgid "Posts Categorized:"
+msgstr "文章分类："
+
+#: archive.php:16
+msgid "Posts Tagged:"
+msgstr "文章标签："
+
+#: archive.php:25
+msgid "Posts By:"
+msgstr "文章作者："
+
+#: archive.php:30
+msgid "Daily Archives:"
+msgstr "每日归档："
+
+#: archive.php:35
+msgid "Monthly Archives:"
+msgstr "月度归档："
+
+#: archive.php:40
+msgid "Yearly Archives:"
+msgstr "年度归档："
+
+#: archive.php:52
+msgid "Posted"
+msgstr "发布于"
+
+#: archive.php:52
+msgid "by"
+msgstr "作者:"
+
+#: archive.php:52 index.php:32
+msgid "filed under"
+msgstr "分类:"
+
+#: archive.php:85
+msgid "This is the error message in the archive.php template."
+msgstr "这是来自模板“archive.php”的错误消息。"
+
+#: comments.php:17 index.php:28
+msgid "<span>No</span> Comments"
+msgstr "<span>没有</span>评论"
+
+#: comments.php:17 index.php:28
+msgid "<span>One</span> Comment"
+msgstr "<span>一</span>条评论"
+
+#: comments.php:17 index.php:28
+msgid "<span>%</span> Comments"
+msgstr "<span>%</span> 条评论"
+
+#: comments.php:38
+msgid "&larr; Previous Comments"
+msgstr "&larr; 较早评论"
+
+#: comments.php:39
+msgid "More Comments &rarr;"
+msgstr "较新评论 &rarr;"
+
+#: comments.php:44
+msgid "Comments are closed."
+msgstr "评论已关闭"
+
+#: footer.php:9 library/bones.php:217
+msgid "Footer Links"
+msgstr "底部链接"
+
+#: functions.php:100
+msgid "600px by 150px"
+msgstr "宽600px 高150px"
+
+#: functions.php:101
+msgid "300px by 100px"
+msgstr "宽300px 高100px"
+
+#: functions.php:119
+msgid "Sidebar 1"
+msgstr "边栏 1"
+
+#: functions.php:120
+msgid "The first (primary) sidebar."
+msgstr "主边栏"
+
+#: functions.php:175
+#, php-format
+msgid "<cite class=\"fn\">%1$s</cite> %2$s"
+msgstr ""
+
+#: functions.php:175
+msgid "(Edit)"
+msgstr "【编辑】"
+
+#: functions.php:181
+msgid "Your comment is awaiting moderation."
+msgstr "您的评论正等待审核"
+
+#: header.php:61 library/bones.php:216
+msgid "The Main Menu"
+msgstr "主菜单"
+
+#: index.php:34 page-custom.php:68 post-formats/format-aside.php:42
+#: post-formats/format-audio.php:42 post-formats/format-chat.php:42
+#: post-formats/format-gallery.php:42 post-formats/format-image.php:42
+#: post-formats/format-link.php:45 post-formats/format-quote.php:45
+#: post-formats/format-status.php:42 post-formats/format-video.php:42
+#: post-formats/format.php:59 search.php:33
+msgid "Tags:"
+msgstr "标签："
+
+#: index.php:55
+msgid "This is the error message in the index.php template."
+msgstr "这是来自模板“index.php”的错误消息。"
+
+#: library/admin.php:78
+msgid "j F Y @ g:i a"
+msgstr ""
+
+#: library/admin.php:90
+msgid "Recently on Themble (Customize on admin.php)"
+msgstr ""
+
+#: library/admin.php:137
+msgid ""
+"<span id=\"footer-thankyou\">Developed by <a href=\"http://yoursite.com\" "
+"target=\"_blank\">Your Site Name</a></span>. Built using <a href=\"http://"
+"themble.com/bones\" target=\"_blank\">Bones</a>."
+msgstr ""
+"<span id=\"footer-thankyou\"><a href=\"http://yoursite.com\" target=\"_blank"
+"\">我的站点名称</a></span> 基于 <a href=\"http://themble.com/bones\" target="
+"\"_blank\">Bones</a> 开发。"
+
+#: library/bones.php:82
+#, php-format
+msgid "Page %s"
+msgstr "第 %s 页"
+
+#: library/bones.php:247
+msgid "No Related Posts Yet!"
+msgstr "还没有相关文章！"
+
+#: library/bones.php:292
+msgid "Read "
+msgstr "阅读"
+
+#: library/bones.php:292 search.php:25
+msgid "Read more &raquo;"
+msgstr "继续阅读 &raquo;"
+
+#: library/custom-post-type.php:31
+msgid "Custom Types"
+msgstr "自定义类型"
+
+#: library/custom-post-type.php:32
+msgid "Custom Post"
+msgstr "自定义文章板式"
+
+#: library/custom-post-type.php:33
+msgid "All Custom Posts"
+msgstr "所有自定义文章"
+
+#: library/custom-post-type.php:34
+msgid "Add New"
+msgstr "新建"
+
+#: library/custom-post-type.php:35
+msgid "Add New Custom Type"
+msgstr "新建自定义类型"
+
+#: library/custom-post-type.php:36
+msgid "Edit"
+msgstr "编辑"
+
+#: library/custom-post-type.php:37
+msgid "Edit Post Types"
+msgstr "编辑文章类型"
+
+#: library/custom-post-type.php:38
+msgid "New Post Type"
+msgstr "新建文章类型"
+
+#: library/custom-post-type.php:39
+msgid "View Post Type"
+msgstr "查看文章类型"
+
+#: library/custom-post-type.php:40
+msgid "Search Post Type"
+msgstr "搜索文章类型"
+
+#: library/custom-post-type.php:41
+msgid "Nothing found in the Database."
+msgstr "数据库无内容。"
+
+#: library/custom-post-type.php:42
+msgid "Nothing found in Trash"
+msgstr "垃圾箱无内容"
+
+#: library/custom-post-type.php:45
+msgid "This is the example custom post type"
+msgstr "这是个自定义文章类型的样例"
+
+#: library/custom-post-type.php:82
+msgid "Custom Categories"
+msgstr "自定义分类"
+
+#: library/custom-post-type.php:83
+msgid "Custom Category"
+msgstr "自定义分类"
+
+#: library/custom-post-type.php:84
+msgid "Search Custom Categories"
+msgstr "搜索自定义分类"
+
+#: library/custom-post-type.php:85
+msgid "All Custom Categories"
+msgstr "全部自定义分类"
+
+#: library/custom-post-type.php:86
+msgid "Parent Custom Category"
+msgstr "上级自定义分类"
+
+#: library/custom-post-type.php:87
+msgid "Parent Custom Category:"
+msgstr "上级自定义分类："
+
+#: library/custom-post-type.php:88
+msgid "Edit Custom Category"
+msgstr "编辑自定义分类"
+
+#: library/custom-post-type.php:89
+msgid "Update Custom Category"
+msgstr "更新自定义分类"
+
+#: library/custom-post-type.php:90
+msgid "Add New Custom Category"
+msgstr "新建自定义分类"
+
+#: library/custom-post-type.php:91
+msgid "New Custom Category Name"
+msgstr "新自定义分类名称"
+
+#: library/custom-post-type.php:105
+msgid "Custom Tags"
+msgstr "自定义标签"
+
+#: library/custom-post-type.php:106
+msgid "Custom Tag"
+msgstr "自定义标签"
+
+#: library/custom-post-type.php:107
+msgid "Search Custom Tags"
+msgstr "搜索自定义标签"
+
+#: library/custom-post-type.php:108
+msgid "All Custom Tags"
+msgstr "所有自定义标签"
+
+#: library/custom-post-type.php:109
+msgid "Parent Custom Tag"
+msgstr "上级自定义标签"
+
+#: library/custom-post-type.php:110
+msgid "Parent Custom Tag:"
+msgstr "上级自定义标签："
+
+#: library/custom-post-type.php:111
+msgid "Edit Custom Tag"
+msgstr "编辑自定义标签"
+
+#: library/custom-post-type.php:112
+msgid "Update Custom Tag"
+msgstr "更新自定义标签"
+
+#: library/custom-post-type.php:113
+msgid "Add New Custom Tag"
+msgstr "新建自定义标签"
+
+#: library/custom-post-type.php:114
+msgid "New Custom Tag Name"
+msgstr "新自定义标签名称"
+
+#: page-custom.php:57 page.php:41 post-formats/format-aside.php:33
+#: post-formats/format-audio.php:33 post-formats/format-chat.php:33
+#: post-formats/format-gallery.php:33 post-formats/format-image.php:33
+#: post-formats/format-link.php:33 post-formats/format-quote.php:33
+#: post-formats/format-status.php:33 post-formats/format-video.php:33
+#: post-formats/format.php:47 single-custom_type.php:57
+msgid "Pages:"
+msgstr "页面："
+
+#: page-custom.php:86
+msgid "This is the error message in the page-custom.php template."
+msgstr "这是来自模板“archive.php”的错误消息。"
+
+#: page.php:67
+msgid "This is the error message in the page.php template."
+msgstr "这是来自模板“page.php”的错误消息。"
+
+#: post-formats/format-link.php:43 post-formats/format-quote.php:43
+#: post-formats/format.php:57 search.php:31
+#, php-format
+msgid "Filed under: %1$s"
+msgstr "分类：%1$s"
+
+#: search.php:8
+msgid "Search Results for:"
+msgstr "搜索结果："
+
+#: search.php:47
+msgid "Sorry, No Results."
+msgstr "抱歉，找不到相关内容。"
+
+#: search.php:50
+msgid "Try your search again."
+msgstr "再搜一次试试。"
+
+#: search.php:53
+msgid "This is the error message in the search.php template."
+msgstr "这是来自模板“ search.php”的错误消息。"
+
+#: sidebar.php:16
+msgid "This is a widget ready area. Add some and they will appear here."
+msgstr "这是一个小工具的预留区域。添加小工具后将在这里出现。"
+
+#: single-custom_type.php:34 taxonomy-custom_cat.php:33
+#, php-format
+msgid ""
+"Posted <time class=\"updated\" datetime=\"%1$s\" pubdate>%2$s</time> by "
+"<span class=\"author\">%3$s</span> <span class=\"amp\">&</span> filed under "
+"%4$s."
+msgstr ""
+"<span class=\"author\">%3$s</span> 发布于 <time class=\"updated\" datetime="
+"\"%1$s\" pubdate>%2$s</time> <span class=\"amp\">&</span> 分类在  %4$s"
+
+#: single-custom_type.php:66
+msgid "Custom Tags:"
+msgstr "自定义标签："
+
+#: single-custom_type.php:86
+msgid "This is the error message in the single-custom_type.php template."
+msgstr "这是来自模板“single-custom_type.php”的错误消息。"
+
+#: single.php:40
+msgid "This is the error message in the single.php template."
+msgstr "这是来自模板“single.php”的错误消息。"
+
+#: taxonomy-custom_cat.php:39
+msgid "Read More &raquo;"
+msgstr "继续阅读 &raquo;"
+
+#: taxonomy-custom_cat.php:63
+msgid "This is the error message in the taxonomy-custom_cat.php template."
+msgstr "这是来自模板“taxonomy-custom_cat.php”的错误消息。"

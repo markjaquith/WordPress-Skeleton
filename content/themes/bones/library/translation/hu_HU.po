@@ -1,0 +1,506 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wp theme bones\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-10-07 10:18+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: keeteean <info@keeteean.com>\n"
+"Language-Team: fulgor <frag.fulgor@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n\n"
+"X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-SearchPath-0: ../..\n"
+
+#: ../../404.php:13
+msgid "Epic 404 - Article Not Found"
+msgstr "A híres 404-es oldal - A bejegyzés nem található"
+
+#: ../../404.php:19
+msgid ""
+"The article you were looking for was not found, but maybe try looking again!"
+msgstr ""
+"Úgy tűnik, nem találtuk meg amit kerestünk. :) Talán, egy újabb keresés "
+"segíthetne..."
+
+#: ../../404.php:31
+msgid "This is the 404.php template."
+msgstr "Ez a 404.php sablonja."
+
+#: ../../archive-custom_type.php:19 ../../page-custom.php:23 ../../page.php:17
+#, php-format
+msgid ""
+"Posted <time class=\"updated\" datetime=\"%1$s\" pubdate>%2$s</time> by "
+"<span class=\"author\">%3$s</span>."
+msgstr ""
+"Beküldte <span class=\"author\">%3$s</span> - <time class=\"updated\" "
+"datetime=\"%1$s\" pubdate>%2$s</time>"
+
+#: ../../archive-custom_type.php:19 ../../archive.php:52
+#: ../../functions.php:135 ../../page-custom.php:23 ../../page.php:17
+#: ../../search.php:18 ../../single-custom_type.php:32
+#: ../../taxonomy-custom_cat.php:34
+msgid "F jS, Y"
+msgstr "Y. F j."
+
+#: ../../archive-custom_type.php:43 ../../archive.php:78 ../../index.php:42
+#: ../../search.php:41 ../../taxonomy-custom_cat.php:57
+msgid "&laquo; Older Entries"
+msgstr "&laquo; Régebbi bejegyzések"
+
+#: ../../archive-custom_type.php:44 ../../archive.php:79 ../../index.php:43
+#: ../../search.php:42 ../../taxonomy-custom_cat.php:58
+msgid "Newer Entries &raquo;"
+msgstr "Újabb bejegyzések &raquo;"
+
+#: ../../archive-custom_type.php:53 ../../archive.php:88 ../../index.php:52
+#: ../../page-custom.php:46 ../../page.php:40 ../../single-custom_type.php:58
+#: ../../single.php:41 ../../taxonomy-custom_cat.php:67
+msgid "Oops, Post Not Found!"
+msgstr "Hoppá, a bejegyzés nem található!"
+
+#: ../../archive-custom_type.php:56 ../../archive.php:91 ../../index.php:55
+#: ../../page-custom.php:49 ../../page.php:43 ../../single-custom_type.php:61
+#: ../../single.php:44 ../../taxonomy-custom_cat.php:70
+msgid "Uh Oh. Something is missing. Try double checking things."
+msgstr "Ajjajj! Valami hiányzik. Próbáljunk meg mindent duplán ellenőrizni."
+
+#: ../../archive-custom_type.php:59
+msgid "This is the error message in the custom posty type archive template."
+msgstr "Az egyedi bejegyzés típus archívum sablonjában található hibaüzenet."
+
+#: ../../archive.php:11 ../../taxonomy-custom_cat.php:24
+msgid "Posts Categorized:"
+msgstr "Kategorizált bejegyzések:"
+
+#: ../../archive.php:16
+msgid "Posts Tagged:"
+msgstr "Címkézett bejegyzések:"
+
+#: ../../archive.php:25
+msgid "Posts By:"
+msgstr "Szerző:"
+
+#: ../../archive.php:30
+msgid "Daily Archives:"
+msgstr "Napi archívum:"
+
+#: ../../archive.php:35
+msgid "Monthly Archives:"
+msgstr "Havi archívum:"
+
+#: ../../archive.php:40
+msgid "Yearly Archives:"
+msgstr "Éves archívum:"
+
+#: ../../archive.php:52 ../../index.php:17 ../../search.php:18
+#: ../../single-custom_type.php:32 ../../taxonomy-custom_cat.php:34
+#, php-format
+msgid ""
+"Posted <time class=\"updated\" datetime=\"%1$s\" pubdate>%2$s</time> by "
+"<span class=\"author\">%3$s</span> <span class=\"amp\">&</span> filed under "
+"%4$s."
+msgstr ""
+"Beküldte <span class=\"author\">%3$s</span> - <time class=\"updated\" "
+"datetime=\"%1$s\" pubdate>%2$s</time> - %4$s."
+
+#: ../../archive.php:94
+msgid "This is the error message in the archive.php template."
+msgstr "Az archive.php sablonban található hibaüzenet."
+
+#: ../../comments.php:12
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+"A bejegyzést jelszó védi. A hozzászólások megtekintéséhez add meg a "
+"jelszavadat."
+
+#: ../../comments.php:22
+msgid "<span>No</span> Responses"
+msgstr "<span>Nem</span> szólt még senki se hozzá"
+
+#: ../../comments.php:22
+msgid "<span>One</span> Response"
+msgstr "<span>Egy</span> hozzászólás"
+
+#: ../../comments.php:22
+msgid "<span>%</span> Response"
+msgstr "<span>%</span> hozzászólás"
+
+#: ../../comments.php:50
+msgid "Comments are closed."
+msgstr "Hozzászólások lehetősége itt nem engedélyezett."
+
+#: ../../comments.php:61
+msgid "Leave a Reply"
+msgstr "Új hozzászólás"
+
+#: ../../comments.php:61
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr "Hozzászólás a(z) %s bejegyzéshez"
+
+#: ../../comments.php:69
+#, php-format
+msgid "You must be %1$slogged in%2$s to post a comment."
+msgstr "Elnézést, hozzászólás írásához %1$sbejelentkezés%2$s szükséges."
+
+#: ../../comments.php:77
+msgid "Logged in as"
+msgstr "Bejelentkezve, mint"
+
+#: ../../comments.php:77
+msgid "Log out of this account"
+msgstr "Kijelentkezés a felhasználói fiókból."
+
+#: ../../comments.php:77
+msgid "Log out"
+msgstr "Kijelentkezés"
+
+#: ../../comments.php:77
+msgid "&raquo;"
+msgstr "&raquo;"
+
+#: ../../comments.php:84
+msgid "Name"
+msgstr "Név"
+
+#: ../../comments.php:84 ../../comments.php:89
+msgid "(required)"
+msgstr "(szükséges)"
+
+#: ../../comments.php:85
+msgid "Your Name*"
+msgstr "Név*"
+
+#: ../../comments.php:89
+msgid "Mail"
+msgstr "Email"
+
+#: ../../comments.php:90
+msgid "Your E-Mail*"
+msgstr "Email*"
+
+#: ../../comments.php:91
+msgid "(will not be published)"
+msgstr "(nem lesz közzétéve)"
+
+#: ../../comments.php:95
+msgid "Website"
+msgstr "Weboldal"
+
+#: ../../comments.php:96
+msgid "Got a website?"
+msgstr "Van weboldalunk?"
+
+#: ../../comments.php:103
+msgid "Your Comment here..."
+msgstr "Itt tudunk hozzászólni..."
+
+#: ../../comments.php:106
+msgid "Submit"
+msgstr "Küldés"
+
+#: ../../comments.php:111
+msgid "You can use these tags"
+msgstr "Az alábbi címkék használhatóak"
+
+#: ../../functions.php:79
+msgid "Sidebar 1"
+msgstr "Oldalsáv 1"
+
+#: ../../functions.php:80
+msgid "The first (primary) sidebar."
+msgstr "Az első (elsődleges) oldalsáv."
+
+#: ../../functions.php:134
+#, php-format
+msgid "<cite class=\"fn\">%s</cite>"
+msgstr "<cite class=\"fn\">%s</cite>"
+
+#: ../../functions.php:136
+msgid "(Edit)"
+msgstr "(Szerkesztés)"
+
+#: ../../functions.php:140
+msgid "Your comment is awaiting moderation."
+msgstr "A hozzászólás rendszer-moderációra várakozik."
+
+#: ../../functions.php:157
+msgid "Search for:"
+msgstr "Keresés:"
+
+#: ../../index.php:27 ../../page-custom.php:34 ../../page.php:28
+#: ../../single.php:27
+msgid "Tags:"
+msgstr "Címkék"
+
+#: ../../index.php:58
+msgid "This is the error message in the index.php template."
+msgstr "Az index.php sablonban található hibaüzenet."
+
+#: ../../page-custom.php:52
+msgid "This is the error message in the page-custom.php template."
+msgstr "A page-custom.php sablonban található hibaüzenet."
+
+#: ../../page.php:46
+msgid "This is the error message in the page.php template."
+msgstr "A page.php sablonban található hibaüzenet."
+
+#: ../../search.php:8
+msgid "Search Results for:"
+msgstr "Találati lista:"
+
+#: ../../search.php:24 ../../library/bones.php:350
+msgid "Read more &raquo;"
+msgstr "Bővebben &raquo;"
+
+#: ../../search.php:51
+msgid "Sorry, No Results."
+msgstr "Sajnáljuk, de nincs megfelelő találat."
+
+#: ../../search.php:54
+msgid "Try your search again."
+msgstr "Ismételjük meg a keresést."
+
+#: ../../search.php:57
+msgid "This is the error message in the search.php template."
+msgstr "A search.php sablonban található hibaüzenet."
+
+#: ../../sidebar.php:12
+msgid "Please activate some Widgets."
+msgstr "Kapcsoljunk be pár Widgetet."
+
+#: ../../single-custom_type.php:44
+msgid "Custom Tags:"
+msgstr "Egyedi címkék"
+
+#: ../../single-custom_type.php:64
+msgid "This is the error message in the single-custom_type.php template."
+msgstr "A single-custom_type.php sablonban található hibaüzenet."
+
+#: ../../single.php:17
+#, php-format
+msgid ""
+"Posted <time class=\"updated\" datetime=\"%1$s\" pubdate>%2$s</time> by "
+"<span class=\"author\">%3$s</span> <span class=\"amp\">&amp;</span> filed "
+"under %4$s."
+msgstr ""
+"Beküldte <span class=\"author\">%3$s</span> - <time class=\"updated\" "
+"datetime=\"%1$s\" pubdate>%2$s</time> - %4$s."
+
+#: ../../single.php:47
+msgid "This is the error message in the single.php template."
+msgstr "A single.php sablonban található hibaüzenet."
+
+#: ../../taxonomy-custom_cat.php:40
+msgid "Read More &raquo;"
+msgstr "Bővebben &raquo;"
+
+#: ../../taxonomy-custom_cat.php:73
+msgid "This is the error message in the taxonomy-custom_cat.php template."
+msgstr "A taxonomy-custom_cat.php sablonban található hibaüzenet."
+
+#: ../../library/admin.php:66
+msgid "j F Y @ g:i a"
+msgstr "Y-md H:i"
+
+#: ../../library/admin.php:78
+msgid "Recently on Themble (Customize on admin.php)"
+msgstr "Themble hírek (testreszabás az admin.php fájlban)"
+
+#: ../../library/admin.php:125
+msgid ""
+"<span id=\"footer-thankyou\">Developed by <a href=\"http://yoursite.com\" "
+"target=\"_blank\">Your Site Name</a></span>. Built using <a href=\"http://"
+"themble.com/bones\" target=\"_blank\">Bones</a>."
+msgstr ""
+"<span id=\"footer-thankyou\">Az oldalt készítette a(z) <a href=\"http://"
+"weboldalunk.hu\" target=\"_blank\">Weboldalunk neve</a></span>. Fejlesztés "
+"alapjául a <a href=\"http://themble.com/bones\" target=\"_blank\">Bones</a> "
+"szolgált."
+
+#: ../../library/bones.php:213 ../../library/bones.php:230
+msgid "The Main Menu"
+msgstr "A Főmenü"
+
+#: ../../library/bones.php:214 ../../library/bones.php:248
+msgid "Footer Links"
+msgstr "Lábléc hivatkozások"
+
+#: ../../library/bones.php:302
+msgid "No Related Posts Yet!"
+msgstr "Nincs kapcsolódó bejegyzés!"
+
+#: ../../library/bones.php:350
+msgid "Read"
+msgstr "Bővebben"
+
+#: ../../library/bones.php:365
+#, php-format
+msgid "Posts by %s"
+msgstr "%s bejegyzései"
+
+#: ../../library/custom-post-type.php:31
+msgid "Custom Types"
+msgstr "Egyedi típus"
+
+#: ../../library/custom-post-type.php:32
+msgid "Custom Post"
+msgstr "Egyedi bejegyzés"
+
+#: ../../library/custom-post-type.php:33
+msgid "All Custom Posts"
+msgstr "Összes egyedi bejegyzés"
+
+#: ../../library/custom-post-type.php:34
+msgid "Add New"
+msgstr "Új hozzáadása"
+
+#: ../../library/custom-post-type.php:35
+msgid "Add New Custom Type"
+msgstr "Új tartalomtípus hozzáadása"
+
+#: ../../library/custom-post-type.php:36
+msgid "Edit"
+msgstr "Szerkesztés"
+
+#: ../../library/custom-post-type.php:37
+msgid "Edit Post Types"
+msgstr "Tartalomtípus szerkesztése"
+
+#: ../../library/custom-post-type.php:38
+msgid "New Post Type"
+msgstr "Új tartalomtípus"
+
+#: ../../library/custom-post-type.php:39
+msgid "View Post Type"
+msgstr "Tartalomtípus megtekintése"
+
+#: ../../library/custom-post-type.php:40
+msgid "Search Post Type"
+msgstr "Tartalomtípus keresése"
+
+#: ../../library/custom-post-type.php:41
+msgid "Nothing found in the Database."
+msgstr "Nincs találat az adatbázisban."
+
+#: ../../library/custom-post-type.php:42
+msgid "Nothing found in Trash"
+msgstr "Nincs találat a Lomtárban"
+
+#: ../../library/custom-post-type.php:45
+msgid "This is the example custom post type"
+msgstr "Ez egy példa az egyedi bejegyzés típusra."
+
+#: ../../library/custom-post-type.php:82
+msgid "Custom Categories"
+msgstr "Egyedi kategóriák"
+
+#: ../../library/custom-post-type.php:83
+msgid "Custom Category"
+msgstr "Egyedi kategória"
+
+#: ../../library/custom-post-type.php:84
+msgid "Search Custom Categories"
+msgstr "Egyedi kategóriák keresése"
+
+#: ../../library/custom-post-type.php:85
+msgid "All Custom Categories"
+msgstr "Összes egyedi kategória"
+
+#: ../../library/custom-post-type.php:86
+msgid "Parent Custom Category"
+msgstr "Egyedi kategória szülő"
+
+#: ../../library/custom-post-type.php:87
+msgid "Parent Custom Category:"
+msgstr "Egyedi kategória szülő:"
+
+#: ../../library/custom-post-type.php:88
+msgid "Edit Custom Category"
+msgstr "Egyedi kategória szerkesztése"
+
+#: ../../library/custom-post-type.php:89
+msgid "Update Custom Category"
+msgstr "Egyedi kategória frissítése"
+
+#: ../../library/custom-post-type.php:90
+msgid "Add New Custom Category"
+msgstr "Új egyedi kategória hozzáadása"
+
+#: ../../library/custom-post-type.php:91
+msgid "New Custom Category Name"
+msgstr "Új egyedi kategória neve"
+
+#: ../../library/custom-post-type.php:105
+msgid "Custom Tags"
+msgstr "Egyedi címkék"
+
+#: ../../library/custom-post-type.php:106
+msgid "Custom Tag"
+msgstr "Egyedi címke"
+
+#: ../../library/custom-post-type.php:107
+msgid "Search Custom Tags"
+msgstr "Egyedi címkék keresése"
+
+#: ../../library/custom-post-type.php:108
+msgid "All Custom Tags"
+msgstr "Összes egyedi címke"
+
+#: ../../library/custom-post-type.php:109
+msgid "Parent Custom Tag"
+msgstr "Egyedi címke szülő"
+
+#: ../../library/custom-post-type.php:110
+msgid "Parent Custom Tag:"
+msgstr "Egyedi címke szülő:"
+
+#: ../../library/custom-post-type.php:111
+msgid "Edit Custom Tag"
+msgstr "Egyedi címke szerkesztése"
+
+#: ../../library/custom-post-type.php:112
+msgid "Update Custom Tag"
+msgstr "Egyedi címke frissítése"
+
+#: ../../library/custom-post-type.php:113
+msgid "Add New Custom Tag"
+msgstr "Új egyedi címke hozzáadása"
+
+#: ../../library/custom-post-type.php:114
+msgid "New Custom Tag Name"
+msgstr "Új egyedi címke neve"
+
+#~ msgid "First"
+#~ msgstr "Első"
+
+#~ msgid "Last"
+#~ msgstr "Utolsó"
+
+#~ msgid "Response"
+#~ msgstr "Reakció"
+
+#~ msgid "Responses"
+#~ msgstr "Reakciók"
+
+#~ msgid "No"
+#~ msgstr "Nem"
+
+#~ msgid "You must be"
+#~ msgstr "Be kell"
+
+#~ msgid "logged in"
+#~ msgstr "jelentkeznünk,"
+
+#~ msgid "to post a comment"
+#~ msgstr "ha hozzá szeretnénk szólni."
+
+#~ msgid "Email"
+#~ msgstr "Email"
+
+#~ msgid "Tag"
+#~ msgstr "Címke"
