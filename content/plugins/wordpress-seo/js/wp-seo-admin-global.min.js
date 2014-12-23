@@ -1,1 +1,0 @@
-function wpseo_setIgnore(a,b,c){jQuery.post(ajaxurl,{action:"wpseo_set_ignore",option:a,_wpnonce:c},function(c){c&&(jQuery("#"+b).hide(),jQuery("#hidden_ignore_"+a).val("ignore"))})}
