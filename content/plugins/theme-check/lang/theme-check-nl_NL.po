@@ -1,0 +1,744 @@
+# Copyright (C) 2013 Theme Check
+# This file is distributed under the same license as the Theme Check package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Theme Check 20131212.1\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/support/plugin/theme-check\n"
+"POT-Creation-Date: 2013-12-12 17:58:21+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2013-12-12 22:23+0100\n"
+"Last-Translator: Bass Jobsen <bass@w3masters.nl>\n"
+"Language-Team: \n"
+
+#: checkbase.php:91
+#: checkbase.php:110
+msgid "Line "
+msgstr "Regel"
+
+#: checkbase.php:252
+msgid "Visit author homepage"
+msgstr "Bezoek de website van de maker"
+
+#: checkbase.php:255
+msgid "Anonymous"
+msgstr "Anoniem"
+
+#: checks/admin_menu.php:13
+#: checks/admin_menu.php:14
+msgid "User levels were deprecated in <strong>2.0</strong>. Please see <a href=\"http://codex.wordpress.org/Roles_and_Capabilities\">Roles_and_Capabilities</a>"
+msgstr "Gebruikersniveaus zijn nite meer toestaan sinds <strong>2.0</strong>. Zie ook: <a href=\"http://codex.wordpress.org/Roles_and_Capabilities\">Roles_and_Capabilities</a> (Engels)"
+
+#: checks/admin_menu.php:23
+#: checks/artisteer.php:24
+#: checks/badthings.php:29
+#: checks/filenames.php:43
+#: checks/filenames.php:50
+#: checks/lineendings.php:11
+#: checks/lineendings.php:20
+#: checks/lineendings.php:31
+#: checks/malware.php:23
+#: checks/phpshort.php:14
+#: checks/screenshot.php:32
+#: checks/style_tags.php:25
+#: checks/style_tags.php:27
+#: checks/worms.php:28
+#: main.php:86
+msgid "WARNING"
+msgstr "WAARSCHUWING"
+
+#: checks/admin_menu.php:33
+msgid "Themes should use <strong>add_theme_page()</strong> for adding admin pages."
+msgstr "Thema's moeten gebruik maken van <strong>add_theme_page()</strong> om een admin pagina toe te voegen."
+
+#: checks/admin_menu.php:44
+#: checks/basic.php:36
+#: checks/comment_reply.php:15
+#: checks/commpage.php:15
+#: checks/content-width.php:14
+#: checks/deprecated.php:189
+#: checks/directories.php:27
+#: checks/gravatar.php:15
+#: checks/more_deprecated.php:22
+#: checks/post-formats.php:27
+#: checks/postsnav.php:16
+#: checks/required.php:22
+#: checks/searchform.php:16
+#: checks/style_needed.php:30
+#: checks/tags.php:13
+#: checks/widgets.php:21
+#: checks/widgets.php:26
+msgid "REQUIRED"
+msgstr "VERPLICHT"
+
+#: checks/artisteer.php:24
+msgid "This theme appears to have been auto-generated. Generated themes are not allowed in the themes directory."
+msgstr "Dit thema lijkt automatisch gegenereerd te zijn.  Automatisch gegenereerde thema's zijn niet toegestaan in de thema directorie."
+
+#: checks/badthings.php:9
+msgid "eval() is not allowed."
+msgstr "eval() is niet toegestaan."
+
+#: checks/badthings.php:10
+msgid "PHP system calls are often disabled by server admins and should not be in themes"
+msgstr "PHP systeem aanroepen zijn vaak buiten werking gesteld door serverbeheerders en daarom niet toegestaan in thema's."
+
+#: checks/badthings.php:11
+msgid "Themes should not change server PHP settings"
+msgstr "Thema's mogen de PHP instellingen niet aanpassen."
+
+#: checks/badthings.php:12
+msgid "base64_decode() is not allowed"
+msgstr "base64_decode() is niet toegestaan"
+
+#: checks/badthings.php:13
+msgid "base64_encode() is not allowed"
+msgstr "base64_encode() is niet toegestaan"
+
+#: checks/badthings.php:14
+msgid "uudecode() is not allowed"
+msgstr "uudecode() is niet toegestaan"
+
+#: checks/badthings.php:15
+msgid "str_rot13() is not allowed"
+msgstr "str_rot13() is niet toegestaan"
+
+#: checks/badthings.php:16
+#: checks/badthings.php:37
+msgid "Google search code detected"
+msgstr "Google search code gevonden"
+
+#: checks/badthings.php:17
+#: checks/badthings.php:38
+msgid "Google advertising code detected"
+msgstr "Google adsense code gevonden"
+
+#: checks/badthings.php:48
+msgid "<span class=\"tc-lead tc-warning\">WARNING</span>: Found <strong>%1$s</strong> in the file <strong>%2$s</strong>. %3$s.%4$s"
+msgstr "<span class=\"tc-lead tc-warning\">WAARSCHUWING</span>: Gevonden <strong>%1$s</strong> in het bestand <strong>%2$s</strong>. %3$s.%4$s"
+
+#: checks/basic.php:14
+msgid "See: <a href=\"http://codex.wordpress.org/HTML_to_XHTML\">http://codex.wordpress.org/HTML_to_XHTML</a><pre>&lt;!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\"<br />\"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\"?&gt;</pre>"
+msgstr "Zie: <a href=\"http://codex.wordpress.org/HTML_to_XHTML\">http://codex.wordpress.org/HTML_to_XHTML</a><pre>&lt;!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\"<br />\"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\"?&gt;</pre>"
+
+#: checks/basic.php:15
+msgid "See: <a href=\"http://codex.wordpress.org/Function_Reference/wp_footer\">wp_footer</a><pre> &lt;?php wp_footer(); ?&gt;</pre>"
+msgstr "Zie: <a href=\"http://codex.wordpress.org/Function_Reference/wp_footer\">wp_footer</a><pre> &lt;?php wp_footer(); ?&gt;</pre>"
+
+#: checks/basic.php:16
+msgid "See: <a href=\"http://codex.wordpress.org/Function_Reference/wp_head\">wp_head</a><pre> &lt;?php wp_head(); ?&gt;</pre>"
+msgstr "Zie: <a href=\"http://codex.wordpress.org/Function_Reference/wp_head\">wp_head</a><pre> &lt;?php wp_head(); ?&gt;</pre>"
+
+#: checks/basic.php:17
+msgid "See: <a href=\"http://codex.wordpress.org/Function_Reference/language_attributes\">language_attributes</a><pre>&lt;html &lt;?php language_attributes(); ?&gt;</pre>"
+msgstr "Zie: <a href=\"http://codex.wordpress.org/Function_Reference/language_attributes\">language_attributes</a><pre>&lt;html &lt;?php language_attributes(); ?&gt;</pre>"
+
+#: checks/basic.php:18
+msgid "There must be a charset defined in the Content-Type or the meta charset tag in the head."
+msgstr "Het is verpicht een charset te definiëren in de Content-Type of meta charset tag in de head sectie."
+
+#: checks/basic.php:19
+msgid "See: <a href=\"http://codex.wordpress.org/Function_Reference/add_theme_support\">add_theme_support</a><pre> &lt;?php add_theme_support( $feature ); ?&gt;</pre>"
+msgstr "Zie: <a href=\"http://codex.wordpress.org/Function_Reference/add_theme_support\">add_theme_support</a><pre> &lt;?php add_theme_support( $feature ); ?&gt;</pre>"
+
+#: checks/basic.php:20
+msgid "See: <a href=\"http://codex.wordpress.org/Template_Tags/comments_template\">comments_template</a><pre> &lt;?php comments_template( $file, $separate_comments ); ?&gt;</pre>"
+msgstr "Zie: <a href=\"http://codex.wordpress.org/Template_Tags/comments_template\">comments_template</a><pre> &lt;?php comments_template( $file, $separate_comments ); ?&gt;</pre>"
+
+#: checks/basic.php:21
+msgid "See: <a href=\"http://codex.wordpress.org/Template_Tags/wp_list_comments\">wp_list_comments</a><pre> &lt;?php wp_list_comments( $args ); ?&gt;</pre>"
+msgstr "Zie: <a href=\"http://codex.wordpress.org/Template_Tags/wp_list_comments\">wp_list_comments</a><pre> &lt;?php wp_list_comments( $args ); ?&gt;</pre>"
+
+#: checks/basic.php:22
+msgid "See: <a href=\"http://codex.wordpress.org/Template_Tags/comment_form\">comment_form</a><pre> &lt;?php comment_form(); ?&gt;</pre>"
+msgstr "Zie: <a href=\"http://codex.wordpress.org/Template_Tags/comment_form\">comment_form</a><pre> &lt;?php comment_form(); ?&gt;</pre>"
+
+#: checks/basic.php:23
+msgid "See: <a href=\"http://codex.wordpress.org/Template_Tags/body_class\">body_class</a><pre> &lt;?php body_class( $class ); ?&gt;</pre>"
+msgstr "Zie: <a href=\"http://codex.wordpress.org/Template_Tags/body_class\">body_class</a><pre> &lt;?php body_class( $class ); ?&gt;</pre>"
+
+#: checks/basic.php:24
+msgid "See: <a href=\"http://codex.wordpress.org/Function_Reference/wp_link_pages\">wp_link_pages</a><pre> &lt;?php wp_link_pages( $args ); ?&gt;</pre>"
+msgstr "Zie: <a href=\"http://codex.wordpress.org/Function_Reference/wp_link_pages\">wp_link_pages</a><pre> &lt;?php wp_link_pages( $args ); ?&gt;</pre>"
+
+#: checks/basic.php:25
+msgid "See: <a href=\"http://codex.wordpress.org/Template_Tags/post_class\">post_class</a><pre> &lt;div id=\"post-&lt;?php the_ID(); ?&gt;\" &lt;?php post_class(); ?&gt;&gt;</pre>"
+msgstr "Zie: <a href=\"http://codex.wordpress.org/Template_Tags/post_class\">post_class</a><pre> &lt;div id=\"post-&lt;?php the_ID(); ?&gt;\" &lt;?php post_class(); ?&gt;&gt;</pre>"
+
+#: checks/basic.php:31
+msgid "add_theme_support( 'automatic-feed-links' )"
+msgstr "add_theme_support( 'automatic-feed-links' )"
+
+#: checks/basic.php:32
+msgid "wp_enqueue_script( 'comment-reply' )"
+msgstr "wp_enqueue_script( 'comment-reply' )"
+
+#: checks/basic.php:33
+msgid "body_class call in body tag"
+msgstr "body_class aangeroepen in de body tag"
+
+#: checks/basic.php:34
+msgid "register_sidebar() or register_sidebars()"
+msgstr "register_sidebar() of register_sidebars()"
+
+#: checks/basic.php:36
+msgid "Could not find <strong>%1$s</strong>. %2$s"
+msgstr "Niet gevonden <strong>%1$s</strong>. %2$s"
+
+#: checks/comment_reply.php:14
+msgid "See: <a href=\"http://codex.wordpress.org/Migrating_Plugins_and_Themes_to_2.7/Enhanced_Comment_Display\">Migrating Plugins and Themes to 2.7/Enhanced Comment Display</a><pre> &lt;?php if ( is_singular() ) wp_enqueue_script( \"comment-reply\" ); ?&gt;</pre>"
+msgstr "Zie: <a href=\"http://codex.wordpress.org/Migrating_Plugins_and_Themes_to_2.7/Enhanced_Comment_Display\">Migrating Plugins and Themes to 2.7/Enhanced Comment Display</a><pre> &lt;?php if ( is_singular() ) wp_enqueue_script( \"comment-reply\" ); ?&gt;</pre>"
+
+#: checks/comment_reply.php:15
+msgid "Could not find the <strong>comment-reply</strong> script enqueued. %1$s"
+msgstr "De aanroep (enqueue) van het <strong>comment-reply</strong> kon niet gevonden worden. %1$s"
+
+#: checks/comment_reply.php:18
+#: checks/iframes.php:20
+#: checks/include.php:19
+#: checks/links.php:25
+#: checks/nonprintable.php:16
+#: checks/time_date.php:22
+msgid "INFO"
+msgstr "INFO"
+
+#: checks/comment_reply.php:18
+msgid "Could not find the <strong>comment-reply</strong> script enqueued, however a reference to 'comment-reply' was found. Make sure that the comment-reply script is being enqueued properly on singular pages."
+msgstr "De aanroep (enqueue) van het <strong>comment-reply</strong> kon niet gevonden worden, terwijl er wel een verwijzing  naar 'comment-reply' werd gevonden. Verzeker u ervan dat het comment-reply script op de juiste 'enqueued' is op losstaande pagina's."
+
+#: checks/commpage.php:15
+msgid "The theme doesn't have comment pagination code in it. Use <strong>paginate_comments_links()</strong> or <strong>next_comments_link()</strong> and <strong>previous_comments_link()</strong> to add comment pagination."
+msgstr "In het thema ontbreekt de paginering van de reacties (comments). Gebruik  <strong>paginate_comments_links()</strong> of <strong>next_comments_link()</strong> en <strong>previous_comments_link()</strong> op de paginering toe te voegen aan de reacties."
+
+#. translators: 1: error 2: filename 3: version 4: alt 5: grep
+#: checks/constants.php:24
+#: checks/customs.php:14
+#: checks/customs.php:18
+#: checks/dep_recommend.php:60
+#: checks/editorstyle.php:13
+#: checks/filenames.php:57
+#: checks/i18n.php:49
+#: checks/navmenu.php:14
+#: checks/postthumb.php:15
+#: checks/postthumb.php:19
+#: checks/screenshot.php:21
+#: checks/screenshot.php:24
+#: checks/screenshot.php:27
+#: checks/style_suggested.php:20
+#: checks/style_tags.php:16
+#: checks/suggested.php:34
+#: checks/textdomain.php:30
+#: checks/textdomain.php:55
+#: checks/textdomain.php:59
+#: checks/widgets.php:16
+msgid "RECOMMENDED"
+msgstr "AANBEVOLEN"
+
+#: checks/constants.php:24
+#: checks/more_deprecated.php:22
+#: checks/required.php:22
+#: checks/suggested.php:34
+msgid "<strong>%1$s</strong> was found in the file <strong>%2$s</strong>. Use <strong>%3$s</strong> instead.%4$s"
+msgstr "<strong>%1$s</strong> werd aangetroffen in het bestand <strong>%2$s</strong>. Gebruik daarvoor in de plaats <strong>%3$s</strong>.%4$s"
+
+#: checks/content-width.php:14
+msgid "No content width has been defined. Example: <pre>if ( ! isset( $content_width ) ) $content_width = 900;</pre>"
+msgstr "No content width has been defined. Example: <pre>if ( ! isset( $content_width ) ) $content_width = 900;</pre>"
+
+#: checks/customs.php:14
+msgid "No reference to <strong>add_theme_support( \"custom-header\", $args )</strong> was found in the theme. It is recommended that the theme implement this functionality if using an image for the header."
+msgstr "In het thema werd geen verwijzing naar <strong>add_theme_support( \"custom-header\", $args )</strong> gevonden. Als het thema een afbeelding in de header plaats is het aanbevolen deze functie wel te gebruiken."
+
+#: checks/customs.php:18
+msgid "No reference to <strong>add_theme_support( \"custom-background\", $args )</strong> was found in the theme. If the theme uses background images or solid colors for the background, then it is recommended that the theme implement this functionality."
+msgstr "In het thema werd geen verwijzing naar <strong>add_theme_support( \"custom-background\", $args )</strong> gevonden. Als het thema een afbeelding of vaste kleur voor de achtergrond gebruikt is het aanbevolen deze functie wel te gebruiken."
+
+#: checks/dep_recommend.php:60
+#: checks/deprecated.php:189
+msgid "<strong>%1$s</strong> found in the file <strong>%2$s</strong>. Deprecated since version <strong>%3$s</strong>. Use <strong>%4$s</strong> instead.%5$s"
+msgstr "<strong>%1$s</strong> gevonden in het bestand <strong>%2$s</strong>. Niet meer ingebruik sinds <strong>%3$s</strong>. Gebruik hiervoor in de plaats <strong>%4$s</strong>.%5$s"
+
+#: checks/directories.php:27
+msgid "Please remove any extraneous directories like .git or .svn from the ZIP file before uploading it."
+msgstr "Verwijder voor het uploaden onnodige directories zoals .git of .svn uit de zip-file."
+
+#: checks/editorstyle.php:13
+msgid "No reference to <strong>add_editor_style()</strong> was found in the theme. It is recommended that the theme implement editor styling, so as to make the editor content match the resulting post output in the theme, for a better user experience."
+msgstr "Er werd geen verwijzing naar <strong>add_editor_style()</strong> gevonden in het thema. Er wordt aanbevolen dit wel te implementeren  om er voor te zorgen dat de content in de editor gelijk is aan de content van de betreffende post, dit zal de gebruikerservaring ten goede komen.It is recommended that the theme implement editor styling, so as to make the editor content match the resulting post output in the theme, for a better user experience."
+
+#: checks/filenames.php:21
+msgid "Windows thumbnail store"
+msgstr "Windows thumbnail store"
+
+#: checks/filenames.php:22
+msgid "windows system file"
+msgstr "windows systeem bestand"
+
+#: checks/filenames.php:23
+#: checks/filenames.php:24
+msgid "NetBeans Project File"
+msgstr "NetBeans project bestand"
+
+#: checks/filenames.php:25
+msgid "Komodo Project File"
+msgstr "Komodo Project Bestand"
+
+#: checks/filenames.php:26
+msgid "Hidden Files or Folders"
+msgstr "Verborgen bestanden en mappen"
+
+#: checks/filenames.php:27
+msgid "PHP server settings file"
+msgstr "Bestand met PHP server instellingen"
+
+#: checks/filenames.php:28
+msgid "Dreamweaver project file"
+msgstr "Dreamweaver project bestand"
+
+#: checks/filenames.php:29
+msgid "PHP error log"
+msgstr "PHP error log"
+
+#: checks/filenames.php:30
+msgid "Server settings file"
+msgstr "Bestand met server instellingen"
+
+#: checks/filenames.php:31
+msgid "SQL dump file"
+msgstr "SQL dump bestand"
+
+#: checks/filenames.php:32
+msgid "OSX system file"
+msgstr "OSX systeem bestand"
+
+#: checks/filenames.php:36
+msgid "Please see <a href=\"http://codex.wordpress.org/Theme_Review#Theme_Documentation\">Theme_Documentation</a> for more information."
+msgstr "Zie ook <a href=\"http://codex.wordpress.org/Theme_Review#Theme_Documentation\">Theme_Documentation</a> voor meer informatie."
+
+#: checks/filenames.php:43
+msgid "<strong>%1$s</strong> %2$s found."
+msgstr "<strong>%1$s</strong> %2$s gevonden."
+
+#: checks/filenames.php:50
+msgid "could not find the file <strong>%1$s</strong> in the theme."
+msgstr "Het bestand werd niet gevonden <strong>%1$s</strong> in het thema."
+
+#: checks/filenames.php:57
+msgid "could not find the file <strong>%1$s</strong> in the theme. %2$s"
+msgstr "Het bestand werd niet gevonden <strong>%1$s</strong> in het thema. %2$s"
+
+#: checks/gravatar.php:15
+msgid "This theme doesn't seem to support the standard avatar functions. Use <strong>get_avatar</strong> or <strong>wp_list_comments</strong> to add this support."
+msgstr "dIt thema biedt geen ondersteuning voor de standaard avatar functies Gebruik <strong>get_avatar</strong> of <strong>wp_list_comments</strong> om deze ondersteuning toe te voegen."
+
+#: checks/i18n.php:49
+msgid "Possible variable <strong>%1$s</strong> found in translation function in <strong>%2$s</strong>. Translation function calls must NOT contain PHP variables. %3$s"
+msgstr "Waarschijnlijk is er een variabele  <strong>%1$s</strong> gevonden in de vertaalfunctie <strong>%2$s</strong>. Vertaalfuncties mogen geen PHP variabelen bevatten. %3$s"
+
+#: checks/iframes.php:9
+msgid "iframes are sometimes used to load unwanted adverts and code on your site"
+msgstr "iframes worden some gebruikt om ongewenste advertenties of andere code in uw website te laden"
+
+#: checks/iframes.php:20
+#: checks/malware.php:23
+msgid "<strong>%1$s</strong> was found in the file <strong>%2$s</strong> %3$s.%4$s"
+msgstr "<strong>%1$s</strong> werd aangetroffen in het bestand <strong>%2$s</strong> %3$s.%4$s"
+
+#: checks/include.php:10
+msgid "The theme appears to use include or require. If these are being used to include separate sections of a template from independent files, then <strong>get_template_part()</strong> should be used instead."
+msgstr "In het thema is het gebruk van include of require aangetroffen. Als deze zijn gebruik om losse delen van een template te laden uit andere bestanden, dan zou hier <strong>get_template_part()</strong> gebruikt moeten worden."
+
+#: checks/include.php:19
+msgid "<strong>%1$s</strong> %2$s %3$s"
+msgstr "<strong>%1$s</strong> %2$s %3$s"
+
+#: checks/lineendings.php:11
+#: checks/lineendings.php:20
+#: checks/lineendings.php:31
+msgid "Both DOS and UNIX style line endings were found in the file <strong>%1$s</strong>. This causes a problem with SVN repositories and must be corrected before the theme can be accepted. Please change the file to use only one style of line endings."
+msgstr "In bestand <strong>%1$s</strong> staan zowel regeleinden zoals gebruikt in DOS en UNIX. Dit geeft problemen met SVN repositories en moet worden aangepast voordat het theme geaccepteerd kan worden. Pas het bestand aan zodat regeleinden zijn gemaakt volgens de DOS of UNIX stijl."
+
+#: checks/links.php:25
+msgid "Possible hard-coded links were found in the file <strong>%1$s</strong>.%2$s"
+msgstr "Er staan hard-coded links in het bestand <strong>%1$s</strong>.%2$s"
+
+#: checks/malware.php:9
+msgid "File operations should use the WP_Filesystem methods instead of direct PHP filesystem calls"
+msgstr "Er mogen geen bestanden naar de server geschreven worden met PHP bestandsfuncties, hiervoor moet het de WP_Filesystem API gebruikt worden."
+
+#: checks/navmenu.php:14
+msgid "No reference to nav_menu's was found in the theme. Note that if your theme has a menu bar, it is required to use the WordPress nav_menu functionality for it."
+msgstr "In het thema zijn geen verwijzing naar nav_menu's gevonden. Als uw thema een menubalk heeft moet deze worden implmenteerd met de nav_menu functionaliteit van WordPress."
+
+#: checks/nonprintable.php:16
+msgid "Non-printable characters were found in the <strong>%1$s</strong> file. You may want to check this file for errors.%2$s"
+msgstr "Het bestand <strong>%1$s</strong> bevat onafdrukbare tekens. Controleer dit bestand op fouten."
+
+#: checks/phpshort.php:14
+msgid "Found PHP short tags in file <strong>%1$s</strong>.%2$s"
+msgstr "PHP short tags ('<?' i.p.v. '<?php') gevonden in bestand  <strong>%1$s</strong>.%2$s"
+
+#: checks/post-formats.php:27
+msgid "<strong>%1$s</strong> was found in the file <strong>%2$s</strong>. However get_post_format and/or has_post_format were not found, and no use of formats in the CSS was detected."
+msgstr "<strong>%1$s</strong> werd aangetroffen in het bestand <strong>%2$s</strong>. Hoewel get_post_format en/of has_post_format niet gevonden werd, en er is ook geen formatering in CSS gevonden."
+
+#: checks/postsnav.php:16
+msgid "The theme doesn't have post pagination code in it. Use <strong>posts_nav_link()</strong> or <strong>paginate_links()</strong> or <strong>next_posts_link()</strong> and <strong>previous_posts_link()</strong> to add post pagination."
+msgstr "The thema ontbreekt de paginering van berichten. Gebruik <strong>posts_nav_link()</strong> of <strong>paginate_links()</strong> of <strong>next_posts_link()</strong> en <strong>previous_posts_link()</strong> om dit toe te voegen."
+
+#: checks/postthumb.php:15
+msgid "No reference to <strong>the_post_thumbnail()</strong> was found in the theme. It is recommended that the theme implement this functionality instead of using custom fields for thumbnails."
+msgstr "In het thema is geen verwijzing naar  <strong>the_post_thumbnail()</strong> gevonden. Het aan te raden dit wel te doen en geen gebruik te maken van custom fields voor thumbnails."
+
+#: checks/postthumb.php:19
+msgid "No reference to post-thumbnails was found in the theme. If the theme has a thumbnail like functionality, it should be implemented with <strong>add_theme_support( \"post-thumbnails\" )</strong>in the functions.php file."
+msgstr "In het thema is geen verwijzing naar post-thumbnails gevonden. Als het thema gebruik maakt een thumbnail-achtige functionaliteit moet <strong>add_theme_support( \"post-thumbnails\" )</strong> toegevoegd worden aan functions.php."
+
+#: checks/screenshot.php:21
+msgid "Screenshot is wrong size! Detected: <strong>%1$sx%2$spx</strong>. Maximum allowed size is 880x660px."
+msgstr "De schermafbeelding heeft de verkeerde afmetingen. Gevonden: <strong>%1$sx%2$spx</strong>. De maximaal toegstane afmetingen zijn 880x660px."
+
+#: checks/screenshot.php:24
+msgid "Screenshot dimensions are wrong! Ratio of width to height should be 4:3."
+msgstr "De schermafbeelding heeft de verkeerde verhoudingen. De ratio tussen hoogte en breedte moet 4:3 zijn."
+
+#: checks/screenshot.php:27
+msgid "Screenshot size should be 880x660, to account for HiDPI displays. Any 4:3 image size is acceptable, but 880x660 is preferred."
+msgstr "Schermafbeelding zijn bij voorkeur 880x660px groot, dan kan er rekeing gehouden worden met HiDPI schermen. Elke afbeelding met een ratio van 4:3 kan worden geaccepteerd, maar 800x660 heeft de voorkeur."
+
+#: checks/screenshot.php:32
+msgid "No screenshot detected! Please include a screenshot.png."
+msgstr "Geen schermafbeelding gevonden. Voeg deze toe met de naam screenshot.png"
+
+#: checks/searchform.php:9
+msgid "Please use <strong>get_search_form()</strong> instead of including searchform.php directly."
+msgstr "Maak gebruik van <strong>get_search_form()</strong> en voeg searchform.php niet direct in."
+
+#: checks/searchform.php:16
+msgid "<strong>%1$s</strong> %2$s%3$s"
+msgstr "<strong>%1$s</strong> %2$s%3$s"
+
+#: checks/style_needed.php:11
+msgid "<strong>Theme name:</strong> is missing from your style.css header."
+msgstr "<strong>Theme name:</strong> ontbreekt in de header van uw style.css bestand."
+
+#: checks/style_needed.php:12
+msgid "<strong>Description:</strong> is missing from your style.css header."
+msgstr "<strong>Description:</strong> ontbreekt in de header van uw style.css bestand."
+
+#: checks/style_needed.php:13
+msgid "<strong>Author:</strong> is missing from your style.css header."
+msgstr "<strong>Author:</strong> ontbreekt in de header van uw style.css bestand."
+
+#: checks/style_needed.php:14
+msgid "<strong>Version:</strong> is missing from your style.css header."
+msgstr "<strong>Version:</strong> ontbreekt in de header van uw style.css bestand."
+
+#: checks/style_needed.php:15
+msgid "<strong>License:</strong> is missing from your style.css header."
+msgstr "<strong>License:</strong> ontbreekt in de header van uw style.css bestand."
+
+#: checks/style_needed.php:16
+msgid "<strong>License URI:</strong> is missing from your style.css header."
+msgstr "<strong>License URI:</strong> ontbreekt in de header van uw style.css bestand."
+
+#: checks/style_needed.php:17
+msgid "<strong>.sticky</strong> css class is needed in your theme css."
+msgstr "<strong>.sticky</strong> css class moet verplicht aangemaakt zijn in de css van het thema."
+
+#: checks/style_needed.php:18
+msgid "<strong>.bypostauthor</strong> css class is needed in your theme css."
+msgstr "<strong>.bypostauthor</strong>  css class moet verplicht aangemaakt zijn in de css van het thema."
+
+#: checks/style_needed.php:19
+msgid "<strong>.alignleft</strong> css class is needed in your theme css."
+msgstr "<strong>.alignleft</strong>  css class moet verplicht aangemaakt zijn in de css van het thema."
+
+#: checks/style_needed.php:20
+msgid "<strong>.alignright</strong> css class is needed in your theme css."
+msgstr "<strong>.alignright</strong>  css class moet verplicht aangemaakt zijn in de css van het thema."
+
+#: checks/style_needed.php:21
+msgid "<strong>.aligncenter</strong> css class is needed in your theme css."
+msgstr "<strong>.aligncenter</strong>  css class moet verplicht aangemaakt zijn in de css van het thema."
+
+#: checks/style_needed.php:22
+msgid "<strong>.wp-caption</strong> css class is needed in your theme css."
+msgstr "<strong>.wp-caption</strong>  css class moet verplicht aangemaakt zijn in de css van het thema."
+
+#: checks/style_needed.php:23
+msgid "<strong>.wp-caption-text</strong> css class is needed in your theme css."
+msgstr "<strong>.wp-caption-text</strong>  css class moet verplicht aangemaakt zijn in de css van het thema."
+
+#: checks/style_needed.php:24
+msgid "<strong>.gallery-caption</strong> css class is needed in your theme css."
+msgstr "<strong>.gallery-caption</strong> css class moet verplicht aangemaakt zijn in de css van het thema."
+
+#: checks/style_suggested.php:20
+msgid "<strong>%1$s</strong> is missing from your style.css header."
+msgstr "<strong>%1$s</strong>  is missing from your style.css header."
+
+#: checks/style_tags.php:16
+msgid "<strong>Tags:</strong> is either empty or missing in style.css header."
+msgstr "<strong>Tags:</strong> is leeg of ontbreekt in de header van uw style.css bestand."
+
+#: checks/style_tags.php:25
+msgid "The flexible-width and fixed-width tags changed to fluid-layout and fixed-layout tags in WordPress 3.8. Additionally, the responsive-layout tag was added. Please change to using one of the new tags."
+msgstr "De flexible-width en fixed-width tags zijn aangepast naar fluid-layout en fixed-layout tags in WordPress 3.8. Ook werd de responsive-layout tag extra toegevoegd. Pas uw tags aan door een nieuwe tag toe te voegen."
+
+#: checks/style_tags.php:27
+msgid "Found wrong tag, remove <strong>%1$s</strong> from your style.css header."
+msgstr "Foutieve tag aanetroffen, verwijder <strong>%1$s</strong> uit de header van uw style.css bestand."
+
+#: checks/tags.php:13
+msgid "This theme doesn't seem to display tags. Modify it to display tags in appropriate locations."
+msgstr "Het thema lijkt geen tags te tonen. Pas het thema aan zodat er tags worden getoond op daarvoor geschikte plaatsen."
+
+#: checks/textdomain.php:15
+msgid "You have not included a text domain!"
+msgstr "Uw heeft geen text domain voor vertalingen toegevoegd aan uw thema."
+
+#. translators: 1: filename 2: error message 3: grep results
+#: checks/textdomain.php:32
+msgid "Text domain problems in <strong>%1$s</strong>. %2$s %3$s "
+msgstr "Problemen met het text domain <strong>%1$s</strong>. %2$s %3$s "
+
+#: checks/textdomain.php:38
+#: checks/textdomain.php:39
+msgid "Text domain should match theme slug: <strong>%1$s</strong>"
+msgstr "Het text domain moet overeenkomen met de thema slug:  <strong>%1$s</strong>"
+
+#: checks/textdomain.php:55
+msgid "Text domain problems in <strong>%1$s</strong>. The %2s text domain is being used!%3$s"
+msgstr "Problemen met het text domain in <strong>%1$s</strong>. Het %2s text domain wordt gebruikt!%3$s"
+
+#: checks/textdomain.php:59
+msgid "Text domain problems in <strong>%1$s</strong>. %2$s You are using: <strong>%3s</strong>%4$s"
+msgstr "Problemen met het text domain  in <strong>%1$s</strong>. %2$s U gebruikt: <strong>%3s</strong>%4$s"
+
+#: checks/time_date.php:22
+msgid "At least one hard coded date was found in the file <strong>%s</strong>. Consider get_option( 'date_format' ) instead."
+msgstr "Minimaal een hard coded datum werd aangetroffen in het bestand  <strong>%s</strong>. Bekijk of u niet beter gebruik kunt maken van get_option( 'date_format' )."
+
+#: checks/widgets.php:16
+msgid "This theme contains no sidebars/widget areas. See <a href='http://codex.wordpress.org/Widgets_API'>Widgets API</a>"
+msgstr "Het thema bevat geen zijbalken of gebieden om widgets te kunnen plaatsen. Zie <a href='http://codex.wordpress.org/Widgets_API'>Widgets API</a>"
+
+#: checks/widgets.php:21
+msgid "The theme appears to use <strong>register_sidebar()</strong> but no <strong>dynamic_sidebar()</strong> was found. See: <a href='http://codex.wordpress.org/Function_Reference/dynamic_sidebar'>dynamic_sidebar</a><pre> &lt;?php dynamic_sidebar( $index ); ?&gt;</pre>"
+msgstr "Het thema maakt gebruikt van <strong>register_sidebar()</strong> terwijl geen verwijzing naar <strong>dynamic_sidebar()</strong> gevonden werd. Zie: <a href='http://codex.wordpress.org/Function_Reference/dynamic_sidebar'>dynamic_sidebar</a><pre> &lt;?php dynamic_sidebar( $index ); ?&gt;</pre>"
+
+#: checks/widgets.php:26
+msgid "The theme appears to use <strong>dynamic_sidebars()</strong> but no <strong>register_sidebar()</strong> was found. See: <a href='http://codex.wordpress.org/Function_Reference/register_sidebar'>register_sidebar</a><pre> &lt;?php register_sidebar( $args ); ?&gt;</pre>"
+msgstr "Het thema maakt gebruik van <strong>dynamic_sidebars()</strong> maar <strong>register_sidebar()</strong> werd niet aangetroffen. Zie: <a href='http://codex.wordpress.org/Function_Reference/register_sidebar'>register_sidebar</a><pre> &lt;?php register_sidebar( $args ); ?&gt;</pre>"
+
+#: checks/worms.php:9
+msgid "This may be a script used by hackers to get control of your server!"
+msgstr "Dit lijkt een script te zijn dat gevoelig voor hackers is, zij kunnen hiermee de controle van uw server overnemen!"
+
+#: checks/worms.php:10
+msgid "This may be a script used by hackers to get control of your server"
+msgstr "Dit lijkt een script te zijn dat gevoelig voor hackers is, zij kunnen hiermee de controle van uw server overnemen!"
+
+#: checks/worms.php:11
+msgid "Tells a hacker what operating system your server is running"
+msgstr "Dit laat potentiele hackers weten op welk besturingsysteem uw server draait."
+
+#: checks/worms.php:12
+msgid "base64 encoded text found in Search Engine Redirect hack <a href=\"http://blogbuildingu.com/wordpress/wordpress-search-engine-redirect-hack\">[1]</a>"
+msgstr "base64 gecodeerde tekst gevonden in Search Engine Redirect hack <a href=\"http://blogbuildingu.com/wordpress/wordpress-search-engine-redirect-hack\">[1]</a>"
+
+#: checks/worms.php:13
+msgid "YAHG Googlerank.info exploit code <a href=\"http://creativebriefing.com/wordpress-hacked-googlerankinfo/\">[1]</a>"
+msgstr "YAHG Googlerank.info misbruik code aangetroffen <a href=\"http://creativebriefing.com/wordpress-hacked-googlerankinfo/\">[1]</a>"
+
+#: checks/worms.php:14
+msgid "Possible Ekibastos attack <a href=\"http://ocaoimh.ie/did-your-wordpress-site-get-hacked/\">[1]</a>"
+msgstr "Mogelijke Ekibastos aanval <a href=\"http://ocaoimh.ie/did-your-wordpress-site-get-hacked/\">[1]</a>"
+
+#: checks/worms.php:15
+msgid "Possible \"Gumblar\" JavaScript attack <a href=\"http://threatinfo.trendmicro.com/vinfo/articles/securityarticles.asp?xmlfile=042710-GUMBLAR.xml\">[1]</a> <a href=\"http://justcoded.com/article/gumblar-family-virus-removal-tool/\">[2]</a>"
+msgstr "Mogelijke \"Gumblar\" JavaScript aanval <a href=\"http://threatinfo.trendmicro.com/vinfo/articles/securityarticles.asp?xmlfile=042710-GUMBLAR.xml\">[1]</a> <a href=\"http://justcoded.com/article/gumblar-family-virus-removal-tool/\">[2]</a>"
+
+#: checks/worms.php:16
+#: checks/worms.php:17
+msgid "Symptom of the \"Pharma Hack\" <a href=\"http://blog.sucuri.net/2010/07/understanding-and-cleaning-the-pharma-hack-on-wordpress.html\">[1]</a>"
+msgstr "Aaanwijzingen voor de  \"Pharma Hack\" aangetroffen <a href=\"http://blog.sucuri.net/2010/07/understanding-and-cleaning-the-pharma-hack-on-wordpress.html\">[1]</a>"
+
+#: checks/worms.php:18
+msgid "Malicious footer code injection detected!"
+msgstr "Kwaadaardig code kan aan de footer worden toegevoegd!"
+
+#: main.php:12
+msgid "Parent theme <strong>%1$s</strong> not found! You have to have parent AND child-theme installed!"
+msgstr "Parent thema<strong>%1$s</strong> niet gevonden! U moet zowel het parent thema als het child thema installeren!"
+
+#: main.php:39
+msgid "Theme Info"
+msgstr "Thema info"
+
+#: main.php:50
+msgid "Title"
+msgstr "Titel"
+
+#: main.php:51
+msgid "Version"
+msgstr "Versie"
+
+#: main.php:52
+msgid "Author"
+msgstr "Maker"
+
+#: main.php:53
+msgid "Author URI"
+msgstr "URI van de maker"
+
+#: main.php:54
+msgid "Theme URI"
+msgstr "URI van het thema"
+
+#: main.php:55
+msgid "License"
+msgstr "Licentie"
+
+#: main.php:56
+msgid "LicenseURI"
+msgstr "URI van de licentie"
+
+#: main.php:57
+msgid "Tags"
+msgstr "Tags"
+
+#: main.php:58
+msgid "Description"
+msgstr "Beschrijving"
+
+#: main.php:62
+msgid "This child theme requires at least version <strong>%1$s</strong> of theme <strong>%2$s</strong> to be installed. You only have <strong>%3$s</strong> please update the parent theme."
+msgstr "Voor child thema moet minimaal versie <strong>%1$s</strong> van <strong>%2$s</strong> geinstalleerd zijn. U gebruikt nu  <strong>%3$s</strong> update het parent thema."
+
+#: main.php:64
+msgid "This is a child theme. The parent theme is: <strong>%1$s</strong>. These files have been included automatically!"
+msgstr "Dit is een child thema. Het parent thema is <strong>%1$s</strong>. Deze bestanden zijn automatisch ingevoegd!"
+
+#: main.php:66
+msgid "Child theme does not have the <strong>Template Version</strong> tag in style.css."
+msgstr "Het child thema heeft geen <strong>Template Version</strong> tag in style.css."
+
+#: main.php:68
+msgid "Child theme is only tested up to version %1$s of %2$s breakage may occur! %3$s installed version is %4$s"
+msgstr "Het child thema is alleen getest voor  %1$s van %2$s dit kan problemen geven. %3$s geinstalleerde versie is %4$s"
+
+#: main.php:75
+msgid " Running <strong>%1$s</strong> tests against <strong>%2$s</strong> using Guidelines Version: <strong>%3$s</strong> Plugin revision: <strong>%4$s</strong>"
+msgstr "Doorloopt <strong>%1$s</strong> testen op <strong>%2$s</strong> gebruik makend van Guidelines Version: <strong>%3$s</strong> Plugin revisie: <strong>%4$s</strong>"
+
+#: main.php:81
+msgid "One or more errors were found for %1$s."
+msgstr "Een of meer fouten zijn aangetroffen voor %1$s."
+
+#: main.php:83
+msgid "%1$s passed the tests"
+msgstr "%1$s kwamen door de testen"
+
+#: main.php:86
+msgid "<strong>WP_DEBUG is not enabled!</strong> Please test your theme with <a href=\"http://codex.wordpress.org/Editing_wp-config.php\">debug enabled</a> before you upload!"
+msgstr "<strong>WP_DEBUG is niet ingeschakeld!</strong> Test uw thema voor u gaat uploaden met <a href=\"http://codex.wordpress.org/Editing_wp-config.php\">debug inegschakeld</a>!"
+
+#: main.php:97
+msgid "About"
+msgstr "Over"
+
+#: main.php:98
+msgid "The theme check plugin is an easy way to test your theme and make sure it's up to spec with the latest theme review standards. With it, you can run all the same automated testing tools on your theme that WordPress.org uses for theme submissions."
+msgstr "The theme check plugin gemakkelijke manier om te testen of uw thema voldoet aan de eisen die worden gesteld in een review voor opname in de  WordPress.org directorie. Deze plugin stelt u in staat dezelfde gautomatiseerde testen uit te voeren die ook worden uitgevoerd als u uw thema upload naar WordPress.org."
+
+#: main.php:99
+msgid "Contact"
+msgstr "Contact"
+
+#: main.php:100
+msgid "Theme-Check is maintained by %1s and %2s."
+msgstr "Theme-Check wordt onderhouden door %1s and %2s."
+
+#: main.php:104
+msgid "If you have found a bug or would like to make a suggestion or contribution why not join the <a href=\"http://wordpress.org/extend/themes/contact/\">theme-reviewers mailing list</a> or leave a post on the <a href=\"http://wordpress.org/tags/theme-check?forum_id=10\">WordPress forums</a>."
+msgstr "Mocht u een bug vinden of een suggestie hebben om de plugin te verbeteren en . of willen bij dragen, dan kunt u zich in de eerste plaats aanmelden voor <a href=\"http://wordpress.org/extend/themes/contact/\">theme-reviewers mailing list</a> of anders een bericht achterlaten op <a href=\"http://wordpress.org/tags/theme-check?forum_id=10\">WordPress forums</a>."
+
+#: main.php:105
+msgid "Contributors"
+msgstr "Medewerkers"
+
+#: main.php:106
+msgid "Localization"
+msgstr "Vertalingen"
+
+#: main.php:111
+msgid "Testers"
+msgstr "Testers"
+
+#: main.php:112
+msgid "The WordPress Theme Review Team"
+msgstr "The WordPress Theme Review Team"
+
+#: main.php:118
+msgid "Now your theme has passed the basic tests you need to check it properly using the test data before you upload to the WordPress Themes Directory."
+msgstr "Uw thema heeft de basis testen doorstaan. Voor u uw thema gaat uploaden moet u het eerst nog testen met test data."
+
+#: main.php:119
+msgid "Make sure to review the guidelines at <a href=\"http://codex.wordpress.org/Theme_Review\">Theme Review</a> before uploading a Theme."
+msgstr "Lees voordat u uw thema upload eerst de richtlijnen voor <a href=\"http://codex.wordpress.org/Theme_Review\">Theme Review</a>."
+
+#: main.php:120
+msgid "Codex Links"
+msgstr "Codex Links"
+
+#: main.php:122
+msgid "Theme Development"
+msgstr "Theme Development"
+
+#: main.php:123
+msgid "Themes and Templates forum"
+msgstr "Themes and Templates forum"
+
+#: main.php:124
+msgid "Theme Unit Tests"
+msgstr "Theme Unit Tests"
+
+#: main.php:143
+msgid "Check it!"
+msgstr "Controleer!"
+
+#: main.php:144
+msgid "Output in Trac format."
+msgstr "Uitvoer in Trac formaat."
+
+#: main.php:145
+msgid "Suppress INFO."
+msgstr "Onderdruk INFO"
+
+#: theme-check.php:35
+msgid "You do not have sufficient permissions to access this page."
+msgstr "U heeft onvoldoende rechten om deze pagina te bezoeken."
+
+#. Plugin Name of the plugin/theme
+msgid "Theme Check"
+msgstr "Theme Check"
+
+#. Plugin URI of the plugin/theme
+msgid "http://pross.org.uk/plugins"
+msgstr "http://pross.org.uk/plugins"
+
+#. Description of the plugin/theme
+msgid "A simple and easy way to test your theme for all the latest WordPress standards and practices. A great theme development tool!"
+msgstr "Een simpele en gemakkelijke manier om uw thema te testen volgens de laatste normen en maatstaven van WordPress. Een fantastische tool voor thema ontwikkelaars."
+
+#. Author of the plugin/theme
+msgid "Pross, Otto42"
+msgstr "Pross, Otto42"
+
+#. Author URI of the plugin/theme
+msgid "http://pross.org.uk"
+msgstr "http://pross.org.uk"
+
