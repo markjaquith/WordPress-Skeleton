@@ -109,3 +109,6 @@
 [submodule "content/plugins/t-minus"]
 	path = content/plugins/t-minus
 	url = https://github.com/wp-plugins/jquery-t-countdown-widget.git
+[submodule "content/plugins/genesis-featured-content-widget"]
+	path = content/plugins/genesis-featured-content-widget
+	url = https://github.com/wpsmith/genesis-sandbox-featured-content-widget.git
