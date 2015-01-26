@@ -112,3 +112,6 @@
 [submodule "content/plugins/genesis-featured-content-widget"]
 	path = content/plugins/genesis-featured-content-widget
 	url = https://github.com/wpsmith/genesis-sandbox-featured-content-widget.git
+[submodule "content/plugins/wordpress-wiki"]
+	path = content/plugins/wordpress-wiki
+	url = https://github.com/wp-plugins/wordpress-wiki-plugin.git
