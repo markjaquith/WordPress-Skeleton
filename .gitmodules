@@ -118,3 +118,6 @@
 [submodule "wiki"]
 	path = wiki
 	url = https://github.com/wikimedia/mediawiki.git
+[submodule "content/plugins/encyclopedia-lexicon-glossary-wiki-directory"]
+	path = content/plugins/encyclopedia-lexicon-glossary-wiki-directory
+	url = https://github.com/wp-plugins/encyclopedia-lexicon-glossary-wiki-dictionary.git
