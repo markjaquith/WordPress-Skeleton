@@ -115,3 +115,6 @@
 [submodule "content/plugins/wordpress-wiki"]
 	path = content/plugins/wordpress-wiki
 	url = https://github.com/wp-plugins/wordpress-wiki-plugin.git
+[submodule "wiki"]
+	path = wiki
+	url = https://github.com/wikimedia/mediawiki.git
