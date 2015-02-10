@@ -26,14 +26,14 @@
 /**
  * Cette fonction sera appelée à chaque rafraîchissement de la page.
  */
-function init_reserv_billets()
+function reserv_billets_init()
 {
 	// TODO la fonction d'init.
 
 }
 
 // Ajouter la fonction d'init ci-dessus à l'action d'initialisation.
-add_action("init", "init_reserv_billets");
+add_action("init", "reserv_billets_init");
 
 /**
  * Cette méthode s'exécute lors de l'activation du plugin dans le
@@ -43,20 +43,23 @@ add_action("init", "init_reserv_billets");
  * et fichiers utilisés par notre plugin.
  *
  * De plus, d'après la documentation de WP sur le plugins :
+ *
  * « One of the most common uses for an activation hook is to refresh
  * WordPress permalinks when a plugin registers a custom post type.
  * This gets rid of the nasty 404 errors. »
  *
  * Donc on va probablement devoir faire ça.
  */
-function activation_reserv_billets()
+function reserv_billets_activer()
 {
 	// TODO le processus d'activation.
+
+
 
 }
 
 // Enregistrer le hook pour l'activation du plugin.
-register_activation_hook( __FILE__, "activation_reserv_billets" );
+register_activation_hook( __FILE__, "reserv_billets_activer" );
 
 /**
  * Cette méthode s'exécute lors de la désactivation du plugin.
@@ -64,14 +67,14 @@ register_activation_hook( __FILE__, "activation_reserv_billets" );
  * Je suggère qu'elle enlève les éléments assignés dans
  * « activation_reserv_billets » afin de ne laisser la moindre trace!
  */
-function deactivation_reserv_billets()
+function reserv_billets_deactiver()
 {
 	// TODO le processus de désactivation.
 
 }
 
 // Enregistrer le hook pour la désactivation du plugin.
-register_deactivation_hook( __FILE__, "deactivation_reserv_billets" );
+register_deactivation_hook( __FILE__, "reserv_billets_deactiver" );
 
 
 
