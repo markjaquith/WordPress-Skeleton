@@ -1,13 +1,13 @@
 <?php defined('ABSPATH') or die("No script kiddies please!");
 /*
  * Plugin Name: Réservations de Billets
- * Plugin URI: n/a
  * Description: Un système de réservation de billets.
  * Version: EARLY ALPHA
- * Author: Jonathan Martin, Félix Dion Robidoux
- * Author URI: n/a
+ * Author: Jonathan Martin & Félix Dion Robidoux
  * License: GPL2
- * Text Domain: reservation-billets
+ * License URI: http://www.gnu.org/licenses/gpl-2.0.txt
+ * Text Domain: reserv-billets-locale
+ * Domain Path: /lang
  *
  * ReservBillets is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -20,8 +20,17 @@
  * GNU General Public License for more details.
  *
  * You should have received a copy of the GNU General Public License
- * along with ReservationBillets. If not, see {License URI}.
+ * along with ReservationBillets.
+ * If not, see http://www.gnu.org/licenses/gpl-2.0.txt
  */
+
+// Protection extra contre les script-kiddies!
+if ( ! defined( 'WPINC' ) ) {
+	die;
+}
+
+// Prendre la classe de base de
+require_once plugin_dir_path( __FILE__ ) . 'inc/class-reserv-billets.php';
 
 /**
  * Cette fonction sera appelée à chaque rafraîchissement de la page.
@@ -36,7 +45,7 @@ function reserv_billets_init()
 add_action("init", "reserv_billets_init");
 
 /**
- * Cette méthode s'exécute lors de l'activation du plugin dans le
+ * Cette méthode s'exécute lors de l'INSTALLATION du plugin dans le
  * panneau de contrôle de WordPress.
  *
  * Je propose qu'on y ajoute des tables dans la BD ou des dossiers
@@ -49,6 +58,8 @@ add_action("init", "reserv_billets_init");
  * This gets rid of the nasty 404 errors. »
  *
  * Donc on va probablement devoir faire ça.
+ *
+ * VOIR: https://developer.wordpress.org/plugins/the-basics/activation-deactivation-hooks/
  */
 function reserv_billets_installation()
 {
@@ -64,10 +75,9 @@ function reserv_billets_installation()
 register_activation_hook( __FILE__, "reserv_billets_installation" );
 
 /**
- * Cette méthode s'exécute lors de la désactivation du plugin.
+ * Cette méthode s'exécute lors de la DÉSACTIVATION du plugin.
  *
- * Je suggère qu'elle enlève les éléments assignés dans
- * « activation_reserv_billets » afin de ne laisser la moindre trace!
+ * VOIR: https://developer.wordpress.org/plugins/the-basics/activation-deactivation-hooks/
  */
 function reserv_billets_deactivation()
 {
@@ -84,6 +94,6 @@ function reserv_billets_deactivation()
 register_deactivation_hook( __FILE__, "reserv_billets_deactivation" );
 
 
-
+//register_uninstall_hook( __FILE__, );
 
 
