@@ -50,7 +50,7 @@ add_action("init", "reserv_billets_init");
  *
  * Donc on va probablement devoir faire ça.
  */
-function reserv_billets_activer()
+function reserv_billets_installation()
 {
 	// TODO le processus d'activation.
 
@@ -59,7 +59,7 @@ function reserv_billets_activer()
 }
 
 // Enregistrer le hook pour l'activation du plugin.
-register_activation_hook( __FILE__, "reserv_billets_activer" );
+register_activation_hook( __FILE__, "reserv_billets_installation" );
 
 /**
  * Cette méthode s'exécute lors de la désactivation du plugin.
@@ -67,14 +67,14 @@ register_activation_hook( __FILE__, "reserv_billets_activer" );
  * Je suggère qu'elle enlève les éléments assignés dans
  * « activation_reserv_billets » afin de ne laisser la moindre trace!
  */
-function reserv_billets_deactiver()
+function reserv_billets_desinstallation()
 {
 	// TODO le processus de désactivation.
 
 }
 
 // Enregistrer le hook pour la désactivation du plugin.
-register_deactivation_hook( __FILE__, "reserv_billets_deactiver" );
+register_deactivation_hook( __FILE__, "reserv_billets_desinstallation" );
 
 
 
