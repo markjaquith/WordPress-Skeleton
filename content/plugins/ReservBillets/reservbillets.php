@@ -54,8 +54,10 @@ function reserv_billets_installation()
 {
 	// TODO le processus d'activation.
 
+	// TODO Ajout des custom post-types.
 
-
+	// Flusher les liens permanents après l'ajout de custom post-types.
+	flush_rewrite_rules();
 }
 
 // Enregistrer le hook pour l'activation du plugin.
@@ -67,14 +69,19 @@ register_activation_hook( __FILE__, "reserv_billets_installation" );
  * Je suggère qu'elle enlève les éléments assignés dans
  * « activation_reserv_billets » afin de ne laisser la moindre trace!
  */
-function reserv_billets_desinstallation()
+function reserv_billets_deactivation()
 {
 	// TODO le processus de désactivation.
 
+	// Les post-types se désenregistrent automatiquement lors de la désinstallation
+	// d'un plugin, donc pas vraiment besoin de faire quoi que ce soit là-dessus.
+
+	//...cependant, y faut flusher les liens permanents; Ça, t'as pas le choix!
+	flush_rewrite_rules();
 }
 
 // Enregistrer le hook pour la désactivation du plugin.
-register_deactivation_hook( __FILE__, "reserv_billets_desinstallation" );
+register_deactivation_hook( __FILE__, "reserv_billets_deactivation" );
 
 
 
