@@ -1,5 +1,6 @@
-<?php defined('ABSPATH') or die("No script kiddies please!");
-/*
+<?php defined( 'ABSPATH' ) or die( "No script kiddies please!" );
+/**
+ * @wordpress-plugin
  * Plugin Name: Réservations de Billets
  * Description: Un système de réservation de billets.
  * Version: EARLY ALPHA
@@ -9,6 +10,7 @@
  * Text Domain: reserv-billets-locale
  * Domain Path: /lang
  *
+ * @license
  * ReservBillets is free software: you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
  * the Free Software Foundation, either version 2 of the License, or
@@ -29,8 +31,8 @@ if ( ! defined( 'WPINC' ) ) {
 	die;
 }
 
-// Prendre la classe de base de
-require_once plugin_dir_path( __FILE__ ) . 'inc/class-reserv-billets.php';
+// Prendre la classe de base du plugin.
+require_once plugin_dir_path( __FILE__ ) . "includes/class-reserv-billets.php";
 
 /**
  * Cette fonction sera appelée à chaque rafraîchissement de la page.
@@ -41,14 +43,11 @@ function reserv_billets_init()
 
 }
 
-// Ajouter la fonction d'init ci-dessus à l'action d'initialisation.
-add_action("init", "reserv_billets_init");
-
 /**
  * Cette méthode s'exécute lors de l'INSTALLATION du plugin dans le
  * panneau de contrôle de WordPress.
  *
- * Je propose qu'on y ajoute des tables dans la BD ou des dossiers
+ * @notesDeFelix Je propose qu'on y ajoute des tables dans la BD ou des dossiers
  * et fichiers utilisés par notre plugin.
  *
  * De plus, d'après la documentation de WP sur le plugins :
@@ -71,9 +70,6 @@ function reserv_billets_installation()
 	flush_rewrite_rules();
 }
 
-// Enregistrer le hook pour l'activation du plugin.
-register_activation_hook( __FILE__, "reserv_billets_installation" );
-
 /**
  * Cette méthode s'exécute lors de la DÉSACTIVATION du plugin.
  *
@@ -83,17 +79,18 @@ function reserv_billets_deactivation()
 {
 	// TODO le processus de désactivation.
 
-	// Les post-types se désenregistrent automatiquement lors de la désinstallation
-	// d'un plugin, donc pas vraiment besoin de faire quoi que ce soit là-dessus.
+	// Note: Les post-types se désenregistrent automatiquement lors de la désinstallation d'un plugin, donc pas vraiment besoin de faire quoi que ce soit là-dessus.
 
 	//...cependant, y faut flusher les liens permanents; Ça, t'as pas le choix!
 	flush_rewrite_rules();
 }
 
+// Ajouter la fonction d'init ci-dessus à l'action d'initialisation.
+add_action( "init", "reserv_billets_init" );
+
+// Enregistrer le hook pour l'activation du plugin.
+register_activation_hook( __FILE__, "reserv_billets_installation" );
+
 // Enregistrer le hook pour la désactivation du plugin.
 register_deactivation_hook( __FILE__, "reserv_billets_deactivation" );
-
-
-//register_uninstall_hook( __FILE__, );
-
 
