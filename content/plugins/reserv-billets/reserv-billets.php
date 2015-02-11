@@ -32,16 +32,19 @@ if ( ! defined( 'WPINC' ) ) {
 }
 
 // Prendre la classe de base du plugin.
-require_once plugin_dir_path( __FILE__ ) . "includes/class-reserv-billets.php";
+require_once plugin_dir_path( __FILE__ ) . "includes/class-rb-spectacle.php";
 
 /**
- * Cette fonction sera appelée à chaque rafraîchissement de la page.
+ * Cette fonction sera appelée lors de l'exécution du plugin.
  */
-function reserv_billets_init()
+function reserv_billets_exec()
 {
 	// TODO la fonction d'init.
-
+	$rb = new RB_Spectacle();
+	$rb->run();
 }
+
+reserv_billets_exec();
 
 /**
  * Cette méthode s'exécute lors de l'INSTALLATION du plugin dans le
@@ -86,7 +89,7 @@ function reserv_billets_deactivation()
 }
 
 // Ajouter la fonction d'init ci-dessus à l'action d'initialisation.
-add_action( "init", "reserv_billets_init" );
+//add_action( "init", "reserv_billets_init" );
 
 // Enregistrer le hook pour l'activation du plugin.
 register_activation_hook( __FILE__, "reserv_billets_installation" );
