@@ -23,7 +23,7 @@ class RB_Spectacle
 	private $isAdmin;
 
 	/**
-	 *
+	 * Constructeur. Fais pas mal de choses!
 	 */
 	public function __construct()
 	{
