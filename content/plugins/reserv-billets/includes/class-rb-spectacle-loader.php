@@ -1,18 +1,13 @@
 <?php
-/**
- * class-rb-spectacles-loader.php
- *
- * Project: wp-production2
- * User:    Félix Dion Robidoux
- * Date:    11/02/2015
- * Time:    4:20 PM
- */
 
+/**
+ * Class RB_Spectacle_Loader
+ */
 class RB_Spectacle_Loader
 {
-	/** @var $actions Array */
+	/** @var Array */
 	protected $actions;
-	/** @var  Array */
+	/** @var Array */
 	protected $filters;
 
 	/**
@@ -35,12 +30,13 @@ class RB_Spectacle_Loader
 	 */
 	public function push_action( $hook, $composant, $fnCallback )
 	{
-		$this->actions = $this->add( $this->actions, $hook, $composant, $fnCallback);
+		$this->actions = self::add( $this->actions, $hook, $composant, $fnCallback );
 	}
 
 	/**
 	 * Ajoute un filtre dans la table de filtres.
 	 * Note: Les filtres ne sont pas encore appliqués à ce stade-là;
+	 *
 	 * @see RB_Spectacle_Loader::run() <<< C'est là qu'ils sont appliqués.
 	 *
 	 * @param $hook String L'identifiant de l'action. Exemple: "init"
@@ -49,29 +45,36 @@ class RB_Spectacle_Loader
 	 */
 	public function push_filter( $hook, $composant, $fnCallback )
 	{
-		$this->filters = $this->add( $this->filters, $hook, $composant, $fnCallback);
+		$this->filters = self::add( $this->filters, $hook, $composant, $fnCallback );
 	}
 
 	/**
-	 * Ajoute un hook dans la liste de hooks spécifiée en paramètres.
+	 * Ajoute un hook.
+	 *
+	 * N'ayant nul besoin de savoir le type de hook impliqué, cette fonction représente vulgairement
+	 * l'immigré mexicain illégal qui prend tes meubles et qui les transporte dans le camion de déménagement!
+	 * Note: on va changer cte description-là, assurément.
 	 *
 	 * @param $hookListe Array La liste d'actions ou de filtres auquel on ajoutera le hook
 	 *                         (voir 3 prochains params).
-	 * @param $hook String L'identifiant du hook. Exemple pour une action: "init"
-	 * @param $composant Object Le composant (objet) ayant la fonction à assigner au hook.
+	 * @param $hook String L'identifiant du hook. <u>Exemple pour une action:</u> <em>"init"</em>
+	 * @param $composant Object Le composant <u>(objet)</u> ayant la fonction à assigner au hook.
 	 * @param $fnCallback String La fonction dans la composante qui sera appelée pour le hook.
 	 *
-	 * @see add_action, add_filter
+	 * @see RB_Spectacle_Loader::push_action
+	 * @see RB_Spectacle_Loader::push_filter
+	 * @see add_action
+	 * @see add_filter
 	 *
 	 * @return Array la liste des hooks auquel on a ajouté un hook avec les 3 derniers paramètres.
 	 */
-	private function add( $hookListe, $hook, $composant, $fnCallback )
+	private static function add(array $hookListe, $hook, $composant, $fnCallback )
 	{
 		// Encapsuler les 3 derniers paramètres dans un array de hooking.
 		$encapsulation = array(
-			"hook" => $hook,
-			"composant" => $composant,
-			"fnCallback" => $fnCallback
+			'hook' => $hook,
+			'composant' => $composant,
+			'fnCallback' => $fnCallback,
 		);
 
 		// Pousser les valeurs encapsulées dans la liste de hooks.
@@ -88,17 +91,15 @@ class RB_Spectacle_Loader
 	public function run()
 	{
 		// Parcourir l'array de filtres qui ont été assignés à l'avance.
-		foreach( $this->filters as $filterHook )
-		{
+		foreach ( $this->filters as $filterHook ) {
 			// Ajouter un filtre.
-			add_filter( $filterHook['hook'], array( $filterHook["composant"], $filterHook["fnCallback"] ));
+			add_filter( $filterHook['hook'], array( $filterHook['composant'], $filterHook['fnCallback'] ) );
 		}
 
 		// Parcourir l'array d'actions qui ont été assignées à l'avance.
-		foreach( $this->actions as $actionHook )
-		{
+		foreach ( $this->actions as $actionHook ) {
 			// Ajouter une action.
-			add_action( $actionHook["hook"], array( $actionHook["composant"], $actionHook["fnCallback"] ));
+			add_action( $actionHook['hook'], array( $actionHook['composant'], $actionHook['fnCallback'] ) );
 		}
 	}
 }

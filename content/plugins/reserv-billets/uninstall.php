@@ -1,4 +1,4 @@
-<?php defined('ABSPATH') or die("No script kiddies please!");
+<?php defined( 'ABSPATH' ) or die( 'No script kiddies please!' );
 /**
  * Ce fichier est exécuté automatiquement lors de la désinstallation et la suppression du plugin.
  *
@@ -34,5 +34,5 @@ delete_site_option( $option_name );
 
 // Enlève la table spécifiée de la base de données.
 global $wpdb;
-$nomDeLaTable = ""; // TODO effectuer un checkup automatique pour le préfixe du nom de la table.
-$wpdb->query( "DROP TABLE IF EXISTS {$wpdb->prefix}{$nomDeLaTable}" );
+$nomDeLaTable = ''; // TODO effectuer un checkup automatique pour le préfixe du nom de la table.
+$wpdb->get_results( 'DROP TABLE IF EXISTS wp_rb_billets' );

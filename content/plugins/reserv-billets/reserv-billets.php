@@ -31,6 +31,8 @@ if ( ! defined( 'WPINC' ) ) {
 	die;
 }
 
+
+
 // Prendre la classe de base du plugin.
 require_once plugin_dir_path( __FILE__ ) . "includes/class-rb-spectacle.php";
 
@@ -63,7 +65,7 @@ reserv_billets_exec();
  *
  * VOIR: https://developer.wordpress.org/plugins/the-basics/activation-deactivation-hooks/
  */
-function reserv_billets_installation()
+function rb_installation()
 {
 	// TODO le processus d'activation.
 
@@ -78,7 +80,7 @@ function reserv_billets_installation()
  *
  * VOIR: https://developer.wordpress.org/plugins/the-basics/activation-deactivation-hooks/
  */
-function reserv_billets_deactivation()
+function rb_deactivation()
 {
 	// TODO le processus de désactivation.
 
@@ -92,8 +94,8 @@ function reserv_billets_deactivation()
 //add_action( "init", "reserv_billets_init" );
 
 // Enregistrer le hook pour l'activation du plugin.
-register_activation_hook( __FILE__, "reserv_billets_installation" );
+register_activation_hook( __FILE__, "rb_installation" );
 
 // Enregistrer le hook pour la désactivation du plugin.
-register_deactivation_hook( __FILE__, "reserv_billets_deactivation" );
+register_deactivation_hook( __FILE__, "rb_deactivation" );
 
