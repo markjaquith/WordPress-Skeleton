@@ -1,4 +1,4 @@
-<?php defined( 'ABSPATH' ) or die( "No script kiddies please!" );
+<?php
 /**
  * @wordpress-plugin
  * Plugin Name: Réservations de Billets
@@ -31,9 +31,8 @@ if ( ! defined( 'WPINC' ) ) {
 	die;
 }
 
-
-
 // Prendre la classe de base du plugin.
+/** @noinspection PhpIncludeInspection */
 require_once plugin_dir_path( __FILE__ ) . "includes/class-rb-spectacle.php";
 
 /**
@@ -45,8 +44,6 @@ function reserv_billets_exec()
 	$rb = new RB_Spectacle();
 	$rb->run();
 }
-
-reserv_billets_exec();
 
 /**
  * Cette méthode s'exécute lors de l'INSTALLATION du plugin dans le
@@ -98,4 +95,6 @@ register_activation_hook( __FILE__, "rb_installation" );
 
 // Enregistrer le hook pour la désactivation du plugin.
 register_deactivation_hook( __FILE__, "rb_deactivation" );
+
+reserv_billets_exec();
 
