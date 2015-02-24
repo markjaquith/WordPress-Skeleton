@@ -121,3 +121,6 @@
 [submodule "content/plugins/encyclopedia-lexicon-glossary-wiki-directory"]
 	path = content/plugins/encyclopedia-lexicon-glossary-wiki-directory
 	url = https://github.com/wp-plugins/encyclopedia-lexicon-glossary-wiki-dictionary.git
+[submodule "content/skins/vector"]
+	path = content/skins/vector
+	url = https://git.wikimedia.org/git/mediawiki/skins/Vector.git
