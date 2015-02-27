@@ -124,3 +124,6 @@
 [submodule "content/skins/vector"]
 	path = content/skins/vector
 	url = https://git.wikimedia.org/git/mediawiki/skins/Vector.git
+[submodule "content/plugins/brute-force-login-protection"]
+	path = content/plugins/brute-force-login-protection
+	url = https://github.com/wp-plugins/brute-force-login-protection.git
