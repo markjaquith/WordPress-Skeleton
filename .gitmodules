@@ -112,3 +112,18 @@
 [submodule "content/plugins/genesis-featured-content-widget"]
 	path = content/plugins/genesis-featured-content-widget
 	url = https://github.com/wpsmith/genesis-sandbox-featured-content-widget.git
+[submodule "content/plugins/wordpress-wiki"]
+	path = content/plugins/wordpress-wiki
+	url = https://github.com/wp-plugins/wordpress-wiki-plugin.git
+[submodule "wiki"]
+	path = wiki
+	url = https://github.com/wikimedia/mediawiki.git
+[submodule "content/plugins/encyclopedia-lexicon-glossary-wiki-directory"]
+	path = content/plugins/encyclopedia-lexicon-glossary-wiki-directory
+	url = https://github.com/wp-plugins/encyclopedia-lexicon-glossary-wiki-dictionary.git
+[submodule "content/skins/vector"]
+	path = content/skins/vector
+	url = https://git.wikimedia.org/git/mediawiki/skins/Vector.git
+[submodule "content/plugins/brute-force-login-protection"]
+	path = content/plugins/brute-force-login-protection
+	url = https://github.com/wp-plugins/brute-force-login-protection.git
