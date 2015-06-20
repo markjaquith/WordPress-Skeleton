@@ -127,3 +127,6 @@
 [submodule "content/plugins/brute-force-login-protection"]
 	path = content/plugins/brute-force-login-protection
 	url = https://github.com/wp-plugins/brute-force-login-protection.git
+[submodule "content/skins/erudite"]
+	path = content/skins/erudite
+	url = https://git.wikimedia.org/git/mediawiki/skins/erudite.git
