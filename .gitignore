@@ -4,3 +4,6 @@
 /db-sync
 /content/upgrade/
 .DS_Store
+/wp-stack
+.htaccess
+
