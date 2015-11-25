@@ -9,3 +9,11 @@
   Tags: your tags (optional)
   Text Domain: elitepress-child
  */
+.site-logo {
+    margin: 44px auto;
+}
+
+.site-logo img {
+	float: left;
+}
+
