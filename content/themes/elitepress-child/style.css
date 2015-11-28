@@ -1,0 +1,19 @@
+/*
+  Theme Name: Elitepress Child
+  Theme URI: http://example.com/elitepress-child
+  Co-authors: Alexis Mclaren and Emmanuel Unuigbe
+  Author URI: http://example.com/
+  Description:  Child theme based on Elitepress.
+  Template: elitepress
+  Version: 1.0
+  Tags: your tags (optional)
+  Text Domain: elitepress-child
+ */
+.site-logo {
+    margin: 44px auto;
+}
+
+.site-logo img {
+	float: left;
+}
+
