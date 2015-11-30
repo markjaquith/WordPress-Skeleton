@@ -17,3 +17,16 @@
 	float: left;
 }
 
+#header-btn-container {
+    margin-right: 50px;
+    margin-top: 41px;
+}
+
+#header-btn-container a:first-child {
+    margin-right: 18px;
+}
+
+#header-btn-container a{
+   border-radius: 4px !important; 
+}
+
