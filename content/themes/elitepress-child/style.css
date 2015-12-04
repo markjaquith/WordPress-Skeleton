@@ -18,15 +18,43 @@
 }
 
 #header-btn-container {
-    margin-right: 50px;
-    margin-top: 41px;
+	margin-right: 56px;
+	margin-top: 41px;
+	margin-bottom: 15px;
+	float: right;
+	text-align: center;
 }
 
 #header-btn-container a:first-child {
     margin-right: 18px;
+	min-width: 92px;
 }
 
 #header-btn-container a{
    border-radius: 4px !important; 
+}
+
+/*
+-----------------------------------------------------------
+            Bootstrap Media Query Overrides
+-----------------------------------------------------------
+
+*/
+/*==========  Small devices  ==========*/
+ 
+@media (min-width : 320px) and (max-width : 640px){
+#header-btn-container {
+	float: none;
+	display: block;
+	margin: 25px auto;	
+}
+
+#header-btn-container a:first-child {
+    margin-right: 0px;
+	margin-left: 10px;
+}
+#header-btn-container a {
+    margin-top: 10px;
+}
 }
 
