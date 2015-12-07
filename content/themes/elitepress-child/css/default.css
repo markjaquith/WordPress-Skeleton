@@ -93,8 +93,8 @@
 /* Header Section css---------------------------------------------------------------------------------------------------- */ 
 .header-section {
     background-color: #FFFFFF;
-    border-top: 7px solid #f36557;
-	border-bottom: 7px solid #f36557;
+    border-top: 7px solid black;
+	border-bottom: 7px solid black;
 }
 .head-topbar {
 	border-bottom: 1px dashed #A8B5C1;
