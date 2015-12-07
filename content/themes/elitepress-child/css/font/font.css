@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'Motley';
+    src: url('Motley.woff') format('woff'),
+         url('Motley.ttf') format('truetype'),
+         url('Motley.svg#Motley') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
