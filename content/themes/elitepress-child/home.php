@@ -6,9 +6,6 @@
 		
 		//****** get index static banner  ********
 		get_template_part('index', 'slider');
-		
-		//****** get index top call out section  ********
-		get_template_part('index', 'top-call-out-section');
 				
 		//****** get index service  ********				
 		get_template_part('index', 'service');
