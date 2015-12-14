@@ -21,14 +21,7 @@ body {
 	background-attachment: fixed;
 	/* background-size: cover;  */
 }
-#wrapper{	
-	margin: 25px auto;
-	background-color: #ffffff;
-    left: 0;
-    position: relative;
-    transition: all 300ms cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
-	box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
-}
+
 h1, .h1 {
   font-size: 36px;
   line-height: 40px;
