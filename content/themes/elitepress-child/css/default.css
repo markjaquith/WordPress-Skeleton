@@ -8,7 +8,7 @@
 .menu-section{
 	background: none repeat scroll 0 0 transparent;
     border-bottom: 0 none;
-    border-top: 1px dashed #A8B5C1;	
+    border-top: 1px solid #A8B5C1;	
 }
 .navbar {
 	border: 1px solid rgba(0, 0, 0, 0);
@@ -81,7 +81,7 @@
 	background-color: #ffffff;
 }
 .navbar-nav > li {
-    border-right: 1px dashed #A8B5C1;
+    border-right: 1px solid #A8B5C1;
 }
 /*Search Menu-------------------------------------------------------------------------*/
 #top-menu-search input {
@@ -97,7 +97,7 @@
 	border-bottom: 7px solid black;
 }
 .head-topbar {
-	border-bottom: 1px dashed #A8B5C1;
+	border-bottom: 1px solid #A8B5C1;
 }
 .head-contact-social li {
     background-color: #c5c5c5;
