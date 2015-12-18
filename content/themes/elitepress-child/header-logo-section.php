@@ -1,5 +1,5 @@
 <!-- Logo and buttons go here -->
-	<div class="container">
+	<div class="container-fluid">
 		<div class="row">
 	<?php $current_options = get_option('elitepress_lite_options',theme_data_setup()); 
 			
