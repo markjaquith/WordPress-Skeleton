@@ -1,0 +1,451 @@
+#tabs {
+    font-family:inherit;
+}
+
+.ui-widget-header, .ui-button
+{
+    font-size:0.8em;
+}
+
+.ui-tabs-panel
+{
+
+    font-size:inherit;
+}
+
+
+.form-table th label{
+
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.form-table td .description{
+    font-style: italic;
+    display: block;
+}
+
+tbody.events_planner_tbody td{
+    margin-bottom:0;
+    padding:2px;
+}
+
+
+
+div.meta_box_content{
+    padding:5px 10px; 
+    border:1px solid #ccc;
+    margin-top:10px;
+    background-color: #F1F1F1;
+}
+
+div.meta_box_content h1{
+    margin: 5px;
+    padding: 0;
+}
+div.meta_box_content h2.no_margin{
+    margin: 0;
+
+    padding: 0;
+}
+
+div.meta_box_content table{
+    /* border:0px solid #ccc*/
+}
+
+div.meta_box_content th{
+    font-weight:bold;
+}
+
+div.meta_box_content tr{
+    border-bottom: 1px solid  #e6e4e4;
+}
+
+tr.template{
+    display: none;
+}
+
+div.time-box{
+    margin:10px 0;
+    border:1px solid #cccccc;
+    padding: 3px;
+}
+
+.epl_form_editor_wrapper fieldset, .epl_list_wrapper {
+    float: left;
+
+    overflow: auto;
+    min-height: 500px;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+}
+
+.epl_list_wrapper {
+    background-color: #e8e8e8;
+    margin: 10px;
+    width:420px;
+    border:1px solid #ccc;
+    padding: 10px;
+
+
+
+}
+.epl_list_wrapper p.header{
+
+    border:1px solid #dddbdb;
+    padding: 3px;
+}
+.epl_form_data_table {
+
+    border-collapse: separate;
+    width: 100%;
+    margin-bottom: 10px;
+    border: 1px solid #d7d7d7;
+    -webkit-box-shadow: 3px 3px 5px 1px #ccc;
+    -moz-box-shadow: 3px 3px 5px 1px #ccc;
+    box-shadow: 3px 3px 5px 1px #ccc;
+
+}
+.epl_form_data_table .description{
+    font-style: italic;
+    font-size: 12px;
+    display: block;
+    padding: 3px 0;
+}
+.epl_form_data_table td label {
+
+
+    font-size: 12px;
+    width: 120px;
+}
+
+
+.epl_form_data_table tr {
+
+    background-color: #F4F4F4;
+
+}
+.epl_form_data_table tr:hover {
+
+    background-color:  #f8f8f8;
+}
+
+.epl_form_data_table th {
+    font-size: 10px;
+    padding: 5px;
+    text-align: left;
+
+}
+
+.epl_form_data_table td {
+    border-bottom: 1px solid #D7D7D7;
+    border-top: 1px solid #FFFFFF;
+    padding: 4px;
+    text-align: left;
+    line-height: normal;
+
+}
+.epl_form_data_table tfoot tr:last-child td {
+    border:none;
+
+}
+
+
+
+.epl_field_list_wrapper .handle, .list_of_fields_for_forms .handle{
+    display:none;
+}
+.epl_form_data_table td .data {
+    display: none;
+}
+.epl_form_data_table td span.question_attributes {
+    display: block;
+    font-size: 9px;
+}
+
+.epl_fieldset, .epl_fieldset legend{
+    border:1px solid #ccc;
+
+}
+
+.epl_fieldset {
+    margin-bottom: 20px;
+    padding:5px 10px;
+    min-width: 450px;
+    background-color: #e8e8e8;
+}
+.epl_fieldset legend {
+    font-size: 1em;
+
+    padding:2px 5px;
+    background-color: #e8e8e8;
+}
+
+.epl_fieldset  p{
+    padding: 10px;
+    text-align: right;
+}
+.epl_fieldset  tr.epl_field:hover{
+    background-color:  #ebe9e9;
+}
+
+.epl_border {
+    border:1px solid #ccc;
+}
+
+
+.form_question_list{
+    border: 1px solid #ccc;
+
+}
+
+.epl_field_choices{
+
+    display:  block;
+    /*width: 340px;*/
+
+}
+
+.epl_subform_table {
+    border: 1px solid #eeeded;
+    max-width: 330px;
+}
+
+.epl_subform_table th {
+    font-size: 9px;
+    padding:0;
+    margin:0;
+}
+
+.epl_subform_table td {
+    padding:2px;
+    margin:0;
+}
+
+
+
+a.epl_field_list{
+
+}
+
+.epl_field_list_inside_form {
+
+}
+.epl_field_list_inside_form tbody td{
+    padding: 4px;
+    line-height: normal;
+}
+
+#epl_dates_section {
+
+}
+
+
+.epl_button_wrapper {
+    text-align: right;
+    display: block;
+    margin: 10px;
+    padding: 20px;
+}
+
+
+
+
+.epl_box {
+
+    background-color: #F1F1F1;
+    margin-bottom: 10px;
+    border: 1px solid #CBC4C4;
+
+    -webkit-box-shadow: 3px 3px 5px 1px #ccc;
+    -moz-box-shadow: 3px 3px 5px 1px #ccc;
+    box-shadow: 3px 3px 5px 1px #ccc;
+}
+
+.epl_box .epl_box_content {
+
+    line-height: 15px;
+    padding: 5px;
+    text-shadow: 1px 1px 1px #FFFFFF;
+    border: 1px solid #FFFFFF;
+    color: #222;
+}
+
+.epl_info {
+
+    border-color: #ccc;
+    background-color:#F6FFEA;
+}
+
+.epl_warning {
+    background-color: #f7f4c6;
+    font-size: 13px;
+    font-weight: bold;
+
+}
+.epl_error {
+    background-color: #FFCEBE;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+
+.epl_event_type li{
+    border-radius: 0;
+    border-bottom: 1px solid #ccc;
+    margin: 2px;
+    padding: 4px;
+    text-shadow: 2px 2px 1px #FFFFFF;
+    font-size: 1.1em;
+}
+
+.epl_event_type li:last-child{
+    border: none;
+}
+.epl_event_type li span{
+    font-weight: bold;
+}
+
+
+.epl_border_radius_3{
+    -webkit-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+
+.epl_border_radius_5{
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+
+
+.meta_box_content .overview_value{
+
+    font-size: 15px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+table.epl_regis_list_payment_info {
+    margin: 0;
+    min-width: 100%;
+
+}
+table.epl_regis_list_payment_info td {
+    font-weight: bold;
+    padding: 1px;
+    border: none;
+    vertical-align: middle;
+        color: #222;
+}
+
+table.epl_regis_list_payment_info td img{
+    cursor: pointer;
+}
+
+table.epl_regis_list_payment_info td .small{
+    font-size: 10px;
+}
+table.epl_regis_list_payment_info td .amount{
+    font-size: 12px;
+    color: #000;
+    padding: 5px;
+}
+
+td.epl_regis_field_label_wrapper {
+    width: 200px;
+    padding: 7px;
+}
+
+.epl_event_dates {
+    font-size: 16px;
+
+}
+
+.epl_times_wrapper {
+    font-size: 16px;
+    padding: 5px;
+}
+table.epl_prices_table{
+    margin: 10px;
+    border: 1px solid #ccc;
+}
+
+table.epl_prices_table th,
+table.epl_prices_table td{
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+}
+table.epl_prices_table tr:last-child td{
+    border-bottom: none;
+}
+table.epl_status_paid{
+    background-color:  #ebffbf;
+}
+table.epl_status_pending{
+    background-color:   #fff0b3;
+}
+table.epl_status_cancelled{
+    background-color: #ff8f8f;
+}
+
+span.num_attendees {
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+span.event_name {
+    margin-left: 10px;
+}
+
+/*
+jQuery UI reset
+*/
+
+
+.ui-widget-content a.epl_button{
+    color: #fff;
+}
+
+#epl_tabs {
+    font-family: inherit;
+    background:none;
+    border: none;
+    padding: 0;
+}
+
+#epl_tabs .ui-tabs{
+    padding: 0;
+}
+#epl_tabs .ui-widget-header {
+    background: none;
+    border-width: 0 0 1px 0;
+    border-color: #ccc;
+    color: #222222;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+#epl_tabs .ui-corner-all
+{
+    border-radius: 0;
+}
+#epl_tabs .ui-tabs-panel
+{
+    padding: 0.5em 0.5em;
+    border-width: 0 1px 1px 1px;
+    border-color: #ccc;
+    min-height: 300px;
+    overflow: hidden;
+}
+
+#epl_tabs select, #epl_tabs input, #epl_tabs textarea {
+    font-family: inherit;
+
+}
+
