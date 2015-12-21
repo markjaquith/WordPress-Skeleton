@@ -65,11 +65,11 @@ global $event_list;
 
                     <div class="event_description clearfix">
 
-                <?php the_content(); //the content from the event editor?>
+						<?php the_content(); //the content from the event editor?>
 
-            </div>
+					</div>
 
-        </div>
+			</div>
 
 
         <div class="col_right">
@@ -78,10 +78,9 @@ global $event_list;
                 //location id is stored in $event_details['_epl_event_location']
             ?>
             <div class ="event_location">
-                <span class="heading">Location</span>
+                <h3>Location</h3>
                 <a href="<?php echo get_permalink( $event_details['_epl_event_location'] ); ?>" title="<?php echo get_the_location_name(); ?>">
-                    <?php echo get_the_location_name(); ?>
-                </a><br />
+                    <?php echo get_the_location_name(); ?></a><br />
 
                 <?php echo get_the_location_address(); ?><br />
                 <?php echo get_the_location_city(); ?>, <?php echo get_the_location_state(); ?> <?php echo get_the_location_zip(); ?>
@@ -92,15 +91,16 @@ global $event_list;
             <?php
                 //organization id is stored in $event_details['_epl_event_organization']
             ?>
-                <div class ="event_organization">
+            <?php if($event_details['_epl_event_organization']){?>
+			<div class ="event_organization">
                     <span class="heading">Hosted By</span>
                     <a href="<?php echo get_permalink( $event_details['_epl_event_organization'] ); ?>" title="<?php echo get_the_organization_name(); ?>"><?php echo get_the_organization_name(); ?></a><br />
                 <?php echo get_the_organization_address(); ?><br />
                 <?php echo get_the_organization_city(); ?>,  <?php echo get_the_organization_state(); ?> <?php echo get_the_organization_zip(); ?><br />
                 <?php echo get_the_organization_phone(); ?><br />
                 <?php echo epl_anchor( get_the_organization_website(), 'Visit Website' ); ?><br />
-            </div>
-
+			</div>
+			<?php } ?>
         </div>
 
         <div class ="register_button_wrapper" >
