@@ -50,64 +50,65 @@ global $event_list;
           */
     ?>
 
-            <div class="event_wrapper clearfix">
-
-
-                <div class="col_left">
-
-                    <div class="event_title clearfix">
-
-                        <a href ="<?php echo get_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a>
-
-
-                    </div>
-
-
-                    <div class="event_description clearfix">
-
+        <div class="event_wrapper clearfix">
+			<div class="row">
+				<div class="col-md-12">
+					<h3><a href ="<?php echo get_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a></h3>
+				</div>
+			</div>
+			<div class="row">
+					
+					<div class="col-md-8">
+						
+						<a href ="<?php echo get_permalink(); ?>" class="thumbnail"><?php the_post_thumbnail("large"); ?></a>
+						
 						<?php the_content(); //the content from the event editor?>
+							
+						
 
 					</div>
 
-			</div>
 
+					<div class="col-md-4">
 
-        <div class="col_right">
+						<?php
+							//location id is stored in $event_details['_epl_event_location']
+						?>
+						<?php if($event_details['_epl_event_location']){ ?>
+						<div class ="event_location">
+							<p>Location:</p>
+							<a href="<?php echo get_permalink( $event_details['_epl_event_location'] ); ?>" title="<?php echo get_the_location_name(); ?>">
+								<?php echo get_the_location_name(); ?></a><br />
 
-            <?php
-                //location id is stored in $event_details['_epl_event_location']
-            ?>
-            <div class ="event_location">
-                <h3>Location</h3>
-                <a href="<?php echo get_permalink( $event_details['_epl_event_location'] ); ?>" title="<?php echo get_the_location_name(); ?>">
-                    <?php echo get_the_location_name(); ?></a><br />
+							<?php echo get_the_location_address(); ?><br />
+							<?php echo get_the_location_city(); ?>, <?php echo get_the_location_state(); ?> <?php echo get_the_location_zip(); ?>
+							<?php echo get_the_location_phone(); ?><br />
+						</div>
+						<?php } ?>	
 
-                <?php echo get_the_location_address(); ?><br />
-                <?php echo get_the_location_city(); ?>, <?php echo get_the_location_state(); ?> <?php echo get_the_location_zip(); ?>
-                <?php echo get_the_location_phone(); ?><br />
-            </div>
-
-
-            <?php
-                //organization id is stored in $event_details['_epl_event_organization']
-            ?>
-            <?php if($event_details['_epl_event_organization']){?>
-			<div class ="event_organization">
-                    <span class="heading">Hosted By</span>
-                    <a href="<?php echo get_permalink( $event_details['_epl_event_organization'] ); ?>" title="<?php echo get_the_organization_name(); ?>"><?php echo get_the_organization_name(); ?></a><br />
-                <?php echo get_the_organization_address(); ?><br />
-                <?php echo get_the_organization_city(); ?>,  <?php echo get_the_organization_state(); ?> <?php echo get_the_organization_zip(); ?><br />
-                <?php echo get_the_organization_phone(); ?><br />
-                <?php echo epl_anchor( get_the_organization_website(), 'Visit Website' ); ?><br />
-			</div>
-			<?php } ?>
-        </div>
-
-        <div class ="register_button_wrapper" >
-
-            <?php echo get_the_register_button(); ?>
-        </div>
-        </div>
+					<?php
+						//organization id is stored in $event_details['_epl_event_organization']
+					?>
+					<?php if($event_details['_epl_event_organization']){?>
+						<div class ="event_organization">
+								<span class="heading">Hosted By</span>
+								<a href="<?php echo get_permalink( $event_details['_epl_event_organization'] ); ?>" title="<?php echo get_the_organization_name(); ?>"><?php echo get_the_organization_name(); ?></a><br />
+							<?php echo get_the_organization_address(); ?><br />
+							<?php echo get_the_organization_city(); ?>,  <?php echo get_the_organization_state(); ?> <?php echo get_the_organization_zip(); ?><br />
+							<?php echo get_the_organization_phone(); ?><br />
+							<?php echo epl_anchor( get_the_organization_website(), 'Visit Website' ); ?><br />
+						</div>
+					<?php } ?>
+					<div class="row">
+					  <div class="col-md-12">	
+						<div class ="register_button_wrapper" >
+							<?php echo get_the_register_button(); ?>
+						</div>
+					  </div>	
+					</div>	
+					</div>
+			</div>	
+		</div>
     <?php
           /*
           * #########  END CUSTOMIZABLE SECTION ##########

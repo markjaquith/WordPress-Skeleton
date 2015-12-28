@@ -10,11 +10,10 @@ get_template_part('index', 'banner');
 			<!--Blog Area-->
 			<div class="<?php elitepress_post_layout_class(); ?>" >
 			<?php get_template_part('content',''); ?>
-			<?php comments_template('',true); ?>
+			
 			</div>
 			<!--/Blog Area-->
-			<?php get_sidebar(); ?>
-		</div>
+			</div>
 		
 		
 	</div>
