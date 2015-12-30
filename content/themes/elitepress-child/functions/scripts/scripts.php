@@ -16,7 +16,7 @@ if (!functions_exists('elitepress_scripts')) {
 		wp_enqueue_script('bootstrap', WEBRITI_TEMPLATE_DIR_URI .'/js/bootstrap.min.js');
 		wp_enqueue_style('elitepress-flexslider', WEBRITI_TEMPLATE_DIR_URI . '/css/flexslider/flexslider.css');
 		wp_enqueue_script('elitepress-jquery-flexslider', WEBRITI_TEMPLATE_DIR_URI .'/js/flexslider/jquery.flexslider.js');	
-		wp_enqueue_script('jquery-flex-element', WEBRITI_TEMPLATE_DIR_URI .'/js/flexslider/flexslider-element.js');	
+		wp_enqueue_script('jquery-flex-element', WEBRITI_TEMPLATE_DIR_URI .'/js/flexslider/flexslider-element.js');		
 		wp_enqueue_script( 'jquery' );
 	}
 }	
