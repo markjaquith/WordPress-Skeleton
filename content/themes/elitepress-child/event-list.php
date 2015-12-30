@@ -50,7 +50,7 @@ global $event_list;
           */
     ?>
 
-        <div class="event_wrapper clearfix">
+        <div class="clearfix">
 			<div class="row">
 				<div class="col-md-12">
 					<h3><a href ="<?php echo get_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a></h3>
@@ -58,18 +58,16 @@ global $event_list;
 			</div>
 			<div class="row">
 					
-					<div class="col-md-8">
+					<div class="col-md-9">
 						
 						<a href ="<?php echo get_permalink(); ?>" class="thumbnail"><?php the_post_thumbnail("large"); ?></a>
 						
-						<?php the_content(); //the content from the event editor?>
+						<?php the_excerpt(); //the content from the event editor?>
 							
-						
-
 					</div>
 
 
-					<div class="col-md-4">
+					<!--<div class="col-md-4">
 
 						<?php
 							//location id is stored in $event_details['_epl_event_location']
@@ -101,13 +99,19 @@ global $event_list;
 					<?php } ?>
 					<div class="row">
 					  <div class="col-md-12">	
-						<div class ="register_button_wrapper" >
-							<?php echo get_the_register_button(); ?>
-						</div>
+						
 					  </div>	
 					</div>	
 					</div>
-			</div>	
+			</div>-->	
+		</div>
+		<div class="row">
+			<div class="col-md-12">
+				<div class="register_button_wrapper">	
+					<a href="<?php echo get_permalink(); ?>" class="btn btn-default">Read More</a>
+					<?php echo get_the_register_button(); ?>
+				</div>
+			</div>
 		</div>
     <?php
           /*

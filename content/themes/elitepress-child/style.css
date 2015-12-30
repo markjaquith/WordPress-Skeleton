@@ -45,6 +45,10 @@
 .event_wrapper .register_button_wrapper a {
     margin: 20px !important; 
 }
+
+.register_button_wrapper a.btn {
+	border-radius: 1px !important;
+}
 /*
 -----------------------------------------------------------
             Bootstrap Media Query Overrides
