@@ -1,0 +1,52 @@
+/* jQuery.Rating Plugin CSS - http://www.fyneworks.com/jquery/star-rating/ */
+.rating-cancel,
+.ninja-forms-star-rating {
+	float: left;
+	text-indent: -999em;
+}
+.rating-cancel,
+.rating-cancel a {
+	background: url(../images/delete.gif) no-repeat 0 -16px
+}
+.ninja-forms-star-rating a {
+	background: url(../images/star.gif) no-repeat 0 0px
+}
+.rating-cancel a,
+.ninja-forms-star-rating a {
+	background-position: 0 0px;
+	border: 0;
+	cursor: pointer;
+	display: block;
+	margin-right: 2px;
+	width: 17px;
+	height: 15px;
+	overflow: hidden
+}
+.ninja-forms-star-rating-on a {
+	background-position: 0 -16px;
+}
+.ninja-forms-star-rating-hover a {
+	background-position: 0 -32px
+}
+.rating-cancel a:hover {
+	background-position: 0 -32px
+}
+/* Read Only CSS */
+.ninja-forms-star-rating-readonly a {
+	cursor: default !important;
+}
+/* Partial Star CSS */
+.ninja-forms-star-rating {
+	background: transparent !important;
+	overflow: hidden!important
+}
+/* END jQuery.Rating Plugin CSS */
+
+.ninja-forms-star-rating-control {
+  display: inline-block;
+}
+.ninja-forms-star-rating-control:after {
+  clear: both;
+  content: "";
+  display: block;
+}

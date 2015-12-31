@@ -1,0 +1,323 @@
+.ninja-forms-form-wrap *,
+.ninja-forms-form-wrap *:after,
+.ninja-forms-form-wrap *:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+a.tooltip {outline:none; text-decoration: none; }
+a.tooltip strong {line-height:30px;}
+a.tooltip:hover {text-decoration:none;}
+a.tooltip span {
+    z-index:10;display:none; padding:14px 20px;
+    margin-top:-10px; margin-left:28px;
+    width:240px; line-height:16px;
+    z-index: 1;
+    position: relative;
+}
+a.tooltip span:before {
+    border-top: 10px solid transparent;
+    border-right: 15px solid #ccc;
+    border-bottom: 10px solid transparent;
+    content: "";
+    position: absolute;
+    left: -15px;
+
+}
+a.tooltip:hover span{
+    display:inline; position:absolute; color:#333;
+    border:1px solid #ccc; background:#f1f1f1;}
+
+/*CSS3 extras*/
+a.tooltip span
+{
+    border-radius:4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+
+    -moz-box-shadow: 5px 5px 8px #CCC;
+    -webkit-box-shadow: 5px 5px 8px #CCC;
+    box-shadow: 5px 5px 8px #CCC;
+}
+#ui-datepicker-div {
+    background: #f1f1f1;
+    border-radius: 3px;
+}
+#ui-datepicker-div a {
+    text-decoration: none;
+    cursor: pointer;
+}
+#ui-datepicker-div .ui-datepicker-header,
+#ui-datepicker-div .ui-datepicker-calendar th,
+#ui-datepicker-div .ui-datepicker-calendar td {
+    padding: 5px;
+    text-align: center;
+}
+
+#ui-datepicker-div .ui-icon {
+    text-indent: 0px;
+}
+.ui-datepicker-prev {
+    float: left;
+}
+.ui-datepicker-next {
+    float: right;
+}
+.ninja-forms-no-display {
+    display: none;
+}
+.ninja-forms-form .wp-switch-editor {
+    height: auto;
+}
+.ninja-forms-form .mceIframeContainer {
+    background: #fff;
+}
+.ninja-forms-req-symbol {
+    color: #ff0000;
+}
+.ninja-forms-form .label-above label,
+.ninja-forms-form .label-below label {
+    display: block;
+}
+
+.field-wrap,
+#ninja_forms_required_items {
+    margin-bottom: 20px;
+}
+
+#pass-strength-result {
+    background-color: #eee;
+    border-color: #ddd !important;
+    border-style: solid;
+    border-width: 1px;
+    margin: 13px 5px 5px 1px;
+    padding: 3px 5px;
+    text-align: center;
+    width: 200px;
+}
+
+#pass-strength-result.bad {
+    background-color: #ffb78c;
+    border-color: #ff853c !important;
+}
+
+#pass-strength-result.good {
+    background-color: #ffec8b;
+    border-color: #fc0 !important;
+}
+
+#pass-strength-result.short {
+    background-color: #ffa0a0;
+    border-color: #f04040 !important;
+}
+
+#pass-strength-result.strong {
+    background-color: #c3ff88;
+    border-color: #8dff1c !important;
+}
+.ninja-forms-cont {
+    position: relative;
+}
+.ninja-forms-cont:after {
+    clear: both;
+    content: "";
+    display: block;
+}
+
+.ninja-forms-field-error {
+    color: red;
+}
+
+.ninja-forms-form-wrap input,
+.ninja-forms-form-wrap select ,
+.ninja-forms-form-wrap textarea {
+    width: auto;
+    height: auto;
+    vertical-align: inherit;
+}
+
+.ninja-forms-form-wrap label {
+    font-weight: bold;
+}
+.ninja-forms-form-wrap .list-checkbox-wrap ul label,
+.ninja-forms-form-wrap .list-radio-wrap ul label {
+    font-weight: normal;
+}
+
+.field-wrap:after {
+    clear: both;
+    content: "";
+    display: block;
+}
+
+.field-wrap.label-left .ninja-forms-field,
+.field-wrap.label-left .ninja-forms-star-rating-control {
+    margin-left: 8px;
+}
+.field-wrap.label-right .ninja-forms-field,
+.field-wrap.label-right .ninja-forms-star-rating-control {
+    margin-right: 8px;
+}
+.field-wrap.label-right label,
+.field-wrap.label-left label  {
+    display: inline;
+}
+
+.label-above label {
+    margin-bottom: 5px;
+}
+
+.MultiFile-wrap {
+    display: inline-block;
+}
+
+/* ---------------------------------
+TEXT FIELDS & TEXTAREAS
+----------------------------------*/
+
+.text-wrap.label-left input,
+.profile_pass-wrap.label-left input,
+.textarea-wrap.label-left textarea {
+    margin-left: 10px;
+}
+.text-wrap.label-right input,
+.profile_pass-wrap.label-right input,
+.textarea-wrap.label-right textarea {
+    margin-right: 10px;
+}
+
+.text-wrap.label-above label,
+.textarea-wrap.label-above label {
+    display: block;
+    width: 100%;
+}
+
+.profile_pass-wrap input,
+.text-wrap.label-above input,
+.text-wrap.label-below input,
+.text-wrap.label-inside input,
+.textarea-wrap.label-above textarea,
+.textarea-wrap.label-below textarea,
+.textarea-wrap.label-inside textarea,
+.list-dropdown-wrap.label-above select,
+.list-dropdown-wrap.label-below select {
+    width: 100%;
+}
+
+.textarea-wrap textarea {
+    height: 200px;
+}
+
+.profile_pass-wrap input {
+    margin-bottom: 10px;
+}
+
+/* ---------------------------------
+RADIO & CHECKBOX LISTS
+----------------------------------*/
+
+.list-radio-wrap span ul li input,
+.list-checkbox-wrap span ul li input {
+    margin-right: 5px;
+}
+
+.list-radio-wrap ul,
+.list-checkbox-wrap ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.list-radio-wrap ul li,
+.list-checkbox-wrap ul li {
+    list-style: none;
+}
+
+.list-radio-wrap ul li,
+.list-checkbox-wrap ul li {
+    margin: 0;
+    padding: 0;
+}
+
+.list-radio-wrap.label-left label,
+.list-radio-wrap.label-left ul,
+.list-radio-wrap.label-left ul li,
+.list-radio-wrap.label-right label,
+.list-radio-wrap.label-right ul,
+.list-radio-wrap.label-right ul li,
+.list-checkbox-wrap.label-left label,
+.list-checkbox-wrap.label-left ul,
+.list-checkbox-wrap.label-left ul li,
+.list-checkbox-wrap.label-right label,
+.list-checkbox-wrap.label-right ul,
+.list-checkbox-wrap.label-right ul li {
+    float: left;
+}
+.rtl .list-radio-wrap.label-left label,
+.rtl .list-radio-wrap.label-left ul,
+.rtl .list-radio-wrap.label-left ul li,
+.rtl .list-radio-wrap.label-right label,
+.rtl .list-radio-wrap.label-right ul,
+.rtl .list-radio-wrap.label-right ul li,
+.rtl .list-checkbox-wrap.label-left label,
+.rtl .list-checkbox-wrap.label-left ul,
+.rtl .list-checkbox-wrap.label-left ul li,
+.rtl .list-checkbox-wrap.label-right label,
+.rtl .list-checkbox-wrap.label-right ul,
+.rtl .list-checkbox-wrap.label-right ul li {
+    float: right;
+}
+.list-radio-wrap.label-left ul li,
+.list-radio-wrap.label-right ul li,
+.list-checkbox-wrap.label-left ul li,
+.list-checkbox-wrap.label-right ul li {
+    padding: 0 8px;
+}
+
+.list-radio-wrap.label-above ul li,
+.list-radio-wrap.label-below ul li,
+.list-checkbox-wrap.label-above ul li,
+.list-checkbox-wrap.label-below ul li {
+    padding: 0 0 0 10px;
+}
+
+/* ---------------------------------
+MULTI FIELD
+----------------------------------*/
+
+.list-multi-wrap.label-left label {
+    float:left;
+}
+.list-multi-wrap.label-right select {
+    float:left;
+}
+
+/* ---------------------------------
+CREDIT CARD BLOCK
+----------------------------------*/
+
+.credit_card-wrap div label,
+.credit_card-wrap div input {
+    display: block;
+    width: 100%;
+}
+.credit_card-wrap div {
+    margin-bottom: 10px;
+}
+.credit_card-wrap div span {
+    font-size: 0.8em;
+}
+
+/* ---------------------------------
+HONEYPOT
+----------------------------------*/
+
+.hp-wrap {
+    display: none;
+}
+
+.honeypot-wrap {
+    display: none;
+}
