@@ -1,0 +1,37 @@
+.nf_upgrade .menu-item-handle {
+    cursor: default;
+}
+.nf_upgrade .menu-item-handle,
+.menu-item-settings.menu-item-settings--nf-upgrade {
+    width: 750px;
+    min-width: 50%;
+    max-width: 95%;
+}
+.menu-item-settings.menu-item-settings--nf-upgrade {
+    background-color: #FEFEFE;
+}
+.ui-progressbar {
+    position: relative;
+    width: 100%;
+    height: 20px;
+    background-color: #DDD;
+    margin-left: -7px;
+    border: 2px solid #CCC;
+    border-radius: 3px;
+}
+.progress-label {
+    font-size: .8em;
+    line-height: 12px;
+    position: absolute;
+    left: 40%;
+    top: 4px;
+}
+.ui-progressbar-value {
+    height: 20px;
+    background-color: #CCC;
+    -webkit-transition: width 1s linear;
+    -moz-transition: width 1s linear;
+    -ms-transition: width 1s linear;
+    -o-transition: width 1s linear;
+    transition: width 1s linear;
+}

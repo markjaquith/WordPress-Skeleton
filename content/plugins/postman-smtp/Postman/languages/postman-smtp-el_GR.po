@@ -1,0 +1,1738 @@
+# Copyright (C) 2015 Postman SMTP
+# This file is distributed under the same license as the Postman SMTP package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Postman SMTP 1.6.23\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/postman-smtp\n"
+"POT-Creation-Date: 2015-11-08 17:21-0500\n"
+"PO-Revision-Date: 2015-11-09 01:47-0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: el_GR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: Postman/Postman-Configuration/PostmanConfigurationController.php:94
+#: Postman/Postman-Configuration/PostmanConfigurationController.php:348
+#: Postman/Postman-Configuration/PostmanRegisterConfigurationSettings.php:357
+#: Postman/Postman-Connectivity-Test/PostmanConnectivityTestController.php:99
+#: Postman/Postman-Connectivity-Test/PostmanConnectivityTestController.php:116
+#: Postman/Postman-Email-Log/PostmanEmailLogService.php:75
+#: Postman/Postman-Mail/PostmanSmtpModuleTransport.php:545
+#: Postman/PostmanViewController.php:227
+msgid "Warning"
+msgstr "Προειδοποίηση"
+
+#. translators: where %s is the name of the SMTP server
+#: Postman/Postman-Configuration/PostmanConfigurationController.php:96
+#: Postman/Postman-Connectivity-Test/PostmanConnectivityTestController.php:116
+msgid "connected to %1$s instead of %2$s."
+msgstr "συνδέθηκε στον %1$s αντί για τον %2$s."
+
+#. translators: where %d is a port number
+#: Postman/Postman-Configuration/PostmanConfigurationController.php:98
+msgid "You are about to configure OAuth 2.0 with an IP address instead of a domain name. This is not permitted. Either assign a real domain name to your site or add a fake one in your local host file."
+msgstr "Πρόκειται να διαμορφώσετε την OAuth 2.0 με διεύθυνση IP αντί για όνομα τομέα. Αυτό δεν επιτρέπεται. Είτε δώστε ένα πραγματικό όνομα τομέα στον ιστότοπό σας ή προσθέστε ένα ψεύτικο στο τοπικό σας αρχείο host."
+
+#: Postman/Postman-Configuration/PostmanConfigurationController.php:132
+#: Postman/Postman-Configuration/PostmanConfigurationController.php:157
+#: Postman/Postman-Connectivity-Test/PostmanConnectivityTestController.php:83
+#: Postman/Postman-Diagnostic-Test/PostmanDiagnosticTestController.php:81
+#: Postman/Postman-Send-Test-Email/PostmanSendTestEmailController.php:95
+#: Postman/PostmanViewController.php:53 Postman/PostmanViewController.php:76
+#: Postman/PostmanViewController.php:184 Postman/PostmanViewController.php:256
+msgid "%s Setup"
+msgstr "Ρύθμιση του %s"
+
+#. Plugin Name of the plugin/theme
+#: Postman/Postman-Configuration/PostmanConfigurationController.php:132
+#: Postman/Postman-Configuration/PostmanConfigurationController.php:157
+#: Postman/Postman-Connectivity-Test/PostmanConnectivityTestController.php:83
+#: Postman/Postman-Controller/PostmanDashboardWidgetController.php:57
+#: Postman/Postman-Controller/PostmanDashboardWidgetController.php:70
+#: Postman/Postman-Diagnostic-Test/PostmanDiagnosticTestController.php:81
+#: Postman/Postman-Email-Log/PostmanEmailLogController.php:284
+#: Postman/Postman-Email-Log/PostmanEmailLogController.php:333
+#: Postman/Postman-Mail/PostmanMyMailConnector.php:176
+#: Postman/Postman-Send-Test-Email/PostmanSendTestEmailController.php:95
+#: Postman/Postman.php:61 Postman/PostmanViewController.php:53
+#: Postman/PostmanViewController.php:54 Postman/PostmanViewController.php:76
+#: Postman/PostmanViewController.php:184 Postman/PostmanViewController.php:256
+msgid "Postman SMTP"
+msgstr "Postman SMTP"
+
+#: Postman/Postman-Configuration/PostmanConfigurationController.php:196
+#: Postman/Postman-Controller/PostmanDashboardWidgetController.php:81
+#: Postman/Postman-Mail/PostmanMyMailConnector.php:200
+#: Postman/Postman-Mail/PostmanMyMailConnector.php:217 Postman/Postman.php:316
+#: Postman/PostmanAdminController.php:225
+msgid "Settings"
+msgstr "Παράμετροι"
+
+#: Postman/Postman-Configuration/PostmanConfigurationController.php:198
+msgid "Account"
+msgstr "Λογαριασμός"
+
+#: Postman/Postman-Configuration/PostmanConfigurationController.php:199
+msgid "Message"
+msgstr "Μήνυμα"
+
+#: Postman/Postman-Configuration/PostmanConfigurationController.php:200
+msgid "Logging"
+msgstr "Σύνδεση"
+
+#: Postman/Postman-Configuration/PostmanConfigurationController.php:201
+msgid "Advanced"
+msgstr "Για Προχωρημένους"
+
+#: Postman/Postman-Configuration/PostmanConfigurationController.php:263
+msgid "Setup Wizard"
+msgstr "Οδηγός Ρύθμισης"
+
+#: Postman/Postman-Configuration/PostmanConfigurationController.php:296
+msgctxt "Wizard Step Title"
+msgid "Import Configuration"
+msgstr "Εισαγωγή Διαμόρφωσης"
+
+#: Postman/Postman-Configuration/PostmanConfigurationController.php:298
+msgctxt "Wizard Step Title"
+msgid "Import configuration from another plugin?"
+msgstr "Εισαγωγή ρυθμίσεων από άλλο πρόσθετο;"
+
+#: Postman/Postman-Configuration/PostmanConfigurationController.php:299
+msgid "If you had a working configuration with another Plugin, the Setup Wizard can begin with those settings."
+msgstr "Αν είχατε λειτουργικές ρυθμίσεις με άλλο πρόσθετο, ο Οδηγός Διαμόρφωσης μπορεί να ξεκινήσει με αυτές τις ρυθμίσεις."
+
+#: Postman/Postman-Configuration/PostmanConfigurationController.php:301
+#: Postman/Postman-Mail/PostmanModuleTransport.php:720
+#: Postman/Postman-Mail/PostmanSmtpModuleTransport.php:425
+msgid "None"
+msgstr "Καμμία"
+
+#: Postman/Postman-Configuration/PostmanConfigurationController.php:312
+msgctxt "Wizard Step Title"
+msgid "Sender Details"
+msgstr "Στοιχεία Αποστολέα"
+
+#: Postman/Postman-Configuration/PostmanConfigurationController.php:314
+msgctxt "Wizard Step Title"
+msgid "Who is the mail coming from?"
+msgstr "Από ποιον προέρχεται το e-mail;"
+
+#: Postman/Postman-Configuration/PostmanConfigurationController.php:315
+msgid "Enter the email address and name you'd like to send mail as."
+msgstr "Εισάγετε τη διεύθυνση e-mail και το όνομα με τα οποία θα θέλατε να στέλνετε αλληλογραφία."
+
+#: Postman/Postman-Configuration/PostmanConfigurationController.php:316
+msgid "Please note that to prevent abuse, many email services will <em>not</em> let you send from an email address other than the one you authenticate with."
+msgstr "Παρακαλούμε σημειώστε ότι για να αποφύγουν την κατάχρηση, πολλές υπηρεσίες e-mail  <em>δεν</em> θα σας αφήσουν να αποστείλετε από διεύθυνση διαφορετική από αυτή με την οποία πιστοποιήστε (συνδέεστε)."
+
+#: Postman/Postman-Configuration/PostmanConfigurationController.php:317
+#: Postman/Postman-Configuration/PostmanRegisterConfigurationSettings.php:49
+#: Postman/Postman-Configuration/PostmanRegisterConfigurationSettings.php:112
+msgid "Email Address"
+msgstr "Διεύθυνση e-mail"
+
+#: Postman/Postman-Configuration/PostmanConfigurationController.php:320
+#: Postman/Postman-Configuration/PostmanRegisterConfigurationSettings.php:59
+msgid "Name"
+msgstr "Όνομα"
+
+#: Postman/Postman-Configuration/PostmanConfigurationController.php:325
+#: Postman/Postman-Connectivity-Test/PostmanConnectivityTestController.php:143
+#: Postman/Postman-Mail/PostmanSmtpModuleTransport.php:331
+#: Postman/Postman-Mail/PostmanSmtpModuleTransport.php:542
+msgid "Outgoing Mail Server Hostname"
+msgstr "Όνομα Διακομιστή Εξερχόμενης Αλληλογραφίας"
+
+#: Postman/Postman-Configuration/PostmanConfigurationController.php:333
+#: Postman/Postman-Configuration/PostmanConfigurationController.php:337
+#: Postman/Postman-Connectivity-Test/PostmanConnectivityTestController.php:138
+#: Postman/PostmanViewController.php:294
+msgid "Connectivity Test"
+msgstr "Τεστ Συνδεσιμότητας"
+
+#: Postman/Postman-Configuration/PostmanConfigurationController.php:335
+msgid "How will the connection to the mail server be established?"
+msgstr "Πως θα γίνει η σύνδεση με τον MSA;"
+
+#: Postman/Postman-Configuration/PostmanConfigurationController.php:336
+msgid "Your connection settings depend on what your email service provider offers, and what your WordPress host allows."
+msgstr "Οι ρυθμίσεις της σύνδεσής σας εξαρτώνται από το τι προσφέρει ο πάροχος υπηρεσιών αλληλογραφίας και τι επιτρέπει ο πάροχος του WordPress σας."
+
+#: Postman/Postman-Configuration/PostmanConfigurationController.php:337
+msgctxt "TCP Port Test Status"
+msgid "Ready"
+msgstr "Έτοιμο"
+
+#. Translators: Where %1$s is the socket identifier and %2$s is the
+#. authentication type
+#: Postman/Postman-Configuration/PostmanConfigurationController.php:345
+#: Postman/Postman-Connectivity-Test/PostmanConnectivityTestController.php:148
+msgctxt "A socket is the network term for host and port together"
+msgid "Socket"
+msgstr "Socket"
+
+#: Postman/Postman-Configuration/PostmanConfigurationController.php:346
+#: Postman/Postman-Configuration/PostmanConfigurationController.php:354
+#: Postman/Postman-Connectivity-Test/PostmanConnectivityTestController.php:148
+#: Postman/Postman-Mail/PostmanMandrillTransport.php:223
+#: Postman/Postman-Mail/PostmanSendGridTransport.php:177
+#: Postman/Postman-Mail/PostmanSmtpModuleTransport.php:351
+#: Postman/Postman-Mail/PostmanSmtpModuleTransport.php:356
+#: Postman/Postman-Mail/PostmanSmtpModuleTransport.php:372
+msgid "Authentication"
+msgstr "Πιστοποίηση"
+
+#: Postman/Postman-Configuration/PostmanConfigurationController.php:349
+msgid "This configuration option will send your authorization credentials in the clear."
+msgstr "Αυτή η επιλογή θα στείλει τα στοιχεία σύνδεσής σας χωρίς κρυπτογράφηση."
+
+#: Postman/Postman-Configuration/PostmanConfigurationController.php:356
+msgid "How will you prove your identity to the mail server?"
+msgstr "Πως θα αποδείξετε την ταυτότητά σας στον MSA;"
+
+#: Postman/Postman-Configuration/PostmanConfigurationController.php:363
+msgctxt "The final step of the Wizard"
+msgid "Finish"
+msgstr "Τέλος"
+
+#: Postman/Postman-Configuration/PostmanConfigurationController.php:365
+msgctxt "Wizard Step Title"
+msgid "You're Done!"
+msgstr "Είστε Έτοιμοι!"
+
+#: Postman/Postman-Configuration/PostmanConfigurationController.php:367
+msgid "Click Finish to save these settings, then:"
+msgstr "Κάντε κλικ στο Τέλος για να αποθηκεύσετε αυτές τις ρυθμίσεις, μετά:"
+
+#: Postman/Postman-Configuration/PostmanConfigurationController.php:369
+msgid "Grant permission with the Email Provider for Postman to send email and"
+msgstr "Δώστε άδεια μέσω του παρόχου e-mail στο Postman να στέλνει μηνύματα και"
+
+#: Postman/Postman-Configuration/PostmanConfigurationController.php:370
+msgid "Send yourself a Test Email to make sure everything is working!"
+msgstr "Στείλτε ένα Δοκιμαστικό Μήνυμα στον εαυτό σας για να βεβαιωθείτε ότι όλα δουλεύουν!"
+
+#. translators: where %s is the URL to the Connectivity Test page
+#: Postman/Postman-Configuration/PostmanConfigurationController.php:514
+msgid "Postman can't find any way to send mail on your system. Run a <a href=\"%s\">connectivity test</a>."
+msgstr "Το Postman δεν μπορεί να εντοπίσει κάποιο τρόπο αποστολής ηλ. ταχυδρομείου στο σύστημά σας. Κάντε ένα <a href=\"%s\">τεστ συνδεσιμότητας</a>."
+
+#: Postman/Postman-Configuration/PostmanRegisterConfigurationSettings.php:33
+#: Postman/Postman-Connectivity-Test/PostmanConnectivityTestController.php:148
+msgid "Transport"
+msgstr "Μέθοδος αποστολής"
+
+#: Postman/Postman-Configuration/PostmanRegisterConfigurationSettings.php:38
+msgctxt "(i.e.) What kind is it?"
+msgid "Type"
+msgstr ""
+
+#: Postman/Postman-Configuration/PostmanRegisterConfigurationSettings.php:44
+msgctxt "The Message Sender Email Address"
+msgid "From Address"
+msgstr "Ηλ. Διεύθυνση Μηνύματος Από"
+
+#: Postman/Postman-Configuration/PostmanRegisterConfigurationSettings.php:70
+msgid "Additional Email Addresses"
+msgstr "Επιπλέον διευθύνσεις e-mail"
+
+#: Postman/Postman-Configuration/PostmanRegisterConfigurationSettings.php:75
+#: Postman/Postman-Email-Log/PostmanEmailLogController.php:220
+msgid "Reply-To"
+msgstr "Απάντηση σε"
+
+#: Postman/Postman-Configuration/PostmanRegisterConfigurationSettings.php:80
+msgid "To Recipient(s)"
+msgstr "Παραλήπτης(ες)"
+
+#: Postman/Postman-Configuration/PostmanRegisterConfigurationSettings.php:85
+msgid "Carbon Copy Recipient(s)"
+msgstr "Κοινοποίηση σε"
+
+#: Postman/Postman-Configuration/PostmanRegisterConfigurationSettings.php:90
+msgid "Blind Carbon Copy Recipient(s)"
+msgstr "Κρυφή Κοινοποίηση σε"
+
+#: Postman/Postman-Configuration/PostmanRegisterConfigurationSettings.php:96
+msgid "Additional Headers"
+msgstr "Επιπλέον Κεφαλίδες"
+
+#: Postman/Postman-Configuration/PostmanRegisterConfigurationSettings.php:101
+msgid "Custom Headers"
+msgstr "Προσαρμοσμένες Κεφαλίδες"
+
+#: Postman/Postman-Configuration/PostmanRegisterConfigurationSettings.php:107
+msgid "Validation"
+msgstr "Επικύρωση"
+
+#: Postman/Postman-Configuration/PostmanRegisterConfigurationSettings.php:118
+msgid "Email Log Settings"
+msgstr "Ρυθμίσεις Καταγραφής E-mail"
+
+#: Postman/Postman-Configuration/PostmanRegisterConfigurationSettings.php:123
+msgid "Enable Logging"
+msgstr "Ενεργοποίηση Καταγραφής"
+
+#: Postman/Postman-Configuration/PostmanRegisterConfigurationSettings.php:128
+#: Postman/PostmanInputSanitizer.php:137
+msgid "Maximum Log Entries"
+msgstr "Μέγιστος Αριθμός Καταχωρήσεων Καταγραφής"
+
+#: Postman/Postman-Configuration/PostmanRegisterConfigurationSettings.php:133
+msgid "Maximum Transcript Size"
+msgstr "Μέγιστος Αριθμός Γραμμών σε μια Μεταγραφή"
+
+#: Postman/Postman-Configuration/PostmanRegisterConfigurationSettings.php:139
+msgid "Network Settings"
+msgstr "Ρυθμίσεις Δικτύου"
+
+#: Postman/Postman-Configuration/PostmanRegisterConfigurationSettings.php:144
+msgctxt "Configuration Input Field"
+msgid "TCP Connection Timeout (sec)"
+msgstr "Λήξη χρονικού ορίου σύνδεσης TCP (sec)"
+
+#: Postman/Postman-Configuration/PostmanRegisterConfigurationSettings.php:149
+msgctxt "Configuration Input Field"
+msgid "TCP Read Timeout (sec)"
+msgstr "Λήξη χρονικού ορίου ανάγνωσης TCP (sec)"
+
+#: Postman/Postman-Configuration/PostmanRegisterConfigurationSettings.php:155
+msgctxt "Configuration Section Title"
+msgid "Miscellaneous Settings"
+msgstr "Διάφορες Ρυθμίσεις"
+
+#: Postman/Postman-Configuration/PostmanRegisterConfigurationSettings.php:160
+msgctxt "Configuration Input Field"
+msgid "PHP Log Level"
+msgstr "Επίπεδο Καταγραφής PHP"
+
+#: Postman/Postman-Configuration/PostmanRegisterConfigurationSettings.php:165
+msgctxt "Configuration Input Field"
+msgid "Delivery Mode"
+msgstr "Τρόπος Παράδοσης"
+
+#: Postman/Postman-Configuration/PostmanRegisterConfigurationSettings.php:170
+msgctxt "This mode removes the Postman X-Mailer signature from emails"
+msgid "Stealth Mode"
+msgstr "Με απόκρυψη"
+
+#: Postman/Postman-Configuration/PostmanRegisterConfigurationSettings.php:175
+msgid "Temporary Directory"
+msgstr "Προσωρινός Κατάλογος"
+
+#: Postman/Postman-Configuration/PostmanRegisterConfigurationSettings.php:186
+msgid "Choose SMTP or a vendor-specific API:"
+msgstr "Επιλέξτε SMTP ή API συγκεκριμένου παρόχου:"
+
+#: Postman/Postman-Configuration/PostmanRegisterConfigurationSettings.php:189
+msgid "Configure the delivery audit log:"
+msgstr "Διαμορφώστε την καταγραφή αξιολόγησης παράδοσης:"
+
+#: Postman/Postman-Configuration/PostmanRegisterConfigurationSettings.php:196
+msgid "This address, like the <b>letterhead</b> printed on a letter, identifies the sender to the recipient. Change this when you are sending on behalf of someone else, for example to use Google's <a href=\"%s\">Send Mail As</a> feature. Other plugins, especially Contact Forms, may override this field to be your visitor's address."
+msgstr "Η διεύθυνση <b>Μήνυμα</b> Από είναι αυτή που βλέπει ο παραλήπτης ως αποστολέα. Αλλάξτε τη όταν στέλνετε εκ μέρους κάποιου άλλου, παραδείγματος χάριν για να χρησιμοποιήσετε τη δυνατότητα  <a href=\\\"%s\\\">Αποστολή Αλληλογραιας Ως</a> της Google. Τα θέματα και άλλα πρόσθετα επιτρέπεται να τροποποιούν αυτό το πεδίο."
+
+#: Postman/Postman-Configuration/PostmanRegisterConfigurationSettings.php:203
+msgid "Separate multiple <b>to</b>/<b>cc</b>/<b>bcc</b> recipients with commas."
+msgstr "Διαχωρίστε πολλαπλούς παραλήπτες<b>προς</b>/<b>κοιν.</b>/<b>κρυφ.κοιν.</b> με κόμματα."
+
+#: Postman/Postman-Configuration/PostmanRegisterConfigurationSettings.php:210
+msgid "Increase the timeouts if your host is intermittenly failing to send mail. Be careful, this also correlates to how long your user must wait if the mail server is unreachable."
+msgstr "Αυξήστε τα χρονικά όρια λήξης αν ο διακομιστής σας αποτυγχάνει κατά περιόδους να αποστείλει αλληλογραφία. Προσέξτε όμως, αυτό επίσης σχετίζεται και με το πόσο χρόνο θα πρέπει να περιμένει ο χρήστης σας αν ο διακομιστής δεν αποκρίνεται."
+
+#: Postman/Postman-Configuration/PostmanRegisterConfigurationSettings.php:221
+msgid "Specify custom headers (e.g. <code>X-MC-Tags: wordpress-site-A</code>), one per line. Use custom headers with caution as they can negatively affect your Spam score."
+msgstr "Καθορίστε προσαρμοσμένες κεφαλίδες  (π.χ. <code>X-MC-Tags: wordpress-site-A</code>), μία σε κάθε γραμμή. Χρησιμοποιήστε τις με προσοχή καθώς μπορεί να επηρεάσουν αρνητικά την Spam βαθμολογία σας."
+
+#: Postman/Postman-Configuration/PostmanRegisterConfigurationSettings.php:228
+msgid "E-mail addresses can be validated before sending e-mail, however this may fail with some newer domains."
+msgstr ""
+
+#: Postman/Postman-Configuration/PostmanRegisterConfigurationSettings.php:254
+#: Postman/Postman-Configuration/PostmanRegisterConfigurationSettings.php:276
+msgid "Prevent <b>plugins</b> and <b>themes</b> from changing this"
+msgstr "Απαγορεύστε σε <b>πρόσθετα</b> και <b>θέματα</b> να το αλλάζουν αυτό"
+
+#: Postman/Postman-Configuration/PostmanRegisterConfigurationSettings.php:261
+#: Postman/Postman-Configuration/PostmanRegisterConfigurationSettings.php:405
+#: Postman/Postman-Mail/PostmanMandrillTransport.php:244
+#: Postman/Postman-Mail/PostmanSendGridTransport.php:195
+#: Postman/Postman-Mail/PostmanSmtpModuleTransport.php:409
+#: Postman/Postman-Mail/PostmanSmtpModuleTransport.php:416
+#: Postman/Postman-Mail/PostmanSmtpModuleTransport.php:459
+#: Postman/Postman-Mail/PostmanSmtpModuleTransport.php:467
+#: Postman/Postman-Mail/PostmanSmtpModuleTransport.php:475
+#: Postman/Postman-Mail/PostmanSmtpModuleTransport.php:482
+#: Postman/Postman-Mail/PostmanSmtpModuleTransport.php:530
+msgid "Required"
+msgstr "Απαιτούμενα"
+
+#: Postman/Postman-Configuration/PostmanRegisterConfigurationSettings.php:268
+#: Postman/Postman-Mail/PostmanSmtpModuleTransport.php:531
+msgid "This address, like the <b>return address</b> printed on an envelope, identifies the account owner to the SMTP server."
+msgstr "Η διεύθυνση  <b>Φάκελος</b> Από αφορά τον κάτοχο του λογαριασμού στον διακομιστή SMTP."
+
+#: Postman/Postman-Configuration/PostmanRegisterConfigurationSettings.php:289
+#: Postman/Postman-Connectivity-Test/PostmanConnectivityTestController.php:108
+msgid "Yes"
+msgstr "Ναι"
+
+#: Postman/Postman-Configuration/PostmanRegisterConfigurationSettings.php:290
+#: Postman/Postman-Connectivity-Test/PostmanConnectivityTestController.php:109
+msgid "No"
+msgstr "Όχι"
+
+#: Postman/Postman-Configuration/PostmanRegisterConfigurationSettings.php:300
+msgid "Change this value if you can't see the beginning of the transcript because your messages are too big."
+msgstr ""
+
+#: Postman/Postman-Configuration/PostmanRegisterConfigurationSettings.php:343
+msgid "Disable e-mail validation"
+msgstr ""
+
+#: Postman/Postman-Configuration/PostmanRegisterConfigurationSettings.php:350
+msgid "Log Level specifies the level of detail written to the <a target=\"_new\" href=\"%s\">WordPress Debug log</a> - view the log with <a target-\"_new\" href=\"%s\">Debug</a>."
+msgstr ""
+
+#: Postman/Postman-Configuration/PostmanRegisterConfigurationSettings.php:353
+msgid "Off"
+msgstr "Κλείσιμο"
+
+#: Postman/Postman-Configuration/PostmanRegisterConfigurationSettings.php:354
+msgid "Trace"
+msgstr "Ανίχνευση"
+
+#: Postman/Postman-Configuration/PostmanRegisterConfigurationSettings.php:355
+msgid "Debug"
+msgstr "Εύρεση σφαλμάτων"
+
+#: Postman/Postman-Configuration/PostmanRegisterConfigurationSettings.php:356
+msgid "Info"
+msgstr "Πληροφορίες"
+
+#: Postman/Postman-Configuration/PostmanRegisterConfigurationSettings.php:358
+msgid "Error"
+msgstr "Σφάλμα"
+
+#: Postman/Postman-Configuration/PostmanRegisterConfigurationSettings.php:366
+msgid "Delivery mode offers options useful for developing or testing."
+msgstr "Η κατάσταση Παράδοση προσφέρει επιλογές χρήσιμες για ανάπτυξη ή δοκιμές."
+
+#: Postman/Postman-Configuration/PostmanRegisterConfigurationSettings.php:369
+msgctxt "When the server is online to the public, this is \"Production\" mode"
+msgid "Log Email and Send"
+msgstr "Καταγραφή E-mail και Αποστολή"
+
+#: Postman/Postman-Configuration/PostmanRegisterConfigurationSettings.php:370
+msgid "Log Email and Delete"
+msgstr "Καταγραφή Email και Διαγραφή"
+
+#: Postman/Postman-Configuration/PostmanRegisterConfigurationSettings.php:371
+msgid "Delete All Emails"
+msgstr "Διαγραφή Όλων των E-mail"
+
+#: Postman/Postman-Configuration/PostmanRegisterConfigurationSettings.php:375
+msgid "Remove the Postman X-Header signature from messages"
+msgstr "Αφαίρεση της υπογραφής Postman X-Header από τα μηνύματα"
+
+#: Postman/Postman-Configuration/PostmanRegisterConfigurationSettings.php:378
+msgid "Lockfiles are written here to prevent users from triggering an OAuth 2.0 token refresh at the same time."
+msgstr ""
+
+#: Postman/Postman-Configuration/PostmanRegisterConfigurationSettings.php:381
+msgid "Valid"
+msgstr "Έγκυρο"
+
+#: Postman/Postman-Configuration/PostmanRegisterConfigurationSettings.php:383
+msgid "Invalid"
+msgstr "Άκυρο"
+
+#: Postman/Postman-Connectivity-Test/PostmanConnectivityTestController.php:105
+#: Postman/Postman-Diagnostic-Test/PostmanDiagnosticTestController.php:109
+msgctxt "The \"please wait\" message"
+msgid "Checking.."
+msgstr "Γίνεται έλεγχος.."
+
+#: Postman/Postman-Connectivity-Test/PostmanConnectivityTestController.php:106
+msgctxt "The port is open"
+msgid "Open"
+msgstr "Ανοιχτή"
+
+#: Postman/Postman-Connectivity-Test/PostmanConnectivityTestController.php:107
+msgctxt "The port is closed"
+msgid "Closed"
+msgstr "Κλειστή"
+
+#. translators: where %d is a port number
+#: Postman/Postman-Connectivity-Test/PostmanConnectivityTestController.php:111
+msgid "No outbound route between this site and the Internet on Port %d."
+msgstr "Δεν υπάρχει εξερχόμενη διαδρομή μεταξύ αυτού του ιστότοπου και του Διαδικτύου στη θύρα %d."
+
+#. translators: where %d is a port number and %s is a hostname
+#: Postman/Postman-Connectivity-Test/PostmanConnectivityTestController.php:113
+msgid "Port %d is open, but not to %s."
+msgstr "Η θύρα %d είναι ανοιχτή αλλά όχι προς %s."
+
+#. translators: where %d is the port number and %s is the hostname
+#: Postman/Postman-Connectivity-Test/PostmanConnectivityTestController.php:115
+msgid "Port %d can be used for SMTP to %s."
+msgstr "Η θύρα %d μπορεί να χρησιμοποιηθεί για SMTP προς %s."
+
+#. translators: where %d is a port number and %s is the URL for the Postman
+#. Gmail Extension
+#: Postman/Postman-Connectivity-Test/PostmanConnectivityTestController.php:118
+msgid "Port %d can be used with the %s."
+msgstr "Η θύρα %d μπορεί να χρησιμοποιηθεί για αποστολή email με το %s."
+
+#: Postman/Postman-Connectivity-Test/PostmanConnectivityTestController.php:141
+msgid "This test determines which well-known ports are available for Postman to use."
+msgstr "Αυτή η δοκιμή βρίσκει ποιες από τις γνωστές θύρες είναι διαθέσιμες για να τις χρησιμοποιήσει το Postman."
+
+#: Postman/Postman-Connectivity-Test/PostmanConnectivityTestController.php:145
+msgctxt "Button Label"
+msgid "Begin Test"
+msgstr "Έναρξη Δοκιμής"
+
+#: Postman/Postman-Connectivity-Test/PostmanConnectivityTestController.php:148
+#: Postman/Postman-Email-Log/PostmanEmailLogView.php:162
+#: Postman/Postman-Send-Test-Email/PostmanSendTestEmailController.php:152
+msgid "Status"
+msgstr "Κατάσταση"
+
+#: Postman/Postman-Connectivity-Test/PostmanConnectivityTestController.php:148
+msgid "Service Available"
+msgstr "Διαθέσιμη Υπηρεσία"
+
+#: Postman/Postman-Connectivity-Test/PostmanConnectivityTestController.php:148
+msgid "Server ID"
+msgstr ""
+
+#. Translators: Meaning "Not Applicable"
+#: Postman/Postman-Connectivity-Test/PostmanConnectivityTestController.php:155
+#: Postman/Postman-Email-Log/PostmanEmailLogController.php:260
+msgid "n/a"
+msgstr "δ/υ"
+
+#. Translators: Where %s is the name of the service providing Internet
+#. connectivity test
+#: Postman/Postman-Connectivity-Test/PostmanConnectivityTestController.php:160
+msgid "According to %s"
+msgstr ""
+
+#: Postman/Postman-Connectivity-Test/PostmanConnectivityTestController.php:163
+msgid "Summary"
+msgstr "Σύνοψη"
+
+#: Postman/Postman-Connectivity-Test/PostmanConnectivityTestController.php:168
+msgid "A test with <span style=\"color:red\">\"No\"</span> Service Available indicates one or more of these issues:"
+msgstr "Θύρα με Διαθέσιμη Υπηρεσία <span style=\"color:red\">\"Όχι\"</span> υποδεικνύει ένα ή περισσότερα από αυτά τα προβλήματα:"
+
+#: Postman/Postman-Connectivity-Test/PostmanConnectivityTestController.php:170
+msgid "Your web host has placed a firewall between this site and the Internet"
+msgstr "Ο πάροχος διακομιστή έχει θέσει ένα firewall μεταξύ αυτού του ιστοτόπου και του Διαδικτύου"
+
+#: Postman/Postman-Connectivity-Test/PostmanConnectivityTestController.php:171
+msgid "The SMTP hostname is wrong or the mail server does not provide service on this port"
+msgstr "Το όνομα διακομιστή SMTP είναι λάθος ή ο διακομιστής αλληλογραφίας δεν παρέχει υπηρεσίες σε αυτή τη θύρα"
+
+#. translators: where (1) is the URL and (2) is the system
+#: Postman/Postman-Connectivity-Test/PostmanConnectivityTestController.php:173
+msgid "Your <a href=\"%1$s\">%2$s configuration</a> is preventing outbound connections"
+msgstr "Η <a href=\"%1$s\">διαμόρφωση της %2$s</a> σας εμποδίζει τις εξερχόμενες συνδέσεις"
+
+#: Postman/Postman-Connectivity-Test/PostmanConnectivityTestController.php:177
+msgid "If the issues above can not be resolved, your last option is to configure Postman to use an email account managed by your web host with an SMTP server managed by your web host."
+msgstr "Αν τα παραπάνω προβλήματα δεν μπορούν να επιλυθούν, η τελευταία σας επιλογή είναι να ρυθμίσετε το Postman να χρησιμοποιήσει ένα λογαριασμό e-mail που να τον διαχειρίζεται ο πάροχος του διακομιστή διαδικτύου σας με έναν διακομιστή SMTP που να τον χειρίζεται ο πάροχος."
+
+#: Postman/Postman-Controller/PostmanDashboardWidgetController.php:82
+#: Postman/Postman-Email-Log/PostmanEmailLogController.php:284
+#: Postman/Postman.php:317
+msgctxt "The log of Emails that have been delivered"
+msgid "Email Log"
+msgstr "Αρχείο Καταγραφής e-mail"
+
+#: Postman/Postman-Controller/PostmanDashboardWidgetController.php:95
+msgid "Error: Postman is missing a required PHP library."
+msgstr "Σφάλμα: απουσιάζει μια απαιτούμενη από το Postman βιβλιοθήκη PHP."
+
+#: Postman/Postman-Controller/PostmanDashboardWidgetController.php:97
+#: Postman/Postman.php:257
+msgid "Postman: wp_mail has been declared by another plugin or theme, so you won't be able to use Postman until the conflict is resolved."
+msgstr "Postman: έχει δηλωθεί το wp_mail από άλλο πρόσθετο ή θέμα, έτσι δεν θα μπορέσετε να χρησιμοποιήσετε το Postman μέχρι να λυθεί η διένεξη."
+
+#: Postman/Postman-Controller/PostmanDashboardWidgetController.php:100
+#: Postman/Postman-Mail/PostmanTransportRegistry.php:229
+msgid "Postman is in <em>non-Production</em> mode and is dumping all emails."
+msgstr "Postman είναι σε <em>μη-Παραγωγική</em> κατάσταση και απορρίπτει όλα τα e-mail."
+
+#: Postman/Postman-Controller/PostmanDashboardWidgetController.php:102
+msgid "<span style=\"color:green\">Postman is configured</span> and has delivered <span style=\"color:green\">%d</span> email."
+msgid_plural "<span style=\"color:green\">Postman is configured</span> and has delivered <span style=\"color:green\">%d</span> emails."
+msgstr[0] "<span style=\"color:green\">Postman is configured</span> and has delivered <span style=\"color:green\">%d</span> email."
+msgstr[1] "<span style=\"color:green\">Το Postman είναι ρυθμισμένο</span> και έχει παραδώσει <span style=\"color:green\">%d</span> emails."
+
+#: Postman/Postman-Controller/PostmanDashboardWidgetController.php:104
+#: Postman/Postman-Mail/PostmanTransportRegistry.php:234
+msgid "Postman is <em>not</em> configured and is mimicking out-of-the-box WordPress email delivery."
+msgstr "Το Postman <em>δεν</em> είναι διαμορφωμένο και μιμείται την παράδοση e-mail του WordPress ως έχει."
+
+#: Postman/Postman-Controller/PostmanDashboardWidgetController.php:116
+msgid "Postman is operating in per-site mode."
+msgstr "Το Postman είναι σε κατάσταση λειτουργίας ανά-ιστότοπο."
+
+#: Postman/Postman-Diagnostic-Test/PostmanDiagnosticTestController.php:102
+#: Postman/Postman-Diagnostic-Test/PostmanDiagnosticTestController.php:107
+#: Postman/PostmanViewController.php:295
+msgid "Diagnostic Test"
+msgstr "Διαγνωστικό Τεστ"
+
+#: Postman/Postman-Diagnostic-Test/PostmanDiagnosticTestController.php:104
+msgid "Are you having issues with Postman?"
+msgstr "Αντιμετωπίζετε προβλήματα με το Postman;"
+
+#. translators: where %1$s and %2$s are the URLs to the Troubleshooting and
+#. Support Forums on WordPress.org
+#: Postman/Postman-Diagnostic-Test/PostmanDiagnosticTestController.php:106
+msgid "Please check the <a href=\"%1$s\">troubleshooting and error messages</a> page and the <a href=\"%2$s\">support forum</a>."
+msgstr "Παρακαλούμε ελέγξτε τη σελίδα <a href=\"%1$s\">αντιμετώπιση προβλημάτων και μηνύματα σφάλματος</a> και το <a href=\"%2$s\">φόρουμ υποστήριξης</a>."
+
+#: Postman/Postman-Diagnostic-Test/PostmanDiagnosticTestController.php:108
+msgid "If you write for help, please include the following:"
+msgstr "Αν ζητήσετε βοήθεια, παρακαλούμε συμπεριλάβετε τα ακόλουθα:"
+
+#: Postman/Postman-Email-Log/PostmanEmailLogController.php:90
+#: Postman/Postman-Send-Test-Email/PostmanSendTestEmailController.php:242
+msgid "Your message was delivered (%d ms) to the SMTP server! Congratulations :)"
+msgstr "Το μήνυμά σας παραδόθηκε (%d ms) στο διακομιστή SMTP! Συγχαρητήρια :)"
+
+#: Postman/Postman-Email-Log/PostmanEmailLogController.php:156
+msgid "Mail Log Entries were deleted."
+msgstr "Οι καταχωρήσεις της καταγραφής αλληλογραφίας διαγράφηκαν."
+
+#: Postman/Postman-Email-Log/PostmanEmailLogController.php:179
+msgid "Mail Log Entry was deleted."
+msgstr "Η καταχώρηση της καταγραφής αλληλογραφίας διαγράφηκε."
+
+#: Postman/Postman-Email-Log/PostmanEmailLogController.php:204
+msgctxt "Who is this message From?"
+msgid "From"
+msgstr "Από"
+
+#: Postman/Postman-Email-Log/PostmanEmailLogController.php:208
+msgctxt "Who is this message To?"
+msgid "To"
+msgstr "Προς"
+
+#: Postman/Postman-Email-Log/PostmanEmailLogController.php:212
+msgctxt "Who is this message Cc'd to?"
+msgid "Cc"
+msgstr "Κοιν."
+
+#: Postman/Postman-Email-Log/PostmanEmailLogController.php:216
+msgctxt "Who is this message Bcc'd to?"
+msgid "Bcc"
+msgstr "Κρυφ. Κοιν."
+
+#: Postman/Postman-Email-Log/PostmanEmailLogController.php:222
+msgctxt "What is the date today?"
+msgid "Date"
+msgstr "Ημερομηνία"
+
+#: Postman/Postman-Email-Log/PostmanEmailLogController.php:223
+#: Postman/Postman-Email-Log/PostmanEmailLogView.php:161
+msgctxt "What is the subject of this message?"
+msgid "Subject"
+msgstr "Θέμα"
+
+#: Postman/Postman-Email-Log/PostmanEmailLogController.php:226
+msgctxt "What is the unique URI of the configuration?"
+msgid "Delivery-URI"
+msgstr "URI-Παράδοσης"
+
+#: Postman/Postman-Email-Log/PostmanEmailLogController.php:253
+#: Postman/Postman-Send-Test-Email/PostmanSendTestEmailController.php:161
+msgid "This is the conversation between Postman and the mail server. It can be useful for diagnosing problems. <b>DO NOT</b> post it on-line, it may contain your account password."
+msgstr "Αυτή είναι η συζήτηση μεταξύ του Postman και του SMTP διακομιστή σας. Μπορεί να είναι χρήσιμη για διάγνωση προβλημάτων. <b>ΜΗΝ</b> τη δημοσιεύσετε διαδικτυακά, μπορεί να περιέχει τον κωδικό του λογαριασμού σας."
+
+#: Postman/Postman-Email-Log/PostmanEmailLogController.php:284
+#: Postman/Postman-Email-Log/PostmanEmailLogController.php:333
+msgid "%s Email Log"
+msgstr "Καταγραφή email του %s"
+
+#: Postman/Postman-Email-Log/PostmanEmailLogController.php:301
+msgid "Email was successfully resent (but without attachments)"
+msgstr ""
+
+#. Translators: Where %s is an error message
+#: Postman/Postman-Email-Log/PostmanEmailLogController.php:303
+msgid "Email could not be resent. Error: %s"
+msgstr ""
+
+#: Postman/Postman-Email-Log/PostmanEmailLogController.php:304
+#: Postman/Postman-Email-Log/PostmanEmailLogView.php:110
+#: Postman/Postman-Email-Log/PostmanEmailLogView.php:112
+msgid "Resend"
+msgstr ""
+
+#: Postman/Postman-Email-Log/PostmanEmailLogController.php:339
+msgid "This is a record of deliveries made to the mail server. It does not neccessarily indicate sucessful delivery to the recipient."
+msgstr "Αυτό είναι ένα αρχείο παραδόσεων που έγιναν στον Mail Submission Agent (MSA). Δεν σημαίνει απαραίτητα ότι παραδόθηκαν επιτυχώς στον παραλήπτη."
+
+#: Postman/Postman-Email-Log/PostmanEmailLogPostType.php:37
+msgctxt "The group of Emails that have been delivered"
+msgid "Sent Emails"
+msgstr "Απεσταλμένα"
+
+#: Postman/Postman-Email-Log/PostmanEmailLogPostType.php:38
+msgctxt "An Email that has been delivered"
+msgid "Sent Email"
+msgstr "Απεσταλμένο"
+
+#: Postman/Postman-Email-Log/PostmanEmailLogService.php:75
+msgid "An empty subject line can result in delivery failure."
+msgstr "Προειδοποίηση: Κενή γραμμή θέματος μπορεί να καταλήξει σε αποτυχία παράδοσης."
+
+#: Postman/Postman-Email-Log/PostmanEmailLogService.php:196
+msgid ".. +%d more"
+msgstr ".. +%d ακόμη"
+
+#: Postman/Postman-Email-Log/PostmanEmailLogView.php:99
+#: Postman/Postman-Email-Log/PostmanEmailLogView.php:223
+msgctxt "Delete an item from the email log"
+msgid "Delete"
+msgstr "Διαγραφή"
+
+#: Postman/Postman-Email-Log/PostmanEmailLogView.php:100
+msgctxt "View an item from the email log"
+msgid "View"
+msgstr "Προβολή"
+
+#: Postman/Postman-Email-Log/PostmanEmailLogView.php:104
+#: Postman/Postman-Email-Log/PostmanEmailLogView.php:106
+#: Postman/Postman-Send-Test-Email/PostmanSendTestEmailController.php:158
+#: Postman/Postman-Send-Test-Email/PostmanSendTestEmailController.php:163
+msgid "Session Transcript"
+msgstr "Μεταγραφή Συνεδρίας"
+
+#: Postman/Postman-Email-Log/PostmanEmailLogView.php:163
+msgctxt "When was this email sent?"
+msgid "Delivery Time"
+msgstr "Χρόνος Παράδοσης"
+
+#. Translators: where %s indicates the relative time from now
+#: Postman/Postman-Email-Log/PostmanEmailLogView.php:332
+msgctxt "A relative time as in \"five days ago\""
+msgid "%s ago"
+msgstr "πριν %s"
+
+#: Postman/Postman-Email-Log/PostmanEmailLogView.php:338
+msgid "Sent"
+msgstr "Απεσταλμένα"
+
+#: Postman/Postman-Mail/PostmanDefaultModuleTransport.php:107
+msgid "Default"
+msgstr "προεπιλογή"
+
+#: Postman/Postman-Mail/PostmanGmailApiModuleTransport.php:102
+msgid "Gmail API"
+msgstr "Gmail API"
+
+#. translators: where (1) is the secure icon and (2) is the transport name
+#: Postman/Postman-Mail/PostmanGmailApiModuleTransport.php:152
+#: Postman/Postman-Mail/PostmanMandrillTransport.php:135
+#: Postman/Postman-Mail/PostmanSendGridTransport.php:79
+msgid "Postman will send mail via the <b>%1$s %2$s</b>."
+msgstr ""
+
+#. translators: %1$s is the Client ID label, and %2$s is the Client Secret
+#. label
+#: Postman/Postman-Mail/PostmanGmailApiModuleTransport.php:166
+#: Postman/Postman-Mail/PostmanSmtpModuleTransport.php:117
+msgid "You have configured OAuth 2.0 authentication, but have not received permission to use it."
+msgstr "Έχετε ρυθμίσει την πιστοποίηση OAuth 2.0 αλλά δεν έχετε λάβει άδεια να τη χρησιμοποιήσετε."
+
+#. translators: where variables are (1) transport name (2) host and (3) port
+#: Postman/Postman-Mail/PostmanGmailApiModuleTransport.php:206
+#: Postman/Postman-Mail/PostmanMandrillTransport.php:181
+#: Postman/Postman-Mail/PostmanSendGridTransport.php:125
+msgid "Postman recommends the %1$s to host %2$s on port %3$d."
+msgstr ""
+
+#: Postman/Postman-Mail/PostmanGmailApiModuleTransport.php:221
+#: Postman/Postman-Mail/PostmanModuleTransport.php:713
+msgid "OAuth 2.0 (requires Client ID and Client Secret)"
+msgstr "OAuth 2.0 (απαιτεί Client ID και Client Secret)"
+
+#: Postman/Postman-Mail/PostmanMandrillTransport.php:44
+msgid "Mandrill API"
+msgstr "Mandrill API"
+
+#: Postman/Postman-Mail/PostmanMandrillTransport.php:147
+#: Postman/Postman-Mail/PostmanSendGridTransport.php:101
+msgid "API Key can not be empty"
+msgstr "Το κλειδί API δεν μπορεί να είναι κενό."
+
+#: Postman/Postman-Mail/PostmanMandrillTransport.php:151
+#: Postman/Postman-Mail/PostmanModuleTransport.php:578
+#: Postman/Postman-Mail/PostmanSendGridTransport.php:105
+msgid "Message From Address can not be empty"
+msgstr ""
+
+#: Postman/Postman-Mail/PostmanMandrillTransport.php:194
+#: Postman/Postman-Mail/PostmanMandrillTransport.php:228
+#: Postman/Postman-Mail/PostmanMandrillTransport.php:271
+#: Postman/Postman-Mail/PostmanSendGridTransport.php:148
+#: Postman/Postman-Mail/PostmanSendGridTransport.php:182
+#: Postman/Postman-Mail/PostmanSendGridTransport.php:222
+msgid "API Key"
+msgstr "Κλειδί API"
+
+#. Translators: Where (1) is the service URL and (2) is the service name and
+#. (3) is a api key URL
+#: Postman/Postman-Mail/PostmanMandrillTransport.php:238
+#: Postman/Postman-Mail/PostmanSendGridTransport.php:189
+msgid "Create an account at <a href=\"%1$s\" target=\"_new\">%2$s</a> and enter <a href=\"%3$s\" target=\"_new\">an API key</a> below."
+msgstr "Δημιουργήστε ένα λογαριασμό στο <a href=\"%1$s\" target=\"_new\">%2$s</a> και εισάγετε <a href=\"%3$s\" target=\"_new\">ένα κλειδί API</a> παρακάτω."
+
+#. translators: where (1) is the transport type, (2) is the host, and (3) is
+#. the Authentication Type (e.g. Postman will send mail via smtp.gmail.com:465
+#. using OAuth 2.0 authentication.)
+#: Postman/Postman-Mail/PostmanModuleTransport.php:506
+msgid "Postman will send mail via %1$s to %2$s using %3$s authentication."
+msgstr "Το Postman θα στέλνει e-mail μέσω του %1$s στο %2$s με πιστοποίηση %3$s."
+
+#. translators: where %1$s is the Transport type (e.g. SMTP or SMTPS) and %2$s
+#. is the encryption type (e.g. SSL or TLS)
+#: Postman/Postman-Mail/PostmanModuleTransport.php:534
+msgctxt "as in \"There is no Spoon\""
+msgid "no"
+msgstr "καμία"
+
+#: Postman/Postman-Mail/PostmanModuleTransport.php:553
+#: Postman/Postman-Mail/PostmanSmtpModuleTransport.php:366
+#: Postman/Postman-Mail/PostmanSmtpModuleTransport.php:584
+msgid "Password"
+msgstr "Κωδικός"
+
+#. translators: %1$s is the Client ID label, and %2$s is the Client Secret
+#. label (e.g. Warning: OAuth 2.0 authentication requires an OAuth 2.0-capable
+#. Outgoing Mail Server, Sender Email Address, Client ID, and Client Secret.)
+#: Postman/Postman-Mail/PostmanModuleTransport.php:584
+msgid "OAuth 2.0 authentication requires a %1$s and %2$s."
+msgstr ""
+
+#: Postman/Postman-Mail/PostmanModuleTransport.php:706
+msgid "Password (requires username and password)"
+msgstr "Κωδικός (απαιτεί όνομα χρήστη και κωδικό)"
+
+#: Postman/Postman-Mail/PostmanMyMailConnector.php:200
+#: Postman/Postman-Mail/PostmanMyMailConnector.php:217
+msgid "MyMail: Change the delivery method in the %s!"
+msgstr ""
+
+#: Postman/Postman-Mail/PostmanSendGridTransport.php:39
+msgid "SendGrid API"
+msgstr "SendGrid API"
+
+#: Postman/Postman-Mail/PostmanSmtpModuleTransport.php:95
+msgid "Outgoing Mail Server Hostname and Port can not be empty."
+msgstr "Το όνομα του διακομιστή εξερχομένων e-mail και η θύρα δεν μπορεί να είναι κενά."
+
+#: Postman/Postman-Mail/PostmanSmtpModuleTransport.php:99
+msgid "Envelope-From Email Address can not be empty"
+msgstr "Η Διεύθυνση Αποστολέα Φακέλου και η Διεύθυνση Αποστολέα Μηνύματος δεν μπορούν να είναι κενές."
+
+#: Postman/Postman-Mail/PostmanSmtpModuleTransport.php:103
+msgid "Username and password can not be empty."
+msgstr "Η πιστοποίηση με κωδικό (Απλή/Σύνδεση/CRAM-MD5) απαιτεί όνομα χρήστη και κωδικό."
+
+#. translators: %1$s is the Client ID label, and %2$s is the Client Secret
+#. label (e.g. Warning: OAuth 2.0 authentication requires an OAuth 2.0-capable
+#. Outgoing Mail Server, Sender Email Address, Client ID, and Client Secret.)
+#: Postman/Postman-Mail/PostmanSmtpModuleTransport.php:109
+msgid "OAuth 2.0 authentication requires a supported OAuth 2.0-capable Outgoing Mail Server."
+msgstr "Η πιστοποίηση OAuth 2.0 απαιτεί ένα υποστηριζόμενο Διακομιστή Εξερχόμενης Αλληλογραφίας με δυνατότητες OAuth 2.0, %1$s και%2$s."
+
+#. translators: where %1$s is a description of the transport (eg. SMTPS-SSL),
+#. %2$s is a description of the authentication (eg. Password-CRAMMD5), %3$d is
+#. the TCP port (eg. 465), %4$d is the hostname
+#: Postman/Postman-Mail/PostmanSmtpModuleTransport.php:269
+msgid "Postman recommends %1$s with %2$s authentication to host %4$s on port %3$d."
+msgstr ""
+
+#: Postman/Postman-Mail/PostmanSmtpModuleTransport.php:326
+msgid "Transport Settings"
+msgstr "Ρυθμίσεις Μεταφοράς"
+
+#: Postman/Postman-Mail/PostmanSmtpModuleTransport.php:336
+msgid "Outgoing Mail Server Port"
+msgstr "Θύρα Διακομιστή Εξερχόμενης Αλληλογραφίας"
+
+#: Postman/Postman-Mail/PostmanSmtpModuleTransport.php:341
+msgid "Envelope-From Email Address"
+msgstr "Διεύθυνση Αποστολέα Φακέλου"
+
+#: Postman/Postman-Mail/PostmanSmtpModuleTransport.php:346
+msgctxt "Configuration Input Field"
+msgid "Security"
+msgstr "Ασφάλεια"
+
+#: Postman/Postman-Mail/PostmanSmtpModuleTransport.php:361
+#: Postman/Postman-Mail/PostmanSmtpModuleTransport.php:580
+msgid "Username"
+msgstr "Όνομα χρήστη"
+
+#: Postman/Postman-Mail/PostmanSmtpModuleTransport.php:402
+msgid "Configure the communication with the mail server."
+msgstr "Διαμορφώστε την επικοινωνία με τον Mail Submission Agent (MSA):"
+
+#: Postman/Postman-Mail/PostmanSmtpModuleTransport.php:449
+#: Postman/Postman-Mail/PostmanSmtpModuleTransport.php:579
+msgid "Enter the account credentials."
+msgstr "Εισάγετε τα στοιχεία σας σύνδεσης."
+
+#: Postman/Postman-Mail/PostmanSmtpModuleTransport.php:457
+msgid "The Username is usually the same as the Envelope-From Email Address."
+msgstr ""
+
+#: Postman/Postman-Mail/PostmanSmtpModuleTransport.php:511
+msgid "Error computing your domain root - please enter it manually"
+msgstr "Σφάλμα υπολογισμού του root του τομέα σας - παρακαλούμε βάλτε το χειροκίνητα"
+
+#: Postman/Postman-Mail/PostmanSmtpModuleTransport.php:532
+msgid "For reliable delivery, this domain must specify an <a target=\"_new\" href=\"%s\">SPF record</a> permitting the use of the SMTP server named above."
+msgstr ""
+
+#: Postman/Postman-Mail/PostmanSmtpModuleTransport.php:539
+msgctxt "Wizard Step Title"
+msgid "Which host will relay the mail?"
+msgstr "Ποιος διακομιστής θα μεταδώσει το μήνυμα;"
+
+#: Postman/Postman-Mail/PostmanSmtpModuleTransport.php:540
+msgid "This is the Outgoing (SMTP) Mail Server, or Mail Submission Agent (MSA), which Postman delegates mail delivery to. This server is specific to your email account, and if you don't know what to use, ask your email service provider."
+msgstr "Αυτός είναι ο Διακομιστής Εξερχόμενης Αλληλογραφίας (SMTP) ή ο Mail Submission Agent (MSA), στους οποίους το Postman μεταφέρει την παράδοση της αλληλογραφίας. Αυτός ο διακομιστής είναι συγκεκριμένος "
+
+#: Postman/Postman-Mail/PostmanSmtpModuleTransport.php:541
+msgid "Note that many WordPress hosts, such as GoDaddy, Bluehost and Dreamhost, require that you use their mail accounts with their mail servers, and prevent you from using others."
+msgstr "Σημειώστε ότι πολλοί πάροχοι WordPress, όπως οι GoDaddy, Bluehost και Dreamhost, απαιτούν να χρησιμοποιήσετε τους δικούς τους λογαριασμούς αλληλογραφίας με τους δικούς τους διακομιστές και εμποδίζουν τη χρήση άλλων."
+
+#. Translators: Where (%s) is the name of the web host
+#: Postman/Postman-Mail/PostmanSmtpModuleTransport.php:547
+msgid "Your email address <b>requires</b> access to a remote SMTP server blocked by %s."
+msgstr "Η διεύθυνση email σας <b>απαιτεί</b> πρόσβαση σε απομακρυσμένο διακομιστή SMTP που αποκλείεται από το %s."
+
+#: Postman/Postman-Mail/PostmanSmtpModuleTransport.php:548
+msgid "If you have access to cPanel, enable the Remote Mail Exchanger."
+msgstr ""
+
+#. Translators: Where (%1$s) is the SPF-info URL and (%2$s) is the name of the
+#. web host
+#: Postman/Postman-Mail/PostmanSmtpModuleTransport.php:551
+msgid "If you own this domain, make sure it has an <a href=\"%1$s\">SPF record authorizing %2$s</a> as a relay, or you will have delivery problems."
+msgstr "Αν σας ανήκει αυτός ο τομέας, βεβαιωθείτε ότι έχει μια <a href=\"%1$s\">καταχώρηση SPF που εξουσιοδοτεί το %2$s</a> ως διαμεσολαβητή αλλιώς θα έχετε προβλήματα παράδοσης."
+
+#: Postman/Postman-Mail/PostmanTransportRegistry.php:231
+msgid "Postman is configured."
+msgstr "Το Postman ρυθμίστηκε."
+
+#: Postman/Postman-Mail/PostmanZendMailEngine.php:209
+msgid "Communication Error [334] - make sure the Envelope From email is the same account used to create the Client ID."
+msgstr "Σφάλμα Επικοινωνίας [334] - βεβαιωθείτε ότι το e-mail στο Φάκελος Από είναι το ίδιο με του λογαριασμού που χρησιμοποιήθηκε για τη δημιουργία του Client ID."
+
+#: Postman/Postman-Send-Test-Email/PostmanSendTestEmailController.php:115
+#: Postman/Postman-Send-Test-Email/PostmanSendTestEmailController.php:149
+msgctxt "Email Test Status"
+msgid "In Outbox"
+msgstr "Στα Εξερχόμενα"
+
+#: Postman/Postman-Send-Test-Email/PostmanSendTestEmailController.php:116
+msgctxt "Email Test Status"
+msgid "Sending..."
+msgstr "Αποστολή..."
+
+#: Postman/Postman-Send-Test-Email/PostmanSendTestEmailController.php:117
+msgctxt "Email Test Status"
+msgid "Success"
+msgstr "Επιτυχής"
+
+#: Postman/Postman-Send-Test-Email/PostmanSendTestEmailController.php:118
+msgctxt "Email Test Status"
+msgid "Failed"
+msgstr "Απέτυχε"
+
+#: Postman/Postman-Send-Test-Email/PostmanSendTestEmailController.php:119
+msgid "Ajax Error"
+msgstr ""
+
+#: Postman/Postman-Send-Test-Email/PostmanSendTestEmailController.php:128
+#: Postman/PostmanViewController.php:273 Postman/PostmanViewController.php:275
+msgid "Send a Test Email"
+msgstr "Αποστολή Δοκιμαστικού E-mail"
+
+#: Postman/Postman-Send-Test-Email/PostmanSendTestEmailController.php:133
+msgid "Specify the Recipient"
+msgstr "Ορίστε τον Παραλήπτη"
+
+#: Postman/Postman-Send-Test-Email/PostmanSendTestEmailController.php:135
+msgid "Who is this message going to?"
+msgstr "Σε ποιον πηγαίνει το μήνυμα;"
+
+#: Postman/Postman-Send-Test-Email/PostmanSendTestEmailController.php:136
+msgid "This utility allows you to send an email message for testing."
+msgstr "Αυτή η υπηρεσία σας επιτρέπει να στείλετε ένα e-mail για δοκιμή."
+
+#. translators: where %d is an amount of time, in seconds
+#: Postman/Postman-Send-Test-Email/PostmanSendTestEmailController.php:139
+msgid "If there is a problem, Postman will give up after %d second."
+msgid_plural "If there is a problem, Postman will give up after %d seconds."
+msgstr[0] "Αν υπάρχει πρόβλημα, το Postman θα εγκαταλείψει μετά από %d δευτερόλεπτο."
+msgstr[1] "Αν υπάρχει πρόβλημα, το Postman θα εγκαταλείψει μετά από %d δευτερόλεπτα."
+
+#: Postman/Postman-Send-Test-Email/PostmanSendTestEmailController.php:140
+msgctxt "Configuration Input Field"
+msgid "Recipient Email Address"
+msgstr "Διεύθυνση e-mail παραλήπτη"
+
+#: Postman/Postman-Send-Test-Email/PostmanSendTestEmailController.php:145
+msgid "Send The Message"
+msgstr "Αποστολή Μηνύματος"
+
+#: Postman/Postman-Send-Test-Email/PostmanSendTestEmailController.php:148
+msgid "Sending the message:"
+msgstr "Το μήνυμα αποστέλλεται:"
+
+#: Postman/Postman-Send-Test-Email/PostmanSendTestEmailController.php:160
+msgid "Examine the Session Transcript if you need to."
+msgstr "Εξετάστε τη Μεταγραφή Συνεδρίας SMTP αν χρειάζεται."
+
+#. translators: where %s is the domain name of the site
+#: Postman/Postman-Send-Test-Email/PostmanSendTestEmailController.php:212
+msgctxt "Test Email Subject"
+msgid "Postman SMTP Test (%s)"
+msgstr "Δοκιμή SMTP του Postman (%s)"
+
+#. translators: where %s is the Postman plugin version number (e.g. 1.4)
+#: Postman/Postman-Send-Test-Email/PostmanSendTestEmailController.php:299
+msgctxt "Test Email Tagline"
+msgid "Sent by Postman %s"
+msgstr "Στάλθηκε από το Postman %s"
+
+#: Postman/Postman-Send-Test-Email/PostmanSendTestEmailController.php:300
+msgid "Image source"
+msgstr "Πηγή εικόνας"
+
+#: Postman/Postman-Send-Test-Email/PostmanSendTestEmailController.php:301
+msgid "Used with permission"
+msgstr "Χρήση με άδεια"
+
+#: Postman/PostmanAdminController.php:111
+msgctxt "The plugin successfully saved new settings."
+msgid "Settings saved."
+msgstr "Οι ρυθμίσεις αποθηκεύτηκαν."
+
+#. Translators: where %1$s is the name of the library
+#: Postman/PostmanAdminController.php:178
+msgid "This PHP installation requires the <b>%1$s</b> library."
+msgstr "Αυτή η εγκατάσταση της PHP απαιτεί τη βιβλιοθήκη <b>%1$s</b>."
+
+#: Postman/PostmanAdminController.php:253
+msgid "There was an error importing the data."
+msgstr ""
+
+#: Postman/PostmanAdminController.php:270
+msgid "Plugin data was removed."
+msgstr "Τα δεδομένα του πρόσθετου αφαιρέθηκαν."
+
+#: Postman/PostmanAdminController.php:294
+msgid "The OAuth 2.0 authorization was successful. Ready to send e-mail."
+msgstr "Η πιστοποίηση OAuth 2.0 ήταν επιτυχής. Έτοιμοι για αποστολή e-mail."
+
+#: Postman/PostmanAdminController.php:296
+msgid "Your email provider did not grant Postman permission. Try again."
+msgstr "Ο πάροχος του email σας δεν έδωσε άδεια στο Postman. Δοκιμάστε ξανά."
+
+#: Postman/PostmanAdminController.php:299
+msgid "The grant code from Google had no accompanying state and may be a forgery"
+msgstr "Ο κώδικας που δόθηκε από τη Google δεν είχε συνοδευτική κατάσταση και μπορεί να είναι πλαστός"
+
+#. translators: %s is the error message
+#: Postman/PostmanAdminController.php:303
+msgid "Error authenticating with this Client ID. [%s]"
+msgstr "Σφάλμα πιστοποίησης με αυτό το Client ID. [%s]"
+
+#: Postman/PostmanConfigTextHelper.php:31
+msgid "Attention"
+msgstr "Προσοχή"
+
+#. translators: parameters available are 1=portal-url, 2=portal-name,
+#. 3=clientId-name, 4=clientSecret-name, 5=callbackUrl, 6=service-name,
+#. 7=portal-application (e.g. Open the Google Developer Console, create a
+#. Client ID for web application using the URL's displayed below, and copy the
+#. Client ID and Client Secret here.)
+#: Postman/PostmanConfigTextHelper.php:33
+msgid "Open the <a href=\"%1$s\" target=\"_new\">%2$s</a>, create <b>%7$s</b> with the values displayed below, and copy the generated %3$s and %4$s here."
+msgstr "Ανοίξτε το <a href=\"%1$s\" target=\"_new\">%2$s</a>, δημιουργήστε <b>%7$s</b> με τις τιμές που εμφανίζονται παρακάτω και αντιγράψτε τα παραγόμενα %3$s και %4$s εδώ."
+
+#. translators: parameters available are 1=clientId-name, 2=service-name,
+#. 3=FAQ-URL, 4=Video-URL (e.g. See How do I get a Google Client ID? in the
+#. F.A.Q.)
+#: Postman/PostmanConfigTextHelper.php:36
+msgid "See <a href=\"%3$s\" target=\"_new\">How do I get a %1$s %2$s?</a> in the F.A.Q. or <a href=\"%4$s\" target=\"_new\">watch our How-To video 📺</a>."
+msgstr "Δείτε το <a href=\"%3$s\" target=\"_new\">How do I get a %1$s %2$s?</a> στις F.A.Q. ή <a href=\"%4$s\" target=\"_new\">παρακολουθήστε το How-To βίντεό μας 📺</a>."
+
+#. translators: where %s is the Email Service Owner (e.g. Google, Microsoft or
+#. Yahoo)
+#: Postman/PostmanConfigTextHelper.php:54
+msgctxt "Command to initiate OAuth authentication"
+msgid "Grant permission with %s"
+msgstr "Δώστε άδεια με %s"
+
+#. Translators: This description is specific to Google
+#. Translators: This description is specific to Microsoft
+#. Translators: This description is specific to Yahoo
+#: Postman/PostmanConfigTextHelper.php:80
+#: Postman/PostmanConfigTextHelper.php:142
+#: Postman/PostmanConfigTextHelper.php:204
+#: Postman/PostmanConfigTextHelper.php:271
+msgctxt "Name of the OAuth 2.0 Client ID"
+msgid "Client ID"
+msgstr "Client ID"
+
+#. Translators: This description is specific to Google
+#. Translators: This description is specific to Microsoft
+#. Translators: This description is specific to Yahoo
+#: Postman/PostmanConfigTextHelper.php:84
+#: Postman/PostmanConfigTextHelper.php:146
+#: Postman/PostmanConfigTextHelper.php:208
+#: Postman/PostmanConfigTextHelper.php:274
+msgctxt "Name of the OAuth 2.0 Client Secret"
+msgid "Client Secret"
+msgstr "Client Secret"
+
+#. Translators: This description is specific to Google
+#: Postman/PostmanConfigTextHelper.php:88
+msgctxt "Name of the Application Callback URI"
+msgid "Authorized redirect URI"
+msgstr "URI για εξουσιοδοτημένη ανακατεύθυνση"
+
+#. Translators: This description is specific to Google
+#: Postman/PostmanConfigTextHelper.php:92
+msgctxt "Name of the Application Callback Domain"
+msgid "Authorized JavaScript origins"
+msgstr "Εξουσιοδοτημένες προελεύσεις Javascript"
+
+#. Translators: This description is specific to Google
+#: Postman/PostmanConfigTextHelper.php:96
+msgctxt "Name of the email service owner"
+msgid "Google"
+msgstr "Google"
+
+#. Translators: This description is specific to Google
+#: Postman/PostmanConfigTextHelper.php:100
+msgctxt "Name of the email service"
+msgid "Gmail"
+msgstr "Gmail"
+
+#. Translators: This description is specific to Google
+#: Postman/PostmanConfigTextHelper.php:104
+msgctxt "Description of the email service OAuth 2.0 Application"
+msgid "a Client ID for web application"
+msgstr "ένα Client ID για διαδικτυακή εφαρμογή"
+
+#. Translators: This description is specific to Google
+#: Postman/PostmanConfigTextHelper.php:108
+msgctxt "Name of the email service portal"
+msgid "Google Developers Console Gmail Wizard"
+msgstr "Google Developers Console Gmail Wizard"
+
+#. Translators: This description is specific to Microsoft
+#: Postman/PostmanConfigTextHelper.php:150
+msgctxt "Name of the Application Callback URI"
+msgid "Redirect URL"
+msgstr "URL ανακατεύθυνσης"
+
+#. Translators: This description is specific to Microsoft
+#: Postman/PostmanConfigTextHelper.php:154
+msgctxt "Name of the Application Callback Domain"
+msgid "Root Domain"
+msgstr "Τομέας Root"
+
+#. Translators: This description is specific to Microsoft
+#: Postman/PostmanConfigTextHelper.php:158
+msgctxt "Name of the email service owner"
+msgid "Microsoft"
+msgstr "Microsoft"
+
+#. Translators: This description is specific to Microsoft
+#: Postman/PostmanConfigTextHelper.php:162
+msgctxt "Name of the email service"
+msgid "Outlook.com"
+msgstr "Outlook.com"
+
+#. Translators: This description is specific to Microsoft
+#. Translators: This description is specific to Yahoo
+#: Postman/PostmanConfigTextHelper.php:166
+#: Postman/PostmanConfigTextHelper.php:228
+msgctxt "Description of the email service OAuth 2.0 Application"
+msgid "an Application"
+msgstr "μια Εφαρμογή"
+
+#. Translators: This description is specific to Microsoft
+#: Postman/PostmanConfigTextHelper.php:170
+msgctxt "Name of the email service portal"
+msgid "Microsoft Developer Center"
+msgstr "Microsoft Developer Center"
+
+#. Translators: This description is specific to Yahoo
+#: Postman/PostmanConfigTextHelper.php:212
+msgctxt "Name of the Application Callback URI"
+msgid "Home Page URL"
+msgstr "URL Αρχικής Σελίδας"
+
+#. Translators: This description is specific to Yahoo
+#: Postman/PostmanConfigTextHelper.php:216
+msgctxt "Name of the Application Callback Domain"
+msgid "Callback Domain"
+msgstr "Τομέας Επανάκλησης (Callback)"
+
+#. Translators: This description is specific to Yahoo
+#: Postman/PostmanConfigTextHelper.php:220
+msgctxt "Name of the email service owner"
+msgid "Yahoo"
+msgstr "Yahoo"
+
+#. Translators: This description is specific to Yahoo
+#: Postman/PostmanConfigTextHelper.php:224
+msgctxt "Name of the email service"
+msgid "Yahoo Mail"
+msgstr "Yahoo Mail"
+
+#. Translators: This description is specific to Yahoo
+#: Postman/PostmanConfigTextHelper.php:232
+msgctxt "Name of the email service portal"
+msgid "Yahoo Developer Network"
+msgstr "Yahoo Developer Network"
+
+#: Postman/PostmanConfigTextHelper.php:261
+msgid "Enter an Outgoing Mail Server with OAuth2 capabilities."
+msgstr "Εισάγετε ένα Διακομιστή Εξερχόμενης Αλληλογραφίας που υποστηρίζει OAuth2."
+
+#: Postman/PostmanConfigTextHelper.php:277
+msgctxt "Name of the Application Callback URI"
+msgid "Redirect URI"
+msgstr "URI ανακατεύθυνσης"
+
+#: Postman/PostmanConfigTextHelper.php:280
+msgctxt "Name of the Application Callback Domain"
+msgid "Website Domain"
+msgstr "Τομέας Ιστότοπου"
+
+#: Postman/PostmanConfigTextHelper.php:304
+msgid "Grant OAuth 2.0 Permission"
+msgstr "Δώστε Άδεια OAuth 2.0"
+
+#: Postman/PostmanInputSanitizer.php:137
+msgid "must be greater than 0"
+msgstr "πρέπει να είναι μεγαλύτερη από 0"
+
+#: Postman/PostmanViewController.php:112
+msgid "An unexpected error occurred"
+msgstr ""
+
+#: Postman/PostmanViewController.php:113
+msgid "Unexpected PHP messages corrupted the Ajax response"
+msgstr "Μη αναμενόμενα μηνύματα PHP αλλοίωσαν την απόκριση του Ajax"
+
+#: Postman/PostmanViewController.php:118
+msgctxt "Press this button to Finish this task"
+msgid "Finish"
+msgstr "Τέλος"
+
+#: Postman/PostmanViewController.php:119
+msgctxt "Press this button to go to the next step"
+msgid "Next"
+msgstr "Επόμενο"
+
+#: Postman/PostmanViewController.php:120
+msgctxt "Press this button to go to the previous step"
+msgid "Previous"
+msgstr "Προηγούμενο"
+
+#: Postman/PostmanViewController.php:132
+msgid "Postman is unable to run. Email delivery is being handled by WordPress (or another plugin)."
+msgstr "Το Postman δεν μπορεί να εκτελεστεί. Η παράδοση των e-mail γίνεται από το WordPress (ή άλλο πρόσθετο)."
+
+#. translators: where %d is the number of emails delivered
+#: Postman/PostmanViewController.php:147
+msgid "Postman has delivered <span style=\"color:green\">%d</span> email."
+msgid_plural "Postman has delivered <span style=\"color:green\">%d</span> emails."
+msgstr[0] "Το Postman έχει παραδώσει  <span style=\\\"color:green\\\">%d</span> email για εσάς."
+msgstr[1] "Το Postman έχει παραδώσει <span style=\\\"color:green\\\">%d</span> email για εσάς."
+
+#: Postman/PostmanViewController.php:150
+msgid "The last %d email attempts are recorded <a href=\"%s\">in the log</a>."
+msgstr "Προβολή αρχείου καταγραφής"
+
+#: Postman/PostmanViewController.php:155
+msgid "Thank-you for choosing Postman!"
+msgstr "Ευχαριστούμε που επιλέξατε το Postman!"
+
+#. translators: where %s is the URL of the Setup Wizard
+#: Postman/PostmanViewController.php:157
+msgid "Let's get started! All users are strongly encouraged to <a href=\"%s\">run the Setup Wizard</a>."
+msgstr "Ας ξεκινήσουμε! Προτείνουμε όλοι οι χρήστες να <a href=\"%s\">εκτελέσουν τον Οδηγό Ρύθμισης</a>."
+
+#: Postman/PostmanViewController.php:158
+msgid "Alternately, <a href=\"%s\">manually configure</a> your own settings and/or modify advanced options."
+msgstr "Εναλλακτικά, <a href=\"%s\">διαμορφώστε χειροκίνητα</a> τις δικές σας ρυθμίσεις και/ή τροποποιήστε τις επιλογές για προχωρημένους."
+
+#. translators: where %s is the URL to the WordPress.org review and ratings
+#. page
+#: Postman/PostmanViewController.php:163
+msgid "Please consider <a href=\"%s\">leaving a review</a> to help spread the word! :D"
+msgstr "Παρακαλούμε <a href=\"%s\">αφήστε μια κριτική</a> για να βοηθήσετε να γίνει γνωστό! :D"
+
+#: Postman/PostmanViewController.php:165
+msgid "Postman needs translators! Please take a moment to <a href=\"%s\">translate a few sentences on-line</a>"
+msgstr ""
+
+#: Postman/PostmanViewController.php:167
+msgid "<b style=\"background-color:yellow\">New for v1.7!</style></b> Send mail with the Mandrill or SendGrid APIs."
+msgstr ""
+
+#: Postman/PostmanViewController.php:191
+msgctxt "Return to main menu link"
+msgid "Back To Main Menu"
+msgstr "Πίσω στο Κεντρικό Μενού"
+
+#: Postman/PostmanViewController.php:198 Postman/PostmanViewController.php:233
+#: Postman/PostmanViewController.php:284
+msgid "Import"
+msgstr "Εισαγωγή"
+
+#: Postman/PostmanViewController.php:199 Postman/PostmanViewController.php:285
+msgid "Export"
+msgstr "Εξαγωγή"
+
+#: Postman/PostmanViewController.php:200 Postman/PostmanViewController.php:286
+msgid "Reset Plugin"
+msgstr ""
+
+#: Postman/PostmanViewController.php:206
+msgid "Copy this data into another instance of Postman to duplicate the configuration."
+msgstr ""
+
+#: Postman/PostmanViewController.php:225
+msgid "Paste data from another instance of Postman here to duplicate the configuration."
+msgstr ""
+
+#: Postman/PostmanViewController.php:228
+msgid "Using the same OAuth 2.0 Client ID and Client Secret from this site at the same time as another site will cause failures."
+msgstr ""
+
+#: Postman/PostmanViewController.php:241
+msgid "This will purge all of Postman's settings, including account credentials and the email log."
+msgstr "Αυτό θα εκκαθαρίσει όλες τις ρυθμίσεις του Postman, συμπεριλαμβανομένων των στοιχείων σύνδεσης λογαριασμών και του αρχείου καταγραφής email."
+
+#: Postman/PostmanViewController.php:241
+msgid "Are you sure?"
+msgstr "Είστε βέβαιοι;"
+
+#: Postman/PostmanViewController.php:261
+msgid "Configuration"
+msgstr "Ρύθμιση"
+
+#: Postman/PostmanViewController.php:262
+msgid "Start the Wizard"
+msgstr "Εκκίνηση του Οδηγού"
+
+#: Postman/PostmanViewController.php:263
+msgid "Show All Settings"
+msgstr ""
+
+#: Postman/PostmanViewController.php:266
+msgctxt "Main Menu"
+msgid "Actions"
+msgstr "Ενέργειες"
+
+#: Postman/PostmanViewController.php:292
+msgctxt "Main Menu"
+msgid "Troubleshooting"
+msgstr "Αντιμετώπιση προβλημάτων"
+
+#: Postman/PostmanViewController.php:296
+msgid "Online Support"
+msgstr "Διαδικτυακή Υποστήριξη"
+
+#. Plugin URI of the plugin/theme
+msgid "https://wordpress.org/plugins/postman-smtp/"
+msgstr "https://wordpress.org/plugins/postman-smtp/"
+
+#. Description of the plugin/theme
+msgid "Email not reliable? Postman is the first and only WordPress SMTP plugin to implement OAuth 2.0 for Gmail, Hotmail and Yahoo Mail. Setup is a breeze with the Configuration Wizard and integrated Port Tester. Enjoy worry-free delivery even if your password changes!"
+msgstr "Το e-mail σας δεν είναι αξιόπιστο; Το Postman είναι το πρώτο και το μοναδικό πρόσθετο SMTP του WordPress που υλοποιεί πιστοποίηση OAuth 2.0 για Gmail, Hotmail και Yahoo Mail. Η ρύθμιση είναι παιχνιδάκι με τον Οδηγό Διαμόρφωσης και την ενσωματωμένη Δοκιμή Θύρας. Απολαύστε παράδοση e-mail χωρίς άγχος ακόμα και αν αλλάξει ο κωδικός σας!"
+
+#. Author of the plugin/theme
+msgid "Jason Hendriks"
+msgstr "Jason Hendriks"
+
+#. Author URI of the plugin/theme
+msgid "http://www.codingmonkey.ca"
+msgstr "http://www.codingmonkey.ca"
+
+#~ msgid "Change the delivery method on the %s!"
+#~ msgstr "Αλλαγή της μεθόδου παράδοσης στο %s!"
+
+#~ msgid "<a href=\"%s\">Configure</a> the plugin."
+#~ msgstr "<a href=\"%s\">Διαμορφώστε</a> το πρόσθετο."
+
+#~ msgctxt "Configuration Section Title"
+#~ msgid "Test Your Setup"
+#~ msgstr "Ελέγξτε τις ρυθμίσεις σας"
+
+#~ msgctxt "eg. TCP Port 25"
+#~ msgid "Port"
+#~ msgstr "Θύρα"
+
+#~ msgid "New for v1.6! Email Log"
+#~ msgstr "Νέο για την v1.6! Καταγραφή e-mail"
+
+#~ msgid "Enable to save a copy of all your emails. Great for troubleshooting or as a backup for messages that get lost. <b>Access the Email Log in the Tools menu.</b>"
+#~ msgstr "Ενεργοποιήστε για αποθήκευση ενός αντιγράφου όλων των e-mail σας. Εξαιρετικό για εντοπισμό προβλημάτων ή για αντίγραφο ασφαλείας μηνυμάτων που χάνονται. <b>Βρείτε την Καταγραφή e-mail στο μενού Εργαλεία.</b>"
+
+#~ msgctxt "The configuration page of the plugin"
+#~ msgid "Settings"
+#~ msgstr "Ρυθμίσεις"
+
+#~ msgid "Postman is <em>not</em> handling email delivery."
+#~ msgstr "Το Postman <em>δεν</em> διαχειρίζεται την παράδοση e-mail."
+
+#~ msgctxt "As in type used: None"
+#~ msgid "None"
+#~ msgstr "Κανένας"
+
+#~ msgctxt "Who do we reply to?"
+#~ msgid "Reply-To"
+#~ msgstr "Απάντηση σε"
+
+#~ msgid "This is the conversation between Postman and your SMTP server. It can be useful for diagnosing problems. <b>DO NOT</b> post it on-line, it may contain your account password."
+#~ msgstr "Αυτή είναι η συζήτηση μεταξύ του Postman και του SMTP διακομιστή σας. Μπορεί να είναι χρήσιμη για διάγνωση προβλημάτων. <b>ΜΗΝ</b> τη δημοσιεύσετε διαδικτυακά, μπορεί να περιέχει τον κωδικό του λογαριασμού σας."
+
+#~ msgid "Postman Email Log"
+#~ msgstr "Καταγραφή email του Postman"
+
+#~ msgid "This is a record of deliveries made to the Mail Submission Agent (MSA). It does not neccessarily indicate sucessful delivery to the recipient."
+#~ msgstr "Αυτό είναι ένα αρχείο παραδόσεων που έγιναν στον Mail Submission Agent (MSA). Δεν σημαίνει απαραίτητα ότι παραδόθηκαν επιτυχώς στον παραλήπτη."
+
+#~ msgid "Warning: An empty subject line can result in delivery failure."
+#~ msgstr "Προειδοποίηση: Κενή γραμμή θέματος μπορεί να καταλήξει σε αποτυχία παράδοσης."
+
+#~ msgctxt "View the transcript of an item from the email log"
+#~ msgid "Transcript"
+#~ msgstr "Μεταγραφή"
+
+#~ msgctxt "Attempt to resend this email"
+#~ msgid "Resend"
+#~ msgstr "Επαναποστολή"
+
+#~ msgctxt "Was sending this email successful or not?"
+#~ msgid "Status"
+#~ msgstr "Κατάσταση"
+
+#~ msgctxt "Transport Name"
+#~ msgid "Gmail API"
+#~ msgstr "Gmail API"
+
+#~ msgctxt "Authentication Type is OAuth 2.0"
+#~ msgid "OAuth 2.0"
+#~ msgstr "OAuth 2.0"
+
+#~ msgid "Postman will send mail via the <b>🔐Gmail API</b> using %s authentication."
+#~ msgstr "To Postman θα στέλνει e-mail μέσω του <b>🔐Gmail API</b> με χρήση πιστοποίησης %s."
+
+#~ msgid "OAuth 2.0 authentication requires a Client ID and Client Secret."
+#~ msgstr "Η πιστοποίηση OAuth 2.0 απαιτεί ένα Client ID και Client Secret."
+
+#~ msgid "Envelope From Address and Message From Address can not be empty."
+#~ msgstr "Η Διεύθυνση Αποστολέα Φακέλου και η Διεύθυνση Αποστολέα Μηνύματος δεν μπορούν να είναι κενές."
+
+#~ msgid "Postman recommends Gmail API configuration on port %d"
+#~ msgstr "Το Postman προτείνει τη ρύθμιση του Gmail API στη θύρα %d"
+
+#~ msgctxt "Transport Name"
+#~ msgid "SMTP"
+#~ msgstr "SMTP"
+
+#~ msgctxt "as in \"There is no Authentication\""
+#~ msgid "no"
+#~ msgstr "καμία"
+
+#~ msgctxt "As in type used: CRAM-MD5"
+#~ msgid "CRAM-MD5"
+#~ msgstr "CRAM-MD5"
+
+#~ msgctxt "As in type used: Login"
+#~ msgid "Login"
+#~ msgstr "Σύνδεση"
+
+#~ msgctxt "As in type used: Plain"
+#~ msgid "Plain"
+#~ msgstr "Απλή"
+
+#~ msgctxt "This authentication type is password-based"
+#~ msgid "Password (%s)"
+#~ msgstr "Κωδικός (%s)"
+
+#~ msgid "Password authentication (Plain/Login/CRAM-MD5) requires a username and password."
+#~ msgstr "Η πιστοποίηση με κωδικό (Απλή/Σύνδεση/CRAM-MD5) απαιτεί όνομα χρήστη και κωδικό."
+
+#~ msgid "OAuth 2.0 authentication requires a supported OAuth 2.0-capable Outgoing Mail Server, %1$s, and %2$s."
+#~ msgstr "Η πιστοποίηση OAuth 2.0 απαιτεί ένα υποστηριζόμενο Διακομιστή Εξερχόμενης Αλληλογραφίας με δυνατότητες OAuth 2.0, %1$s και%2$s."
+
+#~ msgid "Your recommended settings are %1$s with %2$s authentication to host %4$s on port %3$d."
+#~ msgstr "Οι προτεινόμενες ρυθμίσεις σας είναι %1$s με πιστοποίηση %2$s στο διακομιστή %4$s στη θύρα %3$d."
+
+#~ msgid "The selected transport '%s' is unavailable. The external plugin was probably deactivated."
+#~ msgstr "Η επιλεγμένη μέθοδος '%s' δεν είναι διαθέσιμη. Το εξωτερικό πρόσθετο πιθανώς απενεργοποιήθηκε."
+
+#~ msgid "WordPress is still handling email delivery, <em>not</em> Postman."
+#~ msgstr "Το Postman <em>δεν</em> διαχειρίζεται την παράδοση e-mail."
+
+#~ msgctxt "The Transport is the method for sending mail, SMTP or API"
+#~ msgid "Transport"
+#~ msgstr "Μέθοδος αποστολής"
+
+#~ msgctxt "Configuration Section Title"
+#~ msgid "Transport Settings"
+#~ msgstr "Ρυθμίσεις μεθόδου αποστολής"
+
+#~ msgctxt "Authentication proves the user's identity"
+#~ msgid "Authentication"
+#~ msgstr "Πιστοποίηση"
+
+#~ msgctxt "Configuration Input Field"
+#~ msgid "Username"
+#~ msgstr "Όνομα χρήστη"
+
+#~ msgctxt "The Envelope Sender Email Address"
+#~ msgid "Envelope From Address"
+#~ msgstr "Ηλ. Διεύθυνση Φακέλου Από"
+
+#~ msgctxt "The Message Sender Email Address"
+#~ msgid "Message From Address"
+#~ msgstr "Ηλ. Διεύθυνση Μηνύματος Από"
+
+#~ msgctxt "The email address to address replies to"
+#~ msgid "Reply-To"
+#~ msgstr "Ηλ. Διεύθυνση Απάντησης Σε"
+
+#~ msgid "Maximum Number of Log Entries"
+#~ msgstr "Μέγιστος Αριθμός Καταχωρήσεων Καταγραφής"
+
+#~ msgid "Maximum Number of Lines in a Transcript"
+#~ msgstr "Μέγιστος Αριθμός Γραμμών σε μια Μεταγραφή"
+
+#~ msgid "Configure the communication with the Mail Submission Agent (MSA):"
+#~ msgstr "Διαμορφώστε την επικοινωνία με τον Mail Submission Agent (MSA):"
+
+#~ msgid "Enter the account username (email address) and password:"
+#~ msgstr "Εισάγετε το όνομα χρήστη του λογαριασμού (διεύθυνση e-mail) και τον κωδικό:"
+
+#~ msgid "This will purge all of Postman's settings, including SMTP server info, username/password and OAuth Credentials."
+#~ msgstr "Αυτό θα διαγράψει όλες τις ρυθμίσεις του Postman, συμπεριλαμβανομένων των πληροφοριών διακομιστή SMTP, ονόματος χρήστη/κωδικού και Στοιχείων Ταυτοποίησης OAuth."
+
+#~ msgid "Log Level specifies the level of detail written to the WordPress log - view the log with <a href=\"%s\">Debug</a>. Delivery mode offers options useful for developing or testing."
+#~ msgstr "Το επίπεδο καταγραφής καθορίζει το επίπεδο λεπτομέρειας που καταγράφεται στο WordPress - δείτε το αρχείο καταγραφής με <a href=\"%s\">Αποσφαλμάτωση</a>. Η κατάσταση Παράδοση προσφέρει επιλογές χρήσιμες για ανάπτυξη ή δοκιμές."
+
+#~ msgctxt "Log Level"
+#~ msgid "Off"
+#~ msgstr "Καμία"
+
+#~ msgctxt "Log Level"
+#~ msgid "Trace"
+#~ msgstr "Ανίχνευση"
+
+#~ msgctxt "Log Level"
+#~ msgid "Debug"
+#~ msgstr "Αποσφαλμάτωση"
+
+#~ msgctxt "Log Level"
+#~ msgid "Info"
+#~ msgstr "Πληροφορίες"
+
+#~ msgctxt "Log Level"
+#~ msgid "Warning"
+#~ msgstr "Προειδοποίηση"
+
+#~ msgctxt "Log Level"
+#~ msgid "Error"
+#~ msgstr "Σφάλμα"
+
+#~ msgid "<b style=\"color:red\">Attention!</b> Open the <a href=\"%1$s\" target=\"_new\">%2$s</a>, create <b>%7$s</b> with the values displayed below, and copy the generated %3$s and %4$s here."
+#~ msgstr "<b style=\"color:red\">Προσοχή!</b> Ανοίξτε το <a href=\"%1$s\" target=\"_new\">%2$s</a>, δημιουργήστε <b>%7$s</b> με τις τιμές που εμφανίζονται παρακάτω και αντιγράψτε τα παραγόμενα %3$s και %4$s εδώ."
+
+#~ msgctxt "Command to initiate OAuth authentication"
+#~ msgid "Grant OAuth Permission"
+#~ msgstr "Δώστε Άδεια OAuth"
+
+#~ msgid " must be greater than 0"
+#~ msgstr "πρέπει να είναι μεγαλύτερη από 0"
+
+#~ msgctxt "Page Title"
+#~ msgid "Postman Setup"
+#~ msgstr "Ρύθμιση του Postman"
+
+#~ msgid "Having trouble? You can ask for help on our <a href=\"%1$s\" target=\"_blank\">Support Forum</a>. To get the help you need quickly, please post the <a href=\"%s\">Diagnostic Data</a> with your question. You can also check the <a href=\"%3$s\">FAQ</a> and <a href=\"%4$s\">Error Messages</a> pages for answers."
+#~ msgstr "Αντιμετωπίζετε προβλήματα; Μπορείτε να ζητήσετε βοήθεια στο <a href=\"%1$s\" target=\"_blank\">Φόρουμ ΥΠοστήριξης</a>. Για να πάρετε τη βοήθεια που θέλετε γρήγορα, παρακαλούμε συμπεριλάβετε τα <a href=\"%s\">Διαγνωστικά Δεδομένα</a> στην ερώτησή σας. Μπορείτε επίσης να δείτε τις <a href=\"%3$s\">Συχνές Ερωησεις</a> και τις σελίδες <a href=\"%4$s\">Μηνύματα Σφάλματος</a> για απαντήσεις."
+
+#~ msgctxt "Email Test Status"
+#~ msgid "Ajax Error"
+#~ msgstr "Σφάλμα Ajax"
+
+#~ msgid "Unexpected PHP messages corrupted the Ajax response:"
+#~ msgstr "Μη αναμενόμενα μηνύματα PHP αλλοίωσαν την απόκριση του Ajax:"
+
+#~ msgid "Warning: connected to %1$s instead of %2$s."
+#~ msgstr "Προειδοποίηση: συνδέθηκε στον %1$s αντί για τον %2$s."
+
+#~ msgid "Port %d can be used to send <b>Gmail</b> with the Gmail API."
+#~ msgstr "Η θύρα %d μπορεί να χρησιμοποιηθεί για αποστολή <b>Gmail</b> με το Gmail API."
+
+#~ msgid "WordPress (or another plugin) is currently handling email delivery, <em>not</em> Postman."
+#~ msgstr "Το WordPress (ή άλλο πρόσθετο) διαχειρίζεται την παράδοση e-mail αυτή τη στιγμή, <em>όχι</em> το Postman."
+
+#~ msgctxt "Page Title"
+#~ msgid "Manual Configuration"
+#~ msgstr "Χειροκίνητη Διαμόρφωση"
+
+#~ msgctxt "Manual Configuration Tab Label"
+#~ msgid "Account"
+#~ msgstr "Λογαριαμός"
+
+#~ msgctxt "Manual Configuration Tab Label"
+#~ msgid "Message"
+#~ msgstr "Μήνυμα"
+
+#~ msgctxt "Manual Configuration Tab Label"
+#~ msgid "Logging"
+#~ msgstr "Σύνδεση"
+
+#~ msgctxt "Manual Configuration Tab Label"
+#~ msgid "Advanced"
+#~ msgstr "Για Προχωρημένους"
+
+#~ msgid "Delete plugin settings"
+#~ msgstr "Διαγραφή ρυθμίσεων προσθέτου"
+
+#~ msgid "This will purge all of Postman's settings, including account credentials and the mail log."
+#~ msgstr "Αυτό θα εκκαθαρίσει όλες τις ρυθμίσεις του Postman, συμπεριλαμβανομένων των στοιχείων σύνδεσης λογαριασμών και του αρχείου καταγραφής email."
+
+#~ msgctxt "Button Label"
+#~ msgid "Delete All Data"
+#~ msgstr "Διαγραφή Όλων των Δεδομένων"
+
+#~ msgctxt "A testing tool which determines connectivity to the Internet"
+#~ msgid "Connectivity Test"
+#~ msgstr "Τεστ Συνδεσιμότητας"
+
+#~ msgctxt "The port number"
+#~ msgid "Port %s"
+#~ msgstr "Θύρα %s"
+
+#~ msgctxt "Is it possible to create network connections to the Internet?"
+#~ msgid "Outbound to Internet"
+#~ msgstr "Εξερχόμενη σύνδεση προς το Διαδίκτυο"
+
+#~ msgctxt "What service is available?"
+#~ msgid "Service Available"
+#~ msgstr "Διαθέσιμη Υπηρεσία"
+
+#~ msgctxt "What is this server's ID?"
+#~ msgid "ID"
+#~ msgstr "ID"
+
+#~ msgid "STARTTLS"
+#~ msgstr "STARTTLS"
+
+#~ msgctxt "Short for Authentication"
+#~ msgid "Auth"
+#~ msgstr "Πιστοπ."
+
+#~ msgctxt "Authentication Type"
+#~ msgid "None"
+#~ msgstr "Καμμία"
+
+#~ msgid "* Port 443 tests against googleapis.com, not the SMTP hostname you enter."
+#~ msgstr "* Η θύρα 443 τεστάρει για το googleapis.com, όχι για το όνομα διακομιστή SMTP που εισάγετε."
+
+#~ msgid "A port with Service Available <span style=\"color:red\">\"No\"</span> indicates one or more of these issues:"
+#~ msgstr "Θύρα με Διαθέσιμη Υπηρεσία <span style=\"color:red\">\"Όχι\"</span> υποδεικνύει ένα ή περισσότερα από αυτά τα προβλήματα:"
+
+#~ msgid "Your <a href=\"%s\">PHP configuration</a> is preventing outbound connections"
+#~ msgstr "Η <a href=\"%s\">διαμόρφωση της PHP</a> σας εμποδίζει τις εξερχόμενες συνδέσεις"
+
+#~ msgid "Your <a href=\"%s\">WordPress configuration</a> is preventing outbound connections"
+#~ msgstr "Η <a href=\"%s\">διαμόρφωση του WordPress</a> σας εμποδίζει εξερχόμενες συνδέσεις"
+
+#~ msgctxt "Adjust the Postman settings by hand"
+#~ msgid "Show Advanced Configuration"
+#~ msgstr "Εμφάνιση Διαμόρφωσης για Προχωρημένους"
+
+#~ msgid "Disable"
+#~ msgstr "Απενεργοποίηση"
+
+#~ msgctxt "Page Title"
+#~ msgid "Postman Setup Wizard"
+#~ msgstr "Οδηγός Ρύθμισης του Postman"
+
+#~ msgid "<b>Error</b>: Your email address <b>requires</b> access to a remote SMTP server blocked by GoDaddy. Use a different e-mail address."
+#~ msgstr "<b>Σφάλμα</b>: Η διεύθυνση email σας <b>απαιτεί</b> πρόσβαση σε απομακρυσμένο διακομιστή SMTP που αποκλείεται από το GoDaddy. Χρησιμοποιήστε διαφορετική διεύθυνση e-mail."
+
+#~ msgid "<b>Warning</b>: If you own this domain, make sure it has an <a href=\"%s\">SPF record authorizing GoDaddy</a> as a relay, or you will have delivery problems."
+#~ msgstr "<b>Προειδοποίηση</b>: Αν σας ανήκει αυτός ο τομέας, βεβαιωθείτε ότι έχει μια <a href=\"%s\">καταχώρηση SPF που εξουσιοδοτεί το GoDaddy</a> ως διαμεσολαβητή αλλιώς θα έχετε προβλήματα παράδοσης."
+
+#~ msgctxt "Wizard Step Title"
+#~ msgid "How will the connection to the MSA be established?"
+#~ msgstr "Πως θα γίνει η σύνδεση με τον MSA;"
+
+#~ msgid "Warning: This configuration option will send your authorization credentials in the clear."
+#~ msgstr "Προειδοποίηση: Αυτή η επιλογή θα στείλει τα στοιχεία σύνδεσής σας χωρίς κρυπτογράφηση."
+
+#~ msgctxt "Wizard Step Title"
+#~ msgid "How will you prove your identity to the MSA?"
+#~ msgstr "Πως θα αποδείξετε την ταυτότητά σας στον MSA;"
+
+#~ msgid "Enter your credentials. Your username is often your email address."
+#~ msgstr "Εισάγετε τα στοιχεία σας σύνδεσης. Το όνομα χρήστη συχνά είναι το e-mail σας."
+
+#~ msgid "Examine the SMTP Session Transcript if you need to."
+#~ msgstr "Εξετάστε τη Μεταγραφή Συνεδρίας SMTP αν χρειάζεται."
+
+#~ msgid "SMTP Session Transcript"
+#~ msgstr "Μεταγραφή Συνεδρίας SMTP"
+
+#~ msgid "Welcome"
+#~ msgstr "Καλώς ήλθατε"
+
+#~ msgid "The <b>Envelope</b> From address identifies the account owner to the SMTP server."
+#~ msgstr "Η διεύθυνση  <b>Φάκελος</b> Από αφορά τον κάτοχο του λογαριασμού στον διακομιστή SMTP."
+
+#~ msgid "The <b>Message</b> From address identifies the sender to the recipient. Change this when you are sending on behalf of someone else, for example to use Google's <a href=\"%s\">Send Mail As</a> feature. Themes and other plugins, especially Contact Forms, are permitted to modify this field."
+#~ msgstr "Η διεύθυνση <b>Μήνυμα</b> Από είναι αυτή που βλέπει ο παραλήπτης ως αποστολέα. Αλλάξτε τη όταν στέλνετε εκ μέρους κάποιου άλλου, παραδείγματος χάριν για να χρησιμοποιήσετε τη δυνατότητα  <a href=\"%s\">Αποστολή Αλληλογραιας Ως</a> της Google. Τα θέματα και άλλα πρόσθετα επιτρέπεται να τροποποιούν αυτό το πεδίο."
+
+#~ msgid "Postman has delivered <span style=\"color:green\">%d</span> email for you."
+#~ msgid_plural "Postman has delivered <span style=\"color:green\">%d</span> emails for you."
+#~ msgstr[0] "Το Postman έχει παραδώσει  <span style=\"color:green\">%d</span> email για εσάς."
+#~ msgstr[1] "Το Postman έχει παραδώσει <span style=\"color:green\">%d</span> email για εσάς."
+
+#~ msgid "View the log"
+#~ msgstr "Προβολή αρχείου καταγραφής"
+
+#~ msgctxt "Manual Configuration Tab Label"
+#~ msgid "Import/Export"
+#~ msgstr "Εισαγωγή/Εξαγωγή"

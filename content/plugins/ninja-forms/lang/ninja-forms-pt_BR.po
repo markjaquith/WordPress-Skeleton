@@ -1,0 +1,3685 @@
+#
+# Translators:
+# Daniel Ribeiro <danielbr86@gmail.com>, 2015
+msgid ""
+msgstr ""
+"Project-Id-Version: Ninja Forms\n"
+"POT-Creation-Date: 2015-03-02 21:39-0500\n"
+"PO-Revision-Date: 2015-03-02 22:05-0500\n"
+"Last-Translator: Daniel Ribeiro <danielbr86@gmail.com>\n"
+"Language-Team: Portuguese (Brazil) (http://www.transifex.com/projects/p/"
+"ninja-forms/language/pt_BR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pt_BR\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;_x;_n;_ex\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: ninja-forms.php:167 ninja-forms.php:179
+msgid "Cheatin&#8217; huh?"
+msgstr "Trapaceando, han?"
+
+#: ninja-forms.php:675
+#, php-format
+msgid "Fields marked with an %s*%s are required"
+msgstr "Campos marcados com %s*%s são requeridos"
+
+#: ninja-forms.php:677
+msgid "Please ensure all required fields are completed."
+msgstr ""
+"Por favor, certifique-se de que todos os campos obrigatórios estão "
+"preenchidos."
+
+#: ninja-forms.php:678
+msgid "This is a required field"
+msgstr "Este é um campo obrigatório"
+
+#: ninja-forms.php:679
+msgid "Please answer the anti-spam question correctly."
+msgstr "Por favor responda a pergunta anti-spam corretamente."
+
+#: ninja-forms.php:680
+msgid "Please leave the spam field blank."
+msgstr "Por favor, deixar o campo spam em branco."
+
+#: ninja-forms.php:681
+msgid "Please wait to submit the form."
+msgstr "Por favor, aguarde a submissão do formulário."
+
+#: ninja-forms.php:682
+msgid "You cannot submit the form without Javascript enabled."
+msgstr ""
+"Você não pode submeter o formulário sem que o Javascript esteja ativado."
+
+#: ninja-forms.php:683 includes/fields/textbox.php:309
+msgid "Please enter a valid email address."
+msgstr "Por favor entre com um endereço de email válido."
+
+#: ninja-forms.php:684 includes/admin/step-processing.php:11
+msgid "Processing"
+msgstr "Processando"
+
+#: ninja-forms.php:685
+msgid "The passwords provided do not match."
+msgstr "As senhas informadas não conferem."
+
+#: classes/notification-email.php:19
+msgid "Email"
+msgstr "E-mail"
+
+#: classes/notification-email.php:56
+msgid "From Name"
+msgstr "Nome do Remetente"
+
+#: classes/notification-email.php:58
+msgid "Name or fields"
+msgstr "Nome ou campos"
+
+#: classes/notification-email.php:59
+msgid "Email will appear to be from this name."
+msgstr "﻿E-mail irá aparecer com este remetente."
+
+#: classes/notification-email.php:63
+msgid "From Address"
+msgstr "Endereço do Remetente"
+
+#: classes/notification-email.php:65 classes/notification-email.php:141
+msgid "One email address or field"
+msgstr "Um endereço de e-mail ou campo"
+
+#: classes/notification-email.php:66
+msgid "Email will appear to be from this email address."
+msgstr "﻿E-mail irá parecer ter sido enviado ser a partir deste endereço."
+
+#: classes/notification-email.php:70
+msgid "To"
+msgstr "Para"
+
+#: classes/notification-email.php:72 classes/notification-email.php:147
+#: classes/notification-email.php:153
+msgid "Email addresses or search for a field"
+msgstr "Um endereço de e-mail ou campo"
+
+#: classes/notification-email.php:73
+msgid "Who should this email be sent to?"
+msgstr "Para quem este e-mail deverá ser enviado?"
+
+#: classes/notification-email.php:77
+msgid "Subject"
+msgstr "Assunto"
+
+#: classes/notification-email.php:79
+msgid "Subject Text or search for a field"
+msgstr "Assunto ou busca para um campo"
+
+#: classes/notification-email.php:80
+msgid "This will be the subject of the email."
+msgstr "Este será o assunto do e-mail."
+
+#: classes/notification-email.php:84
+msgid "Email Message"
+msgstr "Mensagem do e-mail"
+
+#: classes/notification-email.php:95
+msgid "Attachments"
+msgstr "Anexos"
+
+#: classes/notification-email.php:101
+msgid "Submission CSV"
+msgstr "Submissão CSV"
+
+#: classes/notification-email.php:126 includes/admin/edit-field/li.php:428
+#: includes/admin/pages/ninja-forms-settings/tabs/general-settings/general-settings.php:57
+msgid "Advanced Settings"
+msgstr "Configurações Avançadas"
+
+#: classes/notification-email.php:130
+msgid "Format"
+msgstr "Formato"
+
+#: classes/notification-email.php:133 includes/fields/calc.php:95
+msgid "HTML"
+msgstr "HTML"
+
+#: classes/notification-email.php:134
+msgid "Plain Text"
+msgstr "Texto Plano"
+
+#: classes/notification-email.php:139
+msgid "Reply To"
+msgstr "Responder Para"
+
+#: classes/notification-email.php:145
+msgid "Cc"
+msgstr "Cc (Com cópia)"
+
+#: classes/notification-email.php:151
+msgid "Bcc"
+msgstr "Cco (Com Cópia Oculta)"
+
+#: classes/notification-redirect.php:19
+#: includes/admin/upgrades/convert-notifications.php:280
+msgid "Redirect"
+msgstr "Encaminhar"
+
+#: classes/notification-redirect.php:32
+msgid "Url"
+msgstr "Url"
+
+#: classes/notification-success-message.php:19
+#: includes/admin/upgrades/convert-notifications.php:271
+msgid "Success Message"
+msgstr "Mensagem de Sucesso"
+
+#: classes/notification-success-message.php:35
+msgid "Before Form"
+msgstr "Antes do Formulário"
+
+#: classes/notification-success-message.php:36
+msgid "After Form"
+msgstr "Após o Formulário"
+
+#: classes/notification-success-message.php:41
+msgid "Location"
+msgstr "Localização"
+
+#: classes/notification-success-message.php:55
+msgid "Message"
+msgstr "Mensagem"
+
+#: classes/notification.php:116
+msgid "duplicate"
+msgstr "duplicar"
+
+#: classes/notifications-table.php:117 classes/notifications-table.php:222
+#: classes/notifications.php:170
+msgid "Deactivate"
+msgstr "Desativar"
+
+#: classes/notifications-table.php:117 classes/notifications-table.php:221
+#: classes/notifications.php:169
+msgid "Activate"
+msgstr "Ativar"
+
+#: classes/notifications-table.php:129 classes/subs-cpt.php:389
+#: includes/admin/pages/ninja-forms/tabs/form-list/form-list.php:189
+msgid "Edit"
+msgstr "Editar"
+
+#: classes/notifications-table.php:130 classes/notifications-table.php:223
+#: includes/admin/pages/ninja-forms/tabs/form-list/form-list.php:103
+#: includes/admin/pages/ninja-forms/tabs/form-list/form-list.php:190
+msgid "Delete"
+msgstr "Deletar"
+
+#: classes/notifications-table.php:131
+#: includes/admin/pages/ninja-forms/tabs/form-list/form-list.php:191
+msgid "Duplicate"
+msgstr "Duplicar"
+
+#: classes/notifications-table.php:175
+msgid "Name"
+msgstr "Nome"
+
+#: classes/notifications-table.php:176 classes/notifications.php:259
+msgid "Type"
+msgstr "Tipo"
+
+#: classes/notifications-table.php:177
+#: includes/admin/pages/ninja-forms/tabs/form-list/form-list.php:161
+#: includes/admin/pages/ninja-forms/tabs/form-list/form-list.php:221
+msgid "Date Updated"
+msgstr "Datas Atualizadas"
+
+#: classes/notifications-table.php:241
+msgid "- View All Types"
+msgstr "- Ver Todos os Tipos"
+
+#: classes/notifications.php:78 classes/notifications.php:219
+msgid "Email & Actions"
+msgstr "Email & Ações"
+
+#: classes/notifications.php:219 classes/subs-cpt.php:118
+#: includes/admin/admin.php:6 includes/admin/admin.php:101
+#: includes/fields/list.php:149
+msgid "Add New"
+msgstr "Adicionar Novo"
+
+#: classes/notifications.php:242
+msgid "New Action"
+msgstr "Nova Ação"
+
+#: classes/notifications.php:245
+msgid "Edit Action"
+msgstr "Editar Ação"
+
+#: classes/notifications.php:249
+msgid "Back To List"
+msgstr "Voltar Para a Lista"
+
+#: classes/notifications.php:255
+msgid "Action Name"
+msgstr "Nome da Ação"
+
+#: classes/notifications.php:333 classes/notifications.php:338
+msgid "Action Updated"
+msgstr "Ação Atualizada"
+
+#: classes/notifications.php:499
+msgid "Select a field or type to search"
+msgstr "Selecione um campo ou digite para pesquisar"
+
+#: classes/notifications.php:512
+msgid "Insert Field"
+msgstr "Inserir Campo"
+
+#: classes/notifications.php:512
+msgid "Insert All Fields"
+msgstr "Inserir Todos os Campos"
+
+#: classes/subs-cpt.php:103
+msgid "Please select a form to view submissions"
+msgstr "Por favor, selecione um formulário para visualizar as submissões"
+
+#: classes/subs-cpt.php:105
+msgid "No Submissions Found"
+msgstr "Nenhuma Submissão Encontrada"
+
+#: classes/subs-cpt.php:108 classes/subs-cpt.php:195
+#: includes/admin/admin.php:120
+#: includes/admin/pages/ninja-forms-impexp/tabs/impexp-subs/impexp-subs.php:6
+msgid "Submissions"
+msgstr "Submissões"
+
+#: classes/subs-cpt.php:117
+msgid "Submission"
+msgstr "Submissão"
+
+#: classes/subs-cpt.php:119
+msgid "Add New Submission"
+msgstr "Adicionar Nova Submissão"
+
+#: classes/subs-cpt.php:120
+msgid "Edit Submission"
+msgstr "Editar Submissão"
+
+#: classes/subs-cpt.php:121
+msgid "New Submission"
+msgstr "Nova Submissão"
+
+#: classes/subs-cpt.php:122
+msgid "View Submission"
+msgstr "Visualizar Submissão"
+
+#: classes/subs-cpt.php:123
+msgid "Search Submissions"
+msgstr "Pesquisar Submissões"
+
+#: classes/subs-cpt.php:125
+msgid "No Submissions Found In The Trash"
+msgstr "Nenhuma Submissão Encontrada Na Lixeira"
+
+#: classes/subs-cpt.php:279 classes/subs-cpt.php:991 classes/subs.php:174
+msgid "#"
+msgstr "#"
+
+#: classes/subs-cpt.php:315 includes/fields/textbox.php:186
+msgid "Date"
+msgstr "Data"
+
+#: classes/subs-cpt.php:389
+msgid "Edit this item"
+msgstr "Editar este item"
+
+#: classes/subs-cpt.php:390
+msgid "Export this item"
+msgstr "Exportar este item"
+
+#: classes/subs-cpt.php:390 classes/subs-cpt.php:690 classes/subs-cpt.php:691
+msgid "Export"
+msgstr "Exportar"
+
+#: classes/subs-cpt.php:396
+msgid "Move this item to the Trash"
+msgstr "Mover este item para a Lixeira"
+
+#: classes/subs-cpt.php:396
+msgid "Trash"
+msgstr "Lixeira"
+
+#: classes/subs-cpt.php:402
+msgid "Restore this item from the Trash"
+msgstr "Restaurar este item da Lixeira"
+
+#: classes/subs-cpt.php:402
+msgid "Restore"
+msgstr "Restaurar"
+
+#: classes/subs-cpt.php:403
+msgid "Delete this item permanently"
+msgstr "Deletar este item permanentemente"
+
+#: classes/subs-cpt.php:403
+msgid "Delete Permanently"
+msgstr "Deletar permanentemente"
+
+#: classes/subs-cpt.php:410
+msgid "Unpublished"
+msgstr "Não publicado"
+
+#: classes/subs-cpt.php:420
+#, php-format
+msgid "%s ago"
+msgstr "%s atrás"
+
+#: classes/subs-cpt.php:432 classes/subs-cpt.php:996
+msgid "Submitted"
+msgstr "Enviado"
+
+#: classes/subs-cpt.php:492
+#: includes/admin/pages/ninja-forms-impexp/tabs/impexp-forms/impexp-forms.php:67
+msgid "Select a form"
+msgstr "Selecionar um formulário"
+
+#: classes/subs-cpt.php:501
+msgid "Begin Date"
+msgstr "Data de Início"
+
+#: classes/subs-cpt.php:502
+msgid "End Date"
+msgstr "Data de Fim"
+
+#: classes/subs-cpt.php:619
+#, php-format
+msgid "%s submission updated."
+msgstr "%s submissão atualizada."
+
+#: classes/subs-cpt.php:620
+#, php-format
+msgid "%s submission not updated, somebody is editing it."
+msgstr "%s submissão não atualizada porque está sendo editada por alguém."
+
+#: classes/subs-cpt.php:621
+#, php-format
+msgid "%s submission permanently deleted."
+msgstr "%s submissão permanentemente deletada."
+
+#: classes/subs-cpt.php:622
+#, php-format
+msgid "%s submission moved to the Trash."
+msgstr "%s submissão movida para a Lixeira."
+
+#: classes/subs-cpt.php:623
+#, php-format
+msgid "%s submission restored from the Trash."
+msgstr "%s submissão restaurada da Lixeira."
+
+#: classes/subs-cpt.php:646
+msgid "updated"
+msgstr "atualizado"
+
+#: classes/subs-cpt.php:707
+msgid "Download All Submissions"
+msgstr "Baixar todas as Submissões"
+
+#: classes/subs-cpt.php:805
+msgid "Back to list"
+msgstr "Voltar para a lista"
+
+#: classes/subs-cpt.php:863
+msgid "User Submitted Values"
+msgstr "Valores submetidos pelo usuário:"
+
+#: classes/subs-cpt.php:865
+msgid "Submission Stats"
+msgstr "Estatística de Submissão"
+
+#: classes/subs-cpt.php:895
+msgid "Field"
+msgstr "Campo"
+
+#: classes/subs-cpt.php:896 includes/fields/list.php:103
+#: includes/fields/list.php:588
+msgid "Value"
+msgstr "Valor"
+
+#: classes/subs-cpt.php:995
+msgid "Status"
+msgstr "Status"
+
+#: classes/subs-cpt.php:1000
+#: includes/admin/pages/ninja-forms/tabs/form-list/form-list.php:120
+msgid "Form"
+msgstr "Formulário"
+
+#: classes/subs-cpt.php:1005
+msgid "Submitted on"
+msgstr "Submetido em"
+
+#: classes/subs-cpt.php:1011
+msgid "Modified on"
+msgstr "Modificado em"
+
+#: classes/subs-cpt.php:1019
+msgid "Submitted By"
+msgstr "Submetido Por"
+
+#: classes/subs-cpt.php:1033 classes/subs-cpt.php:1034
+msgid "Update"
+msgstr "Atualizar"
+
+#: classes/subs.php:177
+msgid "Date Submitted"
+msgstr "Data de Submissão"
+
+#: includes/activation.php:218
+msgid ""
+"Ninja Forms cannot be network activated. Please visit each site's dashboard "
+"to activate the plugin."
+msgstr ""
+"Ninja Forms não pode ser ativado em rede. Por favor, visite o painel/"
+"dashboard de cada site para ativar o plugin."
+
+#: includes/class-extension-updater.php:65
+msgid "You will find this included with your purchase email."
+msgstr "Você encontrará isto incluído com seu e-mail de compra."
+
+#: includes/class-extension-updater.php:75
+msgid "Key"
+msgstr "Chave"
+
+#: includes/class-extension-updater.php:145
+msgid "Could not activate license. Please verify your license key"
+msgstr ""
+"Não foi possível ativar a licença. Por favor verifique a sua chave de licença"
+
+#: includes/class-extension-updater.php:262
+msgid "Deactivate License"
+msgstr "Desativar Licença"
+
+#: includes/deprecated.php:464 includes/deprecated.php:473
+msgid "User Submitted Values:"
+msgstr "Valores submetidos pelo usuário:"
+
+#: includes/deprecated.php:662
+msgid "Thank you for filling out this form."
+msgstr "Obrigado por preencher este formulário."
+
+#: includes/field-type-groups.php:5
+msgid "Standard Fields"
+msgstr "Campos Padronizados"
+
+#: includes/field-type-groups.php:10
+#: includes/admin/pages/ninja-forms/tabs/field-settings/sidebars/layout-fields.php:6
+msgid "Layout Elements"
+msgstr "Elementos de Layout"
+
+#: includes/field-type-groups.php:19
+msgid "Post Creation"
+msgstr "Criação de Post"
+
+#: includes/functions.php:526
+#, php-format
+msgid ""
+"Please rate %sNinja Forms%s %s on %sWordPress.org%s to help us keep this "
+"plugin free.  Thank you from the WP Ninjas team!"
+msgstr ""
+"Por favor avalie %sNinja Forms%s %s no %sWordPress.org%s para ajudar-nos a "
+"manter este plugin gratuito. A equipe WP Ninjas agradece!"
+
+#: includes/widget.php:14 includes/admin/welcome.php:360
+msgid "Ninja Forms Widget"
+msgstr "Ninja Forms Widget"
+
+#: includes/widget.php:89
+msgid "Display Title"
+msgstr "Título"
+
+#: includes/widget.php:96 includes/admin/post-metabox.php:39
+#: includes/admin/edit-field/desc.php:40
+#: includes/admin/edit-field/user-info-fields.php:27
+#: includes/fields/hidden.php:52 includes/fields/number.php:72
+#: includes/fields/textbox.php:137 includes/fields/textbox.php:184
+msgid "None"
+msgstr "Nenhum"
+
+#: includes/admin/admin.php:4 includes/admin/admin.php:5
+#: includes/admin/admin.php:101
+#: includes/admin/pages/ninja-forms/tabs/form-list/form-list.php:120
+#: includes/admin/pages/ninja-forms-impexp/tabs/impexp-forms/impexp-forms.php:6
+msgid "Forms"
+msgstr "Formulários"
+
+#: includes/admin/admin.php:5
+#: includes/admin/pages/ninja-forms/tabs/form-list/form-list.php:28
+msgid "All Forms"
+msgstr "Todos os Formulários"
+
+#: includes/admin/admin.php:8
+msgid "Ninja Forms Upgrades"
+msgstr "Upgrades - Ninja Forms"
+
+#: includes/admin/admin.php:8
+msgid "Upgrades"
+msgstr "Upgrades"
+
+#: includes/admin/admin.php:29
+msgid "Import/Export"
+msgstr "Importar/Exportar"
+
+#: includes/admin/admin.php:29
+msgid "Import / Export"
+msgstr "Importar / Exportar"
+
+#: includes/admin/admin.php:30
+msgid "Ninja Form Settings"
+msgstr "Opções do Ninja Form"
+
+#: includes/admin/admin.php:30 includes/admin/welcome.php:331
+#: includes/admin/pages/ninja-forms/tabs/form-settings/form-settings.php:7
+msgid "Settings"
+msgstr "Configurações"
+
+#: includes/admin/admin.php:31
+msgid "System Status"
+msgstr "Status do Sistemas"
+
+#: includes/admin/admin.php:32
+msgid "Ninja Form Extensions"
+msgstr "Extensões do Ninja Form"
+
+#: includes/admin/admin.php:32
+msgid "Extend"
+msgstr "Estender"
+
+#: includes/admin/admin.php:119
+msgid "Preview"
+msgstr "Pre-visualizar"
+
+#: includes/admin/admin.php:178 includes/admin/scripts.php:70
+#: includes/admin/pages/ninja-forms/tabs/field-settings/edit-field-ul.php:7
+#: includes/admin/pages/ninja-forms/tabs/field-settings/edit-field-ul.php:19
+msgid "Save"
+msgstr "Salvar"
+
+#: includes/admin/ajax.php:177
+msgid "character(s) left"
+msgstr "caractere(s) restantes"
+
+#: includes/admin/ajax.php:626
+msgid "Do not show these terms"
+msgstr "Não mostrar estes termos"
+
+#: includes/admin/display-screen-options.php:87
+msgid "Save Options"
+msgstr "Salvar Opções"
+
+#: includes/admin/form-preview.php:42
+msgid "Preview Form"
+msgstr "Preview do Formulário"
+
+#: includes/admin/output-tab-metabox.php:47 includes/admin/sidebar.php:57
+#: includes/admin/edit-field/li.php:109
+msgid "Edit Menu Item"
+msgstr "Editar Item de Menu"
+
+#: includes/admin/output-tab-metabox.php:285
+msgid "Select All"
+msgstr "Selecionar Tudo"
+
+#: includes/admin/post-metabox.php:12 includes/admin/post-metabox.php:20
+msgid "Append A Ninja Form"
+msgstr "Anexar um Ninja Form"
+
+#: includes/admin/scripts.php:51
+msgid "What would you like to name this favorite?"
+msgstr "Como gostaria de nomear este favorito?"
+
+#: includes/admin/scripts.php:51
+msgid "You must supply a name for this favorite."
+msgstr "Você deve fornecer um nome para este favorito."
+
+#: includes/admin/scripts.php:51
+msgid "Really deactivate all licenses?"
+msgstr "Desativar todas as licenças realmente?"
+
+#: includes/admin/scripts.php:70
+msgid "Edit Form"
+msgstr "Editar formulário"
+
+#: includes/admin/scripts.php:70
+msgid "Saved"
+msgstr "Salvo"
+
+#: includes/admin/scripts.php:70
+msgid "Saving..."
+msgstr "Salvando..."
+
+#: includes/admin/scripts.php:70
+msgid "Remove this field? It will be removed even if you do not save."
+msgstr "Remover este campo? Será removido mesmo se você não salvar."
+
+#: includes/admin/sidebar.php:155
+#: includes/admin/pages/ninja-forms/tabs/form-list/form-list.php:193
+msgid "View Submissions"
+msgstr "Ver Submissões"
+
+#: includes/admin/step-processing.php:11
+msgid "Ninja Forms Processing"
+msgstr "Ninja Forms está Processando"
+
+#: includes/admin/step-processing.php:71
+#: includes/admin/upgrades/upgrades.php:34
+msgid "Ninja Forms - Processing"
+msgstr "Ninja Forms - Processando"
+
+#: includes/admin/step-processing.php:104
+msgid "Loading..."
+msgstr "Carregando..."
+
+#: includes/admin/step-processing.php:109
+msgid "No Action Specified..."
+msgstr "Nenhuma ação especificada..."
+
+#: includes/admin/step-processing.php:134
+#: includes/admin/upgrades/upgrades.php:39
+#: includes/admin/upgrades/upgrades.php:53
+msgid ""
+"The process has started, please be patient. This could take several minutes. "
+"You will be automatically redirected when the process is finished."
+msgstr ""
+"O processo começou, por favor, seja paciente. Isto poderá levar muitos "
+"minutos. Você será automaticamente redirecionado quando o processo estiver "
+"finalizado."
+
+#: includes/admin/welcome.php:42 includes/admin/welcome.php:408
+#, php-format
+msgid "Welcome to Ninja Forms %s"
+msgstr "Bem-vindo ao Ninja Forms %s"
+
+#: includes/admin/welcome.php:43
+#, php-format
+msgid ""
+"Thank you for updating! Ninja Forms %s makes form building easier than ever "
+"before!"
+msgstr ""
+"Obrigado por atualizar! Ninja Forms %s torna a contrução de formulários mais "
+"fácil do que nunca antes!"
+
+#: includes/admin/welcome.php:57 includes/admin/welcome.php:58
+msgid "Welcome to Ninja Forms"
+msgstr "Bem-vindo ao Ninja Forms"
+
+#: includes/admin/welcome.php:66 includes/admin/welcome.php:67
+msgid "Ninja Forms Changelog"
+msgstr "Ninja Forms - Alterações"
+
+#: includes/admin/welcome.php:75 includes/admin/welcome.php:76
+msgid "Getting started with Ninja Forms"
+msgstr "Começando com Ninja Forms"
+
+#: includes/admin/welcome.php:84 includes/admin/welcome.php:85
+msgid "The people who build Ninja Forms"
+msgstr "As pessoas que desenvolvem Ninja Forms"
+
+#: includes/admin/welcome.php:161
+msgid "What's New"
+msgstr "O que há de novo?"
+
+#: includes/admin/welcome.php:164
+msgid "Getting Started"
+msgstr "Começando"
+
+#: includes/admin/welcome.php:167
+msgid "Credits"
+msgstr "Créditos"
+
+#: includes/admin/welcome.php:185 includes/admin/welcome.php:279
+#: includes/admin/welcome.php:311 includes/admin/welcome.php:410
+#, php-format
+msgid "Version %s"
+msgstr "Versão %s"
+
+#: includes/admin/welcome.php:194
+msgid "A simplified and more powerful form building experience."
+msgstr ""
+"Uma simplificada e mais poderosa experiência para contrução de formulários."
+
+#: includes/admin/welcome.php:200
+msgid "New Builder Tab"
+msgstr "Nova Aba do Contrutor"
+
+#: includes/admin/welcome.php:201
+msgid ""
+"When creating and editing forms, go directly to the section that matters "
+"most."
+msgstr ""
+"Ao criar e editar formulários, vá diretamente para a seção que mais importa."
+
+#: includes/admin/welcome.php:206
+msgid "Better Organized Field Settings"
+msgstr "Campos de configurações melhor organizados"
+
+#: includes/admin/welcome.php:207
+msgid ""
+"The most common settings are shown immediately, while other, non-essential, "
+"settings are tucked away inside expandable sections."
+msgstr ""
+"As configurações mais comuns são exibidas imediatamente, enquanto outras, "
+"não essenciais, estão escondidas dentro de seções expansíveis"
+
+#: includes/admin/welcome.php:218
+msgid "Improved clarity"
+msgstr "Maior clareza"
+
+#: includes/admin/welcome.php:219
+msgid ""
+"Along with the \"Build Your Form\" tab, we've removed \"Notifications\" in "
+"favor of \"Emails & Actions.\" This is a much clearer indication of what can "
+"be done on this tab."
+msgstr ""
+"Junto com a aba \"Construa seu formulário\", nós removemos \"Notificações\" "
+"em favor de \"Emails & Ações\". Esta é uma indicação mais clara do que você "
+"pode fazer nesta aba."
+
+#: includes/admin/welcome.php:224
+msgid "Remove all Ninja Forms data"
+msgstr "Remova todos os dados Ninja Forms"
+
+#: includes/admin/welcome.php:225
+msgid ""
+"We've added the option to remove all Ninja Forms data (submissions, forms, "
+"fields, options) when you delete the plugin. We call it the nuclear option."
+msgstr ""
+"Nós adicionamos a opção para remover todos os dados do Ninja FOrms "
+"(submissões, formulários, campos, opções) quando você excluir o plugin. Nós "
+"chamamos isto de opção nuclear."
+
+#: includes/admin/welcome.php:230
+msgid "Better license management"
+msgstr "Melhor gerenciamento de licença"
+
+#: includes/admin/welcome.php:231
+msgid ""
+"Deactivate Ninja Forms extension licenses individually or as a group from "
+"the settings tab."
+msgstr ""
+"Desativar licenças de extensões Ninja Forms individualmente ou como um grupo "
+"na aba Configurações"
+
+#: includes/admin/welcome.php:241
+msgid "More to come"
+msgstr "Mais por vir"
+
+#: includes/admin/welcome.php:242
+msgid ""
+"The interface updates in this version lay the groundwork for some great "
+"improvements in the future. Version 3.0 will build on these changes to make "
+"Ninja Forms an even more stable, powerful, and user-friendly form builder."
+msgstr ""
+"As atualizações de interface nesta versão prepara o terreno para algumas "
+"grandes melhorias no futuro. A versão 3.0 será construída nestas alterações "
+"para tornar o Ninja Forms ainda mais estável, poderoso e amigável."
+
+#: includes/admin/welcome.php:246
+#: includes/admin/pages/ninja-forms-addons/tabs/addons/addons.php:40
+msgid "Documentation"
+msgstr "Documentação"
+
+#: includes/admin/welcome.php:247
+msgid "Take a look at our in-depth Ninja Forms documentation below."
+msgstr "Dê uma olhada em nossa profunda documentação Ninja Forms abaixo."
+
+#: includes/admin/welcome.php:249
+msgid "Ninja Forms Documentation"
+msgstr "Documentação Ninja Forms"
+
+#: includes/admin/welcome.php:250
+msgid "Get Support"
+msgstr "Obter Ajuda"
+
+#: includes/admin/welcome.php:259
+msgid "Return to Ninja Forms"
+msgstr "Retornar ao Ninja Forms"
+
+#: includes/admin/welcome.php:260
+msgid "View the Full Changelog"
+msgstr "Visualizar o Log de Alterações Completo"
+
+#: includes/admin/welcome.php:284
+msgid "Full Changelog"
+msgstr "Log de Alterações Completo"
+
+#: includes/admin/welcome.php:292
+msgid "Go to Ninja Forms"
+msgstr "Ir para Ninja Forms"
+
+#: includes/admin/welcome.php:315
+msgid ""
+"Use the tips below to get started using Ninja Forms. You will be up and "
+"running in no time!"
+msgstr ""
+"Use as dicas abaixo para começar a usar Ninja Forms. Você estará em pleno "
+"funcionamento rapidamente!"
+
+#: includes/admin/welcome.php:320
+msgid "All About Forms"
+msgstr "Tudo sobre formulários"
+
+#: includes/admin/welcome.php:323
+#, php-format
+msgid ""
+"The Forms menu is your access point for all things Ninja Forms. We've "
+"already created your first %scontact form%s so that you have an example. You "
+"can also create your own by clicking %sAdd New%s."
+msgstr ""
+"O menu de formulário é seu ponto de acesso para todas as coisas do Ninja "
+"Forms. Nós já criamos o seu primeiro %sformulário de contato%s como exemplo. "
+"Você também pode criar os seus próprios formulários clicando em %sAdicionar "
+"Novo%s."
+
+#: includes/admin/welcome.php:325
+#: includes/admin/pages/ninja-forms/tabs/field-settings/field-settings.php:11
+msgid "Build Your Form"
+msgstr "Construa o seu formulário"
+
+#: includes/admin/welcome.php:326
+msgid ""
+"This is where you'll build your form by adding fields and dragging them into "
+"the order you want them to appear. Each field will have an assortment of "
+"options such as label, label position, and placeholder."
+msgstr ""
+"Isto é onde você construíra seu formulário adicionando campos e arrastando-"
+"os na ordem que você quer que apareçam. Cada campo terá uma variedade de "
+"opções como rótulo, posição do rótulo e placeholder."
+
+#: includes/admin/welcome.php:328
+msgid "Emails & Actions"
+msgstr "Emails & Ações"
+
+#: includes/admin/welcome.php:329
+msgid ""
+"If you would like for your form to notify you via email when a user clicks "
+"submit, you can set those up on this tab. You can create an unlimited number "
+"of emails, including emails sent to the user who filled out the form."
+msgstr ""
+"Se você quer que o seu formulário te notifique por email quando um usuário "
+"clicar em enviar, você pode definir isto nesta aba. Você pode criar "
+"ilimitados emails, incluindo emails enviados para usuários que preencheram o "
+"formulário."
+
+#: includes/admin/welcome.php:332
+msgid ""
+"This tab hold general form settings, such as title and submission method, as "
+"well as display settings like hiding a form when it is successfully "
+"completed."
+msgstr ""
+"Esta aba tem configurações gerais de formulário, como título e método de "
+"submissão, também exibe configurações como esconder um formulário quando o "
+"completado com sucesso."
+
+#: includes/admin/welcome.php:341
+msgid "Displaying Your Form"
+msgstr "Exibindo Seu Formulário"
+
+#: includes/admin/welcome.php:346
+msgid "Append to Page"
+msgstr "Acrescentar à Página"
+
+#: includes/admin/welcome.php:347
+msgid ""
+"Under Basic Form Behavior in the Form Settings you can easily select a page "
+"that you would like the form automatically appended to the end of that "
+"page's content. A similiar option is avaiable in every content edit screen "
+"in its sidebar."
+msgstr ""
+"Em Comportamento Básico do Formulário nas Configurações do formulário você "
+"pode facilmente selecionar uma página que você deseja que o formulário "
+"automaticamente anexe ao final do conteúdo dessa página. Uma opção similar "
+"está disponível em toda tela de edição de conteúdo em sua barra lateral."
+
+#: includes/admin/welcome.php:351
+#: includes/admin/pages/ninja-forms/tabs/form-list/form-list.php:159
+#: includes/admin/pages/ninja-forms/tabs/form-list/form-list.php:219
+msgid "Shortcode"
+msgstr "Shortcode"
+
+#: includes/admin/welcome.php:352
+#, php-format
+msgid ""
+"Place %s in any area that accepts shortcodes to display your form anywhere "
+"you like. Even in the middle of your page or posts content."
+msgstr ""
+"Coloque %s em qualquer área que aceita shortcodes para exibir seu formulário "
+"onde quiser. Mesmo no meio do conteúdo de páginas ou posts."
+
+#: includes/admin/welcome.php:361
+msgid ""
+"Ninja Forms provides a widget that you can place in any widgetized area of "
+"your site and select exactly which form you would like displayed in that "
+"space."
+msgstr ""
+"Ninja Forms fornece um widget que você pode colocar em qualquer área de "
+"widgets do seu site e selecionar exatamente qual formulário você quer que "
+"seja exibido neste espaço."
+
+#: includes/admin/welcome.php:365
+#: includes/admin/pages/ninja-forms/tabs/form-list/form-list.php:160
+#: includes/admin/pages/ninja-forms/tabs/form-list/form-list.php:220
+msgid "Template Function"
+msgstr "Função de Template"
+
+#: includes/admin/welcome.php:366
+#, php-format
+msgid ""
+"Ninja Forms also comes with a simple template function that can be placed "
+"directly into a php template file. %s"
+msgstr ""
+"Ninja Forms também vem com uma função simples de modelo que você pode "
+"colocar diretamente em um arquivo de modelo php. %s"
+
+#: includes/admin/welcome.php:376
+msgid "Need Help?"
+msgstr "Precisa de Ajuda?"
+
+#: includes/admin/welcome.php:381
+msgid "Growing Documentation"
+msgstr "Documentação Crescente"
+
+#: includes/admin/welcome.php:382
+#, php-format
+msgid ""
+"Documentation is available covering everything from %sTroubleshooting%s to "
+"our %sDeveloper API%s. New Documents are always being added."
+msgstr ""
+"Documentação está disponível cobrindo tudo desde %sSolução de Problemas%s "
+"até a nossa %sAPI de Desenvolvedor%s. Novos documentos sempre serão "
+"adicionados."
+
+#: includes/admin/welcome.php:386
+msgid "Best Support in the Business"
+msgstr "Melhor Suporte nos Negócios"
+
+#: includes/admin/welcome.php:387
+#, php-format
+msgid ""
+"We do all we can to provide every Ninja Forms user with the best support "
+"possible. If you encounter a problem or have a question, %splease contact us"
+"%s."
+msgstr ""
+"Nós fazemos tudo que pudermos para fornecer a cada usuário Ninja Forms o "
+"melhor suporte possível. Se você encontrar um problema ou tem uma pergunta, "
+"%spor favor contate-nos%s."
+
+#: includes/admin/welcome.php:409
+#, php-format
+msgid ""
+"Thank you for updating to the latest version! Ninja Forms %s is primed to "
+"make your experience managing submissions an enjoyable one!"
+msgstr ""
+"Obrigada por atualizar para a última versão! Ninja Forms %s está preparado "
+"para tornar agradável sua experiência na gestão de submissões!"
+
+#: includes/admin/welcome.php:414
+msgid ""
+"Ninja Forms is created by a worldwide team of developers who aim to provide "
+"the #1 WordPress community form creation plugin."
+msgstr ""
+"Ninja Forms é criado por uma equipe mundial de desenvolvedores que visam "
+"proporcionar a comunidade WordPress número 1 para Plugin de criação de "
+"formulário."
+
+#: includes/admin/welcome.php:432
+msgid "No valid changelog was found."
+msgstr "Nenhum log de mudanças válido foi encontrado."
+
+#: includes/admin/welcome.php:469
+#, php-format
+msgid "View %s"
+msgstr "Visualizar %s"
+
+#: includes/admin/edit-field/autocomplete-off.php:16
+msgid "Disable Browser Autocomplete"
+msgstr "Desativar preenchimento automático do navegador"
+
+#: includes/admin/edit-field/calc.php:44
+#, php-format
+msgid "%sChecked%s Calculation Value"
+msgstr "Valor de cálculo %sMarcado%s"
+
+#: includes/admin/edit-field/calc.php:44
+#, php-format
+msgid "This is the value that will be used if %sChecked%s."
+msgstr "Este é o valor que será usado se %sMarcado%s."
+
+#: includes/admin/edit-field/calc.php:45
+#, php-format
+msgid "%sUnchecked%s Calculation Value"
+msgstr "Valor de cálculo %sDesmarcado%s"
+
+#: includes/admin/edit-field/calc.php:45
+#, php-format
+msgid "This is the value that will be used if %sUnchecked%s."
+msgstr "Este é o valor que será usado se %sDesmarcado%s."
+
+#: includes/admin/edit-field/calc.php:48
+msgid "Include in the auto-total? (If enabled)"
+msgstr "Incluir no auto-total? (Se habilitado)"
+
+#: includes/admin/edit-field/custom-class.php:20
+msgid "Custom CSS Classes"
+msgstr "Personalizar Classes CSS"
+
+#: includes/admin/edit-field/desc.php:41
+msgid "Before Everything"
+msgstr "Antes de Tudo"
+
+#: includes/admin/edit-field/desc.php:43
+msgid "Before Label"
+msgstr "Antes do Rótulo"
+
+#: includes/admin/edit-field/desc.php:44
+msgid "After Label"
+msgstr "Depois do Rótulo"
+
+#: includes/admin/edit-field/desc.php:46
+msgid "After Everything"
+msgstr "Depois de Tudo"
+
+#: includes/admin/edit-field/desc.php:52
+#, php-format
+msgid ""
+"If \"desc text\" is enabled, there will be a question mark %s placed next to "
+"the input field. Hovering over this question mark will show the desc text."
+msgstr ""
+"Se \"texto de descrição\" estiver habilitado, terá uma exclamação %s "
+"colocada próximo ao campo. Passando o mouse sobre esta exclamação mostrará o "
+"texto de ajuda."
+
+#: includes/admin/edit-field/desc.php:53
+msgid "Add Description"
+msgstr "Adicionar Descrição"
+
+#: includes/admin/edit-field/desc.php:62
+msgid "Description Position"
+msgstr "Posição da Descrição"
+
+#: includes/admin/edit-field/desc.php:63
+msgid "Description Content"
+msgstr "Conteúdo da Descrição"
+
+#: includes/admin/edit-field/help.php:32 includes/fields/calc.php:278
+#, php-format
+msgid ""
+"If \"help text\" is enabled, there will be a question mark %s placed next to "
+"the input field. Hovering over this question mark will show the help text."
+msgstr ""
+"Se \"texto de ajuda\" estiver ligado, terá uma exclamação %s colocada "
+"próximo ao campo. Passando o mouse sobre esta exclamação mostrará o texto de "
+"ajuda."
+
+#: includes/admin/edit-field/help.php:33 includes/fields/calc.php:279
+msgid "Show Help Text"
+msgstr "Mostrar Texto de Ajuda"
+
+#: includes/admin/edit-field/help.php:37 includes/display/fields/help.php:26
+#: includes/fields/calc.php:283
+msgid "Help Text"
+msgstr "Texto de Ajuda"
+
+#: includes/admin/edit-field/input-limit.php:38
+msgid "If you leave the box empty, no limit will be used"
+msgstr "Se deixar esta caixa vazia, nenhum limite será utilizado"
+
+#: includes/admin/edit-field/input-limit.php:39
+msgid "Limit input to this number"
+msgstr "Limite de entrada para este número"
+
+#: includes/admin/edit-field/input-limit.php:40
+#: includes/admin/pages/ninja-forms/tabs/form-list/form-list.php:120
+#: includes/admin/pages/ninja-forms/tabs/form-list/form-list.php:145
+msgid "of"
+msgstr "de"
+
+#: includes/admin/edit-field/input-limit.php:40
+msgid "Characters"
+msgstr "Caracteres"
+
+#: includes/admin/edit-field/input-limit.php:40
+msgid "Words"
+msgstr "Palavras"
+
+#: includes/admin/edit-field/input-limit.php:42
+msgid "Text to appear after character/word counter"
+msgstr "Texto para exibir após o contador de caracteres/palavras"
+
+#: includes/admin/edit-field/label.php:39 includes/fields/calc.php:122
+#: includes/fields/checkbox.php:29
+msgid "Left of Element"
+msgstr "À Esquerda do Elemento"
+
+#: includes/admin/edit-field/label.php:40 includes/fields/calc.php:123
+#: includes/fields/checkbox.php:30
+msgid "Above Element"
+msgstr "Acima do Elemento"
+
+#: includes/admin/edit-field/label.php:41 includes/fields/calc.php:124
+#: includes/fields/checkbox.php:31
+msgid "Below Element"
+msgstr "Abaixo do Elemento"
+
+#: includes/admin/edit-field/label.php:42 includes/fields/calc.php:125
+#: includes/fields/checkbox.php:32
+msgid "Right of Element"
+msgstr "À Direita do Elemento"
+
+#: includes/admin/edit-field/label.php:43
+msgid "Inside Element"
+msgstr "Dentro do Elemento"
+
+#: includes/admin/edit-field/label.php:56 includes/fields/calc.php:127
+msgid "Label Position"
+msgstr "Posição da Etiqueta "
+
+#: includes/admin/edit-field/li.php:332
+msgid "Field ID"
+msgstr "ID Campo"
+
+#: includes/admin/edit-field/li.php:426
+msgid "Restriction Settings"
+msgstr "Configurações de Restrição"
+
+#: includes/admin/edit-field/li.php:427
+msgid "Calculation Settings"
+msgstr "Opções de Cálculo"
+
+#: includes/admin/edit-field/li.php:506
+#: includes/admin/edit-field/remove-button.php:13
+msgid "Remove"
+msgstr "Remover"
+
+#: includes/admin/edit-field/list-terms.php:45
+msgid "Populate this with the taxonomy"
+msgstr "Preencha isto com a taxonomia"
+
+#: includes/admin/edit-field/list-terms.php:48
+#: includes/admin/pages/ninja-forms/tabs/form-settings/form-settings.php:32
+#: includes/admin/pages/ninja-forms/tabs/form-settings/form-settings.php:33
+#: includes/fields/calc.php:93
+msgid "- None"
+msgstr " - Nenhum"
+
+#: includes/admin/edit-field/placeholder.php:21
+msgid "Placeholder"
+msgstr "Placeholder"
+
+#: includes/admin/edit-field/req.php:21
+msgid "Required"
+msgstr "Obrigatório"
+
+#: includes/admin/edit-field/save-button.php:5
+msgid "Save Field Settings"
+msgstr "Salvar Configurações dos Campos"
+
+#: includes/admin/edit-field/sub-settings.php:31
+msgid "Sort as numeric"
+msgstr "Classificar como numérico"
+
+#: includes/admin/edit-field/sub-settings.php:31
+msgid ""
+"If this box is checked, this column in the submissions table will sort by "
+"number."
+msgstr ""
+"Se esta caixa estiver marcada, esta coluna na tabela de submissões será "
+"classificada por número."
+
+#: includes/admin/edit-field/sub-settings.php:68
+msgid "Admin Label"
+msgstr "Etiqueta Admin"
+
+#: includes/admin/edit-field/sub-settings.php:68
+msgid "This is the label used when viewing/editing/exporting submissions."
+msgstr "Esta é a etiqueta usada ao visualizar/editar/exportar submissões"
+
+#: includes/admin/edit-field/user-info-fields.php:28
+msgid "Billing"
+msgstr "Faturamento"
+
+#: includes/admin/edit-field/user-info-fields.php:29
+msgid "Shipping"
+msgstr "Frete"
+
+#: includes/admin/edit-field/user-info-fields.php:30
+#: includes/fields/hidden.php:61 includes/fields/number.php:75
+#: includes/fields/textbox.php:147 includes/fields/textbox.php:188
+msgid "Custom"
+msgstr "Customizado"
+
+#: includes/admin/edit-field/user-info-fields.php:51
+msgid "User Info Field Group"
+msgstr "Agrupamento de Campos com Informação do Usuário"
+
+#: includes/admin/edit-field/user-info-fields.php:52
+msgid "Custom Field Group"
+msgstr "Agrupamento de Campos Customizado"
+
+#: includes/admin/pages/system-status-html.php:3
+msgid "Please include this information when requesting support:"
+msgstr "Por favor, inclua esta informação ao solicitar suporte:"
+
+#: includes/admin/pages/system-status-html.php:4
+msgid "Get System Report"
+msgstr "Obter Relatório do Sistemas"
+
+#: includes/admin/pages/system-status-html.php:12
+msgid "Environment"
+msgstr "Ambiente"
+
+#: includes/admin/pages/system-status-html.php:17
+msgid "Home URL"
+msgstr "URL Pessoal"
+
+#: includes/admin/pages/system-status-html.php:21
+msgid "Site URL"
+msgstr "Site URL"
+
+#: includes/admin/pages/system-status-html.php:25
+msgid "Ninja Forms Version"
+msgstr "Ninja Forms Versão"
+
+#: includes/admin/pages/system-status-html.php:29
+msgid "WP Version"
+msgstr "WP Versão"
+
+#: includes/admin/pages/system-status-html.php:33
+msgid "WP Multisite Enabled"
+msgstr "WP Multisite Habilitado"
+
+#: includes/admin/pages/system-status-html.php:34
+#: includes/admin/pages/system-status-html.php:73
+#: includes/admin/pages/system-status-html.php:102
+msgid "Yes"
+msgstr "Sim"
+
+#: includes/admin/pages/system-status-html.php:34
+#: includes/admin/pages/system-status-html.php:73
+#: includes/admin/pages/system-status-html.php:102
+msgid "No"
+msgstr "Não"
+
+#: includes/admin/pages/system-status-html.php:37
+msgid "Web Server Info"
+msgstr "Informações do Web Server"
+
+#: includes/admin/pages/system-status-html.php:41
+msgid "PHP Version"
+msgstr "PHP Versão"
+
+#: includes/admin/pages/system-status-html.php:45
+msgid "MySQL Version"
+msgstr "MySQL Versão"
+
+#: includes/admin/pages/system-status-html.php:55
+msgid "PHP Locale"
+msgstr "PHP Local"
+
+#: includes/admin/pages/system-status-html.php:64
+msgid "WP Memory Limit"
+msgstr "WP Limite de Memória"
+
+#: includes/admin/pages/system-status-html.php:72
+msgid "WP Debug Mode"
+msgstr "WP Modo Depurador"
+
+#: includes/admin/pages/system-status-html.php:76
+msgid "WP Language"
+msgstr "WP Idioma"
+
+#: includes/admin/pages/system-status-html.php:77
+msgid "Default"
+msgstr "Padrão"
+
+#: includes/admin/pages/system-status-html.php:80
+msgid "WP Max Upload Size"
+msgstr "WP Tamanho Máximo de Upload"
+
+#: includes/admin/pages/system-status-html.php:85
+msgid "PHP Post Max Size"
+msgstr "PHP Tamanho Máximo de Post"
+
+#: includes/admin/pages/system-status-html.php:89
+msgid "Max Input Nesting Level"
+msgstr "Máxima entrada de nível de aninhamento"
+
+#: includes/admin/pages/system-status-html.php:93
+msgid "PHP Time Limit"
+msgstr "PHP Tempo Limite"
+
+#: includes/admin/pages/system-status-html.php:97
+msgid "PHP Max Input Vars"
+msgstr "PHP Máxima Entrada de Variáveis"
+
+#: includes/admin/pages/system-status-html.php:101
+msgid "SUHOSIN Installed"
+msgstr "SUHOSIN Instalado"
+
+#: includes/admin/pages/system-status-html.php:105
+msgid "SMTP"
+msgstr "SMTP"
+
+#: includes/admin/pages/system-status-html.php:114
+msgid "Default Timezone"
+msgstr "Fuso Horário Padrão"
+
+#: includes/admin/pages/system-status-html.php:118
+#, php-format
+msgid "Default timezone is %s - it should be UTC"
+msgstr "Fuso Horário Padrão é %s - deve ser UTC"
+
+#: includes/admin/pages/system-status-html.php:120
+#, php-format
+msgid "Default timezone is %s"
+msgstr "Fuso Horário Padrão é %s"
+
+#: includes/admin/pages/system-status-html.php:131
+msgid "Your server has fsockopen and cURL enabled."
+msgstr "Seu servidor tem fsockopen and cURL habilitados."
+
+#: includes/admin/pages/system-status-html.php:133
+msgid "Your server has fsockopen enabled, cURL is disabled."
+msgstr "Seu servidor tem fsockopen habilitado, cURL está desabilitado."
+
+#: includes/admin/pages/system-status-html.php:135
+msgid "Your server has cURL enabled, fsockopen is disabled."
+msgstr "Seu servidor tem cURL habilitado, fsockopen está desabilitado.."
+
+#: includes/admin/pages/system-status-html.php:139
+msgid ""
+"Your server does not have fsockopen or cURL enabled - PayPal IPN and other "
+"scripts which communicate with other servers will not work. Contact your "
+"hosting provider."
+msgstr ""
+"Seu servidor não tem fsockopen and cURL habilitados - PayPal IPN e outros "
+"scripts que se comunicam com outros servidores não funcionarão. Entre em "
+"contato com seu provedor de hospedagem."
+
+#: includes/admin/pages/system-status-html.php:144
+msgid "SOAP Client"
+msgstr "SOAP Client"
+
+#: includes/admin/pages/system-status-html.php:146
+msgid "Your server has the SOAP Client class enabled."
+msgstr "Seu servidor tem a classe SOAP Client habilitada."
+
+#: includes/admin/pages/system-status-html.php:149
+#, php-format
+msgid ""
+"Your server does not have the %sSOAP Client%s class enabled - some gateway "
+"plugins which use SOAP may not work as expected."
+msgstr ""
+"Seu servidor não tem a classe %sSOAP Client%s habilitada - alguns plugins de "
+"gateway que usam SOAP podem não funcionar como experado."
+
+#: includes/admin/pages/system-status-html.php:154
+msgid "WP Remote Post"
+msgstr "WP Remote Post"
+
+#: includes/admin/pages/system-status-html.php:165
+msgid "wp_remote_post() was successful - PayPal IPN is working."
+msgstr "wp_remote_post() realizado com sucesso - PayPal IPN está funcionando."
+
+#: includes/admin/pages/system-status-html.php:168
+msgid ""
+"wp_remote_post() failed. PayPal IPN won't work with your server. Contact "
+"your hosting provider. Error:"
+msgstr ""
+"wp_remote_post() falhou. PayPal IPN não funcionará com seu servidor. Entre "
+"em contato com seu provedor de hospedagem. Erro:"
+
+#: includes/admin/pages/system-status-html.php:171
+msgid "wp_remote_post() failed. PayPal IPN may not work with your server."
+msgstr ""
+"wp_remote_post() falhou. PayPal IPN pode não funcionar com seu servidor."
+
+#: includes/admin/pages/system-status-html.php:178
+msgid "Plugins"
+msgstr "Plugins"
+
+#: includes/admin/pages/system-status-html.php:183
+msgid "Installed Plugins"
+msgstr "Plugins Instalados"
+
+#: includes/admin/pages/system-status-html.php:203
+msgid "Visit plugin homepage"
+msgstr "Visitar página de Plugins"
+
+#: includes/admin/pages/system-status-html.php:206
+msgid "by"
+msgstr "por"
+
+#: includes/admin/pages/system-status-html.php:206
+msgid "version"
+msgstr "versão"
+
+#: includes/admin/pages/ninja-forms/tabs/field-settings/field-settings.php:44
+msgid "Give your form a title. This is how you'll find the form later."
+msgstr ""
+"Dê ao seu formulário um título. É assim que você o encontrará mais tarde."
+
+#: includes/admin/pages/ninja-forms/tabs/field-settings/field-settings.php:49
+msgid "You have not added a submit button to your form."
+msgstr "Você não adicionou um botão de submissão ao seu formulário."
+
+#: includes/admin/pages/ninja-forms/tabs/field-settings/help.php:7
+#: includes/fields/textbox.php:181
+msgid "Input Mask"
+msgstr "Máscara de Input"
+
+#: includes/admin/pages/ninja-forms/tabs/field-settings/help.php:15
+msgid ""
+"Any character you place in the \"custom mask\" box that is not in the list "
+"below will be automatically entered for the user as they type and will not "
+"be removeable"
+msgstr ""
+"Todo caracter que colocar no box da \"máscara customizada\" que não está na "
+"lista abaixo será automaticamente colocada para o usuário enquanto ele "
+"digita, e não poderá ser removida."
+
+#: includes/admin/pages/ninja-forms/tabs/field-settings/help.php:16
+msgid "These are the predefined masking characters"
+msgstr "Estes são os caracteres de máscara pré-definidos:"
+
+#: includes/admin/pages/ninja-forms/tabs/field-settings/help.php:18
+msgid ""
+"a - Represents an alpha character (A-Z,a-z) - Only allows letters to be "
+"entered"
+msgstr ""
+"a - Representa um caracter textual (A-Z,a-z) - Apenas letras poderão ser "
+"inseridas"
+
+#: includes/admin/pages/ninja-forms/tabs/field-settings/help.php:19
+msgid ""
+"9 - Represents a numeric character (0-9) - Only allows numbers to be entered"
+msgstr ""
+"9 - Representa um caracter numérico (0-9) - Somente números poderão ser "
+"inseridos"
+
+#: includes/admin/pages/ninja-forms/tabs/field-settings/help.php:20
+msgid ""
+"* - Represents an alphanumeric character (A-Z,a-z,0-9) - This allows both "
+"numbers and letters to be entered"
+msgstr ""
+"* - Representa um caracter texto ou número (A-Z,a-z,0-9) - Este caracter "
+"deixa tanto letras como números serem inseridos"
+
+#: includes/admin/pages/ninja-forms/tabs/field-settings/help.php:24
+msgid ""
+"So, if you wanted to create a mask for an American Social Security Number, "
+"you would type 999-99-9999 into the box"
+msgstr ""
+"Então, se você quer criar uma máscara para um número de segurança social, "
+"você deve digitar 999-99-9999 no campo"
+
+#: includes/admin/pages/ninja-forms/tabs/field-settings/help.php:24
+msgid ""
+"The 9s would represent any number, and the -s would be automatically added"
+msgstr ""
+"Os 9s representarão qualquer número, e os pontos e sinal de menos serão "
+"automaticamente adicionados"
+
+#: includes/admin/pages/ninja-forms/tabs/field-settings/help.php:24
+msgid "This would prevent the user from putting in anything other than numbers"
+msgstr "Isto prevenirá o usuário de colocar qualquer coisa a não ser números"
+
+#: includes/admin/pages/ninja-forms/tabs/field-settings/help.php:27
+msgid "You can also combine these for specific applications"
+msgstr "Você também poderá combinar estes para aplicações específicas"
+
+#: includes/admin/pages/ninja-forms/tabs/field-settings/help.php:27
+msgid ""
+"For instance, if you had a product key that was in the form of A4B51.989."
+"B.43C, you could mask it with: a9a99.999.a.99a, which would force all the "
+"a's to be letters and the 9s to be numbers"
+msgstr ""
+"Por exemplo, se seu produto tem uma chave no formato A4B51.989.B.43C, sua "
+"máscara poderia ser: a9a99.999.a.99a, que iria forçar todos os a's para "
+"serem letras e 9s para serem números"
+
+#: includes/admin/pages/ninja-forms/tabs/field-settings/sidebars/def-fields.php:6
+msgid "Defined Fields"
+msgstr "Campos Definidos"
+
+#: includes/admin/pages/ninja-forms/tabs/field-settings/sidebars/fav-fields.php:6
+#: includes/admin/pages/ninja-forms-impexp/tabs/impexp-fields/impexp-fields.php:7
+msgid "Favorite Fields"
+msgstr "Campos Favoritos"
+
+#: includes/admin/pages/ninja-forms/tabs/field-settings/sidebars/payment-fields.php:12
+msgid "Payment Fields"
+msgstr "Campos de Pagamento"
+
+#: includes/admin/pages/ninja-forms/tabs/field-settings/sidebars/template-fields.php:6
+msgid "Template Fields"
+msgstr "Campos Modelo"
+
+#: includes/admin/pages/ninja-forms/tabs/field-settings/sidebars/user-info.php:12
+msgid "User Information"
+msgstr "Informação do Usuário"
+
+#: includes/admin/pages/ninja-forms/tabs/form-list/form-list.php:97
+msgid "All"
+msgstr "Todos"
+
+#: includes/admin/pages/ninja-forms/tabs/form-list/form-list.php:102
+msgid "Bulk Actions"
+msgstr "Ações em Massa"
+
+#: includes/admin/pages/ninja-forms/tabs/form-list/form-list.php:105
+msgid "Apply"
+msgstr "Aplicar"
+
+#: includes/admin/pages/ninja-forms/tabs/form-list/form-list.php:113
+msgid "Forms Per Page"
+msgstr "Formulários Por Página"
+
+#: includes/admin/pages/ninja-forms/tabs/form-list/form-list.php:114
+msgid "Go"
+msgstr "Ir"
+
+#: includes/admin/pages/ninja-forms/tabs/form-list/form-list.php:143
+msgid "Go to the first page"
+msgstr "Ir para a primeira página"
+
+#: includes/admin/pages/ninja-forms/tabs/form-list/form-list.php:144
+msgid "Go to the previous page"
+msgstr "Ir para a página anterior"
+
+#: includes/admin/pages/ninja-forms/tabs/form-list/form-list.php:145
+msgid "Current page"
+msgstr "Página atual"
+
+#: includes/admin/pages/ninja-forms/tabs/form-list/form-list.php:146
+msgid "Go to the next page"
+msgstr "Ir para a próxima página"
+
+#: includes/admin/pages/ninja-forms/tabs/form-list/form-list.php:147
+msgid "Go to the last page"
+msgstr "Ir para a última página"
+
+#: includes/admin/pages/ninja-forms/tabs/form-list/form-list.php:158
+#: includes/admin/pages/ninja-forms/tabs/form-list/form-list.php:218
+#: includes/admin/pages/ninja-forms/tabs/form-settings/form-settings.php:55
+msgid "Form Title"
+msgstr "Título do Formulário"
+
+#: includes/admin/pages/ninja-forms/tabs/form-list/form-list.php:190
+msgid "Delete this form"
+msgstr "Deletar este formulário"
+
+#: includes/admin/pages/ninja-forms/tabs/form-list/form-list.php:191
+msgid "Duplicate Form"
+msgstr "Duplicar Formulário"
+
+#: includes/admin/pages/ninja-forms/tabs/form-list/form-list.php:237
+msgid "Forms Deleted"
+msgstr "Formulários Deletados"
+
+#: includes/admin/pages/ninja-forms/tabs/form-list/form-list.php:239
+msgid "Form Deleted"
+msgstr "Formulário Deletado"
+
+#: includes/admin/pages/ninja-forms/tabs/form-preview/form-preview.php:11
+msgid "Form Preview"
+msgstr "Preview do Formulário"
+
+#: includes/admin/pages/ninja-forms/tabs/form-settings/form-settings.php:49
+msgid "Display"
+msgstr "Exibir"
+
+#: includes/admin/pages/ninja-forms/tabs/form-settings/form-settings.php:60
+msgid "Display Form Title"
+msgstr "Mostrar Título do Formulário"
+
+#: includes/admin/pages/ninja-forms/tabs/form-settings/form-settings.php:66
+msgid "Add form to this page"
+msgstr "Adicionar formulário para esta página"
+
+#: includes/admin/pages/ninja-forms/tabs/form-settings/form-settings.php:75
+msgid "Submit via AJAX (without page reload)?"
+msgstr "Submeter via AJAX (sem recarregar a página)?"
+
+#: includes/admin/pages/ninja-forms/tabs/form-settings/form-settings.php:83
+msgid "Clear successfully completed form?"
+msgstr "Limpar formulário completado com sucesso?"
+
+#: includes/admin/pages/ninja-forms/tabs/form-settings/form-settings.php:85
+msgid ""
+"If this box is checked, Ninja Forms will clear the form values after it has "
+"been successfully submitted."
+msgstr ""
+"Se esta caixa estiver marcada, Ninja Forms limpará todos os valores do "
+"formulário depois que este for submetido com sucesso."
+
+#: includes/admin/pages/ninja-forms/tabs/form-settings/form-settings.php:92
+msgid "Hide successfully completed form?"
+msgstr "Esconder formulário completado com sucesso?"
+
+#: includes/admin/pages/ninja-forms/tabs/form-settings/form-settings.php:94
+msgid ""
+"If this box is checked, Ninja Forms will hide the form after it has been "
+"successfully submitted."
+msgstr ""
+"Se este box for checado, Ninja Forms irá esconder o formulário após ele ter "
+"sido submetido com sucesso."
+
+#: includes/admin/pages/ninja-forms/tabs/form-settings/form-settings.php:105
+msgid "Restrictions"
+msgstr "Restrições"
+
+#: includes/admin/pages/ninja-forms/tabs/form-settings/form-settings.php:112
+msgid "Require user to be logged in to view form?"
+msgstr "Requerer que o usuário esteja logado para ver formulário?"
+
+#: includes/admin/pages/ninja-forms/tabs/form-settings/form-settings.php:119
+msgid "Not Logged-In Message"
+msgstr "Mensagem para usuário não logado"
+
+#: includes/admin/pages/ninja-forms/tabs/form-settings/form-settings.php:120
+msgid ""
+"Message shown to users if the \"logged in\" checkbox above is checked and "
+"they are not logged-in."
+msgstr ""
+"Mensagem exibida a usuários se a caixa \"logado\" acima está marcada e se "
+"não estão logados."
+
+#: includes/admin/pages/ninja-forms/tabs/form-settings/form-settings.php:127
+msgid "Limit Submissions"
+msgstr "Limite de Submissões"
+
+#: includes/admin/pages/ninja-forms/tabs/form-settings/form-settings.php:129
+msgid ""
+"Select the number of submissions that this form will accept. Leave empty for "
+"no limit."
+msgstr ""
+"Selecione o número de submissões que este formulário aceitará. Deixe em "
+"branco para não ter limite."
+
+#: includes/admin/pages/ninja-forms/tabs/form-settings/form-settings.php:137
+msgid "Limit Reached Message"
+msgstr "Limite de Mensagens Atingido"
+
+#: includes/admin/pages/ninja-forms/tabs/form-settings/form-settings.php:138
+msgid ""
+"Please enter a message that you want displayed when this form has reached "
+"its submission limit and will not accept new submissions."
+msgstr ""
+"Por favor, digite uma mensagem que você deseja exibir quando este formulário "
+"alcançar seu número limite de submissões e não irá aceitar novas submissões."
+
+#: includes/admin/pages/ninja-forms/tabs/form-settings/form-settings.php:160
+msgid "Form Settings Saved"
+msgstr "Configurações do Form Salvas"
+
+#: includes/admin/pages/ninja-forms/tabs/form-settings/help.php:7
+msgid "Basic Settings"
+msgstr "Configurações Básicas"
+
+#: includes/admin/pages/ninja-forms/tabs/form-settings/help.php:15
+msgid "Ninja Forms basic help goes here."
+msgstr "Ninja Forms ajuda básica vai aqui."
+
+#: includes/admin/pages/ninja-forms-addons/tabs/addons/addons.php:6
+msgid "Extend Ninja Forms"
+msgstr "Extender Ninja Forms"
+
+#: includes/admin/pages/ninja-forms-addons/tabs/addons/addons.php:42
+msgid "Documentation coming soon."
+msgstr "Documentação em breve."
+
+#: includes/admin/pages/ninja-forms-addons/tabs/addons/addons.php:47
+msgid "Active"
+msgstr "Ativo"
+
+#: includes/admin/pages/ninja-forms-addons/tabs/addons/addons.php:49
+msgid "Installed"
+msgstr "Instalado"
+
+#: includes/admin/pages/ninja-forms-addons/tabs/addons/addons.php:51
+#: includes/admin/pages/ninja-forms-addons/tabs/addons/addons.php:54
+msgid "Learn More"
+msgstr "Saiba mais"
+
+#: includes/admin/pages/ninja-forms-impexp/tabs/impexp-backup/impexp-backup.php:6
+#: includes/admin/pages/ninja-forms-impexp/tabs/impexp-backup/impexp-backup.php:20
+msgid "Backup / Restore"
+msgstr "Backup / Recuperação"
+
+#: includes/admin/pages/ninja-forms-impexp/tabs/impexp-backup/impexp-backup.php:22
+#: includes/admin/pages/ninja-forms-impexp/tabs/impexp-backup/impexp-backup.php:24
+msgid "Backup Ninja Forms"
+msgstr "Backup Ninja Forms"
+
+#: includes/admin/pages/ninja-forms-impexp/tabs/impexp-backup/impexp-backup.php:28
+#: includes/admin/pages/ninja-forms-impexp/tabs/impexp-backup/impexp-backup.php:32
+msgid "Restore Ninja Forms"
+msgstr "Recuperar Ninja Forms"
+
+#: includes/admin/pages/ninja-forms-impexp/tabs/impexp-backup/impexp-backup.php:37
+msgid "Data restored successfully!"
+msgstr "Dados recuperados com sucesso!"
+
+#: includes/admin/pages/ninja-forms-impexp/tabs/impexp-fields/impexp-fields.php:23
+msgid "Import Favorite Fields"
+msgstr "Importar Campos Favoritos"
+
+#: includes/admin/pages/ninja-forms-impexp/tabs/impexp-fields/impexp-fields.php:28
+#: includes/admin/pages/ninja-forms-impexp/tabs/impexp-forms/impexp-forms.php:27
+msgid "Select a file"
+msgstr "Selecionar Arquivo"
+
+#: includes/admin/pages/ninja-forms-impexp/tabs/impexp-fields/impexp-fields.php:36
+#: includes/admin/pages/ninja-forms-impexp/tabs/impexp-fields/impexp-fields.php:132
+msgid "Import Favorites"
+msgstr "Importar Favoritos"
+
+#: includes/admin/pages/ninja-forms-impexp/tabs/impexp-fields/impexp-fields.php:57
+msgid "No Favorite Fields Found"
+msgstr "Nenhum Campo Favorito Encontrado"
+
+#: includes/admin/pages/ninja-forms-impexp/tabs/impexp-fields/impexp-fields.php:63
+msgid "Export Favorite Fields"
+msgstr "Exportar Campos Favoritos"
+
+#: includes/admin/pages/ninja-forms-impexp/tabs/impexp-fields/impexp-fields.php:81
+#: includes/admin/pages/ninja-forms-impexp/tabs/impexp-fields/impexp-fields.php:93
+msgid "Export Fields"
+msgstr "Exportar Campos"
+
+#: includes/admin/pages/ninja-forms-impexp/tabs/impexp-fields/impexp-fields.php:130
+msgid "Please select favorite fields to export."
+msgstr "Por favor selecione campos favoritos para exportar."
+
+#: includes/admin/pages/ninja-forms-impexp/tabs/impexp-fields/impexp-fields.php:144
+msgid "Favorites imported successfully."
+msgstr "Favoritos importados com sucesso."
+
+#: includes/admin/pages/ninja-forms-impexp/tabs/impexp-fields/impexp-fields.php:146
+msgid "Please select a valid favorite fields file."
+msgstr "Por favor selecione um campo favorito válido."
+
+#: includes/admin/pages/ninja-forms-impexp/tabs/impexp-forms/impexp-forms.php:22
+msgid "Import a form"
+msgstr "Importar um formulário"
+
+#: includes/admin/pages/ninja-forms-impexp/tabs/impexp-forms/impexp-forms.php:35
+#: includes/admin/pages/ninja-forms-impexp/tabs/impexp-forms/impexp-forms.php:162
+msgid "Import Form"
+msgstr "Importar Formulário"
+
+#: includes/admin/pages/ninja-forms-impexp/tabs/impexp-forms/impexp-forms.php:62
+msgid "Export a form"
+msgstr "Exportar um formulário"
+
+#: includes/admin/pages/ninja-forms-impexp/tabs/impexp-forms/impexp-forms.php:75
+#: includes/admin/pages/ninja-forms-impexp/tabs/impexp-forms/impexp-forms.php:156
+msgid "Export Form"
+msgstr "Exportar Formulário"
+
+#: includes/admin/pages/ninja-forms-impexp/tabs/impexp-forms/impexp-forms.php:160
+msgid "Please select a form."
+msgstr "Por favor selecione um formulário."
+
+#: includes/admin/pages/ninja-forms-impexp/tabs/impexp-forms/impexp-forms.php:166
+msgid "Form Imported Successfully."
+msgstr "Form importado com sucesso."
+
+#: includes/admin/pages/ninja-forms-impexp/tabs/impexp-forms/impexp-forms.php:169
+msgid "Please select a valid exported form file."
+msgstr "Por favor selecione um arquivo exportado válido."
+
+#: includes/admin/pages/ninja-forms-impexp/tabs/impexp-subs/impexp-subs.php:18
+msgid "Import / Export Submissions"
+msgstr "Importar / Exportar Submissões"
+
+#: includes/admin/pages/ninja-forms-impexp/tabs/impexp-subs/impexp-subs.php:20
+msgid "Date Settings"
+msgstr "Configurações de Datas"
+
+#: includes/admin/pages/ninja-forms-settings/tabs/general-settings/general-settings.php:6
+msgid "General"
+msgstr "Geral"
+
+#: includes/admin/pages/ninja-forms-settings/tabs/general-settings/general-settings.php:29
+msgid "General Settings"
+msgstr "Configurações Gerais"
+
+#: includes/admin/pages/ninja-forms-settings/tabs/general-settings/general-settings.php:34
+msgid "Version"
+msgstr "Versão"
+
+#: includes/admin/pages/ninja-forms-settings/tabs/general-settings/general-settings.php:40
+msgid "Date Format"
+msgstr "Formato das Datas"
+
+#: includes/admin/pages/ninja-forms-settings/tabs/general-settings/general-settings.php:41
+#, php-format
+msgid ""
+"Tries to follow the %sPHP date() function%s specifications, but not every "
+"format is supported."
+msgstr ""
+"Tenta seguir as especificações da %sfunção date() do PHP%s, mas nem todos os "
+"formatos são suportados."
+
+#: includes/admin/pages/ninja-forms-settings/tabs/general-settings/general-settings.php:46
+msgid "Currency Symbol"
+msgstr "Símbolo da Moeda"
+
+#: includes/admin/pages/ninja-forms-settings/tabs/general-settings/general-settings.php:62
+msgid "Remove ALL Ninja Forms data upon uninstall?"
+msgstr "Remover TODOS os dados Ninja Forms após a desinstalação?"
+
+#: includes/admin/pages/ninja-forms-settings/tabs/general-settings/general-settings.php:63
+#, php-format
+msgid ""
+"If this box is checked, ALL Ninja Forms data will be removed from the "
+"database upon deletion. %sAll form and submission data will be unrecoverable."
+"%s"
+msgstr ""
+"Se esta caixa for marcada, TODOS os dados Ninja Forms serão removidos do "
+"banco de dados após exclusão. %sTodos os formulários e submissões não "
+"poderão ser recuperados.%s"
+
+#: includes/admin/pages/ninja-forms-settings/tabs/general-settings/general-settings.php:80
+#: includes/admin/pages/ninja-forms-settings/tabs/label-settings/label-settings.php:102
+msgid "Settings Saved"
+msgstr "Configurações Salvas"
+
+#: includes/admin/pages/ninja-forms-settings/tabs/label-settings/label-settings.php:6
+msgid "Labels"
+msgstr "Etiquetas"
+
+#: includes/admin/pages/ninja-forms-settings/tabs/label-settings/label-settings.php:23
+msgid "Message Labels"
+msgstr "Etiqueta de Mensagem"
+
+#: includes/admin/pages/ninja-forms-settings/tabs/label-settings/label-settings.php:28
+msgid "Required Field Label"
+msgstr "Etiqueta de Campos Obrigatórios"
+
+#: includes/admin/pages/ninja-forms-settings/tabs/label-settings/label-settings.php:35
+msgid "Required field symbol"
+msgstr "Símbolo de campo obrigatório"
+
+#: includes/admin/pages/ninja-forms-settings/tabs/label-settings/label-settings.php:40
+msgid "Error message given if all required fields are not completed"
+msgstr "Mensagem de erro se todos os campos obrigatórios não forem completados"
+
+#: includes/admin/pages/ninja-forms-settings/tabs/label-settings/label-settings.php:45
+msgid "Required Field Error"
+msgstr "Erro de Campo Obrigatório"
+
+#: includes/admin/pages/ninja-forms-settings/tabs/label-settings/label-settings.php:51
+msgid "Anti-spam error message"
+msgstr "Mensagem de Erro Anti-Spam"
+
+#: includes/admin/pages/ninja-forms-settings/tabs/label-settings/label-settings.php:57
+msgid "Honeypot error message"
+msgstr "Mensagem de Erro Honeypot"
+
+#: includes/admin/pages/ninja-forms-settings/tabs/label-settings/label-settings.php:63
+msgid "Timer error message"
+msgstr "Mensagem de Erro do Timer"
+
+#: includes/admin/pages/ninja-forms-settings/tabs/label-settings/label-settings.php:69
+msgid "JavaScript disabled error message"
+msgstr "Mensagem de Erro de JavaScript desabilitado"
+
+#: includes/admin/pages/ninja-forms-settings/tabs/label-settings/label-settings.php:75
+msgid "Please enter a valid email address"
+msgstr "Por favor entre com um email válido"
+
+#: includes/admin/pages/ninja-forms-settings/tabs/label-settings/label-settings.php:81
+msgid "Processing Submission Label"
+msgstr "Etiqueta de Processando Submissão"
+
+#: includes/admin/pages/ninja-forms-settings/tabs/label-settings/label-settings.php:82
+msgid ""
+"This message is shown inside the submit button whenever a user clicks "
+"\"submit\" to let them know it is processing."
+msgstr ""
+"Esta mensagem é exibida dentro do botão de submissão sempre que um usuário "
+"clicar \"submeter\"  para que saibam que está processando."
+
+#: includes/admin/pages/ninja-forms-settings/tabs/label-settings/label-settings.php:87
+msgid "Password Mismatch Label"
+msgstr "Etiqueta de Incompatibilidade de Senha"
+
+#: includes/admin/pages/ninja-forms-settings/tabs/label-settings/label-settings.php:88
+msgid ""
+"This message is shown to a user when non-matching values are placed in the "
+"password field."
+msgstr ""
+"Esta mensagem é exibida para um usuário quando as senhas digitadas não "
+"correspondem."
+
+#: includes/admin/pages/ninja-forms-settings/tabs/license-settings/license-settings.php:4
+#: includes/admin/pages/ninja-forms-settings/tabs/license-settings/license-settings.php:21
+msgid "Licenses"
+msgstr "Licenças"
+
+#: includes/admin/pages/ninja-forms-settings/tabs/license-settings/license-settings.php:60
+msgid "Save & Activate"
+msgstr "Salvar & Ativar"
+
+#: includes/admin/pages/ninja-forms-settings/tabs/license-settings/license-settings.php:66
+msgid "Deactivate All Licenses"
+msgstr "Desativar todas as licenças"
+
+#: includes/admin/pages/ninja-forms-settings/tabs/license-settings/license-settings.php:84
+#, php-format
+msgid ""
+"To activate licenses for Ninja Forms extensions you must first %s install "
+"and activate %s the chosen extension. License settings will then appear "
+"below."
+msgstr ""
+"Para ativar licenças para extensões Ninja Forms você deve primeiro %s "
+"instalar e ativar %s a extensão escolhida. Configurações de licenças então "
+"aparecerão abaixo."
+
+#: includes/admin/pages/ninja-forms-settings/tabs/license-settings/license-settings.php:100
+msgid "Licenses Saved"
+msgstr "Licenças Salvas"
+
+#: includes/admin/upgrades/convert-notifications.php:139
+msgid "Admin Email"
+msgstr "E-mail do Administrador"
+
+#: includes/admin/upgrades/convert-notifications.php:231
+msgid "User Email"
+msgstr "Email do Usuário"
+
+#: includes/admin/upgrades/upgrade-functions.php:31
+#, php-format
+msgid ""
+"Ninja Forms needs to upgrade your form notifications, click %shere%s to "
+"start the upgrade."
+msgstr ""
+"Ninja Forms precisa atualizar as suas notificações de formulário, clique "
+"%saqui%s para iniciar a atualização."
+
+#: includes/admin/upgrades/upgrade-functions.php:40
+#, php-format
+msgid ""
+"Ninja Forms needs to update your email settings, click %shere%s to start the "
+"upgrade."
+msgstr ""
+"Ninja Forms precisa atualizar as suas configurações de email, clique %saqui"
+"%s para iniciar a atualização."
+
+#: includes/admin/upgrades/upgrade-functions.php:55
+#, php-format
+msgid ""
+"Ninja Forms needs to upgrade the submissions table, click %shere%s to start "
+"the upgrade."
+msgstr ""
+"Ninja Forms precisa atualizar a tabela de submissões, clique %saqui%s para "
+"iniciar a atualização."
+
+#: includes/admin/upgrades/upgrade-functions.php:64
+msgid ""
+"Thank you for updating to version 2.7 of Ninja Forms. Please update any "
+"Ninja Forms extensions from "
+msgstr ""
+"Obrigada por atualizar para a versão 2.7 de Ninja Forms. Por favor, atualize "
+"as extensões de Ninja Forms"
+
+#: includes/admin/upgrades/upgrade-functions.php:70
+msgid ""
+"Your version of the Ninja Forms File Upload extension isn't compatible with "
+"version 2.7 of Ninja Forms. It needs to be at least version 1.3.5. Please "
+"update this extension at "
+msgstr ""
+"Sua versão da extensão File Upload de Ninja Forms não é compatível com a "
+"versão 2.7 de Ninja Forms. É preciso que seja ao menos a versão 1.3.5. Por "
+"favor, atualize esta extensão em"
+
+#: includes/admin/upgrades/upgrade-functions.php:74
+msgid ""
+"Your version of the Ninja Forms Save Progress extension isn't compatible "
+"with version 2.7 of Ninja Forms. It needs to be at least version 1.1.3. "
+"Please update this extension at "
+msgstr ""
+"Sua versão da extensão Save Progress de Ninja Forms não é compatível com a "
+"versão 2.7 de Ninja Forms. É preciso que seja ao menos a versão 1.1.3. Por "
+"favor, atualize esta extensão em"
+
+#: includes/admin/upgrades/upgrade-functions.php:80
+#: includes/admin/upgrades/upgrade-functions.php:377
+msgid "Updating Form Database"
+msgstr "Atualizando banco de dados de formulários"
+
+#: includes/admin/upgrades/upgrade-functions.php:82
+#, php-format
+msgid ""
+"Ninja Forms needs to upgrade your form settings, click %shere%s to start the "
+"upgrade."
+msgstr ""
+"Ninja Forms precisa atualizar as suas configurações de formulário, clique "
+"%saqui%s para iniciar a atualização."
+
+#: includes/admin/upgrades/upgrades.php:41
+#, php-format
+msgid "Step %d of approximately %d running"
+msgstr "Etapa %d de aproximadamente %d processando"
+
+#: includes/classes/class-nf-system-status.php:36
+msgid "Ninja Forms System Status"
+msgstr "Status do Sistema Ninja Forms"
+
+#: includes/display/scripts.php:274 includes/fields/password.php:127
+msgid "Strength indicator"
+msgstr "Indicador de força"
+
+#: includes/display/scripts.php:275
+msgid "Very weak"
+msgstr "Muito fraco"
+
+#: includes/display/scripts.php:276
+msgid "Weak"
+msgstr "Fraco"
+
+#: includes/display/scripts.php:278
+msgid "Medium"
+msgstr "Médio"
+
+#: includes/display/scripts.php:279
+msgid "Strong"
+msgstr "Forte"
+
+#: includes/display/scripts.php:280
+msgid "Mismatch"
+msgstr "Não correspondem"
+
+#: includes/display/fields/list-term-filter.php:51
+#: includes/fields/country.php:11
+msgid "- Select One"
+msgstr "- Selecione Um"
+
+#: includes/display/form/required-label.php:16
+msgid "Fields marked with a * are required."
+msgstr "Campos marcados com um * são obrigatórios."
+
+#: includes/display/processing/req-fields-pre-process.php:65
+msgid "This is a required field."
+msgstr "Este campo é obrigatório."
+
+#: includes/display/processing/req-fields-pre-process.php:71
+msgid "Please check required fields."
+msgstr "Por favor verifique os campos obrigatórios"
+
+#: includes/fields/calc.php:10 includes/fields/calc.php:70
+#: includes/fields/calc.php:111
+msgid "Calculation"
+msgstr "Cálculo"
+
+#: includes/fields/calc.php:42
+msgid "Number of decimal places."
+msgstr "Número de casas decimais."
+
+#: includes/fields/calc.php:94 includes/fields/textbox.php:4
+msgid "Textbox"
+msgstr "Textbox"
+
+#: includes/fields/calc.php:100
+msgid "Output calculation as"
+msgstr "Mostrar cálculo como"
+
+#: includes/fields/calc.php:113 includes/fields/list.php:98
+#: includes/fields/list.php:193 includes/fields/list.php:585
+#: includes/fields/timed-submit.php:9 includes/fields/timed-submit.php:17
+msgid "Label"
+msgstr "Etiqueta"
+
+#: includes/fields/calc.php:135
+msgid "Disable input?"
+msgstr "Desabilitar Entrada?"
+
+#: includes/fields/calc.php:151
+msgid ""
+"Use the following shortcode to insert the final calculation: "
+"[ninja_forms_calc]"
+msgstr ""
+"Use os seguintes shortcodes para inserir o final do cálculo: "
+"[ninja_forms_calc]"
+
+#: includes/fields/calc.php:188
+#, php-format
+msgid ""
+"You can enter calculation equations here using field_x where x is the ID of "
+"the field you want to use. For example, %sfield_53 + field_28 + field_65%s."
+msgstr ""
+"Você pode digitar equações de cálculo aqui usando field_x onde x é o ID do "
+"campo que você quer usar. Por exemplo, %sfield_53 + field_28 + field_65%s."
+
+#: includes/fields/calc.php:189
+#, php-format
+msgid ""
+"Complex equations can be created by adding parentheses: %s( field_45 * "
+"field_2 ) / 2%s."
+msgstr ""
+"Equações complexas podem ser criadas adicionando parênteses: %s( field_45 * "
+"field_2 ) / 2%s."
+
+#: includes/fields/calc.php:190
+msgid ""
+"Please use these operators: + - * /. This is an advanced feature. Watch out "
+"for things like division by 0."
+msgstr ""
+"Por favor use estes operadores: + - * /. Esta é uma funcionalidade avançada. "
+"Cuidado com coisas como divisão por zero (0)."
+
+#: includes/fields/calc.php:192
+msgid "Automatically Total Calculation Values"
+msgstr "Valors dos Cálculos de Total Automáticos"
+
+#: includes/fields/calc.php:193
+msgid "Specify Operations And Fields (Advanced)"
+msgstr "Especificar Operações e Campos (Avançado)"
+
+#: includes/fields/calc.php:194
+msgid "Use An Equation (Advanced)"
+msgstr "Usar uma equação (Avançado)"
+
+#: includes/fields/calc.php:196
+msgid "Calculation Method"
+msgstr "Método de Cálculo"
+
+#: includes/fields/calc.php:202
+msgid "Field Operations"
+msgstr "Operações de Campo"
+
+#: includes/fields/calc.php:202
+msgid "Add Operation"
+msgstr "Operação de Adição"
+
+#: includes/fields/calc.php:220
+msgid "Advanced Equation"
+msgstr "Equação Avançada"
+
+#: includes/fields/calc.php:238
+msgid "Calculation name"
+msgstr "Nome do Cálculo"
+
+#: includes/fields/calc.php:238
+msgid ""
+"This is the programmatic name of your field. Examples are: my_calc, "
+"price_total, user-total."
+msgstr ""
+"Este é o nome programático do seu campo. Exemplos são: meu_calculo, "
+"preco_total, total-usuario, etc."
+
+#: includes/fields/calc.php:239 includes/fields/checkbox.php:19
+#: includes/fields/desc.php:11 includes/fields/hidden.php:50
+#: includes/fields/number.php:69 includes/fields/number.php:83
+#: includes/fields/textarea.php:11 includes/fields/textbox.php:134
+#: includes/fields/textbox.php:155
+msgid "Default Value"
+msgstr "Valor Padrão"
+
+#: includes/fields/calc.php:275
+msgid "Custom CSS Class"
+msgstr "Classe CSS Customizada"
+
+#: includes/fields/calc.php:392
+msgid "- Select a Field"
+msgstr " - Selecione um campo"
+
+#: includes/fields/checkbox.php:4
+msgid "Checkbox"
+msgstr "Checkbox"
+
+#: includes/fields/checkbox.php:10
+msgid "Unchecked"
+msgstr "Desmarcado"
+
+#: includes/fields/checkbox.php:14
+msgid "Checked"
+msgstr "Marcado"
+
+#: includes/fields/checkbox.php:44 includes/fields/list.php:35
+msgid "Show This"
+msgstr "Exibir Isto"
+
+#: includes/fields/checkbox.php:49 includes/fields/list.php:40
+msgid "Hide This"
+msgstr "Esconder Isto"
+
+#: includes/fields/checkbox.php:54 includes/fields/hidden.php:23
+msgid "Change Value"
+msgstr "Alterar Valor"
+
+#: includes/fields/country.php:12 includes/fields/country.php:315
+msgid "Afghanistan"
+msgstr "Afeganistão"
+
+#: includes/fields/country.php:13 includes/fields/country.php:316
+msgid "Albania"
+msgstr "Albânia"
+
+#: includes/fields/country.php:14 includes/fields/country.php:317
+msgid "Algeria"
+msgstr "Argélia"
+
+#: includes/fields/country.php:15 includes/fields/country.php:318
+msgid "American Samoa"
+msgstr "Samoa Americana"
+
+#: includes/fields/country.php:16 includes/fields/country.php:319
+msgid "Andorra"
+msgstr "Andorra"
+
+#: includes/fields/country.php:17 includes/fields/country.php:320
+msgid "Angola"
+msgstr "Angola"
+
+#: includes/fields/country.php:18 includes/fields/country.php:321
+msgid "Anguilla"
+msgstr "Anguila"
+
+#: includes/fields/country.php:19 includes/fields/country.php:322
+msgid "Antarctica"
+msgstr "Antárctida"
+
+#: includes/fields/country.php:20 includes/fields/country.php:323
+msgid "Antigua And Barbuda"
+msgstr "Antígua e Barbuda"
+
+#: includes/fields/country.php:21 includes/fields/country.php:324
+msgid "Argentina"
+msgstr "Argentina"
+
+#: includes/fields/country.php:22 includes/fields/country.php:325
+msgid "Armenia"
+msgstr "Arménia"
+
+#: includes/fields/country.php:23 includes/fields/country.php:326
+msgid "Aruba"
+msgstr "Aruba"
+
+#: includes/fields/country.php:24 includes/fields/country.php:327
+msgid "Australia"
+msgstr "Austrália"
+
+#: includes/fields/country.php:25 includes/fields/country.php:328
+msgid "Austria"
+msgstr "Áustria"
+
+#: includes/fields/country.php:26 includes/fields/country.php:329
+msgid "Azerbaijan"
+msgstr "Azerbaijão"
+
+#: includes/fields/country.php:27 includes/fields/country.php:330
+msgid "Bahamas"
+msgstr "Bahamas"
+
+#: includes/fields/country.php:28 includes/fields/country.php:331
+msgid "Bahrain"
+msgstr "Bahrein"
+
+#: includes/fields/country.php:29 includes/fields/country.php:332
+msgid "Bangladesh"
+msgstr "Bangladesh"
+
+#: includes/fields/country.php:30 includes/fields/country.php:333
+msgid "Barbados"
+msgstr "Barbados"
+
+#: includes/fields/country.php:31 includes/fields/country.php:334
+msgid "Belarus"
+msgstr "República de Belarus"
+
+#: includes/fields/country.php:32 includes/fields/country.php:335
+msgid "Belgium"
+msgstr "Bélgica"
+
+#: includes/fields/country.php:33 includes/fields/country.php:336
+msgid "Belize"
+msgstr "Belize"
+
+#: includes/fields/country.php:34 includes/fields/country.php:337
+msgid "Benin"
+msgstr "Benin"
+
+#: includes/fields/country.php:35 includes/fields/country.php:338
+msgid "Bermuda"
+msgstr "Bermudas"
+
+#: includes/fields/country.php:36 includes/fields/country.php:339
+msgid "Bhutan"
+msgstr "Butão"
+
+#: includes/fields/country.php:37 includes/fields/country.php:340
+msgid "Bolivia"
+msgstr "Bolívia"
+
+#: includes/fields/country.php:38 includes/fields/country.php:341
+msgid "Bosnia And Herzegowina"
+msgstr "Bósnia-Hersegóvina"
+
+#: includes/fields/country.php:39 includes/fields/country.php:342
+msgid "Botswana"
+msgstr "Botsuana"
+
+#: includes/fields/country.php:40 includes/fields/country.php:343
+msgid "Bouvet Island"
+msgstr "Ilha Bouvet"
+
+#: includes/fields/country.php:41 includes/fields/country.php:344
+msgid "Brazil"
+msgstr "Brasil"
+
+#: includes/fields/country.php:42 includes/fields/country.php:345
+msgid "British Indian Ocean Territory"
+msgstr "Território Britânico do Oceano Índico"
+
+#: includes/fields/country.php:43 includes/fields/country.php:346
+msgid "Brunei Darussalam"
+msgstr "Brunei"
+
+#: includes/fields/country.php:44 includes/fields/country.php:347
+msgid "Bulgaria"
+msgstr "Bulgária"
+
+#: includes/fields/country.php:45 includes/fields/country.php:348
+msgid "Burkina Faso"
+msgstr "Burkina Faso"
+
+#: includes/fields/country.php:46 includes/fields/country.php:349
+msgid "Burundi"
+msgstr "Burundi"
+
+#: includes/fields/country.php:47 includes/fields/country.php:350
+msgid "Cambodia"
+msgstr "Camboja"
+
+#: includes/fields/country.php:48 includes/fields/country.php:351
+msgid "Cameroon"
+msgstr "Camarões"
+
+#: includes/fields/country.php:49 includes/fields/country.php:352
+msgid "Canada"
+msgstr "Canadá"
+
+#: includes/fields/country.php:50 includes/fields/country.php:353
+msgid "Cape Verde"
+msgstr "Cabo Verde"
+
+#: includes/fields/country.php:51 includes/fields/country.php:354
+msgid "Cayman Islands"
+msgstr "Ilhas Caimão"
+
+#: includes/fields/country.php:52 includes/fields/country.php:355
+msgid "Central African Republic"
+msgstr "República Centro-Africana"
+
+#: includes/fields/country.php:53 includes/fields/country.php:356
+msgid "Chad"
+msgstr "Chade"
+
+#: includes/fields/country.php:54 includes/fields/country.php:357
+msgid "Chile"
+msgstr "Chile"
+
+#: includes/fields/country.php:55 includes/fields/country.php:358
+msgid "China"
+msgstr "China"
+
+#: includes/fields/country.php:56 includes/fields/country.php:359
+msgid "Christmas Island"
+msgstr "Ilha do Natal"
+
+#: includes/fields/country.php:57 includes/fields/country.php:360
+msgid "Cocos (Keeling) Islands"
+msgstr "Ilhas dos Cocos"
+
+#: includes/fields/country.php:58 includes/fields/country.php:361
+msgid "Colombia"
+msgstr "Colômbia"
+
+#: includes/fields/country.php:59 includes/fields/country.php:362
+msgid "Comoros"
+msgstr "Comores"
+
+#: includes/fields/country.php:60 includes/fields/country.php:363
+msgid "Congo"
+msgstr "Congo"
+
+#: includes/fields/country.php:61 includes/fields/country.php:364
+msgid "Congo, The Democratic Republic Of The"
+msgstr "República Democrática do Congo"
+
+#: includes/fields/country.php:62 includes/fields/country.php:365
+msgid "Cook Islands"
+msgstr "Ilhas Cook"
+
+#: includes/fields/country.php:63 includes/fields/country.php:366
+msgid "Costa Rica"
+msgstr "Costa Rica"
+
+#: includes/fields/country.php:64 includes/fields/country.php:367
+msgid "Cote D'Ivoire"
+msgstr "Costa do Marfim"
+
+#: includes/fields/country.php:65 includes/fields/country.php:368
+msgid "Croatia (Local Name: Hrvatska)"
+msgstr "Croácia"
+
+#: includes/fields/country.php:66 includes/fields/country.php:369
+msgid "Cuba"
+msgstr "Cuba"
+
+#: includes/fields/country.php:67 includes/fields/country.php:370
+msgid "Cyprus"
+msgstr "Chipre"
+
+#: includes/fields/country.php:68 includes/fields/country.php:371
+msgid "Czech Republic"
+msgstr "República Tcheca"
+
+#: includes/fields/country.php:69 includes/fields/country.php:372
+msgid "Denmark"
+msgstr "Dinamarca"
+
+#: includes/fields/country.php:70 includes/fields/country.php:373
+msgid "Djibouti"
+msgstr "Djibuti"
+
+#: includes/fields/country.php:71 includes/fields/country.php:374
+msgid "Dominica"
+msgstr "Dominica"
+
+#: includes/fields/country.php:72 includes/fields/country.php:375
+msgid "Dominican Republic"
+msgstr "República Dominicana"
+
+#: includes/fields/country.php:73 includes/fields/country.php:376
+msgid "Timor-Leste (East Timor)"
+msgstr "Timor Leste"
+
+#: includes/fields/country.php:74 includes/fields/country.php:377
+msgid "Ecuador"
+msgstr "Equador"
+
+#: includes/fields/country.php:75 includes/fields/country.php:378
+msgid "Egypt"
+msgstr "Egito"
+
+#: includes/fields/country.php:76 includes/fields/country.php:379
+msgid "El Salvador"
+msgstr "El Salvador"
+
+#: includes/fields/country.php:77 includes/fields/country.php:380
+msgid "Equatorial Guinea"
+msgstr "Guiné Equatorial"
+
+#: includes/fields/country.php:78 includes/fields/country.php:381
+msgid "Eritrea"
+msgstr "Eritréia"
+
+#: includes/fields/country.php:79 includes/fields/country.php:382
+msgid "Estonia"
+msgstr "Estônia"
+
+#: includes/fields/country.php:80 includes/fields/country.php:383
+msgid "Ethiopia"
+msgstr "Etiópia"
+
+#: includes/fields/country.php:81 includes/fields/country.php:384
+msgid "Falkland Islands (Malvinas)"
+msgstr "Ilhas Falkland (Malvinas)"
+
+#: includes/fields/country.php:82 includes/fields/country.php:385
+msgid "Faroe Islands"
+msgstr "Ilhas Feroe"
+
+#: includes/fields/country.php:83 includes/fields/country.php:386
+msgid "Fiji"
+msgstr "Fiji"
+
+#: includes/fields/country.php:84 includes/fields/country.php:387
+msgid "Finland"
+msgstr "Finlândia"
+
+#: includes/fields/country.php:85 includes/fields/country.php:388
+msgid "France"
+msgstr "França"
+
+#: includes/fields/country.php:86 includes/fields/country.php:389
+msgid "France, Metropolitan"
+msgstr "França Metropolitana"
+
+#: includes/fields/country.php:87 includes/fields/country.php:390
+msgid "French Guiana"
+msgstr "Guiana Francesa"
+
+#: includes/fields/country.php:88 includes/fields/country.php:391
+msgid "French Polynesia"
+msgstr "Polinésia Francesa"
+
+#: includes/fields/country.php:89 includes/fields/country.php:392
+msgid "French Southern Territories"
+msgstr "Terras Austrais e Antárticas Francesas"
+
+#: includes/fields/country.php:90 includes/fields/country.php:393
+msgid "Gabon"
+msgstr "Gabão"
+
+#: includes/fields/country.php:91 includes/fields/country.php:394
+msgid "Gambia"
+msgstr "Gâmbia"
+
+#: includes/fields/country.php:92 includes/fields/country.php:395
+msgid "Georgia"
+msgstr "Geórgia"
+
+#: includes/fields/country.php:93 includes/fields/country.php:396
+msgid "Germany"
+msgstr "Alemanha"
+
+#: includes/fields/country.php:94 includes/fields/country.php:397
+msgid "Ghana"
+msgstr "Gana"
+
+#: includes/fields/country.php:95 includes/fields/country.php:398
+msgid "Gibraltar"
+msgstr "Gibraltar"
+
+#: includes/fields/country.php:96 includes/fields/country.php:399
+msgid "Greece"
+msgstr "Grécia"
+
+#: includes/fields/country.php:97 includes/fields/country.php:400
+msgid "Greenland"
+msgstr "Gronelândia"
+
+#: includes/fields/country.php:98 includes/fields/country.php:401
+msgid "Grenada"
+msgstr "Granada"
+
+#: includes/fields/country.php:99 includes/fields/country.php:402
+msgid "Guadeloupe"
+msgstr "Guadalupe"
+
+#: includes/fields/country.php:100 includes/fields/country.php:403
+msgid "Guam"
+msgstr "Guam"
+
+#: includes/fields/country.php:101 includes/fields/country.php:404
+msgid "Guatemala"
+msgstr "Guatemala"
+
+#: includes/fields/country.php:102 includes/fields/country.php:405
+msgid "Guinea"
+msgstr "Guiné"
+
+#: includes/fields/country.php:103 includes/fields/country.php:406
+msgid "Guinea-Bissau"
+msgstr "Guiné-Bissau"
+
+#: includes/fields/country.php:104 includes/fields/country.php:407
+msgid "Guyana"
+msgstr "Guiana"
+
+#: includes/fields/country.php:105 includes/fields/country.php:408
+msgid "Haiti"
+msgstr "Haiti"
+
+#: includes/fields/country.php:106 includes/fields/country.php:409
+msgid "Heard And Mc Donald Islands"
+msgstr "Ilha Heard e Ilhas McDonald"
+
+#: includes/fields/country.php:107 includes/fields/country.php:410
+msgid "Holy See (Vatican City State)"
+msgstr "Cidade do Vaticano"
+
+#: includes/fields/country.php:108 includes/fields/country.php:411
+msgid "Honduras"
+msgstr "Honduras"
+
+#: includes/fields/country.php:109 includes/fields/country.php:412
+msgid "Hong Kong"
+msgstr "Hong Kong"
+
+#: includes/fields/country.php:110 includes/fields/country.php:413
+msgid "Hungary"
+msgstr "Hungria"
+
+#: includes/fields/country.php:111 includes/fields/country.php:414
+msgid "Iceland"
+msgstr "Islândia"
+
+#: includes/fields/country.php:112 includes/fields/country.php:415
+msgid "India"
+msgstr "Índia"
+
+#: includes/fields/country.php:113 includes/fields/country.php:416
+msgid "Indonesia"
+msgstr "Indonésia"
+
+#: includes/fields/country.php:114 includes/fields/country.php:417
+msgid "Iran (Islamic Republic Of)"
+msgstr "Irã"
+
+#: includes/fields/country.php:115 includes/fields/country.php:418
+msgid "Iraq"
+msgstr "Iraque"
+
+#: includes/fields/country.php:116 includes/fields/country.php:419
+msgid "Ireland"
+msgstr "Irlanda"
+
+#: includes/fields/country.php:117 includes/fields/country.php:420
+msgid "Israel"
+msgstr "Israel"
+
+#: includes/fields/country.php:118 includes/fields/country.php:421
+msgid "Italy"
+msgstr "Itália"
+
+#: includes/fields/country.php:119 includes/fields/country.php:422
+msgid "Jamaica"
+msgstr "Jamaica"
+
+#: includes/fields/country.php:120 includes/fields/country.php:423
+msgid "Japan"
+msgstr "Japão"
+
+#: includes/fields/country.php:121 includes/fields/country.php:424
+msgid "Jordan"
+msgstr "Jordânia"
+
+#: includes/fields/country.php:122 includes/fields/country.php:425
+msgid "Kazakhstan"
+msgstr "Cazaquistão"
+
+#: includes/fields/country.php:123 includes/fields/country.php:426
+msgid "Kenya"
+msgstr "Quénia"
+
+#: includes/fields/country.php:124 includes/fields/country.php:427
+msgid "Kiribati"
+msgstr "Kiribati"
+
+#: includes/fields/country.php:125 includes/fields/country.php:428
+msgid "Korea, Democratic People's Republic Of"
+msgstr "Coréia do Norte"
+
+#: includes/fields/country.php:126 includes/fields/country.php:429
+msgid "Korea, Republic Of"
+msgstr "Coreia do Sul"
+
+#: includes/fields/country.php:127 includes/fields/country.php:430
+msgid "Kuwait"
+msgstr "Kuwait"
+
+#: includes/fields/country.php:128 includes/fields/country.php:431
+msgid "Kyrgyzstan"
+msgstr "Quirguistão"
+
+#: includes/fields/country.php:129 includes/fields/country.php:432
+msgid "Lao People's Democratic Republic"
+msgstr "Laos"
+
+#: includes/fields/country.php:130 includes/fields/country.php:433
+msgid "Latvia"
+msgstr "Letónia"
+
+#: includes/fields/country.php:131 includes/fields/country.php:434
+msgid "Lebanon"
+msgstr "Líbano"
+
+#: includes/fields/country.php:132 includes/fields/country.php:435
+msgid "Lesotho"
+msgstr "Lesoto"
+
+#: includes/fields/country.php:133 includes/fields/country.php:436
+msgid "Liberia"
+msgstr "Libéria"
+
+#: includes/fields/country.php:134 includes/fields/country.php:437
+msgid "Libyan Arab Jamahiriya"
+msgstr "Líbia"
+
+#: includes/fields/country.php:135 includes/fields/country.php:438
+msgid "Liechtenstein"
+msgstr "Liechtenstein"
+
+#: includes/fields/country.php:136 includes/fields/country.php:439
+msgid "Lithuania"
+msgstr "Lituânia"
+
+#: includes/fields/country.php:137 includes/fields/country.php:440
+msgid "Luxembourg"
+msgstr "Luxemburgo"
+
+#: includes/fields/country.php:138 includes/fields/country.php:441
+msgid "Macau"
+msgstr "Macau"
+
+#: includes/fields/country.php:139 includes/fields/country.php:442
+msgid "Macedonia, Former Yugoslav Republic Of"
+msgstr "República da Macedônia"
+
+#: includes/fields/country.php:140 includes/fields/country.php:443
+msgid "Madagascar"
+msgstr "Madagáscar"
+
+#: includes/fields/country.php:141 includes/fields/country.php:444
+msgid "Malawi"
+msgstr "Malawi"
+
+#: includes/fields/country.php:142 includes/fields/country.php:445
+msgid "Malaysia"
+msgstr "Malásia"
+
+#: includes/fields/country.php:143 includes/fields/country.php:446
+msgid "Maldives"
+msgstr "Maldivas"
+
+#: includes/fields/country.php:144 includes/fields/country.php:447
+msgid "Mali"
+msgstr "Mali"
+
+#: includes/fields/country.php:145 includes/fields/country.php:448
+msgid "Malta"
+msgstr "Malta"
+
+#: includes/fields/country.php:146 includes/fields/country.php:449
+msgid "Marshall Islands"
+msgstr "Ilhas Marshall"
+
+#: includes/fields/country.php:147 includes/fields/country.php:450
+msgid "Martinique"
+msgstr "Martinica"
+
+#: includes/fields/country.php:148 includes/fields/country.php:451
+msgid "Mauritania"
+msgstr "Mauritânia"
+
+#: includes/fields/country.php:149 includes/fields/country.php:452
+msgid "Mauritius"
+msgstr "Maurícia"
+
+#: includes/fields/country.php:150 includes/fields/country.php:453
+msgid "Mayotte"
+msgstr "Mayotte"
+
+#: includes/fields/country.php:151 includes/fields/country.php:454
+msgid "Mexico"
+msgstr "México"
+
+#: includes/fields/country.php:152 includes/fields/country.php:455
+msgid "Micronesia, Federated States Of"
+msgstr "Estados Federados da Micronésia"
+
+#: includes/fields/country.php:153 includes/fields/country.php:456
+msgid "Moldova, Republic Of"
+msgstr "Moldávia"
+
+#: includes/fields/country.php:154 includes/fields/country.php:457
+msgid "Monaco"
+msgstr "Mónaco"
+
+#: includes/fields/country.php:155 includes/fields/country.php:458
+msgid "Mongolia"
+msgstr "Mongólia"
+
+#: includes/fields/country.php:156 includes/fields/country.php:459
+msgid "Montenegro"
+msgstr "Montenegro"
+
+#: includes/fields/country.php:157 includes/fields/country.php:460
+msgid "Montserrat"
+msgstr "Montserrat"
+
+#: includes/fields/country.php:158 includes/fields/country.php:461
+msgid "Morocco"
+msgstr "Marrocos"
+
+#: includes/fields/country.php:159 includes/fields/country.php:462
+msgid "Mozambique"
+msgstr "Moçambique"
+
+#: includes/fields/country.php:160 includes/fields/country.php:463
+msgid "Myanmar"
+msgstr "Myanmar"
+
+#: includes/fields/country.php:161 includes/fields/country.php:464
+msgid "Namibia"
+msgstr "Namíbia"
+
+#: includes/fields/country.php:162 includes/fields/country.php:465
+msgid "Nauru"
+msgstr "Nauru"
+
+#: includes/fields/country.php:163 includes/fields/country.php:466
+msgid "Nepal"
+msgstr "Nepal"
+
+#: includes/fields/country.php:164 includes/fields/country.php:467
+msgid "Netherlands"
+msgstr "Países Baixos"
+
+#: includes/fields/country.php:165 includes/fields/country.php:468
+msgid "Netherlands Antilles"
+msgstr "Antilhas Neerlandesas"
+
+#: includes/fields/country.php:166 includes/fields/country.php:469
+msgid "New Caledonia"
+msgstr "Nova Caledónia"
+
+#: includes/fields/country.php:167 includes/fields/country.php:470
+msgid "New Zealand"
+msgstr "Nova Zelândia"
+
+#: includes/fields/country.php:168 includes/fields/country.php:471
+msgid "Nicaragua"
+msgstr "Nicarágua"
+
+#: includes/fields/country.php:169 includes/fields/country.php:472
+msgid "Niger"
+msgstr "Níger"
+
+#: includes/fields/country.php:170 includes/fields/country.php:473
+msgid "Nigeria"
+msgstr "Nigéria"
+
+#: includes/fields/country.php:171 includes/fields/country.php:474
+msgid "Niue"
+msgstr "Niue"
+
+#: includes/fields/country.php:172 includes/fields/country.php:475
+msgid "Norfolk Island"
+msgstr "Ilha Norfolk"
+
+#: includes/fields/country.php:173 includes/fields/country.php:476
+msgid "Northern Mariana Islands"
+msgstr "Ilhas Marianas do Norte"
+
+#: includes/fields/country.php:174 includes/fields/country.php:477
+msgid "Norway"
+msgstr "Noruega"
+
+#: includes/fields/country.php:175 includes/fields/country.php:478
+msgid "Oman"
+msgstr "Omã"
+
+#: includes/fields/country.php:176 includes/fields/country.php:479
+msgid "Pakistan"
+msgstr "Paquistão"
+
+#: includes/fields/country.php:177 includes/fields/country.php:480
+msgid "Palau"
+msgstr "Palau"
+
+#: includes/fields/country.php:178 includes/fields/country.php:481
+msgid "Panama"
+msgstr "Panamá"
+
+#: includes/fields/country.php:179 includes/fields/country.php:482
+msgid "Papua New Guinea"
+msgstr "Papua - Nova Guiné"
+
+#: includes/fields/country.php:180 includes/fields/country.php:483
+msgid "Paraguay"
+msgstr "Paraguai"
+
+#: includes/fields/country.php:181 includes/fields/country.php:484
+msgid "Peru"
+msgstr "Peru"
+
+#: includes/fields/country.php:182 includes/fields/country.php:485
+msgid "Philippines"
+msgstr "Filipinas"
+
+#: includes/fields/country.php:183 includes/fields/country.php:486
+msgid "Pitcairn"
+msgstr "Ilhas Pitcairn"
+
+#: includes/fields/country.php:184 includes/fields/country.php:487
+msgid "Poland"
+msgstr "Polônia"
+
+#: includes/fields/country.php:185 includes/fields/country.php:488
+msgid "Portugal"
+msgstr "Portugal"
+
+#: includes/fields/country.php:186 includes/fields/country.php:489
+msgid "Puerto Rico"
+msgstr "Porto Rico"
+
+#: includes/fields/country.php:187 includes/fields/country.php:490
+msgid "Qatar"
+msgstr "Catar"
+
+#: includes/fields/country.php:188 includes/fields/country.php:491
+msgid "Reunion"
+msgstr "Reunião"
+
+#: includes/fields/country.php:189 includes/fields/country.php:492
+msgid "Romania"
+msgstr "Romênia"
+
+#: includes/fields/country.php:190 includes/fields/country.php:493
+msgid "Russian Federation"
+msgstr "Rússia"
+
+#: includes/fields/country.php:191 includes/fields/country.php:494
+msgid "Rwanda"
+msgstr "Ruanda"
+
+#: includes/fields/country.php:192 includes/fields/country.php:495
+msgid "Saint Kitts And Nevis"
+msgstr "São Cristóvão e Nevis"
+
+#: includes/fields/country.php:193 includes/fields/country.php:496
+msgid "Saint Lucia"
+msgstr "Santa Lúcia"
+
+#: includes/fields/country.php:194 includes/fields/country.php:497
+msgid "Saint Vincent And The Grenadines"
+msgstr "São Vicente e Granadinas"
+
+#: includes/fields/country.php:195 includes/fields/country.php:498
+msgid "Samoa"
+msgstr "Samoa"
+
+#: includes/fields/country.php:196 includes/fields/country.php:499
+msgid "San Marino"
+msgstr "San Marino"
+
+#: includes/fields/country.php:197 includes/fields/country.php:500
+msgid "Sao Tome And Principe"
+msgstr "São Tomé e Príncipe"
+
+#: includes/fields/country.php:198 includes/fields/country.php:501
+msgid "Saudi Arabia"
+msgstr "Arábia Saudita"
+
+#: includes/fields/country.php:199 includes/fields/country.php:502
+msgid "Senegal"
+msgstr "Senegal"
+
+#: includes/fields/country.php:200 includes/fields/country.php:503
+msgid "Serbia"
+msgstr "Sérvia"
+
+#: includes/fields/country.php:201 includes/fields/country.php:504
+msgid "Seychelles"
+msgstr "Seychelles"
+
+#: includes/fields/country.php:202 includes/fields/country.php:505
+msgid "Sierra Leone"
+msgstr "Serra Leoa"
+
+#: includes/fields/country.php:203 includes/fields/country.php:506
+msgid "Singapore"
+msgstr "Singapura"
+
+#: includes/fields/country.php:204 includes/fields/country.php:507
+msgid "Slovakia (Slovak Republic)"
+msgstr "Eslováquia"
+
+#: includes/fields/country.php:205 includes/fields/country.php:508
+msgid "Slovenia"
+msgstr "Eslovênia"
+
+#: includes/fields/country.php:206 includes/fields/country.php:509
+msgid "Solomon Islands"
+msgstr "Ilhas Salomão"
+
+#: includes/fields/country.php:207 includes/fields/country.php:510
+msgid "Somalia"
+msgstr "Somália"
+
+#: includes/fields/country.php:208 includes/fields/country.php:511
+msgid "South Africa"
+msgstr "África do Sul"
+
+#: includes/fields/country.php:209 includes/fields/country.php:512
+msgid "South Georgia, South Sandwich Islands"
+msgstr "Ilhas Geórgia do Sul e Sandwich do Sul"
+
+#: includes/fields/country.php:210 includes/fields/country.php:513
+msgid "Spain"
+msgstr "Espanha"
+
+#: includes/fields/country.php:211 includes/fields/country.php:514
+msgid "Sri Lanka"
+msgstr "Sri Lanka"
+
+#: includes/fields/country.php:212 includes/fields/country.php:515
+msgid "St. Helena"
+msgstr "Santa Helena"
+
+#: includes/fields/country.php:213 includes/fields/country.php:516
+msgid "St. Pierre And Miquelon"
+msgstr "Saint-Pierre e Miquelon"
+
+#: includes/fields/country.php:214 includes/fields/country.php:517
+msgid "Sudan"
+msgstr "Sudão"
+
+#: includes/fields/country.php:215 includes/fields/country.php:518
+msgid "Suriname"
+msgstr "Suriname"
+
+#: includes/fields/country.php:216 includes/fields/country.php:519
+msgid "Svalbard And Jan Mayen Islands"
+msgstr "Svalbard e Jan Mayen"
+
+#: includes/fields/country.php:217 includes/fields/country.php:520
+msgid "Swaziland"
+msgstr "Suazilândia"
+
+#: includes/fields/country.php:218 includes/fields/country.php:521
+msgid "Sweden"
+msgstr "Suécia"
+
+#: includes/fields/country.php:219 includes/fields/country.php:522
+msgid "Switzerland"
+msgstr "Suíça"
+
+#: includes/fields/country.php:220 includes/fields/country.php:523
+msgid "Syrian Arab Republic"
+msgstr "Síria"
+
+#: includes/fields/country.php:221 includes/fields/country.php:524
+msgid "Taiwan"
+msgstr "República da China"
+
+#: includes/fields/country.php:222 includes/fields/country.php:525
+msgid "Tajikistan"
+msgstr "Tajiquistão"
+
+#: includes/fields/country.php:223 includes/fields/country.php:526
+msgid "Tanzania, United Republic Of"
+msgstr "Tanzânia"
+
+#: includes/fields/country.php:224 includes/fields/country.php:527
+msgid "Thailand"
+msgstr "Tailândia"
+
+#: includes/fields/country.php:225 includes/fields/country.php:528
+msgid "Togo"
+msgstr "Togo"
+
+#: includes/fields/country.php:226 includes/fields/country.php:529
+msgid "Tokelau"
+msgstr "Tokelau"
+
+#: includes/fields/country.php:227 includes/fields/country.php:530
+msgid "Tonga"
+msgstr "Tonga"
+
+#: includes/fields/country.php:228 includes/fields/country.php:531
+msgid "Trinidad And Tobago"
+msgstr "Trinodad e Tobago"
+
+#: includes/fields/country.php:229 includes/fields/country.php:532
+msgid "Tunisia"
+msgstr "Tunísia"
+
+#: includes/fields/country.php:230 includes/fields/country.php:533
+msgid "Turkey"
+msgstr "Turquia"
+
+#: includes/fields/country.php:231 includes/fields/country.php:534
+msgid "Turkmenistan"
+msgstr "Turcomenistão"
+
+#: includes/fields/country.php:232 includes/fields/country.php:535
+msgid "Turks And Caicos Islands"
+msgstr "Turks e Caicos"
+
+#: includes/fields/country.php:233 includes/fields/country.php:536
+msgid "Tuvalu"
+msgstr "Tuvalu"
+
+#: includes/fields/country.php:234 includes/fields/country.php:537
+msgid "Uganda"
+msgstr "Uganda"
+
+#: includes/fields/country.php:235 includes/fields/country.php:538
+msgid "Ukraine"
+msgstr "Ucrânia"
+
+#: includes/fields/country.php:236 includes/fields/country.php:539
+msgid "United Arab Emirates"
+msgstr "Emirados Árabes Unidos"
+
+#: includes/fields/country.php:237 includes/fields/country.php:540
+msgid "United Kingdom"
+msgstr "Reino Unido"
+
+#: includes/fields/country.php:238 includes/fields/country.php:541
+msgid "United States"
+msgstr "Estados Unidos"
+
+#: includes/fields/country.php:239 includes/fields/country.php:542
+msgid "United States Minor Outlying Islands"
+msgstr "Ilhas Menores Distantes dos Estados Unidos"
+
+#: includes/fields/country.php:240 includes/fields/country.php:543
+msgid "Uruguay"
+msgstr "Uruguai"
+
+#: includes/fields/country.php:241 includes/fields/country.php:544
+msgid "Uzbekistan"
+msgstr "Uzbequistão"
+
+#: includes/fields/country.php:242 includes/fields/country.php:545
+msgid "Vanuatu"
+msgstr "Vanuatu"
+
+#: includes/fields/country.php:243 includes/fields/country.php:546
+msgid "Venezuela"
+msgstr "Venezuela"
+
+#: includes/fields/country.php:244 includes/fields/country.php:547
+msgid "Viet Nam"
+msgstr "Vietnã"
+
+#: includes/fields/country.php:245 includes/fields/country.php:548
+msgid "Virgin Islands (British)"
+msgstr "Ilhas Virgens Britânicas"
+
+#: includes/fields/country.php:246 includes/fields/country.php:549
+msgid "Virgin Islands (U.S.)"
+msgstr "Ilhas Virgens Americanas"
+
+#: includes/fields/country.php:247 includes/fields/country.php:550
+msgid "Wallis And Futuna Islands"
+msgstr "Wallis e Futuna"
+
+#: includes/fields/country.php:248 includes/fields/country.php:551
+msgid "Western Sahara"
+msgstr "Saara Ocidental"
+
+#: includes/fields/country.php:249 includes/fields/country.php:552
+msgid "Yemen"
+msgstr "Iémen"
+
+#: includes/fields/country.php:250 includes/fields/country.php:553
+msgid "Yugoslavia"
+msgstr "Reino da Iugoslávia"
+
+#: includes/fields/country.php:251 includes/fields/country.php:554
+msgid "Zambia"
+msgstr "Zâmbia"
+
+#: includes/fields/country.php:252 includes/fields/country.php:555
+msgid "Zimbabwe"
+msgstr "Zimbábue"
+
+#: includes/fields/country.php:260
+msgid "Country"
+msgstr "País"
+
+#: includes/fields/country.php:270
+msgid "Default Country"
+msgstr "País Padrão"
+
+#: includes/fields/country.php:277
+msgid "Use a custom first option"
+msgstr "Usar uma primeira opção customizada"
+
+#: includes/fields/country.php:283
+msgid "Custom first option"
+msgstr "Customizar primeira opção"
+
+#: includes/fields/credit-card.php:14
+msgid "Credit Card"
+msgstr "Cartão de Crédito"
+
+#: includes/fields/credit-card.php:35
+msgid "Card Number Label"
+msgstr "Etiqueta Número do Cartão"
+
+#: includes/fields/credit-card.php:36 includes/fields/credit-card.php:145
+msgid "Card Number"
+msgstr "Número do Cartão"
+
+#: includes/fields/credit-card.php:43
+msgid "Card Number Description"
+msgstr "Descrição Número do Cartão"
+
+#: includes/fields/credit-card.php:44 includes/fields/credit-card.php:146
+msgid "The (typically) 16 digits on the front of your credit card."
+msgstr "Os (normalmente) 16 dígitos na parte frontal do seu cartão de crédito"
+
+#: includes/fields/credit-card.php:51
+msgid "Card CVC Label"
+msgstr "Etiqueta Cartão CVC"
+
+#: includes/fields/credit-card.php:52 includes/fields/credit-card.php:148
+msgid "CVC"
+msgstr "CVC"
+
+#: includes/fields/credit-card.php:59
+msgid "Card CVC Description"
+msgstr "Descrição Cartão CVC"
+
+#: includes/fields/credit-card.php:60 includes/fields/credit-card.php:149
+msgid "The 3 digit (back) or 4 digit (front) value on your card."
+msgstr "Os 3 (últimos) dígitos ou 4 dígitos (iniciais) em seu cartão."
+
+#: includes/fields/credit-card.php:67
+msgid "Card Name Label"
+msgstr "Etiqueta Nome do Cartão"
+
+#: includes/fields/credit-card.php:68 includes/fields/credit-card.php:151
+msgid "Name on the card"
+msgstr "Nome no Cartão"
+
+#: includes/fields/credit-card.php:75
+msgid "Card Name Description"
+msgstr "Descrição do Nome do Cartão"
+
+#: includes/fields/credit-card.php:76 includes/fields/credit-card.php:152
+msgid "The name printed on the front of your credit card."
+msgstr "O nome exibido na parte frontal do seu cartão de crédito."
+
+#: includes/fields/credit-card.php:83
+msgid "Card Expiry Month Label"
+msgstr "Etiqueta de Mês de Expiração do Cartão"
+
+#: includes/fields/credit-card.php:84 includes/fields/credit-card.php:154
+msgid "Expiration month (MM)"
+msgstr "Mês de Expiração (MM)"
+
+#: includes/fields/credit-card.php:91
+msgid "Card Expiry Month Description"
+msgstr "Descrição do Mês de Expiração do Cartão"
+
+#: includes/fields/credit-card.php:92 includes/fields/credit-card.php:155
+msgid "The month your credit card expires, typically on the front of the card."
+msgstr ""
+"O mês que seu cartão de crédito expira, normalmente na parte frontal do "
+"cartão."
+
+#: includes/fields/credit-card.php:99
+msgid "Card Expiry Year Label"
+msgstr "Etiqueta de Ano de Expiração do Cartão"
+
+#: includes/fields/credit-card.php:100 includes/fields/credit-card.php:157
+msgid "Expiration year (YYYY)"
+msgstr "Ano de Expiração (YYYY)"
+
+#: includes/fields/credit-card.php:107
+msgid "Card Expiry Year Description"
+msgstr "Descrição de Ano de Expiração do Cartão"
+
+#: includes/fields/credit-card.php:108 includes/fields/credit-card.php:158
+msgid "The year your credit card expires, typically on the front of the card."
+msgstr ""
+"O ano que seu cartão de crédito expira, normalmente na parte frontal do "
+"cartão."
+
+#: includes/fields/desc.php:4
+msgid "Text"
+msgstr "Texto"
+
+#: includes/fields/desc.php:18
+msgid "Text Element"
+msgstr "Elemento Textual"
+
+#: includes/fields/hidden.php:4
+msgid "Hidden Field"
+msgstr "Campo Oculto"
+
+#: includes/fields/hidden.php:53 includes/fields/number.php:73
+#: includes/fields/textbox.php:138
+msgid "User ID (If logged in)"
+msgstr "ID do Usuário (se logado)"
+
+#: includes/fields/hidden.php:54 includes/fields/textbox.php:139
+msgid "User Firstname (If logged in)"
+msgstr "Primeiro Nome do Usuário (se logado)"
+
+#: includes/fields/hidden.php:55 includes/fields/textbox.php:140
+msgid "User Lastname (If logged in)"
+msgstr "Último Nome do Usuário (se logado)"
+
+#: includes/fields/hidden.php:56 includes/fields/textbox.php:141
+msgid "User Display Name (If logged in)"
+msgstr "Apelido do Usuário (se logado)"
+
+#: includes/fields/hidden.php:57 includes/fields/textbox.php:142
+msgid "User Email (If logged in)"
+msgstr "Email do Usuário (se logado)"
+
+#: includes/fields/hidden.php:58 includes/fields/number.php:74
+#: includes/fields/textbox.php:143
+msgid "Post / Page ID (If available)"
+msgstr "ID Post / Página (se disponível)"
+
+#: includes/fields/hidden.php:59 includes/fields/textbox.php:144
+msgid "Post / Page Title (If available)"
+msgstr "Título do Post/Página (se disponível)"
+
+#: includes/fields/hidden.php:60 includes/fields/textbox.php:145
+msgid "Post / Page URL (If available)"
+msgstr "URL Post / Página (se disponível)"
+
+#: includes/fields/hidden.php:67
+msgid "Custom Default Value"
+msgstr "Valor Padrão Customizado"
+
+#: includes/fields/hidden.php:88
+msgid "Is this an email address?"
+msgstr "Este é um campo de email?"
+
+#: includes/fields/hidden.php:96
+msgid ""
+"If this box is checked, Ninja Forms will validate this input as an email "
+"address."
+msgstr ""
+"Se este box for checado, Ninja Forms irá validar este campo como um email."
+
+#: includes/fields/hidden.php:103
+msgid "Send a copy of the form to this address?"
+msgstr "mandar uma cópia do formulário para este endereço?"
+
+#: includes/fields/hidden.php:111
+msgid ""
+"If this box is checked, Ninja Forms will send a copy of this form (and any "
+"messages attached) to this address."
+msgstr ""
+"Se este box for checado, Ninja Forms mandará uma cópia do formulário para "
+"este endereço."
+
+#: includes/fields/honeypot.php:4
+msgid "Honey Pot"
+msgstr "Honey Pot"
+
+#: includes/fields/honeypot.php:10
+msgid "If you are a human and are seeing this field, please leave it blank."
+msgstr ""
+"Se você for um humano e está vendo este campo, por favor, deixe-o em branco."
+
+#: includes/fields/hr.php:4
+msgid "hr"
+msgstr "hr"
+
+#: includes/fields/list.php:4
+msgid "List"
+msgstr "Lista"
+
+#: includes/fields/list.php:17 includes/fields/textbox.php:68
+msgid "This is the user's state"
+msgstr "Este é o estado do usuário"
+
+#: includes/fields/list.php:45
+msgid "Selected Value"
+msgstr "Valor Selecionado"
+
+#: includes/fields/list.php:50
+msgid "Add Value"
+msgstr "Adicionar Valor"
+
+#: includes/fields/list.php:55
+msgid "Remove Value"
+msgstr "Remover Valor"
+
+#: includes/fields/list.php:112 includes/fields/list.php:591
+msgid "Calc"
+msgstr "Calc"
+
+#: includes/fields/list.php:134
+msgid "Dropdown"
+msgstr "Dropdown"
+
+#: includes/fields/list.php:135
+msgid "Radio"
+msgstr "Radio"
+
+#: includes/fields/list.php:136
+msgid "Checkboxes"
+msgstr "Checkboxes"
+
+#: includes/fields/list.php:137
+msgid "Multi-Select"
+msgstr "Multi-Select"
+
+#: includes/fields/list.php:140
+msgid "List Type"
+msgstr "Tipo de Lista"
+
+#: includes/fields/list.php:145
+msgid "Multi-Select Box Size"
+msgstr "Box de Múltiplas Seleções"
+
+#: includes/fields/list.php:150
+msgid "Import List Items"
+msgstr "Importar Itens da Lista"
+
+#: includes/fields/list.php:156
+msgid "Show list item values"
+msgstr "Exibir valores de item da lista"
+
+#: includes/fields/list.php:175
+msgid "Import"
+msgstr "Importar"
+
+#: includes/fields/list.php:176
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: includes/fields/list.php:177
+msgid "To use this feature, you can paste your CSV into the textarea above."
+msgstr "Para usar esta funcionalidade, cole seu CSV na textarea acima."
+
+#: includes/fields/list.php:178
+msgid "The format should look like the following:"
+msgstr "O formato deverá parecer com o seguinte:"
+
+#: includes/fields/list.php:181
+msgid "Label,Value,Calc"
+msgstr "Etiqueta,Valor,Cálculo"
+
+#: includes/fields/list.php:190
+msgid ""
+"If you want to send an empty value or calc, you should use '' for those."
+msgstr ""
+"Se você quiser enviar um valor ou cálculo nulo, você deve usar '' para eles."
+
+#: includes/fields/list.php:594
+msgid "Selected"
+msgstr "Selecionado"
+
+#: includes/fields/number.php:4
+msgid "Number"
+msgstr "Número"
+
+#: includes/fields/number.php:12
+msgid "Minimum Value"
+msgstr "Valor Mínimo"
+
+#: includes/fields/number.php:18
+msgid "Maximum Value"
+msgstr "Valor Máximo"
+
+#: includes/fields/number.php:24
+msgid "Step (amount to increment by)"
+msgstr "Passo (valor a ser incrementado)"
+
+#: includes/fields/organizer.php:6
+msgid "Organizer"
+msgstr "Organizador"
+
+#: includes/fields/password.php:4
+msgid "Password"
+msgstr "Senha"
+
+#: includes/fields/password.php:28
+msgid "Use this as a registration password field"
+msgstr "Use este como o campo de senha do registro"
+
+#: includes/fields/password.php:30
+msgid ""
+"If this box is checked, both password and re-password textboxes will be "
+"output."
+msgstr ""
+"Se este box for marcado, tanto os boxes de senha como o de reentrar senha "
+"serão mostrados. "
+
+#: includes/fields/password.php:36
+msgid "Re-enter Password Label"
+msgstr "Etiqueta do Re-entre Senha"
+
+#: includes/fields/password.php:38
+msgid "Re-enter Password"
+msgstr "Redigite a Senha"
+
+#: includes/fields/password.php:44
+msgid "Show Password Strength Indicator"
+msgstr "Mostrar Indicador de Força da Senha"
+
+#: includes/fields/password.php:128
+msgid ""
+"Hint: The password should be at least seven characters long. To make it "
+"stronger, use upper and lower case letters, numbers and symbols like ! \" ? "
+"$ % ^ &amp; )."
+msgstr ""
+"Dica: A senha deverá ter no mínimo sete caracteres. Para torná-la mais "
+"forte, mescle letras maiúsculas com minúsculas, números e símbolos "
+"como !, ?, $, %, etc. )."
+
+#: includes/fields/password.php:146
+msgid "Passwords do not match"
+msgstr "Senhas não correspondem"
+
+#: includes/fields/rating.php:4
+msgid "Star Rating"
+msgstr "Classificação"
+
+#: includes/fields/rating.php:13
+msgid "Number of stars"
+msgstr "Número de Estrelas"
+
+#: includes/fields/spam.php:4
+msgid "Anti-Spam"
+msgstr "Anti-Spam"
+
+#: includes/fields/spam.php:29 includes/fields/spam.php:65
+msgid "Spam Question"
+msgstr "Pergunta do Spam"
+
+#: includes/fields/spam.php:36 includes/fields/spam.php:71
+msgid "Spam Answer"
+msgstr "Resposta do Spam"
+
+#: includes/fields/submit.php:4 includes/fields/timed-submit.php:11
+#: includes/fields/timed-submit.php:36 includes/fields/timed-submit.php:81
+msgid "Submit"
+msgstr "Submeter"
+
+#: includes/fields/tax.php:11
+msgid "Tax"
+msgstr "Imposto"
+
+#: includes/fields/tax.php:21
+msgid "Tax Percentage"
+msgstr "Percentual de Imposto"
+
+#: includes/fields/tax.php:23
+msgid "Should be entered as a percentage. e.g. 8.25%, 4%"
+msgstr "Deve entrar como porcentagem, ex: 8.25%, 4%, etc."
+
+#: includes/fields/textarea.php:4
+msgid "Textarea"
+msgstr "Textarea"
+
+#: includes/fields/textarea.php:18
+msgid "Show Rich Text Editor"
+msgstr "Exibir Editor de Texto Rico (Rich Text Editor)"
+
+#: includes/fields/textarea.php:23
+msgid "Show Media Upload Button"
+msgstr "Exibir Botão de Upload de Media"
+
+#: includes/fields/textarea.php:28
+msgid "Disable Rich Text Editor on Mobile"
+msgstr "Desabilitar Editor de Texto Rico (Rich Text Editor) em Mobile"
+
+#: includes/fields/textbox.php:52
+msgid "Validate as an email address? (Field must be required)"
+msgstr "Validar como um endereço de e-mail? (Campo deve ser obrigatório)"
+
+#: includes/fields/textbox.php:56
+msgid "Disable Input"
+msgstr "Desabilitar entrada"
+
+#: includes/fields/textbox.php:64
+msgid "Datepicker"
+msgstr "Datepicker"
+
+#: includes/fields/textbox.php:146
+msgid "Today's Date"
+msgstr "Data Atual"
+
+#: includes/fields/textbox.php:185
+msgid "Phone - (555) 555-5555"
+msgstr "Telefone - (555) 555-5555"
+
+#: includes/fields/textbox.php:187
+msgid "Currency"
+msgstr "Moeda"
+
+#: includes/fields/textbox.php:196
+msgid "Custom Mask Definition"
+msgstr "Definição de Máscara Customizada"
+
+#: includes/fields/textbox.php:196
+msgid "Help"
+msgstr "Ajuda"
+
+#: includes/fields/timed-submit.php:4
+msgid "Timed Submit"
+msgstr "Temporizado"
+
+#: includes/fields/timed-submit.php:10
+msgid "Submit button text after timer expires"
+msgstr "Texto do Botão de Envio após o timer expirar"
+
+#: includes/fields/timed-submit.php:18 includes/fields/timed-submit.php:69
+msgid "Please wait %n seconds"
+msgstr "Por favor, espere %n segundos"
+
+#: includes/fields/timed-submit.php:19
+msgid "%n will be used to signify the number of seconds"
+msgstr "%n será usado para mostrar o número de segundos"
+
+#: includes/fields/timed-submit.php:26
+msgid "Number of seconds for countdown"
+msgstr "Número de segundos para contagem regressiva"
+
+#: includes/fields/timed-submit.php:27
+msgid "This is how long a user must wait to submit the form"
+msgstr "Quanto tempo um usuário deve esperar até submeter o formulário"
+
+#: includes/fields/timed-submit.php:102
+msgid "If you are a human, please slow down."
+msgstr "Se você for um humano, por favor, vá devagar."
+
+#: includes/fields/timed-submit.php:108
+msgid ""
+"You need JavaScript to submit this form. Please enable it and try again."
+msgstr ""
+"Você precisa do JavaScript para submeter este formulário. Por favor, "
+"habilite-o e tente novamente."

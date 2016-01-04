@@ -31,9 +31,9 @@
 }
 
 #header-btn-container a{
-   border-radius: 4px !important; 
+   border-radius: 4px !important;
 }
-#wrapper{	
+#wrapper{
 	margin: 0px 0px;
 	background-color: #ffffff;
     left: 0;
@@ -43,12 +43,22 @@
 }
 /*Events Stylings*/
 .event_wrapper .register_button_wrapper a {
-    margin: 20px !important; 
+    margin: 20px !important;
 }
 
 .register_button_wrapper a.btn {
 	border-radius: 1px !important;
 }
+
+.title-section {
+  margin-bottom: 45px !important;
+}
+
+.content-section {
+  margin-bottom: 10px;
+}
+
+
 /*
 -----------------------------------------------------------
             Bootstrap Media Query Overrides
@@ -56,12 +66,12 @@
 
 */
 /*==========  Small devices  ==========*/
- 
+
 @media (min-width : 320px) and (max-width : 640px){
 #header-btn-container {
 	float: none;
 	display: block;
-	margin: 25px auto;	
+	margin: 25px auto;
 }
 
 #header-btn-container a:first-child {
@@ -72,4 +82,3 @@
     margin-top: 10px;
 }
 }
-

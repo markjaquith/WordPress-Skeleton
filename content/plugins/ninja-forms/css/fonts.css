@@ -1,0 +1,51 @@
+@font-face {
+	font-family: 'ninjaforms';
+	src: url('../fonts/ninjaforms.eot');
+	src: local('☺'), url('../fonts/ninjaforms.woff') format('woff'), url('../fonts/ninjaforms.ttf') format('truetype'), url('../fonts/ninjaforms.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* dashboard icon */
+#toplevel_page_ninja-forms .wp-menu-image img {
+  display: none;
+}
+#toplevel_page_ninja-forms .wp-menu-image:before {
+	font-family: 'ninjaforms'!important; /* this assumes you've loaded Genericons in your admin */
+	content: 'a'; /* replace this with your icon */
+	font-size: 20px;
+	position: relative;
+	left: 5px; /* positions the icon */
+	top: 4px; /* positions the icon */
+	color: #aaa;
+}
+.branch-3-8 #toplevel_page_ninja-forms .wp-menu-image:before,
+.branch-3-9 #toplevel_page_ninja-forms .wp-menu-image:before {
+	left: 0; /* positions the icon */
+	top: 0; /* positions the icon */
+}
+#toplevel_page_ninja-forms:hover .wp-menu-image:before, .wp-has-current-submenu#toplevel_page_ninja-forms .wp-menu-image:before {
+	color: #21759b;
+}
+div#icon-edit.icon32-posts-book-review {
+	background-image: none;
+}
+div#icon-edit.icon32-posts-book-review:after {
+	font-family: 'ninjaforms'!important;
+	content: 'a'; /* replace this with your icon */
+	color: #555;
+	font-size: 32px;
+	position: relative;
+	top: -5px; /* positions the icon */
+	left: 5px; /* positions the icon */
+}
+
+/* this adds support for MP6 & future WP (3.7/8, whichever gets the dashboard css update) */
+/* this is largely thanks to: https://github.com/Gizburdt/Wordpress-Cuztom-Helper/issues/152#issuecomment-17490472 */
+.mp6 #adminmenu #toplevel_page_ninja-forms div.wp-menu-image:before {
+	font-family: 'ninjaforms'!important;
+	content: 'a'; /* replace this with your icon */
+	left: 0; /* resets the positioning for MP6/future WP */
+	top: 0; /* resets the positioning for MP6/future WP */
+	text-shadow: none;
+}

@@ -1,0 +1,81 @@
+.wp-list-table .type-nf_sub ul {
+    margin: 0;
+}
+
+.download-all {
+    float: right;
+}
+#postcustomstuff table td {
+    padding: 0 10px;
+}
+#postcustomstuff table input,
+#postcustomstuff table select,
+#postcustomstuff table textarea {
+    width: 100%;
+}
+
+#postcustomstuff table input[type=checkbox],
+#postcustomstuff table input[type=radio] {
+    width: auto;
+}
+#postcustomstuff table textarea {
+    height: 150px;
+}
+.wrap h2 a {
+    font-size: 16px;
+}
+::-webkit-input-placeholder {
+    padding: 2px 5px 4px;
+}
+:-moz-placeholder {
+    padding: 2px 5px 4px;
+}
+::-moz-placeholder {
+    padding: 2px 5px 4px;
+}
+:-ms-input-placeholder {
+    padding: 2px 5px 4px;
+}
+#nf_fields {
+    /*background: transparent;
+    border: 0;*/
+}
+#postcustomstuff table {
+    background: transparent;
+    border: 0;
+}
+#postcustomstuff table tr td:first-child {
+    padding-top: 12px;
+}
+
+#nf_fields_save #major-publishing-actions {
+    margin: 10px -12px -12px;
+}
+
+.misc-pub-section span {
+    font-weight: bold;
+}
+
+.nf-sub-edit-value {
+    position: relative;
+}
+.nf-sub-edit-upload {
+    position: relative;
+}
+.nf-sub-edit-upload input[type=text] {
+    padding-right: 48px;
+}
+.nf-sub-edit-upload a {
+    background: #333;
+    color: #fff;
+    height: 27px;
+    line-height: 27px;
+    text-decoration: none;
+    padding: 0 10px;
+    position: absolute;
+    top: 8px;
+    right: -8px;
+}
+.nf-sub-edit-upload a:hover {
+    background: #f1f1f1;
+    color: #333;

@@ -1,0 +1,39 @@
+.nf-notification-inactive {
+	background: #f1f1f1;
+}
+.nf-notification-inactive td,
+.nf-notification-inactive td ul,
+.nf-notification-inactive td > a {
+    color: #bbb;
+}
+
+#ninja_forms_admin .tokenfield {
+    border: 1px solid #ddd;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,.07);
+    box-shadow: inset 0 1px 2px rgba(0,0,0,.07);
+    background-color: #fff;
+    color: #333;
+    -webkit-transition: .05s border-color ease-in-out;
+    transition: .05s border-color ease-in-out;
+    margin: 1px;
+    padding: 0 5px !important;
+    width: 25em !important;
+    min-height: 34px;
+    /*height: auto !important;*/
+}
+#ninja_forms_admin .tokenfield input[type=text] {
+    /*line-height: 33px;
+    height: 26px;*/
+    margin: 8px 0 0;
+}
+#ninja_forms_admin .token {
+    margin: 5px 5px 5px 0;
+}
+#ninja_forms_admin .token .close {
+    color: #aaa;
+    text-decoration: none;
+    line-height: 1.29em;
+}
+#ninja_forms_admin .token .close:hover {
+    color: #666;
+}
