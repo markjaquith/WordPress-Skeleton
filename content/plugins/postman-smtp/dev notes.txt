@@ -1,0 +1,176 @@
+General
+-------
+
+Visitor Pattern
+http://butunclebob.com/ArticleS.UncleBob.IuseVisitor
+
+
+WordPress MU
+------------
+http://codex.wordpress.org/Create_A_Network
+http://stackoverflow.com/questions/13960514/how-to-adapt-my-plugin-to-multisite/
+
+
+Wordpress
+---------
+
+Internationalizing a Plugin
+http://codex.wordpress.org/I18n_for_WordPress_Developers
+
+Internationalization: You're probably doing it wrong
+http://ottopress.com/2012/internationalization-youre-probably-doing-it-wrong/
+
+Portable WordPress-only alternative to curl_init
+http://planetozh.com/blog/2009/08/how-to-make-http-requests-with-wordpress/
+
+"Once the action is complete. I want the page to redirect back to the form that called the script."
+http://stackoverflow.com/questions/21450966/wp-redirect-call-to-undefined-function-new-plugin
+
+"Data Sanitization and Validation With WordPress"
+http://code.tutsplus.com/articles/data-sanitization-and-validation-with-wordpress--wp-25536
+
+Tutorials
+---------
+
+"SMTP with oauth for gmail." - Aug 2012
+https://skroesbergen.wordpress.com/2012/08/22/smtp-with-oauth-for-gmail/
+
+"GOOGLE, SMTP, AND OAUTH2 AUTHENTICATION" - Feb 2013
+http://www.chargenevier.com/2013/02/google-smtp-and-oauth2-authentication/
+
+PHP, SMTP, XOAUTH2 and Gmail - Feb 2014
+http://www.boxuk.com/blog/php-smtp-xoauth2-gmail/
+
+SASL XOAUTH2 protocol documentation
+https://developers.google.com/gmail/xoauth2_protocol
+
+
+Creating a Gmail Token
+----------------------
+
+Google Developer OAuth 2.0 Playground
+https://developers.google.com/oauthplayground/
+
+Google Developers Console
+https://console.developers.google.com/
+
+Google Apps Security Settings
+https://admin.google.com/AdminHome?chromeless=1&fral=1#SecuritySettings:
+
+Account Permissions
+https://security.google.com/settings/security/permissions?pli=1
+
+Rereshing a Token
+-----------------
+How do I refresh my google_oauth2 access token using my refresh token?
+http://stackoverflow.com/questions/12792326/how-do-i-refresh-my-google-oauth2-access-token-using-my-refresh-token
+
+
+
+References
+----------
+
+Using OAuth 2.0 to Access Google APIs
+https://developers.google.com/accounts/docs/OAuth2
+
+Gmail Platform - OAuth 2.0
+https://developers.google.com/gmail/oauth_protocol?hl=nl
+
+
+OAuth Overview
+--------------
+
+Request Permission ->
+<- Authorization Grant
+
+Grant Code ->
+<- Authorization Token
+
+(Access Token and Refresh Token)
+
+
+wp_mail() and Email in General
+-----------------------------
+
+The PLAIN Simple Authentication and Security Layer (SASL) Mechanism
+https://www.ietf.org/rfc/rfc4616.txt
+
+What is the difference between ports 465 and 587?
+http://stackoverflow.com/a/19942206/4368109
+
+The Return Path
+https://wordpress.org/ideas/topic/wp-mail-and-php-mail-function-according-to-rfc-822
+
+Hacking WordPress Emails
+http://glennmessersmith.com/pages/wpemail.html
+
+The Importance of Content-Type Character Encoding in HTML Emails
+http://www.emailonacid.com/blog/details/C13/the_importance_of_content-type_character_encoding_in_html_emails
+
+The Absolute Minimum Every Software Developer Absolutely, Positively Must Know About Unicode and Character Sets (No Excuses!)
+http://www.joelonsoftware.com/articles/Unicode.html
+
+How to Tell Who Supports SMTP TLS for Email Transmission
+https://luxsci.com/blog/how-to-tell-who-supports-tls-for-email-transmission.html
+
+JavaMail: Keeping IMAPFolder.idle() alive
+http://stackoverflow.com/questions/4155412/javamail-keeping-imapfolder-idle-alive
+
+Reach More People and Improve Your Spam Score: Why Multi-Part Email is Important
+https://litmus.com/blog/reach-more-people-and-improve-your-spam-score-why-multi-part-email-is-important
+
+HTTP Message Headers
+http://www.w3.org/Protocols/rfc2616/rfc2616-sec4.html#sec4.2
+
+Sending a multipart E-Mail using PHP Mailer/wp_mail - not all clients display E-Mail
+http://stackoverflow.com/questions/22614615/sending-a-multipart-e-mail-using-php-mailer-wp-mail-not-all-clients-display-e
+
+The AUTH Command
+http://www.samlogic.net/articles/smtp-commands-reference-auth.htm
+
+SMTP Authentication with Zend
+http://framework.zend.com/manual/1.12/en/zend.mail.smtp-authentication.html
+
+SMTP Authentication [Tutorial]
+http://www.fehcom.de/qmail/smtpauth.html
+
+
+
+Zend Mail
+---------
+
+Getting access to the SMTP session transcript
+http://zend-framework-community.634137.n4.nabble.com/Zend-Mail-and-SMTP-Status-Code-td644679.html
+
+Sending Mail as a background process
+http://stackoverflow.com/questions/14177500/sending-emails-in-php-and-using-google-apps-mail-as-smtp-is-too-slow
+
+
+
+PHP Resources
+-------------
+Why your PHP App NEEDS a Circuit Breaker
+http://devzone.zend.com/1424/why-your-php-app-needs-a-circuit-breaker/
+
+Capturing and Handling PHP Errors Gracefully
+http://biostall.com/capturing-and-handling-php-errors-gracefully
+
+Gmail SMTP Settings and New Security Measures Demystified
+http://www.wpsitecare.com/gmail-smtp-settings/
+
+
+
+Google API
+----------
+
+Gmail API
+https://developers.google.com/gmail/api/
+
+Google APIs Client Library for PHP
+https://github.com/google/google-api-php-client
+
+(Google App Engine) Mail PHP API Overview
+https://cloud.google.com/appengine/docs/php/mail/
+
+(Google App Engine) Bulk Mail with Analytics via SendGrid
+https://cloud.google.com/appengine/docs/php/mail/sendgrid

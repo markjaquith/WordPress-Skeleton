@@ -1,0 +1,84 @@
+@CHARSET "UTF-8";
+
+#postman-main-menu.welcome-panel {
+	padding: 0px 10px 5px;
+}
+
+#postman-main-menu.advanced_config {
+	margin: 0;
+}
+
+form#postman_wizard legend, form#postman_test_email_wizard legend {
+	font-weight: bold;
+}
+
+form label {
+	font-weight: bold;
+	margin-right: 10px;
+}
+
+form span.postman_input_description {
+	font-size: 0.8em;
+}
+
+table#connectivity_test_table {
+	width: 100%;
+	display: none;
+	border: solid 1px #ddd;
+}
+
+table#connectivity_test_table tr {
+	background-color: #fff;
+}
+
+table#connectivity_test_table tr td {
+	padding: 5px;
+	margin: 0;
+	text-align: center;
+}
+
+table th.port_25, table th.port_443, table th.port_465, table th.port_587
+	{
+	width: 17%;
+}
+
+table#testing_table td.port {
+	width: 100px;
+}
+
+p#wizard_oauth2_help span.error {
+	color: red;
+}
+
+form#postman_wizard span.postman_input_description + label {
+	margin-top:2em;
+}
+
+fine_print {
+	font-size: 0.9em;
+}
+
+input.input_plugin_radio {
+	margin-left: 20px;
+}
+
+.wizard>.content {
+	min-height: 32em;
+}
+
+dt {
+	font-style: italic;
+}
+
+dt em {
+	font-style: normal;
+}
+
+p#back_to_main_menu {
+	text-align: right;
+	margin-top: 10px
+}
+
+.welcome-panel-column welcome-panel-last {
+	padding-bottom: 10px;
+}
