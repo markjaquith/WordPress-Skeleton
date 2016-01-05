@@ -1,0 +1,21 @@
+/*
+* ==========================================================================
+* Easy Twitter Feed Widget
+* ==========================================================================
+*/
+.widget-easy-twitter-feed-widget-kamn .widget-easy-twitter-feed-widget-container:before,
+.widget-easy-twitter-feed-widget-kamn .widget-easy-twitter-feed-widget-container:after {
+  content: " ";
+  display: table;
+}
+.widget-easy-twitter-feed-widget-kamn .widget-easy-twitter-feed-widget-container:after {
+  clear: both;
+}
+.widget-easy-twitter-feed-widget-kamn .widget-easy-twitter-feed-widget-row:before,
+.widget-easy-twitter-feed-widget-kamn .widget-easy-twitter-feed-widget-row:after {
+  content: " ";
+  display: table;
+}
+.widget-easy-twitter-feed-widget-kamn .widget-easy-twitter-feed-widget-row:after {
+  clear: both;
+}

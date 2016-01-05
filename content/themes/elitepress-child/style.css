@@ -9,7 +9,8 @@
   Tags: your tags (optional)
   Text Domain: elitepress-child
  */
-.site-logo {
+/*Header logo Css---------------------------------------------------------------------------------------------------*/
+ .site-logo {
     margin: 5px 14px !important;
 }
 
@@ -17,6 +18,7 @@
 	float: left;
 }
 
+/*header button Css---------------------------------------------------------------------------------------------------*/
 #header-btn-container {
 	margin-right: 56px;
 	margin-top: 41px;
@@ -33,7 +35,8 @@
 #header-btn-container a{
    border-radius: 4px !important;
 }
-#wrapper{
+/*Page wrapper Css---------------------------------------------------------------------------------------------------*/
+#wrapper{	
 	margin: 0px 0px;
 	background-color: #ffffff;
     left: 0;
@@ -58,6 +61,73 @@
   margin-bottom: 10px;
 }
 
+/*about us section Css---------------------------------------------------------------------------------------------------*/
+.about-us-section {
+	margin: 40px 0 0px;
+}
+
+/*About us section title Css---------------------------------------------------------------------------------------------------*/
+ .section-info {
+    margin: 0 0 60px;
+	clear: both;
+}
+
+.section-title {
+	position: relative;
+    border: 0px;
+	font-family: 'Lato';
+	font-weight:600;
+    float: left;
+    margin: 0 80px 5px 0;
+    padding: 6px 12px 6px 12px;
+    text-transform: capitalize;
+	letter-spacing: 1px;
+    z-index: 100;
+	display: inline-block;
+}
+
+/*about us Section Css---------------------------------------------------------------------------------------------------*/
+.about-us-area {
+	/* margin: 0 0 70px;  Original After Css*/
+	margin: 0 0 50px;
+}
+	
+.footer-widget-column > ul > li > a:before{
+	font-family: FontAwesome;
+    margin-right: 9px;
+    content: none !important;
+	font-size: 6px;
+	color:hsl(5, 87%, 65%);
+}
+
+.footer-widget-column > ul > li {
+    border-bottom: 0px !important;
+	margin: 3px !important;
+}
+
+.footer-widget-column > .menu-quick-links-container > ul > li > a {
+	font-size: 15px;
+}
+
+.footer-widget-column > .menu-quick-links-container > ul > li > a:before {
+	content: '\f0da';
+	color: black;
+	font-family: FontAwesome;
+	margin-right: 5px;
+	font-size: 15px;	
+}
+
+.footer-widget-title {
+    margin: 0 0 20px !important;
+}
+
+.footer-widget-column {
+    margin-bottom: 18px !important;
+}
+
+.footer-widget-section {
+	padding: 15px !important;
+}
 
 /*
 -----------------------------------------------------------
@@ -82,3 +152,6 @@
     margin-top: 10px;
 }
 }
+
+
+

@@ -8,7 +8,7 @@
 		get_template_part('index', 'slider');
 				
 		//****** get index service  ********				
-		get_template_part('index', 'service');
+		get_template_part('index', 'about-us-section');
 				
 		//****** get index portfolio  ********
 		get_template_part('index', 'portfolio');

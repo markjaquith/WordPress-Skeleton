@@ -1,0 +1,59 @@
+.lsi-divider {
+	clear:both;
+	margin: 20px 0;
+	height:1px;
+	background:#DDD;
+}
+.widgets-php .lsi-container .left {
+	width: 30%;
+	float: left;
+	clear: none;
+}
+.widgets-php .lsi-container .right {
+	width: 65%;
+	float: right;
+	clear: none;
+}
+.widgets-php .lsi-container .left-50 {
+	width: 50%;
+}
+.widgets-php .lsi-container .right-50 {
+	width: 50%;
+}
+.lsi-container:before,
+.lsi-container:after {
+	content: "";
+	display: table;
+} 
+.lsi-container:after {
+	clear: both;
+}
+.lsi-container {
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	zoom: 1; /* For IE 6/7 (trigger hasLayout) */
+	border-bottom: 1px solid #efefef;
+}
+
+.lsi-container:last-child {
+	border-width: 0;
+}
+.widgets-php .lsi-admin-label-left {
+	float: left;
+	clear: none;
+	width:50%;
+}
+
+.widgets-php .lsi-admin-label-right {
+	float: right;
+	clear:none;
+	width:50%;
+}
+
+.pixels {
+	display: inline-block;
+	background:#efefef;
+	position:relative;
+	margin-left: -33px;
+	padding: 3px 7px;
+}

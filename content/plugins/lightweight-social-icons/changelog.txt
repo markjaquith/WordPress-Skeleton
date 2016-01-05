@@ -1,0 +1,53 @@
+Changelog Legend:
+----
+
+[+] = Added
+[*] = Changed
+[^] = Moved
+[=] = No Changes
+[x] = Deleted
+[!] = Bugs
+
+----
+
+(9/3/2015) - 0.6
+[+] Allow addition of new icons via lsi_icons_defaults filter
+
+----
+
+(9/3/2014) - 0.5
+[!] Fix iTunes icon
+
+----
+
+(9/3/2015) - 0.4
+[+] Add filter to rel attribute: lsi_icon_rel_attribute
+[+] Add filter to title attribute: lsi_icon_title_attribute
+[+] Steam icon added
+[+] Behance icon added
+[+] iTunes icon added
+[+] Yelp icon added
+[+] 500px icon added
+[+] AngelList icon added
+[+] Blog Lovin' icon added
+[+] Paper Plane (Newsletter) icon added
+[+] VK icon added
+
+----
+
+(5/9/2015) - 0.3
+[*] Add display:block to ul container
+[+] French translation added
+[*] Contact can be email address or link to contact page
+[!] Fix Skype button
+[*] Optimize to work better in Customizer
+
+----
+
+(8/24/2014) - 0.2
+[*] Minor changes
+
+----
+
+(8/20/2014) - 0.1
+Initial Release

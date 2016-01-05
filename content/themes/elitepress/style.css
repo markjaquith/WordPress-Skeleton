@@ -2758,7 +2758,7 @@ transition: all 0.3s ease 0s;
     font-family: "Open Sans";
     font-size: 14px;
     line-height: 20px !important;
-    margin: 0 !important;
+    margin: 0;
 	padding: 10px 0 !important;
     overflow: hidden;
     transition: all 0.4s ease 0s;

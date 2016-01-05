@@ -1,0 +1,199 @@
+# Copyright (C) 2011 WordPress Importer
+# This file is distributed under the same license as the WordPress Importer package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Easy Twitter Feed Widget 0.3\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/wordpress-importer\n"
+"POT-Creation-Date: 2014-11-13 16:22+0500\n"
+"PO-Revision-Date: 2014-11-13 16:22+0500\n"
+"Last-Translator: DesignOrbital <designorbital@live.com>\n"
+"Language-Team: DesignOrbital <designorbital@live.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.6.10\n"
+"X-Poedit-KeywordsList: __;_e;esc_attr_e;esc_attr\n"
+"X-Poedit-Basepath: /Applications/MAMP/htdocs/wpplugin/wp-content/plugins/"
+"easy-twitter-feed-widget/\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: lib/admin/admin.php:26
+msgid "Easy Twitter Feed Widget Options"
+msgstr ""
+
+#: lib/admin/admin.php:42
+msgid "Load Twitter Script"
+msgstr ""
+
+#: lib/admin/admin.php:46
+msgid "Reset Easy Twitter Feed Widget Options"
+msgstr ""
+
+#: lib/admin/admin.php:65
+msgid "Plugin Support"
+msgstr ""
+
+#: lib/admin/admin.php:75
+msgid "License"
+msgstr ""
+
+#: lib/admin/admin.php:85
+msgid "Changelog"
+msgstr ""
+
+#: lib/admin/admin.php:92
+msgid "For more information:"
+msgstr ""
+
+#: lib/admin/admin.php:94
+msgid "Easy Twitter Feed Widget Plugin"
+msgstr ""
+
+#: lib/admin/admin.php:97
+msgid "Easy Twitter Feed Widget Official Page"
+msgstr ""
+
+#: lib/admin/admin.php:149
+msgid "yes"
+msgstr ""
+
+#: lib/admin/admin.php:150
+msgid "no"
+msgstr ""
+
+#: lib/admin/admin.php:180
+msgid "Customize Twitter Embeddable Widget by using the following settings."
+msgstr ""
+
+#: lib/admin/admin.php:197
+msgid "Select \"no\" if your theme supports Twitter Embeddable Widget."
+msgstr ""
+
+#: lib/admin/admin.php:204
+msgid ""
+"Here are the general settings to customize easy twitter feed widget plugin."
+msgstr ""
+
+#: lib/admin/admin.php:210
+msgid "Reset EasyTwitterFeedWidget Options."
+msgstr ""
+
+#: lib/admin/page.php:9
+#, php-format
+msgid "%1$s Settings"
+msgstr ""
+
+#: lib/admin/page.php:14
+msgid "Premium WordPress Themes"
+msgstr ""
+
+#: lib/admin/page.php:15
+msgid "Free WordPress Themes"
+msgstr ""
+
+#: lib/admin/page.php:16
+msgid "Like Us On Facebook"
+msgstr ""
+
+#: lib/admin/page.php:17
+msgid "Follow On Twitter"
+msgstr ""
+
+#: lib/admin/page.php:23 lib/admin/page.php:52
+msgid "Save Changes"
+msgstr ""
+
+#: lib/admin/page.php:31
+msgid "Twitter Script Settings"
+msgstr ""
+
+#: lib/admin/page.php:32
+msgid "General Settings"
+msgstr ""
+
+#: lib/widget-easy-twitter-feed-widget.php:27
+msgid "Easy Twitter Feed Widget"
+msgstr ""
+
+#: lib/widget-easy-twitter-feed-widget.php:98
+msgid "Tweets by @"
+msgstr ""
+
+#: lib/widget-easy-twitter-feed-widget.php:161
+msgid "Title:"
+msgstr ""
+
+#: lib/widget-easy-twitter-feed-widget.php:165
+msgid "Easy Twitter Feed Widget Settings"
+msgstr ""
+
+#: lib/widget-easy-twitter-feed-widget.php:169
+msgid "Twitter Widget ID:"
+msgstr ""
+
+#: lib/widget-easy-twitter-feed-widget.php:174
+msgid "Twitter Screen Name:"
+msgstr ""
+
+#: lib/widget-easy-twitter-feed-widget.php:179
+msgid "Tweet Limit:"
+msgstr ""
+
+#: lib/widget-easy-twitter-feed-widget.php:188
+msgid "Show Replies:"
+msgstr ""
+
+#: lib/widget-easy-twitter-feed-widget.php:197
+msgid "Twitter Widget Width:"
+msgstr ""
+
+#: lib/widget-easy-twitter-feed-widget.php:206
+msgid "Twitter Widget Height:"
+msgstr ""
+
+#: lib/widget-easy-twitter-feed-widget.php:212
+msgid "Height setting will work only @ Tweet Limit \"default\"."
+msgstr ""
+
+#: lib/widget-easy-twitter-feed-widget.php:216
+msgid "Twitter Widget Theme:"
+msgstr ""
+
+#: lib/widget-easy-twitter-feed-widget.php:225
+msgid "Twitter Widget Link Color:"
+msgstr ""
+
+#: lib/widget-easy-twitter-feed-widget.php:225
+#: lib/widget-easy-twitter-feed-widget.php:257
+msgid "e.g #333333"
+msgstr ""
+
+#: lib/widget-easy-twitter-feed-widget.php:230
+msgid "Show Twitter Widget Header:"
+msgstr ""
+
+#: lib/widget-easy-twitter-feed-widget.php:239
+msgid "Show Twitter Widget Footer:"
+msgstr ""
+
+#: lib/widget-easy-twitter-feed-widget.php:248
+msgid "Show Twitter Widget Border:"
+msgstr ""
+
+#: lib/widget-easy-twitter-feed-widget.php:257
+msgid "Twitter Widget Border Color:"
+msgstr ""
+
+#: lib/widget-easy-twitter-feed-widget.php:262
+msgid "Show Twitter Widget Scrollbar:"
+msgstr ""
+
+#: lib/widget-easy-twitter-feed-widget.php:268
+msgid "Scrollbar setting will work only @ Tweet Limit \"default\"."
+msgstr ""
+
+#: lib/widget-easy-twitter-feed-widget.php:272
+msgid "Use Twitter Widget Background Color:"
+msgstr ""

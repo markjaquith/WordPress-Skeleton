@@ -1,0 +1,199 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Lightweight Social Icons\n"
+"POT-Creation-Date: 2014-08-16 12:05-0800\n"
+"PO-Revision-Date: 2014-11-17 13:15-0800\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.10\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: lightweight-social-icons.php:33
+msgid "Lightweight Social Icons"
+msgstr ""
+
+#: lightweight-social-icons.php:35
+msgid "Add social icons to your website."
+msgstr "Ajouter les icône des réseaux sociaux à votre site Web."
+
+#: lightweight-social-icons.php:242
+msgid "Title:"
+msgstr "Titre :"
+
+#: lightweight-social-icons.php:250
+msgid "Icon Size"
+msgstr "Taille de l'icône"
+
+#: lightweight-social-icons.php:258
+msgid "Border Radius"
+msgstr "Taille de l'arrondi"
+
+#: lightweight-social-icons.php:267
+msgid "Background Color"
+msgstr "Couleur de l'arrière-plan"
+
+#: lightweight-social-icons.php:274
+msgid "Text Color"
+msgstr "Couleur du texte"
+
+#: lightweight-social-icons.php:283
+msgid "Background Hover Color"
+msgstr "Couleur de l'arrière-plan survolé"
+
+#: lightweight-social-icons.php:290
+msgid "Text Hover Color"
+msgstr "Couleur du texte survolé"
+
+#: lightweight-social-icons.php:299
+msgid "Open links in new window?"
+msgstr "Ouvrir les liens dans une nouvelle fenêtre?"
+
+#: lightweight-social-icons.php:305
+msgid "Left"
+msgstr "À gauche"
+
+#: lightweight-social-icons.php:306
+msgid "Center"
+msgstr "Centré"
+
+#: lightweight-social-icons.php:307
+msgid "Right"
+msgstr "À droite"
+
+#: lightweight-social-icons.php:309
+msgid "Alignment"
+msgstr "Alignement"
+
+#: lightweight-social-icons.php:415
+msgid "1 (123)-456-7890"
+msgstr "(+33)-123-456-789"
+
+#: lightweight-social-icons.php:416
+msgid "you@yourdomain.com"
+msgstr "vous@votredomaine.fr"
+
+#: lightweight-social-icons.php:417
+msgid "Username"
+msgstr "Nom d'utilisateur"
+
+#: lightweight-social-icons.php:461
+msgid "Facebook"
+msgstr ""
+
+#: lightweight-social-icons.php:465
+msgid "Twitter"
+msgstr ""
+
+#: lightweight-social-icons.php:469
+msgid "Google+"
+msgstr ""
+
+#: lightweight-social-icons.php:473
+msgid "Instagram"
+msgstr ""
+
+#: lightweight-social-icons.php:477
+msgid "LinkedIn"
+msgstr ""
+
+#: lightweight-social-icons.php:481
+msgid "Pinterest"
+msgstr ""
+
+#: lightweight-social-icons.php:485
+msgid "Flickr"
+msgstr ""
+
+#: lightweight-social-icons.php:489
+msgid "Email"
+msgstr ""
+
+#: lightweight-social-icons.php:493
+msgid "RSS"
+msgstr ""
+
+#: lightweight-social-icons.php:497
+msgid "Stumbleupon"
+msgstr ""
+
+#: lightweight-social-icons.php:501
+msgid "Tumblr"
+msgstr ""
+
+#: lightweight-social-icons.php:505
+msgid "Vimeo"
+msgstr ""
+
+#: lightweight-social-icons.php:509
+msgid "YouTube"
+msgstr ""
+
+#: lightweight-social-icons.php:513
+msgid "Github"
+msgstr ""
+
+#: lightweight-social-icons.php:517
+msgid "Soundcloud"
+msgstr ""
+
+#: lightweight-social-icons.php:521
+msgid "DeviantArt"
+msgstr ""
+
+#: lightweight-social-icons.php:525
+msgid "Phone"
+msgstr ""
+
+#: lightweight-social-icons.php:529
+msgid "Skype"
+msgstr ""
+
+#: lightweight-social-icons.php:533
+msgid "Dribbble"
+msgstr ""
+
+#: lightweight-social-icons.php:537
+msgid "Foursquare"
+msgstr ""
+
+#: lightweight-social-icons.php:541
+msgid "reddit"
+msgstr ""
+
+#: lightweight-social-icons.php:545
+msgid "Spotify"
+msgstr ""
+
+#: lightweight-social-icons.php:549
+msgid "digg"
+msgstr ""
+
+#: lightweight-social-icons.php:553
+msgid "Vine"
+msgstr ""
+
+#: lightweight-social-icons.php:557
+msgid "Codepen"
+msgstr ""
+
+#: lightweight-social-icons.php:561
+msgid "Delicious"
+msgstr ""
+
+#: lightweight-social-icons.php:565
+msgid "JSFiddle"
+msgstr ""
+
+#: lightweight-social-icons.php:569
+msgid "GitHub"
+msgstr ""
