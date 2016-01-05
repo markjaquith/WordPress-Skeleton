@@ -4,7 +4,7 @@
 $settings= array();
 $settings=array('animation'=>$current_options['animation'],'animationSpeed'=>$current_options['animationSpeed'],'slide_direction'=>$current_options['slide_direction'],'slideshowSpeed' =>$current_options['slideshowSpeed']);
  
-wp_register_script('elitepress-slider',get_template_directory_uri().'/js/front-page/slider.js',array('jquery'));
+wp_register_script('elitepress-slider',get_stylesheet_directory_uri().'/js/front-page/slider.js',array('jquery'));
 wp_localize_script('elitepress-slider','slider_settings',$current_options);
 wp_enqueue_script('elitepress-slider');
 ?>
@@ -21,7 +21,7 @@ wp_enqueue_script('elitepress-slider');
 				<ul class="slides">
 				<?php for($i=1; $i<=2; $i++) {  ?>
 				<li>
-					<img class="img-responsive" src="<?php echo WEBRITI_TEMPLATE_DIR_URI; ?>/images/slide/archslide<?php echo $i; ?>.jpg">
+					<img class="img-responsive" src="<?php echo MY_TEMPLATE_DIR_URI; ?>/images/slide/archslide<?php echo $i; ?>.jpg">
 					<div class="flex-slider-center">
 						<div class="slide-text-bg1"><h1><?php echo $slider_default_title[$i-1]; ?></h1></div>
 						<div class="slide-text-bg2"><h3><?php _e('Create Fresh Website fast with us!!', 'elitepress'); ?></h3></div>
