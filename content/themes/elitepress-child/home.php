@@ -11,7 +11,7 @@
 		get_template_part('index', 'about-us-section');
 				
 		//****** get index portfolio  ********
-		get_template_part('index', 'portfolio');
+		get_template_part('index', 'events');
 				
 		get_footer(); 
 		
