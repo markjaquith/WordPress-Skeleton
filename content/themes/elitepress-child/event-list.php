@@ -50,7 +50,7 @@ global $event_list;
           */
     ?>
 
-        <div class="clearfix">
+        
 			<div class="row">
 				<div class="col-md-12">
 					<h3><a href ="<?php echo get_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a></h3>
@@ -123,6 +123,6 @@ global $event_list;
                 <div> Sorry, there are no events currently available</div>
     <?php endif; ?>
 
-</div>
+
 
 
