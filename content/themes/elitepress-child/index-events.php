@@ -6,7 +6,9 @@
 		<!-- Section for latest events title -->
 		<div class="row">
 			<div class="col-md-12 col-sm-12">
-				<h3 class="section-title">Latest Events</h3>
+				<div class="section-info">
+					<h3 class="section-title">Latest Events</h3>
+				</div>	
 			</div>
 		</div>
 	
@@ -27,13 +29,13 @@
 	?>  		
 		
 		
-		<div class="col-md-4 col-sm-6 portfolio-area">
-			<div class="portfolio_image">
-				<?php the_post_thumbnail(array(360, 370)); ?>
+		<div class="col-md-4 col-sm-6 ">
+			<div>
+				<?php the_post_thumbnail(array(360, 370), array('class' => 'img-responsive')); ?>
 			</div>
 			<div class="home_portfolio_caption">
 				<h4><a href ="<?php echo get_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a></h4>
-				<p>Piece of text</p>
+				<?php the_excerpt(); ?>
 			</div>			
 		</div>
 	

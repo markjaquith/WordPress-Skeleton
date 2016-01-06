@@ -17,12 +17,24 @@ function theme_enqueue_style() {
 	wp_enqueue_script('utility', get_stylesheet_directory_uri() .'/js/utility.js');
 }
 
-add_filter('get_the_excerpt','my_post_slider_excerpt', 999);
+//Functions dealing with manipulating the excerpt of posts
+add_filter('get_the_excerpt','my_post_slider_excerpt');
 function my_post_slider_excerpt($output){
 
-		return '<div class="">' .'<h4>'.$output.'</h4>'.'</div>';
+		return '<p>'.$output.'</p>';
 }
 
+add_filter( 'excerpt_length', 'my_excerpt_length', 1000 );	//returns the length of the excerpt in words. In this case it is 15 words extracted from the excerpt
+function my_excerpt_length($length) {
+	return 15;
+}
+
+function my_excerpt_more( $more ) {
+	return '...';
+}
+add_filter( 'excerpt_more', 'my_excerpt_more', 1000 );
+
+//Functions and methods for removing and stopping wordpress from loading parent functions 
 function remove_parent_post_slider_excerpt() {	//This function is created to remove and stop the 'parent_post_slider_excerpt' function from executing.   
     remove_filter('get_the_excerpt','elitepress_post_slider_excerpt'); //This WordPress API hook/function removes the function, elitepress_post_slider_excerpt from the parent.  
 }
@@ -32,4 +44,5 @@ function remove_parent_enqueue_scripts() {	//This function is used to remove and
     remove_action('wp_enqueue_scripts','elitepress_scripts'); 
 }
 add_action( 'wp_loaded', 'remove_parent_enqueue_scripts' );
+
 ?>
