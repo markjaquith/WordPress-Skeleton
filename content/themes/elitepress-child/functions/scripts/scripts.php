@@ -3,7 +3,6 @@
 	{	
 		$current_options = get_option('elitepress_lite_options');
 		$webriti_stylesheet = $current_options['webriti_stylesheet'];
-		//wp_enqueue_style('elitepress-style', get_stylesheet_uri() );
 		wp_enqueue_style('font-awesome-min','//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');	
 		wp_enqueue_style('elitepress-bootstrap', MY_TEMPLATE_DIR_URI . '/css/bootstrap.css');
 		wp_enqueue_style('elitepress-default', MY_TEMPLATE_DIR_URI . '/css/default.css');

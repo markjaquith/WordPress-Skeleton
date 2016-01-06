@@ -11,7 +11,7 @@
  */
 /*Header logo Css---------------------------------------------------------------------------------------------------*/
  .site-logo {
-    margin: 5px 14px !important;
+    margin: 5px 14px;
 }
 
 .site-logo img {
@@ -33,7 +33,7 @@
 }
 
 #header-btn-container a{
-   border-radius: 4px !important;
+   border-radius: 4px;
 }
 /*Page wrapper Css---------------------------------------------------------------------------------------------------*/
 #wrapper{	
@@ -46,15 +46,15 @@
 }
 /*Events Stylings*/
 .event_wrapper .register_button_wrapper a {
-    margin: 20px !important;
+    margin: 20px;
 }
 
 .register_button_wrapper a.btn {
-	border-radius: 1px !important;
+	border-radius: 1px;
 }
 
 .title-section {
-  margin-bottom: 45px !important;
+  margin-bottom: 45px;
 }
 
 .content-section {
@@ -95,14 +95,14 @@
 .footer-widget-column > ul > li > a:before{
 	font-family: FontAwesome;
     margin-right: 9px;
-    content: none !important;
+    content: none;
 	font-size: 6px;
 	color:hsl(5, 87%, 65%);
 }
 
 .footer-widget-column > ul > li {
-    border-bottom: 0px !important;
-	margin: 3px !important;
+    border-bottom: 0px;
+	margin: 3px ;
 }
 
 .footer-widget-column > .menu-quick-links-container > ul > li > a {
@@ -118,15 +118,15 @@
 }
 
 .footer-widget-title {
-    margin: 0 0 20px !important;
+    margin: 0 0 20px ;
 }
 
 .footer-widget-column {
-    margin-bottom: 18px !important;
+    margin-bottom: 18px ;
 }
 
 .footer-widget-section {
-	padding: 15px !important;
+	padding: 15px ;
 }
 
 /*
