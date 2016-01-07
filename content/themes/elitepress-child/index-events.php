@@ -17,7 +17,7 @@
 	<!--Section for displating latest events -->
 	<div class="row">
 	<?php 
-		$args = array('post_type' => 'epl_event');
+		$args = array('post_type' => 'epl_event', 'posts_per_page' => 3); //arguments for returning posts with a post type of 'epl_event' and limiting it to 3 posts
 		$query = new WP_QUERY($args);
 		
 		if ($query->have_posts()){ //if statement to check if there are event type posts
