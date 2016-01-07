@@ -1,17 +1,22 @@
 <?php $current_options = get_option('elitepress_lite_options',theme_data_setup()); ?>
 <!-- Footer Section -->
 
-				<div class="container">
+				
 		<!-- Footer Widget -->	
-		<div class="row footer-widget-section">
-			
-			<?php 
-			if ( is_active_sidebar( 'footer_widget_area' ) )
-			{ dynamic_sidebar( 'footer_widget_area' );	}
-			?>
-		</div>
+		
+			<div class="container-fluid">
+			<div class="footer-widget-section">
+				<div class="container">
+				<?php 
+				if ( is_active_sidebar( 'footer_widget_area' ) )
+				{ dynamic_sidebar( 'footer_widget_area' );	}
+				?>
+				</div>
+			</div>
+			</div>		
+		
 		<!-- /Footer Widget -->	
-		</div>
+		
 
 <!-- /Footer Section -->
 <!-- Custom css --->
