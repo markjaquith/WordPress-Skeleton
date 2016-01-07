@@ -61,6 +61,18 @@
   margin-bottom: 10px;
 }
 
+.page-description a {
+    color: hsl(2, 93%, 63%);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.page-description {
+    display: block;
+    overflow: hidden;
+    margin: 0 0 16px;
+}
+
 /*about us section Css---------------------------------------------------------------------------------------------------*/
 .about-us-section {
 	margin: 40px 0 0px;
