@@ -193,7 +193,7 @@
 
 /*Section Title Css---------------------------------------------------------------------------------------------------*/
 .section-title {
-	background: none repeat scroll 0 0 #F8D4F6;
+	background: #1E72BD;
     color: #FFFFFF;
 }
 .section-title:before {
@@ -427,7 +427,7 @@
 	color: #b3b9bf;
 }
 .footer-widget-title {
-    color: #2a2e34;
+    color: white;
 }
 .footer-widget-title i {
     color: #f36557;

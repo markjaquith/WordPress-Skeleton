@@ -96,6 +96,7 @@
 	letter-spacing: 1px;
     z-index: 100;
 	display: inline-block;
+	
 }
 
 /*about us Section Css---------------------------------------------------------------------------------------------------*/
@@ -119,13 +120,14 @@
 
 .footer-widget-column > .menu-quick-links-container > ul > li > a {
 	font-size: 15px;
+	color: white;
 }
 
 .footer-widget-column > .menu-quick-links-container > ul > li > a:before {
 	content: '\f0da';
 	color: black;
 	font-family: FontAwesome;
-	margin-right: 5px;
+	margin-right: 6px;
 	font-size: 15px;	
 }
 
@@ -138,9 +140,14 @@
 }
 
 .footer-widget-section {
-	padding: 15px ;
+	padding: 15px;
+	background-color: rgba(66, 139, 202, 0.42);
+	
 }
 
+.footer-copyright-section {
+    background-color: rgb(66, 139, 202);
+}
 /*
 -----------------------------------------------------------
             Bootstrap Media Query Overrides
