@@ -120,7 +120,7 @@
 
 .footer-widget-column > .menu-quick-links-container > ul > li > a {
 	font-size: 15px;
-	color: white;
+	
 }
 
 .footer-widget-column > .menu-quick-links-container > ul > li > a:before {
@@ -141,8 +141,22 @@
 
 .footer-widget-section {
 	padding: 15px;
-	background-color: rgba(66, 139, 202, 0.42);
 	
+	position: relative;
+	
+}
+
+.footer-widget-section:before {
+	background-image: url(http://www.eunuigbe.home/~unuigbee/thearchesproject/content/uploads/2016/01/doorsmall.jpg);
+	
+	width: 100%;
+    height: 100%;
+    opacity : 0.1;
+	content: ' ';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 .footer-copyright-section {
