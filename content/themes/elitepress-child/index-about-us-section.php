@@ -27,7 +27,7 @@
 							</div>
 						</div>
 						<div class = "col-md-4 col-sm-12 col-md-offset-1">
-							<?php echo do_shortcode('[custom-facebook-feed]'); ?>
+							<?php echo do_shortcode('[custom-facebook-feed num=1 type=photos include=likebox,text,date,eventtitle,author]'); ?>
 						</div>
 					</div>		
 					</div>
