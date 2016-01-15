@@ -18,13 +18,6 @@
 									We have showcased Romeo and Juliet, Hamlet by Shakespeare, open mic music sessions and comedy shows, celebration dinners, interactive & visual design and fine art exhibitions, showing work of established and emerging artists in this exciting and unique space in the heart of Birmingham. We are pleased that artists that have been using our services have now found full time employment.
 								</p>
 							</div>
-						</div>
-						<div class = "col-md-6 col-sm-12">
-							
-						</div>
-					</div>	
-					<div class = "row">
-						<div class = "col-md-6 col-sm-12">
 							<div>
 								<p>
 									Are you a painter, illustrator, photographer, singer, comedian, creative writer or a sculpture? Then this is the space for you to push the boundaries within the Birmingham Art Scene. Why not register on line today and we will do the rest!
@@ -33,7 +26,10 @@
 								</p>
 							</div>
 						</div>
-						</div>		
+						<div class = "col-md-4 col-sm-12 col-md-offset-1">
+							<?php echo do_shortcode('[custom-facebook-feed]'); ?>
+						</div>
+					</div>		
 					</div>
 				</div>
 				
