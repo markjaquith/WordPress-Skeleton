@@ -20,6 +20,11 @@
 							</div>
 						</div>
 						<div class = "col-md-6 col-sm-12">
+							
+						</div>
+					</div>	
+					<div class = "row">
+						<div class = "col-md-6 col-sm-12">
 							<div>
 								<p>
 									Are you a painter, illustrator, photographer, singer, comedian, creative writer or a sculpture? Then this is the space for you to push the boundaries within the Birmingham Art Scene. Why not register on line today and we will do the rest!
@@ -28,7 +33,7 @@
 								</p>
 							</div>
 						</div>
-						
+						</div>		
 					</div>
 				</div>
 				
