@@ -78,8 +78,7 @@
 	margin: 40px 0 0px;
 }
 
-/*About us section title Css---------------------------------------------------------------------------------------------------*/
- .section-info {
+.section-info {
     margin: 0 0 60px;
 	clear: both;
 }
@@ -159,6 +158,28 @@
 .footer-copyright-section {
     background-color: rgb(66, 139, 202);
 }
+/*Services*/
+div.desc{
+    background-color: white;
+    bottom: 0;
+    color: black;
+    left: 0;
+    opacity: 0.6;
+    position: absolute;
+    width: 100%;
+}
+
+.fix{
+	position: relative;
+    width: 100%;
+    padding: 0px;
+}
+
+.overlay-caption{
+	padding: 3px;
+	text-align: center;
+}
+
 /*
 -----------------------------------------------------------
             Bootstrap Media Query Overrides
@@ -181,6 +202,21 @@
 #header-btn-container a {
     margin-top: 10px;
 }
+}
+
+.thumbnail-override, .caption{
+	border: 0px;
+	box-shadow: none;
+	margin-top: 10px;
+	padding: 0px;
+}
+
+.title-overlay {
+	font-size: 18px;
+	position: absoloute;
+	background-color: blue; 
+	width: 100%;
+	bottom: 0;
 }
 
 
