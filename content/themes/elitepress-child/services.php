@@ -4,9 +4,13 @@ get_header();
 ?>
 <div class="content-section">
 	<div class="container">
+	   <div class="title-section">	
 		<div class="row">
+		  <div class="col-md-12">	
 			<h1>Our Services</h1>
+		  </div>	
 		</div>
+	   </div>	
 		<h2>Performing Arts</h2>
 		<p>Improve your skills in one of the many workshops we offer, including: Drama, Music, Art, Vocal Training and more! 
 			If you require any of these services please don't hesitate to contact us </p>
