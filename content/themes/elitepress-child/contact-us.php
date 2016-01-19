@@ -16,7 +16,6 @@ get_header();
 					<?php the_content(); ?>
 				</div>
 				<div class="col-md-5 col-md-offset-1">
-					Address:
 					<address>
 						The Arches Project
 						</br>
@@ -36,7 +35,9 @@ get_header();
 						07932 418 359
 						</br>
 						Email:
-						enquiries@thearchesproject.org 	
+						enquiries@thearchesproject.org
+						<hr>
+					<?php echo do_shortcode('[wpgmza id="1"]'); ?>		
 				</div>
 			</div>
   </div>
