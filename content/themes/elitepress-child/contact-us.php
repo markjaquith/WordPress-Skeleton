@@ -16,9 +16,8 @@ get_header();
 					<?php the_content(); ?>
 				</div>
 				<div class="col-md-5 col-md-offset-1">
+					Address:
 					<address>
-						Address:
-						</br>
 						The Arches Project
 						</br>
 						Adderley Street
@@ -38,7 +37,6 @@ get_header();
 						</br>
 						Email:
 						enquiries@thearchesproject.org 	
-					
 				</div>
 			</div>
   </div>

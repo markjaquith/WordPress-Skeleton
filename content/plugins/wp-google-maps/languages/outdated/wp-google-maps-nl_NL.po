@@ -1,0 +1,535 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Jurgen <jurgen@dwmarketing.com>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.10\n"
+"Language: nl_NL\n"
+
+#: wpGoogleMaps.php:882
+msgid "Your settings have been saved."
+msgstr "Uw instellingen zijn opgeslagen."
+
+#: wpGoogleMaps.php:910
+msgid "Your marker location has been saved."
+msgstr "Uw markering is opgeslagen."
+
+#: wpGoogleMaps.php:956
+msgid "There was a problem deleting the map."
+msgstr "Er was een probleem bij het verwijderen van de kaart."
+
+#: wpGoogleMaps.php:960
+msgid "Delete your map"
+msgstr "Verwijder uw kaart"
+
+#: wpGoogleMaps.php:960
+msgid "Are you sure you want to delete the map"
+msgstr "Weet u zeker dat u de kaart wilt verwijderen"
+
+#: wpGoogleMaps.php:960
+msgid "Yes"
+msgstr "Ja"
+
+#: wpGoogleMaps.php:960
+msgid "No"
+msgstr "Nee"
+
+#: wpGoogleMaps.php:1005 wpGoogleMaps.php:1009
+msgid "Your Maps"
+msgstr "Uw kaarten"
+
+#: wpGoogleMaps.php:1005
+msgid "Add New"
+msgstr "Voeg nieuwe kaart toe"
+
+#: wpGoogleMaps.php:1010
+msgid "Pro Version"
+msgstr "Pro Versie"
+
+#: wpGoogleMaps.php:1010
+msgid "Create unlimited maps"
+msgstr "Maak onbeperkt kaarten"
+
+#: wpGoogleMaps.php:1010
+msgid "with the"
+msgstr "met de"
+
+#: wpGoogleMaps.php:1010
+msgid "of WP Google Maps for only"
+msgstr "van WP Google Maps voor maar"
+
+#: wpGoogleMaps.php:1041 wpGoogleMaps.php:1290 wpGoogleMaps.php:1385
+msgid "ID"
+msgstr "ID"
+
+#: wpGoogleMaps.php:1042 wpGoogleMaps.php:1204 wpGoogleMaps.php:1387
+msgid "Title"
+msgstr "Titel"
+
+#: wpGoogleMaps.php:1043 wpGoogleMaps.php:1153
+msgid "Width"
+msgstr "Breedte"
+
+#: wpGoogleMaps.php:1044 wpGoogleMaps.php:1157
+msgid "Height"
+msgstr "Hoogte"
+
+#: wpGoogleMaps.php:1045
+msgid "Type"
+msgstr "Type"
+
+#: wpGoogleMaps.php:1056
+msgid "Trash"
+msgstr "Prullenbak"
+
+#: wpGoogleMaps.php:1060 wpGoogleMaps.php:1420
+msgid "Edit"
+msgstr "Bewerk"
+
+#: wpGoogleMaps.php:1102
+msgid ""
+"Add custom icons, titles, descriptions, pictures and links to your markers "
+"with the"
+msgstr ""
+"Voeg aangepaste pictogrammen, titels, beschrijvingen, foto's en links bij uw "
+"markeringen met de"
+
+#: wpGoogleMaps.php:1102 wpGoogleMaps.php:1103 wpGoogleMaps.php:1163
+#: wpGoogleMaps.php:1256
+msgid "Pro Edition"
+msgstr "Pro Editie"
+
+#: wpGoogleMaps.php:1102
+msgid "of this plugin for just"
+msgstr "van deze plugin voor maar"
+
+#: wpGoogleMaps.php:1103
+msgid "Purchase the Pro Edition"
+msgstr "Koop de Pro Editie"
+
+#: wpGoogleMaps.php:1103
+msgid "of WP Google Maps and save your markers to a CSV file!"
+msgstr "van WP Google Maps en sla uw markeringen op in een CVS file!"
+
+#: wpGoogleMaps.php:1113
+msgid "Map Settings"
+msgstr "Kaart instellingen"
+
+#: wpGoogleMaps.php:1145
+msgid "Short code"
+msgstr "Short code"
+
+#: wpGoogleMaps.php:1146
+msgid "copy this into your post or page to display the map"
+msgstr "kopieer dit in uw post of page om de kaart weer te geven"
+
+#: wpGoogleMaps.php:1149
+msgid "Map Name"
+msgstr "Naam van de kaart "
+
+#: wpGoogleMaps.php:1162
+msgid "Default Marker Image"
+msgstr "Standaard Markering pictogram"
+
+#: wpGoogleMaps.php:1163 wpGoogleMaps.php:1215 wpGoogleMaps.php:1217
+msgid "Upload Image"
+msgstr "Upload afbeelding"
+
+#: wpGoogleMaps.php:1163
+msgid "available in the"
+msgstr "beschikbaar in de "
+
+#: wpGoogleMaps.php:1163
+msgid "only"
+msgstr "alleen"
+
+#: wpGoogleMaps.php:1166
+msgid "Map type"
+msgstr "Kaart type"
+
+#: wpGoogleMaps.php:1168
+msgid "Roadmap"
+msgstr "Roadmap"
+
+#: wpGoogleMaps.php:1169
+msgid "Satellite"
+msgstr "Sateliet"
+
+#: wpGoogleMaps.php:1170
+msgid "Hybrid"
+msgstr "Hybride"
+
+#: wpGoogleMaps.php:1171
+msgid "Terrain"
+msgstr "Terrein"
+
+#: wpGoogleMaps.php:1176
+msgid "Map Alignment"
+msgstr "Kaart positie"
+
+#: wpGoogleMaps.php:1178
+msgid "Left"
+msgstr "Links"
+
+#: wpGoogleMaps.php:1179
+msgid "Center"
+msgstr "Midden"
+
+#: wpGoogleMaps.php:1180
+msgid "Right"
+msgstr "Rechts"
+
+#: wpGoogleMaps.php:1181 wpGoogleMaps.php:1222
+msgid "None"
+msgstr "Geen"
+
+#: wpGoogleMaps.php:1189
+msgid "Remember to save your map!"
+msgstr "Denk er aan dat u de kaart opslaat!"
+
+#: wpGoogleMaps.php:1191
+msgid "Save Map"
+msgstr "Kaart opslaan"
+
+#: wpGoogleMaps.php:1193
+msgid ""
+"Tip: Use your mouse to change the layout of your map. When you have "
+"positioned the map to your desired location, press \"Save Map\" to keep your "
+"settings."
+msgstr ""
+"Tip: Gebruik uw muis om de lay-out van uw kaart aan te passen. Wanneer de "
+"kaart in staat op de gewenste locatie, sla uw instellingen op door op "
+"\"Opslaan Kaart\" te klikken."
+
+#: wpGoogleMaps.php:1199
+msgid "Add a marker"
+msgstr "Voeg een markering toe"
+
+#: wpGoogleMaps.php:1209
+msgid "Address/GPS"
+msgstr "Adres/GPS"
+
+#: wpGoogleMaps.php:1214 wpGoogleMaps.php:1389
+msgid "Description"
+msgstr "Beschrijving"
+
+#: wpGoogleMaps.php:1215
+msgid "Pic URL"
+msgstr "Image URL"
+
+#: wpGoogleMaps.php:1216
+msgid "Link URL"
+msgstr "Link URL"
+
+#: wpGoogleMaps.php:1217
+msgid "Custom Marker"
+msgstr "Aangepaste Markering"
+
+#: wpGoogleMaps.php:1219
+msgid "Animation"
+msgstr "Animatie"
+
+#: wpGoogleMaps.php:1229
+msgid "Add Marker"
+msgstr "Voeg markering toe"
+
+#: wpGoogleMaps.php:1229
+msgid "Adding"
+msgstr "Toevoegen"
+
+#: wpGoogleMaps.php:1230
+msgid "Save Marker"
+msgstr "Sla markering op"
+
+#: wpGoogleMaps.php:1230
+msgid "Saving"
+msgstr "Opslaan"
+
+#: wpGoogleMaps.php:1238
+msgid "Your Markers"
+msgstr "Uw markeringen"
+
+#: wpGoogleMaps.php:1247
+msgid "Add detailed information to your markers!"
+msgstr "Voeg gedetailleerde informatie toe aan uw markeringen!"
+
+#: wpGoogleMaps.php:1247 wpGoogleMaps.php:1251 wpGoogleMaps.php:1255
+msgid "Add custom markers to your map!"
+msgstr "Voeg aangepaste markeringen toe aan uw kaart!"
+
+#: wpGoogleMaps.php:1248
+msgid "Add detailed information to your markers for only"
+msgstr "Voeg gedetailleerde informatie toe aan uw markeringen voor maar"
+
+#: wpGoogleMaps.php:1248 wpGoogleMaps.php:1256
+msgid "Click"
+msgstr "Klik"
+
+#: wpGoogleMaps.php:1248 wpGoogleMaps.php:1256
+msgid "here"
+msgstr "hier"
+
+#: wpGoogleMaps.php:1252
+msgid ""
+"Add different marker icons, or your own icons to make your map really stand "
+"out!"
+msgstr ""
+"Voeg verschillende of eigen pictogrammen toe aan uw markeringen om uw kaart "
+"echt op te laten vallen!"
+
+#: wpGoogleMaps.php:1256
+msgid "Allow your visitors to get directions to your markers!"
+msgstr "Laat uw bezoekers een routebeschrijving maken naar uw markeringen!"
+
+#: wpGoogleMaps.php:1262
+msgid ""
+"WP Google Maps encourages you to make use of the amazing icons created by "
+"Nicolas Mollet's Maps Icons Collection"
+msgstr ""
+"WP Google Maps raadt u aan om gebruik te maken van de prachtige iconen die "
+"beschikbaar zijn in Nicolas Mollet's Kaarten Pictogrammen Collection"
+
+#: wpGoogleMaps.php:1262
+msgid "and to credit him when doing so."
+msgstr "en bedank hem wanneer u dit doet."
+
+#: wpGoogleMaps.php:1290
+msgid "Edit Marker Location"
+msgstr "Bewerk de locatie van de markering "
+
+#: wpGoogleMaps.php:1299
+msgid "Marker Latitude"
+msgstr "Markering Latitude"
+
+#: wpGoogleMaps.php:1303
+msgid "Marker Longitude"
+msgstr "Markering Longitude"
+
+#: wpGoogleMaps.php:1308
+msgid "Save Marker Location"
+msgstr "Sla de locatie van de markering op"
+
+#: wpGoogleMaps.php:1309
+msgid ""
+"Tip: Use your mouse to change the location of the marker. Simply click and "
+"drag it to your desired location."
+msgstr ""
+"Tip: Gebruik je muis om de locatie van de markering te wijzigen. Klik en "
+"sleep deze naar de gewenste locatie."
+
+#: wpGoogleMaps.php:1371
+msgid ""
+"There are too many markers to make use of the live edit function. The "
+"maximum amount for this functionality is 2000 markers. Anything more than "
+"that number would crash your browser. In order to edit your markers, you "
+"would need to download the table in CSV format, edit it and re-upload it."
+msgstr ""
+"Er zijn te veel markeringen om gebruik te maken van de live-edit-functie. "
+"Het maximale aantal voor deze functionaliteit is 2000 markeringen. Een "
+"groter aantal zou uw browser laten crashen. Om uw markeringen te bewerken, "
+"zou u de tabel in CSV-formaat kunnen downloaden, deze bewerken en opnieuw "
+"kunnen uploaden."
+
+#: wpGoogleMaps.php:1386
+msgid "Icon"
+msgstr "Pictogram"
+
+#: wpGoogleMaps.php:1388
+msgid "Address"
+msgstr "Adres"
+
+#: wpGoogleMaps.php:1390
+msgid "Image"
+msgstr "Afbeelding"
+
+#: wpGoogleMaps.php:1391
+msgid "Link"
+msgstr "Link"
+
+#: wpGoogleMaps.php:1392
+msgid "Action"
+msgstr "Actie"
+
+#: wpGoogleMaps.php:1409
+msgid "View this link"
+msgstr "Bekijk deze link"
+
+#: wpGoogleMaps.php:1420 wpGoogleMaps.php:1421
+msgid "Edit this marker"
+msgstr "Bewerk deze markering"
+
+#: wpGoogleMaps.php:1421
+msgid "Edit Location"
+msgstr "Bewerk locatie"
+
+#: wpGoogleMaps.php:1422
+msgid "Delete this marker"
+msgstr "Verwijder deze markering"
+
+#: wpGoogleMaps.php:1422
+msgid "Delete"
+msgstr "Verwijder"
+
+#: wpGoogleMaps.php:1539
+msgid ""
+"The plugin directory does not have 'write' permissions. Please enable "
+"'write' permissions (755) for "
+msgstr ""
+"De plugin directory heeft geen schrijfrechten, Enable de schrijfrechten "
+"(755) voor "
+
+#: wpGoogleMaps.php:1541
+msgid "in order for this plugin to work! Please see "
+msgstr "om deze plugin te laten weken! Bekijk alstublieft "
+
+#: wpGoogleMaps.php:1543
+msgid "this page"
+msgstr "deze pagina"
+
+#: wpGoogleMaps.php:1545
+msgid "for help on how to do it."
+msgstr "voor informatie over hoe u dit kunt doen."
+
+msgid ""
+"Get great map markers <a href='http://mapicons.nicolasmollet.com/' "
+"target='_BLANK' title='Great Google Map Markers'>here</a>"
+msgstr ""
+"Grandioze kaart markers vind u <a href='http://mapicons.nicolasmollet.com/' "
+"target='_BLANK' title='Great Google Map Markers'>hier</a>"
+
+msgid "Bounce"
+msgstr "Stuiteren"
+
+msgid "Drop"
+msgstr "Vallen"
+
+msgid "Or paste image URL"
+msgstr "Of plak de afbeelding URL"
+
+msgid "ignore if you want to use the defaul marker"
+msgstr "Negeer dit als u de standaard pictogram wil gebruiken"
+
+msgid "Format: http://www.domain.com"
+msgstr "Formaat: http://www.domein.com"
+
+msgid "More details"
+msgstr "Meer informatie"
+
+msgid "Get directions"
+msgstr "Plan uw route"
+
+msgid "From"
+msgstr "Van"
+
+msgid "To"
+msgstr "Naar"
+
+msgid "Go"
+msgstr "Ga"
+
+msgid "Please fill out both the 'from' and 'to' fields"
+msgstr "Vult u alstublieft de 'Van' en 'Naar' velden in"
+
+msgid "Geocode was not successful for the following reason"
+msgstr "Geocode was niet succesvol om de volgende reden"
+
+msgid "Header 1 should be 'id', not"
+msgstr "Header 1 hoort 'id' te zijn, geen"
+
+msgid "Header 2 should be 'map_id', not"
+msgstr "Header 2 hoort 'map_id' te zijn, geen"
+
+msgid "Header 3 should be 'address', not"
+msgstr "Header 3 hoort address' te zijn, geen"
+
+msgid "Header 4 should be 'desc', not"
+msgstr "Header 4 hoort 'desc' te zijn, geen"
+
+msgid "Header 5 should be 'pic', not"
+msgstr "Header 5 hoort 'pic' te zijn, geen"
+
+msgid "Header 6 should be 'link', not"
+msgstr "Header 2 hoort 'link' te zijn, geen"
+
+msgid "Header 7 should be 'icon', not"
+msgstr "Header 2 hoort 'icon' te zijn, geen"
+
+msgid "Header 8 should be 'lat', not"
+msgstr "Header 2 hoort 'lat' te zijn, geen"
+
+msgid "Header 9 should be 'lng', not"
+msgstr "Header 2 hoort 'lng' te zijn, geen"
+
+msgid "Header 10 should be 'anim', not"
+msgstr "Header 2 hoort 'anim' te zijn, geen"
+
+msgid "Header 11 should be 'title', not"
+msgstr "Header 2 hoort 'title' te zijn, geen"
+
+msgid "CSV import failed"
+msgstr "CSV import mislukt"
+
+msgid "Your CSV file has been successfully imported"
+msgstr "Uw CSV bestand is succesvol geimporteerd"
+
+msgid "Download ALL marker data to a CSV file"
+msgstr "Download ALLE markeringen naar een CSV bestand"
+
+msgid "Advanced Options"
+msgstr "Geavanceerde Opties"
+
+msgid "Upload File"
+msgstr "Upload bestand"
+
+msgid "Upload CSV File"
+msgstr "Upload CSV bestand"
+
+msgid "Replace existing data with data in file"
+msgstr "Vervang de bestaande data met de data uit het bestand"
+
+msgid "OR"
+msgstr "OF"
+
+msgid "including Pro add-on"
+msgstr "inclusief de Pro add-on"
+
+msgid "including Pro &amp; Gold add-ons"
+msgstr "inclusief de Pro &amp; Gold add-ons"
+
+msgid "Download this data as a CSV file"
+msgstr "Download deze data als een CSV bestand"
+
+msgid "Advanced Map Styling"
+msgstr "Geavanceerde kaart opmaak"
+
+msgid ""
+"Use the <a href='http://gmaps-samples-v3.googlecode.com/svn/trunk/styledmaps/"
+"wizard/index.html' target='_BLANK'>Google Maps API Styled Map Wizard</a> to "
+"get your style settings"
+msgstr ""
+"Gebruik de <a href='http://gmaps-samples-v3.googlecode.com/svn/trunk/"
+"styledmaps/wizard/index.html' target='_BLANK'>Google Maps API Styled Map "
+"Wizard</a> om uw style instellingen te krijgen"
+
+msgid "Enable Advanced Styling"
+msgstr "Geavanceerde opmaak openen"
+
+msgid "Paste the JSON data here"
+msgstr "Plak de JSON data hier"
+
+msgid "Save Style Settings"
+msgstr "Sla de opmaak instellingen op"
+
+msgid "Maps"
+msgstr "Kaarten"
+
+msgid "Advanced"
+msgstr "Geavanceerd"
+
+msgid "Create your map"
+msgstr "Creëer uw kaart"
