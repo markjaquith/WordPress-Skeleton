@@ -46,9 +46,22 @@
 }
 /*Events Stylings*/
 .event_wrapper .register_button_wrapper a {
-    margin: 20px;
+    margin: 5px !important;
 }
 
+.event_wrapper .event_location .heading, 
+.event_wrapper .event_organization .heading {
+	margin-left: 0px !important;
+	font-size: inherit;
+}
+
+.event_wrapper .event_location {
+	margin: 0px 5px!important;
+}
+
+.event_wrapper .event_organization {
+	margin: 5px 5px!important;
+}
 .register_button_wrapper a.btn {
 	border-radius: 1px;
 }
@@ -159,6 +172,19 @@
 .footer-copyright-section {
     background-color: rgb(66, 139, 202);
 }
+
+.event_wrapper {
+    padding: 10px 0px !important;
+	border: 0 !important;
+}
+
+.entry-title {
+		margin-left: 10px;
+}
+
+.entry-title-event {
+		margin-left: 15px;
+}
 /*
 -----------------------------------------------------------
             Bootstrap Media Query Overrides
@@ -182,6 +208,10 @@
     margin-top: 10px;
 }
 }
+
+
+
+
 
 
 
