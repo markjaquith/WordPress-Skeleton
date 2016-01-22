@@ -10,6 +10,19 @@
   Text Domain: elitepress-child
  */
 /*Header logo Css---------------------------------------------------------------------------------------------------*/
+body {
+    color: #333;
+    font-family: 'Raleway', sans-serif !important;
+    font-size: 16px;
+    line-height: 1.42857;
+	font-weight: 400;
+}
+
+.textwidget strong, p {
+    font-weight: 400;
+	color: #333;
+}
+
  .site-logo {
     margin: 5px 14px;
 }
@@ -142,6 +155,10 @@
 	font-family: FontAwesome;
 	margin-right: 6px;
 	font-size: 15px;	
+}
+
+.img-event {
+	width:100%;
 }
 
 .footer-widget-title {

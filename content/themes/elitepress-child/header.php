@@ -7,7 +7,9 @@
 	<link rel="profile" href="http://gmpg.org/xfn/11" />
 	<?php $current_options=get_option('elitepress_lite_options'); ?>
 	<?php if($current_options['upload_image_favicon']!=''){ ?>
-	<link rel="shortcut icon" href="<?php  echo esc_url($current_options['upload_image_favicon']); ?>" /> 
+	<link rel="shortcut icon" href="<?php  echo esc_url($current_options['upload_image_favicon']); ?>" />
+	<link href='https://fonts.googleapis.com/css?family=Raleway:400,700' rel='stylesheet' type='text/css'>
+		
 	<?php } wp_head(); ?>
 </head>
 <body <?php body_class(); ?> >
