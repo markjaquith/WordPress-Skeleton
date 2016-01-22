@@ -142,7 +142,6 @@
 	padding: 15px;
 	position: relative;	
 }
-
 .footer-widget-section:before {
 	background-image: url(../../uploads/2016/01/doorsmall.jpg);
 	width: 100%;
@@ -160,22 +159,21 @@
 }
 /*Services*/
 div.desc{
-    background-color: white;
+    background-color: #333;
     bottom: 0;
-    color: black;
     left: 0;
-    opacity: 0.6;
+    opacity: 0.7;
     position: absolute;
     width: 100%;
 }
-
 .fix{
 	position: relative;
     width: 100%;
     padding: 0px;
+	
 }
-
 .overlay-caption{
+	color: white;
 	padding: 3px;
 	text-align: center;
 }
