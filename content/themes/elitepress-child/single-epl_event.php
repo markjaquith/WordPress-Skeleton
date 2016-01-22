@@ -10,16 +10,20 @@ get_header();
 ?>
 
 <div id="primary">
-    <div id="content" role="main">
-
-
+    <div class="container" id="content" role="main">
         <?php the_post(); ?>
-        <h1 class="entry-title"><?php the_title(); ?></h1>
+        <div class="row">
+			<div class="col-md-12">
+				<h1 class="entry-title"><?php the_title(); ?></h1>
+			</div>
+		</div>
+		<div class="row"><!-- start of row -->
+			
+		<div class="event_wrapper clearfix">
 
-        <div class="event_wrapper clearfix">
-
-
-            <div class="col_left">
+		  
+			<div class="col-md-6 col-sm-12 col-xs-12">
+             <div>
 
                 <div class="event_description clearfix">
 
@@ -28,30 +32,36 @@ get_header();
                 </div>
 
                 <div class ="event_dates">
-                    <span class="">Dates</span>
+                    <p class="">Dates</p>
                     <?php echo get_the_event_dates( ); ?>
 
                 </div>
                 <div class ="event_times">
-                    <span class="">Times</span>
+                    <p class="">Times</p>
                     <?php echo get_the_event_times( ); ?>
                 </div>
 
                 <div class ="event_prices" style="clear:both;">
-                    <span class="">Ticket Prices</span>
+                    <p class="">Ticket Prices</p>
                     <?php echo get_the_event_prices( ); ?>
                 </div>
+				<div class ="register_button_wrapper pull-left" style="clear:both;">
+					<?php echo get_the_register_button(); ?>
+                </div>
             </div>
-
-
-            <div class="col_right">
+			</div>
+			
+			<div class="col-md-6 col-sm-12 col-xs-12">
+			<?php if($event_details['_epl_event_location'] || $event_details['_epl_event_organization']) { ?>	
+            <div class="col_right"><!--start of col_right-->
 
                 <?php
 
                     //location id is stored in $event_details['_epl_event_location']
                 ?>
+					<?php if($event_details['_epl_event_location']) { ?>
                     <div class ="event_location">
-                        <span class="heading">Location</span>
+                        <p>Location</p>
                         <a href="<?php echo get_permalink( $event_details['_epl_event_location'] ); ?>" title="<?php echo get_the_location_name(); ?>">
                         <?php echo get_the_location_name(); ?>
                     </a><br />
@@ -60,29 +70,45 @@ get_header();
                     <?php echo get_the_location_city(); ?>, <?php echo get_the_location_state(); ?> <?php echo get_the_location_zip(); ?>
                     <?php echo get_the_location_phone(); ?><br />
                     </div>
-
+					<?php } ?>
 
                 <?php
 
                         //organization id is stored in $event_details['_epl_event_organization']
                 ?>
-                        <div class ="event_organization">
+                        <?php if($event_details['_epl_event_organization']) { ?>
+						<div class ="event_organization">
                             <span class="heading">Hosted By</span>
                             <a href="<?php echo get_permalink( $event_details['_epl_event_organization'] ); ?>" title="<?php echo get_the_organization_name(); ?>"><?php echo get_the_organization_name(); ?></a><br />
                     <?php echo get_the_organization_address(); ?><br />
-                    <?php echo get_the_organization_city(); ?>,  <?php echo get_the_organization_state(); ?> <?php echo get_the_organization_zip(); ?><br />
+                    <?php echo get_the_organization_city(); ?>  <?php echo get_the_organization_state(); ?> <?php echo get_the_organization_zip(); ?><br />
                         <?php echo get_the_organization_phone(); ?><br />
-                        <?php echo epl_anchor( get_the_organization_website(), 'Visit Website' ); ?><br />
+                        
                     </div>
-
-                </div>
-
-                <div class ="register_button_wrapper" style="clear:both;">
-
-<?php echo get_the_register_button(); ?>
-                    </div>
-                </div>
-
+					<?php } ?>	
+                </div><!-- End of col_right-->
+				
+				<?php }else { ?>
+					<div class="col-right">
+						<div class ="event_location">
+							<p class="heading">Location:</p>
+							
+							The Arches Project
+							<br />
+							Addereley Street<br/>
+							Digbeth<br/>
+							Birmingham B9 4EP<br/>
+							0121 772 0852<br/>
+						</div>
+						<div class ="event_organization">
+                            <p class="heading">Hosted By:</p>
+                             The Arches Project<br />    
+						</div>
+					</div>	
+					<?php } ?> 
+					</div>
+                </div><!-- End of event wrapper-->
+				</div><!-- End of row-->	
             </div><!-- #content -->
         </div><!-- #primary -->
 

@@ -10,6 +10,19 @@
   Text Domain: elitepress-child
  */
 /*Header logo Css---------------------------------------------------------------------------------------------------*/
+body {
+    color: #333;
+    font-family: 'Raleway', sans-serif !important;
+    font-size: 16px;
+    line-height: 1.42857;
+	font-weight: 400;
+}
+
+.textwidget strong, p {
+    font-weight: 400;
+	color: #333;
+}
+
  .site-logo {
     margin: 5px 14px;
 }
@@ -46,11 +59,41 @@
 }
 /*Events Stylings*/
 .event_wrapper .register_button_wrapper a {
-    margin: 20px;
+    margin: 5px !important;
 }
 
+.event_wrapper .event_location .heading, 
+.event_wrapper .event_organization .heading {
+	margin-left: 0px !important;
+	font-size: inherit;
+}
+
+.event_wrapper .event_location {
+	margin: 0px 5px!important;
+}
+
+.event_wrapper .event_organization {
+	margin: 5px 5px!important;
+}
 .register_button_wrapper a.btn {
 	border-radius: 1px;
+}
+
+.event_wrapper {
+    padding: 10px 0px !important;
+	border: 0 !important;
+}
+
+.entry-title {
+		margin-left: 10px;
+}
+
+.entry-title-event {
+		margin-left: 15px;
+}
+
+.img-event {
+	width:100%;
 }
 
 .title-section {
@@ -157,6 +200,7 @@
 .footer-copyright-section {
     background-color: rgb(66, 139, 202);
 }
+
 /*Services*/
 div.desc{
     background-color: #333;
@@ -177,7 +221,20 @@ div.desc{
 	padding: 3px;
 	text-align: center;
 }
+.thumbnail-override, .caption{
+	border: 0px;
+	box-shadow: none;
+	margin-top: 10px;
+	padding: 0px;
+}
 
+.title-overlay {
+	font-size: 18px;
+	position: absoloute;
+	background-color: blue; 
+	width: 100%;
+	bottom: 0;
+}
 /*
 -----------------------------------------------------------
             Bootstrap Media Query Overrides
@@ -202,20 +259,11 @@ div.desc{
 }
 }
 
-.thumbnail-override, .caption{
-	border: 0px;
-	box-shadow: none;
-	margin-top: 10px;
-	padding: 0px;
-}
 
-.title-overlay {
-	font-size: 18px;
-	position: absoloute;
-	background-color: blue; 
-	width: 100%;
-	bottom: 0;
-}
+
+
+
+
 
 
 

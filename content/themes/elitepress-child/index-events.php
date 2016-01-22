@@ -31,7 +31,7 @@
 		
 		<div class="col-md-4 col-sm-6 ">
 			<div>
-				<?php the_post_thumbnail(array(360, 370), array('class' => 'img-responsive')); ?>
+				<?php the_post_thumbnail(array(360, 370), array('class' => 'img-responsive img-event')); ?>
 			</div>
 			<div class="home_portfolio_caption">
 				<h4><a href ="<?php echo get_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a></h4>
