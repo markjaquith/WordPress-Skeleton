@@ -11,7 +11,7 @@ get_header();
 		  </div>	
 		</div>
 	   </div>	
-		<h2>Performing Arts</h2>
+		<h2>Arts</h2>
 		<p>Improve your skills in one of the many workshops we offer, including: Drama, Music, Art, Vocal Training and more! 
 			If you require any of these services please don't hesitate to contact us </p>
 		<div class="row"><!--Start of row-->

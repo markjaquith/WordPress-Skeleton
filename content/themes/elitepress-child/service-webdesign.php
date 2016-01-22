@@ -24,7 +24,7 @@ get_header();
 			<li>Professional Design</li>
 			<li>Upload to YouTube, Vimeo or personal websites</li>
 		  </ul>
-		  <p>If you're interested in the above services, please e-mail services@thearchesproject.org. We will be sure to respond as soon as we can.</p>	
+		  <p>If you're interested in the above services, please e-mail us at services@thearchesproject.org. We will be sure to respond as soon as we can.</p>	
 		</div>
 	   </div> 
 	 </div>
