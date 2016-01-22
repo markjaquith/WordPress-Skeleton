@@ -1,0 +1,783 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Google Maps DE\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: ToWa GmbH <matteo.ender@towa.at>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.10\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _e;_n;__\n"
+"X-Poedit-Basepath: .\n"
+"Language: de_DE\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ../.\n"
+
+#: wpGoogleMaps.php:882
+msgid "Your settings have been saved."
+msgstr "Ihre Einstellungen wurden gespeichert"
+
+#: wpGoogleMaps.php:910
+msgid "Your marker location has been saved."
+msgstr "Ihrer Marker Position wurde gespeichert"
+
+#: wpGoogleMaps.php:956
+msgid "There was a problem deleting the map."
+msgstr "There was a problem deleting the map."
+
+#: wpGoogleMaps.php:960
+msgid "Delete your map"
+msgstr "Map l&ouml;schen"
+
+#: wpGoogleMaps.php:960
+msgid "Are you sure you want to delete the map"
+msgstr "Sind Sie sicher, dass Sie die Map l&ouml;schen wollen"
+
+#: wpGoogleMaps.php:960
+msgid "Yes"
+msgstr "Ja"
+
+#: wpGoogleMaps.php:960
+msgid "No"
+msgstr "Nein"
+
+#: wpGoogleMaps.php:1005 wpGoogleMaps.php:1009
+msgid "Your Maps"
+msgstr "Ihre Maps"
+
+#: wpGoogleMaps.php:1005
+msgid "Add New"
+msgstr "Neu hinzuf&uuml;gen"
+
+#: wpGoogleMaps.php:1010
+msgid "Pro Version"
+msgstr "Pro Version"
+
+#: wpGoogleMaps.php:1010
+msgid "Create unlimited maps"
+msgstr "Erstellen Sie unlimitiert viele Maps"
+
+#: wpGoogleMaps.php:1010
+msgid "with the"
+msgstr "mit dem"
+
+#: wpGoogleMaps.php:1010
+msgid "of WP Google Maps for only"
+msgstr "von WP Google Maps f&uuml;r nur"
+
+#: wpGoogleMaps.php:1041 wpGoogleMaps.php:1290 wpGoogleMaps.php:1385
+msgid "ID"
+msgstr "ID"
+
+#: wpGoogleMaps.php:1042 wpGoogleMaps.php:1204 wpGoogleMaps.php:1387
+msgid "Title"
+msgstr "Titel"
+
+#: wpGoogleMaps.php:1043 wpGoogleMaps.php:1153
+msgid "Width"
+msgstr "Breite"
+
+#: wpGoogleMaps.php:1044 wpGoogleMaps.php:1157
+msgid "Height"
+msgstr "H&ouml;he"
+
+#: wpGoogleMaps.php:1045
+msgid "Type"
+msgstr "Typ"
+
+#: wpGoogleMaps.php:1056
+msgid "Trash"
+msgstr "Papierkorb"
+
+#: wpGoogleMaps.php:1060 wpGoogleMaps.php:1420
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#: wpGoogleMaps.php:1102
+msgid ""
+"Add custom icons, titles, descriptions, pictures and links to your markers "
+"with the"
+msgstr ""
+"F&uuml;gen Sie benutzerdefinierte Icons, Titel, Beschreibungen, Bilder und "
+"Link zu Ihren Markern hinzu mit der"
+
+#: wpGoogleMaps.php:1102 wpGoogleMaps.php:1103 wpGoogleMaps.php:1163
+#: wpGoogleMaps.php:1256
+msgid "Pro Edition"
+msgstr "Pro Edition"
+
+#: wpGoogleMaps.php:1102
+msgid "of this plugin for just"
+msgstr "von diesem Plugin f&uuml;r nur"
+
+#: wpGoogleMaps.php:1103
+msgid "Purchase the Pro Edition"
+msgstr "Kaufen Sie die Pro Edition"
+
+#: wpGoogleMaps.php:1103
+msgid "of WP Google Maps and save your markers to a CSV file!"
+msgstr "von WP Google Maps um Ihre Marker als CSV-Datei zu speichern."
+
+#: wpGoogleMaps.php:1113
+msgid "Map Settings"
+msgstr "Map Einstellungen"
+
+#: wpGoogleMaps.php:1145
+msgid "Short code"
+msgstr "Shortcode"
+
+#: wpGoogleMaps.php:1146
+msgid "copy this into your post or page to display the map"
+msgstr "Kopieren Sie den Shortcode in Ihre Seite um die Map darzustellen"
+
+#: wpGoogleMaps.php:1149
+msgid "Map Name"
+msgstr "Map Name"
+
+#: wpGoogleMaps.php:1162
+msgid "Default Marker Image"
+msgstr "Standard Marker-Bild"
+
+#: wpGoogleMaps.php:1163 wpGoogleMaps.php:1215 wpGoogleMaps.php:1217
+msgid "Upload Image"
+msgstr "Bild hochladen"
+
+#: wpGoogleMaps.php:1163
+msgid "available in the"
+msgstr "verf&uuml;gbar in der"
+
+#: wpGoogleMaps.php:1163
+msgid "only"
+msgstr "nur"
+
+#: wpGoogleMaps.php:1166
+msgid "Map type"
+msgstr "Map-Typ"
+
+#: wpGoogleMaps.php:1168
+msgid "Roadmap"
+msgstr "Roadmap"
+
+#: wpGoogleMaps.php:1169
+msgid "Satellite"
+msgstr "Satellit"
+
+#: wpGoogleMaps.php:1170
+msgid "Hybrid"
+msgstr "Hybrid"
+
+#: wpGoogleMaps.php:1171
+msgid "Terrain"
+msgstr "Terrain"
+
+#: wpGoogleMaps.php:1176
+msgid "Map Alignment"
+msgstr "Map Ausrichtung"
+
+#: wpGoogleMaps.php:1178
+msgid "Left"
+msgstr "Links"
+
+#: wpGoogleMaps.php:1179
+msgid "Center"
+msgstr "Mitte"
+
+#: wpGoogleMaps.php:1180
+msgid "Right"
+msgstr "Rechts"
+
+#: wpGoogleMaps.php:1181 wpGoogleMaps.php:1222
+msgid "None"
+msgstr "Keine"
+
+#: wpGoogleMaps.php:1189
+msgid "Remember to save your map!"
+msgstr "Vergessen Sie nicht, Ihre Map zu speichern"
+
+#: wpGoogleMaps.php:1191
+msgid "Save Map"
+msgstr "Map speichern"
+
+#: wpGoogleMaps.php:1193
+msgid ""
+"Tip: Use your mouse to change the layout of your map. When you have "
+"positioned the map to your desired location, press \"Save Map\" to keep your "
+"settings."
+msgstr ""
+"Tipp: Verwenden Sie Ihre Maus um das Layout Ihrer Map zu ver&auml;ndern. "
+"Entspricht die Position Ihren Erwartungen, klicken Sie \"Map Speichern\" um "
+"Ihre Einstellungen zu speichern."
+
+#: wpGoogleMaps.php:1199
+msgid "Add a marker"
+msgstr "Marker hinzuf&uuml;gen"
+
+#: wpGoogleMaps.php:1209
+msgid "Address/GPS"
+msgstr "Adresse / GPS"
+
+#: wpGoogleMaps.php:1214 wpGoogleMaps.php:1389
+msgid "Description"
+msgstr "Beschreibung"
+
+#: wpGoogleMaps.php:1215
+msgid "Pic URL"
+msgstr "Bild-URL"
+
+#: wpGoogleMaps.php:1216
+msgid "Link URL"
+msgstr "Link URL"
+
+#: wpGoogleMaps.php:1217
+msgid "Custom Marker"
+msgstr "Benutzerdefinierter Marker"
+
+#: wpGoogleMaps.php:1219
+msgid "Animation"
+msgstr "Animation"
+
+#: wpGoogleMaps.php:1229
+msgid "Add Marker"
+msgstr "Marker hinzuf&uuml;gen"
+
+#: wpGoogleMaps.php:1229
+msgid "Adding"
+msgstr "Hinzuf&uuml;gen"
+
+#: wpGoogleMaps.php:1230
+msgid "Save Marker"
+msgstr "Marker speichern"
+
+#: wpGoogleMaps.php:1230
+msgid "Saving"
+msgstr "Speichern"
+
+#: wpGoogleMaps.php:1238
+msgid "Your Markers"
+msgstr "Ihre Marker"
+
+#: wpGoogleMaps.php:1247
+msgid "Add detailed information to your markers!"
+msgstr "F&uuml;gen Sie detailierte Informationen Ihrem Marker hinzu."
+
+#: wpGoogleMaps.php:1247 wpGoogleMaps.php:1251 wpGoogleMaps.php:1255
+msgid "Add custom markers to your map!"
+msgstr "Benutzerdefinierter Marker hinzuf&uuml;gen"
+
+#: wpGoogleMaps.php:1248
+msgid "Add detailed information to your markers for only"
+msgstr ""
+"Ihrem Marker benutzerdefinierte Informationen hinzuf&uuml;gen f&uuml;r nur"
+
+#: wpGoogleMaps.php:1248 wpGoogleMaps.php:1256
+msgid "Click"
+msgstr "Klick"
+
+#: wpGoogleMaps.php:1248 wpGoogleMaps.php:1256
+msgid "here"
+msgstr "hier"
+
+#: wpGoogleMaps.php:1252
+msgid ""
+"Add different marker icons, or your own icons to make your map really stand "
+"out!"
+msgstr ""
+"F&uuml;gen Sie verschiedene Marker-Icons hinzu, um Ihre Map einzigartig zu "
+"machen"
+
+#: wpGoogleMaps.php:1256
+msgid "Allow your visitors to get directions to your markers!"
+msgstr "Erlauben Sie Ihren Besuchern, den Anfahrtsplan zu verwenden."
+
+#: wpGoogleMaps.php:1262
+msgid ""
+"WP Google Maps encourages you to make use of the amazing icons created by "
+"Nicolas Mollet's Maps Icons Collection"
+msgstr ""
+"WP Google Maps erm&ouml;glicht Ihnen die grossartigen Icons von Nicolas "
+"Mollet's Map Icons Kollektion zu verwenden"
+
+#: wpGoogleMaps.php:1262
+msgid "and to credit him when doing so."
+msgstr "und Ihm daf&uuml;r zu danken."
+
+#: wpGoogleMaps.php:1290
+msgid "Edit Marker Location"
+msgstr "Marker-Position bearbeiten"
+
+#: wpGoogleMaps.php:1299
+msgid "Marker Latitude"
+msgstr "Marker Breitengrad"
+
+#: wpGoogleMaps.php:1303
+msgid "Marker Longitude"
+msgstr "Marker L&auml;ngengrad"
+
+#: wpGoogleMaps.php:1308
+msgid "Save Marker Location"
+msgstr "Marker-Position speichern"
+
+#: wpGoogleMaps.php:1309
+msgid ""
+"Tip: Use your mouse to change the location of the marker. Simply click and "
+"drag it to your desired location."
+msgstr ""
+"Tipp: Verwenden Sie Ihre Maus um die Position des Markers zu bestimmen. "
+"Einfach anklicken und an die gew&uuml;nschte Position ziehen."
+
+#: wpGoogleMaps.php:1371
+#, fuzzy
+msgid ""
+"There are too many markers to make use of the live edit function. The "
+"maximum amount for this functionality is 2000 markers. Anything more than "
+"that number would crash your browser. In order to edit your markers, you "
+"would need to download the table in CSV format, edit it and re-upload it."
+msgstr "Fehlermeldung"
+
+#: wpGoogleMaps.php:1386
+msgid "Icon"
+msgstr "Icon"
+
+#: wpGoogleMaps.php:1388
+msgid "Address"
+msgstr "Adresse"
+
+#: wpGoogleMaps.php:1390
+msgid "Image"
+msgstr "Bild"
+
+#: wpGoogleMaps.php:1391
+msgid "Link"
+msgstr "Link"
+
+#: wpGoogleMaps.php:1392
+msgid "Action"
+msgstr "Aktion"
+
+#: wpGoogleMaps.php:1409
+msgid "View this link"
+msgstr "Link anzeigen"
+
+#: wpGoogleMaps.php:1420 wpGoogleMaps.php:1421
+msgid "Edit this marker"
+msgstr "Marker bearbeiten"
+
+#: wpGoogleMaps.php:1421
+msgid "Edit Location"
+msgstr "Position bearbeiten"
+
+#: wpGoogleMaps.php:1422
+msgid "Delete this marker"
+msgstr "Diesen Marker l&ouml;schen"
+
+#: wpGoogleMaps.php:1422
+msgid "Delete"
+msgstr "L&ouml;schen"
+
+#: wpGoogleMaps.php:1539
+msgid ""
+"The plugin directory does not have 'write' permissions. Please enable "
+"'write' permissions (755) for "
+msgstr ""
+"Das Plugin-Verzeichnis hat keine 'schreiben' Berechtigung. Bitte aktivieren "
+"Sie die 'schreiben' Berechtigung (755) um"
+
+#: wpGoogleMaps.php:1541
+msgid "in order for this plugin to work! Please see "
+msgstr "das Plugin funktionsf&auml;hig zu machen. Mehr Informationen "
+
+#: wpGoogleMaps.php:1543
+msgid "this page"
+msgstr "auf dieser Seite"
+
+#: wpGoogleMaps.php:1545
+msgid "for help on how to do it."
+msgstr "f&uuml;r Hilfe und Umsetzung."
+
+msgid ""
+"Get great map markers <a href='http://mapicons.nicolasmollet.com/' "
+"target='_BLANK' title='Great Google Map Markers'>here</a>"
+msgstr ""
+"Grossartige Map Markers gibt es <a href='http://mapicons.nicolasmollet.com/' "
+"target='_BLANK' title='Great Google Map Markers'>hier</a>"
+
+msgid "Bounce"
+msgstr "Hüpfen"
+
+msgid "Drop"
+msgstr "Fallen"
+
+msgid "Or paste image URL"
+msgstr "Oder f&uuml;gen Sie die Bild-URL ein"
+
+msgid "ignore if you want to use the defaul marker"
+msgstr "Ignorieren um den Standard-Marker zu verwenden"
+
+msgid "Format: http://www.domain.com"
+msgstr "Format: http://www.domain.com"
+
+msgid "More details"
+msgstr "Mehr Details"
+
+msgid "Get directions"
+msgstr "Anfahrtsplan"
+
+msgid "From"
+msgstr "Von"
+
+msgid "To"
+msgstr "Nach"
+
+msgid "Go"
+msgstr "Los"
+
+msgid "Please fill out both the 'from' and 'to' fields"
+msgstr "Bitte f&uuml;llen Sie beide Felder aus 'von' und 'nach'"
+
+msgid "Geocode was not successful for the following reason"
+msgstr "Geocode war aus folgenden Gr&uuml;nden nicht erfolgreich"
+
+msgid "Header 1 should be 'id', not"
+msgstr "Header 1 sollte 'id' sein, nicht"
+
+msgid "Header 2 should be 'map_id', not"
+msgstr "Header 2 sollte 'map_id' sein, nicht"
+
+msgid "Header 3 should be 'address', not"
+msgstr "Header 3 sollte 'address' sein, nicht"
+
+msgid "Header 4 should be 'desc', not"
+msgstr "Header 4 sollte 'desc' sein, nicht"
+
+msgid "Header 5 should be 'pic', not"
+msgstr "Header 5 sollte 'pic' sein, nicht"
+
+msgid "Header 6 should be 'link', not"
+msgstr "Header 6 sollte 'link' sein, nicht"
+
+msgid "Header 7 should be 'icon', not"
+msgstr "Header 7 sollte 'icon' sein, nicht"
+
+msgid "Header 8 should be 'lat', not"
+msgstr "Header 8 sollte 'lat' sein, nicht"
+
+msgid "Header 9 should be 'lng', not"
+msgstr "Header 9 sollte 'Ing' sein, nicht"
+
+msgid "Header 10 should be 'anim', not"
+msgstr "Header 10 sollte 'anim' sein, nicht"
+
+msgid "Header 11 should be 'title', not"
+msgstr "Header 11 sollte 'title' sein, nicht"
+
+msgid "CSV import failed"
+msgstr "CSV-Import fehlgeschlagen"
+
+msgid "Your CSV file has been successfully imported"
+msgstr "Ihre CSV-Datei wurde erfolgreich importiert"
+
+msgid "Download ALL marker data to a CSV file"
+msgstr "Alle Marker als CSV-Datei herunterladen"
+
+msgid "Advanced Options"
+msgstr "Erweiterte Optionen"
+
+msgid "Upload File"
+msgstr "Datei hochladen"
+
+msgid "Upload CSV File"
+msgstr "CSV-Datei hochladen"
+
+msgid "Replace existing data with data in file"
+msgstr "Existierende Daten mit Daten aus Datei überschreiben"
+
+msgid "OR"
+msgstr "ODER"
+
+msgid "including Pro add-on"
+msgstr "Pro Add-On einf&uuml;gen"
+
+msgid "including Pro &amp; Gold add-ons"
+msgstr "inklusive Pro und Gold Add-Ons"
+
+msgid "Download this data as a CSV file"
+msgstr "Diese Daten als CSV-Datei herunterladen"
+
+msgid "Advanced Map Styling"
+msgstr "Zus&auml;tzliche Map-Design Einstellungen"
+
+msgid ""
+"Use the <a href='http://gmaps-samples-v3.googlecode.com/svn/trunk/styledmaps/"
+"wizard/index.html' target='_BLANK'>Google Maps API Styled Map Wizard</a> to "
+"get your style settings"
+msgstr ""
+"Verwenden Sie <a href='http://gmaps-samples-v3.googlecode.com/svn/trunk/"
+"styledmaps/wizard/index.html' target='_BLANK'>Google Maps API Styled Map "
+"Wizard</a> um Ihre Maps zu designen."
+
+msgid "Enable Advanced Styling"
+msgstr "Weitere Designm&ouml;glichkeiten aktivieren"
+
+msgid "Paste the JSON data here"
+msgstr "JSON-Daten hier einf&uuml;gen"
+
+msgid "Save Style Settings"
+msgstr "Design-Einstellungen speichern"
+
+msgid "Maps"
+msgstr "Maps"
+
+msgid "Advanced"
+msgstr "Fortgeschritten"
+
+msgid "Create your Map"
+msgstr "Ihre Map erstellen"
+
+msgid "Show advanced options"
+msgstr "Erweiterte Einstellungen anzeigen"
+
+msgid "Hide advanced options"
+msgstr "Erweiterte Einstellungen ausblenden"
+
+msgid "List all Markers"
+msgstr "Alle Marker auflisten"
+
+msgid "List all markers below the map"
+msgstr "Alle Marker unter der Map einblenden"
+
+msgid "Directions Box Open by Default?"
+msgstr "Anfahrt standardm&auml;ssig anzeigen"
+
+msgid "Yes, on the left"
+msgstr "Ja, auf der linken Seite"
+
+msgid "Yes, on the right"
+msgstr "Ja, auf der rechten Seite"
+
+msgid "Yes, above"
+msgstr "Ja, dar&uuml;ber"
+
+msgid "Yes, below"
+msgstr "Ja, darunter"
+
+msgid "Directions Box Width"
+msgstr "Anfahrts-Box Breite"
+
+msgid "InfoWindow open by default"
+msgstr "Informationsfenster standardm&auml;ssig &ouml;ffnen"
+
+msgid "Disable StreetView"
+msgstr "StreetView deaktivieren"
+
+msgid "Disable Zoom Controls"
+msgstr "Zoom deaktivieren"
+
+msgid "Disable Pan Controls"
+msgstr "Pfeilnavigaton deaktivieren"
+
+msgid "Disable Map Type Controls"
+msgstr "Map-Typ-Einstellungen deaktivieren"
+
+msgid "Disable Mouse Wheel Zoom"
+msgstr "Mausrad-Zoom deaktivieren"
+
+msgid "Open links in a new window"
+msgstr "Link in neuem Fenster &ouml;ffnen"
+
+msgid "(Tick this if you want to open your links in a new window)"
+msgstr ""
+"(Hacken setzen, falls Sie den Link in einem neuen Fenster &ouml;ffnen wollen)"
+
+msgid "Hide the address field"
+msgstr "Adress-Feld verstecken"
+
+msgid "Other settings"
+msgstr "Weitere Einstellungen"
+
+msgid "Max InfoWindow Width"
+msgstr "Maximale Informations-Fenster Breite"
+
+msgid "(Minimum: 200px)"
+msgstr "(Minimum: 200px)"
+
+msgid "Image Thumbnails"
+msgstr "Vorschaubild"
+
+msgid "(Tick this if you are having problems viewing your thumbnail images)"
+msgstr ""
+"(Hacken setzen, falls Sie Probleme mit der Anzeige des Vorschaubildes haben)"
+
+msgid "Default Image Height"
+msgstr "Standard Bildh&ouml;he"
+
+msgid "Default Image Width"
+msgstr "Standard Bildbreite"
+
+msgid "InfoWindow Settings"
+msgstr "Informationsfenster Einstellungen"
+
+msgid "General Map Settings"
+msgstr "Allgemeine Map-Einstellungen"
+
+msgid "Do not use TimThumb"
+msgstr "TimThumb nicht verwenden"
+
+msgid "WP Google Map Settings"
+msgstr "WP Google Map Einstellungen"
+
+msgid "Enable Directions?"
+msgstr "Anfahrt aktivieren?"
+
+msgid "Enable Bicycle Layer?"
+msgstr "Anfahrt mit Fahrrad aktivieren?"
+
+msgid "Enable Traffic Layer?"
+msgstr "Verkehrsinformation aktivieren?"
+
+msgid "The KML/GeoRSS layer will over-ride most of your map settings"
+msgstr ""
+"Die KML / GeoRSS Einstellungen werden die meissten Ihrer Map-Einstellungen "
+"&uuml;berschreiben"
+
+msgid "KML/GeoRSS URL"
+msgstr "KML / GeoRSS URL"
+
+msgid "Map Dimensions"
+msgstr "Map Gr&ouml;sse"
+
+msgid "Settings"
+msgstr "Einstellungen"
+
+#~ msgid "Your polygon has been created."
+#~ msgstr "Ihr Polygon wurde erstellt"
+
+#~ msgid "Your polygon has been saved."
+#~ msgstr "Ihrer Marker Position wurde gespeichert"
+
+#~ msgid "Your polyline has been created."
+#~ msgstr "Ihr Polyline wurde erstellt"
+
+#~ msgid "Your polyline has been saved."
+#~ msgstr "Ihre polyline wurde gespeichert"
+
+#~ msgid "Categories"
+#~ msgstr "Kategorien"
+
+#~ msgid "Experiencing problems with the plugin?"
+#~ msgstr "Haben Sie Probleme mit dem Plugin?"
+
+#~ msgid "See the troubleshooting manual."
+#~ msgstr "Lesen Sie die Dokumentation."
+
+#~ msgid "Or ask a question on our "
+#~ msgstr "Oder stellen Sie Ihre Fragen an unser"
+
+#~ msgid "Support forum."
+#~ msgstr "Support Forum."
+
+#~ msgid "There was a problem deleting the marker."
+#~ msgstr "Es gab ein Problem beim L&ouml;schen des Markers"
+
+#~ msgid "Delete Marker"
+#~ msgstr "Marker l&ouml;schen"
+
+#~ msgid "Are you sure you want to delete this marker:"
+#~ msgstr "Sind Sie sicher, dass Sie diesen Marker l&ouml;schen wollen"
+
+#~ msgid "Troubleshooting Options"
+#~ msgstr "Troubleshooting Optionen"
+
+#~ msgid ""
+#~ "Over-ride current jQuery with version 1.8.3 (Tick this box if you are "
+#~ "receiving jQuery related errors)"
+#~ msgstr ""
+#~ "Atkuelle jQuery-Version mit 1.8.3 &uuml;berschreiben (Hacken setzen, "
+#~ "falls Sie jQuery Probleme haben sollten)"
+
+#~ msgid "My Maps"
+#~ msgstr "Meine Maps"
+
+#~ msgid "Problems with the plugin? See the troubleshooting manual."
+#~ msgstr ""
+#~ "Probleme mit dem Plugin? Lesen Sie unser Troubleshooting Verzeichnis."
+
+#~ msgid "My Markers"
+#~ msgstr "Meine Marker"
+
+#~ msgid "Linked to"
+#~ msgstr "Verlinken nach"
+
+#~ msgid "GPS"
+#~ msgstr "GPS"
+
+#~ msgid "Pic"
+#~ msgstr "Bild-URL"
+
+#~ msgid ""
+#~ "Get all of these advanced features with the Pro version for only <a href="
+#~ "\"http://www.wpgmaps.com/purchase-professional-version/?"
+#~ "utm_source=plugin&utm_medium=link&utm_campaign=advanced\">$14.99 once "
+#~ "off</a>. Support and updates included forever."
+#~ msgstr ""
+#~ "All diese erweiterten Einstellungen und Funktionen bekommen Sie mit der "
+#~ "Pro Version f&uuml;r nur <a href=\"http://www.wpgmaps.com/purchase-"
+#~ "professional-version/?"
+#~ "utm_source=plugin&utm_medium=link&utm_campaign=advanced\">$14.99 "
+#~ "einmalig</a>. Support und Updates f&uuml;r immer inklusive."
+
+#~ msgid "Select this for the advanced listing functionality"
+#~ msgstr "Anwenden f&uuml;r erweiterte Listen-Funktionalit&auml;t"
+
+#~ msgid "Filter by Category"
+#~ msgstr "Nach Kategorien filtern"
+
+#~ msgid "Allow users to filter by category?"
+#~ msgstr "Dem User erlauben nach Kategorien zu filtern?"
+
+#~ msgid "Order markers by"
+#~ msgstr "Marker anordnen nach"
+
+#~ msgid "Descending"
+#~ msgstr "Absteigend"
+
+#~ msgid "Ascending"
+#~ msgstr "Aufsteigend"
+
+#~ msgid "Show User's Location?"
+#~ msgstr "User-Standort anzeigen?"
+
+#~ msgid "Fusion table ID"
+#~ msgstr "Fusion-Tabellen ID"
+
+#~ msgid "Read data directly from your Fusion Table."
+#~ msgstr "Daten direkt aus Fusion-Tabelle auslesen"
+
+#~ msgid "Markers"
+#~ msgstr "Marker"
+
+#~ msgid "Polygons"
+#~ msgstr "Polygone"
+
+#~ msgid "Polylines"
+#~ msgstr "Polyline"
+
+#~ msgid "Category"
+#~ msgstr "Kategorien"
+
+#~ msgid "Select"
+#~ msgstr "Ausw&auml;len"
+
+#~ msgid "Add a Polygon"
+#~ msgstr "Polygon hinzuf&uuml;gen"
+
+#~ msgid "Add Polygons to your maps for only"
+#~ msgstr "F&uuml;gen Sie Ihrer Map Polygone hinzu f&uuml;r nur"
+
+#~ msgid "Add a Polyline"
+#~ msgstr "Polyline hinzuf&uuml;gen"
+
+#~ msgid "Add Polylines and routes to your maps for only"
+#~ msgstr "F&uuml;gen Sie Ihrer Map Polylines hinzu f&uuml;r nur"

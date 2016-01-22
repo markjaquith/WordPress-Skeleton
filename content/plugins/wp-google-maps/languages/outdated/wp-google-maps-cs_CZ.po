@@ -1,0 +1,1059 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Google Maps v5.02\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2015-10-06 09:50+0200\n"
+"Last-Translator: riha <riha@webovareseni.cz>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%100/10==1 ? 2 : n%10==1 ? 0 : (n"
+"+9)%10>3 ? 2 : 1;\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ../\n"
+"X-Textdomain-Support: yes\n"
+"Language: cs_CZ\n"
+"X-Generator: Poedit 1.6.10\n"
+"X-Poedit-SearchPath-0: .\n"
+
+# @ wp-google-maps
+#: wpGoogleMaps.php:1071 wpGoogleMaps.php:1120
+msgid "Your settings have been saved."
+msgstr "Vaše nastavení bylo uloženo"
+
+# @ wp-google-maps
+#: wpGoogleMaps.php:1099
+msgid "Your marker location has been saved."
+msgstr "Vaše lokace značky byla uložena"
+
+# @ wp-google-maps
+#: wpGoogleMaps.php:1137
+msgid "Maps"
+msgstr "Mapy"
+
+# @ wp-google-maps
+#: wpGoogleMaps.php:1139
+msgid "Advanced"
+msgstr "Rozšířené"
+
+# @ wp-google-maps
+#: wpGoogleMaps.php:1141
+msgid "Settings"
+msgstr "Nastavení"
+
+# @ wp-google-maps
+#: wpGoogleMaps.php:1166
+msgid "There was a problem deleting the map."
+msgstr "Při mazání mapy došlo k problému"
+
+# @ wp-google-maps
+#: wpGoogleMaps.php:1170
+msgid "Delete your map"
+msgstr "Smazat mapu"
+
+# @ wp-google-maps
+#: wpGoogleMaps.php:1170
+msgid "Are you sure you want to delete the map"
+msgstr "Opravdu si přejete smazat tuto mapu"
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:407 wp-google-maps-pro.php:427
+#: wp-google-maps-pro.php:434 wp-google-maps-pro.php:520 wpGoogleMaps.php:1170
+msgid "Yes"
+msgstr "Ano"
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:408 wp-google-maps-pro.php:413
+#: wp-google-maps-pro.php:428 wp-google-maps-pro.php:435
+#: wp-google-maps-pro.php:519 wpGoogleMaps.php:1170
+msgid "No"
+msgstr "Ne"
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:2033 wpGoogleMaps.php:1224
+msgid "WP Google Map Settings"
+msgstr "WP Google Map nastavení"
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:2096 wpGoogleMaps.php:1251 wpGoogleMaps.php:1401
+msgid "Map Settings"
+msgstr "Nastavení mapy"
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:2099 wpGoogleMaps.php:1254
+msgid "General Map Settings"
+msgstr "Obecné nastavení map"
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:2101 wpGoogleMaps.php:1256
+msgid "Disable StreetView"
+msgstr "Zakázat StreetView"
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:2102 wpGoogleMaps.php:1257
+msgid "Disable Zoom Controls"
+msgstr "Zakázat Zoom posuvník"
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:2103 wpGoogleMaps.php:1258
+msgid "Disable Pan Controls"
+msgstr "Zakázat Ovládací panel posuvníku"
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:2104 wpGoogleMaps.php:1259
+msgid "Disable Map Type Controls"
+msgstr "Zakázat Výběr typu mapy"
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:2058 wpGoogleMaps.php:1267
+msgid "Save Settings"
+msgstr "Uložit nastavení"
+
+# @ wp-google-maps
+#: wpGoogleMaps.php:1289 wpGoogleMaps.php:1293
+msgid "Your Maps"
+msgstr "Vaše mapy"
+
+# @ wp-google-maps
+#: wpGoogleMaps.php:1289
+msgid "Add New"
+msgstr "Vytvořit novou"
+
+# @ wp-google-maps
+#: wpGoogleMaps.php:1294
+msgid "Pro Version"
+msgstr "Pro verze"
+
+# @ wp-google-maps
+#: wpGoogleMaps.php:1294
+msgid "Create unlimited maps"
+msgstr "Vytvořte neomezené množství map"
+
+# @ wp-google-maps
+#: wpGoogleMaps.php:1294
+msgid "with the"
+msgstr "s"
+
+# @ wp-google-maps
+#: wpGoogleMaps.php:1294
+msgid "of WP Google Maps for only"
+msgstr "WP Google Maps pouze pro"
+
+# @ wp-google-maps
+#: wpGoogleMaps.php:1325 wpGoogleMaps.php:1614 wpGoogleMaps.php:1714
+msgid "ID"
+msgstr "ID"
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:477 wpGoogleMaps.php:1326 wpGoogleMaps.php:1516
+#: wpGoogleMaps.php:1716 wpGoogleMaps.php:1735
+msgid "Title"
+msgstr "Město / obec"
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:348 wpGoogleMaps.php:1327 wpGoogleMaps.php:1441
+msgid "Width"
+msgstr "Šířka"
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:355 wpGoogleMaps.php:1328 wpGoogleMaps.php:1452
+msgid "Height"
+msgstr "Výška"
+
+# @ wp-google-maps
+#: wpGoogleMaps.php:1329
+msgid "Type"
+msgstr "Typ"
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:378 wpGoogleMaps.php:1335 wpGoogleMaps.php:1469
+msgid "Roadmap"
+msgstr "Roadmap"
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:379 wpGoogleMaps.php:1336 wpGoogleMaps.php:1470
+msgid "Satellite"
+msgstr "Satellite"
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:380 wpGoogleMaps.php:1337 wpGoogleMaps.php:1471
+msgid "Hybrid"
+msgstr "Hybrid"
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:381 wpGoogleMaps.php:1338 wpGoogleMaps.php:1472
+msgid "Terrain"
+msgstr "Terrain"
+
+# @ wp-google-maps
+#: wpGoogleMaps.php:1340
+msgid "Trash"
+msgstr "Smazat"
+
+# @ wp-google-maps
+#: wpGoogleMaps.php:1344 wpGoogleMaps.php:1771
+msgid "Edit"
+msgstr "Upravit"
+
+# @ wp-google-maps
+#: wpGoogleMaps.php:1390
+msgid ""
+"Add custom icons, titles, descriptions, pictures and links to your markers "
+"with the"
+msgstr ""
+"Přidejte vlastní ikony, názvy, popisy, obrázky a odkazy k vašim značkám s "
+"verzí"
+
+# @ wp-google-maps
+#: wpGoogleMaps.php:1390 wpGoogleMaps.php:1391 wpGoogleMaps.php:1464
+#: wpGoogleMaps.php:1489 wpGoogleMaps.php:1495 wpGoogleMaps.php:1580
+msgid "Pro Edition"
+msgstr "Pro Edition"
+
+# @ wp-google-maps
+#: wpGoogleMaps.php:1390
+msgid "of this plugin for just"
+msgstr "tohoto pluginu pouze za"
+
+# @ wp-google-maps
+#: wpGoogleMaps.php:1391
+msgid "Purchase the Pro Edition"
+msgstr "zakoupit Pro Edition"
+
+# @ wp-google-maps
+#: wpGoogleMaps.php:1391
+msgid "of WP Google Maps and save your markers to a CSV file!"
+msgstr "z WP Google Maps a uložte si vaše značky v CSV souboru!"
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:338 wpGoogleMaps.php:1433
+msgid "Short code"
+msgstr "Shortcode"
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:339 wpGoogleMaps.php:1434
+msgid "copy this into your post or page to display the map"
+msgstr "zkopírujte toto do Vašeho příspěvku nebo stránky k zobrazení mapy"
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:342 wpGoogleMaps.php:1437
+msgid "Map Name"
+msgstr "Název mapy"
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:371 wpGoogleMaps.php:1463
+msgid "Default Marker Image"
+msgstr "Výchozí obrázek značky"
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:372 wp-google-maps-pro.php:501
+#: wp-google-maps-pro.php:505 wpGoogleMaps.php:1464 wpGoogleMaps.php:1537
+#: wpGoogleMaps.php:1541
+msgid "Upload Image"
+msgstr "Nahrát obrázek"
+
+# @ wp-google-maps
+#: wpGoogleMaps.php:1464 wpGoogleMaps.php:1489 wpGoogleMaps.php:1495
+msgid "available in the"
+msgstr "přístupné pouze v"
+
+# @ wp-google-maps
+#: wpGoogleMaps.php:1464 wpGoogleMaps.php:1489 wpGoogleMaps.php:1495
+msgid "only"
+msgstr " "
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:376 wpGoogleMaps.php:1467
+msgid "Map type"
+msgstr "Typ mapy"
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:394 wpGoogleMaps.php:1477
+msgid "Map Alignment"
+msgstr "Zarovnání mapy"
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:396 wpGoogleMaps.php:1479
+msgid "Left"
+msgstr "Vlevo"
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:397 wpGoogleMaps.php:1480
+msgid "Center"
+msgstr "Střed"
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:398 wpGoogleMaps.php:1481
+msgid "Right"
+msgstr "Vpravo"
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:399 wp-google-maps-pro.php:510 wpGoogleMaps.php:1482
+#: wpGoogleMaps.php:1546
+msgid "None"
+msgstr "Žádné"
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:445 wpGoogleMaps.php:1487
+msgid "KML/GeoRSS URL"
+msgstr "KML/GeoRSS URL"
+
+# @ wp-google-maps
+#: wpGoogleMaps.php:1493
+msgid "Fusion Table ID"
+msgstr "Fusion Table ID"
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:458 wpGoogleMaps.php:1502
+msgid "Remember to save your map!"
+msgstr "Nezapomeňte mapu uložit!"
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:463 wpGoogleMaps.php:1504
+msgid "Save Map"
+msgstr "Uložit mapu"
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:465 wpGoogleMaps.php:1506
+msgid ""
+"Tip: Use your mouse to change the layout of your map. When you have "
+"positioned the map to your desired location, press \"Save Map\" to keep your "
+"settings."
+msgstr ""
+"Tip: Použijte myš pro změnu vzhledu Vaší mapy. Když posunete mapu do Vaší "
+"požadované lokace, klikněte na \"Uložit mapu\" k uložení nastavení."
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:472 wpGoogleMaps.php:1511
+msgid "Add a marker"
+msgstr "Přidat značku"
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:482 wpGoogleMaps.php:1521
+msgid "Address/GPS"
+msgstr "Adresa / GPS"
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:498 wpGoogleMaps.php:1534 wpGoogleMaps.php:1720
+#: wpGoogleMaps.php:1739
+msgid "Description"
+msgstr "Detailní informace"
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:500 wpGoogleMaps.php:1536
+msgid "Pic URL"
+msgstr "URL obrázku"
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:502 wpGoogleMaps.php:1538
+msgid "Link URL"
+msgstr "URL odkazu"
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:504 wpGoogleMaps.php:1540
+msgid "Custom Marker"
+msgstr "Vlastní značka"
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:507 wpGoogleMaps.php:1543
+msgid "Animation"
+msgstr "Animace"
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:526 wpGoogleMaps.php:1553
+msgid "Add Marker"
+msgstr "Přidat značku"
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:526 wpGoogleMaps.php:1553
+msgid "Adding"
+msgstr "Přidávání"
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:527 wpGoogleMaps.php:1554
+msgid "Save Marker"
+msgstr "Uložit značku"
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:527 wpGoogleMaps.php:1554
+msgid "Saving"
+msgstr "Ukládání"
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:535 wpGoogleMaps.php:1562
+msgid "Your Markers"
+msgstr "Vaše značky"
+
+# @ wp-google-maps
+#: wpGoogleMaps.php:1571
+msgid "Add detailed information to your markers!"
+msgstr "Přidejte detilní informace k Vašim značkám!"
+
+# @ wp-google-maps
+#: wpGoogleMaps.php:1571 wpGoogleMaps.php:1575 wpGoogleMaps.php:1579
+msgid "Add custom markers to your map!"
+msgstr "Přidejte do mapy vlastní značky"
+
+# @ wp-google-maps
+#: wpGoogleMaps.php:1572
+msgid "Add detailed information to your markers for only"
+msgstr "Přidejte detailní informace"
+
+# @ wp-google-maps
+#: wpGoogleMaps.php:1572 wpGoogleMaps.php:1580
+msgid "Click"
+msgstr "Klikněte"
+
+# @ wp-google-maps
+#: wpGoogleMaps.php:1572 wpGoogleMaps.php:1580
+msgid "here"
+msgstr "zde"
+
+# @ wp-google-maps
+#: wpGoogleMaps.php:1576
+msgid ""
+"Add different marker icons, or your own icons to make your map really stand "
+"out!"
+msgstr ""
+"Přidejte různé ikony značek, nebo své vlastní ikony, aby Vaše mapa vynikla!"
+
+# @ wp-google-maps
+#: wpGoogleMaps.php:1580
+msgid "Allow your visitors to get directions to your markers!"
+msgstr "Povolte návštěvníkům získat směry k Vašim značkám!"
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:550 wpGoogleMaps.php:1586
+msgid ""
+"WP Google Maps encourages you to make use of the amazing icons created by "
+"Nicolas Mollet's Maps Icons Collection"
+msgstr ""
+"WP Google Maps Vám nabízí k využití úžasné ikony vytvořené v kolekci "
+"mapových značek Nicollase Molleta"
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:550 wpGoogleMaps.php:1586
+msgid "and to credit him when doing so."
+msgstr "a odměnit jej, když tak učiníte"
+
+# @ wp-google-maps
+#: wpGoogleMaps.php:1614
+msgid "Edit Marker Location"
+msgstr "Upravit lokaci značky"
+
+# @ wp-google-maps
+#: wpGoogleMaps.php:1623
+msgid "Marker Latitude"
+msgstr "Délka značky"
+
+# @ wp-google-maps
+#: wpGoogleMaps.php:1627
+msgid "Marker Longitude"
+msgstr "Šířka značky"
+
+# @ wp-google-maps
+#: wpGoogleMaps.php:1632
+msgid "Save Marker Location"
+msgstr "Uložit lokaci značky"
+
+# @ wp-google-maps
+#: wpGoogleMaps.php:1633
+msgid ""
+"Tip: Use your mouse to change the location of the marker. Simply click and "
+"drag it to your desired location."
+msgstr ""
+"Tip: použijte myš prozměnu lokace značky. Prostě klikněte a přesuňte ji na "
+"požadovanou lokaci"
+
+# @ wp-google-maps
+#: wpGoogleMaps.php:1699
+msgid ""
+"There are too many markers to make use of the live edit function. The "
+"maximum amount for this functionality is 2000 markers. Anything more than "
+"that number would crash your browser. In order to edit your markers, you "
+"would need to download the table in CSV format, edit it and re-upload it."
+msgstr ""
+"Pro použití funkce rychlé editace je zde příliš mnoho značek. nejvyšší "
+"množství pro tuto funkci je 2000 značek. Jakkoliv více může způsobit pád "
+"Vašeho prohlížeče. Pro editaci značek musíte stáhnout tabulku ve formě CSV "
+"formátu, ten upravit a uploadnout jej zpět."
+
+# @ wp-google-maps
+#: wpGoogleMaps.php:1715
+msgid "Icon"
+msgstr "Ikona"
+
+# @ wp-google-maps
+#: wpGoogleMaps.php:1717 wpGoogleMaps.php:1736
+msgid "Address"
+msgstr "Adresa"
+
+# @ wp-google-maps
+#: wpGoogleMaps.php:1721
+msgid "Image"
+msgstr "Obrázek"
+
+# @ wp-google-maps
+#: wpGoogleMaps.php:1722
+msgid "Link"
+msgstr "Odkaz"
+
+# @ wp-google-maps
+#: wpGoogleMaps.php:1723
+msgid "Action"
+msgstr "Akce"
+
+# @ wp-google-maps
+#: wpGoogleMaps.php:1757
+msgid "View this link"
+msgstr "Prohlédnout tento odkaz"
+
+# @ wp-google-maps
+#: wpGoogleMaps.php:1771 wpGoogleMaps.php:1772
+msgid "Edit this marker"
+msgstr "Upravit tuto značku"
+
+# @ wp-google-maps
+#: wpGoogleMaps.php:1772
+msgid "Edit Location"
+msgstr "Upravit lokaci"
+
+# @ wp-google-maps
+#: wpGoogleMaps.php:1773
+msgid "Delete this marker"
+msgstr "Smazat tuto značku"
+
+# @ wp-google-maps
+#: wpGoogleMaps.php:1773
+msgid "Delete"
+msgstr "Smazat"
+
+# @ wp-google-maps
+#: wpGoogleMaps.php:1910
+msgid "this page"
+msgstr "tuto stránku"
+
+# @ wp-google-maps
+#: wpGoogleMaps.php:1912
+msgid "for help on how to do it."
+msgstr "pro nápovědu, jak na to."
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:276
+msgid "including Pro &amp; Gold add-ons"
+msgstr "obsahuje Pro  &amp; Gold add-ony"
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:276
+msgid "including Pro add-on"
+msgstr "obsahuje Pro add-on"
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:295
+msgid "Download this as a CSV file"
+msgstr "Stáhnout toto jako CSV soubor"
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:295
+msgid "Download this data as a CSV file"
+msgstr "Stáhnout data jako CSV soubor"
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:303
+msgid "Create your Map"
+msgstr "Vytvořte si mapu"
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:346
+msgid "Map Dimensions"
+msgstr "Rozměry mapy"
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:366
+msgid "Show advanced options"
+msgstr "Zobrazit rozšířená nastavení"
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:367
+msgid "Hide advanced options"
+msgstr "Skrýt rozšířená nastavení"
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:372
+msgid ""
+"Get great map markers <a href='http://mapicons.nicolasmollet.com/' "
+"target='_BLANK' title='Great Google Map Markers'>here</a>"
+msgstr ""
+"Získejte skvělé značky z  <a href='http://mapicons.nicolasmollet.com/' "
+"target='_BLANK' title='Great Google Map Markers'>Great Google Map Markers</a>"
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:386
+msgid "List all Markers"
+msgstr "Zobrazit všechny značky"
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:388
+msgid "List all markers below the map"
+msgstr "Zobrazit všechny značky pod mapou"
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:389
+msgid "Select this for the advanced listing functionality"
+msgstr "Vyberte pro rozšířené funkce seznamu"
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:405
+msgid "Enable Directions?"
+msgstr "Povolit trasy"
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:411
+msgid "Directions Box Open by Default?"
+msgstr "Rámeček tras otevřený jako výchozí?"
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:414
+msgid "Yes, on the left"
+msgstr "Ano, vlevo"
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:415
+msgid "Yes, on the right"
+msgstr "Ano, vpravo"
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:416
+msgid "Yes, above"
+msgstr "Ano, nahoře"
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:417
+msgid "Yes, below"
+msgstr "Ano, dole"
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:420
+msgid "Directions Box Width"
+msgstr "Šířka rámečku tras"
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:425
+msgid "Enable Bicycle Layer?"
+msgstr "Povolit trasu cyklistiky?"
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:432
+msgid "Enable Traffic Layer?"
+msgstr "Povolit vrstvu dopravy?"
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:447
+msgid "The KML/GeoRSS layer will over-ride most of your map settings"
+msgstr "Vrstva KML / GeoRSS překryje většinu nastavení ve Vaší mapě"
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:451
+msgid "Fusion table ID"
+msgstr "Fusion table ID"
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:453
+msgid ""
+"Read data directly from your Fusion Table. For more information, see <a "
+"href='http://googlemapsmania.blogspot.com/2010/05/fusion-tables-google-maps-"
+"api.html'>http://googlemapsmania.blogspot.com/2010/05/fusion-tables-google-"
+"maps-api.html</a>"
+msgstr ""
+"Číst data přímo z Fusion table. Pro více informace jděte na <a href='http://"
+"googlemapsmania.blogspot.com/2010/05/fusion-tables-google-maps-api."
+"html'>http://googlemapsmania.blogspot.com/2010/05/fusion-tables-google-maps-"
+"api.html</a>"
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:501
+msgid "Or paste image URL"
+msgstr "nebo vložte URL adresu obrázku"
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:503
+msgid "Format: http://www.domain.com"
+msgstr "Formát http://www.doména.cz"
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:505
+msgid "ignore if you want to use the default marker"
+msgstr "Ignorujte, pokud si přejete použít výchozí značku"
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:511
+msgid "Bounce"
+msgstr "Odskočit"
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:512
+msgid "Drop"
+msgstr "Spadnout"
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:516
+msgid "InfoWindow open by default"
+msgstr "InfoWindows otevřené jako výchozí"
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:757
+msgid "Get Directions"
+msgstr "Získat trasy"
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:761
+msgid "For"
+msgstr "Pro"
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:763
+msgid "Driving"
+msgstr "Autodoprava"
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:764
+msgid "Walking"
+msgstr "Turistika"
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:765
+msgid "Bicycling"
+msgstr "Cyklistika"
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:768
+msgid "show options"
+msgstr "zobrazit nastavení"
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:769
+msgid "hide options"
+msgstr "skrýt nastavení"
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:771
+msgid "Avoid Tolls"
+msgstr "Vyhýbat se mýtům"
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:772
+msgid "Avoid Highways"
+msgstr "Vyhýbat se dálnicím"
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:777
+msgid "From"
+msgstr "Z"
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:778
+msgid "To"
+msgstr "Do"
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:783
+msgid "Go"
+msgstr "Start"
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:804 wp-google-maps-pro.php:820
+msgid "Fetching directions..."
+msgstr "Nahrávám trasy..."
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:805 wp-google-maps-pro.php:821
+msgid "Reset directions"
+msgstr "Vymazat trasy"
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:1151 wp-google-maps-pro.php:1847
+msgid "More details"
+msgstr "Více detailů"
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:1209
+msgid "Get directions"
+msgstr "Získat trasy"
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:1302
+msgid "Please fill out both the 'from' and 'to' fields"
+msgstr "Prosím vyplňte obě pole 'Z' a 'Do'"
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:1633 wp-google-maps-pro.php:1714
+msgid "Geocode was not successful for the following reason"
+msgstr "Geocode nebylo úspěšné z následujícího důvodu"
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:1941
+msgid "Header 1 should be 'id', not"
+msgstr "Hlavička 1 by měla být 'id', nikoliv"
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:1942
+msgid "Header 2 should be 'map_id', not"
+msgstr "Hlavička 2 by měla být 'map_id', nikoliv"
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:1943
+msgid "Header 3 should be 'address', not"
+msgstr "Hlavička 3 by měla být 'address', nikoliv"
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:1944
+msgid "Header 4 should be 'desc', not"
+msgstr "Hlavička 4 by měla být 'desc', nikoliv"
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:1956
+msgid "CSV import failed"
+msgstr "CSV import selhal"
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:1987
+msgid "Your CSV file has been successfully imported"
+msgstr "Váš CSV soubor byl úspěšně importován"
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:2009
+msgid "Download ALL marker data to a CSV file"
+msgstr "Stáhnout VŠECHNA data značek do CSV souboru "
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:2012
+msgid "Advanced Options"
+msgstr "Rozšířená nastavení"
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:2015
+msgid "OR"
+msgstr "NEBO"
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:2016
+msgid "Upload CSV File"
+msgstr "Nahrát CSV soubor"
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:2018
+msgid "Replace existing data with data in file"
+msgstr "Nahradit existující záznamy daty v souboru"
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:2019
+msgid "Upload File"
+msgstr "Nahrát soubor"
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:2042
+msgid ""
+"Please update your BASIC version of this plugin for all of these settings to "
+"work."
+msgstr ""
+"Prosím aktualizujte ZÁKLADNÍ verzi tohoto pluginu pro správnou funkci všech "
+"nastavení"
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:2105
+msgid "Disable Mouse Wheel Zoom"
+msgstr "Zakázat Zoom kolečkem myši"
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:2134
+msgid "InfoWindow Settings"
+msgstr "Nastavení InfoWindow"
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:2137
+msgid "Default Image Width"
+msgstr "Výchozí délka obrázku"
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:2141
+msgid "Default Image Height"
+msgstr "Výchozí výška obrázku"
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:2145
+msgid "Image Thumbnails"
+msgstr "Náhledy obrázků"
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:2147
+msgid "Do not use TimThumb"
+msgstr "Nepoužívat TimThumb"
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:2148
+msgid "(Tick this if you are having problems viewing your thumbnail images)"
+msgstr "(Vyberte, pokud máte problém se zobrázkováním náhledových obrázků)"
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:2152
+msgid "Max InfoWindow Width"
+msgstr "Maximální šířka InfoWindow"
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:2153
+msgid "(Minimum: 200px)"
+msgstr "(Minimum je 200px)"
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:2156
+msgid "Other settings"
+msgstr "Další nastavení"
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:2158
+msgid "Open links in a new window"
+msgstr "Otvírat odkazy v novém okně"
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:2159
+msgid "(Tick this if you want to open your links in a new window)"
+msgstr "(Vyberte, pokud chcete otevírat odkazy v novém okně)"
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:2160
+msgid "Hide the address field"
+msgstr "Skrýt pole adresy"
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:2175
+msgid ""
+"Please <a href=\"plugins.php\">update</a> your WP Google Maps (basic) "
+"version to 5.01 or newer in order to make use of the new functionality"
+msgstr ""
+"Prosím <a href=\"plugins.php\">aktualizujte</a> vaši verzi WP Google Maps "
+"(basic) version na 5.01 nebo novější pro využití všech novějších funkcí"
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:2176
+msgid "Your version:"
+msgstr "Vaše verze:"
+
+# @ wp-google-maps
+#: wpGoogleMaps.php:1139
+msgid "WP Google Maps - Advanced Options"
+msgstr "WP Gogle Maps - Rozšířená nastavení"
+
+# @ wp-google-maps
+#: wpGoogleMaps.php:1141
+msgid "WP Google Maps - Settings"
+msgstr "WP Google Maps - nastavení"
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:372
+msgid "Reset to default"
+msgstr "Resetovat na výchozí"
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:372
+msgid "-reset-"
+msgstr "-smazat-"
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:487 wp-google-maps-pro.php:1199
+#: wp-google-maps-pro.php:1892 wpGoogleMaps.php:1526 wpGoogleMaps.php:1719
+msgid "Price"
+msgstr "Cena"
+
+# @ wp-google-maps
+#: wpGoogleMaps.php:1718 wpGoogleMaps.php:1738
+msgid "Ending"
+msgstr "Koncovka"
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:488 wp-google-maps-pro.php:1201
+#: wp-google-maps-pro.php:1894
+msgid "CZK/kg"
+msgstr "Kč / kg"
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:1203 wp-google-maps-pro.php:1896
+msgid "Ending type"
+msgstr "Typ koncovky"
+
+# @ wp-google-maps
+#: wpGoogleMaps.php:1737
+msgid "Price*"
+msgstr "Kč/kg"
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:1945
+msgid "Header 5 should be 'price', not"
+msgstr "Hlavička 5 by měla být 'price', nikoliv"
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:1946
+msgid "Header 6 should be 'pic', not"
+msgstr "Hlavička 6 by měla být 'pic', nikoliv"
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:1947
+msgid "Header 7 should be 'ending', not"
+msgstr "Hlavička 7 by měla být 'ending', nikoliv"
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:1948
+msgid "Header 8 should be 'link', not"
+msgstr "Hlavička 8 by měla být 'link', nikoliv"
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:1949
+msgid "Header 9 should be 'icon', not"
+msgstr "Hlavička 9 by měla být 'icon', nikoliv"
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:1950
+msgid "Header 10 should be 'lat', not"
+msgstr "Hlavička 10 by měla být 'lat', nikoliv"
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:1951
+msgid "Header 11 should be 'lng', not"
+msgstr "Hlavička 11 by měla být 'lng', nikoliv"
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:1952
+msgid "Header 12 should be 'anim', not"
+msgstr "Hlavička 12 by měla být 'anim', nikoliv"
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:1953
+msgid "Header 13 should be 'title', not"
+msgstr "Hlavička 12 by měla být 'title', nikoliv"
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:1954
+msgid "Header 14 should be 'infoopen', not"
+msgstr "Hlavička 14 by měla být 'infoopen', nikoliv"
+
+# @ wp-google-maps
+#: wp-google-maps-pro.php:491 wpGoogleMaps.php:1530
+msgid "CNG termination"
+msgstr "Koncovka"
+
+# @ wp-google-maps
+#: wpGoogleMaps.php:1906
+msgid ""
+"The plugin directory does not have 'write' permissions. Please enable "
+"'write' permissions (755) for"
+msgstr ""
+"Adresář pluginu nemá oprávění k zápisu. Prosím nastavte oprávnění k zápisu "
+"(755) pro"
+
+# @ wp-google-maps
+#: wpGoogleMaps.php:1908
+msgid "in order for this plugin to work! Please see"
+msgstr "pro správnou funkci pluginu! Více info najdete na"

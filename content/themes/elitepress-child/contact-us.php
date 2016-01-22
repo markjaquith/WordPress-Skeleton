@@ -17,8 +17,6 @@ get_header();
 				</div>
 				<div class="col-md-5 col-md-offset-1">
 					<address>
-						Address:
-						</br>
 						The Arches Project
 						</br>
 						Adderley Street
@@ -37,8 +35,9 @@ get_header();
 						07932 418 359
 						</br>
 						Email:
-						enquiries@thearchesproject.org 	
-					
+						enquiries@thearchesproject.org
+						<hr>
+					<?php echo do_shortcode('[wpgmza id="1"]'); ?>		
 				</div>
 			</div>
   </div>

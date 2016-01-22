@@ -1,0 +1,705 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ru_RU\n"
+"X-Generator: Poedit 1.6.10\n"
+
+# @ default
+#: wpGoogleMaps.php:882
+msgid "Your settings have been saved."
+msgstr "Ваши настройки были сохранены"
+
+# @ default
+#: wpGoogleMaps.php:910
+msgid "Your marker location has been saved."
+msgstr "Положение метки сохранено"
+
+# @ default
+#: wpGoogleMaps.php:956
+msgid "There was a problem deleting the map."
+msgstr "При удалении карты возникла проблема."
+
+# @ wp-google-maps
+#: wpGoogleMaps.php:960
+msgid "Delete your map"
+msgstr "Удалить карту"
+
+# @ wp-google-maps
+#: wpGoogleMaps.php:960
+msgid "Are you sure you want to delete the map"
+msgstr "Вы уверены, что хотите удалить карту?"
+
+# @ wp-google-maps
+#: wpGoogleMaps.php:960
+msgid "Yes"
+msgstr "Да"
+
+# @ wp-google-maps
+#: wpGoogleMaps.php:960
+msgid "No"
+msgstr "Нет"
+
+# @ wp-google-maps
+#: wpGoogleMaps.php:1005 wpGoogleMaps.php:1009
+msgid "Your Maps"
+msgstr "Ваши карты"
+
+# @ wp-google-maps
+#: wpGoogleMaps.php:1005
+msgid "Add New"
+msgstr "Добавить новую"
+
+# @ default
+# @ wp-google-maps
+#: wpGoogleMaps.php:1010
+msgid "Pro Version"
+msgstr "версией Pro"
+
+# @ wp-google-maps
+#: wpGoogleMaps.php:1010
+msgid "Create unlimited maps"
+msgstr "Создавайте неограниченное количество карт"
+
+# @ wp-google-maps
+#: wpGoogleMaps.php:1010
+msgid "with the"
+msgstr "с"
+
+# @ wp-google-maps
+#: wpGoogleMaps.php:1010
+msgid "of WP Google Maps for only"
+msgstr "WP Google Maps всего за"
+
+# @ wp-google-maps
+#: wpGoogleMaps.php:1041 wpGoogleMaps.php:1293 wpGoogleMaps.php:1388
+msgid "ID"
+msgstr "ID"
+
+# @ wp-google-maps
+#: wpGoogleMaps.php:1042 wpGoogleMaps.php:1203 wpGoogleMaps.php:1390
+msgid "Title"
+msgstr "Заголовок"
+
+# @ wp-google-maps
+#: wpGoogleMaps.php:1043 wpGoogleMaps.php:1153
+msgid "Width"
+msgstr "Ширина"
+
+# @ wp-google-maps
+#: wpGoogleMaps.php:1044 wpGoogleMaps.php:1157
+msgid "Height"
+msgstr "Высота"
+
+# @ wp-google-maps
+#: wpGoogleMaps.php:1045
+msgid "Type"
+msgstr "Тип"
+
+# @ wp-google-maps
+#: wpGoogleMaps.php:1056
+msgid "Trash"
+msgstr "Удалить"
+
+# @ wp-google-maps
+#: wpGoogleMaps.php:1060 wpGoogleMaps.php:1423
+msgid "Edit"
+msgstr "Изменить"
+
+# @ wp-google-maps
+#: wpGoogleMaps.php:1102
+msgid ""
+"Add custom icons, titles, descriptions, pictures and links to your markers "
+"with the"
+msgstr ""
+"Добавляйте свои иконки, заголовки, описания, картинки и ссылки к Вашим "
+"маркерам с"
+
+# @ wp-google-maps
+#: wpGoogleMaps.php:1102 wpGoogleMaps.php:1103 wpGoogleMaps.php:1163
+#: wpGoogleMaps.php:1259
+msgid "Pro Edition"
+msgstr "версии Pro"
+
+# @ wp-google-maps
+#: wpGoogleMaps.php:1102
+msgid "of this plugin for just"
+msgstr "данного плагина всего за"
+
+# @ wp-google-maps
+#: wpGoogleMaps.php:1103
+msgid "Purchase the Pro Edition"
+msgstr "Заказать версию Pro"
+
+# @ wp-google-maps
+#: wpGoogleMaps.php:1103
+msgid "of WP Google Maps and save your markers to a CSV file!"
+msgstr "WP Google Maps и сохраните Ваши метки в файл CSV!"
+
+# @ wp-google-maps
+#: wpGoogleMaps.php:1113
+msgid "Map Settings"
+msgstr "Настройки карты"
+
+# @ wp-google-maps
+#: wpGoogleMaps.php:1145
+msgid "Short code"
+msgstr "Короткий код"
+
+# @ wp-google-maps
+#: wpGoogleMaps.php:1146
+msgid "copy this into your post or page to display the map"
+msgstr "скопируйте это в вашу запись или страницу, чтобы там появилась карта"
+
+# @ wp-google-maps
+#: wpGoogleMaps.php:1149
+msgid "Map Name"
+msgstr "Имя карты"
+
+# @ wp-google-maps
+#: wpGoogleMaps.php:1162
+msgid "Default Marker Image"
+msgstr "Изображение для метки по умолчанию"
+
+# @ wp-google-maps
+#: wpGoogleMaps.php:1163 wpGoogleMaps.php:1216 wpGoogleMaps.php:1220
+msgid "Upload Image"
+msgstr "Закачать изображение"
+
+# @ wp-google-maps
+#: wpGoogleMaps.php:1163
+msgid "available in the"
+msgstr "доступно только в"
+
+# @ wp-google-maps
+#: wpGoogleMaps.php:1163
+msgid "only"
+msgstr " "
+
+# @ wp-google-maps
+#: wpGoogleMaps.php:1166
+msgid "Map type"
+msgstr "Тип карты"
+
+# @ wp-google-maps
+#: wpGoogleMaps.php:1168
+msgid "Roadmap"
+msgstr "Карта"
+
+# @ wp-google-maps
+#: wpGoogleMaps.php:1169
+msgid "Satellite"
+msgstr "Спутник"
+
+# @ wp-google-maps
+#: wpGoogleMaps.php:1170
+msgid "Hybrid"
+msgstr "Гибрид"
+
+# @ wp-google-maps
+#: wpGoogleMaps.php:1171
+msgid "Terrain"
+msgstr "Земля"
+
+# @ wp-google-maps
+#: wpGoogleMaps.php:1176
+msgid "Map Alignment"
+msgstr "Выравнивание"
+
+# @ wp-google-maps
+#: wpGoogleMaps.php:1178
+msgid "Left"
+msgstr "влево"
+
+# @ wp-google-maps
+#: wpGoogleMaps.php:1179
+msgid "Center"
+msgstr "по центру"
+
+# @ wp-google-maps
+#: wpGoogleMaps.php:1180
+msgid "Right"
+msgstr "вправо"
+
+# @ wp-google-maps
+#: wpGoogleMaps.php:1181 wpGoogleMaps.php:1225
+msgid "None"
+msgstr "отсутствует"
+
+# @ wp-google-maps
+#: wpGoogleMaps.php:1189
+msgid "Remember to save your map!"
+msgstr "Не забудьте сохранить Вашу карту!"
+
+# @ wp-google-maps
+#: wpGoogleMaps.php:1191
+msgid "Save Map"
+msgstr "Сохранить карту"
+
+# @ wp-google-maps
+#: wpGoogleMaps.php:1193
+msgid ""
+"Tip: Use your mouse to change the layout of your map. When you have "
+"positioned the map to your desired location, press \"Save Map\" to keep your "
+"settings."
+msgstr ""
+"Подсказка: здесь при помощи мыши Вы можете изменить местоположение, которое "
+"отображается на карте по умолчанию. Когда Вы установите карту в положение, "
+"которое Вам нравится — нажмите «Сохранить карту», чтобы настройки были "
+"применены."
+
+# @ wp-google-maps
+#: wpGoogleMaps.php:1198
+msgid "Add a marker"
+msgstr "Добавить метку"
+
+# @ wp-google-maps
+#: wpGoogleMaps.php:1208
+msgid "Address/GPS"
+msgstr "Адрес/GPS"
+
+# @ wp-google-maps
+#: wpGoogleMaps.php:1213 wpGoogleMaps.php:1392
+msgid "Description"
+msgstr "Описание"
+
+# @ wp-google-maps
+#: wpGoogleMaps.php:1215
+msgid "Pic URL"
+msgstr "URL картинки"
+
+# @ wp-google-maps
+#: wpGoogleMaps.php:1217
+msgid "Link URL"
+msgstr "Ссылка"
+
+# @ wp-google-maps
+#: wpGoogleMaps.php:1219
+msgid "Custom Marker"
+msgstr "Метка по умолчанию"
+
+# @ wp-google-maps
+#: wpGoogleMaps.php:1222
+msgid "Animation"
+msgstr "Анимация"
+
+# @ wp-google-maps
+#: wpGoogleMaps.php:1232
+msgid "Add Marker"
+msgstr "Добавить метку"
+
+# @ wp-google-maps
+#: wpGoogleMaps.php:1232
+msgid "Adding"
+msgstr "Добавляю"
+
+# @ wp-google-maps
+#: wpGoogleMaps.php:1233
+msgid "Save Marker"
+msgstr "Сохранить метку"
+
+# @ wp-google-maps
+#: wpGoogleMaps.php:1233
+msgid "Saving"
+msgstr "Сохраняю"
+
+# @ wp-google-maps
+#: wpGoogleMaps.php:1241
+msgid "Your Markers"
+msgstr "Ваши метки"
+
+# @ default
+#: wpGoogleMaps.php:1250
+msgid "Add detailed information to your markers!"
+msgstr "Добавьте детальную информацию для Ваших меток!"
+
+# @ wp-google-maps
+#: wpGoogleMaps.php:1250 wpGoogleMaps.php:1254 wpGoogleMaps.php:1258
+msgid "Add custom markers to your map!"
+msgstr "Нарисуйте и добавьте любые метки на карту!"
+
+# @ wp-google-maps
+#: wpGoogleMaps.php:1251
+msgid "Add detailed information to your markers for only"
+msgstr "Добавьте детальную информацию о метке на карте всего за"
+
+# @ wp-google-maps
+#: wpGoogleMaps.php:1251 wpGoogleMaps.php:1259
+msgid "Click"
+msgstr "Щелкните"
+
+# @ wp-google-maps
+#: wpGoogleMaps.php:1251 wpGoogleMaps.php:1259
+msgid "here"
+msgstr "здесь"
+
+# @ wp-google-maps
+#: wpGoogleMaps.php:1255
+msgid ""
+"Add different marker icons, or your own icons to make your map really stand "
+"out!"
+msgstr ""
+"Закачайте различные иконки для меток или создайте свои собственные иконки, "
+"чтобы сделать карту по-настоящему выдающейся!"
+
+# @ wp-google-maps
+#: wpGoogleMaps.php:1259
+msgid "Allow your visitors to get directions to your markers!"
+msgstr "Позвольте Вашим посетителям прокладывать маршруты к Вашим меткам!"
+
+# @ wp-google-maps
+#: wpGoogleMaps.php:1265
+msgid ""
+"WP Google Maps encourages you to make use of the amazing icons created by "
+"Nicolas Mollet's Maps Icons Collection"
+msgstr ""
+"WP Google Maps всячески поощряет использование огромной коллекции "
+"восхитительных иконок, созданных Nicolas Mollet."
+
+# @ wp-google-maps
+#: wpGoogleMaps.php:1265
+msgid "and to credit him when doing so."
+msgstr "Не забудьте отблагодарить его за его огромный труд."
+
+# @ wp-google-maps
+#: wpGoogleMaps.php:1293
+msgid "Edit Marker Location"
+msgstr "Изменить местоположение"
+
+# @ wp-google-maps
+#: wpGoogleMaps.php:1302
+msgid "Marker Latitude"
+msgstr "Широта метки"
+
+# @ wp-google-maps
+#: wpGoogleMaps.php:1306
+msgid "Marker Longitude"
+msgstr "Долгота метки"
+
+# @ wp-google-maps
+#: wpGoogleMaps.php:1311
+msgid "Save Marker Location"
+msgstr "Сохранить местоположение метки"
+
+# @ wp-google-maps
+#: wpGoogleMaps.php:1312
+msgid ""
+"Tip: Use your mouse to change the location of the marker. Simply click and "
+"drag it to your desired location."
+msgstr ""
+"Подсказка: При помощи мышм Вы можете сменить местоположение метки. Просто "
+"кликните и перетащите её на место, которое вам нравится."
+
+# @ wp-google-maps
+#: wpGoogleMaps.php:1374
+msgid ""
+"There are too many markers to make use of the live edit function. The "
+"maximum amount for this functionality is 2000 markers. Anything more than "
+"that number would crash your browser. In order to edit your markers, you "
+"would need to download the table in CSV format, edit it and re-upload it."
+msgstr ""
+"На данный момент у вас слишком много меток, чтобы включить функцию «живого» "
+"редактирования. Максимальное количество для этой опции - 2000 меток. Большее "
+"их количество может просто подвесить ваш браузер. Чтобы редактировать такое "
+"количество меток, скачайте их в CSV формате, отредактируйте и перезалейте на "
+"сайт."
+
+# @ wp-google-maps
+#: wpGoogleMaps.php:1389
+msgid "Icon"
+msgstr "Иконка"
+
+# @ wp-google-maps
+#: wpGoogleMaps.php:1391
+msgid "Address"
+msgstr "Адрес"
+
+# @ wp-google-maps
+#: wpGoogleMaps.php:1393
+msgid "Image"
+msgstr "Изображение"
+
+# @ wp-google-maps
+#: wpGoogleMaps.php:1394
+msgid "Link"
+msgstr "Ссылка"
+
+# @ wp-google-maps
+#: wpGoogleMaps.php:1395
+msgid "Action"
+msgstr "Действие"
+
+# @ wp-google-maps
+#: wpGoogleMaps.php:1412
+msgid "View this link"
+msgstr "Перейти по ссылке"
+
+# @ wp-google-maps
+#: wpGoogleMaps.php:1423 wpGoogleMaps.php:1424
+msgid "Edit this marker"
+msgstr "Редактировать метку"
+
+# @ wp-google-maps
+#: wpGoogleMaps.php:1424
+msgid "Edit Location"
+msgstr "Изменить местоположение"
+
+# @ wp-google-maps
+#: wpGoogleMaps.php:1425
+msgid "Delete this marker"
+msgstr "Удалить метку"
+
+# @ wp-google-maps
+#: wpGoogleMaps.php:1425
+msgid "Delete"
+msgstr "Удалить"
+
+# @ default
+#: wpGoogleMaps.php:1542
+msgid ""
+"The plugin directory does not have 'write' permissions. Please enable "
+"'write' permissions (755) for "
+msgstr ""
+"Директории плагина не присвоены права записи. Пожалуйста, включите их (755) "
+"для"
+
+# @ default
+#: wpGoogleMaps.php:1544
+msgid "in order for this plugin to work! Please see "
+msgstr "чтобы данный плагин мог работать! Пожалуйста, ознакомьтесь"
+
+# @ default
+#: wpGoogleMaps.php:1546
+msgid "this page"
+msgstr "с данной страницей"
+
+# @ default
+#: wpGoogleMaps.php:1548
+msgid "for help on how to do it."
+msgstr "чтобы узнать как это сделать"
+
+msgid ""
+"Get great map markers <a href='http://mapicons.nicolasmollet.com/' "
+"target='_BLANK' title='Great Google Map Markers'>here</a>"
+msgstr ""
+"Скачать замечательные иконки для меток можно <a href='http://mapicons."
+"nicolasmollet.com/' target='_BLANK' title='Лучшие метки для карт'>здесь</a>"
+
+msgid "Bounce"
+msgstr "Метка подпрыгивает"
+
+msgid "Drop"
+msgstr "Метка падает"
+
+msgid "Or paste image URL"
+msgstr "Или вставьте URL изображения"
+
+msgid "ignore if you want to use the defaul marker"
+msgstr "проигнорируйте, если хотите оставить метку как есть"
+
+msgid "Format: http://www.domain.com"
+msgstr "Пример: http://www.domain.com"
+
+msgid "More details"
+msgstr "Подробнее"
+
+msgid "Get directions"
+msgstr "Маршрут"
+
+msgid "From"
+msgstr "Откуда"
+
+msgid "To"
+msgstr "Куда"
+
+msgid "Go"
+msgstr "Поехали!"
+
+msgid "Please fill out both the 'from' and 'to' fields"
+msgstr "Пожалуйста, заполните оба поля — «откуда» и «куда»"
+
+msgid "Geocode was not successful for the following reason"
+msgstr "Геокод не сработал по следующей причине"
+
+msgid "Header 1 should be 'id', not"
+msgstr "Заголовок 1 должен быть 'id', а не"
+
+msgid "Header 2 should be 'map_id', not"
+msgstr "Заголовок 2 должен быть 'map_id', а не"
+
+msgid "Header 3 should be 'address', not"
+msgstr "Заголовок 3 должен быть 'address', а не"
+
+msgid "Header 4 should be 'desc', not"
+msgstr "Заголовок 4 должен быть 'desc', а не"
+
+msgid "Header 5 should be 'pic', not"
+msgstr "Заголовок 5 должен быть 'pic', а не"
+
+msgid "Header 6 should be 'link', not"
+msgstr "Заголовок 6 должен быть 'link', а не"
+
+msgid "Header 7 should be 'icon', not"
+msgstr "Заголовок 7 должен быть 'icon', а не"
+
+msgid "Header 8 should be 'lat', not"
+msgstr "Заголовок 8 должен быть 'id', а не"
+
+msgid "Header 9 should be 'lng', not"
+msgstr "Заголовок 9 должен быть 'lng', а не"
+
+msgid "Header 10 should be 'anim', not"
+msgstr "Заголовок 10 должен быть 'anim', а не"
+
+msgid "Header 11 should be 'title', not"
+msgstr "Заголовок 11 должен быть 'title', а не"
+
+msgid "CSV import failed"
+msgstr "Импорт CSV не удался"
+
+msgid "Your CSV file has been successfully imported"
+msgstr "Ваш файл CSV был успешно импортирован"
+
+msgid "Download ALL marker data to a CSV file"
+msgstr "Скачать ВСЮ информацию о метках в файл CSV"
+
+msgid "Advanced Options"
+msgstr "Продвинутые опции"
+
+msgid "Upload File"
+msgstr "Закачать файл"
+
+msgid "Upload CSV File"
+msgstr "Закачать CSV файл"
+
+msgid "Replace existing data with data in file"
+msgstr "Заменить существующую информацию информацией из файла"
+
+msgid "OR"
+msgstr "ИЛИ"
+
+msgid "including Pro add-on"
+msgstr "в том числе Pro аддон"
+
+msgid "including Pro &amp; Gold add-ons"
+msgstr "в том числе аддоны Pro и Gold"
+
+msgid "Download this data as a CSV file"
+msgstr "Скачать всю информацию как файл CSV"
+
+msgid "Advanced Map Styling"
+msgstr "Продвинутая визуализация карт"
+
+msgid ""
+"Use the <a href='http://gmaps-samples-v3.googlecode.com/svn/trunk/styledmaps/"
+"wizard/index.html' target='_BLANK'>Google Maps API Styled Map Wizard</a> to "
+"get your style settings"
+msgstr ""
+"Используйте <a href='http://gmaps-samples-v3.googlecode.com/svn/trunk/"
+"styledmaps/wizard/index.html' target='_BLANK'>Google Maps API Styled Map "
+"Wizard</a> чтобы получить настройки стиля карты"
+
+msgid "Enable Advanced Styling"
+msgstr "Включить продвинутую визуализацию карт"
+
+msgid "Paste the JSON data here"
+msgstr "Вставьте JSON сюда"
+
+msgid "Save Style Settings"
+msgstr "Сохранить настройки стиля"
+
+msgid "Maps"
+msgstr "Карты"
+
+msgid "Advanced"
+msgstr "Настройки"
+
+msgid "Create your map"
+msgstr "Создайте карту"
+
+msgid "Show advanced options"
+msgstr ""
+
+msgid "Hide advanced options"
+msgstr ""
+
+msgid "List all Markers"
+msgstr ""
+
+msgid "List all markers below the map"
+msgstr ""
+
+msgid "Directions Box Open by Default?"
+msgstr ""
+
+msgid "Yes, on the left"
+msgstr ""
+
+msgid "Yes, on the right"
+msgstr ""
+
+msgid "Yes, above"
+msgstr ""
+
+msgid "Yes, below"
+msgstr ""
+
+msgid "Directions Box Width"
+msgstr ""
+
+msgid "InfoWindow open by default"
+msgstr ""
+
+msgid "Disable StreetView"
+msgstr ""
+
+msgid "Disable Zoom Controls"
+msgstr ""
+
+msgid "Disable Pan Controls"
+msgstr ""
+
+msgid "Disable Map Type Controls"
+msgstr ""
+
+msgid "Disable Mouse Wheel Zoom"
+msgstr ""
+
+msgid "Open links in a new window"
+msgstr ""
+
+msgid "(Tick this if you want to open your links in a new window)"
+msgstr ""
+
+msgid "Hide the address field"
+msgstr ""
+
+msgid "Other settings"
+msgstr ""
+
+msgid "Max InfoWindow Width"
+msgstr ""
+
+msgid "(Minimum: 200px)"
+msgstr ""
+
+msgid "Image Thumbnails"
+msgstr ""
+
+msgid "(Tick this if you are having problems viewing your thumbnail images)"
+msgstr ""
+
+msgid "Default Image Height"
+msgstr ""
+
+msgid "Default Image Width"
+msgstr ""
+
+msgid "InfoWindow Settings"
+msgstr ""

@@ -1,0 +1,623 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.10\n"
+"Language: es_ES\n"
+
+#: wpGoogleMaps.php:882
+msgid "Your settings have been saved."
+msgstr ""
+
+#: wpGoogleMaps.php:910
+msgid "Your marker location has been saved."
+msgstr ""
+
+#: wpGoogleMaps.php:956
+msgid "There was a problem deleting the map."
+msgstr ""
+
+#: wpGoogleMaps.php:960
+msgid "Delete your map"
+msgstr ""
+
+#: wpGoogleMaps.php:960
+msgid "Are you sure you want to delete the map"
+msgstr ""
+
+#: wpGoogleMaps.php:960
+msgid "Yes"
+msgstr ""
+
+#: wpGoogleMaps.php:960
+msgid "No"
+msgstr ""
+
+#: wpGoogleMaps.php:1005 wpGoogleMaps.php:1009
+msgid "Your Maps"
+msgstr ""
+
+#: wpGoogleMaps.php:1005
+msgid "Add New"
+msgstr ""
+
+#: wpGoogleMaps.php:1010
+msgid "Pro Version"
+msgstr ""
+
+#: wpGoogleMaps.php:1010
+msgid "Create unlimited maps"
+msgstr ""
+
+#: wpGoogleMaps.php:1010
+msgid "with the"
+msgstr ""
+
+#: wpGoogleMaps.php:1010
+msgid "of WP Google Maps for only"
+msgstr ""
+
+#: wpGoogleMaps.php:1041 wpGoogleMaps.php:1290 wpGoogleMaps.php:1385
+msgid "ID"
+msgstr ""
+
+#: wpGoogleMaps.php:1042 wpGoogleMaps.php:1204 wpGoogleMaps.php:1387
+msgid "Title"
+msgstr "Nombre"
+
+#: wpGoogleMaps.php:1043 wpGoogleMaps.php:1153
+msgid "Width"
+msgstr ""
+
+#: wpGoogleMaps.php:1044 wpGoogleMaps.php:1157
+msgid "Height"
+msgstr ""
+
+#: wpGoogleMaps.php:1045
+msgid "Type"
+msgstr ""
+
+#: wpGoogleMaps.php:1056
+msgid "Trash"
+msgstr ""
+
+#: wpGoogleMaps.php:1060 wpGoogleMaps.php:1420
+msgid "Edit"
+msgstr ""
+
+#: wpGoogleMaps.php:1102
+msgid ""
+"Add custom icons, titles, descriptions, pictures and links to your markers "
+"with the"
+msgstr ""
+
+#: wpGoogleMaps.php:1102 wpGoogleMaps.php:1103 wpGoogleMaps.php:1163
+#: wpGoogleMaps.php:1256
+msgid "Pro Edition"
+msgstr ""
+
+#: wpGoogleMaps.php:1102
+msgid "of this plugin for just"
+msgstr ""
+
+#: wpGoogleMaps.php:1103
+msgid "Purchase the Pro Edition"
+msgstr ""
+
+#: wpGoogleMaps.php:1103
+msgid "of WP Google Maps and save your markers to a CSV file!"
+msgstr ""
+
+#: wpGoogleMaps.php:1113
+msgid "Map Settings"
+msgstr ""
+
+#: wpGoogleMaps.php:1145
+msgid "Short code"
+msgstr ""
+
+#: wpGoogleMaps.php:1146
+msgid "copy this into your post or page to display the map"
+msgstr ""
+
+#: wpGoogleMaps.php:1149
+msgid "Map Name"
+msgstr ""
+
+#: wpGoogleMaps.php:1162
+msgid "Default Marker Image"
+msgstr ""
+
+#: wpGoogleMaps.php:1163 wpGoogleMaps.php:1215 wpGoogleMaps.php:1217
+msgid "Upload Image"
+msgstr ""
+
+#: wpGoogleMaps.php:1163
+msgid "available in the"
+msgstr ""
+
+#: wpGoogleMaps.php:1163
+msgid "only"
+msgstr ""
+
+#: wpGoogleMaps.php:1166
+msgid "Map type"
+msgstr ""
+
+#: wpGoogleMaps.php:1168
+msgid "Roadmap"
+msgstr ""
+
+#: wpGoogleMaps.php:1169
+msgid "Satellite"
+msgstr ""
+
+#: wpGoogleMaps.php:1170
+msgid "Hybrid"
+msgstr ""
+
+#: wpGoogleMaps.php:1171
+msgid "Terrain"
+msgstr ""
+
+#: wpGoogleMaps.php:1176
+msgid "Map Alignment"
+msgstr ""
+
+#: wpGoogleMaps.php:1178
+msgid "Left"
+msgstr ""
+
+#: wpGoogleMaps.php:1179
+msgid "Center"
+msgstr ""
+
+#: wpGoogleMaps.php:1180
+msgid "Right"
+msgstr ""
+
+#: wpGoogleMaps.php:1181 wpGoogleMaps.php:1222
+msgid "None"
+msgstr ""
+
+#: wpGoogleMaps.php:1189
+msgid "Remember to save your map!"
+msgstr ""
+
+#: wpGoogleMaps.php:1191
+msgid "Save Map"
+msgstr ""
+
+#: wpGoogleMaps.php:1193
+msgid ""
+"Tip: Use your mouse to change the layout of your map. When you have "
+"positioned the map to your desired location, press \"Save Map\" to keep your "
+"settings."
+msgstr ""
+
+#: wpGoogleMaps.php:1199
+msgid "Add a marker"
+msgstr ""
+
+#: wpGoogleMaps.php:1209
+msgid "Address/GPS"
+msgstr ""
+
+#: wpGoogleMaps.php:1214 wpGoogleMaps.php:1389
+msgid "Description"
+msgstr "Descripción"
+
+#: wpGoogleMaps.php:1215
+msgid "Pic URL"
+msgstr ""
+
+#: wpGoogleMaps.php:1216
+msgid "Link URL"
+msgstr ""
+
+#: wpGoogleMaps.php:1217
+msgid "Custom Marker"
+msgstr ""
+
+#: wpGoogleMaps.php:1219
+msgid "Animation"
+msgstr ""
+
+#: wpGoogleMaps.php:1229
+msgid "Add Marker"
+msgstr ""
+
+#: wpGoogleMaps.php:1229
+msgid "Adding"
+msgstr ""
+
+#: wpGoogleMaps.php:1230
+msgid "Save Marker"
+msgstr ""
+
+#: wpGoogleMaps.php:1230
+msgid "Saving"
+msgstr ""
+
+#: wpGoogleMaps.php:1238
+msgid "Your Markers"
+msgstr ""
+
+#: wpGoogleMaps.php:1247
+msgid "Add detailed information to your markers!"
+msgstr ""
+
+#: wpGoogleMaps.php:1247 wpGoogleMaps.php:1251 wpGoogleMaps.php:1255
+msgid "Add custom markers to your map!"
+msgstr ""
+
+#: wpGoogleMaps.php:1248
+msgid "Add detailed information to your markers for only"
+msgstr ""
+
+#: wpGoogleMaps.php:1248 wpGoogleMaps.php:1256
+msgid "Click"
+msgstr ""
+
+#: wpGoogleMaps.php:1248 wpGoogleMaps.php:1256
+msgid "here"
+msgstr ""
+
+#: wpGoogleMaps.php:1252
+msgid ""
+"Add different marker icons, or your own icons to make your map really stand "
+"out!"
+msgstr ""
+
+#: wpGoogleMaps.php:1256
+msgid "Allow your visitors to get directions to your markers!"
+msgstr ""
+
+#: wpGoogleMaps.php:1262
+msgid ""
+"WP Google Maps encourages you to make use of the amazing icons created by "
+"Nicolas Mollet's Maps Icons Collection"
+msgstr ""
+
+#: wpGoogleMaps.php:1262
+msgid "and to credit him when doing so."
+msgstr ""
+
+#: wpGoogleMaps.php:1290
+msgid "Edit Marker Location"
+msgstr ""
+
+#: wpGoogleMaps.php:1299
+msgid "Marker Latitude"
+msgstr ""
+
+#: wpGoogleMaps.php:1303
+msgid "Marker Longitude"
+msgstr ""
+
+#: wpGoogleMaps.php:1308
+msgid "Save Marker Location"
+msgstr ""
+
+#: wpGoogleMaps.php:1309
+msgid ""
+"Tip: Use your mouse to change the location of the marker. Simply click and "
+"drag it to your desired location."
+msgstr ""
+
+#: wpGoogleMaps.php:1371
+msgid ""
+"There are too many markers to make use of the live edit function. The "
+"maximum amount for this functionality is 2000 markers. Anything more than "
+"that number would crash your browser. In order to edit your markers, you "
+"would need to download the table in CSV format, edit it and re-upload it."
+msgstr ""
+
+#: wpGoogleMaps.php:1386
+msgid "Icon"
+msgstr ""
+
+#: wpGoogleMaps.php:1388
+msgid "Address"
+msgstr "Dirección"
+
+#: wpGoogleMaps.php:1390
+msgid "Image"
+msgstr ""
+
+#: wpGoogleMaps.php:1391
+msgid "Link"
+msgstr ""
+
+#: wpGoogleMaps.php:1392
+msgid "Action"
+msgstr ""
+
+#: wpGoogleMaps.php:1409
+msgid "View this link"
+msgstr ""
+
+#: wpGoogleMaps.php:1420 wpGoogleMaps.php:1421
+msgid "Edit this marker"
+msgstr ""
+
+#: wpGoogleMaps.php:1421
+msgid "Edit Location"
+msgstr ""
+
+#: wpGoogleMaps.php:1422
+msgid "Delete this marker"
+msgstr ""
+
+#: wpGoogleMaps.php:1422
+msgid "Delete"
+msgstr ""
+
+#: wpGoogleMaps.php:1539
+msgid ""
+"The plugin directory does not have 'write' permissions. Please enable "
+"'write' permissions (755) for "
+msgstr ""
+
+#: wpGoogleMaps.php:1541
+msgid "in order for this plugin to work! Please see "
+msgstr ""
+
+#: wpGoogleMaps.php:1543
+msgid "this page"
+msgstr ""
+
+#: wpGoogleMaps.php:1545
+msgid "for help on how to do it."
+msgstr ""
+
+msgid ""
+"Get great map markers <a href='http://mapicons.nicolasmollet.com/' "
+"target='_BLANK' title='Great Google Map Markers'>here</a>"
+msgstr ""
+
+msgid "Bounce"
+msgstr ""
+
+msgid "Drop"
+msgstr ""
+
+msgid "Or paste image URL"
+msgstr ""
+
+msgid "ignore if you want to use the defaul marker"
+msgstr ""
+
+msgid "Format: http://www.domain.com"
+msgstr ""
+
+msgid "More details"
+msgstr "Más detalles"
+
+msgid "Get directions"
+msgstr "Cómo llegar"
+
+msgid "From"
+msgstr ""
+
+msgid "To"
+msgstr ""
+
+msgid "Go"
+msgstr ""
+
+msgid "Please fill out both the 'from' and 'to' fields"
+msgstr ""
+
+msgid "Geocode was not successful for the following reason"
+msgstr ""
+
+msgid "Header 1 should be 'id', not"
+msgstr ""
+
+msgid "Header 2 should be 'map_id', not"
+msgstr ""
+
+msgid "Header 3 should be 'address', not"
+msgstr ""
+
+msgid "Header 4 should be 'desc', not"
+msgstr ""
+
+msgid "Header 5 should be 'pic', not"
+msgstr ""
+
+msgid "Header 6 should be 'link', not"
+msgstr ""
+
+msgid "Header 7 should be 'icon', not"
+msgstr ""
+
+msgid "Header 8 should be 'lat', not"
+msgstr ""
+
+msgid "Header 9 should be 'lng', not"
+msgstr ""
+
+msgid "Header 10 should be 'anim', not"
+msgstr ""
+
+msgid "Header 11 should be 'title', not"
+msgstr ""
+
+msgid "CSV import failed"
+msgstr ""
+
+msgid "Your CSV file has been successfully imported"
+msgstr ""
+
+msgid "Download ALL marker data to a CSV file"
+msgstr ""
+
+msgid "Advanced Options"
+msgstr ""
+
+msgid "Upload File"
+msgstr ""
+
+msgid "Upload CSV File"
+msgstr ""
+
+msgid "Replace existing data with data in file"
+msgstr ""
+
+msgid "OR"
+msgstr ""
+
+msgid "including Pro add-on"
+msgstr ""
+
+msgid "including Pro &amp; Gold add-ons"
+msgstr ""
+
+msgid "Download this data as a CSV file"
+msgstr ""
+
+msgid "Advanced Map Styling"
+msgstr ""
+
+msgid ""
+"Use the <a href='http://gmaps-samples-v3.googlecode.com/svn/trunk/styledmaps/"
+"wizard/index.html' target='_BLANK'>Google Maps API Styled Map Wizard</a> to "
+"get your style settings"
+msgstr ""
+
+msgid "Enable Advanced Styling"
+msgstr ""
+
+msgid "Paste the JSON data here"
+msgstr ""
+
+msgid "Save Style Settings"
+msgstr ""
+
+msgid "Maps"
+msgstr ""
+
+msgid "Advanced"
+msgstr ""
+
+msgid "Create your Map"
+msgstr ""
+
+msgid "Show advanced options"
+msgstr ""
+
+msgid "Hide advanced options"
+msgstr ""
+
+msgid "List all Markers"
+msgstr ""
+
+msgid "List all markers below the map"
+msgstr ""
+
+msgid "Directions Box Open by Default?"
+msgstr ""
+
+msgid "Yes, on the left"
+msgstr ""
+
+msgid "Yes, on the right"
+msgstr ""
+
+msgid "Yes, above"
+msgstr ""
+
+msgid "Yes, below"
+msgstr ""
+
+msgid "Directions Box Width"
+msgstr ""
+
+msgid "InfoWindow open by default"
+msgstr ""
+
+msgid "Disable StreetView"
+msgstr ""
+
+msgid "Disable Zoom Controls"
+msgstr ""
+
+msgid "Disable Pan Controls"
+msgstr ""
+
+msgid "Disable Map Type Controls"
+msgstr ""
+
+msgid "Disable Mouse Wheel Zoom"
+msgstr ""
+
+msgid "Open links in a new window"
+msgstr ""
+
+msgid "(Tick this if you want to open your links in a new window)"
+msgstr ""
+
+msgid "Hide the address field"
+msgstr ""
+
+msgid "Other settings"
+msgstr ""
+
+msgid "Max InfoWindow Width"
+msgstr ""
+
+msgid "(Minimum: 200px)"
+msgstr ""
+
+msgid "Image Thumbnails"
+msgstr ""
+
+msgid "(Tick this if you are having problems viewing your thumbnail images)"
+msgstr ""
+
+msgid "Default Image Height"
+msgstr ""
+
+msgid "Default Image Width"
+msgstr ""
+
+msgid "InfoWindow Settings"
+msgstr ""
+
+msgid "General Map Settings"
+msgstr ""
+
+msgid "Do not use TimThumb"
+msgstr ""
+
+msgid "WP Google Map Settings"
+msgstr ""
+
+msgid "Enable Directions?"
+msgstr ""
+
+msgid "Enable Bicycle Layer?"
+msgstr ""
+
+msgid "Enable Traffic Layer?"
+msgstr ""
+
+msgid "The KML/GeoRSS layer will over-ride most of your map settings"
+msgstr ""
+
+msgid "KML/GeoRSS URL"
+msgstr ""
+
+msgid "Map Dimensions"
+msgstr ""
+
+msgid "Settings"
+msgstr ""

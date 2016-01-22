@@ -79,6 +79,23 @@ body {
 	border-radius: 1px;
 }
 
+.event_wrapper {
+    padding: 10px 0px !important;
+	border: 0 !important;
+}
+
+.entry-title {
+		margin-left: 10px;
+}
+
+.entry-title-event {
+		margin-left: 15px;
+}
+
+.img-event {
+	width:100%;
+}
+
 .title-section {
   margin-bottom: 45px;
 }
@@ -104,8 +121,7 @@ body {
 	margin: 40px 0 0px;
 }
 
-/*About us section title Css---------------------------------------------------------------------------------------------------*/
- .section-info {
+.section-info {
     margin: 0 0 60px;
 	clear: both;
 }
@@ -157,10 +173,6 @@ body {
 	font-size: 15px;	
 }
 
-.img-event {
-	width:100%;
-}
-
 .footer-widget-title {
     margin: 0 0 20px ;
 }
@@ -173,7 +185,6 @@ body {
 	padding: 15px;
 	position: relative;	
 }
-
 .footer-widget-section:before {
 	background-image: url(../../uploads/2016/01/doorsmall.jpg);
 	width: 100%;
@@ -190,17 +201,39 @@ body {
     background-color: rgb(66, 139, 202);
 }
 
-.event_wrapper {
-    padding: 10px 0px !important;
-	border: 0 !important;
+/*Services*/
+div.desc{
+    background-color: #333;
+    bottom: 0;
+    left: 0;
+    opacity: 0.7;
+    position: absolute;
+    width: 100%;
+}
+.fix{
+	position: relative;
+    width: 100%;
+    padding: 0px;
+	
+}
+.overlay-caption{
+	color: white;
+	padding: 3px;
+	text-align: center;
+}
+.thumbnail-override, .caption{
+	border: 0px;
+	box-shadow: none;
+	margin-top: 10px;
+	padding: 0px;
 }
 
-.entry-title {
-		margin-left: 10px;
-}
-
-.entry-title-event {
-		margin-left: 15px;
+.title-overlay {
+	font-size: 18px;
+	position: absoloute;
+	background-color: blue; 
+	width: 100%;
+	bottom: 0;
 }
 /*
 -----------------------------------------------------------
@@ -225,6 +258,8 @@ body {
     margin-top: 10px;
 }
 }
+
+
 
 
 
