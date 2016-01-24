@@ -31,4 +31,4 @@ Our Media department can create a digitally visual image for your company throug
 	</div>
 </div>	
 
-<? get_footer(); ?>
+<?php get_footer(); ?>
