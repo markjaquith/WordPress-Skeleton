@@ -12,8 +12,7 @@
 	  </div>
 	 </div>
 	 <div class="row">
-		<p>Visual media plays an important part in promotion of companies - with online services like YouTube, Vimeo and Facebook, Twitter already having established communities, it's essential to have your presence made to increase your audience and engage them to your service. 
-Our Media department can create a digitally visual image for your company through a variety of mediums. Whether you need a short video promoting your identity or campaign, promoting your enterprise on a variety of social medias and blogs</p>
+		<p>Studios are available for recording music, monologues, narration or any auditory projects. It's important that sound recording be as crisp and audible as possible, so our space allows you to work in a professional atmosphere, progressing your abilities further and ensuring your sound is at the highest quality it deserves.</p>
 		<ul>
 			<li>Catchy Promotional Adverts</li>
 			<li>Short Films</li>
