@@ -7,7 +7,7 @@ get_header();
 	   <div class="title-section">	
 		<div class="row">
 		  <div class="col-md-12">	
-			<h1>Our Services</h1>
+			<h1>Services</h1>
 		  </div>	
 		</div>
 	   </div>
@@ -22,7 +22,7 @@ get_header();
 			<div class="col-md-4 col-sm-12">
 				<div class="thumbnail thumbnail-override">
 					<div class="fix">		
-					  <a href="#"> 
+					  <a href="../services/performing-arts"> 
 						<img src="https://placeimg.com/200/170/nature" class="img-responsive" alt="Image" style="width: 100%;">
 					  <div class="desc">	
 						<h3 class="overlay-caption">Performing Arts</h3>
@@ -42,7 +42,7 @@ get_header();
 			<div class="col-md-4 col-sm-12">
 				<div class="thumbnail thumbnail-override">
 					<div class="fix">		
-					 <a href="#"> 	
+					 <a href="../services/media-filming"> 	
 						<img src="https://placeimg.com/200/170/nature" class="img-responsive" alt="Image" style="width: 100%;">
 					  <div class="desc">	
 						<h3 class="overlay-caption">Media Filming</h3>
@@ -54,7 +54,7 @@ get_header();
 			<div class="col-md-4 col-sm-12">
 				<div class="thumbnail thumbnail-override">
 					<div class="fix">		
-					 <a href="#"> 	
+					 <a href="../services/graphic-design"> 	
 						<img src="https://placeimg.com/200/170/nature" class="img-responsive" alt="Image" style="width: 100%;">
 					  <div class="desc">	
 						<h3 class="overlay-caption">Graphic Design</h3>
@@ -66,7 +66,7 @@ get_header();
 			<div class="col-md-4 col-sm-12">
 				<div class="thumbnail thumbnail-override">
 					<div class="fix">		
-					 <a href="#"> 	
+					 <a href="../services/web-design"> 	
 						<img src="https://placeimg.com/200/170/nature" class="img-responsive" alt="Image" style="width: 100%;">
 					  <div class="desc">	
 						<h3 class="overlay-caption">Web design</h3>
@@ -86,7 +86,7 @@ get_header();
 			<div class="col-md-4 col-sm-12">
 				<div class="thumbnail thumbnail-override">
 					<div class="fix">		
-					 <a href="#"> 	
+					 <a href="../services/events-hire"> 	
 						<img src="https://placeimg.com/200/170/nature" class="img-responsive" alt="Image" style="width: 100%;">
 					  <div class="desc">	
 						<h3 class="overlay-caption">Events hire</h3>
@@ -98,7 +98,7 @@ get_header();
 			<div class="col-md-4 col-sm-12">
 				<div class="thumbnail thumbnail-override">
 					<div class="fix">		
-					 <a href="#"> 	
+					 <a href="../services/studio"> 	
 						<img src="https://placeimg.com/200/170/nature" class="img-responsive" alt="Image" style="width: 100%;">
 					  <div class="desc">	
 						<h3 class="overlay-caption">Studio</h3>
@@ -110,10 +110,10 @@ get_header();
 			<div class="col-md-4 col-sm-12">
 				<div class="thumbnail thumbnail-override">
 					<div class="fix">		
-					 <a href="#"> 	
+					 <a href="../services/rehearsal-and-exhibition"> 	
 						<img src="https://placeimg.com/200/170/nature" class="img-responsive" alt="Image" style="width: 100%;">
 					  <div class="desc">	
-						<h3 class="overlay-caption">Rehearal Space</h3>
+						<h3 class="overlay-caption">Rehearsal Space</h3>
 					  </div>
 					 </a>	
 					</div>
