@@ -13,21 +13,24 @@
 					<div class = "row">
 						<div class = "col-md-6 col-sm-12">
 							<div>
+								<p>The Arches Project has been founded with the sight to be a platform for creative talents of all discipline.</p>
 								<p>
-									The Arches Project has been founded with the aim to actively support and encourage the natural creative talents within the UK. This is a great platform for talented creative people with a passion for the arts to gain experience within the industry.
-									We have showcased Romeo and Juliet, Hamlet by Shakespeare, open mic music sessions and comedy shows, celebration dinners, interactive & visual design and fine art exhibitions, showing work of established and emerging artists in this exciting and unique space in the heart of Birmingham. We are pleased that artists that have been using our services have now found full time employment.
+									It gives emerging artists the opportunity to gain experience within the industry and achieve exposure they would not otherwise have received.
+We believe too many creative talents give up on their passion for what they have worked so hard to achieved as a result of the lack of ability to expose their work, with your donations we will be able to give more support to these artists whilst offering a better chance in life, providing opportunities to enable them to develop leadership skills, build self confidence, encourage and develop positive attitudes to pursue their aspirations.
 								</p>
+								<p>This passion is too important to lose faith in.</p>
 							</div>
 							<div>
 								<p>
-									Are you a painter, illustrator, photographer, singer, comedian, creative writer or a sculpture? Then this is the space for you to push the boundaries within the Birmingham Art Scene. Why not register on line today and we will do the rest!
-									The Arches Project helps to ensure that your talent is not hidden and you continue to follow your true passion Art !
-								
+									We have reflected all sorts of talent, including the performing arts, showcasing Romeo and Juliet, and hamlet by Shakespeare, open mic sessions, comedy shows and music events.
+We have had interactive and visual design exhibition by students attending Birmingham Metropolitan College, fine art exhibition by students of Margaret Street School of art, Birmingham, Photography exhibition by South and City College also private exhibitions where the work of established and emerging artists is shown in this exciting and unique space in the heart of Birmingham.
+
 								</p>
+								<p>This exposure from our services has led artists in finding full time employment within the industry they are passionate about.</p>
 							</div>
 						</div>
-						<div class = "col-md-4 col-sm-12 col-md-offset-1">
-							<?php echo do_shortcode('[custom-facebook-feed id=TheArchesProject num=1 type=photos include=likebox,text,date,eventtitle,author]'); ?>
+						<div class ="col-md-4 col-sm-12 col-md-offset-1">
+							<?php echo do_shortcode('[custom-facebook-feed id=TheArchesProject num=2 type=photos include=likebox,text,date,eventtitle,author]'); ?>
 						</div>
 					</div>		
 					</div>
