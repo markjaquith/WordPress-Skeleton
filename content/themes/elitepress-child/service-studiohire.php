@@ -13,13 +13,13 @@
 	 </div>
 	  <div class="row">
 		<div class="col-md-4">
-			<img src="http://placehold.it/200x150" class="img-responsive" alt="Image" style="width: 100%;">
+			<img src="http://placehold.it/300x180" class="img-responsive" alt="Image" style="width: 100%;">
 		</div>
 		<div class="col-md-4">
-			<img src="http://placehold.it/200x150" class="img-responsive" alt="Image" style="width: 100%;">
+			<img src="http://placehold.it/300x180" class="img-responsive" alt="Image" style="width: 100%;">
 		</div>
 		<div class="col-md-4">
-			<img src="http://placehold.it/200x150" class="img-responsive" alt="Image" style="width: 100%;">
+			<img src="http://placehold.it/300x180" class="img-responsive" alt="Image" style="width: 100%;">
 		</div>
 	  </div>
 	  <hr class="borderless">	 
