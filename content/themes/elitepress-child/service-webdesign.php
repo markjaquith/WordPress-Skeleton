@@ -12,6 +12,18 @@ get_header();
 	  </div>
 	  </div>
 	  <div class="row">
+		<div class="col-md-4">
+			<img src="http://placehold.it/200x150" class="img-responsive" alt="Image" style="width: 100%;">
+		</div>
+		<div class="col-md-4">
+			<img src="http://placehold.it/200x150" class="img-responsive" alt="Image" style="width: 100%;">
+		</div>
+		<div class="col-md-4">
+			<img src="http://placehold.it/200x150" class="img-responsive" alt="Image" style="width: 100%;">
+		</div>
+	  </div>
+	  <hr class="borderless">	  
+	  <div class="row">
 		<div class="col-md-10">
 		  <p>One of the first things a customer does when they want to find out more about a company, project or establishment is visit their website; which means it's important that the website reflect the ideologies of your company. Our experienced team of web designers are able to create attractive, efficient and easy to use websites. </p>
 		  <p>We can guarantee to provide relevant and modern consistency throughout efficiently we can establish a sleek online presence exceeding your requirements and needs.  </p>
@@ -24,7 +36,7 @@ get_header();
 			<li>Professional Design</li>
 			<li>Upload to YouTube, Vimeo or personal websites</li>
 		  </ul>
-		  <p>If you're interested in the above services, please e-mail us at services@thearchesproject.org. We will be sure to respond as soon as we can.</p>	
+		  <p>If you're interested in the above services, please e-mail us at <a href="mailto:services@thearchesproject.org?Subject=Service%20Enquiry" target="_top">services@thearchesproject.org</a>. We will be sure to respond as soon as we can.</p>	
 		</div>
 	   </div> 
 	 </div>

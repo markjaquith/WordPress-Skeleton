@@ -11,6 +11,18 @@
 	  </div>
       </div>
 	  <div class="row">
+		<div class="col-md-4">
+			<img src="http://placehold.it/200x150" class="img-responsive" alt="Image" style="width: 100%;">
+		</div>
+		<div class="col-md-4">
+			<img src="http://placehold.it/200x150" class="img-responsive" alt="Image" style="width: 100%;">
+		</div>
+		<div class="col-md-4">
+			<img src="http://placehold.it/200x150" class="img-responsive" alt="Image" style="width: 100%;">
+		</div>
+	  </div>
+	  <hr class="borderless">
+	  <div class="row">
        <div class="col-md-10">	  
 		<p>Visual media plays an important part in promotion of companies - with online services like YouTube, Vimeo and Facebook, Twitter already having established communities, it's essential to have your presence made to increase your audience and engage them to your service. </p>
 		<p>Our Media department can create a professional visual videp package for your company for a variety of mediums. Whether you need a short video promoting your identity or campaign, promoting your enterprise on a variety of social medias and blogs, websites and more. We can provide the service you need.</p>	
@@ -26,7 +38,7 @@
 		  <li>Upload to YouTube, Vimeo and other networks.</li>
 		</ul>
 		<br>
-		<p>If you require any media services, please e-mail at services@thearchesproject.org and we will respond to you as soon as we can.</p>
+		<p>If you require any media services, please e-mail us at <a href="mailto:services@thearchesproject.org?Subject=Service%20Enquiry" target="_top">services@thearchesproject.org</a> or use our contact form and we will respond to you as soon as we can.</p>
 	   </div>
 	  </div>
 	</div>	

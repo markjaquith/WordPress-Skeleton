@@ -23,7 +23,7 @@ get_header();
 				<div class="thumbnail thumbnail-override">
 					<div class="fix">		
 					  <a href="../services/performing-arts"> 
-						<img src="https://placeimg.com/200/170/nature" class="img-responsive" alt="Image" style="width: 100%;">
+						<img src="http://placehold.it/200x150?text=Art+Work" class="img-responsive" alt="Image" style="width: 100%;">
 					  <div class="desc">	
 						<h3 class="overlay-caption">Performing Arts</h3>
 					  </div>
@@ -43,7 +43,7 @@ get_header();
 				<div class="thumbnail thumbnail-override">
 					<div class="fix">		
 					 <a href="../services/media-filming"> 	
-						<img src="https://placeimg.com/200/170/nature" class="img-responsive" alt="Image" style="width: 100%;">
+						<img src="http://placehold.it/200x150?text=Media+Filming" class="img-responsive" alt="Image" style="width: 100%;">
 					  <div class="desc">	
 						<h3 class="overlay-caption">Media Filming</h3>
 					  </div>
@@ -55,7 +55,7 @@ get_header();
 				<div class="thumbnail thumbnail-override">
 					<div class="fix">		
 					 <a href="../services/graphic-design"> 	
-						<img src="https://placeimg.com/200/170/nature" class="img-responsive" alt="Image" style="width: 100%;">
+						<img src="http://placehold.it/200x150?text=Graphic+Design" class="img-responsive" alt="Image" style="width: 100%;">
 					  <div class="desc">	
 						<h3 class="overlay-caption">Graphic Design</h3>
 					  </div>
@@ -67,7 +67,7 @@ get_header();
 				<div class="thumbnail thumbnail-override">
 					<div class="fix">		
 					 <a href="../services/web-design"> 	
-						<img src="https://placeimg.com/200/170/nature" class="img-responsive" alt="Image" style="width: 100%;">
+						<img src="http://placehold.it/200x150?text=Web+Design" class="img-responsive" alt="Image" style="width: 100%;">
 					  <div class="desc">	
 						<h3 class="overlay-caption">Web design</h3>
 					  </div>
@@ -87,7 +87,7 @@ get_header();
 				<div class="thumbnail thumbnail-override">
 					<div class="fix">		
 					 <a href="../services/events-hire"> 	
-						<img src="https://placeimg.com/200/170/nature" class="img-responsive" alt="Image" style="width: 100%;">
+						<img src="http://placehold.it/200x150?text=Events+Hire" class="img-responsive" alt="Image" style="width: 100%;">
 					  <div class="desc">	
 						<h3 class="overlay-caption">Events hire</h3>
 					  </div>
@@ -99,7 +99,7 @@ get_header();
 				<div class="thumbnail thumbnail-override">
 					<div class="fix">		
 					 <a href="../services/studio"> 	
-						<img src="https://placeimg.com/200/170/nature" class="img-responsive" alt="Image" style="width: 100%;">
+						<img src="http://placehold.it/200x150?text=Studio+Hire" class="img-responsive" alt="Image" style="width: 100%;">
 					  <div class="desc">	
 						<h3 class="overlay-caption">Studio</h3>
 					  </div>
@@ -111,7 +111,7 @@ get_header();
 				<div class="thumbnail thumbnail-override">
 					<div class="fix">		
 					 <a href="../services/rehearsal-and-exhibition"> 	
-						<img src="https://placeimg.com/200/170/nature" class="img-responsive" alt="Image" style="width: 100%;">
+						<img src="http://placehold.it/200x150?text=Rehearsal+Space" class="img-responsive" alt="Image" style="width: 100%;">
 					  <div class="desc">	
 						<h3 class="overlay-caption">Rehearsal Space</h3>
 					  </div>
