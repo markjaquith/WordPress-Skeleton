@@ -47,16 +47,18 @@
     color: #171F26;
 	border-top: 2px solid transparent;
 }
-.navbar-default .navbar-nav > li > a:hover {
+.navbar-default .navbar-nav > li > a:hover{
 	color: inherit;
-	border-top: 2px solid #428BCA;
+	border-top: 2px solid #0A0F47;
 }
+
+
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
 	background-color: #ffffff;
-	color: #f36557;
+	color: #0A0F47;
 }
 .navbar-default .navbar-nav > .active > a {
-	border-top: 2px solid #f36557;
+	border-top: 2px solid #0A0F47;
 }
 .nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
 	background-color: #ffffff;
@@ -93,14 +95,14 @@
 /* Header Section css---------------------------------------------------------------------------------------------------- */ 
 .header-section {
     background-color: #FFFFFF;
-    border-top: 7px solid black;
-	border-bottom: 7px solid black;
+    border-top: 7px solid #0A0F47;
+	border-bottom: 7px solid #0A0F47;
 }
 .head-topbar {
 	border-bottom: 1px solid #A8B5C1;
 }
 .head-contact-social li {
-    background-color: #c5c5c5;
+    background-color: #123F5A;
 }
 .head-contact-social li.facebook:hover {
     background-color: #4c66a4;
@@ -193,7 +195,7 @@
 
 /*Section Title Css---------------------------------------------------------------------------------------------------*/
 .section-title {
-	background: #1E72BD;
+	background: #123F5A;
     color: #FFFFFF;
 }
 .section-title:before {
@@ -253,7 +255,7 @@
 .home_portfolio_caption:hover {
 	border-left: 1px solid #efefef;
     border-right: 1px solid #efefef;
-    border-bottom: 3px solid #428BCA;
+    border-bottom: 3px solid #123F5A ;
 }
 .home_portfolio_caption h4{
 	color:#2a2e34;
