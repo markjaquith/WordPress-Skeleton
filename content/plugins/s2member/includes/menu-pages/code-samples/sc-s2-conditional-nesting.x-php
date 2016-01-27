@@ -1,0 +1,5 @@
+[s2If is_user_logged_in() AND current_user_is(s2member_level1)]
+	[_s2If is_page(1) OR is_page(2)]
+		You can access.
+	[/_s2If]
+[/s2If]

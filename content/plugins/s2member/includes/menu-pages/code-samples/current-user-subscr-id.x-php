@@ -1,0 +1,10 @@
+<?php echo S2MEMBER_CURRENT_USER_SUBSCR_ID; ?>
+This may output something like: I-82234JD0923423
+
+This is the Paid Subscription ID associated with their account.
+Or, for Lifetime subscriptions sold through Buy Now buttons, this will hold the Paid Transaction ID associated with their purchase.
+Or, if the User is a Free Subscriber (i.e., NOT a paying Member), this will simply be an empty string.
+
+---- s2member Shortcode Equivalent ----
+
+[s2Get constant="S2MEMBER_CURRENT_USER_SUBSCR_ID" /]

@@ -1,0 +1,29 @@
+[s2If current_user_is(s2member_level1)]
+	Content for Members at exactly Level# 1, on this Blog.
+[/s2If]
+
+[s2If current_user_is(s2member_level1) OR current_user_is(s2member_level2)]
+
+	They're either a Level #1 Member OR a Level# 2 Member.
+		* Note the use of `OR` here. True if either condition is met.
+
+[/s2If]
+
+[s2If current_user_is(s2member_level3) OR current_user_is(s2member_level4)]
+
+	Content for Level #3 - OR - Level #4 Members. Either/or.
+
+	Hi there [s2Get constant="S2MEMBER_CURRENT_USER_DISPLAY_NAME" /].
+	You have [s2Get constant="S2MEMBER_CURRENT_USER_ACCESS_LABEL" /].
+
+		^ This uses the s2Get Shortcode to retrieve the value of s2Member API Constants.
+			These are also documented under: `s2Member → API Scripting`.
+
+		So, this might come out to something like:
+			`Hi there John.
+			You have Gold Membership.`
+
+		Here is a Custom Field value:
+		[s2Get user_field="country_code" /]
+
+[/s2If]

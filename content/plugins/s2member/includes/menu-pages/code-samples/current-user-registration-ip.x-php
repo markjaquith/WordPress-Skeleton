@@ -1,0 +1,7 @@
+<?php echo S2MEMBER_CURRENT_USER_REGISTRATION_IP; ?>
+This may output something like: 123.456.789.111
+(or whatever the User's Registration IP address was)
+
+---- s2member Shortcode Equivalent ----
+
+[s2Get constant="S2MEMBER_CURRENT_USER_REGISTRATION_IP" /]

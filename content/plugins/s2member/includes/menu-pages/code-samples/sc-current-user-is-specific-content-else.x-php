@@ -1,0 +1,24 @@
+Notice that NESTED Conditionals require a preceding underscore (i.e., _s2If, __s2If, ___s2If).
+	You can go up to ten levels deep ( __________s2If ).
+
+[s2If current_user_is(s2member_level4)]
+	Some premium content for Level 4 Members.
+	[else]
+		[_s2If current_user_is(s2member_level3)]
+			Some premium content for Level 3 Members.
+			[_else]
+				[__s2If current_user_is(s2member_level2)]
+					Some premium content for Level 2 Members.
+				[__else]
+					[___s2If current_user_is(s2member_level1)]
+						Some premium content for Level 1 Members.
+						[___else]
+							[____s2If current_user_is(s2member_level0)]
+								Some content for Free Subscribers.
+								[____else]
+									Some public content.
+							[/____s2If]
+					[/___s2If]
+				[/__s2If]
+		[/_s2If]
+[/s2If]

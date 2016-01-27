@@ -1,0 +1,13 @@
+You are allowed to download <?php echo (S2MEMBER_CURRENT_USER_DOWNLOADS_ALLOWED_IS_UNLIMITED) ? 'unlimited' : S2MEMBER_LEVEL2_FILE_DOWNLOADS_ALLOWED; ?> files
+every <?php S2MEMBER_LEVEL2_FILE_DOWNLOADS_ALLOWED_DAYS; ?> days.
+
+---- s2Member Shortcode Equivalent (Requires s2Member Pro) ------------
+
+You are allowed to download [s2If php="S2MEMBER_CURRENT_USER_DOWNLOADS_ALLOWED_IS_UNLIMITED"]unlimited
+[else][s2Get constant="S2MEMBER_LEVEL2_FILE_DOWNLOADS_ALLOWED" /][/s2If] files
+every [s2Get constant="S2MEMBER_LEVEL2_FILE_DOWNLOADS_ALLOWED_DAYS" /] days.
+
+**NOTE** The use of `[s2If php=""]` and `[else]` requires s2Member Pro.
+**NOTE** Arbitrary PHP code (via [s2If php=""]) will only work if you enable this functionality.
+	Please visit `Dashboard → s2Member → Restriction Options → Simple Shortcode Conditionals`
+		to set your preferences and enable `[s2If php=""]` when s2Member Pro is installed.

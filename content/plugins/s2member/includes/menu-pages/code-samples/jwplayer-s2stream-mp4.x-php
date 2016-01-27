@@ -1,0 +1,2 @@
+Copy/paste this Shortcode into any WordPress® Post or Page.
+[s2Stream player="jwplayer-v6" player_path="/jwplayer/jwplayer.js" file_download="video.mp4" rewrite="yes" /]

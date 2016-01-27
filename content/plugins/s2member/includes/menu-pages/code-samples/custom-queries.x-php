@@ -1,0 +1,17 @@
+<?php
+attach_s2member_query_filters();
+	query_posts("posts_per_page=5");
+
+	if (have_posts()):
+		while (have_posts()):
+			the_post();
+		/*
+		Protected content will be excluded automatically.
+		(based on the current User/Member status)
+		*/
+		endwhile;
+	endif;
+
+	wp_reset_query();
+detach_s2member_query_filters();
+?>

@@ -1,0 +1,38 @@
+NOTE: While these old variables no longer appear in the URL,
+s2Member will create the following variables (internally) for backward compatibility
+with older versions of the software.
+
+-----------------------------------------------------------------------------------------------------------
+These example redirection links include all possible MOP Variable variations in the query string.
+-----------------------------------------------------------------------------------------------------------
+
+	.../membership-options-page/?s2member_seeking=page-587&s2member_level_req=1
+	.../membership-options-page/?s2member_seeking=post-545&s2member_level_req=2
+	.../membership-options-page/?s2member_seeking=catg-698&s2member_level_req=4
+	.../membership-options-page/?s2member_seeking=ptag-447&s2member_level_req=3
+	.../membership-options-page/?s2member_seeking=page-887&s2member_ccap_req=music
+	.../membership-options-page/?s2member_seeking=post-871&s2member_ccap_req=videos
+	.../membership-options-page/?s2member_seeking=post-369&s2member_sp_req=369
+	.../membership-options-page/?s2member_seeking=bbpress&s2member_level_req=1
+	.../membership-options-page/?s2member_seeking=ruri-aHR0cDovL3d3dy5leGFtcGxlLmNvbS8&s2member_level_req=1
+	.../membership-options-page/?s2member_seeking=file-example.zip&s2member_level_req=1
+
+-----------------------------------------------------------------------------------------------------------
+
+Here is a breakdown on each of these Variables:
+
+	* `s2member_seeking` = [post|page|catg|ptag]-[ID number] (Post ID, Page ID, Category ID, Tag ID)
+		Or: `s2member_seeking` = ruri-[base64 encoded URI] (only applies w/ Membership URI Restrictions)
+		Or: `s2member_seeking` = file-[protected file name] (only applies w/ Download Restrictions)
+		Or: `s2member_seeking` = bbpress (only applies when the s2Member → bbPress Bridge is installed)
+	* `s2member_level_req` = a Membership Level # required for access (only applies to Membership Level Access)
+	* `s2member_ccap_req` = a Custom Capability required for access (only applies to Custom Capability Restrictions)
+	* `s2member_sp_req` = a Specific Post/Page ID required (only applies to Specific Post/Page Access Restrictions)
+
+	`s2member_seeking` is always passed in; it is never excluded.
+	`s2member_level_req`, `s2member_ccap_req`, `s2member_sp_req` are mutually exclusive.
+	 Only ONE of these three Variables will be passed in combination with `s2member_seeking`.
+
+-----------------------------------------------------------------------------------------------------------
+
+* These old MOP Vars are deprecated (they will NOT be available in future versions of s2Member).

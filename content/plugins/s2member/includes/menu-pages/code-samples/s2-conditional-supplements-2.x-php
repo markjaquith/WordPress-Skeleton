@@ -1,0 +1,7 @@
+<?php if (current_user_cannot("access_s2member_level1")){ ?>
+	Content for Members who CANNOT access Level #1 on this Blog.
+<?php } else if(current_user_cannot_for_blog(24, "access_s2member_level1")) { ?>
+	Content for Members who CANNOT access Level #1 on Blog ID# 24. (i.e., Multisite Networking)
+<?php } else if(is_user_not_logged_in()) { ?>
+	Some public content.
+<?php } ?>

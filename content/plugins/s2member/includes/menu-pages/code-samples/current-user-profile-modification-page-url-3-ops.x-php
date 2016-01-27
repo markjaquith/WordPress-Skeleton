@@ -1,0 +1,1 @@
+<iframe src="<?php echo S2MEMBER_CURRENT_USER_PROFILE_MODIFICATION_PAGE_URL; ?>" scrolling="auto" style="width:100%; height:325px; border:1px solid #666666;"></iframe>

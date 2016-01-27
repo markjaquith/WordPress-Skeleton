@@ -1,0 +1,18 @@
+<?php if(current_user_cannot("access_s2member_level4") && (current_user_can("access_s2member_level2") || current_user_can_for_blog(24, "access_s2member_level2"))) { ?>
+
+	This Member CANNOT access Level #4, but...
+	they CAN access Level #2 on this Blog, OR (||) on Blog ID# 24. (i.e., Multisite Networking)
+
+	<?php if(current_user_can("access_s2member_ccap_free_gift")){ ?>
+		Also display free gift here. This is a Custom Capability check, using a nested Conditional.
+	<?php } ?>
+
+<?php } else if(current_user_can("access_s2member_level1") || current_user_can_for_blog(24, "access_s2member_level1")) { ?>
+
+	Content for Members who can access Level #1 on this Blog, OR (||) on Blog ID# 24. (i.e., Multisite Networking)
+
+<?php } else if(is_user_not_logged_in()) { ?>
+
+	Some public content.
+
+<?php } ?>

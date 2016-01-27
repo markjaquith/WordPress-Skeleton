@@ -1,0 +1,19 @@
+== Translations ==
+
+s2Member and s2Member Pro are now equipped with support for front-end translation, using standardized WordPress® methodologies; i.e., we've implemented the use of `_x()`, and various other translation routines for many aspects of s2Member's front-end interfaces. For instance, things like Profile panels, Login/Registration Fields, and Pro-Form integrations; as well as error messages displayed to Users/Members. Translation support for back-end admin panels provided by s2Member will come in a future release, along with more extensive translation support for front-end aspects.
+
+Please note, this is but our first step toward internationalizing s2Member and s2Member Pro. Look for further updates/improvements to come in the future.
+
+Like WordPress® itself, we chose to use the GNU `gettext` localization framework to provide localization infrastructure for s2Member®. GNU `gettext` is a mature, widely used framework for modular translation of software, and is the *de facto* standard for localization in the open source/free software realm. If you'd like to translate s2Member and/or s2Member Pro, please use the POT file found inside `/s2member/includes/translations/s2member.pot`, which contains all translation entries for both the s2Member Framework *(i.e., the free version)*, and also for s2Member Pro.
+
+The file: `/s2member/includes/translations/s2member.pot` will be updated with each new release of s2Member.
+
+If this is your first translation of a WordPress® plugin, [this article](http://codex.wordpress.org/Translating_WordPress#Localization_Technology) and/or [this article](http://urbangiraffe.com/articles/translating-wordpress-themes-and-plugins/), might be of some assistance. When you are finished translating the `s2member.pot` file, place your completed `s2member-[locale].mo` file into this directory: `/wp-content/plugins/`; and please feel free to [share your translation](http://www.s2member.com/forums/forum/community/) with the rest of the s2Member® community.
+
+Quick Tip: If you only need to translate the front-end of s2Member, please ignore entries in the `s2member.pot` file with a context matching `s2member-admin`. Those sections of s2Member are only seen by site Administrators; they are NOT used in s2Member's front-end integration with WordPress®. Skipping over translation entries with a context matching `s2member-admin` can save you time.
+
+== Existing Translations (Updating Your PO File)? ==
+
+FUZZY translation entries: If you're updating an existing PO file (e.g., recompiling your MO file after changes in a new release of s2Member); please be sure to manually review any "fuzzy" entries. A fuzzy entry can occur as a result of changes from one release of s2Member (or s2Member Pro) to the next; where small changes in text might render your translation invalid (e.g., fuzzy).
+
+Depending on your PO file editor, fuzzy entries may need to be reviewed and changes committed BEFORE you recompile; otherwise fuzzy entries will revert to their default state in your final MO file. Translations that are fuzzy, are NOT compiled into your final MO file. This can lead to much confusion. Please review any fuzzy entries carefully.

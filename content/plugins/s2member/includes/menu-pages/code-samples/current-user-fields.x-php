@@ -1,0 +1,30 @@
+<?php $fields = json_decode(S2MEMBER_CURRENT_USER_FIELDS, true); ?>
+<?php echo $fields["first_name"]; ?> <?php echo $fields["last_name"]; ?>
+This would output the first and last name for the current user.
+
+Custom Fields are also included in the JSON decoded array.
+<?php print_r(json_decode(S2MEMBER_CURRENT_USER_FIELDS, true)); ?>
+( Displays a full list of all associative array elements. )
+
+---- s2member Shortcode Equivalents ----
+
+[s2Get user_field="id" /]
+[s2Get user_field="ip" /]
+[s2Get user_field="reg_ip" /]
+[s2Get user_field="email" /]
+[s2Get user_field="login" /]
+[s2Get user_field="first_name" /]
+[s2Get user_field="last_name" /]
+[s2Get user_field="display_name" /]
+[s2Get user_field="s2member_custom" /]
+[s2Get user_field="s2member_subscr_id" /]
+[s2Get user_field="s2member_subscr_or_wp_id" /]
+[s2Get user_field="s2member_subscr_gateway" /]
+[s2Get user_field="my_custom_field_id" /]
+[s2Get user_field="any other WP_User property" /]
+
+Or, to include the JSON encoded array in a JavaScript routine.
+<script type="text/javascript">
+	var fieldsObj = [s2Get constant="S2MEMBER_CURRENT_USER_FIELDS" /];
+	document.write(fieldsObj.display_name);
+</script>

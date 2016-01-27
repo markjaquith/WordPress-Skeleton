@@ -1,0 +1,16 @@
+<!-- Identifies/Updates An Existing User/Member (when/if applicable)  -->
+<input type="hidden" name="on0" value="<?php echo S2MEMBER_CURRENT_USER_VALUE_FOR_PP_ON0; ?>" />
+<input type="hidden" name="os0" value="<?php echo S2MEMBER_CURRENT_USER_VALUE_FOR_PP_OS0; ?>" />
+<!-- Identifies The Customer's IP Address For Tracking -->
+<input type="hidden" name="on1" value="<?php echo S2MEMBER_CURRENT_USER_VALUE_FOR_PP_ON1; ?>" />
+<input type="hidden" name="os1" value="<?php echo S2MEMBER_CURRENT_USER_VALUE_FOR_PP_OS1; ?>" />
+<!-- Controls Modify Behavior At PayPal® Checkout -->
+<input type="hidden" name="modify" value="0" />
+
+---- s2member Shortcode Equivalents ----
+
+[s2Get constant="S2MEMBER_CURRENT_USER_VALUE_FOR_PP_ON0" /]
+[s2Get constant="S2MEMBER_CURRENT_USER_VALUE_FOR_PP_OS0" /]
+
+[s2Get constant="S2MEMBER_CURRENT_USER_VALUE_FOR_PP_ON1" /]
+[s2Get constant="S2MEMBER_CURRENT_USER_VALUE_FOR_PP_OS1" /]
