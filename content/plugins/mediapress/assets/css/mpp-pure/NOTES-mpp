@@ -1,0 +1,7 @@
+/***
+# Intro
+mpp-pure.css is a modified version of pure.css from purecss.io
+
+Instead of using pure-classname, please use mpp-classname. e.g pure-g should be written as mpp-g for the row
+
+## There is one major change though. Since WordPress auto adds 'page-numbers' class to the paginated links. We have updated pure-paginator and made it to use wrapped div element instead.

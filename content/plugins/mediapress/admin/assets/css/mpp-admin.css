@@ -1,0 +1,92 @@
+/**
+MediaPress Admin Css file
+*/
+
+/***
+Single gallery edit panels*/
+
+/**
+ * Reload Icon
+ */
+.mpp-reload {
+	position: absolute;
+	right: 10px;
+	top: 2px;
+	text-decoration: none;
+}
+.mpp-reload .dashicons {
+	padding-right: 5px;
+}
+/**
+ * Upload dropzone
+ */
+.mpp-dropzone {
+	border: 4px dashed #b4b9be;
+    height: 200px;
+}
+.mpp-drag-drop-inside{
+	margin: 70px auto 0;
+    width: 250px;
+}
+.mpp-drag-drop-inside p {
+	display: block;
+	margin: 5px 0;
+	text-align: center;
+	color: #a0a5aa;
+    font-size: 14px;
+    
+}
+.mpp-drag-drop-inside p.mpp-drag-drop-info {
+	font-size: 20px;
+}
+body.post-type-mpp-gallery .page-title-action {
+	display: none;
+}
+/**
+ * Admin buttons on edit gallery page
+ *
+ */
+.mpp-container .mpp-admin-button-delete {
+	background: #ED9100;
+	border-color: #fff;
+	box-shadow: none;
+	border-radius: 5px;
+}
+.mpp-container .mpp-admin-button-delete:hover {
+	background: #DE9420;
+	border-color: #fff;
+	box-shadow: none;
+}
+.mpp-container .mpp-admin-button-primary {
+	border-color: #fff;
+	box-shadow: none;
+	border-radius: 5px;
+}
+
+.mpp-container .mpp-admin-button-delete {
+	background: #ED9100;
+	border-color: #fff;
+	box-shadow: none;
+	border-radius: 5px;
+}
+.mpp-container .mpp-admin-button-delete:hover {
+	background: #DE9420;
+	border-color: #fff;
+	box-shadow: none;
+}
+.mpp-container .mpp-admin-button-primary {
+	border-color: #fff;
+	box-shadow: none;
+	border-radius: 5px;
+}
+span.mpp-admin-shortcode-title {
+	font-size: 18px;
+}
+@media screen and ( max-width: 980px ) {
+	
+	#mpp-editable-media-list  [class*="mpp-u"]{
+		width: 100%;
+		display: block;
+		float: none;
+	}
+}
