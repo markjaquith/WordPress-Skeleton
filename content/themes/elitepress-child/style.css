@@ -292,9 +292,9 @@ p {
 }
 
 #buddypress div.item-list-tabs ul li a span {
-    background: #123F5A;
+    background: white;
     border: 1px solid #333;
-    color: white;
+    color: #333;
 }
 
 a {
