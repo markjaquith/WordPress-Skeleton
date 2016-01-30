@@ -269,8 +269,36 @@ p {
 	border: 0px !important;
 }
 
+.sidebar-widget h4 > a {
+    color: #333;
+}
 
+.sidebar-widget {
+    margin-bottom: 5px;
+    margin-top: 0;
+    overflow: hidden;
+    padding: 0px;
+}
 
+.sidebar-widget h4 {
+    color: #333;
+}
 
+#buddypress div.item-list-tabs ul li.current a, #buddypress div.item-list-tabs ul li.selected a {
+    background-color: #123F5A;
+    color: white;
+    opacity: .8;
+    font-weight: 700;
+}
 
+#buddypress div.item-list-tabs ul li a span {
+    background: #123F5A;
+    border: 1px solid #333;
+    color: white;
+}
+
+a {
+    color: #123F5A;
+    text-decoration: none;
+}
 
