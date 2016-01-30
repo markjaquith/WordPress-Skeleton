@@ -105,7 +105,7 @@ body {
 }
 
 .page-description a {
-    color: hsl(2, 93%, 63%);
+    color: #333;
     text-decoration: none;
     font-weight: 600;
 }
