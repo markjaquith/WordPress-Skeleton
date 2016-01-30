@@ -20,6 +20,8 @@ get_header();
 				<?php echo do_shortcode('[s2Eot date_format="M jS, Y" /]'); ?>
 				<h4>I want to cancel my subscription</h4>
 				<?php echo do_shortcode('[s2Member-PayPal-Button cancel="1" image="default" output="anchor" /]'); ?>
+				<hr>
+				<span><?php echo do_shortcode('[bpProfile /]'); ?></span>
 		 <?php } ?>
 				<?php if(!current_user_is(s2member_level1)){ ?>
 					<p>You have no subscription plan</p>
