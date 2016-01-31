@@ -45,4 +45,17 @@ function remove_parent_enqueue_scripts() {	//This function is used to remove and
 }
 add_action( 'wp_loaded', 'remove_parent_enqueue_scripts' );
 
+//shortcodes
+ //start of shortcode
+function bpProfile( $atts=null, $content=null ) { //shortcode for returning the url of an artist members profile
+global $user_ID;
+
+if ( is_user_logged_in() ) {
+return '<a href='.bp_core_get_user_domain( $user_ID ).'profile/>Back to my profile</a>';
+} else {
+return "";
+}
+}
+add_shortcode('bpProfile','bpProfile');//end of shortcode
+
 ?>
