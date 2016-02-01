@@ -1,5 +1,5 @@
 <?php 
-/* Template Name: graphic design */ 
+/* Template Name: artist graphic design */ 
 get_header();
 ?>
 <div class="content-section">
