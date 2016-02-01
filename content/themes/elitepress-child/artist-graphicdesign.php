@@ -1,5 +1,5 @@
 <?php 
-/* Template Name: artist mixed_mediacollage */ 
+/* Template Name: graphic design */ 
 get_header();
 ?>
 <div class="content-section">
@@ -8,7 +8,7 @@ get_header();
 	<div class="container">
 		<div class="col-md-12">
 			<?php echo do_shortcode('[mpp-list-gallery 
-component=groups component_id=6 view="grid"]'); ?>
+component=groups component_id=3 view="grid"]'); ?>
 		</div>
 	</div>
 </div>
