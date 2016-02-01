@@ -10,7 +10,7 @@ get_header();
 		<div class="col-md-8">
 			<?php get_template_part('content',''); ?>  
 		
-		<div class="col-md-4">
+		<div class="col-md-3 col-md-offset-1">
 			
 			<?php 
 				//Displays sidebar for members with level one access and above(artists to admin level can see the sidebar)

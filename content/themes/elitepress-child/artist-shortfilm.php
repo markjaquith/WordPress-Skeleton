@@ -1,5 +1,5 @@
 <?php 
-/* Template Name: artist conceptual */ 
+/* Template Name: artist shortfilm */ 
 get_header();
 ?>
 <div class="content-section">
@@ -7,7 +7,8 @@ get_header();
 	</div>
 	<div class="container">
 		<div class="col-md-12">
-			<?php echo do_shortcode('[mpp-list-gallery component=groups component_id=1 view="grid"]'); ?>
+			<?php echo do_shortcode('[mpp-list-gallery 
+component=groups component_id=1 view="grid"]'); ?>
 		</div>
 	</div>
 </div>
