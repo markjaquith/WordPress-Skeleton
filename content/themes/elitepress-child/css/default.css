@@ -30,6 +30,11 @@
 .dropdown-menu > li {
 	border-bottom: 1px dashed #123F5A;
 }
+
+.dropdown-menu > li:first-child {
+	border-top: 1px solid #A8B5C1;
+}
+
 .dropdown-menu > li > a {
 	color: #697076;
 	/* border-bottom: 1px dashed #A8B5C1; */
