@@ -1026,7 +1026,7 @@ textarea::-webkit-input-placeholder {
 } 
 th {
 	color: #2a2c33;
-	background: #eaedf1;
+	background: white;
 	border-bottom: 4px solid #eaedf1;
 	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
 } 
@@ -1034,22 +1034,17 @@ tr {
 	color:#e5e5e5;
 	text-shadow: 0 1px 1px rgba(256, 256, 256, 0.1);
 }
-tr:hover td {
-	background: #575961;
-	color:#FFFFFF;
-	border-top: 1px solid #22262e;
-	border-bottom: 1px solid #22262e;
+
+table.profile-fields tr:nth-child(odd) td {
+	background:white;
+	padding-top: 0px !important;
+	padding-bottom: 17px !important;
 }
-tr:nth-child(odd) td {
-	background:#2a2c33;
-}
-tr:nth-child(odd):hover td {
-	background:#575961;
-}
+
 td {
 	background:#3d3f47;
 	text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);
-	border-right: 1px solid #ff0000;
+	border-right: 1px solid #eaedf1;
 }
 /*Dropcap*/
 .dropcape-square, .dropcape-simple {
