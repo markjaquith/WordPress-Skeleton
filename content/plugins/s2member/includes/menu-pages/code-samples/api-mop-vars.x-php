@@ -1,0 +1,56 @@
+-----------------------------------------------------------------------------------------------------------
+Example redirection link with MOP Vars, in pseudo code:
+-----------------------------------------------------------------------------------------------------------
+
+s2Member's MOP Vars are now a double-dot (`..`) delimited list of six values.
+
+	.../membership-options-page/
+	?_s2member_vars=[restriction type]..[requirement type]..[requirement type value]..
+			[seeking type]..[seeking type value]..[seeking URI base 64 encoded]
+
+-----------------------------------------------------------------------------------------------------------
+
+Here is a breakdown that explains each of the values:
+
+	* `[restriction type]` = A string. One of: `post|page|catg|ptag|file|ruri|ccap|sp|sys`
+		- The s2Member Restriction Type you've configured which is preventing access.
+		- Restriction Type `post` indicates that Post Access Restrictions triggered the redirection.
+		- Restriction Type `page` indicates that Page Access Restrictions triggered the redirection.
+		- Restriction Type `catg` indicates that Category Access Restrictions triggered the redirection.
+		- Restriction Type `ptag` indicates that Post Tag Access Restrictions triggered the redirection.
+		- Restriction Type `file` indicates that File Access Restrictions triggered the redirection.
+		- Restriction Type `ruri` indicates that Request URI Access Restrictions triggered the redirection.
+		- Restriction Type `ccap` indicates Custom Capability Restrictions triggered the redirection.
+		- Restriction Type `sp` indicates Specific Post/Page Access Restrictions triggered the redirection.
+		- Restriction Type `sys` indicates Systematic (i.e., something s2Member protects automatically).
+
+	* `[requirement type]` = A string. One of: `level|ccap|sp`
+		- Requirement Type `level` indicates that a Membership Level is required for access.
+		- Requirement Type `ccap` indicates that a Custom Capability is required for access.
+		- Requirement Type `sp` indicates that a Specific Post/Page purchase is required for access.
+
+	* `[requirement type value]` = A string. The Level, CCAP or Specific Post/Page ID required for access.
+		- This value correlates with `[requirement type]` to supply more specific information.
+			For instance, if `[requirement type]` is `level`, `[requirement type value]`
+			might be `1` to indicate that Level `1` is required for access.
+		- In the case of a CCAP, this will be set to the CCAP required for access.
+		- In the case of a Specific Post/Page, this is set to the Post/Page ID in WordPress.
+
+	* `[seeking type]` = A string. One of: `post|page|catg|ptag|file|ruri`
+		- This identifies the type of content a visitor was attempting to access.
+			A Post (`post`), Page (`page`), Category (`catg`), Post Tag (`ptag`), File (`file`),
+			 or a Request URI (`ruri`) to indicate something that doesn't fall into any other classification.
+
+	* `[seeking type value]` = A string. A Post ID, Page ID, Category ID, Post Tag ID, File, or Request URI.
+		- This correlates with `[seeking type]` to supply more specific information.
+			For instance, if `[seeking type]` is `post`, this might be `123` to indicate the
+			visitor was attempting to access Post ID `123` in WordPress.
+		- File paths are relative to `/s2member-files/`, or your Amazon® S3 Bucket.
+		- Request URIs are base 64 encoded. Use PHP's `base64_decode()` to decode the value.
+
+	* `[seeking URI; base 64 encoded]` = A string. Base 64 encoded URI that a visitor was attempting to access.
+		- Request URIs are base 64 encoded. Use PHP's `base64_decode()` to decode the value.
+
+-----------------------------------------------------------------------------------------------------------
+
+* The use of MOP Vars is 100% completely optional (for advanced site owners).

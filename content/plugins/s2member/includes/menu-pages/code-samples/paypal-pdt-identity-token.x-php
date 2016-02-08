@@ -1,0 +1,7 @@
+<?php echo S2MEMBER_PAYPAL_PDT_IDENTITY_TOKEN; ?>
+This may output something like: jjweu7234jKDdsjSLKSEDFoe38345j3232llii3450823kk2o0jgg
+(or whatever you have configured as your PayPal® Identity Token)
+
+---- s2member Shortcode Equivalent ----
+
+[s2Get constant="S2MEMBER_PAYPAL_PDT_IDENTITY_TOKEN" /]

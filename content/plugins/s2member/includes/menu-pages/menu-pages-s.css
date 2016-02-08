@@ -1,0 +1,120 @@
+/**
+* Core CSS for s2Member menu pages.
+*
+* Copyright: © 2009-2011
+* {@link http://websharks-inc.com/ WebSharks, Inc.}
+* (coded in the USA)
+*
+* Released under the terms of the GNU General Public License.
+* You should have received a copy of the GNU General Public License,
+* along with this software. In the main directory, see: /licensing/
+* If not, see: {@link http://www.gnu.org/licenses/}.
+*
+* @package s2Member\Menu_Pages
+* @since 3.0
+*/
+/*
+These CSS selectors are all specific to this software.
+These are for Custom Reg Field configuration.
+	-specifically for the tools.
+*/
+div#ws-plugin--s2member-custom-reg-field-configuration-tools > a
+	{
+		display: block;
+		padding: 0 0 0 20px;
+		background: url('<?php echo $i; ?>/add-icon.png') no-repeat center left;
+	}
+div#ws-plugin--s2member-custom-reg-field-configuration-thickbox-tools-form > table
+	{
+		display: /* Hide until it's inside thickbox. */ none;
+	}
+table#ws-plugin--s2member-custom-reg-field-configuration-tools-form
+	{
+		width: 95%;
+		margin: 2.5%;
+	}
+table#ws-plugin--s2member-custom-reg-field-configuration-tools-form label
+	{
+		color: #164A61;
+	}
+table#ws-plugin--s2member-custom-reg-field-configuration-tools-form input[type = "text"],
+table#ws-plugin--s2member-custom-reg-field-configuration-tools-form textarea,
+table#ws-plugin--s2member-custom-reg-field-configuration-tools-form select
+	{
+		font-size: 11px;
+		padding: 3px;
+	}
+table#ws-plugin--s2member-custom-reg-field-configuration-tools-form input[type = "text"],
+table#ws-plugin--s2member-custom-reg-field-configuration-tools-form select
+	{
+		height: 2em;
+	}
+table#ws-plugin--s2member-custom-reg-field-configuration-tools-form input[type = "text"],
+table#ws-plugin--s2member-custom-reg-field-configuration-tools-form textarea
+	{
+		width: 99%;
+	}
+table#ws-plugin--s2member-custom-reg-field-configuration-tools-form select
+	{
+		width: 100%;
+	}
+table#ws-plugin--s2member-custom-reg-field-configuration-tools-form select option
+	{
+		padding: 1px;
+	}
+tr.ws-plugin--s2member-custom-reg-field-configuration-tools-form-spacer td
+	{
+		height: 1px;
+		padding: 2px 0 2px 0;
+	}
+/*
+These CSS selectors are all specific to this software.
+These are for Custom Reg Field configuration.
+	-specifically for the table.
+*/
+table#ws-plugin--s2member-custom-reg-field-configuration-table
+	{
+		width: 100%;
+		-moz-border-radius: 3px;
+		-webkit-border-radius: 3px;
+		border-radius: 3px;
+		border: 1px solid transparent;
+	}
+table#ws-plugin--s2member-custom-reg-field-configuration-table th
+	{
+		font-weight: bold;
+	}
+table#ws-plugin--s2member-custom-reg-field-configuration-table tr.e
+	{
+		background-color: #EEEEEE;
+	}
+table#ws-plugin--s2member-custom-reg-field-configuration-table tr.s > td
+	{
+		border-top: 1px solid #666666;
+	}
+a.ws-plugin--s2member-custom-reg-field-configuration-move-up,
+a.ws-plugin--s2member-custom-reg-field-configuration-move-down,
+a.ws-plugin--s2member-custom-reg-field-configuration-edit,
+a.ws-plugin--s2member-custom-reg-field-configuration-delete
+	{
+		width: 16px;
+		height: 16px;
+		margin: 0 5px 0 5px;
+		display: inline-block;
+	}
+a.ws-plugin--s2member-custom-reg-field-configuration-move-up
+	{
+		background: url('<?php echo $i; ?>/arrow-up-icon.png') no-repeat;
+	}
+a.ws-plugin--s2member-custom-reg-field-configuration-move-down
+	{
+		background: url('<?php echo $i; ?>/arrow-down-icon.png') no-repeat;
+	}
+a.ws-plugin--s2member-custom-reg-field-configuration-edit
+	{
+		background: url('<?php echo $i; ?>/edit-icon.png') no-repeat;
+	}
+a.ws-plugin--s2member-custom-reg-field-configuration-delete
+	{
+		background: url('<?php echo $i; ?>/delete-icon.png') no-repeat;
+	}

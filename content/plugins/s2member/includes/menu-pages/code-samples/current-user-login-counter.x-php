@@ -1,0 +1,7 @@
+<?php echo S2MEMBER_CURRENT_USER_LOGIN_COUNTER; ?>
+This may output something like: 47
+(the number of times the User has logged into your site)
+
+---- s2member Shortcode Equivalent ----
+
+[s2Get constant="S2MEMBER_CURRENT_USER_LOGIN_COUNTER" /].

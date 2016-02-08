@@ -27,6 +27,11 @@ body {
     margin: 5px 14px;
 }
 
+.site-logo img{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
 .site-logo img {
 	float: left;
 }
@@ -105,7 +110,7 @@ body {
 }
 
 .page-description a {
-    color: hsl(2, 93%, 63%);
+    color: #333;
     text-decoration: none;
     font-weight: 600;
 }
@@ -269,8 +274,57 @@ p {
 	border: 0px !important;
 }
 
+.sidebar-widget h4 > a {
+    color: #333;
+}
 
+.sidebar-widget {
+    margin-bottom: 5px;
+    margin-top: 0;
+    overflow: hidden;
+    padding: 0px;
+}
 
+.sidebar-widget h4 {
+    color: #333;
+}
 
+#buddypress div.item-list-tabs ul li.current a, #buddypress div.item-list-tabs ul li.selected a {
+    background-color: #123F5A;
+    color: white;
+    opacity: .8;
+    font-weight: 700;
+}
 
+#buddypress div.item-list-tabs ul li a span {
+    background: white;
+    border: 1px solid #333;
+    color: #333;
+}
+
+a {
+    color: #123F5A;
+    text-decoration: none;
+}
+
+/*media all*/
+td {
+    background: white;
+    text-shadow: none;
+}
+table.profile-fields tr td.label {
+	border-right: 0px solid white !important;
+	font-size: 100%;	
+}
+
+/*media all*/
+tr {
+    color: #333;
+    text-shadow: 0px 1px 1px rgba(255,255,255,0.1);
+}
+
+table .label{
+color: #333;
+border-right: white;
+}
 

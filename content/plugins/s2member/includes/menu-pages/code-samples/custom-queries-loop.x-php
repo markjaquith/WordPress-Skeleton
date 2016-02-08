@@ -1,0 +1,17 @@
+<?php
+detach_s2member_query_filters();
+	query_posts("posts_per_page=5");
+
+	if (have_posts()):
+		while (have_posts()):
+			the_post();
+
+			if(!is_permitted_by_s2member())
+				continue;
+			// Skip it. The current User/Member has NO access.
+
+		endwhile;
+	endif;
+
+	wp_reset_query();
+?>

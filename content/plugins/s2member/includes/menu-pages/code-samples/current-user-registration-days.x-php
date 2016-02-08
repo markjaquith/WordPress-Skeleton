@@ -1,0 +1,41 @@
+<?php echo S2MEMBER_CURRENT_USER_REGISTRATION_DAYS; ?>
+This may output something like: 120 (120 days is approx 4 months)
+
+-------------------------------------------------------------------------
+
+In this example, the longer they've been registered (for free or otherwise), the more they get.
+
+<?php if(S2MEMBER_CURRENT_USER_REGISTRATION_DAYS >= 30){ ?>
+	Drip content to Users who've been registered for at least 30 days.
+<?php } ?>
+
+<?php if(S2MEMBER_CURRENT_USER_REGISTRATION_DAYS >= 60){ ?>
+	Drip content to Users who've been registered for at least 60 days.
+<?php } ?>
+
+<?php if(S2MEMBER_CURRENT_USER_REGISTRATION_DAYS >= 90){ ?>
+	Drip content to Users who've been registered for at least 90 days.
+<?php } ?>
+
+---- s2member Shortcode Equivalent (Requires s2Member Pro) ----
+
+[s2If php="S2MEMBER_CURRENT_USER_REGISTRATION_DAYS >= 30"]
+	Drip content to Users who've been registered for at least 30 days.
+[/s2If]
+
+[s2If php="S2MEMBER_CURRENT_USER_REGISTRATION_DAYS >= 60"]
+	Drip content to Users who've been registered for at least 60 days.
+[/s2If]
+
+[s2If php="S2MEMBER_CURRENT_USER_REGISTRATION_DAYS >= 90"]
+	Drip content to Users who've been registered for at least 90 days.
+[/s2If]
+
+**NOTE** The use of `[s2If php=""]` requires s2Member Pro.
+**NOTE** Arbitrary PHP code (via [s2If php=""]) will only work if you enable this functionality.
+	Please visit `Dashboard → s2Member → Restriction Options → Simple Shortcode Conditionals`
+		to set your preferences and enable `[s2If php=""]` when s2Member Pro is installed.
+
+---- Another s2member Shortcode Equivalent ----
+
+[s2Get constant="S2MEMBER_CURRENT_USER_REGISTRATION_DAYS" /]

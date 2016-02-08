@@ -1,0 +1,59 @@
+NOTE: While these old variables no longer appear in the URL,
+s2Member will create the following variables (internally) for backward compatibility
+with older versions of the software.
+
+-----------------------------------------------------------------------------------------------------------
+Example redirection links, including many of the possible MOP Variable variations.
+-----------------------------------------------------------------------------------------------------------
+
+	.../membership-options-page/?_s2member_seeking[post]=369&_s2member_req[sp]=369
+	.../membership-options-page/?_s2member_seeking[page]=559&_s2member_req[sp]=559
+	.../membership-options-page/?_s2member_seeking[page]=587&_s2member_req[level]=1
+	.../membership-options-page/?_s2member_seeking[post]=545&_s2member_req[level]=2
+	.../membership-options-page/?_s2member_seeking[catg]=698&_s2member_req[level]=4
+	.../membership-options-page/?_s2member_seeking[ptag]=447&_s2member_req[level]=3
+	.../membership-options-page/?_s2member_seeking[page]=887&_s2member_req[ccap]=music
+	.../membership-options-page/?_s2member_seeking[post]=871&_s2member_req[ccap]=videos
+	.../membership-options-page/?_s2member_seeking[file]=example.zip&_s2member_req[level]=1
+	.../membership-options-page/?_s2member_seeking[ruri]=aHR0cDov...&_s2member_req[level]=1
+
+-----------------------------------------------------------------------------------------------------------
+
+Here is a breakdown on each of these Variables:
+
+	* `_s2member_seeking[post|page|catg|ptag|file|ruri]` = (Post ID, Page ID, Category ID, Tag ID, File, URI)
+		Tip: `_s2member_seeking[file]` = (File path, relative to /s2member-files/, or your Amazon® S3 Bucket)
+		Tip: `_s2member_seeking[ruri]` = (A base 64 encoded URI; only applies w/ Membership URI Restrictions)
+		Tip: These array elements are mutually exclusive: [post|page|catg|ptag|file|ruri].
+			Only ONE of these array elements (i.e., Content Types) will be specified.
+
+	* `_s2member_req[level]` = a Membership Level # required for access (only applies to Membership Level Access)
+	* `_s2member_req[ccap]` = a Custom Capability required for access (only applies to Custom Capability Restrictions)
+	* `_s2member_req[sp]` = a Specific Post/Page ID required (only applies to Specific Post/Page Access Restrictions)
+		Tip: `_s2member_req[level|ccap|sp]` are mutually exclusive Requirement Types.
+		 Only ONE of these three elements will be passed in combination with:
+		 	`_s2member_seeking[post|page|catg|ptag|file|ruri]`.
+
+-----------------------------------------------------------------------------------------------------------
+
+Additional Variables that might be useful to developers:
+
+	* `_s2member_seeking[_uri]` = (A base 64 encoded URI; the URI they were originally seeking)
+		Tip: this is ALWAYS passed through, regardless of which Content Type was protected.
+
+	* `_s2member_seeking[type]` = (A string. One of: post|page|catg|ptag|file|ruri)
+		Tip: this is ALWAYS passed through, regardless of which Content Type was protected.
+
+	* `_s2member_req[type]` = (A string. One of: level|ccap|sp)
+		Tip: this Requirement Type Variable is ALWAYS passed through.
+
+	* `_s2member_res[type]` = (A string. One of: post|page|catg|ptag|file|ruri|ccap|sp|sys)
+		Tip: Actual Restriction Type that's preventing access; may differ from `_s2member_seeking[type]`.
+		Tip: Restriction Type `sys` Systematic (i.e., something s2Member protects automatically)
+		Tip: Restriction Type `ccap` represents Custom Capability Restrictions by s2Member.
+		Tip: Restriction Type `sp` represents Specific Post/Page Access Restrictions.
+		Tip: this Restriction Type Variable is ALWAYS passed through.
+
+-----------------------------------------------------------------------------------------------------------
+
+* The use of MOP Vars is 100% completely optional (for advanced site owners).

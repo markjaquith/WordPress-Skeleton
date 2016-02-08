@@ -1,0 +1,38 @@
+<?php
+// Configuration.
+$s2_jw_config["jwplayer"] = "/jwplayer/"; // Relative URL path to JW Player files directory.
+$s2_jw_config["mp4_video_file_name"] = "video.mp4"; // Name of your MP4 test file.
+$s2_jw_config["webm_video_file_name"] = "video.webm"; // Name of your WEBM test file.
+// Don't edit anything else below unless you know what you're doing.
+?>
+
+<div id="jw-container">JW Player® appears here.</div>
+<script type="text/javascript" src="<?php echo $s2_jw_config["jwplayer"]; ?>jwplayer.js"></script>
+
+<?php // A direct URL to the RTMP source; counting the file against the current User in real-time.
+$mp4_cfg = array("file_download" => $s2_jw_config["mp4_video_file_name"], "url_to_storage_source" => true, "count_against_user" => true);
+$webm_cfg = array("file_download" => $s2_jw_config["webm_video_file_name"], "url_to_storage_source" => true /* Don't count variations. */); ?>
+
+<?php // API Function `s2member_file_download_url()` returns false if access is denied to the current User.
+if (($mp4 = s2member_file_download_url ($mp4_cfg, "get-streamer-array"))
+						&& ($webm["url"] = s2member_file_download_url ($webm_cfg))) { ?>
+
+	<script type="text/javascript">
+		jwplayer('jw-container').setup({
+				playlist:
+					[{
+						sources: // List all available sources.
+							[
+								{type: 'rtmp', file: '<?php echo $mp4["streamer"]; ?>/mp4:<?php echo $mp4["file"]; ?>'},
+								{type: 'mp4', file: '<?php echo $mp4["url"]; ?>'},
+								{type: 'webm', file: '<?php echo $webm["url"]; ?>'}
+							]
+					}],
+				primary: 'flash' /* Try Flash® RTMP first, fallback on HTML5 or direct download of MP4/WEBM files. */,
+				width: 480, height: 270 // Set video dimensions for all sources.
+			});
+	</script>
+
+<?php } else /* Access is denied to the current User. */ { ?>
+	Sorry, you do NOT have access to this file.
+<?php } ?>

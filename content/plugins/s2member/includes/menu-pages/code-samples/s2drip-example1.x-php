@@ -1,0 +1,37 @@
+[s2Drip access="level1" from_day="4"]
+	Some content for Members at Level 1 (or higher).
+
+	This content will show only after day 3 of their paid membership.
+		~ i.e., it starts showing on day 4.
+
+	It will continue to be shown every day thereafter.
+[/s2Drip]
+
+[s2Drip access="level1" from_day="4" to_day="30"]
+	Some content for Members at Level 1 (or higher).
+
+	This content will show only after day 3 of their paid membership.
+		~ i.e., it starts showing on day 4.
+
+	In addition, this content will stop being shown on day 31 of their paid membership.
+		... i.e., show until (and including) day 30; stop showing after day 30.
+[/s2Drip]
+
+[s2Drip access="level1 AND (ccap_music OR ccap_videos)" from_day="4" to_day="30"]
+    Some content for Members at Level 1 (or higher).
+    They must also have the CCAP `music` or the CCAP `videos` too.
+
+    This content will show only after day 3 of their paid membership.
+        ~ i.e., it starts showing on day 4.
+
+    In addition, this content will stop being shown on day 31 of their paid membership.
+        ... i.e., show until (and including) day 30; stop showing after day 30.
+[/s2Drip]
+
+**NOTE** The use of [s2Drip] requires s2Member Pro.
+
+**NOTE** [s2Drip] will NOT work as expected when testing against an Administrator who is logged in.
+	While Administrators DO gain full access to all content, Administrators generally
+	do NOT have a paid registration time; i.e., they are not an actual customer.
+	Thus, do NOT test this as an Administrator, you WILL be confused :-)
+	Administrators will always see the content, no matter.

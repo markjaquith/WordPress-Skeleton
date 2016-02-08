@@ -1,0 +1,7 @@
+<?php echo S2MEMBER_PAYPAL_API_ENDPOINT; ?>
+This will output the PayPal® API endpoint domain: api-3t.paypal.com
+(if sandbox testing is enabled, it will output api-3t.sandbox.paypal.com)
+
+---- s2member Shortcode Equivalent ----
+
+[s2Get constant="S2MEMBER_PAYPAL_API_ENDPOINT" /]

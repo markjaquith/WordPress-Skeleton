@@ -108,7 +108,7 @@
 .navbar-nav {
 	/* float: left; */
 	margin: -2px 0 0; 
-	width: 70%;
+	width: 100%;
 }
 .navbar-nav  .dropdown-toggle > i {
 	font-size: 18px;

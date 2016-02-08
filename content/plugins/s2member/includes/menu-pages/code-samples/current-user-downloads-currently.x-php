@@ -1,0 +1,7 @@
+<?php echo S2MEMBER_CURRENT_USER_DOWNLOADS_CURRENTLY; ?>
+This will output the number of files they've downloaded recently.
+(that is, the number of files within the last X days, according to your configuration)
+
+---- s2member Shortcode Equivalent ----
+
+[s2Get constant="S2MEMBER_CURRENT_USER_DOWNLOADS_CURRENTLY" /]

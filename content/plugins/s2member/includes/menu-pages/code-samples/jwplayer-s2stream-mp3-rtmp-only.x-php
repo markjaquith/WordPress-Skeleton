@@ -1,0 +1,2 @@
+Copy/paste this Shortcode into any WordPress® Post or Page.
+[s2Stream player="jwplayer-v6-rtmp-only" player_path="/jwplayer/jwplayer.js" file_download="audio.mp3" /]

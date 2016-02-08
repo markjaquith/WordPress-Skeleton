@@ -1,0 +1,13 @@
+<?php if (S2MEMBER_CURRENT_USER_ACCESS_LEVEL >= 4){ ?>
+    Some content for Members with an s2Member Level >= 4.
+<?php } else if (S2MEMBER_CURRENT_USER_ACCESS_LEVEL >= 3){ ?>
+    Some content for Members with an s2Member Level >= 3.
+<?php } else if (S2MEMBER_CURRENT_USER_ACCESS_LEVEL >= 2){ ?>
+    Some content for Members with an s2Member Level >= 2.
+<?php } else if (S2MEMBER_CURRENT_USER_ACCESS_LEVEL >= 1){ ?>
+    Some content for Members with an s2Member Level >= 1.
+<?php } else if(S2MEMBER_CURRENT_USER_ACCESS_LEVEL === 0){ ?>
+    Some content for Free Subscribers.
+<?php } else if(S2MEMBER_CURRENT_USER_ACCESS_LEVEL === -1){ ?>
+    Some public content.
+<?php } ?>

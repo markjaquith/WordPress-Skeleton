@@ -1,0 +1,7 @@
+<?php echo S2MEMBER_CURRENT_USER_PAID_REGISTRATION_TIME; ?>
+This may output something like: 1270537981
+(this is a Unix timestamp, which is based on seconds)
+
+---- s2member Shortcode Equivalent ----
+
+[s2Get constant="S2MEMBER_CURRENT_USER_PAID_REGISTRATION_TIME" /]
