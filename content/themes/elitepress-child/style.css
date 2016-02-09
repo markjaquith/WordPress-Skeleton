@@ -15,7 +15,7 @@ body {
     font-family: 'Raleway', sans-serif !important;
     font-size: 16px;
     line-height: 1.42857;
-	font-weight: 400;
+	  font-weight: 400;
 }
 
 .textwidget strong, p {
@@ -54,7 +54,7 @@ body {
    border-radius: 4px;
 }
 /*Page wrapper Css---------------------------------------------------------------------------------------------------*/
-#wrapper{	
+#wrapper{
 	margin: 0px 0px;
 	background-color: #ffffff;
     left: 0;
@@ -67,7 +67,7 @@ body {
     margin: 5px !important;
 }
 
-.event_wrapper .event_location .heading, 
+.event_wrapper .event_location .heading,
 .event_wrapper .event_organization .heading {
 	margin-left: 0px !important;
 	font-size: inherit;
@@ -143,7 +143,7 @@ body {
 	letter-spacing: 1px;
     z-index: 100;
 	display: inline-block;
-	
+
 }
 
 /*about us Section Css---------------------------------------------------------------------------------------------------*/
@@ -151,7 +151,7 @@ body {
 	/* margin: 0 0 70px;  Original After Css*/
 	margin: 0 0 50px;
 }
-	
+
 .footer-widget-column > ul > li > a:before{
 	font-family: FontAwesome;
     margin-right: 9px;
@@ -167,7 +167,7 @@ body {
 
 .footer-widget-column > .menu-quick-links-container > ul > li > a {
 	font-size: 15px;
-	
+
 }
 
 .footer-widget-column > .menu-quick-links-container > ul > li > a:before {
@@ -175,7 +175,7 @@ body {
 	color: black;
 	font-family: FontAwesome;
 	margin-right: 6px;
-	font-size: 15px;	
+	font-size: 15px;
 }
 
 .footer-widget-title {
@@ -188,7 +188,7 @@ body {
 
 .footer-widget-section {
 	padding: 15px;
-	position: relative;	
+	position: relative;
 }
 .footer-widget-section:before {
 	background-image: url(../../uploads/2016/01/doorsmall.jpg);
@@ -219,7 +219,7 @@ div.desc{
 	position: relative;
     width: 100%;
     padding: 0px;
-	
+
 }
 .overlay-caption{
 	color: white;
@@ -236,7 +236,7 @@ div.desc{
 .title-overlay {
 	font-size: 18px;
 	position: absoloute;
-	background-color: blue; 
+	background-color: blue;
 	width: 100%;
 	bottom: 0;
 }
@@ -268,6 +268,10 @@ p {
 #header-btn-container a {
     margin-top: 10px;
 }
+}
+
+#about-text a:hover{
+	text-decoration: underline;
 }
 
 .borderless {
@@ -307,17 +311,15 @@ a {
     text-decoration: none;
 }
 
-/*media all*/
 td {
     background: white;
     text-shadow: none;
 }
 table.profile-fields tr td.label {
 	border-right: 0px solid white !important;
-	font-size: 100%;	
+	font-size: 100%;
 }
 
-/*media all*/
 tr {
     color: #333;
     text-shadow: 0px 1px 1px rgba(255,255,255,0.1);
@@ -327,4 +329,3 @@ table .label{
 color: #333;
 border-right: white;
 }
-
