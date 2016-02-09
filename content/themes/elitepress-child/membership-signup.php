@@ -23,7 +23,7 @@ get_header();
         <p><strong>To sign up and register on the artist directory is free until 31st July 2016 after this date registration fee will be £30 for 12 months.</strong></p>
         <p><strong>Note:</strong> You will be prompted to make a subscription through paypal. Once the subscription has been made you will be sent a registration link to the email address associated with your paypal account.</p>
         <p>Click the registration link in your email in order to create your membership account</p>
-        <p>For any enquires please don't hesitate to <strong><a href="contact-us">contact us</a></strong> or phone us on <strong>0121 772 0852</strong></p>
+        <p>For any enquires please don't hesitate to <strong><a href="<?php echo site_url('contact-us') ?>">contact us</a></strong> or phone us on <strong>0121 772 0852</strong></p>
       </div>
     </div>
   </div>
