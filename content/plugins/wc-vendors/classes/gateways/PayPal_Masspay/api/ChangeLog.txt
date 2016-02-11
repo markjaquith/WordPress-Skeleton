@@ -1,0 +1,48 @@
+
+Version 1.2.95 - September 28, 2012
+
+	- SDK refreshed to Release 95. Please refer https://www.x.com/developers/paypal/documentation-tools/release-notes#MerchantAPI
+	- SDK now supports third party permission by subject header. Configure subject header
+  	  in the configuration file, this is basically third party merchant email address who has 
+	  given permission to you to call api on their behalf.
+	- Bug fixed for Page styling attributes (eg: cpp-header**) serialization. (https://github.com/paypal/SDKs/issues/31)
+	- Bug fixed for 'convertToXML' method for not escaping xml element correctly.(https://github.com/paypal/SDKs/issues/17)
+	- PayPal Endpoint is corrected in config file.(https://github.com/paypal/SDKs/issues/22)
+	- Bug fixed for BasicAmountType serialization without currencyID attribute.(https://github.com/paypal/SDKs/issues/23)
+	- Bug fixed for 'PPLoggingManager.php' to pickup configuration entries.(https://github.com/paypal/SDKs/issues/28)
+	- Updated SDK sample
+--------------------------------------------------------------------------------------------------
+
+
+Version 1.1.93 - August 14, 2012
+ 
+	- SDK refreshed to Release 93. Please refer https://www.x.com/developers/paypal/documentation-tools/release-notes#MerchantAPI
+	- SDK Core - Deserialization Logic Change
+--------------------------------------------------------------------------------------------------
+
+
+Version 1.0.92 - July 30, 2012
+ 
+	- Stable release
+-------------------------------------------------------------------------------------------------
+Version 0.7.92 - July 17, 2012 
+
+	- wsdl update version 0.7.92
+--------------------------------------------------------------------------------------------------
+		
+Version 0.7.90 - 11-June-2012
+
+	- SDK upgrade to latest WSDL release (90.0)
+--------------------------------------------------------------------------------------------------
+
+Version 0.7.88 - 17-Apr-2012
+
+	- Fix to get SDK working with Permissions API token	
+
+--------------------------------------------------------------------------------------------------
+
+Version 0.6.88 - 27-Feb-2012
+
+	- Initial release
+
+--------------------------------------------------------------------------------------------------

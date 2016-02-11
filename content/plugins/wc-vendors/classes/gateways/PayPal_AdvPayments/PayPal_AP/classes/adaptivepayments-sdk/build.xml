@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="PayPal_PHP_SDK" default="build">
+
+
+    <condition property="PHPUNIT_PATH" value="phpunit.bat" else="phpunit">
+        <os family="windows"/>
+    </condition>
+
+    <target name="clean">
+        <delete dir="${basedir}/build"/>
+    </target>
+
+
+    <target name="phpunit">
+        <mkdir dir="tests/reports/"/>
+        <exec dir="${basedir}" executable="${PHPUNIT_PATH}" failonerror="true">
+            <arg
+                    line="--testdox --include-path lib --log-junit tests\reports\phpunit.xml tests"/>
+        </exec>
+    </target>
+
+
+    <target name="build" depends="clean, phpunit"/>
+</project>

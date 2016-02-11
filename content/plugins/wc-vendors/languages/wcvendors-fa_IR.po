@@ -1,0 +1,1695 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WC Vendors\n"
+"POT-Creation-Date: 2015-04-26 01:43+0330\n"
+"PO-Revision-Date: 2015-04-26 01:46+0330\n"
+"Last-Translator: Alireza Rastegar <alireza.mine@gmail.com>\n"
+"Language-Team: Alireza Rastegar <info@mining-eng.ir>\n"
+"Language: fa_IR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.1\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../class-wc-vendors.php:71 ../classes/admin/class-admin-reports.php:41
+#: ../classes/admin/class-admin-users.php:371
+msgid "WC Vendors"
+msgstr "فروشندگان ووکامرس"
+
+#: ../class-wc-vendors.php:98
+msgid ""
+"<b>WC Vendors is disabled</b>. WC Vendors requires a minimum of WooCommerce "
+"v2.2.0."
+msgstr ""
+"<b> افزونه فروشندگان ووکامرس غیر فعال شده است</b>.  این افزونه حداقل نیاز به "
+"WooCommerce v2.2.0 دارد"
+
+#: ../class-wc-vendors.php:225 ../classes/admin/settings/sf-options.php:159
+msgid "Capabilities"
+msgstr "دسترسی‌ها"
+
+#: ../class-wc-vendors.php:249 ../classes/admin/settings/sf-options.php:4
+msgid "General"
+msgstr "عمومی"
+
+#: ../class-wc-vendors.php:284
+msgid "Documentation/KB"
+msgstr "مستندات / KB"
+
+#: ../class-wc-vendors.php:285
+msgid "Help Forums"
+msgstr "انجمن راهنما"
+
+#: ../class-wc-vendors.php:286
+msgid "Paid Support"
+msgstr "هزینه پشتیبانی"
+
+#: ../class-wc-vendors.php:308
+#, php-format
+msgid ""
+"WC Vendors requires the Vendor shop page value be set <a href=\"%s\">click "
+"here to set it.</a> | <a href=\"%s\">Hide Notice</a>"
+msgstr ""
+"افزونه فروشندگان ووکامرس نیاز به تنظیمات صفحه فروشندگان دارد<a href=\"%s"
+"\">جهت انجام تنظیمات اینجا کلیک کنید.</a> | <a href=\"%s\">مخفی کردن "
+"اطلاعیه</a>"
+
+#: ../class-wc-vendors.php:316
+#, php-format
+msgid ""
+"You must save your permalinks once you have modified your vendor page. <a "
+"href=\"%s\">click here to save</a>.  | <a href=\"%s\">Hide Notice</a>"
+msgstr ""
+"زمانی که پیوند یکتا را تغییر میدهید باید صفحه فروشندگان را در تنظیمات تغییر "
+"دهید. <a href=\"%s\">برای تنظیمات کلیک کنید</a>.  | <a href=\"%s\">مخفی کردن "
+"این اطلاعیه</a>"
+
+#: ../classes/admin/class-admin-page.php:27
+msgid "Vendors shipped"
+msgstr "حمل و نقل در فروشندگان"
+
+#: ../classes/admin/class-admin-page.php:50
+msgid "Vendors Shipped"
+msgstr "عرضه در فروشندگان"
+
+#: ../classes/admin/class-admin-page.php:72
+#: ../classes/admin/class-admin-page.php:132
+#: ../classes/admin/class-admin-reports.php:339
+#: ../classes/admin/class-product-meta.php:149
+#: ../classes/admin/class-product-meta.php:165
+#: ../templates/dashboard/reports.php:19
+msgid "Commission"
+msgstr "کمیسیون"
+
+#: ../classes/admin/class-admin-page.php:251
+#: ../classes/admin/class-admin-reports.php:168
+#: ../templates/dashboard/reports.php:17
+#: ../templates/emails/admin-new-order.php:22
+#: ../templates/emails/notify-vendor-shipped.php:22
+msgid "Product"
+msgstr "محصول"
+
+#: ../classes/admin/class-admin-page.php:252
+#: ../classes/admin/class-vendor-admin-dashboard.php:255
+msgid "Order ID"
+msgstr "شناسه سفارش"
+
+#: ../classes/admin/class-admin-page.php:253
+#: ../classes/admin/class-admin-reports.php:169
+#: ../classes/admin/class-product-meta.php:44
+#: ../classes/admin/class-product-meta.php:185
+#: ../classes/admin/class-product-meta.php:221
+msgid "Vendor"
+msgstr "فروشنده"
+
+#: ../classes/admin/class-admin-page.php:254
+#: ../classes/admin/class-admin-reports.php:170
+#: ../classes/admin/class-admin-reports.php:344
+#: ../classes/admin/class-admin-reports.php:368
+#: ../classes/admin/class-vendor-admin-dashboard.php:258
+#: ../templates/dashboard/orders.php:35
+msgid "Total"
+msgstr "جمع کل"
+
+#: ../classes/admin/class-admin-page.php:255
+#: ../classes/admin/class-admin-reports.php:172
+msgid "Status"
+msgstr "وضعیت"
+
+#: ../classes/admin/class-admin-page.php:256
+#: ../classes/admin/class-vendor-admin-dashboard.php:259
+#: ../classes/front/orders/class-orders.php:216
+#: ../templates/dashboard/orders.php:36
+msgid "Date"
+msgstr "تاریخ"
+
+#: ../classes/admin/class-admin-page.php:293
+msgid "Mark paid"
+msgstr "پرداخت شده"
+
+#: ../classes/admin/class-admin-page.php:294
+msgid "Mark due"
+msgstr "در انتظار پرداخت"
+
+#: ../classes/admin/class-admin-page.php:295
+msgid "Mark reversed"
+msgstr "لغو شده"
+
+#: ../classes/admin/class-admin-page.php:312
+#: ../classes/admin/class-admin-page.php:316
+msgid "Filter"
+msgstr "فیلتر"
+
+#: ../classes/admin/class-admin-page.php:351
+msgid "Show all dates"
+msgstr "نمایش همه تاریخ ها"
+
+#. translators: 1: month name, 2: 4-digit year
+#: ../classes/admin/class-admin-page.php:364
+#, php-format
+msgid "%1$s %2$d"
+msgstr ""
+
+#: ../classes/admin/class-admin-page.php:386
+msgid "Show all Statuses"
+msgstr "نمایش همه وضعیت ها"
+
+#: ../classes/admin/class-admin-page.php:412
+msgid "Commission marked paid."
+msgstr "کمیسیون پرداخت شده."
+
+#: ../classes/admin/class-admin-page.php:419
+msgid "Commission marked due."
+msgstr "کمیسیون در انتظار پرداخت."
+
+#: ../classes/admin/class-admin-page.php:426
+msgid "Commission marked reversed."
+msgstr "کمیسیون لغو شد"
+
+#: ../classes/admin/class-admin-reports.php:44
+msgid "Overview"
+msgstr "نمای کلی"
+
+#: ../classes/admin/class-admin-reports.php:50
+msgid "Commission by vendor"
+msgstr "کمیسیون فروشنده"
+
+#: ../classes/admin/class-admin-reports.php:56
+msgid "Commission by product"
+msgstr "کمیسیون محصول"
+
+#: ../classes/admin/class-admin-reports.php:115
+#: ../templates/dashboard/date-picker.php:3
+msgid "From:"
+msgstr "از:"
+
+#: ../classes/admin/class-admin-reports.php:117
+#: ../templates/dashboard/date-picker.php:7
+msgid "To:"
+msgstr "به:"
+
+#: ../classes/admin/class-admin-reports.php:119
+#: ../classes/admin/class-admin-reports.php:277
+#: ../templates/dashboard/date-picker.php:12
+msgid "Show"
+msgstr "نمایش"
+
+#: ../classes/admin/class-admin-reports.php:125
+msgid "Total paid in range"
+msgstr "جمع کل پرداختی ها"
+
+#: ../classes/admin/class-admin-reports.php:128
+#: ../classes/admin/class-admin-reports.php:135
+#: ../classes/admin/class-admin-reports.php:142
+msgid "n/a"
+msgstr "n/a"
+
+#: ../classes/admin/class-admin-reports.php:132
+msgid "Total due in range"
+msgstr "جمع کل قابل پرداخت\t"
+
+#: ../classes/admin/class-admin-reports.php:139
+msgid "Total reversed in range"
+msgstr "جمع کل لغو شده ها"
+
+#: ../classes/admin/class-admin-reports.php:149
+msgid "Recent Commission"
+msgstr "درآمدهای اخیر"
+
+#: ../classes/admin/class-admin-reports.php:167
+#: ../classes/front/orders/class-orders.php:208
+#: ../templates/dashboard/orders.php:33
+msgid "Order"
+msgstr "ترتیب"
+
+#: ../classes/admin/class-admin-reports.php:171
+msgid "Date &amp; Time"
+msgstr "تاریخ و زمان"
+
+#: ../classes/admin/class-admin-reports.php:180
+msgid "N/A"
+msgstr "N/A"
+
+#: ../classes/admin/class-admin-reports.php:185
+msgid "D j M Y \\a\\t h:ia"
+msgstr ""
+
+#: ../classes/admin/class-admin-reports.php:194
+msgid "No commission yet"
+msgstr "در حال حاضر درآمدی کسب نکرده اید"
+
+#: ../classes/admin/class-admin-reports.php:228
+msgid "Show:"
+msgstr "نمایش:"
+
+#: ../classes/admin/class-admin-reports.php:237
+msgid "Search for a product&hellip;"
+msgstr "جستجوی یک محصول ؛"
+
+#: ../classes/admin/class-admin-reports.php:240
+msgid "Type in a product name to start searching..."
+msgstr "تایپ نام محصول برای شروع جستجو ..."
+
+#: ../classes/admin/class-admin-reports.php:272
+msgid "Select a vendor&hellip;"
+msgstr "انتخاب یک فروشنده ;"
+
+#: ../classes/admin/class-admin-reports.php:338
+msgid "Month"
+msgstr "ماهانه"
+
+#: ../classes/admin/class-admin-reports.php:340
+msgid "Tax"
+msgstr "مالیات"
+
+#: ../classes/admin/class-admin-reports.php:341
+#: ../classes/admin/settings/sf-options.php:46
+#: ../templates/dashboard/orders.php:34 ../templates/orders/orders.php:113
+msgid "Shipping"
+msgstr "حمل و نقل"
+
+#: ../classes/admin/class-admin-reports.php:342
+msgid "Reversed"
+msgstr "لغو شده"
+
+#: ../classes/admin/class-admin-reports.php:343
+msgid "Paid"
+msgstr "پرداخت شده"
+
+#: ../classes/admin/class-admin-users.php:381
+msgid "Enable HTML for the shop description"
+msgstr "فعال کردن HTML  در توضیحات فروشگاه"
+
+#: ../classes/admin/class-admin-users.php:387
+msgid "Shop name"
+msgstr "نام فروشگاه"
+
+#: ../classes/admin/class-admin-users.php:394
+msgid "PayPal E-mail"
+msgstr "ایمیل شما در PayPal"
+
+#: ../classes/admin/class-admin-users.php:395
+msgid "required"
+msgstr "ضروری"
+
+#: ../classes/admin/class-admin-users.php:402
+msgid "Commission rate"
+msgstr "نرخ کمیسیون:"
+
+#: ../classes/admin/class-admin-users.php:403
+#: ../classes/admin/class-product-meta.php:172
+msgid "Leave blank for default"
+msgstr "به صورت پیش فرض خالی بگذارید"
+
+#: ../classes/admin/class-admin-users.php:409
+#: ../classes/admin/views/html-vendor-settings-page.php:30
+#: ../classes/front/class-vendor-shop.php:103
+#: ../templates/dashboard/settings/seller-info.php:3
+msgid "Seller info"
+msgstr "مشخصات فروشنده"
+
+#: ../classes/admin/class-admin-users.php:414
+msgid "Shop description"
+msgstr "توضیحات فروشگاه"
+
+#: ../classes/admin/class-vendor-admin-dashboard.php:19
+#: ../classes/class-install.php:166
+msgid "Shop Settings"
+msgstr "تنظیمات فروشگاه"
+
+#: ../classes/admin/class-vendor-admin-dashboard.php:20
+#: ../classes/admin/class-vendor-admin-dashboard.php:142
+#: ../classes/admin/settings/sf-options.php:163
+#: ../classes/class-install.php:165 ../templates/dashboard/orders.php:24
+msgid "Orders"
+msgstr "سفارشات"
+
+#: ../classes/admin/class-vendor-admin-dashboard.php:53
+#: ../classes/front/dashboard/class-vendor-dashboard.php:101
+msgid "Your PayPal address is not a valid email address."
+msgstr "آدرس PayPal شما یک آدرس ایمیل معتبر نیست."
+
+#: ../classes/admin/class-vendor-admin-dashboard.php:63
+#: ../classes/front/dashboard/class-vendor-dashboard.php:110
+msgid "That shop name is already taken. Your shop name must be unique."
+msgstr ""
+"این نام فروشگاه قبلا گرفته شده است. نام فروشگاه شما باید منحصر به فرد باشد."
+
+#: ../classes/admin/class-vendor-admin-dashboard.php:83
+#: ../classes/admin/settings/classes/sf-class-settings.php:366
+#: ../classes/front/dashboard/class-vendor-dashboard.php:128
+msgid "Settings saved."
+msgstr "تنظیمات ذخیره شد."
+
+#: ../classes/admin/class-vendor-admin-dashboard.php:256
+msgid "Customer"
+msgstr "مشتری"
+
+#: ../classes/admin/class-vendor-admin-dashboard.php:257
+#: ../classes/admin/settings/sf-options.php:95
+#: ../classes/admin/settings/sf-options.php:221
+msgid "Products"
+msgstr "محصولات"
+
+#: ../classes/admin/class-vendor-admin-dashboard.php:260
+msgid "Shipped"
+msgstr "ارسال پستی"
+
+#: ../classes/admin/class-vendor-admin-dashboard.php:293
+#: ../templates/dashboard/orders.php:68
+msgid "Mark shipped"
+msgstr "انتخاب به عنوان محصول ارسال شده"
+
+#: ../classes/admin/class-vendor-admin-dashboard.php:317
+msgid "Orders marked shipped."
+msgstr "سفارشات پستی مشخص شده اند."
+
+#: ../classes/admin/class-vendor-applicants.php:26
+msgid "Approve"
+msgstr "تایید"
+
+#: ../classes/admin/class-vendor-applicants.php:27
+msgid "Deny"
+msgstr "رد کردن"
+
+#: ../classes/admin/class-vendor-applicants.php:71
+msgid "Vendor has been <b>denied</b>."
+msgstr "فروشنده <b>محروم</b>بوده است."
+
+#: ../classes/admin/class-vendor-applicants.php:82
+msgid "Vendor has been <b>approved</b>."
+msgstr "فروشنده <b>تایید</b>شده است."
+
+#: ../classes/admin/class-vendor-applicants.php:96
+msgid "Pending Vendors"
+msgstr "فروشندگان در انتظار تایید"
+
+#: ../classes/admin/emails/class-emails.php:55
+#: ../classes/admin/emails/class-wc-approve-vendor.php:70
+msgid "pending"
+msgstr "در انتظار"
+
+#: ../classes/admin/emails/class-emails.php:57
+msgid "approved"
+msgstr "تایید شده"
+
+#: ../classes/admin/emails/class-emails.php:59
+msgid "denied"
+msgstr "رد شده"
+
+#: ../classes/admin/emails/class-emails.php:86
+#: ../classes/front/class-vendor-cart.php:59
+#: ../classes/front/class-vendor-shop.php:178
+msgid "Sold by: "
+msgstr "فروخته شده توسط:"
+
+#: ../classes/admin/emails/class-wc-approve-vendor.php:28
+msgid "Vendor Application"
+msgstr "درخواست فروشنده"
+
+#: ../classes/admin/emails/class-wc-approve-vendor.php:29
+msgid "Vendor application will either be approved, denied, or pending."
+msgstr "درخواست فروشنده یا مورد تایید باشند،  لغو شدد و یا در انتظار خواهد بود"
+
+#: ../classes/admin/emails/class-wc-approve-vendor.php:31
+msgid "Application {status}"
+msgstr "وضعیت درخواست: {status}"
+
+#: ../classes/admin/emails/class-wc-approve-vendor.php:32
+msgid "[{blogname}] Your vendor application has been {status}"
+msgstr "[{blogname}] درخواست فروشندگی شما: {status}"
+
+#: ../classes/admin/emails/class-wc-approve-vendor.php:123
+#: ../classes/admin/emails/class-wc-notify-admin.php:131
+#: ../classes/admin/emails/class-wc-notify-shipped.php:163
+#: ../classes/admin/emails/class-wc-notify-vendor.php:232
+#: ../classes/gateways/WCV_Gateway_Test/class-wcv-gateway-test.php:62
+msgid "Enable/Disable"
+msgstr "فعال/غیر فعال"
+
+#: ../classes/admin/emails/class-wc-approve-vendor.php:125
+#: ../classes/admin/emails/class-wc-notify-admin.php:133
+#: ../classes/admin/emails/class-wc-notify-shipped.php:165
+#: ../classes/admin/emails/class-wc-notify-vendor.php:234
+msgid "Enable this email notification"
+msgstr "فعال کردن دریافت اطلاعیه ها از طریق ایمیل"
+
+#: ../classes/admin/emails/class-wc-approve-vendor.php:129
+#: ../classes/admin/emails/class-wc-notify-admin.php:137
+msgid "Recipient(s)"
+msgstr "دریافت کننده"
+
+#: ../classes/admin/emails/class-wc-approve-vendor.php:131
+#: ../classes/admin/emails/class-wc-notify-admin.php:139
+#, php-format
+msgid ""
+"Enter recipients (comma separated) for this email. Defaults to <code>%s</"
+"code>."
+msgstr ""
+"ایمیل گیرندگان را وارد نمایید (جدا شده با کاما). پیش‌فرض <code>%s</code> است."
+
+#: ../classes/admin/emails/class-wc-approve-vendor.php:136
+#: ../classes/admin/emails/class-wc-notify-admin.php:144
+#: ../classes/admin/emails/class-wc-notify-shipped.php:169
+#: ../classes/admin/emails/class-wc-notify-vendor.php:238
+msgid "Subject"
+msgstr "موضوع"
+
+#: ../classes/admin/emails/class-wc-approve-vendor.php:138
+#: ../classes/admin/emails/class-wc-notify-admin.php:146
+#: ../classes/admin/emails/class-wc-notify-shipped.php:171
+#: ../classes/admin/emails/class-wc-notify-vendor.php:240
+#, php-format
+msgid ""
+"This controls the email subject line. Leave blank to use the default "
+"subject: <code>%s</code>."
+msgstr ""
+"اینجا موضوع ایمیل انتخاب می‌شود. خالی رها کنید تا از موضوع پیش‌فرض استفاده "
+"شود: <code>%s</code>."
+
+#: ../classes/admin/emails/class-wc-approve-vendor.php:143
+#: ../classes/admin/emails/class-wc-notify-admin.php:151
+#: ../classes/admin/emails/class-wc-notify-shipped.php:176
+#: ../classes/admin/emails/class-wc-notify-vendor.php:245
+msgid "Email Heading"
+msgstr "عنوان ایمیل"
+
+#: ../classes/admin/emails/class-wc-approve-vendor.php:145
+#: ../classes/admin/emails/class-wc-notify-admin.php:153
+#: ../classes/admin/emails/class-wc-notify-shipped.php:178
+#: ../classes/admin/emails/class-wc-notify-vendor.php:247
+#, php-format
+msgid ""
+"This controls the main heading contained within the email notification. "
+"Leave blank to use the default heading: <code>%s</code>."
+msgstr ""
+"اینجا عنوان اصلی موجود در ایمیل انتخاب می‌شود. خالی رها کنید تا از عنوان "
+"پیش‌فرض استفاده شود: <code>%s</code>."
+
+#: ../classes/admin/emails/class-wc-approve-vendor.php:150
+#: ../classes/admin/emails/class-wc-notify-admin.php:158
+#: ../classes/admin/emails/class-wc-notify-shipped.php:183
+#: ../classes/admin/emails/class-wc-notify-vendor.php:252
+msgid "Email type"
+msgstr "نوع ایمیل"
+
+#: ../classes/admin/emails/class-wc-approve-vendor.php:152
+#: ../classes/admin/emails/class-wc-notify-admin.php:160
+#: ../classes/admin/emails/class-wc-notify-shipped.php:185
+#: ../classes/admin/emails/class-wc-notify-vendor.php:254
+msgid "Choose which format of email to send."
+msgstr "ساختار ایمیل برای فرستادن را انتخاب کنید."
+
+#: ../classes/admin/emails/class-wc-approve-vendor.php:156
+#: ../classes/admin/emails/class-wc-notify-admin.php:164
+#: ../classes/admin/emails/class-wc-notify-shipped.php:189
+#: ../classes/admin/emails/class-wc-notify-vendor.php:258
+msgid "Plain text"
+msgstr "متن ساده"
+
+#: ../classes/admin/emails/class-wc-approve-vendor.php:157
+#: ../classes/admin/emails/class-wc-notify-admin.php:165
+#: ../classes/admin/emails/class-wc-notify-shipped.php:190
+#: ../classes/admin/emails/class-wc-notify-vendor.php:259
+msgid "HTML"
+msgstr "HTML"
+
+#: ../classes/admin/emails/class-wc-approve-vendor.php:158
+#: ../classes/admin/emails/class-wc-notify-admin.php:166
+#: ../classes/admin/emails/class-wc-notify-shipped.php:191
+#: ../classes/admin/emails/class-wc-notify-vendor.php:260
+msgid "Multipart"
+msgstr "چند بخشی"
+
+#: ../classes/admin/emails/class-wc-notify-admin.php:28
+msgid "New Vendor Product"
+msgstr "اضافه کردن محصول جدید"
+
+#: ../classes/admin/emails/class-wc-notify-admin.php:29
+msgid "New order emails are sent when a new product is submitted by a vendor"
+msgstr ""
+"هنگامی که محصول جدید توسط یک فروشنده ارسال می شود یک ایمیل اطلاع رسانی "
+"فرستاده خواهد شد"
+
+#: ../classes/admin/emails/class-wc-notify-admin.php:31
+msgid "New product submitted: {product_name}"
+msgstr "محصول جدید ارسال شده: {product_name}"
+
+#: ../classes/admin/emails/class-wc-notify-admin.php:32
+msgid "[{blogname}] New product submitted by {vendor_name} - {product_name}"
+msgstr "[{blogname}] محصول جدید ارسال شده توسط {vendor_name}- {product_name}"
+
+#: ../classes/admin/emails/class-wc-notify-shipped.php:28
+msgid "Vendor has shipped"
+msgstr "فروشنده فرستاده است"
+
+#: ../classes/admin/emails/class-wc-notify-shipped.php:29
+msgid ""
+"An email is sent when a vendor has marked one of their orders as shipped."
+msgstr ""
+"هنگامی که فروشنده یکی از سفارشات خود را به عنوان محصول پستی مشخص کرده یک "
+"ایمیل برای او ارسال می شود."
+
+#: ../classes/admin/emails/class-wc-notify-shipped.php:31
+msgid "Your order has been shipped"
+msgstr "سفارش شما ارسال شده است"
+
+#: ../classes/admin/emails/class-wc-notify-shipped.php:32
+msgid ""
+"[{blogname}] Your order has been shipped ({order_number}) - {order_date}"
+msgstr "[{blogname}] سفارش شما ارسال شده است ({order_number}) - {order_date}"
+
+#: ../classes/admin/emails/class-wc-notify-shipped.php:112
+msgid "Subtotal:"
+msgstr "جمع کل:"
+
+#: ../classes/admin/emails/class-wc-notify-vendor.php:27
+msgid "Notify vendors"
+msgstr "اطلاعیه فروشندگان"
+
+#: ../classes/admin/emails/class-wc-notify-vendor.php:28
+msgid "New order emails are sent when an order is received/paid by a customer."
+msgstr ""
+"ایمیل های، سفارش جدید / پرداخت شده توسط مشتری  در هنگام سفارش فرستاده می شود."
+
+#: ../classes/admin/emails/class-wc-notify-vendor.php:30
+msgid "New customer order"
+msgstr "سفارش جدید مشتری"
+
+#: ../classes/admin/emails/class-wc-notify-vendor.php:31
+msgid "[{blogname}] New customer order ({order_number}) - {order_date}"
+msgstr "[{blogname}] سفارش جدید مشتری ({order_number}) - {order_date}"
+
+#: ../classes/admin/emails/class-wc-notify-vendor.php:103
+msgid "Commission Subtotal:"
+msgstr "میزان درآمد"
+
+#: ../classes/admin/emails/class-wc-notify-vendor.php:112
+msgid "Shipping Subtotal:"
+msgstr "هزینه حمل و نقل:"
+
+#: ../classes/admin/settings/classes/sf-class-format-options.php:211
+#: ../classes/admin/settings/classes/sf-class-settings.php:776
+msgid "Select a page..."
+msgstr "انتخاب یک برگه..."
+
+#: ../classes/admin/settings/classes/sf-class-settings.php:153
+#: ../templates/dashboard/settings/settings.php:1
+msgid "Settings"
+msgstr "تنظیمات"
+
+#: ../classes/admin/settings/classes/sf-class-settings.php:300
+msgid "Could not load settings at: "
+msgstr "تنظیمات بارگیری نشد:"
+
+#: ../classes/admin/settings/classes/sf-class-settings.php:300
+msgid "Error - WP Settings Framework"
+msgstr "خطا در تنظیمات کلی وردپرس"
+
+#: ../classes/admin/settings/classes/sf-class-settings.php:482
+#, php-format
+msgid "Save %s changes"
+msgstr "%s تغییرات ذخیره شد"
+
+#: ../classes/admin/settings/sf-options.php:5
+msgid "General options"
+msgstr "تنظیمات عمومی"
+
+#: ../classes/admin/settings/sf-options.php:5
+#: ../classes/admin/settings/sf-options.php:54
+#: ../classes/admin/settings/sf-options.php:246
+msgid " "
+msgstr ""
+
+#: ../classes/admin/settings/sf-options.php:8
+msgid "Default commission (%)"
+msgstr "پیش فرض کمیسیون (٪)"
+
+#: ../classes/admin/settings/sf-options.php:9
+msgid ""
+"The default rate you pay each vendor for a product sale. If a product has a "
+"commission rate already set, this value will be ignored for that product."
+msgstr "این میزان کمیسون دریافتی هر فروشنده از محصولاتش می باشد."
+
+#: ../classes/admin/settings/sf-options.php:20
+msgid "Registration"
+msgstr "ثبت نام"
+
+#: ../classes/admin/settings/sf-options.php:21
+msgid "Allow users or guests to apply to become a vendor"
+msgstr "به کاربران و مهمان ها اجازه می دهد برای درخواست فروشندگی"
+
+#: ../classes/admin/settings/sf-options.php:22
+msgid ""
+"This will show a checkbox on the My Account page's registration form asking "
+"if the user would like to apply to be a vendor. Also, on the Vendor "
+"Dashboard, users can still apply to become a vendor even if this is disabled."
+msgstr ""
+"اگر این گزینه را فعال کنید هنگام ثبت نام یک کاربر یک گزینه جهت درخواست "
+"فروشنده شدن در سایت اضافه می گردد. البته در صورت انتخاب نکردن کاربر بعدا "
+"دوباره می تواند درخواست دهد"
+
+#: ../classes/admin/settings/sf-options.php:29
+msgid "Approve vendor applications manually"
+msgstr "تایید دستی درخواست فروشنده شدن"
+
+#: ../classes/admin/settings/sf-options.php:30
+msgid ""
+"With this unchecked, all vendor applications are automatically accepted. "
+"Otherwise, you must approve each manually."
+msgstr ""
+"اگر این گزینه را فعال نکنید درخواست های فروشنده شدن ها به صورت خودکار تایید "
+"می شود. در غیر این صورت باید به صورت دستی تایید کنید"
+
+#: ../classes/admin/settings/sf-options.php:37
+msgid "Taxes"
+msgstr "ماليات ها"
+
+#: ../classes/admin/settings/sf-options.php:38
+msgid "Give vendors any tax collected per-product"
+msgstr "قرار دادن مالیات به ازای هر محصول برای فروشندگان"
+
+#: ../classes/admin/settings/sf-options.php:39
+msgid "The tax collected on a vendor's product will be given in its entirety"
+msgstr "مالیات هریک از محصولات فروشنده بر روی جمع کل اضافه خواهد شد"
+
+#: ../classes/admin/settings/sf-options.php:47
+msgid "Give vendors any shipping collected per-product"
+msgstr "دادن هزینه حمل و نقل (هزینه پستی) هر محصول به فروشنده"
+
+#: ../classes/admin/settings/sf-options.php:48
+msgid ""
+"The shipping collected on a vendor's product will be given in its entirety"
+msgstr "هزینه حمل نقل هر محصول بر روی جمع هزینه ها اضافه خواهد شد"
+
+#: ../classes/admin/settings/sf-options.php:54
+msgid "Shop options"
+msgstr "گزینه های فروشگاه"
+
+#: ../classes/admin/settings/sf-options.php:57
+msgid "Shop HTML"
+msgstr "HTML فروشگاه"
+
+#: ../classes/admin/settings/sf-options.php:58
+msgid ""
+"Enable HTML for a vendor's shop description by default.  You can enable or "
+"disable this per vendor by editing the vendors username."
+msgstr ""
+"فعال کردن HTML برای توضیحات محصول فروشنده در فروشگاه به صورت پیش فرض.  شما "
+"می توانید فعال یا غیر فعال کنید آن را در فروشگاه با ویرایش نام کاربری "
+"فروشندگان."
+
+#: ../classes/admin/settings/sf-options.php:65
+msgid "Vendor shop page"
+msgstr "صفحه فروشنده فروشگاه"
+
+#: ../classes/admin/settings/sf-options.php:66
+msgid "Eg: <code>yoursite.com/[your_setting_here]/[vendor_name_here]</code>"
+msgstr ""
+"به عنوان مثال: <code>yoursite.com/[your_setting_here]/[vendor_name_here]</"
+"code>"
+
+#: ../classes/admin/settings/sf-options.php:73
+msgid "Shop Headers"
+msgstr "عنوان فروشگاه"
+
+#: ../classes/admin/settings/sf-options.php:74
+msgid "Enable vendor shop headers"
+msgstr "فعال کردن عنوان فروشنده فروشگاه"
+
+#: ../classes/admin/settings/sf-options.php:75
+msgid ""
+"This will override the HTML Shop description output on product-archive "
+"pages.  In order to customize the shop headers visit wcvendors.com and read "
+"the article in the Knowledgebase titled Changing the Vendor Templates."
+msgstr ""
+"این HTML توضیحاتی در صفحات محصول فروشگاه در قسمت آجزئیاتاضافه می کند. به "
+"منظور سفارشی کردن عنوان فروشنده فروشگاه به سایت wcvendors.com مراجعه کرده و "
+"مقاله در مرکز آموزش تحت عنوان titled Changing the Vendor Template را مطالعه "
+"نمایید."
+
+#: ../classes/admin/settings/sf-options.php:82
+msgid "Vendor Display Name"
+msgstr "نام نمایش فروشنده"
+
+#: ../classes/admin/settings/sf-options.php:83
+msgid ""
+"Select what will be displayed for the sold by text throughout the store."
+msgstr ""
+"متنی که که میخواهید به جای 'به tروش می رسد توسط' که در فروشگاه به نمایش "
+"گذاشته میشود را وارد نمایید"
+
+#: ../classes/admin/settings/sf-options.php:87
+msgid "Display Name"
+msgstr "نمایش نام"
+
+#: ../classes/admin/settings/sf-options.php:88
+#: ../classes/admin/views/html-vendor-settings-page.php:22
+#: ../templates/dashboard/settings/shop-name.php:2
+msgid "Shop Name"
+msgstr "نام فروشگاه"
+
+#: ../classes/admin/settings/sf-options.php:89
+msgid "User Login"
+msgstr "ورود کاربر"
+
+#: ../classes/admin/settings/sf-options.php:96
+msgid "Product Add Page"
+msgstr "صفحه اضافه کردن محصولات"
+
+#: ../classes/admin/settings/sf-options.php:96
+msgid "Configure what to hide from all vendors when adding a product"
+msgstr ""
+"تنظیمات مخفی کردن قسمت هایی که میخواهید فروشندگان عنگام اضافه کردن محصول "
+"نبینند"
+
+#: ../classes/admin/settings/sf-options.php:99
+msgid "Left side panel"
+msgstr "محل پنل سمت چپ"
+
+#: ../classes/admin/settings/sf-options.php:100
+msgid ""
+"CHECKING these boxes will HIDE these areas of the add product page for "
+"vendors"
+msgstr ""
+"بررسی این جعبه برای مخفی کردن قسمت های که میخواهید فروشندگان در صفحه اضافه "
+"کردن محصول نبینند"
+
+#: ../classes/admin/settings/sf-options.php:114
+msgid "Types"
+msgstr "انواع"
+
+#: ../classes/admin/settings/sf-options.php:115
+msgid "CHECKING these boxes will HIDE these product types from the vendor"
+msgstr "بررسی این جعبه جهت مخفی کردن برای فروشنده بر اساس نوع محصول"
+
+#: ../classes/admin/settings/sf-options.php:128
+msgid "Type options"
+msgstr "نوع گزینه های"
+
+#: ../classes/admin/settings/sf-options.php:129
+msgid "CHECKING these boxes will HIDE these product options from the vendor"
+msgstr "بررسی این جعبه جهت مخفی کردن گزینه های محصول برای فروشنده"
+
+#: ../classes/admin/settings/sf-options.php:140
+msgid "Miscellaneous"
+msgstr "گوناگون"
+
+#: ../classes/admin/settings/sf-options.php:152
+msgid "Stylesheet"
+msgstr "سبک صفحه"
+
+#: ../classes/admin/settings/sf-options.php:153
+msgid ""
+"You can add CSS in this textarea, which will be loaded on the product add/"
+"edit page for vendors."
+msgstr ""
+
+#: ../classes/admin/settings/sf-options.php:160
+msgid "Permissions"
+msgstr "مجوز های کاربری"
+
+#: ../classes/admin/settings/sf-options.php:160
+msgid "General permissions used around the shop"
+msgstr "مجوز ها به صورت عمومی در سراسر فروشگاه استفاده می شود"
+
+#: ../classes/admin/settings/sf-options.php:164
+msgid "View orders"
+msgstr "مشاهده سفارشات"
+
+#: ../classes/admin/settings/sf-options.php:165
+msgid "Show customer details such as email, address, name, etc, for each order"
+msgstr "نمایش جزئیات مشتری مانند ایمیل، آدرس، نام، و غیره، برای هر سفارش"
+
+#: ../classes/admin/settings/sf-options.php:172
+msgid "View comments"
+msgstr "مشاهده نظرات"
+
+#: ../classes/admin/settings/sf-options.php:173
+msgid "View all vendor comments for an order on the frontend"
+msgstr "مشاهده همه نظر فروشنده برای یک سفارش در بخش کاربری"
+
+#: ../classes/admin/settings/sf-options.php:180
+msgid "Submit comments"
+msgstr "ثبت کردن نظرات"
+
+#: ../classes/admin/settings/sf-options.php:181
+msgid ""
+"Submit comments for an order on the frontend. Eg, tracking ID for a product"
+msgstr "ارسال جواب نظرات در پایان سفارش.به عنوان مثال، ردیابی ID برای یک محصول"
+
+#: ../classes/admin/settings/sf-options.php:188
+msgid "View email addresses"
+msgstr "مشاهده آدرس ایمیل"
+
+#: ../classes/admin/settings/sf-options.php:189
+msgid ""
+"While viewing order details on the frontend, you can disable or enable email "
+"addresses"
+msgstr ""
+"زمانی که در حال مشاهده جزئیات سفارش در بخش کاربری هستید،آدرس ایمیل را می "
+"توانید فعال یا غیرفعال نمایید."
+
+#: ../classes/admin/settings/sf-options.php:196
+msgid "Export a CSV file of orders for a product"
+msgstr "ایجاد خروجی یک فایل CSV از سفارشات برای یک محصول"
+
+#: ../classes/admin/settings/sf-options.php:197
+msgid "Vendors could export orders for a product on the frontend"
+msgstr ""
+"فروشندگان می توانند از سفارشات خود در بخش کاربری از هر محصول یک فایل خروجی "
+"بگیرند"
+
+#: ../classes/admin/settings/sf-options.php:204
+msgid "Reports"
+msgstr "گزارشات"
+
+#: ../classes/admin/settings/sf-options.php:205
+msgid "View backend sales reports"
+msgstr "مشاهده گزارش فروش در بخش مدیریت"
+
+#: ../classes/admin/settings/sf-options.php:206
+msgid ""
+"Graphs and tables via the Reports page in backend. The reports will only "
+"display sales data that pertain to their products"
+msgstr ""
+"نمودار و جداول از طریق صفحه گزارش فروش در بخش مدیریت در دسترس است. فروشندگان "
+"تنها می توانند گزارسات محصولات مربوط به خود را تماشا کنند."
+
+#: ../classes/admin/settings/sf-options.php:213
+msgid "View Frontend sales reports"
+msgstr "مشاهده مشخصات گزارش فروش"
+
+#: ../classes/admin/settings/sf-options.php:214
+msgid ""
+"Sales table on the frontend on the My Account page. The table will only "
+"display sales data that pertain to their products"
+msgstr ""
+"جدول فروش در بخش کاربری در صفحه حساب من. در این قسمت فقط جدول فروش مربوط به "
+"محصولات هر فروشنده نمایش داده خواهد شد"
+
+#: ../classes/admin/settings/sf-options.php:222
+msgid "Submit products"
+msgstr "ارسال محصولات"
+
+#: ../classes/admin/settings/sf-options.php:223
+msgid ""
+"Vendors could submit a product through the backend, and an admin would "
+"approve or deny it"
+msgstr ""
+"فروشندگان می تواند یک محصول از طریق بخش مدیریت ارسال نمایند، و همچنین مدیر "
+"توانایی تایید یا رد آن را دارد"
+
+#: ../classes/admin/settings/sf-options.php:230
+msgid "Edit live products"
+msgstr "ویرایش محصولات فعال"
+
+#: ../classes/admin/settings/sf-options.php:231
+msgid ""
+"Vendors could edit an approved product after it has already gone live. There "
+"is no approval or review after editing a live product. This could be "
+"dangerous with malicious vendors, so take caution."
+msgstr ""
+"فروشندگان می توانند بعد از تایید شدن یک محصول آن را ویرایش نمایند، پس از "
+"ویرایش نیز در حالت فعال باقی خواهد ماند. این گزینه می تواند برای شما خطرناک "
+"باشد بنابرین احتیاط کنید."
+
+#: ../classes/admin/settings/sf-options.php:238
+msgid "Submit products live without requiring approval"
+msgstr "ارسال محصولات فعال بدون نیاز به تایید"
+
+#: ../classes/admin/settings/sf-options.php:239
+msgid ""
+"Vendors can submit products without review or approval from a shop admin. "
+"This could be dangerous with malicious vendors, so take caution."
+msgstr ""
+"فروشندگان می توانند محصولات را بدون بررسی و یا تایید یک مدیر فروشگاه ارسال "
+"کند. این می تواند برای فروشندگان مخرب خطرناک است، بنابراین احتیاط. کنید"
+
+#: ../classes/admin/settings/sf-options.php:245
+msgid "Pages"
+msgstr "صفحات"
+
+#: ../classes/admin/settings/sf-options.php:246
+msgid "Page configuration"
+msgstr "صفحه پیکربندی"
+
+#: ../classes/admin/settings/sf-options.php:249
+msgid "Vendor dashboard"
+msgstr "بخش کاربری فروشنده"
+
+#: ../classes/admin/settings/sf-options.php:250
+msgid ""
+"Choose the page that has the shortcode <code>[wcv_vendor_dashboard]</"
+"code><br/>By default, My Account > Vendor Dashboard should have the "
+"shortcode."
+msgstr ""
+"صفحه ای که کد کوتاه در آن قرار دارد را انتخاب کنید "
+"<code>[wcv_vendor_dashboard]</code><br/>By default, My Account > بخش کاربری "
+"فروشنده باید دارای این کد کوتاه باشد.."
+
+#: ../classes/admin/settings/sf-options.php:257
+msgid "Shop settings"
+msgstr "تنظیمات فروشگاه"
+
+#: ../classes/admin/settings/sf-options.php:258
+msgid ""
+"Choose the page that has the shortcode <code>[wcv_shop_settings]</code><br/"
+">These are the shop settings a vendor can configure."
+msgstr ""
+"صفحه ای که کد کوتاه در آن قرار دارد را انتخاب کنید "
+"<code>[wcv_shop_settings]</code><br/>تنظیمات فروشگاه فروشنده قابل پیکربندی "
+"است."
+
+#: ../classes/admin/settings/sf-options.php:265
+msgid "Orders page"
+msgstr "صفحه سفارشات"
+
+#: ../classes/admin/settings/sf-options.php:266
+msgid ""
+"Choose the page that has the shortcode <code>[wcv_orders]</code><br/>By "
+"default, My Account > Orders should have the shortcode."
+msgstr ""
+"صفحه ای که کد کوتاه در آن قرار دارد را انتخاب کنید <code>[wcv_orders]</"
+"code><br/>به طور پیش فرض، حساب من> سفارشات باید دارای کد کوتاه بالا باشد."
+
+#: ../classes/admin/settings/sf-options.php:273
+msgid "Vendor terms"
+msgstr "قوانین فروشنده شدن"
+
+#: ../classes/admin/settings/sf-options.php:274
+msgid ""
+"These terms are shown to a user when submitting an application to become a "
+"vendor.<br/>If left blank, no terms will be shown to the applicant."
+msgstr ""
+"این شرایط هنگام ارسال درخواست برای تبدیل شدن به یک فروشنده به یک کاربر نشان "
+"داده خواهد شد <br/> اگر خالی بگذاریذ، هیچ چیزی به درخواست کننده نشان داده "
+"نخواهد شد."
+
+#: ../classes/admin/settings/sf-options.php:292
+msgid "Payments"
+msgstr "پرداخت ها"
+
+#: ../classes/admin/settings/sf-options.php:294
+msgid "User payments"
+msgstr "پرداختی های کاربران"
+
+#: ../classes/admin/settings/sf-options.php:295
+#, php-format
+msgid "Total commission currently due: %s. <a href=\"%s\">View details</a>."
+msgstr "درآمدهای کسب شده تا این لحظه: %s. <a href=\"%s\">مشاهده جزئیات</a>."
+
+#: ../classes/admin/settings/sf-options.php:296
+#, php-format
+msgid ""
+"Make sure you update your PayPal Adaptive Payments settings <a href=\"%s"
+"\">here</a>."
+msgstr ""
+"از تنظیمات حساب خود در PayPal اطمینان حاصل کنید و آن را به روز رسانی نمایید "
+"<a href=\"%s\">اینجا</a>."
+
+#: ../classes/admin/settings/sf-options.php:300
+msgid "Instant pay"
+msgstr "هم اکنون پرداخت کنید"
+
+#: ../classes/admin/settings/sf-options.php:301
+msgid "Instantly pay vendors their commission when an order is made"
+msgstr ""
+"در همان لحظه کمیسون های فروشندگان را پرداخت کنید زمانی که این حساب را ایجاد "
+"کرده اند."
+
+#: ../classes/admin/settings/sf-options.php:302
+msgid ""
+"For this to work, customers must checkout with the PayPal Adaptive Payments "
+"gateway. Using any other gateways will not pay vendors instantly"
+msgstr ""
+
+#: ../classes/admin/settings/sf-options.php:309
+msgid "Payment schedule"
+msgstr "برنامه پرداخت"
+
+#: ../classes/admin/settings/sf-options.php:310
+msgid "Note: Schedule will only work if instant pay is unchecked"
+msgstr ""
+"توجه: در صورتی که برنامه پرداخت فعال باشد کمیسون فروشندگان در همان لحظه "
+"واریز می گردد."
+
+#: ../classes/admin/settings/sf-options.php:315
+msgid "Weekly"
+msgstr "هفتگی"
+
+#: ../classes/admin/settings/sf-options.php:316
+msgid "Biweekly"
+msgstr "دو هفته یکبار"
+
+#: ../classes/admin/settings/sf-options.php:317
+msgid "Monthly"
+msgstr "ماهانه"
+
+#: ../classes/admin/settings/sf-options.php:318
+msgid "Manual"
+msgstr "دستی"
+
+#: ../classes/admin/settings/sf-options.php:319
+msgid "Now"
+msgstr "هم اکنون"
+
+#: ../classes/admin/settings/sf-options.php:324
+msgid "Email notification"
+msgstr "اطلاع رسانی از طریق ایمیل"
+
+#: ../classes/admin/settings/sf-options.php:325
+msgid ""
+"Send the WooCommerce admin an email each time a payment has been made via "
+"the payment schedule options above"
+msgstr ""
+"ارسال ایمیل به مدیر ووکامرس بعد از هر پرداخت طبق برنامه پرداخت که در بالا "
+"تنظیم کردید"
+
+#: ../classes/admin/views/html-vendor-settings-page.php:11
+#: ../templates/dashboard/settings/paypal-email-form.php:2
+msgid "PayPal Address"
+msgstr "آدرس PayPal"
+
+#: ../classes/admin/views/html-vendor-settings-page.php:15
+#: ../templates/dashboard/settings/paypal-email-form.php:3
+msgid "Your PayPal address is used to send you your commission."
+msgstr "آدرس PayPal شما جهت واریز درآمد استفاده می شود."
+
+#: ../classes/admin/views/html-vendor-settings-page.php:24
+#: ../templates/dashboard/settings/shop-name.php:3
+msgid "Your shop name is public and must be unique."
+msgstr "نام فروشگاه تکراری است. نام دیگری وارد نمایید."
+
+#: ../classes/admin/views/html-vendor-settings-page.php:43
+#: ../templates/dashboard/settings/seller-info.php:4
+msgid "This is displayed on each of your products."
+msgstr "پیش نمایشی از محصولات شما"
+
+#: ../classes/admin/views/html-vendor-settings-page.php:49
+#: ../templates/dashboard/settings/shop-description.php:2
+msgid "Shop Description"
+msgstr "توضیحات فروشگاه"
+
+#: ../classes/admin/views/html-vendor-settings-page.php:61
+#: ../templates/dashboard/settings/shop-description.php:3
+#, php-format
+msgid "This is displayed on your <a href=\"%s\">shop page</a>."
+msgstr "صفحه نمایشی شما<a href=\"%s\">صفحه فروشگاه</a>."
+
+#: ../classes/admin/views/html-vendor-settings-page.php:70
+msgid "Save Shop Settings"
+msgstr "ذخیره تنظیمات فروشگاه"
+
+#: ../classes/class-cron.php:87
+#, php-format
+msgid "Payment total: %s"
+msgstr "جمع کل پرداختی ها: %s"
+
+#: ../classes/class-cron.php:148
+msgid "Once Weekly"
+msgstr "یک بار در هفته"
+
+#: ../classes/class-cron.php:153
+msgid "Once every two weeks"
+msgstr "یک بار در هر دو هفته"
+
+#: ../classes/class-cron.php:158
+msgid "Once a month"
+msgstr "یک بار در ماه"
+
+#: ../classes/class-install.php:59 ../classes/class-install.php:213
+msgid "Pending Vendor"
+msgstr "فروشنده در حال انتظار"
+
+#: ../classes/class-install.php:164
+msgid "Vendor Dashboard"
+msgstr "بخش کاربری فروشنده"
+
+#: ../classes/front/class-vendor-cart.php:41
+#: ../classes/front/class-vendor-shop.php:263
+msgid "Sold by"
+msgstr "فروخته شده توسط:"
+
+#: ../classes/front/dashboard/class-vendor-dashboard.php:46
+msgid "Order marked shipped."
+msgstr "سفارش انتخابی ارسال شده است."
+
+#: ../classes/front/dashboard/class-vendor-dashboard.php:72
+#: ../classes/front/dashboard/class-vendor-dashboard.php:73
+#: ../classes/front/orders/class-orders.php:144
+#: ../classes/front/orders/class-orders.php:145
+msgid "Tracking number"
+msgstr "شماره پیگیری"
+
+#: ../classes/front/dashboard/class-vendor-dashboard.php:75
+#: ../classes/front/orders/class-orders.php:147
+msgid "Success. Your tracking number has been updated."
+msgstr "با موفقیت. شماره پیگیری شما به روز شد."
+
+#: ../classes/front/orders/class-export-csv.php:37
+msgid "Extra data"
+msgstr "اطلاعات اضافی"
+
+#: ../classes/front/orders/class-export-csv.php:38
+#: ../templates/dashboard/reports.php:18
+#: ../templates/emails/admin-new-order.php:23
+#: ../templates/emails/notify-vendor-shipped.php:23
+msgid "Quantity"
+msgstr "تعداد"
+
+#: ../classes/front/orders/class-orders.php:107
+msgid ""
+"You haven't selected a product's orders to view! Please go back to the "
+"Vendor Dashboard and click Show Orders on the product you'd like to view."
+msgstr ""
+"شما سفارشات محصول را برای مشاهده انتخاب کرده اید! به بخش کاربری فروشنده "
+"برگردید و جهت نمایش سفارشات بر روی محصول شما را می خواهم ببینیم کلیک کنید"
+
+#: ../classes/front/orders/class-orders.php:111
+msgid "No orders."
+msgstr "بدون سفارشات."
+
+#: ../classes/front/orders/class-orders.php:209
+msgid "Product Title"
+msgstr "عنوان محصولات"
+
+#: ../classes/front/orders/class-orders.php:210
+msgid "Full name"
+msgstr "نام کامل"
+
+#: ../classes/front/orders/class-orders.php:211
+msgid "Address"
+msgstr "آدرس"
+
+#: ../classes/front/orders/class-orders.php:212
+msgid "City"
+msgstr "شهر"
+
+#: ../classes/front/orders/class-orders.php:213
+msgid "State"
+msgstr "خیابان"
+
+#: ../classes/front/orders/class-orders.php:214
+msgid "Zip"
+msgstr "کدپستی"
+
+#: ../classes/front/orders/class-orders.php:215
+msgid "Email address"
+msgstr "آدرس ایمیل"
+
+#: ../classes/front/orders/class-submit-comment.php:41
+msgid "You've left the comment field empty!"
+msgstr "ما را فراموش کرده اید. هیچ نظری ارسال نکرده اید."
+
+#: ../classes/front/orders/class-submit-comment.php:63
+msgid "Success. The customer has been notified of your comment."
+msgstr "با موفقیت. مشتری از نظر شما آگاه شد"
+
+#: ../classes/front/signup/class-vendor-signup.php:44
+#: ../templates/dashboard/denied.php:22
+msgid "Apply to become a vendor? "
+msgstr "درخواست برای تبدیل شدن به یک فروشنده؟"
+
+#: ../classes/front/signup/class-vendor-signup.php:53
+#: ../templates/dashboard/denied.php:33
+#, php-format
+msgid "I have read and accepted the <a href=\"%s\">terms and conditions</a>"
+msgstr ""
+"من قوانین را خوانده ام و آنها را قبول می کنم<a href=\"%s\">شرایط و ضوابط</a>"
+
+#: ../classes/front/signup/class-vendor-signup.php:87
+msgid "Application denied. You are an administrator."
+msgstr "مدیر درخواست شما را تایید نکرد"
+
+#: ../classes/front/signup/class-vendor-signup.php:89
+msgid "Your application has been submitted."
+msgstr "درخواست شما ارائه شده است."
+
+#: ../classes/front/signup/class-vendor-signup.php:125
+msgid "You must accept the terms and conditions to become a vendor."
+msgstr "شما باید قوانین را برای ثبت نام در بخش فروشنده بپذیرید."
+
+#: ../classes/gateways/PayPal_AdvPayments/paypal_ap.php:43
+msgid "PayPal Adaptive Payments"
+msgstr "انجام پرداخت با PayPal"
+
+#: ../classes/gateways/PayPal_AdvPayments/paypal_ap.php:119
+#, php-format
+msgid ""
+"Something went wrong. Response from PayPal invalidated this order. Status: "
+"%s."
+msgstr ""
+"موردی را اشتباه وارد کرده اید. به همین منظور پاسخ اعتبار از PayPal دریافت "
+"نشد. وضعیت %s است."
+
+#: ../classes/gateways/PayPal_AdvPayments/paypal_ap.php:124
+msgid "IPN payment completed"
+msgstr "IPN تکمیل پرداخت"
+
+#: ../classes/gateways/PayPal_AdvPayments/paypal_ap.php:146
+msgid "Enable PayPal Adaptive Payments"
+msgstr "فعال کردن تطبیق پرداخت با PayPal"
+
+#: ../classes/gateways/PayPal_AdvPayments/paypal_ap.php:152
+msgid "Method Title"
+msgstr "عنوان روش"
+
+#: ../classes/gateways/PayPal_AdvPayments/paypal_ap.php:153
+#: ../classes/gateways/WCV_Gateway_Test/class-wcv-gateway-test.php:70
+msgid "This controls the title which the user sees during checkout."
+msgstr "این عنوانی را کنترل می کند که کاربر در طول پرداخت می بیند."
+
+#: ../classes/gateways/PayPal_AdvPayments/paypal_ap.php:154
+msgid "PayPal"
+msgstr "PayPal"
+
+#: ../classes/gateways/PayPal_AdvPayments/paypal_ap.php:159
+#: ../classes/gateways/WCV_Gateway_Test/class-wcv-gateway-test.php:75
+msgid "Description"
+msgstr "توضیحات"
+
+#: ../classes/gateways/PayPal_AdvPayments/paypal_ap.php:160
+msgid "This controls the description which the user sees during checkout."
+msgstr "این توضیحاتی را کنترل می کند که کاربر در طول پرداخت می بیند."
+
+#: ../classes/gateways/PayPal_AdvPayments/paypal_ap.php:161
+msgid "Pay via PayPal!"
+msgstr "پرداخت از طریق PayPal!"
+
+#: ../classes/gateways/PayPal_AdvPayments/paypal_ap.php:172
+msgid "Live Credentials"
+msgstr "تاییده زنده"
+
+#: ../classes/gateways/PayPal_AdvPayments/paypal_ap.php:174
+#, php-format
+msgid ""
+"You must have an <a href=\"%s\">Application ID</a> to process live "
+"transactions. You do not need one for testing in Sandbox mode."
+msgstr ""
+"شما باید دارای <a href=\"%s\">شناسه سفارش</a>to process live transactions. "
+"You do not need one for testing in Sandbox mode."
+
+#: ../classes/gateways/PayPal_AdvPayments/paypal_ap.php:179
+#: ../classes/gateways/PayPal_AdvPayments/paypal_ap.php:213
+msgid "PayPal Email"
+msgstr "ایمیل پي پال"
+
+#: ../classes/gateways/PayPal_AdvPayments/paypal_ap.php:180
+#: ../classes/gateways/PayPal_AdvPayments/paypal_ap.php:214
+msgid "The email address main payments should go to."
+msgstr "آدرس ایمیل پرداخت های اصلی باید برای رفتن."
+
+#: ../classes/gateways/PayPal_AdvPayments/paypal_ap.php:185
+#: ../classes/gateways/PayPal_AdvPayments/paypal_ap.php:219
+msgid "API Username"
+msgstr "شناسه نام کاربری"
+
+#: ../classes/gateways/PayPal_AdvPayments/paypal_ap.php:190
+#: ../classes/gateways/PayPal_AdvPayments/paypal_ap.php:224
+msgid "API Password"
+msgstr "شناسه کلمه عبور"
+
+#: ../classes/gateways/PayPal_AdvPayments/paypal_ap.php:195
+#: ../classes/gateways/PayPal_AdvPayments/paypal_ap.php:229
+msgid "API Signature"
+msgstr "شناسه امضا"
+
+#: ../classes/gateways/PayPal_AdvPayments/paypal_ap.php:200
+msgid "Application ID"
+msgstr "شناسه برنامه"
+
+#: ../classes/gateways/PayPal_AdvPayments/paypal_ap.php:202
+msgid "Only required when doing live transactions."
+msgstr "تنها جهت انجام تراکنش های زنده مورد نیاز است."
+
+#: ../classes/gateways/PayPal_AdvPayments/paypal_ap.php:206
+msgid "Sandbox Credentials"
+msgstr "مجوز Sandbox"
+
+#: ../classes/gateways/PayPal_AdvPayments/paypal_ap.php:208
+#, php-format
+msgid ""
+"You can signup for a sandbox developer account <a href=\"%s\">here</a>. You "
+"need a developer account if you want to enable Sandbox mode for testing."
+msgstr ""
+
+#: ../classes/gateways/PayPal_AdvPayments/paypal_ap.php:240
+msgid "Misc. Settings"
+msgstr "تنظیمات متفرقه"
+
+#: ../classes/gateways/PayPal_AdvPayments/paypal_ap.php:245
+msgid "Enable PayPal Sandbox mode"
+msgstr "فعال کردن حالت Sandbox PayPal"
+
+#: ../classes/gateways/PayPal_AdvPayments/paypal_ap.php:251
+msgid "Enable logging"
+msgstr "فعال کردن ورود به سیستم"
+
+#: ../classes/gateways/PayPal_AdvPayments/paypal_ap.php:269
+msgid ""
+"The PayPal Adaptive Payments gateway can instantly pay your vendors their "
+"due commission (if enabled). Also used to mass pay vendors on a schedule / "
+"manual method (if enabled)."
+msgstr ""
+"پرداخت سریع کمیسون فروشندگان از طریق PayPal در صورتی که این گزینه فعال باشد"
+
+#: ../classes/gateways/PayPal_AdvPayments/paypal_ap.php:280
+msgid "Gateway Disabled"
+msgstr "غیر فعال کردن درگاه پرداخت"
+
+#: ../classes/gateways/PayPal_AdvPayments/paypal_ap.php:280
+#, php-format
+msgid "%s does not support your store currency."
+msgstr "%s واحد پول تعیین شده در فروشگاه شما را پشتیبانی نمی کند."
+
+#: ../classes/gateways/PayPal_AdvPayments/paypal_ap.php:369
+#: ../classes/gateways/PayPal_AdvPayments/paypal_ap.php:483
+#: ../classes/gateways/PayPal_Masspay/class-paypal-masspay.php:150
+#, php-format
+msgid "Error: %s"
+msgstr "خطای %s"
+
+#: ../classes/gateways/PayPal_AdvPayments/paypal_ap.php:378
+#: ../classes/gateways/PayPal_AdvPayments/paypal_ap.php:379
+#, php-format
+msgid "Error ID: %s. %s"
+msgstr "شناسه خطا: %s. %s"
+
+#: ../classes/gateways/PayPal_Masspay/class-paypal-masspay.php:115
+msgid "No vendors found to pay. Maybe they haven't set a PayPal address?"
+msgstr ""
+"این فروشندگان جهت واریز شدن کمیسیون خود تنظیمات PayPal انجام نداده اند؟"
+
+#: ../classes/gateways/PayPal_Masspay/class-paypal-masspay.php:164
+msgid "All due commission has been paid for."
+msgstr "همه کمیسیون ها پرداخت شده است."
+
+#: ../classes/gateways/PayPal_Masspay/class-paypal-masspay.php:170
+msgid ""
+"All due commission has been paid for, but I could not clear it from their "
+"profiles due to an internal error. Commission will still be listed as due. "
+"Please manually mark the commission as paid from the Commissions page."
+msgstr ""
+
+#: ../classes/gateways/PayPal_Masspay/class-paypal-masspay.php:205
+msgid "WooCommerce: Mass payments for vendors update"
+msgstr "به روز رسانی پرداخت انبوه فروشندگان ووکامرس"
+
+#: ../classes/gateways/PayPal_Masspay/class-paypal-masspay.php:207
+msgid ""
+"Hello! A payment was just triggered to mass pay all vendors their due "
+"commission."
+msgstr ""
+"این پرداخت انبوه به درخواست شما جهت واریز تمامی کمیسیون های فروشندگان بود."
+
+#: ../classes/gateways/PayPal_Masspay/class-paypal-masspay.php:208
+#, php-format
+msgid "Payment status: %s."
+msgstr "وضعيت پرداخت: %s"
+
+#: ../classes/gateways/PayPal_Masspay/class-paypal-masspay.php:209
+#, php-format
+msgid "Payment message: %s."
+msgstr "جمع کل پرداختی ها: %s"
+
+#: ../classes/gateways/PayPal_Masspay/class-paypal-masspay.php:212
+#, php-format
+msgid "Payment total: %s."
+msgstr "جمع کل پرداخت ها: %s"
+
+#: ../classes/gateways/WCV_Gateway_Test/class-wcv-gateway-test.php:35
+#: ../classes/gateways/WCV_Gateway_Test/class-wcv-gateway-test.php:71
+msgid "WC Vendors Test Gateway"
+msgstr "تست دروازه فروشندگان ووکامرس"
+
+#: ../classes/gateways/WCV_Gateway_Test/class-wcv-gateway-test.php:36
+msgid ""
+"This gateway will set orders to processing upon receipt allowing you to test "
+"transactions in your store.  Some WooCommerce included gateways have "
+"problems with this - you should use this gateway for all of your non-PayPal "
+"testing."
+msgstr ""
+"این درگاهی است جهت تست مراحل سفارش در معاملات فروشندگان که امکانات زیادی جهت "
+"پیدا کردن مشکلات ووکامرس به شما می دهد. شما می توانید این درگاه را برای همه "
+"ی تست ها به غیر از PayPal استفاده نمایید."
+
+#: ../classes/gateways/WCV_Gateway_Test/class-wcv-gateway-test.php:64
+msgid "Enable WC Vendors Test Gateway Payment"
+msgstr "فعال کردن تست درگاه پرداخت فروشندگان ووکامرس"
+
+#: ../classes/gateways/WCV_Gateway_Test/class-wcv-gateway-test.php:68
+msgid "Title"
+msgstr "عنوان"
+
+#: ../classes/gateways/WCV_Gateway_Test/class-wcv-gateway-test.php:77
+msgid "Payment method description that the customer will see on your checkout."
+msgstr "توضیح روش پرداخت هنگامی که مشتری میخواهد پرداخت را انجام دهد."
+
+#: ../classes/gateways/WCV_Gateway_Test/class-wcv-gateway-test.php:78
+msgid ""
+"This is a test gateway -- not to be used on live sites for live "
+"transactions. <a href=\"http://www.wcvendors.com/\" target=\"top\">Click "
+"here to visit WCVendors.com</a>."
+msgstr ""
+"این یک درگاه تست است - نمی توان در سایت های های فعال برای انجام معاملات "
+"واقعی استفاده کرد. <a href=\"http://www.wcvendors.com/\" target=\"top\">برای "
+"بازدید از WCVendors.com اینجا را کلیک کنید</a>."
+
+#: ../classes/gateways/WCV_Gateway_Test/class-wcv-gateway-test.php:82
+msgid "Instructions"
+msgstr "دستورالعمل"
+
+#: ../classes/gateways/WCV_Gateway_Test/class-wcv-gateway-test.php:84
+msgid ""
+"Success!  Your test order is now marked as processing and any vendors will "
+"be sent an email as long as you have the Notify Vendors email enabled under "
+"WooCommerce--Settings--Emails."
+msgstr ""
+"ارسال ایمیل آگاه سازی فروشندگان تحت عنوان محصول شما با موفقیت جهت تست ازسال "
+"شد و در حال پردازش است. برای فعال سازی این ایمیل به مسیر: ووکامرس-> تنظیمات-"
+"> ایمیل ،بروید"
+
+#: ../classes/gateways/WCV_Gateway_Test/class-wcv-gateway-test.php:124
+msgid "Test gateway transation complete.  Order processing."
+msgstr "تست کامل محصول اضافه شده، پردازش سفارش"
+
+#: ../templates/dashboard/denied.php:8
+msgid ""
+"Your account has not yet been approved to become a vendor.  When it is, you "
+"will receive an email telling you that your account is approved!"
+msgstr ""
+"حساب شما تایید نشده است. حساب شما زمانی فعال می گردد که ایمیل تحت عنوان "
+"\"حساب شما تایید شد\" دریافت نمایید."
+
+#: ../templates/dashboard/denied.php:12
+msgid "Your account is not setup as a vendor."
+msgstr "حساب کاربری شما به عنوان فروشنده راه اندازی نشده است."
+
+#: ../templates/dashboard/denied.php:53
+msgid "Submit"
+msgstr "ارسال"
+
+#: ../templates/dashboard/orders.php:7 ../templates/dashboard/orders.php:10
+msgid "Hide items"
+msgstr "پنهان کردن گزینه ها"
+
+#: ../templates/dashboard/orders.php:8 ../templates/dashboard/orders.php:68
+msgid "View items"
+msgstr "نمایش گزینه ها"
+
+#: ../templates/dashboard/orders.php:37
+msgid "Links"
+msgstr "لینک ها"
+
+#: ../templates/dashboard/orders.php:68
+msgid "Unmark shipped"
+msgstr "انتخاب به عنوان محصول ارسال نشده"
+
+#: ../templates/dashboard/orders.php:68
+msgid "Tracking"
+msgstr "پیگیری"
+
+#: ../templates/dashboard/orders.php:118
+msgid "You have no orders during this period."
+msgstr "شما در این مدت زمان سفارشی نداشته اید."
+
+#: ../templates/dashboard/reports.php:1
+msgid "Sales Report"
+msgstr "گزارش فروش"
+
+#: ../templates/dashboard/reports.php:20
+msgid "Rate"
+msgstr "امتیاز"
+
+#: ../templates/dashboard/reports.php:47
+msgid "Show Orders"
+msgstr "نمایش سفارشات"
+
+#: ../templates/dashboard/reports.php:56
+msgid "Totals"
+msgstr "مجموع"
+
+#: ../templates/dashboard/reports.php:71
+msgid "You have no sales during this period."
+msgstr "هیچ فروشی در این مدت زمان نداشته اید."
+
+#: ../templates/dashboard/reports.php:82
+msgid "You haven't made any sales yet."
+msgstr "شما فروشی از محصولات ارائه شده نداشته اید"
+
+#: ../templates/dashboard/settings/settings.php:47
+msgid "Save"
+msgstr "ذخیره"
+
+#: ../templates/emails/admin-new-order.php:13
+#, php-format
+msgid "You have received an order from %s. Their order is as follows:"
+msgstr "شما یک سفارش از %s را دریافت کرده اید. سفارش به شرح زیر است:"
+
+#: ../templates/emails/admin-new-order.php:17
+#: ../templates/emails/notify-vendor-shipped.php:17
+#, php-format
+msgid "Order: %s"
+msgstr "سفارش: %s"
+
+#: ../templates/emails/admin-new-order.php:24
+#: ../templates/emails/notify-vendor-shipped.php:24
+msgid "Price"
+msgstr "قیمت"
+
+#: ../templates/emails/admin-new-order.php:50
+#: ../templates/emails/notify-vendor-shipped.php:50
+msgid "Customer details"
+msgstr "مشخصات مشتری"
+
+#: ../templates/emails/admin-new-order.php:53
+#: ../templates/emails/notify-vendor-shipped.php:53
+msgid "Email:"
+msgstr "ایمیل:"
+
+#: ../templates/emails/admin-new-order.php:56
+#: ../templates/emails/notify-vendor-shipped.php:56
+msgid "Tel:"
+msgstr "تلفن:"
+
+#: ../templates/emails/application-status.php:5
+#, php-format
+msgid "Hi there. This is a notification about a vendor application on %s."
+msgstr "سلام. این یک اطلاعیه در مورد درخواست فروشنده در %s است"
+
+#: ../templates/emails/application-status.php:8
+#, php-format
+msgid "Application status: %s"
+msgstr "وضعیت درخواست: %s"
+
+#: ../templates/emails/application-status.php:9
+#, php-format
+msgid "Applicant username: %s"
+msgstr "نام کاربری متقاضی: %s"
+
+#: ../templates/emails/new-product.php:5
+#, php-format
+msgid "Hi there. This is a notification about a new product on %s."
+msgstr ""
+"سلام. این یک اطلاعیه جهت اعلام ارائه محصول جدید در فروشگاه توسط %s است."
+
+#: ../templates/emails/new-product.php:8
+#, php-format
+msgid "Product title: %s"
+msgstr "عنوان محصول: %s"
+
+#: ../templates/emails/new-product.php:9
+#, php-format
+msgid "Submitted by: %s"
+msgstr "ارائه شده توسط: %s"
+
+#: ../templates/emails/new-product.php:10
+#, php-format
+msgid "Edit product: %s"
+msgstr "ویرایش محصول: %s"
+
+#: ../templates/emails/notify-vendor-shipped.php:13
+msgid ""
+"A vendor has marked part of your order as shipped. The items that are "
+"shipped are as follows:"
+msgstr ""
+"فروشنده بخشی از سفارش خود را  به عنوان محصول پستی مشخص کرده است. مواردی که "
+"پست می شوند به شرح زیر است:"
+
+#: ../templates/orders/comments/add-new-comment.php:11
+msgid "Add comment"
+msgstr "ارسال دیدگاه"
+
+#: ../templates/orders/comments/existing-comments.php:9
+#, php-format
+msgid "added %s ago"
+msgstr "اضافه شده در %s پیش"
+
+#: ../templates/orders/csv-export.php:6
+msgid "Export orders"
+msgstr "برون ریزی سفارشات"
+
+#: ../templates/orders/customer-note/customer-note.php:4
+msgid "Customer note"
+msgstr "دیدگاه مشتری"
+
+#: ../templates/orders/customer-note/customer-note.php:8
+msgid "No customer note."
+msgstr "بدون دیدگاه مشتری"
+
+#: ../templates/orders/orders.php:84
+#, php-format
+msgid "Comments (%s)"
+msgstr "نظرات (%s)"
+
+#: ../templates/orders/shipping/shipping-form.php:46
+msgid "Provider:"
+msgstr "ارائه دهنده:"
+
+#: ../templates/orders/shipping/shipping-form.php:48
+msgid "Custom Provider"
+msgstr "ارائه دهنده سفارشی"
+
+#: ../templates/orders/shipping/shipping-form.php:68
+msgid "Provider Name:"
+msgstr "نام ارائه دهنده:"
+
+#: ../templates/orders/shipping/shipping-form.php:76
+msgid "Tracking number:"
+msgstr "شماره پیگیری:"
+
+#: ../templates/orders/shipping/shipping-form.php:84
+msgid "Tracking link:"
+msgstr "لینک پیگیری:"
+
+#: ../templates/orders/shipping/shipping-form.php:93
+msgid "Date shipped:"
+msgstr "تاریخ ارسال محصول پستی:"
+
+#: ../templates/orders/shipping/shipping-form.php:101
+msgid "Preview:"
+msgstr "پیش‌ نمایش:"
+
+#: ../templates/orders/shipping/shipping-form.php:101
+msgid "Click here to track your shipment"
+msgstr "برای پیگیری محصول پستی خود اینجا را کلیک کنید"
+
+#: ../templates/orders/shipping/shipping-form.php:110
+msgid "Update tracking number"
+msgstr "به روز رسانی شماره پیگیری"
+
+#: ../templates/orders/shipping/shipping-form.php:112
+msgid "Mark as shipped"
+msgstr "انتخاب به عنوان مجصول پستی"
+
+#: ../templates/orders/table-body.php:25
+#, php-format
+msgid "Quantity: %d"
+msgstr "تعداد: %d"
