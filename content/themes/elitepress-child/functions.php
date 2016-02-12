@@ -35,6 +35,9 @@ function my_excerpt_more( $more ) {
 }
 add_filter( 'excerpt_more', 'my_excerpt_more', 1000 );
 
+/**
+ * Buddypress
+ */
 //Functions and methods for removing and stopping wordpress from loading parent functions
 function remove_parent_post_slider_excerpt() {	//This function is created to remove and stop the 'parent_post_slider_excerpt' function from executing.
     remove_filter('get_the_excerpt','elitepress_post_slider_excerpt'); //This WordPress API hook/function removes the function, elitepress_post_slider_excerpt from the parent.
@@ -74,5 +77,31 @@ return "";
 }
 }
 add_shortcode('bpProfile','bpProfile');//end of shortcode
+
+/**
+ * WooCommerce
+ */
+remove_action( 'woocommerce_sidebar', 'woocommerce_get_sidebar', 10); //Unhooks sidebar
+
+//Removes woocommerce's start and end content wrapper and uses my start and end custom wrapper instead
+remove_action( 'woocommerce_before_main_content', 'woocommerce_output_content_wrapper', 10);//Removes start wrapper
+remove_action( 'woocommerce_after_main_content', 'woocommerce_output_content_wrapper_end', 10);//Removes end wrapper
+
+add_action('woocommerce_before_main_content', 'my_theme_wrapper_start', 10);//Adds my start wrapper
+add_action('woocommerce_after_main_content', 'my_theme_wrapper_end', 10);//Adds my end wrapper
+
+function my_theme_wrapper_start() {//my start custom wrapper
+  echo '<div class="container"><div class="row"><div class="col-md-9">';
+}
+
+function my_theme_wrapper_end() {//my end wrapper
+  echo '</div></div></div>';
+}
+
+//code for declaring that elite-press child theme supports WooCommerce
+add_action( 'after_setup_theme', 'woocommerce_support' );
+function woocommerce_support() {
+    add_theme_support( 'woocommerce' );
+}
 
 ?>
