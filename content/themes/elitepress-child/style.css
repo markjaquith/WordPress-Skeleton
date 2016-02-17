@@ -507,3 +507,10 @@ ul.products li.product .star-rating {/* Makes start ratings centered */
 .seller-link{
   margin-bottom: 20px;
 }
+
+/*
+WC Vendor Styles
+*/
+.btn {
+  background-color: none !important;
+}

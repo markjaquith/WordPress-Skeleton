@@ -125,7 +125,7 @@ function wcvendors_pro_bp_member_header_actions(){
 				$wcv_profile_id  = bp_displayed_user_id();
 				$shop_name =  sanitize_title(get_user_meta( $wcv_profile_id, 'pv_shop_name', true ));
 				$home_url = get_home_url();
-				$sold_by = "<div class=\"generic-button\"><a class=\"send-message\"href=\"$home_url/vendors/" . $shop_name . "/\">Visit Store</a></div>";
+				$sold_by = "<div class=\"generic-button\"><a class=\"send-message\"href=\"$home_url/vendors/" . $shop_name . "/\">Visit My Store</a></div>";
 
 
         $wcv_profile_info = get_userdata( bp_displayed_user_id() );
