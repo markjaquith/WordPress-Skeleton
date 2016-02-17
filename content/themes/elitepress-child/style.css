@@ -420,6 +420,11 @@ input[type="search"]:focus, input[type="search"]:active{
   font-weight: 500;
 }
 
+.hc_sidebar .sidebar-widget {
+  margin-bottom: 20px;
+}
+
+
 ul.products li.product {/* Centers product title, price and vendor name */
     list-style: none;
     margin-left: 0;
@@ -468,14 +473,37 @@ ul.products li.product .star-rating {/* Makes start ratings centered */
 
 .woocommerce #respond input#submit.alt,
 .woocommerce a.button.alt, .woocommerce button.button.alt,
-.woocommerce input.button.alt, .woocommerce input.button{/* styles the woocommerce buttons */
+.woocommerce input.button.alt, .woocommerce input.button,
+.woocommerce #respond input#submit {/* styles the woocommerce buttons */
   background-color: #123F5A;
   color: white;
 }
 
 .woocommerce #respond input#submit.alt:hover,
 .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover,
-.woocommerce input.button.alt:hover, .woocommerce input.button:hover{
+.woocommerce input.button.alt:hover, .woocommerce input.button:hover,
+.woocommerce #respond input#submit:hover{
   background-color: #011B2A;
   color: white;
+}
+
+.woocommerce div.product p.price, .woocommerce div.product span.price {
+    color: #123F5A;
+    font-size: 1.25em;
+}
+
+.vendor-section{
+  margin-bottom: 10px;
+}
+
+.vendor-links > a {
+  margin-left: 10px;
+}
+
+.vendor-links > a:first-child {
+  margin-left: 0px;
+}
+
+.seller-link{
+  margin-bottom: 20px;
 }

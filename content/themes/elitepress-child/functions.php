@@ -117,4 +117,54 @@ function my_breadcrumb_default(){
     'home'        => _x( 'Home', 'breadcrumb', 'woocommerce' )
 	);
 }
+
+/* Adds View Store button to BuddyPress profiles */
+add_action('bp_member_header_actions', 'wcvendors_pro_bp_member_header_actions');
+function wcvendors_pro_bp_member_header_actions(){
+
+				$wcv_profile_id  = bp_displayed_user_id();
+				$shop_name =  sanitize_title(get_user_meta( $wcv_profile_id, 'pv_shop_name', true ));
+				$home_url = get_home_url();
+				$sold_by = "<div class=\"generic-button\"><a class=\"send-message\"href=\"$home_url/vendors/" . $shop_name . "/\">Visit Store</a></div>";
+
+
+        $wcv_profile_info = get_userdata( bp_displayed_user_id() );
+        $wcv_profile_role = implode( $wcv_profile_info->roles );
+
+        if ( $wcv_profile_info->roles[1] == "vendor" ) {
+                $vendor_name_message = get_the_author_meta( 'user_login' );
+                $current_user = wp_get_current_user();
+                echo $sold_by;
+        }
+}
+
+/* Adds a View Profile link on the vendors store header */
+add_action('wcv_after_main_header', 'custom_wcv_after_vendor_store_title'); //action for adding content to artist's shop page
+function custom_wcv_after_vendor_store_title() {
+        $wcv_profile_id = get_query_var('author'); //gets id of current author archive e.g.artists product list/archive
+        $profile_url = bp_core_get_user_domain ( $wcv_profile_id ); //gets url of artist's buddypress profile page
+        echo '<div class="col-md-12 seller-link"><a href="'. $profile_url .'" class=""><strong>View Seller Profile</strong></a></div>';
+}
+
+/* Adds a link to Profile on Single Product Pages */
+add_action('woocommerce_product_meta_start', 'custom_woocommerce_product_meta_start');
+function custom_woocommerce_product_meta_start() {
+        $wcv_profile_id = get_the_author_meta('ID');
+        $profile_url = bp_core_get_user_domain ( $wcv_profile_id );
+        echo 'Vendor Profile: <a href="'. $profile_url .'">View My Profile</a>';
+}
+
+add_action('woocommerce_product_meta_start', 'wcv_bppm_woocommerce_product_meta_start');
+function wcv_bppm_woocommerce_product_meta_start() {
+        if ( is_user_logged_in() ) {
+	        $wcv_store_id =        get_the_author_meta('ID');
+	        $wcv_store_name =      get_user_meta( $wcv_store_id, 'pv_shop_name', true);
+	        echo '<br>Contact Vendor: <a href="' . bp_loggedin_user_domain() . bp_get_messages_slug() . '/compose/?r=' . get_the_author_meta('user_login') .'">Contact ' . $wcv_store_name . '</a>';
+        } else {
+        //$wcv_my_account_url = get_permalink( get_option('woocommerce_myaccount_page_id'));
+        //echo '<br>Contact Vendor: <a href="' . $wcv_my_account_url . '">Login or Register to Contact Vendor</a>';
+					echo '';
+				}
+}
+
 ?>
