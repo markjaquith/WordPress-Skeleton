@@ -18,6 +18,18 @@ body {
 	  font-weight: 400;
 }
 
+.btn-apply{
+    color: white;
+    background-color: #123F5A;
+    border-color: #123F5A;
+}
+
+.btn-apply:hover{
+    color: white;
+    background-color: #011b2a;
+    border-color: #123F5A;
+}
+
 .textwidget strong, p {
     font-weight: 400;
 	color: #333;
