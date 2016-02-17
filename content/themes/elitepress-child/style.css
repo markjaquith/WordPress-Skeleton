@@ -512,5 +512,32 @@ ul.products li.product .star-rating {/* Makes start ratings centered */
 WC Vendor Styles
 */
 .btn {
-  background-color: none !important;
+  background-color: inherit !important;
+  background-image: none !important;
+  color: inherit !important;
+  border: 1px solid transparent !important;
+  box-shadow: none !important;
+  line-height: 1.4285 !important;
+}
+
+.btn-lg {
+  padding: 10px 16px !important;
+  font-size: 18px !important;
+  line-height: 1.33 !important;
+}
+
+
+.btn-default {
+    border-color: #ccc !important;
+}
+
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open > .dropdown-toggle.btn-default {
+    color: #333 !important;
+    background-color: #e6e6e6 !important;
+    border-color: #adadad !important;
+}
+
+.btn-inverse {
+  background-color: #123F5A !important;
+  color: #fff !important;
 }
