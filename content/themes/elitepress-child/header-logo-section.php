@@ -23,7 +23,7 @@
 							<a class="my-btn my-btn-default btn-apply my-btn-lg" href="<?php echo wp_logout_url(); ?>" role="button">Logout</a>
 						<?php } ?>
 						<?php if(!is_user_logged_in()){?>
-							<a class="my-btn my-btn-default my-btn-apply my-btn-lg" href="<?php echo wp_login_url(); ?>" role="button">Login</a>
+							<a class="my-btn my-btn-default btn-apply my-btn-lg" href="<?php echo wp_login_url(); ?>" role="button">Login</a>
 						<?php } ?>
 
 						<a class="my-btn my-btn-default btn-apply my-btn-lg" href="#" role="button">Donate</a>
