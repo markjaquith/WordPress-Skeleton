@@ -23,22 +23,31 @@ h1, h2, h3, h4, h5 {
   font-family: 'Raleway', sans-serif !important;
 }
 
+.btn-apply{
+    color: white;
+    background-color: #123F5A;
+    border-color: #123F5A;
+}
+
+.btn-apply:hover{
+    color: white;
+    background-color: #011b2a;
+    border-color: #123F5A;
+}
+
 .textwidget strong, p {
     font-weight: 400;
 	color: #333;
 }
 
  .site-logo {
-    margin: 5px 14px;
+  margin: 5px 14px;
 }
 
 .site-logo img{
 	margin-top: 10px;
 	margin-bottom: 10px;
-}
-
-.site-logo img {
-	float: left;
+  float: left;
 }
 
 /*header button Css---------------------------------------------------------------------------------------------------*/
