@@ -23,6 +23,39 @@ h1, h2, h3, h4, h5 {
   font-family: 'Raleway', sans-serif !important;
 }
 
+.my-btn {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+.my-btn-default {
+  color: #333;
+  background-color: #fff;
+  border-color: #ccc;
+}
+
+.my-btn-lg, .my-btn-group-lg > .my-btn {
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.33;
+    border-radius: 6px;
+}
+
 .btn-apply{
     color: white;
     background-color: #123F5A;
@@ -147,15 +180,15 @@ h1, h2, h3, h4, h5 {
 
 .section-title {
 	position: relative;
-    border: 0px;
-	font-family: 'Lato';
+  border: 0px;
+	font-family: 'Raleway', sans-serif !important;
 	font-weight:600;
-    float: left;
-    margin: 0 80px 5px 0;
-    padding: 6px 12px 6px 12px;
-    text-transform: capitalize;
+  float: left;
+  margin: 0 80px 5px 0;
+  padding: 6px 12px 6px 12px;
+  text-transform: capitalize;
 	letter-spacing: 1px;
-    z-index: 100;
+  z-index: 100;
 	display: inline-block;
 
 }
@@ -168,8 +201,8 @@ h1, h2, h3, h4, h5 {
 
 .footer-widget-column > ul > li > a:before{
 	font-family: FontAwesome;
-    margin-right: 9px;
-    content: none;
+  margin-right: 9px;
+  content: none;
 	font-size: 6px;
 	color:hsl(5, 87%, 65%);
 }
@@ -520,32 +553,6 @@ ul.products li.product .star-rating {/* Makes start ratings centered */
 /*
 WC Vendor Styles
 */
-.btn {
-  background-color: inherit !important;
-  background-image: none !important;
-  color: inherit !important;
-  border: 1px solid transparent !important;
-  box-shadow: none !important;
-  line-height: 1.4285 !important;
-}
-
-.btn-lg {
-  padding: 10px 16px !important;
-  font-size: 18px !important;
-  line-height: 1.33 !important;
-}
-
-
-.btn-default {
-    border-color: #ccc !important;
-}
-
-.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open > .dropdown-toggle.btn-default {
-    color: #333 !important;
-    background-color: #e6e6e6 !important;
-    border-color: #adadad !important;
-}
-
 .btn-inverse {
   background-color: #123F5A !important;
   color: #fff !important;
