@@ -88,12 +88,12 @@ get_header();
 
 					<div class="row">
 						<div class="col-md-6">
-							<a href="artist-directory/illustration">
+							<a href="illustration">
 								<img src="http://placehold.it/100x30?text=Illustration" class="img-responsive" alt="Image" style="width: 100%;"/>
 							</a>
 						</div>
 						<div class="col-md-6">
-							<a href="artist-directory/drawing-and-painting">
+							<a href="drawing-and-painting">
 								<img src="http://placehold.it/100x30?text=Drawing+and+painting" class="img-responsive" alt="Image" style="width: 100%;"/>
 							</a>
 						</div>
@@ -102,7 +102,7 @@ get_header();
 
 					<div class="row">
 						<div class="col-md-6">
-							<a href="artist-directory/short-film">
+							<a href="short-film">
 								<img src="http://placehold.it/100x30?text=Short+film" class="img-responsive" alt="Image" style="width: 100%;"/>
 							</a>
 						</div>

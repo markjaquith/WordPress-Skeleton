@@ -1,5 +1,5 @@
-<?php 
-/* Template Name: artist mixed_mediacollage */ 
+<?php
+/* Template Name: artist mixed_mediacollage */
 get_header();
 ?>
 <div class="content-section">
@@ -8,15 +8,14 @@ get_header();
 			<div class="row">
 				<div class="col-md-12">
 					<h2>Mixed media collage</h2>
-				</div>	
+				</div>
 			</div>
-		</div>	
+		</div>
 		<div class="row">
 			<div class="col-md-12">
-				<?php echo do_shortcode('[mpp-list-gallery 
-				component=groups component_id=6 view="grid"]'); ?>
+				<?php echo do_shortcode('[mpp-list-gallery component=groups component_id=6 view="grid"]'); ?>
 			</div>
-		</div>	
+		</div>
 	</div>
 </div>
 <?php get_footer(); ?>

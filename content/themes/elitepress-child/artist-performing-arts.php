@@ -1,5 +1,5 @@
-<?php 
-/* Template Name: artist performing arts */ 
+<?php
+/* Template Name: artist performing arts */
 get_header();
 ?>
 <div class="content-section">
@@ -8,18 +8,17 @@ get_header();
 			<div class="row">
 				<div class="col-md-12">
 					<h2>Performing arts</h2>
-				</div>	
+				</div>
 			</div>
 		</div>
-		<div class="row">	
+		<div class="row">
 			<div class="col-md-12">
-				<?php echo do_shortcode('[mpp-list-gallery 
-				component=groups component_id=8 view="grid"]'); ?>
-			</div>	
+				<?php echo do_shortcode('[mpp-list-gallery component=groups component_id=8 view="grid"]'); ?>
+			</div>
 		</div>
-	</div>	
+	</div>
 </div>
-	
-	
+
+
 </div>
 <?php get_footer(); ?>
