@@ -541,3 +541,36 @@ WC Vendor Styles
   background-color: #123F5A !important;
   color: #fff !important;
 }
+/* non-member sidebar styles */
+.sidebar-widget > ul.product_list_widget > li > a:before {
+    content: '';
+    color: black;
+    font-family: none;
+    margin: 0px;
+}
+.sidebar-widget > ul.product_list_widget > li > a,
+.sidebar-widget > ul.product_list_widget > li > span {
+    font-family: 'Raleway', sans-serif !important;
+    color: #123F5A;
+    font-weight: inherit;
+}
+.sidebar-widget > ul.product_list_widget > li > a{
+    font-size: 18px;
+}
+.sidebar-widget > ul > li > a:hover {
+    color: #011B2A;
+}
+.sidebar-widget > ul.product_list_widget > li > a > span{
+  margin-top: 10px;
+}
+
+.sidebar-widget > ul.product_list_widget > li > a > img{
+  margin-right: 10px;
+}
+
+.sidebar-widget > ul.product_list_widget > li > a > span,
+.sidebar-widget > ul.product_list_widget > li > span
+ {
+    font-size: .857em;
+    display: block;
+}
