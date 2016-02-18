@@ -69,8 +69,8 @@ function mpp_action_create_gallery() {
 	}
 
 	//check for current component
-	if ( ! mpp_is_active_component( $component ) ) {
-		$errors['component'] = __( 'Invalid gallery component!', 'mediapress' );
+	if ( ! mpp_is_enabled( $component, $component_id ) ) {
+		$errors['component'] = __( 'Invalid action!', 'mediapress' );
 	}
 
 	if ( empty( $title ) ) {

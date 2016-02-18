@@ -81,6 +81,11 @@ function mp_group_nav() {
 	if ( mpp_user_can_create_gallery( $component, $component_id ) ) {
 
 		echo sprintf( "<li><a href='%s'>%s</a></li>", mpp_get_gallery_base_url( $component, $component_id ), __( 'All Galleries', 'mediapress' ) );
+		
+		if ( mpp_group_is_my_galleries_enabled() ) {
+			echo sprintf( "<li><a href='%s'>%s</a></li>", mpp_group_get_user_galleries_url(), __( 'My Galleries', 'mediapress' ) );
+		}
+		
 		echo sprintf( "<li><a href='%s'>%s</a></li>", mpp_get_gallery_create_url( $component, $component_id ), __( 'Create Gallery', 'mediapress' ) );
 	}
 }
@@ -133,4 +138,21 @@ function mpp_group_check_media_permission( $can, $media, $gallery, $user_id ) {
 add_filter( 'mpp_user_can_edit_media', 'mpp_group_check_media_permission', 10, 4 );
 add_filter( 'mpp_user_can_delete_media', 'mpp_group_check_media_permission', 10, 4 );
 
+/**
+ * Filter Main MPp Gallery Query to add support for "my-gallery" view on group component
+ * @param type $args
+ * @return type
+ */
 
+function mpp_group_filter_gallery_query( $args ) {
+	if ( mpp_group_is_my_galleries_enabled() && bp_is_active( 'groups') && bp_is_group() && mpp_is_enabled( mpp_get_current_component(), mpp_get_current_component_id() ) ) {
+		//check if the current av0 is 'my-gallery';
+		
+		if ( is_user_logged_in() && bp_is_action_variable('my-gallery', 0 ) ) {
+			$args['user_id'] = bp_loggedin_user_id(); 
+		}
+	}
+
+	return $args;
+}
+add_filter( 'mpp_main_gallery_query_args', 'mpp_group_filter_gallery_query' );

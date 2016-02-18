@@ -231,6 +231,7 @@ function mpp_record_activity( $args = null ) {
 	}
 
 	$default = array(
+		'id'			=> false,//activity id
 		'gallery_id'	=> 0,
 		'media_id'		=> 0,
 		'media_ids'		=> null, //single id or an array of ids
@@ -247,7 +248,7 @@ function mpp_record_activity( $args = null ) {
 
 
 	//atleast a gallery id or a media id should be given
-	if ( ( ! $args['gallery_id'] && ! $args['media_id'] ) || ! mpp_is_active_component( $args['component'] ) || ! $args['component_id'] ) {
+	if ( ( ! $args['gallery_id'] && ! $args['media_id'] ) || ! mpp_is_enabled( $args['component'], $args['component_id'] ) || ! $args['component_id'] ) {
 		return false;
 	}
 
@@ -279,8 +280,8 @@ function mpp_record_activity( $args = null ) {
 		$component = buddypress()->activity->id; //for user gallery updates, let it be simple activity , do not set the component to 'members'
 	}
 
-	$activity_id = bp_activity_add( array(
-		'id'				=> false,
+	$activity_args = array(
+		'id'				=> $args['id'],
 		'user_id'			=> $args['user_id'],
 		'action'			=> $args['action'],
 		'content'			=> $args['content'],
@@ -289,10 +290,16 @@ function mpp_record_activity( $args = null ) {
 		'type'				=> 'mpp_media_upload',
 		'item_id'			=> absint( $args['component_id'] ),
 		'secondary_item_id' => false,
-		'recorded_time'		=> bp_core_current_time(),
 		'hide_sitewide'		=> $hide_sitewide
-			) );
-
+	);
+	
+	//only update record time if this is a new activity
+	if ( empty( $args['id'] ) ) {
+		$activity_args['recorded_time']	= bp_core_current_time();
+	}
+	
+	$activity_id = bp_activity_add( $activity_args );
+	
 	if ( ! $activity_id ) {
 		return false; //there was a problem
 	}

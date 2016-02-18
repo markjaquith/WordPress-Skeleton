@@ -27,8 +27,12 @@ class MPP_Media_Query extends WP_Query {
         if ( ! isset( $args['_mpp_mapped_query'] ) ) {
             $args = self::build_params( $args );
 		}
+		
+		//Plese do not use it if possible. It will affect the global queries too. Make sure to check for $query->is_main_query()
+		//to avoid any issue
+        //$args = apply_filters( 'mpp_media_query_args', $args, $this );
         
-        parent::query( $args );
+		parent::query( $args );
         
     }
     //map gallery parameters to wp_query parameters
@@ -86,204 +90,205 @@ class MPP_Media_Query extends WP_Query {
 		 * If are querying for a single gallery
 		 * and the gallery media were sorted by the user, show the media s in the sort order insted of the default date 
 		 */
-        if( isset( $args['gallery_id'] ) && mpp_is_gallery_sorted( $args['gallery_id'] ) )
-				$defaults['orderby']	= 'menu_order';
+		if ( isset( $args['gallery_id'] ) && mpp_is_gallery_sorted( $args['gallery_id'] ) ) {
+			$defaults['orderby']	= 'menu_order';
+		}
 		
-    $r = wp_parse_args( $args, $defaults );
-    extract( $r, EXTR_SKIP );
+		$r = wp_parse_args( $args, $defaults );
+		extract( $r, EXTR_SKIP );
     
    
     
-    //build the wp_query args
-    $wp_query_args = array(
-            'post_type'             => mpp_get_media_post_type(),
-            'post_status'           => 'any',
-            'p'                     => $id,
-            'post__in'              => $in,
-            'post__not_in'          => $exclude,
-            'name'                  => $slug,
+		//build the wp_query args
+		$wp_query_args = array(
+				'post_type'             => mpp_get_media_post_type(),
+				'post_status'           => 'any',
+				'p'                     => $id,
+				'post__in'              => $in,
+				'post__not_in'          => $exclude,
+				'name'                  => $slug,
 
-            //gallery specific
-            'post_parent'           => $gallery_id,
-            'post_parent__in'       => !empty( $galleries)? (array) $galleries : 0,
-            'post_parent__not_in'   => !empty( $galleries_exclude ) ? (array) $galleries_exclude :0,
-            'posts_per_page'        => $per_page,
-            'paged'                 => $page,
-            'offset'                => $offset,
-            'nopaging'              => $nopaging,
-            //user params
-            'author'                => $user_id,
-            'author_name'           => $user_name,
-            //date time params
+				//gallery specific
+				'post_parent'           => $gallery_id,
+				'post_parent__in'       => !empty( $galleries)? (array) $galleries : 0,
+				'post_parent__not_in'   => !empty( $galleries_exclude ) ? (array) $galleries_exclude :0,
+				'posts_per_page'        => $per_page,
+				'paged'                 => $page,
+				'offset'                => $offset,
+				'nopaging'              => $nopaging,
+				//user params
+				'author'                => $user_id,
+				'author_name'           => $user_name,
+				//date time params
 
-            'year'                  => $year,
-            'monthnum'              => $month,
-            'w'                     => $week,
-            'day'                   => $day,
-            'hour'                  => $hour,
-            'minute'                => $minute,
-            'second'                => $second,
-            'm'                     => $yearmonth,
-            //order by
-            'order'                 => $order,
-            'orderby'               => $orderby,
-            's'                     => $search_terms,
-            //meta key, may be we can set them here?
-            //'meta_key'              => $meta_key,
-            //'meta_value'            => $meta_value,
-            //which fields to fetch
-            'fields'                => $fields,
-            '_mpp_mapped_query'      => true,
-    );
+				'year'                  => $year,
+				'monthnum'              => $month,
+				'w'                     => $week,
+				'day'                   => $day,
+				'hour'                  => $hour,
+				'minute'                => $minute,
+				'second'                => $second,
+				'm'                     => $yearmonth,
+				//order by
+				'order'                 => $order,
+				'orderby'               => $orderby,
+				's'                     => $search_terms,
+				//meta key, may be we can set them here?
+				//'meta_key'              => $meta_key,
+				//'meta_value'            => $meta_value,
+				//which fields to fetch
+				'fields'                => $fields,
+				'_mpp_mapped_query'      => true,
+		);
     
-    //TODO: SCOPE
-    //
-    
-    
-    //we will need to build tax query/meta query
-    
-	//taxonomy query to filter by component|status|privacy
-	
-    $tax_query = array();
-	
-	//meta query
-    $gmeta_query = array();
-   
-    if ( isset( $meta_key ) && $meta_key ) {
-        $wp_query_args['meta_key'] = $meta_key;
-	}
-    
-    if ( isset( $meta_key ) && $meta_key && isset( $meta_value )  ) {
-        $wp_query_args['meta_value'] = $meta_value;
-	}
-    
-	//if meta query was specified, let us keep it and we will add our conditions 
-    if ( ! empty( $meta_query ) ) {
-        $gmeta_query = $meta_query;
-	}
-    
-    
-    //we will need to build tax query/meta query
-    
-    //type, audio video etc
-    //if type is given and it is valid gallery type
-    //Pass one or more types
-	if ( $gallery_id ) {
-		//if gallery id is given, avoid worrying about type 
-		$type = '';
-		$component = '';
-	
-	}
-	
-    if ( ! empty( $type ) && mpp_are_registered_types( $type ) ) {
-       $type = mpp_string_to_array( $type ); 
-		
-		//we store the terms with _name such as private becomes _private, members become _members to avoid conflicting terms
-        $type = array_map( 'mpp_underscore_it', $type );
-        
-        $tax_query[] = array(
-                'taxonomy'  => mpp_get_type_taxname(),
-                'field'     => 'slug',
-                'terms'     => $type,
-                'operator'  => 'IN',
-        );
-    }
-    
-    
-    //privacy
-    //pass one or more privacy level
-    if ( ! empty( $status ) && mpp_are_registered_statuses( $status ) ) {
-        
-        $status = mpp_string_to_array( $status );
-        $status = array_map( 'mpp_underscore_it', $status );
-        
-        $tax_query[] = array(
-                'taxonomy'	=> mpp_get_status_taxname(),
-                'field'		=> 'slug',
-                'terms'		=> $status,
-                'operator'	=>'IN'
-        ); 
-    }
-    
-    if ( ! empty ( $component ) && mpp_are_registered_components( $component ) ) {
-        
-        $component = mpp_string_to_array( $component ); 
-        $component = array_map( 'mpp_underscore_it', $component );
-        
-        $tax_query[] = array(
-                'taxonomy'	=> mpp_get_component_taxname(),
-                'field'		=> 'slug',
-                'terms'		=> $component,
-                'operator'	=> 'IN'
-        ); 
-       
-    }
-    
-  
-    //done with the tax query
-    
-    if ( count( $tax_query ) > 1 ) {
-       $tax_query['relation'] = 'AND';
-    }
-	
-	if ( ! empty( $tax_query ) ) {
-		$wp_query_args['tax_query'] = $tax_query;
-	}
-   
-	//now, for component
-    if ( ! empty( $component_id ) ) {
-        $meta_compare = '=';
-    
-        if ( is_array( $component_id ) ) {
-            $meta_compare = 'IN';
+		//TODO: SCOPE
+		//
+
+
+		//we will need to build tax query/meta query
+
+		//taxonomy query to filter by component|status|privacy
+
+		$tax_query = array();
+
+		//meta query
+		$gmeta_query = array();
+
+		if ( isset( $meta_key ) && $meta_key ) {
+			$wp_query_args['meta_key'] = $meta_key;
+		}
+
+		if ( isset( $meta_key ) && $meta_key && isset( $meta_value )  ) {
+			$wp_query_args['meta_value'] = $meta_value;
+		}
+
+		//if meta query was specified, let us keep it and we will add our conditions 
+		if ( ! empty( $meta_query ) ) {
+			$gmeta_query = $meta_query;
 		}
     
-        $gmeta_query[] = array(
-            'key'		=> '_mpp_component_id',
-            'value'		=> $component_id,
-            'compare'	=> $meta_compare,
-            'type'		=> 'UNSIGNED'
 
-        );
+		//we will need to build tax query/meta query
+
+		//type, audio video etc
+		//if type is given and it is valid gallery type
+		//Pass one or more types
+		if ( $gallery_id ) {
+			//if gallery id is given, avoid worrying about type 
+			$type = '';
+			$component = '';
+
+		}
+
+		if ( ! empty( $type ) && mpp_are_registered_types( $type ) ) {
+		   $type = mpp_string_to_array( $type ); 
+
+			//we store the terms with _name such as private becomes _private, members become _members to avoid conflicting terms
+			$type = array_map( 'mpp_underscore_it', $type );
+
+			$tax_query[] = array(
+					'taxonomy'  => mpp_get_type_taxname(),
+					'field'     => 'slug',
+					'terms'     => $type,
+					'operator'  => 'IN',
+			);
+		}
     
-    }
-    //also make sure that it only looks for gallery media
     
-    $gmeta_query[] = array(
-        'key'		=> '_mpp_is_mpp_media',
-        'value'		=> 1,
-        'compare'	=> '=',
-        'type'		=> 'UNSIGNED'
-    );
+		//privacy
+		//pass one or more privacy level
+		if ( ! empty( $status ) && mpp_are_registered_statuses( $status ) ) {
+
+			$status = mpp_string_to_array( $status );
+			$status = array_map( 'mpp_underscore_it', $status );
+
+			$tax_query[] = array(
+					'taxonomy'	=> mpp_get_status_taxname(),
+					'field'		=> 'slug',
+					'terms'		=> $status,
+					'operator'	=>'IN'
+			); 
+		}
+
+		if ( ! empty ( $component ) && mpp_are_registered_components( $component ) ) {
+
+			$component = mpp_string_to_array( $component ); 
+			$component = array_map( 'mpp_underscore_it', $component );
+
+			$tax_query[] = array(
+					'taxonomy'	=> mpp_get_component_taxname(),
+					'field'		=> 'slug',
+					'terms'		=> $component,
+					'operator'	=> 'IN'
+			); 
+
+		}
     
-    //should we avoid the orphaned media
-	//Let us discuss with the community and get it here
-	if ( ! mpp_get_option( 'show_orphaned_media' ) ) {
-		
+
+		//done with the tax query
+
+		if ( count( $tax_query ) > 1 ) {
+		   $tax_query['relation'] = 'AND';
+		}
+
+		if ( ! empty( $tax_query ) ) {
+			$wp_query_args['tax_query'] = $tax_query;
+		}
+
+		//now, for component
+		if ( ! empty( $component_id ) ) {
+			$meta_compare = '=';
+
+			if ( is_array( $component_id ) ) {
+				$meta_compare = 'IN';
+			}
+
+			$gmeta_query[] = array(
+				'key'		=> '_mpp_component_id',
+				'value'		=> $component_id,
+				'compare'	=> $meta_compare,
+				'type'		=> 'UNSIGNED'
+
+			);
+
+		}
+		//also make sure that it only looks for gallery media
+
 		$gmeta_query[] = array(
-			'key'		=> '_mpp_is_orphan',
-			'compare'	=> 'NOT EXISTS',
+			'key'		=> '_mpp_is_mpp_media',
+			'value'		=> 1,
+			'compare'	=> '=',
+			'type'		=> 'UNSIGNED'
 		);
+
+		//should we avoid the orphaned media
+		//Let us discuss with the community and get it here
+		if ( ! mpp_get_option( 'show_orphaned_media' ) ) {
+
+			$gmeta_query[] = array(
+				'key'		=> '_mpp_is_orphan',
+				'compare'	=> 'NOT EXISTS',
+			);
+
+		}
+
+		//Let us filter the media by storage method
+		if ( ! empty( $storage ) ) {
+
+			$gmeta_query[] = array(
+					'key'		=> '_mpp_storage_method',
+					'value'		=> $storage,
+					'compare'	=> '='
+			);
+		}
 	
-	}
-	
-	//Let us filter the media by storage method
-	if ( ! empty( $storage ) ) {
-		
-		$gmeta_query[] = array(
-				'key'		=> '_mpp_storage_method',
-				'value'		=> $storage,
-				'compare'	=> '='
-		);
-	}
-	
-	//and what to do when a user searches by the media source(say youtube|vimeo|xyz.. how do we do that?)
-     //reset meta query
-    if ( ! empty( $gmeta_query ) ) {
-       $wp_query_args['meta_query'] = $gmeta_query;
-    }
-    
-    return $wp_query_args;
+		//and what to do when a user searches by the media source(say youtube|vimeo|xyz.. how do we do that?)
+		 //reset meta query
+		if ( ! empty( $gmeta_query ) ) {
+		   $wp_query_args['meta_query'] = $gmeta_query;
+		}
+
+		return $wp_query_args;
       
     //http://wordpress.stackexchange.com/questions/53783/cant-sort-get-posts-by-post-mime-type
     }

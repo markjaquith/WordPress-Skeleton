@@ -21,7 +21,7 @@ class MPP_Groups_Gallery_Template_Loader extends MPP_Gallery_Template_Loader {
 		return self::$instance;
 	}
 
-	public function loade_template() {
+	public function load_template() {
 		
 		$template = $this->path . 'home.php';
 		$template = apply_filters( 'mpp_get_groups_gallery_template', $template );

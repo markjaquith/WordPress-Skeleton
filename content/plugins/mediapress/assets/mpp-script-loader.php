@@ -223,7 +223,7 @@ class MPP_Assets_Loader {
 		$active_types = mpp_get_active_types();
 		
 		$extensions = $type_erros = array();
-		
+		$allowed_type_messages = array();
 		foreach( $active_types as $type => $object ) {
 			$type_extensions = mpp_get_allowed_file_extensions_as_string( $type, ',' );
 			

@@ -162,6 +162,7 @@ class MPP_Core_Loader {
 		require_once $this->path . 'core/shortcodes/mpp-shortcode-gallery-list.php';
 		require_once $this->path . 'core/shortcodes/mpp-shortcode-media-list.php';
 		require_once $this->path . 'core/shortcodes/mpp-shortcode-create-gallery.php';	
+		require_once $this->path . 'core/shortcodes/mpp-shortcode-media-uploader.php';	
 	}
 	
 	private function load_widgets() {

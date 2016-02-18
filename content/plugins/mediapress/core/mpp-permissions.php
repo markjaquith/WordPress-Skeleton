@@ -66,6 +66,11 @@ function mpp_user_can_create_gallery( $component, $component_id ) {
 	} elseif ( $component == 'sitewide' && mpp_is_active_component( 'sitewide' ) ) {
 		$can_do = true;
 	}
+	
+	//alright, but is it enabled?
+	if ( ! mpp_is_enabled( $component, $component_id ) ) {
+		$can_do = false;
+	}
 
 	$can_do = apply_filters( 'mpp_user_can_create_gallery', $can_do, $component, $component_id );
 

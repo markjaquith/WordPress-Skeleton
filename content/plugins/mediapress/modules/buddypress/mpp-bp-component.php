@@ -13,10 +13,6 @@ if ( ! defined( 'ABSPATH' ) ) {
 class MPP_BuddyPress_Component extends BP_Component {
 
     private static $instance;
-    /**
-     * Array of names not available as gallery names
-     * @var type 
-     */
    
     /**
      * Get the singleton instance
@@ -83,8 +79,12 @@ class MPP_BuddyPress_Component extends BP_Component {
     
 		$bp = buddypress();
 		
-        if ( ! mpp_is_active_component( 'members' ) )//allow to disable user galleries in case they don't want it
+		$component = 'members';
+		$component_id = mpp_get_current_component_id();
+		
+        if ( ! mpp_is_enabled( $component ,  $component_id ) ) {//allow to disable user galleries in case they don't want it
 				return false;
+		}
 
         $view_helper = MPP_Gallery_Screens::get_instance();
         
@@ -118,18 +118,45 @@ class MPP_BuddyPress_Component extends BP_Component {
             'item_css_id'		=> 'gallery-my-gallery'
         );
 
-		if ( mpp_user_can_create_gallery( 'members', get_current_user_id() ) ) {
+		if ( mpp_user_can_create_gallery( $component, get_current_user_id() ) ) {
 			// Add the Create gallery link to gallery nav
 			$sub_nav[] = array(
 				'name'				=> __( 'Create a Gallery', 'mediapress' ),
 				'slug'				=> 'create',
 				'parent_url'		=> $gallery_link,
 				'parent_slug'		=> $this->slug,
-				'screen_function'	=> array( $view_helper, 'create_gallery' ),
+				'screen_function'	=> array( $view_helper, 'my_galleries' ),
 				'user_has_access'	=> bp_is_my_profile(),
 				'position'			=> 20
 			);
 
+		}
+		
+		if ( mpp_component_has_type_filters_enabled( $component, $component_id ) ) {
+			$i = 10;
+			$supported_types = mpp_component_get_supported_types( $component );
+			
+			foreach( $supported_types as $type ) {
+				
+				if ( ! mpp_is_active_type( $type ) ) {
+					continue;
+				}
+				
+				$type_object = mpp_get_type_object( $type );
+				
+				$sub_nav[] = array(
+					'name'				=> $type_object->label,
+					'slug'				=> 'type/' . $type,
+					'parent_url'		=> $gallery_link,
+					'parent_slug'		=> $this->slug,
+					'screen_function'	=> array( $view_helper, 'my_galleries' ),
+					//'user_has_access'	=> bp_is_my_profile(),
+					'position'			=> 20 + $i,
+				);
+				
+				$i = $i+10;//increment the position
+			}
+			
 		}
        
         // Add the Upload link to gallery nav
@@ -176,7 +203,7 @@ class MPP_BuddyPress_Component extends BP_Component {
 		$bp = buddypress();
 		
 		// Menus for logged in user if the members gallery is enabled
-		if ( is_user_logged_in() && mpp_is_active_component( 'members' ) ) {
+		if ( is_user_logged_in() && mpp_is_enabled( 'members', bp_loggedin_user_id() ) ) {
 
 			$component = 'members';
 			$component_id = get_current_user_id();

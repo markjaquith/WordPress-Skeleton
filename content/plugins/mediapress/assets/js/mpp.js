@@ -232,7 +232,7 @@ jQuery( document ).ready( function() {
 	if( jq( '#mpp-upload-gallery-id' ).get(0) ) {
 		gallery_id = jq( '#mpp-upload-gallery-id' ).val();
 	}
-	//apply these only when the dropzone exits
+	//apply these only when the dropzone exists
 	if( jq('#mpp-upload-dropzone-gallery').get(0) ) {
 	
 		mpp.guploader.param( 'context', context );
@@ -334,6 +334,59 @@ jQuery( document ).ready( function() {
 		}
         
     });	
+		
+	mpp.shortcode_uploader = new mpp.Uploader({
+        container: 'body',
+        dropzone: '#mpp-upload-dropzone-shortcode',
+        browser: '#mpp-upload-media-button-shortcode',
+        feedback: '#mpp-upload-feedback-shortcode',
+        media_list: '#mpp-uploaded-media-list-shortcode',//where we will list the media
+        uploading_media_list : _.template ( "<li id='<%= id %>'><span class='mpp-attached-file-name'><%= name %></span>(<span class='mpp-attached-file-size'><%= size %></spa>)<span class='mpp-remove-file-attachment'>x</span> <b></b></li>" ),
+        uploaded_media_list : _.template ( "<li class='mpp-uploaded-media-item' id='mpp-uploaded-media-item-<%= id %>'><img src='<%= url %>' /></li>" ),
+        
+			
+		onAddFile: function ( file ) {
+			//wehn file is added, set context
+			
+			this.param( 'context', 'shortcode' );//it is cover upload
+			var parent = this.browser.parents('.mpp-upload-shortcode');
+			var $gallery = parent.find('#mpp-shortcode-upload-gallery-id');
+			
+			if ( ! $gallery.get(0) || $gallery.val() == 0 ) {
+				
+				this.uploader.removeFile( file );
+				this.refresh();
+				
+				//remove the feedback that we added
+				this.removeFileFeedback( file );
+				this.uploader.stop();
+				//notify error message
+				mpp.notify( "Please select a gallery before uploading.", 1 );
+			}
+			
+			//update parent gallery id
+			this.param( 'gallery_id', parent.find('#mpp-shortcode-upload-gallery-id').val() );//it is cover upload
+			
+		}
+    });
+	
+	
+
+	//apply these only when the dropzone exists
+	if ( jq('#mpp-upload-dropzone-shortcode').get(0) ) {
+		
+		var $type = jq('#mpp-upload-dropzone-shortcode').parents('.mpp-upload-shortcode').find('.mpp-uploading-media-type');
+		if ( $type.get(0) ) {
+			mpp_setup_uploader_file_types( mpp.shortcode_uploader, $type.val() );
+		}
+	}
+	
+	//on gallery selection change, we need to update the the media type too
+	
+	jQuery( '.mpp-upload-shortcode #mpp-shortcode-upload-gallery-id' ).change( function () {
+		var $option = jQuery(this).find("option:selected");
+		mpp_setup_uploader_file_types( mpp.shortcode_uploader, $option.data('mpp-type') );
+	} );
 	///Trigger delete, deletes any trace of a Media
 	//I hurts when people delete loved ones from their herat, but deleting a media is fine
 	jq( document ).on( 'click', '.mpp-uploading-media-list .mpp-delete-uploaded-media-item', function () {
@@ -393,18 +446,25 @@ jQuery( document ).ready( function() {
 		mpp.notify = function( message, error ) {
 
 			var class_name = 'success';
-			if( error != undefined ) {
+			if ( error !== undefined ) {
 				class_name = 'error';
 			}
 
-			jq('#message').remove();// will it have sideeffects?
-			var container_selector = '#mpp-container';
+			jq('#message').remove();// will it have side effects?
+			var selectors = ['#mpp-container', '#whats-new-form','.mpp-upload-shortcode' ]; //possible containers in preferred order
+			var container_selector = '';//default
 			
-			if( ! jQuery( container_selector ).get(0) ) {
-				container_selector = '#whats-new-form';//activity posting form
+			for ( var i = 0; i < selectors.length; i++ ) {
+				if ( jQuery( selectors[i] ).get(0) ) {
+					container_selector = selectors[i];
+					break;
+				}	
 			}
 			
-			jq( container_selector ).prepend( '<div id="message" class="bp-template-notice mpp-template-notice ' + class_name + '"><p>'+message +'</p></div>').show();
+			//if container exists, let us append the message
+			if ( container_selector ) {
+				jq( container_selector ).prepend( '<div id="message" class="bp-template-notice mpp-template-notice ' + class_name + '"><p>'+message +'</p></div>').show();
+			}
 		};
 
 	}

@@ -159,6 +159,7 @@ function mpp_gallery_has_unpublished_media( $gallery_id ) {
 function mpp_gallery_record_activity( $args ) {
 
 	$default = array(
+		'id'			=> false,
 		'gallery_id'	=> null,
 		'media_ids'		=> null, //single id or an array of ids
 		'action'		=> '',

@@ -259,7 +259,7 @@ function mpp_sitewide_gallery_theme_compat_content() {
  	
 	ob_start();
 		
-	mpp_get_component_template_loader( 'sitewide' )->loade_template();
+	mpp_get_component_template_loader( 'sitewide' )->load_template();
 	
 	$content = ob_get_clean();
 	

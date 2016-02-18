@@ -9,14 +9,16 @@ if ( ! defined( 'ABSPATH' ) ) {
  * @return type
  */
 function mpp_activity_upload_buttons() {
-
-	if ( ! mpp_is_activity_upload_enabled( mpp_get_current_component() ) ) {
+	
+	$component = mpp_get_current_component();
+	
+	if ( ! mpp_is_activity_upload_enabled( $component ) ) {
 		return;
 	}
 
 	//if we are here, the gallery activity stream upload is enabled,
 	//let us see if we are on user profile and gallery is enabled
-	if ( bp_is_user() && ! mpp_is_active_component( 'members' ) ) {
+	if ( ! mpp_is_enabled( $component, mpp_get_current_component_id() ) ) {
 		return;
 	}
 	//if we are on group page and either the group component is not enabled or gallery is not enabled for current group, do not show the icons
@@ -27,7 +29,7 @@ function mpp_activity_upload_buttons() {
 	if ( mpp_is_single_gallery() || mpp_is_single_media() ) {
 		return;
 	}
-	$component = mpp_get_current_component();
+	
 	?>
 	<div id="mpp-activity-upload-buttons" class="mpp-upload-buttons">
 	<?php do_action( "mpp_before_activity_upload_buttons" ); //allow to add more type  ?>
