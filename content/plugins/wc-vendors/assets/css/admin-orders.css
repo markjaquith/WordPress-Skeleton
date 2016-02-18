@@ -1,0 +1,7 @@
+.wp-list-table .column-order_id { width: 10%; }
+.wp-list-table .column-customer { width: 15%; }
+.wp-list-table .column-product { width: 35%; }
+.wp-list-table .column-total { width: 10%;}
+/*.wp-list-table .column-comments { width: 27.5%;}*/
+.wp-list-table .column-date { width: 15%;}
+.wp-list-table .column-status { width: 15%;}

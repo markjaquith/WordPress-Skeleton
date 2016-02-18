@@ -18,6 +18,11 @@ body {
 	  font-weight: 400;
 }
 
+h1, h2, h3, h4, h5 {
+  color: #333;
+  font-family: 'Raleway', sans-serif !important;
+}
+
 .btn-apply{
     color: white;
     background-color: #123F5A;
@@ -36,16 +41,13 @@ body {
 }
 
  .site-logo {
-    margin: 5px 14px;
+  margin: 5px 14px;
 }
 
 .site-logo img{
 	margin-top: 10px;
 	margin-bottom: 10px;
-}
-
-.site-logo img {
-	float: left;
+  float: left;
 }
 
 /*header button Css---------------------------------------------------------------------------------------------------*/
@@ -338,6 +340,246 @@ tr {
 }
 
 table .label{
-color: #333;
-border-right: white;
+  color: #333;
+  border-right: white;
+}
+/*
+WooCommerce Styles
+*/
+.breadcrumb-hr{
+  border-top: 1px solid #0A0F47;
+  margin-bottom: 40px;
+}
+
+.woocommerce-breadcrumb:first-child{
+  color: #123F5A;
+}
+
+.woocommerce-breadcrumb {
+  margin: 10px 0 10px 5px !important;
+}
+
+.sidebar-widget > ul > li > a:before {
+  content: '\f0da';
+	color: black;
+	font-family: FontAwesome;
+	margin-right: 6px;
+	font-size: 15px;
+}
+
+.woocommerce ul.product_list_widget li img {
+    margin-left: 4px;
+    width: 25%;
+}
+
+.sidebar-widget ul {
+    padding: 0px;
+}
+
+input[type="search"] {
+    webkit-transition: background-color 100ms ease-in-out, box-shadow 100ms ease-in-out;
+    -moz-transition: background-color 100ms ease-in-out, box-shadow 100ms ease-in-out;
+    transition: background-color 100ms ease-in-out, box-shadow 100ms ease-in-out;
+    border: solid 2px #e2e2e2;
+    color: #333;
+    background: white;
+    box-shadow: none;
+    width: 100%;
+    padding: .718em .718em .718em 2.718em;
+}
+
+input[type="search"]:focus, input[type="search"]:active{
+  border-color: lightgray;
+  background-color: white;
+  box-shadow: 0 0 0 5px rgba(0, 0, 0, 0.03) inset;
+  outline: none;
+}
+
+.screen-reader-text {/* Hides the screen reader text by clipping the text behind the search box */
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px);
+    position: absolute !important;
+}
+
+.woocommerce-product-search:before {
+    content: "\f002";
+    font-family: "FontAwesome";
+    color: black;
+    position: absolute;
+    top: .990em;
+    left: 2em;
+    line-height: 1;
+}
+
+.shop h1 {
+  margin-top: 0px;
+}
+
+.sidebar-widget, .rssSummary {
+  font-family: 'Raleway', sans-serif !important;
+  font-weight: 700;
+}
+
+.sidebar-widget > ul > li {
+  font-family: 'Raleway', sans-serif !important;
+}
+.sidebar-widget-title h3 {
+  color: #333;
+  font-family: 'Raleway', sans-serif !important;
+  font-weight: 500;
+}
+
+.hc_sidebar .sidebar-widget {
+  margin-bottom: 20px;
+}
+
+
+ul.products li.product {/* Centers product title, price and vendor name */
+    list-style: none;
+    margin-left: 0;
+    margin-bottom: 4.236em;
+    text-align: center;
+    position: relative;
+}
+
+ul.products li.product h3 {
+  font-size: 22px !important;
+}
+
+.woocommerce ul.products li.product .price{
+  color: #123F5A;
+}
+
+.woocommerce a.button:hover {
+  background-color: #011B2A;
+  color: white;
+}
+
+.woocommerce a.button{
+  background-color: #123F5A;
+  color: white;
+}
+
+.woocommerce ul.products li.product, .woocommerce-page ul.products li.product{/* Increases size of product images as width increases*/
+  width: 30%;
+}
+
+ul.products li.product .star-rating {/* Makes start ratings centered */
+    margin: 0 auto 1em;
+}
+
+.woocommerce table.shop_table {
+    border-top: 2px solid #0A0F47;
+    border-bottom: 2px solid black;
+    border-left: none;
+    border-right: none;
+    margin: 0 -1px 24px 0;
+    text-align: left;
+    width: 100%;
+    /* border-collapse: separate; */
+    border-radius: 0;
+}
+
+.woocommerce #respond input#submit.alt,
+.woocommerce a.button.alt, .woocommerce button.button.alt,
+.woocommerce input.button.alt, .woocommerce input.button,
+.woocommerce #respond input#submit {/* styles the woocommerce buttons */
+  background-color: #123F5A;
+  color: white;
+}
+
+.woocommerce #respond input#submit.alt:hover,
+.woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover,
+.woocommerce input.button.alt:hover, .woocommerce input.button:hover,
+.woocommerce #respond input#submit:hover{
+  background-color: #011B2A;
+  color: white;
+}
+
+.woocommerce div.product p.price, .woocommerce div.product span.price {
+    color: #123F5A;
+    font-size: 1.25em;
+}
+
+.vendor-section{
+  margin-bottom: 10px;
+}
+
+.vendor-links > a {
+  margin-left: 10px;
+}
+
+.vendor-links > a:first-child {
+  margin-left: 0px;
+}
+
+.seller-link{
+  margin-bottom: 20px;
+}
+
+/*
+WC Vendor Styles
+*/
+.btn {
+  background-color: inherit !important;
+  background-image: none !important;
+  color: inherit !important;
+  border: 1px solid transparent !important;
+  box-shadow: none !important;
+  line-height: 1.4285 !important;
+}
+
+.btn-lg {
+  padding: 10px 16px !important;
+  font-size: 18px !important;
+  line-height: 1.33 !important;
+}
+
+
+.btn-default {
+    border-color: #ccc !important;
+}
+
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open > .dropdown-toggle.btn-default {
+    color: #333 !important;
+    background-color: #e6e6e6 !important;
+    border-color: #adadad !important;
+}
+
+.btn-inverse {
+  background-color: #123F5A !important;
+  color: #fff !important;
+}
+/* non-member sidebar styles */
+.sidebar-widget > ul.product_list_widget > li > a:before {
+    content: '';
+    color: black;
+    font-family: none;
+    margin: 0px;
+}
+.sidebar-widget > ul.product_list_widget > li > a,
+.sidebar-widget > ul.product_list_widget > li > span {
+    font-family: 'Raleway', sans-serif !important;
+    color: #123F5A;
+    font-weight: inherit;
+}
+.sidebar-widget > ul.product_list_widget > li > a{
+    font-size: 18px;
+}
+.sidebar-widget > ul > li > a:hover {
+    color: #011B2A;
+}
+.sidebar-widget > ul.product_list_widget > li > a > span{
+  margin-top: 10px;
+}
+
+.sidebar-widget > ul.product_list_widget > li > a > img{
+  margin-right: 10px;
+}
+
+.sidebar-widget > ul.product_list_widget > li > a > span,
+.sidebar-widget > ul.product_list_widget > li > span
+ {
+    font-size: .857em;
+    display: block;
 }
