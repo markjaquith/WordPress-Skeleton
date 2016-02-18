@@ -17,7 +17,11 @@ get_header();
 			  if(current_user_can(access_s2member_level1)){
 				if ( is_active_sidebar( 'sidebar_primary' ) ) //checks if sidebar primary is active then dispolays the sidebar
 				{ dynamic_sidebar( 'sidebar_primary' );	}
-			  }
+			  }else{
+					if (is_active_sidebar('sidebar_primary_two')){
+						dynamic_sidebar( 'sidebar_primary_two' );
+					}
+				}
 			?>
 		</div>
 	   </div>

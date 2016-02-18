@@ -7,8 +7,7 @@ get_header();
 	</div>
 	<div class="container">
 		<div class="col-md-12">
-			<?php echo do_shortcode('[mpp-list-gallery 
-component=groups component_id=2 view="grid"]'); ?>
+			<?php echo do_shortcode('[mpp-list-gallery component=groups component_id=2 view="grid"]'); ?>
 		</div>
 	</div>
 </div>
