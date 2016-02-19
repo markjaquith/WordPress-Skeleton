@@ -21,7 +21,7 @@ class MPP_Sitewide_Gallery_Template_Loader extends MPP_Gallery_Template_Loader {
 		return self::$instance;
 	}
 
-	public function loade_template() {
+	public function load_template() {
 
 
 		$template = $this->path . 'home.php';

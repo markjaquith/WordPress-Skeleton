@@ -1,9 +1,9 @@
 === MediaPress ===
 Contributors: buddydev,sbrajesh
 Tags: buddypress, buddypress album, buddypress gallery, photo gallery, video gallery, audio gallery, document gallery, social gallery
-Requires at least: 3.9 & BuddyPress 2.0
-Tested up to: 4.4.1 & BuddyPress 2.4.3
-Stable tag: 1.0.0
+Requires at least: 4.0 & BuddyPress 2.0
+Tested up to: 4.4.2 & BuddyPress 2.4.3
+Stable tag: 1.0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -11,7 +11,9 @@ MediaPress is the most advanced and feature rich media gallery plugin for BuddyP
 
 == Description ==
 
-MediaPress is a modern Media Gallery solution for WordPress & BuddyPress. 
+MediaPress is a modern Media Gallery solution for WordPress & BuddyPress. At the moment, MediaPress is almost(We need you to decide) the best option available for BuddyPress photo, video,audio and doc gallery.
+Use it if you want to have a pleasant experience for your users.
+ 
 MediaPress has modular architecture, that makes it easier for developers to extend while keeping the code simple to maintain.
 
 It is built to be reliable, scalable, secure and flexible. We have worked hard to make it easy to use and we will love your feedback in making it better.
@@ -81,6 +83,7 @@ Here are some of our available addons for MediaPress.
 *	[MediaPress S2Member Storage Limit](http://buddydev.com/plugins/mpp-s2member-storage-limit/)
 *	[MediaPress Flexible Storage Limit](http://buddydev.com/plugins/mpp-flexible-storage-limit/)
 *	[MediaMark:- Watermarking solution for MediaPress](http://buddydev.com/plugins/mediamark/)
+*	[MediaPress Paid Memberships Pro Storage Limit](http://buddydev.com/plugins/mpp-pmpro-storage-limit/)
 *	more coming soon
 
 
@@ -109,7 +112,7 @@ You may use our [Installation guide](http://buddydev.com/mediapress/guides/getti
 == Frequently Asked Questions ==
 
 = Where do I get support? =
-We will be supporting via BuddyDev Forums. Please open a topic on our forums and we will be there to help.
+We request you to use [BuddyDev Forums](http://buddydev.com/support/forums/) for all the support questions. We love helping. Using BuddyDev forums allows us to assist you better and quicker.
 
 = Theme compatibility Issue =
 By default, MediaPress should work with 99% of the themes out of the box. There are still a small chance that it may have issues with some theme. 
@@ -129,6 +132,18 @@ Please let us know and we will support you. We are working on guides for theme d
 Please see the demo or the MediaPress site for more screenshots.
 
 == Changelog ==
+
+= 1.0.2 =
+ * Fixed double form issue on Create gallery page.
+ * Fixed a typo in method name for loading templates
+ * Please upgrade if you are seeing double form on create gallery page
+
+= 1.0.1 =
+ * Added uploader shortcode [mpp-uploader]
+ * Added My Gallery filters for Group Galleries
+ * Added type filters for User Galleries
+ * Other enhancements
+ * Release notes: [Link](http://buddydev.com/mediapress-development/mediapress-1-0-1-is-available-now/)
 
 = 1.0.0 =
  * Initial Release on wp.org repo

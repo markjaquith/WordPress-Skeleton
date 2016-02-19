@@ -32,7 +32,7 @@ $media = mpp_get_current_media();
 		<div class="mpp-lightbox-media-uploader-meta mpp-clearfix">
 			<div class="mpp-lightbox-media-uploader-avatar">
 				<a href="<?php echo bp_core_get_user_domain( mpp_get_media_creator_id() ); ?>">
-					<?php echo bp_core_fetch_avatar ( array( 'object'=> 'members', 'width' => bp_core_avatar_thumb_width(), 'height'=>  bp_core_avatar_thumb_height() ) ); ?>
+					<?php echo bp_core_fetch_avatar ( array( 'item_id' => mpp_get_media_creator_id(), 'object'=> 'members', 'width' => bp_core_avatar_thumb_width(), 'height'=>  bp_core_avatar_thumb_height() ) ); ?>
 				</a>
 			</div>
 			<div class="mpp-lightbox-uploader-upload-details">

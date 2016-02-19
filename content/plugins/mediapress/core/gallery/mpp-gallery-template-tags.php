@@ -332,11 +332,11 @@ function mpp_gallery_pagination() {
  */
 function mpp_get_gallery_pagination() {
 
-	if ( mediapress()->the_gallery_query ) {
-		return mediapress()->the_gallery_query->paginate();
+	if ( ! mediapress()->the_gallery_query ) {
+		return '';
 	}
 
-	return '';
+	return "<div class='mpp-paginator'>" . mediapress()->the_gallery_query->paginate() . "</div>";
 }
 
 function mpp_get_next_gallery_id( $gallery_id ) {
@@ -513,6 +513,19 @@ function mpp_is_single_gallery() {
 
 	return false;
 }
+/**
+ * Is Gallery listing page?
+ * 
+ * @return type 
+ */
+function mpp_is_list_gallery() {
+
+	if ( mediapress()->the_gallery_query && mediapress()->the_gallery_query->is_archive() ) {
+		return true;
+	}
+
+	return false;
+}
 
 /**
  * Get The Single gallery ID
@@ -576,6 +589,8 @@ function mpp_list_galleries_dropdown( $args = null ) {
 		'component'			=> '',
 		'component_id'		=> '',
 		'posts_per_page'	=> -1,
+		'echo'				=> 1,
+		'label_empty'		=> '',//if you want to add an extra option for selecting
 	);
 
 	$args = wp_parse_args( $args, $default );
@@ -590,12 +605,17 @@ function mpp_list_galleries_dropdown( $args = null ) {
 
 	$html = '';
 	$selected_attr = '';
-
+	
+	if ( $label_empty ) {
+		$html .= "<option value='0'" . selected( 0, $selected, false ) . ">" . $label_empty . "</option>";
+	}
+	
 	while ( $mppq->have_galleries() ) {
+		$mppq->the_gallery();
 
 		$selected_attr = selected( $selected, mpp_get_gallery_id(), false );
 
-		$html .= "<option value='" . mpp_get_gallery_id() . " '" . $selected_attr . ">" . mpp_get_gallery_title() . "</option>";
+		$html .= "<option value='" . mpp_get_gallery_id() . "'" . $selected_attr . " data-mpp-type='" . mpp_get_gallery_type() . "'>" . mpp_get_gallery_title() . "</option>";
 	}
 	//reset current gallery
 	mpp_reset_gallery_data();

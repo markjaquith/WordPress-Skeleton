@@ -519,23 +519,31 @@ jQuery.cookie=function(name,value,options){if(typeof value!='undefined'){options
 }
 
 
-function mpp_setup_uploader_file_types( mpp_uploader ) {
+function mpp_setup_uploader_file_types( mpp_uploader, type ) {
 	
-	if( !_mppData || !_mppData.current_type || !_mppData.types ) {
+	if( !_mppData || !_mppData.types ) {
 		return ;
 	}
 	
+	if ( type === undefined  && _mppData.current_type !== undefined ) {
+		type = _mppData.current_type;
+	}
+	//if type is still not defined, go back
+	if ( type == undefined ) {
+		return ;
+	}
 	//console.log(mpp_uploader);
 	var settings = mpp_uploader.uploader.getOption('filters');
 	
-	settings.mime_types = [_mppData.types[_mppData.current_type]];
+	settings.mime_types = [_mppData.types[type]];
 	
 	mpp_uploader.uploader.setOption('filters', settings );
 	
 	if( mpp_uploader.dropzone ) {
-		jQuery( mpp_uploader.dropzone ).find('.mpp-uploader-allowed-file-type-info' ).html( _mppData.allowed_type_messages[_mppData.current_type] );
+		jQuery( mpp_uploader.dropzone ).find('.mpp-uploader-allowed-file-type-info' ).html( _mppData.allowed_type_messages[type] );
 	}
 }
+
 /**
  * 
  * @returns {Object}Get media attached to the activity form

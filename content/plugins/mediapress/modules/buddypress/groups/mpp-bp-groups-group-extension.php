@@ -57,7 +57,7 @@ class MPP_Group_Gallery_Extension extends BP_Group_Extension{
 	
 	public function display( $group_id = null ) {
 		
-		mpp_get_component_template_loader( 'groups' )->loade_template();
+		mpp_get_component_template_loader( 'groups' )->load_template();
 	}
 	
     /**

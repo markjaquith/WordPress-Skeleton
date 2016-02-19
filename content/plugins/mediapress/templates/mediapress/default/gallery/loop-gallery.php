@@ -10,7 +10,7 @@ if ( ! defined( 'ABSPATH' ) ) {
  */
 ?>
 
-<?php if( mpp_have_galleries() ): ?>
+<?php if ( mpp_have_galleries() ): ?>
 	<div class='mpp-g mpp-item-list mpp-galleries-list'>
 
 		<?php while( mpp_have_galleries() ): mpp_the_gallery(); ?>
@@ -51,8 +51,9 @@ if ( ! defined( 'ABSPATH' ) ) {
 			</div>
 
 		<?php endwhile; ?>
+		<?php mpp_gallery_pagination(); ?>
 	</div>
-<?php mpp_reset_gallery_data();?> 
+	<?php mpp_reset_gallery_data();?> 
 <?php else:?>
 	<div class="mpp-notice mpp-no-gallery-notice">
 		<p> <?php _ex( 'There are no galleries available!', 'No Gallery Message', 'mediapress' ); ?> 

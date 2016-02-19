@@ -4,7 +4,7 @@
 if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
-add_filter( 'mpp_get_current_component', 'mpp_filter_current_component_for_sitewide' );
+
 
 function mpp_filter_current_component_for_sitewide( $component ) {
 	
@@ -26,6 +26,7 @@ function mpp_filter_current_component_for_sitewide( $component ) {
 
 	return $component;
 }
+add_filter( 'mpp_get_current_component', 'mpp_filter_current_component_for_sitewide' );
 
 //reserved slugs, do not allow attachments to have the reserved slugs
 function mpp_filter_attachment_slug( $is_bad, $slug ) {
@@ -34,6 +35,23 @@ function mpp_filter_attachment_slug( $is_bad, $slug ) {
 }
 
 add_filter( 'wp_unique_post_slug_is_bad_attachment_slug', 'mpp_filter_attachment_slug', 10, 2 );
+/**
+ * Filter slugs for Gallery
+ * 
+ * @param booleane $is_bad
+ * @param string $slug
+ * @param string $post_type
+ * @return boolean
+ */
+function mpp_filter_reserved_gallery_slug( $is_bad, $slug, $post_type ) {
+	
+	if ( mpp_get_gallery_post_type() == $post_type ) {
+		$is_bad = mpp_is_reserved_slug( $slug );
+	}
+	
+	return $is_bad;
+}
+add_filter( 'wp_unique_post_slug_is_bad_flat_slug', 'mpp_filter_reserved_gallery_slug', 10, 3 );
 
 //if BuddyPress is active and directory is enabled, redirect archive page to BuddyPress Gallery Directory
 
@@ -160,7 +178,8 @@ function mpp_modify_page_title( $complete_title, $title, $sep, $seplocation ) {
 	$sub_title = array_filter( $sub_title );
 
 	if ( ! empty( $sub_title ) ) {
-		$complete_title = $complete_title . join( ' | ', $sub_title ) . ' | ';
+		$sub_title = array_reverse( $sub_title );
+		$complete_title = join( ' | ', $sub_title ) . ' | ' . $complete_title ;
 	}
 	
 	return $complete_title;

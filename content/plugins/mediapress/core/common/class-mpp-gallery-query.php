@@ -21,7 +21,11 @@ class MPP_Gallery_Query extends WP_Query {
 		if ( ! isset( $args['_mpp_mapped_query'] ) ) {
 			$args = self::build_params( $args );
 		}
-
+		
+		//Please do not use this filter if possible. It will affect the global queries too
+		//
+		//$args = apply_filters( 'mpp_gallery_query_args', $args, $this );
+		
 		parent::query( $args );
 	}
 

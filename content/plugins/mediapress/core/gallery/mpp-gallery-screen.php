@@ -16,7 +16,7 @@ class MPP_Gallery_Screens {
 
 	/**
 	 *
-	 * @return MPP_Gallery_Screens 
+	 * @return MPP_Gallery_Screens
 	 */
 	public static function get_instance() {
 
@@ -49,6 +49,8 @@ class MPP_Gallery_Screens {
 			} else {
 				$this->single_gallery();
 			}
+		} elseif ( mpp_is_list_gallery() ) {
+			$this->user_galleries();
 		}
 	}
 
@@ -57,9 +59,9 @@ class MPP_Gallery_Screens {
 		mediapress()->set_action( 'create' );
 
 		add_action( 'bp_template_content', array( $this, 'content_create_gallery' ) );
-		
+
 		do_action( 'gallery_screen_create_gallery' );
-		
+
 		bp_core_load_template( apply_filters( 'mpp_template_user_galleries_create', 'members/single/plugins' ) );
 	}
 
@@ -71,27 +73,27 @@ class MPP_Gallery_Screens {
 	public function user_galleries() {
 
 		add_action( 'bp_template_content', array( $this, 'content_user_galleries_list' ) );
-		
+
 		do_action( 'gallery_screen_my_galleries' );
-		
+
 		bp_core_load_template( apply_filters( 'mpp_template_user_galleries', 'members/single/plugins' ) );
 	}
 
 	public function single_gallery() {
 
 		add_action( 'bp_template_content', array( $this, 'content_single_gallery' ) );
-		
+
 		do_action( 'gallery_screen_single_gallery' );
-		
+
 		bp_core_load_template( apply_filters( 'mpp_template_user_galleries', 'members/single/plugins' ) );
 	}
 
 	public function single_media() {
 
 		add_action( 'bp_template_content', array( $this, 'content_single_media' ) );
-		
+
 		do_action( 'gallery_screen_single_gallery' );
-		
+
 		bp_core_load_template( apply_filters( 'mpp_template_user_galleries', 'members/single/plugins' ) );
 	}
 
@@ -116,11 +118,11 @@ class MPP_Gallery_Screens {
 	/**
 	 * User gallery Home page
 	 * List of all galleries
-	 * 
+	 *
 	 */
 	public function content_user_galleries_list() {
 
-		mpp_get_component_template_loader( 'members' )->loade_template();
+		mpp_get_component_template_loader( 'members' )->load_template();
 		//mpp_get_template( 'buddypress/members/home.php' );
 	}
 
@@ -129,32 +131,32 @@ class MPP_Gallery_Screens {
 	 */
 	public function content_single_gallery() {
 
-		mpp_get_component_template_loader( 'members' )->loade_template();
+		mpp_get_component_template_loader( 'members' )->load_template();
 		// mpp_get_template( 'buddypress/members/home.php' );
 	}
 
 	public function content_manage_gallery() {
-		
-		mpp_get_component_template_loader( 'members' )->loade_template();
+
+		mpp_get_component_template_loader( 'members' )->load_template();
 		// mpp_get_template( 'buddypress/members/home.php' );
 	}
 
 	public function content_single_media() {
 
-		mpp_get_component_template_loader( 'members' )->loade_template();
+		mpp_get_component_template_loader( 'members' )->load_template();
 		// mpp_get_template( 'buddypress/members/home.php' ); //load gallery/media/media-singlemedia-single
 	}
 
 	public function content_manage_media() {
-		
-		mpp_get_component_template_loader( 'members' )->loade_template();
+
+		mpp_get_component_template_loader( 'members' )->load_template();
 
 		//mpp_get_template('buddypress/members/home.php' );
 	}
 
 	public function content_create_gallery() {
-		
-		mpp_get_component_template_loader( 'members' )->loade_template();
+
+		mpp_get_component_template_loader( 'members' )->load_template();
 		// mpp_get_template( 'buddypress/members/home.php' ); //load gallery-create.php form
 	}
 

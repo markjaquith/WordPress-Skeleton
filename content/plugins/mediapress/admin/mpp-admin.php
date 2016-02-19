@@ -148,17 +148,16 @@ class MPP_Admin_Settings_Helper {
 	 */
 	public function init() {
 		
-		if( ! $this->is_settings_page() ) {
+		if ( ! $this->is_settings_page() ) {
 			return ;
 		}
 		
 		
 		$this->build_options();
 		
-		if( ! class_exists( 'MPP_Admin_Settings_Page' ) ) {
+		if ( ! class_exists( 'MPP_Admin_Settings_Page' ) ) {
 			require_once mediapress()->get_path() . 'admin/mpp-settings-manager/mpp-admin-settings-loader.php';
 		}
-		
 		
 				
 		//'mpp-settings' is used as page slug as well as option to store in the database
@@ -176,7 +175,7 @@ class MPP_Admin_Settings_Helper {
 		
 		$components = mpp_get_registered_components();
 		
-		foreach( $components as $key => $component ) {
+		foreach ( $components as $key => $component ) {
 			
 			$components_details[ $key ] = $component->label;
 		}
@@ -187,7 +186,7 @@ class MPP_Admin_Settings_Helper {
 		
 		$active_components = array_keys( mpp_get_active_components() );
 		
-		if( ! empty( $active_components ) ) {
+		if ( ! empty( $active_components ) ) {
 		
 			$default_components = array_combine( $active_components, $active_components );
 		}
@@ -209,7 +208,7 @@ class MPP_Admin_Settings_Helper {
 		
 		$options = array();
 		
-		foreach( $available_media_stati as $key => $available_media_status ) {
+		foreach ( $available_media_stati as $key => $available_media_status ) {
 			$options[ $key ] = $available_media_status->get_label ();
 		}	
 		
@@ -229,7 +228,7 @@ class MPP_Admin_Settings_Helper {
 		
 		$status_info = array();
 		
-		foreach( $registered_statuses as $key => $status ) {
+		foreach ( $registered_statuses as $key => $status ) {
 		
 			$status_info[ $key ] = $status->label;
 		}	
@@ -240,7 +239,7 @@ class MPP_Admin_Settings_Helper {
 		
 		$default_statuses = array_combine( $status_keys, $status_keys );
 		
-		if( ! empty( $active_statuses ) ) {
+		if ( ! empty( $active_statuses ) ) {
 			$default_statuses = array_combine( $active_statuses, $active_statuses );
 		}	
 		
@@ -267,9 +266,9 @@ class MPP_Admin_Settings_Helper {
 		$types_info = array();
 		$extension_fields = array();
 		
-		foreach( $valid_types as $type => $type_object ) {
+		foreach ( $valid_types as $type => $type_object ) {
 			
-			$types_info[$type] = $type_object->label;
+			$types_info[ $type ] = $type_object->label;
 			
 			$extension_fields [] =	 array( 
 				'id'				=> 'extensions-'. $type,
@@ -289,7 +288,7 @@ class MPP_Admin_Settings_Helper {
 		
 		$active_types = array_keys( $this->active_types );
 		
-		if( ! empty( $active_types ) ) {
+		if ( ! empty( $active_types ) ) {
 		
 			$default_types = array_combine( $active_types, $active_types );
 		}
@@ -355,8 +354,8 @@ class MPP_Admin_Settings_Helper {
 		
 		$storage_method_options = array();
 		
-		foreach( $storage_methods as $storage_method ) {
-			$storage_method_options[$storage_method] = ucfirst ( $storage_method );
+		foreach ( $storage_methods as $storage_method ) {
+			$storage_method_options[ $storage_method ] = ucfirst ( $storage_method );
 		}
 					//->add_field();
 		
@@ -741,6 +740,25 @@ class MPP_Admin_Settings_Helper {
 
 		$panel = $page->add_panel( 'members', _x( 'Members Gallery', 'Admin settings BuddyPress panel tab title', 'mediapress' ) );
 		$this->add_type_settings( $panel , 'members');
+		
+		$section = $panel->get_section( 'members-types' );
+		
+		if ( $section ) {
+		
+			$section->add_field( array(
+				'name'			=> 'members_enable_type_filters',
+				'label'			=> _x( 'Enable Gallery Type Filetrs on profile?','Admin settings group section', 'mediapress' ),
+				'type'			=> 'radio',
+				'default'		=> 1,//10 MB
+				'options'		=> array(
+					1 => _x( 'Yes', 'Admin settings option', 'mediapress' ), 
+					0 => _x( 'No', 'Admin settings option', 'mediapress' ),
+
+				)
+
+			) );
+		}
+		
 		$this->add_gallery_views_panel( $panel, 'members' );
 	
 	}
@@ -791,6 +809,19 @@ class MPP_Admin_Settings_Helper {
 											
 						)
 						
+					) )
+					->add_field( array(
+						'name'			=> 'groups_enable_my_galleries',
+						'label'			=> _x( 'Show My Galleries to Group members?', 'Admin settings group section', 'mediapress' ),
+						'desc'			=> _x( 'It adds a tab named My Gallery on group pages where the logged in user can see the galleries they created in this group.', 'Admin settings group section', 'mediapress' ), 
+						'type'			=> 'radio',
+						'default'		=> 1,//10 MB
+						'options'		=> array(
+							1 => _x( 'Yes', 'Admin settings option', 'mediapress' ), 
+							0 => _x( 'No', 'Admin settings option', 'mediapress' ),
+											
+						)
+						
 					) );
 		
 		
@@ -805,9 +836,10 @@ class MPP_Admin_Settings_Helper {
 			$section = $panel->add_section( $component . '-gallery-views', sprintf( _x( ' %s Gallery Default Views', 'Gallery view section title', 'mediapress' ), ucwords( $component ) ) );
 			
 			$supported_types = mpp_component_get_supported_types( $component );
-			foreach( $active_types as $key => $type_object  ) {
+			
+			foreach ( $active_types as $key => $type_object  ) {
 				//if the component does not support type, do not add the settings
-				if( ! empty( $supported_types ) && ! mpp_component_supports_type( $component, $key ) ) {
+				if ( ! empty( $supported_types ) && ! mpp_component_supports_type( $component, $key ) ) {
 					continue;
 					//if none of the types are enabled, it means, it is the first time and we need not break here
 				}
@@ -815,9 +847,9 @@ class MPP_Admin_Settings_Helper {
 				$registered_views = mpp_get_registered_gallery_views( $key );
 				$options = array();
 				
-				foreach( $registered_views as $view ) {
+				foreach ( $registered_views as $view ) {
 					
-					if( ! $view->supports_component( $component ) ) {
+					if ( ! $view->supports_component( $component ) || ! $view->supports( 'gallery' ) ) {
 						continue;
 					}
 					
@@ -834,20 +866,21 @@ class MPP_Admin_Settings_Helper {
 					) );
 			}
 	}
+	
 	private function add_activity_views_panel( $panel ) {
 		
 			$active_types = $this->active_types;
 			
 			$section = $panel->add_section( 'activity-gallery-views', _x( 'Activity Media List View', 'Activity view section title', 'mediapress' ) );
 			
-			foreach( $active_types as $key => $type_object  ) {
+			foreach ( $active_types as $key => $type_object  ) {
 				
 				$registered_views = mpp_get_registered_gallery_views( $key );
 				$options = array();
 				
-				foreach( $registered_views as $view ) {
+				foreach ( $registered_views as $view ) {
 					
-					if( ! $view->supports( 'activity' ) ) {
+					if ( ! $view->supports( 'activity' ) ) {
 						continue;
 					}
 					

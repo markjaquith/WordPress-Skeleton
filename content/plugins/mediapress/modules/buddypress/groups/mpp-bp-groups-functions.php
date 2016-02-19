@@ -8,7 +8,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 function mpp_group_is_gallery_enabled( $group_id = false ) {
 
 	//is groups component enabled?
-	if ( mpp_is_active_component( 'groups' ) ) {
+	if ( mpp_is_enabled( 'groups', $group_id ) ) {
 		$is_enabled = true;
 	} else {
 		$is_enabled = false;
@@ -180,4 +180,23 @@ function mpp_check_groups_access( $component_type, $component_id, $user_id = nul
 	}
 	
 	return apply_filters( 'mpp_check_groups_access', $allow, $component_type, $component_id, $user_id );
+}
+/**
+ * Is my Galleries filter enabled for the groups component
+ * 
+ * @return boolean
+ */
+function mpp_group_is_my_galleries_enabled() {
+	
+	return mpp_get_option( 'groups_enable_my_galleries' );
+}
+//a liitle bit deviation in maning here
+//but we will be moving more groups constructs tot his naming convention
+
+function mpp_group_get_user_galleries_url() {
+	
+	$component = 'groups';
+	$component_id = groups_get_current_group()->id;
+	
+	return user_trailingslashit( trailingslashit( mpp_get_gallery_base_url( $component, $component_id ) ) . 'my-gallery' ); 
 }

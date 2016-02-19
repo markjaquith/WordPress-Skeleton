@@ -71,6 +71,18 @@ function mpp_get_status_taxname() {
 
 	return 'mpp-status';
 }
+/**
+ * Check if MediaPress is enabled for the given component
+ * 
+ * @param string $component current component, possible values 
+ * @param type $component_id
+ * @return type
+ */
+function mpp_is_enabled( $component, $component_id ) {
+
+	return apply_filters( 'mpp_is_enabled', mpp_is_active_component( $component ), $component, $component_id );
+	
+}
 
 function mpp_get_all_taxonomies_info() {
 
@@ -627,9 +639,13 @@ function mpp_admin_is_add_gallery() {
 	return false;
 }
 
-function mpp_get_reserved_actions() {
+function mpp_get_reserved_slugs() {
 
-	return array( 'edit', 'info', 'cover', 'members', 'manage', 'image', 'media', 'reorder', 'delete-cover' );
+	$reserved =  array( 'edit', 'info', 'cover', 'members', 'manage', 'image', 'media', 'reorder', 'delete-cover', 'my-gallery' );
+	
+	$reserved = array_merge( $reserved, array_keys( mpp_get_registered_components() ), array_keys( mpp_get_registered_statuses() ), array_keys( mpp_get_registered_types() ) );
+	
+	return apply_filters( 'mpp_reserved_slugs', $reserved );
 }
 /**
  * Check if given key is reserved
@@ -638,7 +654,7 @@ function mpp_get_reserved_actions() {
  */
 function mpp_is_reserved_slug( $slug ) {
 	
-	$reserved = array( 'edit', 'info', 'cover', 'members', 'manage', 'image', 'media', 'reorder', 'delete-cover' );
+	$reserved = mpp_get_reserved_slugs();//array( 'edit', 'info', 'cover', 'members', 'manage', 'image', 'media', 'reorder', 'delete-cover' );
 	
 	if ( in_array( $slug, $reserved ) ) {
 		return true;
@@ -753,8 +769,11 @@ function mpp_get_all_options() {
 		'gallery_permalink_slug'			=> 'gallery',
 		'sitewide_active_types'				=> array( 'photo' => 'photo', 'audio' => 'audio', 'video'=> 'video' ),
 		'members_active_types'				=> array( 'photo' => 'photo', 'audio' => 'audio', 'video'=> 'video' ),
+		'members_enable_type_filters'		=> 1,//enable type filters on member page
 		'groups_active_types'				=> array( 'photo' => 'photo', 'audio' => 'audio', 'video'=> 'video' ),
 		'enable_group_galleries_default'	=> 'yes',
+		'groups_enable_my_galleries'		=> 1,
+		
 		
 	);
 
@@ -1082,6 +1101,11 @@ function mpp_component_init_type_support( $component ) {
 	foreach ( $supported_types as $type ) {
 		mpp_component_add_type_support( $component, $type );
 	}
+}
+
+function mpp_component_has_type_filters_enabled( $component, $component_id ) {
+	
+	return mpp_get_option( $component .'_enable_type_filters', 0 );
 }
 /**
  * Is autopublishing enable for the given gallery action

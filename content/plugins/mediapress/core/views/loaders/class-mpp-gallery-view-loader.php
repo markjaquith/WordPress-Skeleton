@@ -31,6 +31,6 @@ abstract class MPP_Gallery_Template_Loader {
 		return $this->path;
 	}
 	
-	abstract public function loade_template();
+	abstract public function load_template();
 
 }

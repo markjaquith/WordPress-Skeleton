@@ -110,7 +110,9 @@ function mpp_add_media( $args ) {
 		'storage_method'	=> '',
 		'mime_type'			=> '',
 		'description'		=> '',
-		'sort_order'		=> 0, //sort order	
+		'sort_order'		=> 0, //sort order
+		'date_created'		=> '',
+		'date_modified'		=> '',
 	);
 	
 	$args = wp_parse_args( $args, $default );
@@ -144,7 +146,14 @@ function mpp_add_media( $args ) {
 	if ( isset( $attachment['ID'] ) ) {
 		unset( $attachment['ID'] );
 	}
-
+	
+	if ( ! empty( $date_created ) ) {
+		$attachment['post_date'] = $date_created;
+	}
+	
+	if ( ! empty( $date_updated ) ) {
+		$attachment['post_modified'] = $date_updated;
+	}
 	// Save the data
 	$id = wp_insert_attachment( $attachment, $src, $gallery_id );
 
@@ -225,6 +234,8 @@ function mpp_update_media( $args = null ) {
 		'mime_type'			=> '',
 		'description'		=> '',
 		'sort_order'		=> 0,
+		'date_created'		=> '',
+		'date_modified'		=> ''
 	);
 	
 	$args = wp_parse_args( $args, $default );
@@ -263,6 +274,14 @@ function mpp_update_media( $args = null ) {
 	
 	if ( $sort_order ) {
 		$post_data['menu_order'] = absin( $sort_order );
+	}
+	
+	if ( ! empty( $date_created ) ) {
+		$post_data['post_date'] = $date_created;
+	}
+	
+	if ( ! empty( $date_updated ) ) {
+		$post_data['post_modified'] = $date_updated;
 	}
 	// Save the data
 	$id = wp_insert_attachment( $post_data, false, $gallery_id );
@@ -585,6 +604,15 @@ function mpp_media_to_json( $attachment ) {
 		$response['thumb'] = compact( 'url', 'width', 'height' );
 	}
 
+	//do a final check here to see if the sizes array is set but we don't have a thumbnail
+	if ( ! empty( $response['sizes'] ) && empty( $response['sizes']['thumbnail'] ) ) {
+		$thumb_dimension = mpp_get_media_size( 'thumbnail' );		
+		$url = mpp_get_media_cover_src( 'thumbnail', $media->id );
+		$width = $thumb_dimension['width'];
+		$height = $thumb_dimension['height'];
+		$response['sizes']['thumbnail'] = compact( 'url', 'width', 'height' );
+		//$response['thumb'] = compact( 'url', 'width', 'height' );
+	}
 	return apply_filters( 'mpp_prepare_media_for_js', $response, $attachment, $meta );
 }
 
@@ -636,6 +664,7 @@ function mpp_media_user_can_comment( $media_id ) {
 function mpp_media_record_activity( $args ) {
 
 	$default = array(
+		'id'		=> false, //activity id
 		'media_id'	=> null,
 		'action'	=> '',
 		'content'	=> '',

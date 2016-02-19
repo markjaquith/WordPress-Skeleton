@@ -148,7 +148,7 @@ class MPP_Admin_Post_Helper {
 		
 		$selected = $is_new ? mpp_get_default_status() : $gallery->status;
 		
-		if( ! $component && mpp_is_active_component( 'sitewide' ) ) {
+		if ( ! $component && mpp_is_active_component( 'sitewide' ) ) {
 			$component = 'sitewide';
 		}
 		

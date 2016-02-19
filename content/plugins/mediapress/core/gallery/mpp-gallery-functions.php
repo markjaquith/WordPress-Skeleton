@@ -491,7 +491,9 @@ function mpp_create_gallery( $args = '' ) {
 		'order'			=> false,
 		'component'		=> false,
 		'component_id'	=> false,
-		'type'			=> ''
+		'type'			=> '',
+		'date_created'	=> '',
+		'date_updated'	=> '',
 	);
 	//if the gallery id is set 
 	if ( isset( $args['id'] ) && ! empty( $args['id'] ) ) {
@@ -521,6 +523,10 @@ function mpp_create_gallery( $args = '' ) {
 		$component = 'members';
 	}
 
+	if ( !  mpp_is_enabled( $component, $component_id ) ) {
+		return false;// not enabled for this, can not be created
+	}
+	
 	if ( ! $type ) {
 		$type = 'photo';
 	}
@@ -533,7 +539,7 @@ function mpp_create_gallery( $args = '' ) {
 			$gallery_status = $status;
 		}
 	}
-
+	
 	//hierarchical tax should always pass ids
 	$tax = array(
 		mpp_get_component_taxname() => mpp_underscore_it( $component ), //(array)mpp_get_component_term_id(
@@ -544,6 +550,14 @@ function mpp_create_gallery( $args = '' ) {
 
 	$post_data['tax_input'] = $tax;
 
+	if ( ! empty( $date_created ) ) {
+		$post_data['post_date'] = $date_created;
+	}
+	
+	if ( ! empty( $date_updated ) ) {
+		$post_data['post_modified'] = $date_updated;
+	}
+	
 	$gallery_id = wp_insert_post( $post_data );
 
 	if ( is_wp_error( $gallery_id ) ) {
@@ -587,6 +601,8 @@ function mpp_update_gallery( $args ) {
 		'component'		=> '',
 		'status'		=> '',
 		'type'			=> '',
+		'date_created'	=> '',
+		'date_modified'	=> '',
 			/// 'type'          => mpp_get_object_type( $gallery ),
 			// 'status'        => mpp_get_object_status( $gallery ),
 			//'component'     => mpp_get_object_component(  $gallery )
@@ -640,7 +656,14 @@ function mpp_update_gallery( $args ) {
 		$post['tax_input'] = $tax;
 	}
 	//$post['ID'] = $gallery->id;
-
+	if ( ! empty( $date_created ) ) {
+		$post_data['post_date'] = $date_created;
+	}
+	
+	if ( ! empty( $date_updated ) ) {
+		$post_data['post_modified'] = $date_updated;
+	}
+	
 	$gallery_id = wp_update_post( $post );
 
 	if ( is_wp_error( $gallery_id ) ) {
