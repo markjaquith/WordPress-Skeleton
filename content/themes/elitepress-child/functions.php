@@ -151,7 +151,7 @@ add_action('woocommerce_product_meta_start', 'custom_woocommerce_product_meta_st
 function custom_woocommerce_product_meta_start() {
         $wcv_profile_id = get_the_author_meta('ID');
         $profile_url = bp_core_get_user_domain ( $wcv_profile_id );
-        echo 'Vendor Profile: <a href="'. $profile_url .'">View My Profile</a>';
+        echo 'Artist Seller Profile: <a href="'. $profile_url .'">View My Profile</a>';
 }
 
 add_action('woocommerce_product_meta_start', 'wcv_bppm_woocommerce_product_meta_start');

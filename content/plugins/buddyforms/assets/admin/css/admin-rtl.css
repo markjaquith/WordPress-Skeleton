@@ -1,0 +1,7 @@
+#bf_admin_wrap .buddyforms_accordion_right {float: LEFT; margin-LEFT: 15px;}
+#bf_admin_wrap .accordion-heading-options {float: LEFT; margin-LEFT: 15px;}
+#bf_admin_wrap .accordion-inner .innerblock .radio input[type=radio] {margin-LEFT: 5px; margin-RIGHT: 1px;}
+.form-search .radio input[type="radio"],
+.form-search .checkbox input[type="checkbox"],
+.form-inline .radio input[type="radio"],
+.form-inline .checkbox input[type="checkbox"] { float: RIGHT; margin-LEFT: 5px; margin-RIGHT: 0;}

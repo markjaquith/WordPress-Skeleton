@@ -1,0 +1,55 @@
+ul.buddyforms-list{
+	margin: 20px 0;
+	list-style: none outside none !important;
+}	
+
+ul.buddyforms-list li {
+	padding: 20px 0;
+	height: auto;
+	min-height: 44px;
+	position: relative;
+	padding: 15px 0 20px 0;
+	margin-left: 0;
+	border-bottom: 1px solid #dedede;
+	list-style: none outside none;	
+}
+
+ul.buddyforms-list li img.avatar {
+	float: left;
+	margin: 3px 10px 10px 2px;
+}
+
+ul.buddyforms-list.item-list li div.item-desc {
+	font-size: 100%;
+	margin: 10px 0 0 0px !important;
+	width: 50%;
+	margin: 5px 5px 5px 0;
+	clear: right;
+}
+
+ul.buddyforms-list li div.action {
+    clear: both;
+    margin-top: 20px;
+    font-size: 80%;
+}
+
+ul.buddyforms-list li div.meta {
+    margin-top: 10px;
+}
+
+ul.buddyforms-list .item-status {
+	padding: 3px 5px; 
+	border-radius: 3px; 
+	-moz-border-radius: 3px; 
+	-webkit-border-radius: 3px; 
+	font-weight: bold;
+	color: white; 
+	background: #555555; 
+	font-size: 11px;
+    float: left;
+    margin-right: 5px;
+	text-shadow: -1px -1px 0px #333;
+}
+ul.buddyforms-list .publish .item-status { background: green; }
+ul.buddyforms-list .bf-pending .item-status { background: orange; }
+ul.buddyforms-list .draft .item-status { background: red; }

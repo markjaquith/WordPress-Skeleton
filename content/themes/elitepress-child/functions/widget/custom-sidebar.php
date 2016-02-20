@@ -18,8 +18,8 @@ register_sidebar( array(
 		'description' => __( 'The right sidebar widget area for non-users', 'elitepress' ),
 		'before_widget' => '<div class="sidebar-widget">',
 		'after_widget' => '</div>',
-		'before_title' => '<div class="sidebar-widget-title"><h4>',
-		'after_title' => '</h4></div>',
+		'before_title' => '<div class="sidebar-widget-title"><h3>',
+		'after_title' => '</h3></div>',
 ) );
 
 register_sidebar( array(
