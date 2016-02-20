@@ -353,6 +353,19 @@ p {
     color: #333;
 }
 
+#buddypress .generic-button a {
+  padding: 12px 11px;
+  color: white;
+  background: #123f5a;
+  border: 0px;
+}
+
+ #buddypress div.generic-button a:hover{
+  background-color: #011B2A;
+  color: white;
+  border: 0px;
+}
+
 a {
     color: #123F5A;
     text-decoration: none;
@@ -494,7 +507,7 @@ ul.products li.product h3 {
 }
 
 .woocommerce ul.products li.product, .woocommerce-page ul.products li.product{/* Increases size of product images as width increases*/
-  width: 30%;
+  width: 29%;
 }
 
 ul.products li.product .star-rating {/* Makes start ratings centered */
@@ -516,7 +529,7 @@ ul.products li.product .star-rating {/* Makes start ratings centered */
 .woocommerce #respond input#submit.alt,
 .woocommerce a.button.alt, .woocommerce button.button.alt,
 .woocommerce input.button.alt, .woocommerce input.button,
-.woocommerce #respond input#submit {/* styles the woocommerce buttons */
+.woocommerce #respond input#submit, .price_slider_amount input.button{/* styles the woocommerce buttons */
   background-color: #123F5A;
   color: white;
 }
@@ -524,17 +537,35 @@ ul.products li.product .star-rating {/* Makes start ratings centered */
 .woocommerce #respond input#submit.alt:hover,
 .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover,
 .woocommerce input.button.alt:hover, .woocommerce input.button:hover,
-.woocommerce #respond input#submit:hover{
+.woocommerce #respond input#submit:hover, .price_slider_amount input.button:hover{
   background-color: #011B2A;
   color: white;
 }
+
+.woocommerce #respond input#submit:hover, .woocommerce a.button:hover,
+.woocommerce button.button:hover, .woocommerce input.button:hover {
+    background-color: #011B2A;
+    color: white;
+}
+
+.woocommerce #respond input#submit, .woocommerce a.button,
+.woocommerce button.button, .woocommerce input.button {
+    background-color: #123F5A;
+    color: white;
+}
+
 
 .woocommerce div.product p.price, .woocommerce div.product span.price {
     color: #123F5A;
     font-size: 1.25em;
 }
 
-.vendor-section{
+.price_label {
+  margin-top: 10px;
+  color: #333;
+}
+
+.vendor-section {
   margin-bottom: 10px;
 }
 
@@ -589,4 +620,8 @@ WC Vendor Styles
  {
     font-size: .857em;
     display: block;
+}
+
+.entry-summary > .entry-title {
+		margin-left: 0px;
 }
