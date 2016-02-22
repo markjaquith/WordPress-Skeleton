@@ -625,3 +625,15 @@ WC Vendor Styles
 .entry-summary > .entry-title {
 		margin-left: 0px;
 }
+
+.ws-plugin--s2member-custom-reg-fields-4bp-section {
+  display: inline-block;
+}
+
+#buddypress .standard-form#signup_form input[type=text], #buddypress .standard-form#signup_form textarea {
+  width: 100%;
+}
+
+#buddypress .standard-form div.submit input{
+  margin-right: 0px
+}
