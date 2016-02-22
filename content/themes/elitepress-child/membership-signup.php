@@ -17,8 +17,27 @@ get_header();
         <p>We hope to see you online posting awesome content and unleashing your creativity to the world!</p>
         <p>Click the PayPal button below to start the registration process.</p>
         <hr>
-        <?php echo do_shortcode('[s2Member-PayPal-Button level="1" ccaps="" desc="Artist Member / description and pricing details here." ps="paypal" lc="" cc="GBP" dg="0" ns="1" custom="www.eunuigbe" ta="0" tp="0" tt="D" ra="30" rp="1" rt="Y" rr="1" rrt="" rra="1" image="default" output="button" /]') ?>
-      </div>
+				<?php // Change these to the date you want the annual cycle to officially start
+
+					$cycle_start_year = '2016';
+
+					$cycle_start_month = '7';
+
+					$cycle_start_day = '31';
+
+					$cdate = mktime(0, 0, 0, $cycle_start_month, $cycle_start_day, $cycle_start_year);
+
+					$today = time();
+
+					$difference = $cdate - $today;
+
+					if ($difference < 0) { $difference = 0; }
+
+					$trial_days = floor($difference/60/60/24); // Calculated number of days until yearly cycle should start
+
+					echo do_shortcode('[s2Member-PayPal-Button level="1" ccaps="" desc="Artist Member / description and pricing details here." ps="paypal" lc="" cc="GBP" dg="0" ns="1" custom="www.eunuigbe" ta="0" tp="'.$trial_days.'" tt="D" ra="30" rp="1" rt="Y" rr="1" rrt="" rra="1" image="default" output="button" /]'); 
+				?>
+			</div>
       <div class="col-md-5 col-md-offset-1">
         <p><strong>To sign up and register on the artist directory is free until 31st July 2016 after this date registration fee will be £30 for 12 months.</strong></p>
         <p><strong>Note:</strong> You will be prompted to make a subscription through paypal. Once the subscription has been made you will be sent a registration link to the email address associated with your paypal account.</p>

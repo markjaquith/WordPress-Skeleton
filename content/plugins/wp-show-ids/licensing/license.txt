@@ -1,0 +1,37 @@
+Copyright: © 2009 WebSharks, Inc. ( coded in the USA )
+<mailto:support@websharks-inc.com> <http://www.websharks-inc.com/>
+
+Released under the terms of the GNU General Public License.
+<http://www.gnu.org/licenses/> - attached as [gpl.txt].
+
+Credits / Additional Acknowledgments:
+
+* Software designed for WordPress®.
+	- GPL License <http://codex.wordpress.org/GPL>
+	- WordPress® <http://wordpress.org>
+
+* JavaScript extensions require jQuery.
+	- GPL License <http://jquery.org/license>
+	- jQuery <http://jquery.com/>
+
+* Readme parsing routines, powered (in part) by PHP Markdown.
+	- BSD / GPL Compatible License <http://michelf.com/projects/php-markdown/license/>
+	- PHP Markdown <http://michelf.com/projects/php-markdown/>
+
+* Administration panel (tools icon) was provided by Everaldo.com.
+	- LGPL License <http://www.everaldo.com/crystal/?action=license>
+	- Everaldo <http://www.everaldo.com/crystal/?action=downloads>
+
+* Administration panel (videos icon) was provided by David Vignoni.
+	- LGPL License <http://www.iconfinder.com/search/?q=iconset%3Anuvola2>
+	- David Vignoni <http://www.icon-king.com/>
+	
+* PayPal® and its associated buttons & services have been integrated into this software via external hyperlinks.
+  The files/services provided by PayPal® are not distributed with this software. They have their own terms & conditions.
+	- PayPal®, a 3rd party service, is powered by eBay, Inc. <http://www.paypal.com/>
+	- PayPal® is a trademark of eBay, Inc. <http://www.ebay.com/>
+
+* The W3C® and its associated validator & services have been integrated into this software via external hyperlinks.
+  The files/services provided by the W3C® are not distributed with this software. They have their own terms & conditions.
+	- The W3C®, a 3rd party service, is powered by the World Wide Web Consortium <http://validator.w3.org/>
+	- W3C® is a trademark of the World Wide Web Consortium. <http://www.w3.org/>
