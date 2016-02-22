@@ -17,6 +17,12 @@ function theme_enqueue_style() {
 	wp_enqueue_script('utility', get_stylesheet_directory_uri() .'/js/utility.js');
 }
 
+function my_bp_core_activated_user(  $user_id, $key, $user ) {
+	$user = get_user_by('id', $user_id);
+	$user->add_role('vendor');
+};
+add_action( 'bp_core_activated_user', 'my_bp_core_activated_user', 10, 3 );
+
 //Filters
 //Functions dealing with manipulating the excerpt of posts
 add_filter('get_the_excerpt','my_post_slider_excerpt');
@@ -122,20 +128,28 @@ function my_breadcrumb_default(){
 add_action('bp_member_header_actions', 'wcvendors_pro_bp_member_header_actions');
 function wcvendors_pro_bp_member_header_actions(){
 
-				$wcv_profile_id  = bp_displayed_user_id();
-				$shop_name =  sanitize_title(get_user_meta( $wcv_profile_id, 'pv_shop_name', true ));
-				$home_url = get_home_url();
+				$wcv_profile_id  = bp_displayed_user_id(); //gets member id of the current displayed member's profile page
+				$shop_name =  sanitize_title(get_user_meta( $wcv_profile_id, 'pv_shop_name', true )); //gets shop name and makes it url friendly
+				$home_url = get_home_url(); //gets website's home url
+				//generates a button with link url pointing to the users shop
 				$sold_by = "<div class=\"generic-button\"><a class=\"send-message\"href=\"$home_url/vendors/" . $shop_name . "/\">Visit My Store</a></div>";
 
 
-        $wcv_profile_info = get_userdata( bp_displayed_user_id() );
-        $wcv_profile_role = implode( $wcv_profile_info->roles );
+        $wcv_profile_info = get_userdata( bp_displayed_user_id() ); //get userdata profile data by current member's profile id
+				$wcv_store_name =  get_user_meta( $wcv_profile_id, 'pv_shop_name', true);//gets shop name of user based on user id
+				$user_roles = $wcv_profile_info->roles; //get a list of the user's roles
+				$vendor_role = ''; //initialises to varable string to empty string
+				//sets assigns "vendor" string to $vendor_role if vendor role is part of the user's role
+				if (in_array("vendor", $user_roles)) {//returns true if "vendor" key is in array
+    				$vendor_role = "vendor"; //if true $vendor variable is assigned a value of vendor"
+				}
 
-        if ( $wcv_profile_info->roles[1] == "vendor" ) {
-                $vendor_name_message = get_the_author_meta( 'user_login' );
-                $current_user = wp_get_current_user();
-                echo $sold_by;
+        if ( $vendor_role == "vendor" && $wcv_store_name) { //checks if user is a vendor and user has set a store name
+            echo $sold_by;
         }
+				else {
+						echo '';
+				}
 }
 
 /* Adds a View Profile link on the vendors store header */
