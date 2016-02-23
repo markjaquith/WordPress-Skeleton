@@ -168,17 +168,17 @@ function custom_woocommerce_product_meta_start() {
         echo 'Artist Seller Profile: <a href="'. $profile_url .'">View My Profile</a>';
 }
 
-add_action('woocommerce_product_meta_start', 'wcv_bppm_woocommerce_product_meta_start');
-function wcv_bppm_woocommerce_product_meta_start() {
-        if ( is_user_logged_in() ) {
-	        $wcv_store_id =        get_the_author_meta('ID');
-	        $wcv_store_name =      get_user_meta( $wcv_store_id, 'pv_shop_name', true);
-	        echo '<br>Contact Vendor: <a href="' . bp_loggedin_user_domain() . bp_get_messages_slug() . '/compose/?r=' . get_the_author_meta('user_login') .'">Contact ' . $wcv_store_name . '</a>';
-        } else {
+//add_action('woocommerce_product_meta_start', 'wcv_bppm_woocommerce_product_meta_start');
+//function wcv_bppm_woocommerce_product_meta_start() {
+//        if ( is_user_logged_in() ) {
+//	        $wcv_store_id =        get_the_author_meta('ID');
+//	        $wcv_store_name =      get_user_meta( $wcv_store_id, 'pv_shop_name', true);
+//	        echo '<br>Contact Vendor: <a href="' . bp_loggedin_user_domain() . bp_get_messages_slug() . '/compose/?r=' . get_the_author_meta('user_login') .'">Contact ' . $wcv_store_name . '</a>';
+//        } else {
         //$wcv_my_account_url = get_permalink( get_option('woocommerce_myaccount_page_id'));
         //echo '<br>Contact Vendor: <a href="' . $wcv_my_account_url . '">Login or Register to Contact Vendor</a>';
-					echo '';
-				}
-}
+//					echo '';
+//				}
+//}
 
 ?>
