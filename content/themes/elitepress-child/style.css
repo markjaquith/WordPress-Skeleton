@@ -631,7 +631,7 @@ WC Vendor Styles
 }
 
 body.registration form div#ws-plugin--s2member-custom-reg-fields-4bp-section {
-    float: right;
+    width: 100% !important;
 }
 
 ws-plugin--s2member-profile-field-4bp form-control {
@@ -644,6 +644,10 @@ body.registration form div#ws-plugin--s2member-custom-reg-fields-4bp-section div
     border-width: 0;
     padding: 0;
 	  font-size:100%
+}
+
+body.registration form div#ws-plugin--s2member-custom-reg-fields-4bp-container {
+    margin-right: 0 !important;
 }
 #buddypress .standard-form#signup_form input[type=text], #buddypress .standard-form#signup_form textarea {
   width: 100%;
