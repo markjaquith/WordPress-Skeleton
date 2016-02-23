@@ -19,7 +19,7 @@ get_header();
             }
 			  }
 
-        if ( !bp_is_register_page() && !bp_is_activation_page() ){//outputs sidebar if current page is not registration or activation
+        if ( !bp_is_register_page() && !bp_is_activation_page() && !current_user_can(access_s2member_level1)){//outputs sidebar if current page is not registration or activation
 
             if (is_active_sidebar('sidebar_primary_two')){
   						dynamic_sidebar( 'sidebar_primary_two' );
