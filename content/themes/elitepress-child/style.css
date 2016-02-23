@@ -630,10 +630,25 @@ WC Vendor Styles
   display: inline-block;
 }
 
+body.registration form div#ws-plugin--s2member-custom-reg-fields-4bp-section {
+    float: right;
+}
+
+ws-plugin--s2member-profile-field-4bp form-control {
+  width: 100%;
+}
+
+body.registration form div#ws-plugin--s2member-custom-reg-fields-4bp-section div.ws-plugin--s2member-custom-reg-field-4bp-divider-section-title {
+    border: 0;
+    margin: 0;
+    border-width: 0;
+    padding: 0;
+	  font-size:100%
+}
 #buddypress .standard-form#signup_form input[type=text], #buddypress .standard-form#signup_form textarea {
   width: 100%;
 }
 
 #buddypress .standard-form div.submit input{
-  margin-right: 0px
+  margin-right: 0px;
 }
