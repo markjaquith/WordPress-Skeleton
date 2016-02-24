@@ -664,3 +664,7 @@ body.registration form div#ws-plugin--s2member-custom-reg-fields-4bp-container {
 .sidebar-widget ul.children li > a:hover {
     color: #011B2A;
 }
+
+.posted_in {
+  display: block;
+}
