@@ -656,3 +656,11 @@ body.registration form div#ws-plugin--s2member-custom-reg-fields-4bp-container {
 #buddypress .standard-form div.submit input{
   margin-right: 0px;
 }
+
+.sidebar-widget ul.children li > a:before {
+    color: black;
+}
+
+.sidebar-widget ul.children li > a:hover {
+    color: #011B2A;
+}
