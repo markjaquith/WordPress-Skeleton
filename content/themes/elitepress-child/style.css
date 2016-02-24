@@ -657,6 +657,10 @@ body.registration form div#ws-plugin--s2member-custom-reg-fields-4bp-container {
   margin-right: 0px;
 }
 
+.woocommerce div.product .stock {
+    color: black;
+}
+
 .sidebar-widget ul.children li > a:before {
     color: black;
 }
