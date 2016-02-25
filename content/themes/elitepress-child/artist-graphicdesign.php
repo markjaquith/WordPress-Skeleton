@@ -7,7 +7,7 @@ get_header();
 		<div class="title-section">
 			<div class="row">
 				<div class="col-md-12">
-					<h2>Graphic design</h2>
+					<h2>Graphic Design</h2>
 				</div>
 			</div>
 		</div>

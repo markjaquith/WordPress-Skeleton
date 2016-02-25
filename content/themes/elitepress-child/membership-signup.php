@@ -33,9 +33,9 @@ get_header();
 
 					if ($difference < 0) { $difference = 0; }
 
-					$trial_days = floor($difference/60/60/24); // Calculated number of days until yearly cycle should start
+					$trial_weeks = ceil($difference/60/60/168); // Calculated number of weeks until yearly cycle should start
 
-					echo do_shortcode('[s2Member-PayPal-Button level="1" ccaps="" desc="Artist Member / description and pricing details here." ps="paypal" lc="" cc="GBP" dg="0" ns="1" custom="www.eunuigbe" ta="0" tp="'.$trial_days.'" tt="D" ra="30" rp="1" rt="Y" rr="1" rrt="" rra="1" image="default" output="button" /]'); 
+					echo do_shortcode('[s2Member-PayPal-Button level="1" ccaps="" desc="Artist Member / description and pricing details here." ps="paypal" lc="" cc="GBP" dg="0" ns="1" custom="www.eunuigbe" ta="0" tp="'.$trial_weeks.'" tt="W" ra="30" rp="1" rt="Y" rr="1" rrt="" rra="1" image="default" output="button" /]');
 				?>
 			</div>
       <div class="col-md-5 col-md-offset-1">
