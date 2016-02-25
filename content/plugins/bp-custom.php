@@ -4,5 +4,5 @@
  */
 define('BP_DEFAULT_COMPONENT', 'profile' );
 
-
+define( 'BP_GROUPS_DEFAULT_EXTENSION', 'members' );
 ?>
