@@ -677,3 +677,7 @@ body.registration form div#ws-plugin--s2member-custom-reg-fields-4bp-container {
   display: block;
 }
 
+#groups-list>li.hidden {
+display: block !important;
+visibility: visible !important;
+}
