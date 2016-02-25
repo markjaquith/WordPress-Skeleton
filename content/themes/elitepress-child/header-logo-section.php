@@ -26,7 +26,8 @@
 							<a class="my-btn my-btn-default btn-apply my-btn-lg" href="<?php echo wp_login_url(); ?>" role="button">Login</a>
 						<?php } ?>
 
-						<a class="my-btn my-btn-default btn-apply my-btn-lg" href="#" role="button">Donate</a>
+						<a class="my-btn my-btn-default btn-apply my-btn-lg" href="<?php echo home_url();?>/donate" 
+role="button">Donate</a>
 
 
 				</div>
