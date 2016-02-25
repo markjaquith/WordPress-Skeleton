@@ -1,0 +1,165 @@
+# Translation of the WordPress plugin PayPal Donations 1.4.5 by Johan Steen.
+# Copyright (C) 2010 Johan Steen
+# This file is distributed under the same license as the PayPal Donations package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PayPal Donations 1.4.8 - Dutch Translation\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/paypal-donations\n"
+"POT-Creation-Date: 2010-02-18 23:46+0000\n"
+"PO-Revision-Date: 2010-07-07 18:24+0100\n"
+"Last-Translator: Rene <info@wpwebshop.com>\n"
+"Language-Team: http://WPwebshop.com <info@wppg.me>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"X-Poedit-Language: Dutch\n"
+"X-Poedit-Country: NETHERLANDS\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+#: paypal-donations.php:111
+msgid "PayPal Donations requires WordPress version 2.7 or later!"
+msgstr "PayPal Donations vereist WordPress versie 2.7 of hoger!"
+
+#: paypal-donations.php:223
+msgid "The PayPal Donations settings have been updated."
+msgstr "De PayPal Donations instellingen zijn bijgewerkt."
+
+#: paypal-donations.php:234
+msgid "PayPal Account"
+msgstr "PayPal Account"
+
+#: paypal-donations.php:235
+msgid "Your PayPal email address or your PayPal secure merchant account ID."
+msgstr "Je PayPal e-mailadres of je PayPal-beveiligde zakelijke account ID."
+
+#: paypal-donations.php:238
+msgid "Currency"
+msgstr "Valuta"
+
+#: paypal-donations.php:246
+msgid "The currency to use for the donations."
+msgstr "Te gebruiken valuta voor de donaties."
+
+#: paypal-donations.php:250
+msgid "Optional Settings"
+msgstr "Optionele Instellingen"
+
+#: paypal-donations.php:253
+msgid "Page Style"
+msgstr "Pagina Stijl"
+
+#: paypal-donations.php:254
+msgid "Specify the name of a custom payment page style from your PayPal account profile."
+msgstr "Specificeer de naam van een aangepaste betalingspagina stijl van je PayPal account profiel."
+
+#: paypal-donations.php:257
+msgid "Return Page"
+msgstr "Terugkeer Pagina"
+
+#: paypal-donations.php:258
+msgid "URL to which the donator comes to after completing the donation; for example, a URL on your site that displays a \"Thank you for your donation\"."
+msgstr "URL waarop de donateur komt na het voltooien van de donatie, bijvoorbeeld een URL op je site dat de boodschap \"Dank u voor uw donatie\" laat zien."
+
+#: paypal-donations.php:262
+msgid "Defaults"
+msgstr "Standaarden"
+
+#: paypal-donations.php:265
+msgid "Amount"
+msgstr "Bedrag"
+
+#: paypal-donations.php:266
+msgid "The default amount for a donation (Optional)."
+msgstr "Het standaard bedrag voor een donatie (Optioneel)."
+
+#: paypal-donations.php:269
+msgid "Purpose"
+msgstr "Doel"
+
+#: paypal-donations.php:270
+msgid "The default purpose of a donation (Optional)."
+msgstr "Het standaard doel van een donatie (Optioneel)."
+
+#: paypal-donations.php:273
+msgid "Reference"
+msgstr "Referentie"
+
+#: paypal-donations.php:274
+msgid "Default reference for the donation (Optional)."
+msgstr "De standaard referentie voor de donatie (Optioneel)."
+
+#: paypal-donations.php:278
+msgid "Donation Button"
+msgstr "Donatie Knop"
+
+#: paypal-donations.php:281
+msgid "Select Button"
+msgstr "Selecteer Knop"
+
+#: paypal-donations.php:299
+msgid "Custom Button:"
+msgstr "Aangepaste Knop:"
+
+#: paypal-donations.php:302
+msgid "Enter a URL to a custom donation button."
+msgstr "Voer een URL in voor de aangepaste knop."
+
+#: paypal-donations.php:307
+msgid "Country and Language"
+msgstr "Land en Taal"
+
+#: paypal-donations.php:314
+msgid "Localize the language and the country for the button (Updated after saving the settings)."
+msgstr "Localiseert de taal en het land voor de knop (bijgewerkt na het opslaan van instellingen)."
+
+#: paypal-donations.php:319
+msgid "Save Changes"
+msgstr "Opslaan Wijzigingen"
+
+#: paypal-donations.php:339
+msgid "PayPal Donation Button"
+msgstr "PayPal Donation Knop"
+
+#: paypal-donations.php:392
+msgid "Donate"
+msgstr "Doneer"
+
+#: paypal-donations.php:396
+msgid "Title:"
+msgstr "Titel:"
+
+#: paypal-donations.php:402
+msgid "Text:"
+msgstr "Tekst:"
+
+#: paypal-donations.php:408
+msgid "Purpose:"
+msgstr "Doel:"
+
+#: paypal-donations.php:414
+msgid "Reference:"
+msgstr "Referentie:"
+
+#. Plugin Name of an extension
+msgid "PayPal Donations"
+msgstr "PayPal Donations"
+
+#. Plugin URI of an extension
+msgid "http://coding.cglounge.com/wordpress-plugins/paypal-donations/"
+msgstr "http://coding.cglounge.com/wordpress-plugins/paypal-donations/"
+
+#. Description of an extension
+msgid "Easy and simple setup and insertion of PayPal donate buttons with a shortcode or through a sidebar Widget. Donation purpose can be set for each button. A few other customization options are available as well."
+msgstr "Eenvoudige en simpele installatie en het plaatsing van PayPal donatie knoppen met een shortcode of via een sidebar Widget. Donatie doel kan worden ingesteld voor elke knop. Een paar andere opties voor aanpassingen zijn ook beschikbaar."
+
+#. Author of an extension
+msgid "Johan Steen"
+msgstr "Johan Steen"
+
+#. Author URI of an extension
+msgid "http://coding.cglounge.com/"
+msgstr "http://coding.cglounge.com/"
+

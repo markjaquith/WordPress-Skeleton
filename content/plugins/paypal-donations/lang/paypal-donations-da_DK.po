@@ -1,0 +1,143 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PayPal Donations 1.4.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-10-14 07:29+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Team Blogos <wordpress@blogos.dk>\n"
+"Language-Team: Team Blogos <wordpress@blogos.dk>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2;plural=n != 1;\n"
+"X-Poedit-Language: Danish\n"
+"X-Poedit-Country: DENMARK\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_c;_e;__ngettext:1,2;__ngettext_noop:1,2;_n:1,2;_nc:1,2;_n_noop:1,2\n"
+"X-Poedit-Basepath: d:\\wordpress\\plugins\\paypal-donations\n"
+"X-Poedit-SearchPath-0: d:\\wordpress\\plugins\\paypal-donations\n"
+
+#: d:\wordpress\plugins\paypal-donations/paypal-donations.php:327
+msgid "PayPal Donations requires WordPress version 2.7 or later!"
+msgstr "PayPal Donations kræver WordPress version 2.7 eller nyere!"
+
+#: d:\wordpress\plugins\paypal-donations/paypal-donations.php:437
+msgid "The PayPal Donations settings have been updated."
+msgstr "Indstillinger for PayPal Donations er blevet opdateret."
+
+#: d:\wordpress\plugins\paypal-donations/paypal-donations.php:448
+msgid "PayPal Account"
+msgstr "PayPal-konto"
+
+#: d:\wordpress\plugins\paypal-donations/paypal-donations.php:449
+msgid "Your PayPal email address or your PayPal secure merchant account ID."
+msgstr "Din PayPal-emailadresse eller din sikre forhandlerkonto-id hos PayPal."
+
+#: d:\wordpress\plugins\paypal-donations/paypal-donations.php:452
+msgid "Currency"
+msgstr "Valuta"
+
+#: d:\wordpress\plugins\paypal-donations/paypal-donations.php:460
+msgid "The currency to use for the donations."
+msgstr "Valutaen, der skal anvendes ved donationer."
+
+#: d:\wordpress\plugins\paypal-donations/paypal-donations.php:464
+msgid "Optional Settings"
+msgstr "Valgfrie indstillinger"
+
+#: d:\wordpress\plugins\paypal-donations/paypal-donations.php:467
+msgid "Page Style"
+msgstr "Style for side"
+
+#: d:\wordpress\plugins\paypal-donations/paypal-donations.php:468
+msgid "Specify the name of a custom payment page style from your PayPal account profile."
+msgstr "Angiv navnet på en brugerdefineret sidestil fra din PayPal-kontos profil"
+
+#: d:\wordpress\plugins\paypal-donations/paypal-donations.php:471
+msgid "Return Page"
+msgstr "Side, brugeren returneres til"
+
+#: d:\wordpress\plugins\paypal-donations/paypal-donations.php:472
+msgid "URL to which the donator comes to after completing the donation; for example, a URL on your site that displays a \"Thank you for your donation\"."
+msgstr "URL, som giveren sendes til, når donationen er gennemført. For eksempel en URL på din side, som viser \"Tak for din donation!\" eller lignende."
+
+#: d:\wordpress\plugins\paypal-donations/paypal-donations.php:476
+msgid "Defaults"
+msgstr "Standardværdier"
+
+#: d:\wordpress\plugins\paypal-donations/paypal-donations.php:479
+msgid "Amount"
+msgstr "Beløb"
+
+#: d:\wordpress\plugins\paypal-donations/paypal-donations.php:480
+msgid "The default amount for a donation (Optional)."
+msgstr "Standardbeløbet for en donation (valgfri)."
+
+#: d:\wordpress\plugins\paypal-donations/paypal-donations.php:483
+msgid "Purpose"
+msgstr "Formål"
+
+#: d:\wordpress\plugins\paypal-donations/paypal-donations.php:484
+msgid "The default purpose of a donation (Optional)."
+msgstr "Standardformålet med en donation (valgfri)."
+
+#: d:\wordpress\plugins\paypal-donations/paypal-donations.php:487
+msgid "Reference"
+msgstr "Reference"
+
+#: d:\wordpress\plugins\paypal-donations/paypal-donations.php:488
+msgid "Default reference for the donation (Optional)."
+msgstr "Standardreference for donationen (valgfri)."
+
+#: d:\wordpress\plugins\paypal-donations/paypal-donations.php:492
+msgid "Donation Button"
+msgstr "Betalingsknap"
+
+#: d:\wordpress\plugins\paypal-donations/paypal-donations.php:495
+msgid "Select Button"
+msgstr "Vælg knap"
+
+#: d:\wordpress\plugins\paypal-donations/paypal-donations.php:513
+msgid "Custom Button:"
+msgstr "Egen knap:"
+
+#: d:\wordpress\plugins\paypal-donations/paypal-donations.php:516
+msgid "Enter a URL to a custom donation button."
+msgstr "Indtast en URL til en egendefineret betalingsknap."
+
+#: d:\wordpress\plugins\paypal-donations/paypal-donations.php:521
+msgid "Country and Language"
+msgstr "Land og sprog"
+
+#: d:\wordpress\plugins\paypal-donations/paypal-donations.php:528
+msgid "Localize the language and the country for the button (Updated after saving the settings)."
+msgstr "Lokalisér sproget og landet for knappen (opdateres, når indstillingerne gemmes)."
+
+#: d:\wordpress\plugins\paypal-donations/paypal-donations.php:533
+msgid "Save Changes"
+msgstr "Gem ændringer"
+
+#: d:\wordpress\plugins\paypal-donations/paypal-donations.php:553
+msgid "PayPal Donation Button"
+msgstr "PayPal-betalingsknap"
+
+#: d:\wordpress\plugins\paypal-donations/paypal-donations.php:606
+msgid "Donate"
+msgstr "Donér"
+
+#: d:\wordpress\plugins\paypal-donations/paypal-donations.php:610
+msgid "Title:"
+msgstr "Titel:"
+
+#: d:\wordpress\plugins\paypal-donations/paypal-donations.php:616
+msgid "Text:"
+msgstr "Tekst:"
+
+#: d:\wordpress\plugins\paypal-donations/paypal-donations.php:622
+msgid "Purpose:"
+msgstr "Formål:"
+
+#: d:\wordpress\plugins\paypal-donations/paypal-donations.php:628
+msgid "Reference:"
+msgstr "Reference:"
+

@@ -1,0 +1,165 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: PayPal Donations v1.3.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2011-09-02 19:37+0200\n"
+"Last-Translator: Alexandr K.\n"
+"Language-Team: Nata Strazda <nata@epastas.lt>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-Language: Lithuanian\n"
+"X-Poedit-Country: LITHUANIA\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ../\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#@ paypal-donations
+#: paypal-donations.php:94
+msgid "PayPal Donations requires WordPress version 2.7 or later!"
+msgstr "Dovanas per PayPal reikia WordPress versija 2.7 arba naujesnė versija!"
+
+#@ paypal-donations
+#: paypal-donations.php:201
+msgid "The PayPal Donations settings have been updated."
+msgstr "Dovanas per PayPal nustatymai buvo atnaujinti."
+
+#@ paypal-donations
+#: paypal-donations.php:212
+msgid "PayPal Account"
+msgstr "PayPal konto"
+
+#@ paypal-donations
+#: paypal-donations.php:213
+msgid "Your PayPal email address or your PayPal secure merchant account ID."
+msgstr "Sinu PayPali aadressile või oma PayPal turvaline kaupmees konto ID."
+
+#@ paypal-donations
+#: paypal-donations.php:216
+msgid "Currency"
+msgstr "raha"
+
+#@ paypal-donations
+#: paypal-donations.php:224
+msgid "The currency to use for the donations."
+msgstr "Valuuta kasutada annetused."
+
+#@ paypal-donations
+#: paypal-donations.php:228
+msgid "Optional Settings"
+msgstr "valikseaded"
+
+#@ paypal-donations
+#: paypal-donations.php:231
+msgid "Page Style"
+msgstr "Page Style"
+
+#@ paypal-donations
+#: paypal-donations.php:232
+msgid "Specify the name of a custom payment page style from your PayPal account profile."
+msgstr "Specify the name of a custom payment page style from your PayPal account profile."
+
+#@ paypal-donations
+#: paypal-donations.php:235
+msgid "Return Page"
+msgstr "tagasi Page"
+
+#@ paypal-donations
+#: paypal-donations.php:236
+msgid "URL to which the donator comes to after completing the donation; for example, a URL on your site that displays a \"Thank you for your donation\"."
+msgstr "URL Teikėjos ateina baigę donorystės, pavyzdžiui, URL jūsų svetainėje, kad rodo \"Dėkojame už jūsų donorystės\"."
+
+#@ paypal-donations
+#: paypal-donations.php:240
+msgid "Defaults"
+msgstr "vaikimisi"
+
+#@ paypal-donations
+#: paypal-donations.php:243
+msgid "Amount"
+msgstr "summa"
+
+#@ paypal-donations
+#: paypal-donations.php:244
+msgid "The default amount for a donation (Optional)."
+msgstr "Default summa annetuse (valikuline)."
+
+#@ paypal-donations
+#: paypal-donations.php:247
+msgid "Purpose"
+msgstr "eesmärk"
+
+#@ paypal-donations
+#: paypal-donations.php:248
+msgid "The default purpose of a donation (Optional)."
+msgstr "Default eesmärk annetuse (valikuline)."
+
+#@ paypal-donations
+#: paypal-donations.php:251
+msgid "Reference"
+msgstr "viide"
+
+#@ paypal-donations
+#: paypal-donations.php:252
+msgid "Default reference for the donation (Optional)."
+msgstr "Vaikimisi viide annetamise EEST (valikuline)."
+
+#@ paypal-donations
+#: paypal-donations.php:256
+msgid "Donation Button"
+msgstr "donorystės mygtukas"
+
+#@ paypal-donations
+#: paypal-donations.php:259
+msgid "Select Button"
+msgstr "SELECT mygtukas"
+
+#@ paypal-donations
+#: paypal-donations.php:276
+msgid "Custom Button:"
+msgstr "Pasirinktinis mygtukas:"
+
+#@ paypal-donations
+#: paypal-donations.php:279
+msgid "Enter a URL to a custom donation button."
+msgstr "Įveskite URL individualizuotos donorystės mygtuką."
+
+#@ paypal-donations
+#: paypal-donations.php:286
+msgid "Save Changes"
+msgstr "išsaugoti pakeitimus"
+
+#@ paypal-donations
+#: paypal-donations.php:306
+msgid "PayPal Donation Button"
+msgstr "PayPal donorystės mygtukas"
+
+#@ paypal-donations
+#: paypal-donations.php:359
+msgid "Donate"
+msgstr "aukoti"
+
+#@ paypal-donations
+#: paypal-donations.php:363
+msgid "Title:"
+msgstr "pavadinimas:"
+
+#@ paypal-donations
+#: paypal-donations.php:369
+msgid "Text:"
+msgstr "tekstas:"
+
+#@ paypal-donations
+#: paypal-donations.php:375
+msgid "Purpose:"
+msgstr "tikslas:"
+
+#@ paypal-donations
+#: paypal-donations.php:381
+msgid "Reference:"
+msgstr "nuoroda:"
+

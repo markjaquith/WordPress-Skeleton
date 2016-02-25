@@ -18,6 +18,10 @@ body {
 	  font-weight: 400;
 }
 
+.paypal-donation{
+	text-align: center;
+}
+
 h1, h2, h3, h4, h5 {
   color: #333;
   font-family: 'Raleway', sans-serif !important;
@@ -672,3 +676,4 @@ body.registration form div#ws-plugin--s2member-custom-reg-fields-4bp-container {
 .posted_in {
   display: block;
 }
+

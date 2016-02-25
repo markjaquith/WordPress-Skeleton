@@ -1,0 +1,152 @@
+# Translation Template for PayPal Donations.
+# Copyright (C) 2009 Johan Steen
+# This file is distributed under the same license as the PACKAGE package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PayPal Donations\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/paypal-donations\n"
+"POT-Creation-Date: 2009-08-25 16:23+0000\n"
+"PO-Revision-Date: 2009-11-03 17:26+0200\n"
+"Last-Translator: Daniel Chcouri <333222@gmail.com>\n"
+"Language-Team:  <artstorm@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: paypal-donations.php:94
+msgid "PayPal Donations requires WordPress version 2.7 or later!"
+msgstr "wordpress בגירסה 2.7 לפחות דרוש ל-PayPal Donation"
+
+#: paypal-donations.php:201
+msgid "The PayPal Donations settings have been updated."
+msgstr "הגדרות PayPal Donations עודכנו."
+
+#: paypal-donations.php:212
+msgid "PayPal Account"
+msgstr "חשבון PayPal"
+
+#: paypal-donations.php:213
+msgid "Your PayPal email address or your PayPal secure merchant account ID."
+msgstr "כתובת האימייל של ה-PayPal שלך או מזהה סוחר הPayPal המאובטח שלך (PayPal secure merchant account ID)."
+
+#: paypal-donations.php:216
+msgid "Currency"
+msgstr "מטבע"
+
+#: paypal-donations.php:224
+msgid "The currency to use for the donations."
+msgstr "סוג המטבע לקבלת תרומות."
+
+#: paypal-donations.php:228
+msgid "Optional Settings"
+msgstr "הגדרות רשות"
+
+#: paypal-donations.php:231
+msgid "Page Style"
+msgstr "עיצוב העמוד"
+
+#: paypal-donations.php:232
+msgid "Specify the name of a custom payment page style from your PayPal account profile."
+msgstr "ציין את שם עמוד התשלום המותאם אישית מפרופיל הPayPal שלך."
+
+#: paypal-donations.php:235
+msgid "Return Page"
+msgstr "עמוד חזרה"
+
+#: paypal-donations.php:236
+msgid "URL to which the donator comes to after completing the donation; for example, a URL on your site that displays a \"Thank you for your donation\"."
+msgstr "כתובת אינטרנט אלייה התורם מגיע לאחר שהתרומה הושלמה; לדוגמה, עמוד שבו מוצג טקסט שאומר \"תודה על תרומתך\""
+
+#: paypal-donations.php:240
+msgid "Defaults"
+msgstr "ברירות מחדל"
+
+#: paypal-donations.php:243
+msgid "Amount"
+msgstr "סכום התרומה"
+
+#: paypal-donations.php:244
+msgid "The default amount for a donation (Optional)."
+msgstr "סכום ברירת מחדל לתרומה (רשות)."
+
+#: paypal-donations.php:247
+msgid "Purpose"
+msgstr "מטרת התרומה"
+
+#: paypal-donations.php:248
+msgid "The default purpose of a donation (Optional)."
+msgstr "ציין מטרת ברירת מחדל (רשות)."
+
+#: paypal-donations.php:251
+msgid "Reference"
+msgstr "הפניה"
+
+#: paypal-donations.php:252
+msgid "Default reference for the donation (Optional)."
+msgstr "הפניית (reference) ברירת המחדל לתרומות (רשות)."
+
+#: paypal-donations.php:256
+msgid "Donation Button"
+msgstr "כפתור התרומה"
+
+#: paypal-donations.php:259
+msgid "Select Button"
+msgstr "בחר כפתור"
+
+#: paypal-donations.php:276
+msgid "Custom Button:"
+msgstr "כפתור מותאם אישית:"
+
+#: paypal-donations.php:279
+msgid "Enter a URL to a custom donation button."
+msgstr "הכנס כתובת אינטרנט לכפתור מותאם אישית"
+
+#: paypal-donations.php:286
+msgid "Save Changes"
+msgstr "שמור שינויים"
+
+#: paypal-donations.php:306
+msgid "PayPal Donation Button"
+msgstr "כפתור תרומה דרך PayPal"
+
+#: paypal-donations.php:359
+msgid "Donate"
+msgstr "תרום"
+
+#: paypal-donations.php:363
+msgid "Title:"
+msgstr "כותרת:"
+
+#: paypal-donations.php:369
+msgid "Text:"
+msgstr "טקסט:"
+
+#: paypal-donations.php:375
+msgid "Purpose:"
+msgstr "מטרה:"
+
+#: paypal-donations.php:381
+msgid "Reference:"
+msgstr "הפניה:"
+
+#. Plugin Name of an extension
+msgid "PayPal Donations"
+msgstr "תרומה על ידי PayPal"
+
+#. Plugin URI of an extension
+msgid "http://coding.cglounge.com/wordpress-plugins/paypal-donations/"
+msgstr "http://coding.cglounge.com/wordpress-plugins/paypal-donations/"
+
+#. Description of an extension
+msgid "Easy and simple setup and insertion of PayPal donate buttons with a shortcode or through a sidebar Widget. Donation purpose can be set for each button. A few other customization options are available as well."
+msgstr "התקנה קלה ופשוטה של כפתור תרומה באמצעות PayPal עם קוד מקוצר (shortcode) או על ידי ווידג'ט בסייד-באר. מטרת התרומה יכולה להקבע באופן ייחודי לכל כפתור. אפשרויות התאמה אישית אחרות זמינות גם כן."
+
+#. Author of an extension
+msgid "Johan Steen"
+msgstr "ג'ון סטין"
+
+#. Author URI of an extension
+msgid "http://coding.cglounge.com/"
+msgstr "http://coding.cglounge.com/"
+
