@@ -18,6 +18,10 @@ body {
 	  font-weight: 400;
 }
 
+.paypal-donation{
+	text-align: center;
+}
+
 h1, h2, h3, h4, h5 {
   color: #333;
   font-family: 'Raleway', sans-serif !important;
@@ -624,16 +628,4 @@ WC Vendor Styles
 
 .entry-summary > .entry-title {
 		margin-left: 0px;
-}
-
-.ws-plugin--s2member-custom-reg-fields-4bp-section {
-  display: inline-block;
-}
-
-#buddypress .standard-form#signup_form input[type=text], #buddypress .standard-form#signup_form textarea {
-  width: 100%;
-}
-
-#buddypress .standard-form div.submit input{
-  margin-right: 0px
 }
