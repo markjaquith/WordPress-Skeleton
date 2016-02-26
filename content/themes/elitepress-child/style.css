@@ -677,31 +677,3 @@ body.registration form div#ws-plugin--s2member-custom-reg-fields-4bp-container {
   display: block;
 }
 
-#groups-list>li.hidden {
-display: block !important;
-visibility: visible !important;
-}
-
-.page-description .mpp-gallery-title{
-  color: #123F5A;
-}
-
-.mpp-item-actions a:nth-child(n+2){
-  margin-left: 5px;
-}
-
-.mpp-media-status {
-  margin-left: 3px;
-}
-
-.mpp-menu a.mpp-selected-item {
-    color: #123F5A;
-}
-
-#editpost_products a {
-  color: #123F5A;
-}
-
-#product_images_container > label.error {
-  color: red;
-}
