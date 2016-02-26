@@ -1,0 +1,1231 @@
+# Copyright (C) 2013 Ninja Forms
+# This file is distributed under the same license as the Ninja Forms package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Ninja Forms 2.2.30\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/ninja-forms\n"
+"POT-Creation-Date: 2013-07-18 21:11+0100\n"
+"PO-Revision-Date: 2013-07-18 21:39+0100\n"
+"Last-Translator: Joe Schaufuss <joe@skumfod.dk>\n"
+"Language-Team: \n"
+"Language: da_DK\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../includes/activation.php:172
+msgid "Fields marked with a * are required"
+msgstr "Felter markeret med en * er p&aring;kr&aelig;vet"
+
+#: ../includes/activation.php:175
+msgid "This is a required field"
+msgstr "Dette felt skal udfyldes"
+
+#: ../includes/activation.php:176 ../includes/activation.php:193
+msgid "Please answer the anti-spam question correctly."
+msgstr "Du bedes besvarer anti-spam sp&oslash;rgsm&aring;let korrekt."
+
+#: ../includes/activation.php:177
+msgid "Processing"
+msgstr "Behandler"
+
+#: ../includes/activation.php:178 ../includes/activation.php:184
+msgid "Login"
+msgstr "Login"
+
+#: ../includes/activation.php:179
+msgid "Username"
+msgstr "Brugernavn"
+
+#: ../includes/activation.php:180
+msgid "Reset Password (Opens in a new window)"
+msgstr "Nulstil kodeord (&Aring;bner i et nyt vindue)"
+
+#: ../includes/activation.php:181
+msgid "Password"
+msgstr "Kodeord"
+
+#: ../includes/activation.php:182 ../includes/fields/password.php:38
+msgid "Re-enter Password"
+msgstr "Genindtast kodeordet"
+
+#: ../includes/activation.php:183
+msgid "Passwords do not match."
+msgstr "Kodeordene er ikke ens."
+
+#: ../includes/activation.php:185 ../includes/fields/list.php:187
+msgid "Cancel"
+msgstr "Annuller"
+
+#: ../includes/activation.php:186
+msgid "Login failed, please try again."
+msgstr "Log ind mislykkedes, pr&oslash;v igen."
+
+#: ../includes/activation.php:187 ../includes/activation.php:189
+msgid "Register"
+msgstr "Registrer"
+
+#: ../includes/activation.php:188
+msgid "Email Address"
+msgstr "E-mail adresse"
+
+#: ../includes/activation.php:190
+msgid "There was an error registering you for this site."
+msgstr "Der opstod en fejl, med at registrere dig p&aring; denne hjemmeside."
+
+#: ../includes/activation.php:191
+msgid "4 + 9 = "
+msgstr "4 + 9 = "
+
+#: ../includes/activation.php:192
+msgid "13"
+msgstr "13"
+
+#: ../includes/activation.php:546
+msgid "Ninja Forms Password"
+msgstr "Ninja Forms Kodeord"
+
+#: ../includes/activation.php:547
+msgid ""
+"You are receiving this email because you have an incomplete form. Your "
+"username is now your email address and your password has been reset. It is "
+"now "
+msgstr ""
+"Du modtager denne e-mail, fordi du har en ufuldst&aelig;ndig formular. Dit "
+"brugernavn er nu din e-mailadresse og dit kodeord er blevet nulstillet. Det "
+"er nu"
+
+#: ../includes/widget.php:14
+msgid "Ninja Forms Widget"
+msgstr "Ninja Forms Widget"
+
+#: ../includes/widget.php:84
+msgid "Display Title"
+msgstr "Vis titel"
+
+#: ../includes/widget.php:91 ../includes/admin/post-metabox.php:39
+#: ../includes/fields/hidden.php:52 ../includes/fields/textbox.php:125
+#: ../includes/fields/textbox.php:162
+msgid "None"
+msgstr "Ingen"
+
+#: ../includes/admin/admin.php:142
+msgid "Save Form Settings"
+msgstr "Gem formular indstillinger"
+
+#: ../includes/admin/output-tab-metabox.php:283
+msgid "Select All"
+msgstr "V&aelig;lg alle"
+
+#: ../includes/admin/post-metabox.php:12 ../includes/admin/post-metabox.php:20
+msgid "Append A Ninja Form"
+msgstr "Tilf&oslash;j en Ninja Form"
+
+#: ../includes/admin/sidebar.php:47 ../includes/admin/edit-field/li.php:98
+msgid "Edit Menu Item"
+msgstr "Rediger menu punkt"
+
+#: ../includes/admin/sidebar.php:148
+#: ../includes/admin/pages/ninja-forms-subs/tabs/view-subs/view-subs.php:569
+#: ../includes/admin/pages/ninja-forms-subs/tabs/view-subs/sidebars/select-subs.php:101
+msgid "View Submissions"
+msgstr "Vis indsendelser"
+
+#: ../includes/admin/edit-field/calc.php:38
+msgid "Calculation Settings"
+msgstr "Beregningsindstillinger"
+
+#: ../includes/admin/edit-field/calc.php:46
+msgid "<strong>Checked</strong> Calculation Value"
+msgstr "<strong>Markeret</strong> Beregnings v&aelig;rdi"
+
+#: ../includes/admin/edit-field/calc.php:46
+msgid "This is the value that will be used if <strong>Checked</strong>."
+msgstr ""
+"Dette er v&aelig;rdien, som bliver brugt, hvis der er <strong>Markeret</"
+"strong>."
+
+#: ../includes/admin/edit-field/calc.php:47
+msgid "<strong>Unchecked</strong> Calculation Value"
+msgstr "<strong>Afmarkeret</strong> Beregnings v&aelig;rdi"
+
+#: ../includes/admin/edit-field/calc.php:47
+msgid "This is the value that will be used if <strong>Unchecked</strong>."
+msgstr ""
+"Dette er v&aelig;rdien, som bliver brugt, hvis der er <strong>Afarkeret</"
+"strong>."
+
+#: ../includes/admin/edit-field/calc.php:50
+msgid "Include in the auto-total? (If enabled)"
+msgstr "Inkludér i auto-total (hvis funktionen er aktiveret)"
+
+#: ../includes/admin/edit-field/calc.php:52
+msgid "Include in payment details list?"
+msgstr "Inkludér i betalings detailje liste?"
+
+#: ../includes/admin/edit-field/calc.php:52
+msgid ""
+" - Should this field be considered as pertinant to a payment/product? i.e. "
+"an item option, a product size or color, etc."
+msgstr ""
+"- Skulle dette område betragtes som relevant til en betaling/produkt? dvs. "
+"en element mulighed, en produkt størrelse eller farve osv."
+
+#: ../includes/admin/edit-field/help.php:33 ../includes/fields/calc.php:221
+#, php-format
+msgid ""
+"If \"help text\" is enabled, there will be a question mark %s placed next to "
+"the input field. Hovering over this question mark will show the help text."
+msgstr ""
+"Hvis \"Hj&aelig;lpe tekst\" er aktiveret, s&aring; vil der v&aelig;re et "
+"sp&oslash;rgsm&aring;lstegn %s placeres ved siden af indtastningsfeltet. "
+"N&aring;r man holder muse mark&oslash;ren over dette sp&oslash;rgsm&aring;"
+"lstegn, vil hj&aelig;lpeteksten vise sig."
+
+#: ../includes/admin/edit-field/help.php:34 ../includes/fields/calc.php:222
+msgid "Show Help Text"
+msgstr "Vis hj&aelig;lpe tekst"
+
+#: ../includes/admin/edit-field/help.php:38 ../includes/fields/calc.php:226
+msgid "Help Text"
+msgstr "Hj&aelig;lpe tekst"
+
+#: ../includes/admin/edit-field/label.php:41 ../includes/fields/calc.php:153
+msgid "Left of Element"
+msgstr "Til venstre for elementet"
+
+#: ../includes/admin/edit-field/label.php:42 ../includes/fields/calc.php:154
+msgid "Above Element"
+msgstr "Over elementet"
+
+#: ../includes/admin/edit-field/label.php:43 ../includes/fields/calc.php:155
+msgid "Below Element"
+msgstr "Under elementet"
+
+#: ../includes/admin/edit-field/label.php:44 ../includes/fields/calc.php:156
+msgid "Right of Element"
+msgstr "Til h&oslash;jre for elementet"
+
+#: ../includes/admin/edit-field/label.php:45
+msgid "Inside Element"
+msgstr "Inden i elementet"
+
+#: ../includes/admin/edit-field/label.php:58 ../includes/fields/calc.php:158
+msgid "Label Position"
+msgstr "Etikette placering"
+
+#: ../includes/admin/edit-field/remove-button.php:6
+msgid "Remove"
+msgstr "Fjern"
+
+#: ../includes/admin/edit-field/req.php:25
+msgid "Required"
+msgstr "p&#229;kr&#230;vet"
+
+#: ../includes/admin/edit-field/save-button.php:5
+#: ../includes/admin/pages/ninja-forms/tabs/field-settings/edit-field-ul.php:7
+msgid "Save Field Settings"
+msgstr "Gem feltindstillinger"
+
+#: ../includes/admin/pages/ninja-forms/tabs/field-settings/field-settings.php:88
+msgid "Field Settings Saved"
+msgstr "Feltindstillinger er gemt"
+
+#: ../includes/admin/pages/ninja-forms/tabs/field-settings/help.php:15
+msgid ""
+"Any character you place in the \"custom mask\" box that is not in the list "
+"below will be automatically entered for the user as they type and will not "
+"be removeable"
+msgstr ""
+"Et tegn, du placere i \"Brugerdefineret Maske\" boksen, der ikke er i listen "
+"nedenfor, vil automatisk blive registreret for brugeren, imens der tastes og "
+"vil ikke kunne fjernes igen"
+
+#: ../includes/admin/pages/ninja-forms/tabs/field-settings/help.php:16
+msgid "These are the predefined masking characters"
+msgstr "Disse er de foruddefinerede maskerings tegn"
+
+#: ../includes/admin/pages/ninja-forms/tabs/field-settings/help.php:18
+msgid ""
+"a - Represents an alpha character (A-Z,a-z) - Only allows letters to be "
+"entered"
+msgstr ""
+"a - Repr&aelig;senterer et alpha tegn (A-Z, a-z) - Kun muligt bogstaver skal "
+"indtastes"
+
+#: ../includes/admin/pages/ninja-forms/tabs/field-settings/help.php:19
+msgid ""
+"9 - Represents a numeric character (0-9) - Only allows numbers to be entered"
+msgstr ""
+"9 - Repr&aelig;senterer en numerisk tegn (0-9) - Kun muligt tal skal "
+"indtastes"
+
+#: ../includes/admin/pages/ninja-forms/tabs/field-settings/help.php:20
+msgid ""
+"* - Represents an alphanumeric character (A-Z,a-z,0-9) - This allows both "
+"numbers and letters to be entered"
+msgstr ""
+"* - Repr&aelig;senterer et alfanumerisk tegn (A-Z, a-z,0-9) - Dette "
+"tillader, at b&aring;de tal og bogstaver kan indtastes"
+
+#: ../includes/admin/pages/ninja-forms/tabs/field-settings/help.php:24
+msgid ""
+"So, if you wanted to a mask for an an American Social Security Number, you'd "
+"put 999-99-9999 into the box"
+msgstr ""
+"S&aring; hvis du &oslash;nsker at en maske for et CPR Nummer, ville du "
+"s&aelig;tte 999999-9999 ind i feltet"
+
+#: ../includes/admin/pages/ninja-forms/tabs/field-settings/help.php:24
+msgid ""
+"The 9s would represent any number, and the -s would be automatically added"
+msgstr ""
+"9'erne  repr&aelig;sentere et vilk&aring;rligt nummer, og -s automatisk vil "
+"blive tilf&oslash;jet "
+
+#: ../includes/admin/pages/ninja-forms/tabs/field-settings/help.php:24
+msgid "This would prevent the user from putting in anything other than numbers"
+msgstr "Dette ville forhindre brugeren at inds&aelig;tte andet end tal"
+
+#: ../includes/admin/pages/ninja-forms/tabs/field-settings/help.php:27
+msgid "You can also combine these for specific applications"
+msgstr "Du kan ogs&aring; kombinere disse til specifikke applikationer"
+
+#: ../includes/admin/pages/ninja-forms/tabs/field-settings/help.php:27
+msgid ""
+"For instance, if you had a product key that was in the form of A4B51.989."
+"B.43C, you could mask it with: a9a99.999.a.99a, which would force all the "
+"a's to be letters and the 9s to be numbers"
+msgstr ""
+"For eksempel, hvis du havde en produktn&oslash;gle, der var i form af "
+"A4B51.989.B.43C kan du maskere det med: a9a99.999.a.99a, som ville tvinge "
+"alle a'erne til at v&aelig;re bogstaver og 9'erne til v&aelig;re tal"
+
+#: ../includes/admin/pages/ninja-forms/tabs/form-list/form-list.php:26
+msgid "Add New Form"
+msgstr "Tilf&oslash;j ny formular"
+
+#: ../includes/admin/pages/ninja-forms/tabs/form-list/form-list.php:84
+#: ../includes/admin/pages/ninja-forms-subs/tabs/view-subs/view-subs.php:148
+msgid "Bulk Actions"
+msgstr "Bulk Handlinger"
+
+#: ../includes/admin/pages/ninja-forms/tabs/form-list/form-list.php:85
+#: ../includes/admin/pages/ninja-forms-subs/tabs/view-subs/view-subs.php:149
+#: ../includes/admin/pages/ninja-forms-subs/tabs/view-subs/view-subs.php:283
+msgid "Delete"
+msgstr "Slet"
+
+#: ../includes/admin/pages/ninja-forms/tabs/form-list/form-list.php:86
+msgid "Export Forms"
+msgstr "Eksportér formular"
+
+#: ../includes/admin/pages/ninja-forms/tabs/form-list/form-list.php:96
+msgid "Forms Per Page"
+msgstr "Formularer per side"
+
+#: ../includes/admin/pages/ninja-forms/tabs/form-list/form-list.php:103
+msgid "Form"
+msgstr "Formular"
+
+#: ../includes/admin/pages/ninja-forms/tabs/form-list/form-list.php:103
+msgid "Forms"
+msgstr "Formularer"
+
+#: ../includes/admin/pages/ninja-forms/tabs/form-list/form-list.php:141
+#: ../includes/admin/pages/ninja-forms/tabs/form-list/form-list.php:198
+msgid "Form Title"
+msgstr "Formulartitel"
+
+#: ../includes/admin/pages/ninja-forms/tabs/form-list/form-list.php:142
+#: ../includes/admin/pages/ninja-forms/tabs/form-list/form-list.php:199
+msgid "Shortcode"
+msgstr "Kortkode (Shortcode)"
+
+#: ../includes/admin/pages/ninja-forms/tabs/form-list/form-list.php:143
+#: ../includes/admin/pages/ninja-forms/tabs/form-list/form-list.php:200
+msgid "Template Function"
+msgstr "Skabelonfunktion"
+
+#: ../includes/admin/pages/ninja-forms/tabs/form-list/form-list.php:144
+#: ../includes/admin/pages/ninja-forms/tabs/form-list/form-list.php:201
+msgid "Date Updated"
+msgstr "Dato er opdateret"
+
+#: ../includes/admin/pages/ninja-forms/tabs/form-list/form-list.php:217
+msgid "Forms Deleted"
+msgstr "Formularer er slettet"
+
+#: ../includes/admin/pages/ninja-forms/tabs/form-list/form-list.php:219
+msgid "Form Deleted"
+msgstr "Formular er slettet"
+
+#: ../includes/admin/pages/ninja-forms/tabs/form-settings/form-settings.php:98
+msgid "Basic Settings"
+msgstr "Grundindstillinger"
+
+#: ../includes/admin/pages/ninja-forms/tabs/form-settings/form-settings.php:104
+msgid "Display Form Title"
+msgstr "Vis formular titel"
+
+#: ../includes/admin/pages/ninja-forms/tabs/form-settings/form-settings.php:110
+msgid "Save form submissions?"
+msgstr "Gem formular indsendelser?"
+
+#: ../includes/admin/pages/ninja-forms/tabs/form-settings/form-settings.php:120
+msgid "Require Logged-in?"
+msgstr "Kr&aelig;ver at man er logget ind?"
+
+#: ../includes/admin/pages/ninja-forms/tabs/form-settings/form-settings.php:128
+msgid "Append to a page"
+msgstr "Tilf&oslash;j til en side"
+
+#: ../includes/admin/pages/ninja-forms/tabs/form-settings/form-settings.php:137
+msgid "Submit via ajax?"
+msgstr "Indsend via ajax?"
+
+#: ../includes/admin/pages/ninja-forms/tabs/form-settings/form-settings.php:146
+msgid "Success Page"
+msgstr "Success side"
+
+#: ../includes/admin/pages/ninja-forms/tabs/form-settings/form-settings.php:157
+msgid "Clear successfully completed form?"
+msgstr "Ryd fuldf&oslash;rt formular?"
+
+#: ../includes/admin/pages/ninja-forms/tabs/form-settings/form-settings.php:159
+msgid ""
+"If this box is checked, Ninja Forms will clear the form after it has been "
+"successfully submitted."
+msgstr ""
+"Hvis dette felt er afkrydset, vil Ninja Forms rydde formularen, n&aring;r "
+"den er blevet korrekt indsendt."
+
+#: ../includes/admin/pages/ninja-forms/tabs/form-settings/form-settings.php:167
+msgid "Hide successfully completed form?"
+msgstr "Skjul fuldf&oslash;rt formular?"
+
+#: ../includes/admin/pages/ninja-forms/tabs/form-settings/form-settings.php:169
+msgid ""
+"If this box is checked, Ninja Forms will hide the form after it has been "
+"successfully submitted."
+msgstr ""
+"Hvis dette felt er afkrydset, vil Ninja Forms skjule formularen, n&aring;r "
+"den er blevet korrekt indsendt."
+
+#: ../includes/admin/pages/ninja-forms/tabs/form-settings/form-settings.php:176
+msgid "Success Message"
+msgstr "Success besked"
+
+#: ../includes/admin/pages/ninja-forms/tabs/form-settings/form-settings.php:177
+#: ../includes/admin/pages/ninja-forms/tabs/form-settings/form-settings.php:241
+#: ../includes/admin/pages/ninja-forms/tabs/form-settings/form-settings.php:278
+msgid ""
+"If you want to include field data entered by the user, for instance a name, "
+"you can use the following shortcode: [ninja_forms_field id=23] where 23 is "
+"the ID of the field you want to insert. This will tell Ninja Forms to "
+"replace the bracketed text with whatever input the user placed in that "
+"field. You can find the field ID when you expand the field for editing."
+msgstr ""
+"Hvis du &oslash;nsker, at medtage feltdata indtastet af brugeren, for "
+"eksempel et navn, kan du bruge f&oslash;lgende kortkode(shortcode): "
+"[ninja_forms_field id=23], hvor 23 er id'et for det felt, du vil inds&aelig;"
+"tte. Dette vil fort&aelig;lle Ninja Forms, at det skal erstatte parentes "
+"tekst med det input brugeren har placeret i dette omr&aring;de. Du kan finde "
+"feltet id'et, n&aring;r du udvide feltet til redigering."
+
+#: ../includes/admin/pages/ninja-forms/tabs/form-settings/form-settings.php:191
+msgid "Email Settings"
+msgstr "E-mail indstillinger"
+
+#: ../includes/admin/pages/ninja-forms/tabs/form-settings/form-settings.php:204
+msgid "Email From Address"
+msgstr "E-mail fra adresse"
+
+#: ../includes/admin/pages/ninja-forms/tabs/form-settings/form-settings.php:205
+msgid "Steve Jones <steve@myurl.com>"
+msgstr "Steve Jones <steve@myurl.com>"
+
+#: ../includes/admin/pages/ninja-forms/tabs/form-settings/form-settings.php:210
+msgid "Email Type"
+msgstr "E-mail type"
+
+#: ../includes/admin/pages/ninja-forms/tabs/form-settings/form-settings.php:228
+msgid "User Email"
+msgstr "Bruger e-mail"
+
+#: ../includes/admin/pages/ninja-forms/tabs/form-settings/form-settings.php:235
+msgid "Subject for the user email"
+msgstr "Emnet for bruger e-mails"
+
+#: ../includes/admin/pages/ninja-forms/tabs/form-settings/form-settings.php:240
+msgid "Email message sent to the user"
+msgstr "E-mail besked sendt til brugeren"
+
+#: ../includes/admin/pages/ninja-forms/tabs/form-settings/form-settings.php:246
+#: ../includes/admin/pages/ninja-forms/tabs/form-settings/form-settings.php:283
+msgid "Include a list of fields?"
+msgstr "Indeholder en liste over felter?"
+
+#: ../includes/admin/pages/ninja-forms/tabs/form-settings/form-settings.php:259
+msgid "Administrator Email"
+msgstr "Administrator e-mail"
+
+#: ../includes/admin/pages/ninja-forms/tabs/form-settings/form-settings.php:266
+#: ../includes/admin/pages/ninja-forms/tabs/form-settings/form-settings.php:310
+msgid "Administrator Email Addresses"
+msgstr "Administrator e-mail Adresser"
+
+#: ../includes/admin/pages/ninja-forms/tabs/form-settings/form-settings.php:272
+msgid "Admin Subject"
+msgstr "Administrator emnet"
+
+#: ../includes/admin/pages/ninja-forms/tabs/form-settings/form-settings.php:277
+msgid "Admin Email Message"
+msgstr "Administrator  e-mail beskeden"
+
+#: ../includes/admin/pages/ninja-forms/tabs/form-settings/form-settings.php:290
+msgid "Attach CSV of submission?"
+msgstr "Tilf&oslash;j CSV-fil med indsendelse?"
+
+#: ../includes/admin/pages/ninja-forms/tabs/form-settings/form-settings.php:315
+msgid "Please enter all the addresses this form should be sent to."
+msgstr "Indtast alle adresserne denne formular skal sendes til."
+
+#: ../includes/admin/pages/ninja-forms/tabs/form-settings/form-settings.php:362
+#: ../includes/admin/pages/ninja-forms/tabs/form-settings/form-settings.php:367
+msgid "Form Settings Saved"
+msgstr "Formular indstilingerne er gemt"
+
+#: ../includes/admin/pages/ninja-forms/tabs/form-settings/help.php:15
+msgid "Ninja Forms basic help goes here."
+msgstr "Ninja Forms grundl&aelig;ggende hj&aelig;lp skal v&aelig;re her."
+
+#: ../includes/admin/pages/ninja-forms-impexp/tabs/impexp-backup/impexp-backup.php:20
+msgid "Backup / Restore"
+msgstr "Backup / Genskab"
+
+#: ../includes/admin/pages/ninja-forms-impexp/tabs/impexp-backup/impexp-backup.php:22
+msgid "Backup Ninja Forms"
+msgstr "Backup Ninja Forms"
+
+#: ../includes/admin/pages/ninja-forms-impexp/tabs/impexp-backup/impexp-backup.php:28
+msgid "Restore Ninja Forms"
+msgstr "Genskab Ninja Forms"
+
+#: ../includes/admin/pages/ninja-forms-impexp/tabs/impexp-fields/impexp-fields.php:23
+msgid "Import Favorite Fields"
+msgstr "Importér favorit felter"
+
+#: ../includes/admin/pages/ninja-forms-impexp/tabs/impexp-fields/impexp-fields.php:28
+#: ../includes/admin/pages/ninja-forms-impexp/tabs/impexp-forms/impexp-forms.php:27
+msgid "Select a file"
+msgstr "V&aelig;lg en fil"
+
+#: ../includes/admin/pages/ninja-forms-impexp/tabs/impexp-fields/impexp-fields.php:36
+#: ../includes/admin/pages/ninja-forms-impexp/tabs/impexp-fields/impexp-fields.php:132
+msgid "Import Favorites"
+msgstr "Importér favoriter"
+
+#: ../includes/admin/pages/ninja-forms-impexp/tabs/impexp-fields/impexp-fields.php:57
+msgid "No Favorite Fields Found"
+msgstr "Ingen favorit felter er fundet"
+
+#: ../includes/admin/pages/ninja-forms-impexp/tabs/impexp-fields/impexp-fields.php:63
+msgid "Export Favorite Fields"
+msgstr "Eksportér favorit felter"
+
+#: ../includes/admin/pages/ninja-forms-impexp/tabs/impexp-fields/impexp-fields.php:81
+#: ../includes/admin/pages/ninja-forms-impexp/tabs/impexp-fields/impexp-fields.php:93
+msgid "Export Fields"
+msgstr "Eksportér felter"
+
+#: ../includes/admin/pages/ninja-forms-impexp/tabs/impexp-fields/impexp-fields.php:130
+msgid "Please select favorite fields to export."
+msgstr "V&aelig;lg venligst hvilke favorit felter, der skal  Eksportéres"
+
+#: ../includes/admin/pages/ninja-forms-impexp/tabs/impexp-fields/impexp-fields.php:143
+msgid "Favorites imported successfully."
+msgstr "Favoritter er importerét."
+
+#: ../includes/admin/pages/ninja-forms-impexp/tabs/impexp-fields/impexp-fields.php:145
+msgid "Please select a valid favorite fields file."
+msgstr "V&aelig;lg en gyldig fil til favorit felter."
+
+#: ../includes/admin/pages/ninja-forms-impexp/tabs/impexp-forms/impexp-forms.php:22
+msgid "Import a form"
+msgstr "Importér en formular"
+
+#: ../includes/admin/pages/ninja-forms-impexp/tabs/impexp-forms/impexp-forms.php:35
+#: ../includes/admin/pages/ninja-forms-impexp/tabs/impexp-forms/impexp-forms.php:128
+msgid "Import Form"
+msgstr "Importér formular"
+
+#: ../includes/admin/pages/ninja-forms-impexp/tabs/impexp-forms/impexp-forms.php:60
+msgid "Export a form"
+msgstr "Eksportér en formular"
+
+#: ../includes/admin/pages/ninja-forms-impexp/tabs/impexp-forms/impexp-forms.php:65
+msgid "Select a form"
+msgstr "V&aelig;lg en formular"
+
+#: ../includes/admin/pages/ninja-forms-impexp/tabs/impexp-forms/impexp-forms.php:73
+#: ../includes/admin/pages/ninja-forms-impexp/tabs/impexp-forms/impexp-forms.php:122
+msgid "Export Form"
+msgstr "Eksportér formular"
+
+#: ../includes/admin/pages/ninja-forms-impexp/tabs/impexp-forms/impexp-forms.php:126
+msgid "Please select a form."
+msgstr "V&aelig;lg en formular"
+
+#: ../includes/admin/pages/ninja-forms-impexp/tabs/impexp-forms/impexp-forms.php:155
+msgid "Form Imported Successfully."
+msgstr "Formular er importéret"
+
+#: ../includes/admin/pages/ninja-forms-impexp/tabs/impexp-forms/impexp-forms.php:158
+msgid "Please select a valid exported form file."
+msgstr "V&aelig;lg en gyldig fil til eksportéring af formular."
+
+#: ../includes/admin/pages/ninja-forms-impexp/tabs/impexp-subs/impexp-subs.php:18
+msgid "Import / Export Submissions"
+msgstr "Importér / eksportér indsendelser"
+
+#: ../includes/admin/pages/ninja-forms-impexp/tabs/impexp-subs/impexp-subs.php:20
+#: ../includes/admin/pages/ninja-forms-settings/tabs/favorite-fields/favorite-fields.php:19
+msgid "Date Settings"
+msgstr "Dato indstillinger"
+
+#: ../includes/admin/pages/ninja-forms-settings/tabs/ajax-settings/ajax-settings.php:28
+msgid "Ajax Message Settings"
+msgstr "Ajax beskeds indstillinger"
+
+#: ../includes/admin/pages/ninja-forms-settings/tabs/ajax-settings/ajax-settings.php:33
+msgid "Ajax Message Format"
+msgstr "Ajax beskeds format"
+
+#: ../includes/admin/pages/ninja-forms-settings/tabs/ajax-settings/ajax-settings.php:34
+msgid ""
+"(Advanced setting: Ninja Forms will require you to create two javascript "
+"functions: one to handle the beforeSubmit call and one to handle the server "
+"response. These should be named ninja_forms_custom_ajax_before_submit and "
+"ninja_forms_custom_ajax_response.)"
+msgstr ""
+"(Advanced indstilling: Ninja Forms vil kr&aelig;ve at du oprette to "
+"javascript funktioner: En til at h&aring;ndtere f&oslash;rIndsend opkald og "
+"en til at h&aring;ndtere serverens svar. Disse b&oslash;r navngivne "
+"ninja_forms_custom_ajax_before_submit og ninja_forms_custom_ajax_response.)"
+
+#: ../includes/admin/pages/ninja-forms-settings/tabs/ajax-settings/ajax-settings.php:40
+msgid "Ninja Forms Test"
+msgstr "Ninja Forms test"
+
+#: ../includes/admin/pages/ninja-forms-settings/tabs/ajax-settings/ajax-settings.php:63
+msgid "Ajax Loading Gif"
+msgstr "Ajax indl&aelig;snings Gif"
+
+#: ../includes/admin/pages/ninja-forms-settings/tabs/ajax-settings/ajax-settings.php:68
+msgid "Default"
+msgstr "Standard"
+
+#: ../includes/admin/pages/ninja-forms-settings/tabs/ajax-settings/ajax-settings.php:73
+#: ../includes/fields/hidden.php:58 ../includes/fields/textbox.php:131
+#: ../includes/fields/textbox.php:166
+msgid "Custom"
+msgstr "Brugerdefineret"
+
+#: ../includes/admin/pages/ninja-forms-settings/tabs/ajax-settings/ajax-settings.php:92
+#: ../includes/admin/pages/ninja-forms-settings/tabs/general-settings/general-settings.php:58
+#: ../includes/admin/pages/ninja-forms-settings/tabs/label-settings/label-settings.php:78
+msgid "Settings Saved"
+msgstr "Indstillingerne er gemt"
+
+#: ../includes/admin/pages/ninja-forms-settings/tabs/favorite-fields/favorite-fields.php:17
+msgid "Favorite Field Settings"
+msgstr "Favorit felt indstillinger"
+
+#: ../includes/admin/pages/ninja-forms-settings/tabs/general-settings/general-settings.php:24
+msgid "General Settings"
+msgstr "Generelle indstillinger"
+
+#: ../includes/admin/pages/ninja-forms-settings/tabs/general-settings/general-settings.php:29
+msgid "Version"
+msgstr "Version"
+
+#: ../includes/admin/pages/ninja-forms-settings/tabs/general-settings/general-settings.php:35
+msgid "Date Format"
+msgstr "Datoformat"
+
+#: ../includes/admin/pages/ninja-forms-settings/tabs/general-settings/general-settings.php:36
+msgid ""
+"e.g. m/d/Y, d/m/Y - Tries to follow the <a href=\"http://www.php.net/manual/"
+"en/function.date.php\" target=\"_blank\">PHP date() function</a> "
+"specifications, but not every format is supported."
+msgstr ""
+"f.eks. m/d/Y, d/m/Y - Fors&oslash;ger at f&oslash;lge <a href=\"http://www."
+"php.net/manual/en/function.date.php\" target=\"_blank\">PHP date() function</"
+"a> specifikationerne, men ikke alle parameterne underst&oslash;ttes."
+
+#: ../includes/admin/pages/ninja-forms-settings/tabs/general-settings/general-settings.php:41
+msgid "Currency Symbol"
+msgstr "Valuta symbol"
+
+#: ../includes/admin/pages/ninja-forms-settings/tabs/general-settings/general-settings.php:42
+msgid "e.g. $, &pound;, &euro;"
+msgstr "f.eks. $, &pound;, &euro;, DKK."
+
+#: ../includes/admin/pages/ninja-forms-settings/tabs/label-settings/label-settings.php:23
+msgid "Message Labels"
+msgstr "Beskeds etikette"
+
+#: ../includes/admin/pages/ninja-forms-settings/tabs/label-settings/label-settings.php:28
+msgid "Required Field Label"
+msgstr "P&aring;kr&aelig;vet felt etikette"
+
+#: ../includes/admin/pages/ninja-forms-settings/tabs/label-settings/label-settings.php:35
+msgid "Required field symbol"
+msgstr "P&aring;kr&aelig;vet felt symbol"
+
+#: ../includes/admin/pages/ninja-forms-settings/tabs/label-settings/label-settings.php:40
+msgid "Error message given if all required fields are not completed"
+msgstr "Fejlmeddelelse, hvis alle p&aring;kr&aelig;vede felter ikke er udfyldt"
+
+#: ../includes/admin/pages/ninja-forms-settings/tabs/label-settings/label-settings.php:45
+msgid "Required Field Error"
+msgstr "P&aring;kr&aelig;vet felt fejl"
+
+#: ../includes/admin/pages/ninja-forms-settings/tabs/label-settings/label-settings.php:51
+msgid "Anti-spam error message"
+msgstr "Anti-spam fejl besked"
+
+#: ../includes/admin/pages/ninja-forms-settings/tabs/label-settings/label-settings.php:57
+msgid "Please enter a valid email address"
+msgstr "Skriv en gyldig email adresse"
+
+#: ../includes/admin/pages/ninja-forms-settings/tabs/label-settings/label-settings.php:63
+msgid "Ajax submitting message"
+msgstr "Ajax indsendelses besked"
+
+#: ../includes/admin/pages/ninja-forms-settings/tabs/label-settings/label-settings.php:64
+msgid ""
+"If your form is submitted via ajax, what message should appear to let users "
+"know it is being processed?"
+msgstr ""
+"Hvis din formularen er sendt via ajax, hvilken besked skal vises, for at "
+"lade brugerne vide, at det bliver behandlet?"
+
+#: ../includes/admin/pages/ninja-forms-settings/tabs/license-settings/license-settings.php:22
+msgid "Licenses"
+msgstr "Licenser"
+
+#: ../includes/admin/pages/ninja-forms-settings/tabs/license-settings/license-settings.php:43
+msgid "Licenses Saved"
+msgstr "Licenser er gemt"
+
+#: ../includes/admin/pages/ninja-forms-subs/tabs/view-subs/view-subs.php:73
+msgid "View Form Submissions"
+msgstr "Vis formular indsendelser"
+
+#: ../includes/admin/pages/ninja-forms-subs/tabs/view-subs/view-subs.php:150
+msgid "Export"
+msgstr "Eksportér"
+
+#: ../includes/admin/pages/ninja-forms-subs/tabs/view-subs/view-subs.php:160
+msgid "Submissions Per Page"
+msgstr "Antal indsendelser per side"
+
+#: ../includes/admin/pages/ninja-forms-subs/tabs/view-subs/view-subs.php:164
+#: ../includes/admin/pages/ninja-forms-subs/tabs/view-subs/view-subs.php:526
+msgid "Download All Submissions"
+msgstr "Hent alle indsendelser"
+
+#: ../includes/admin/pages/ninja-forms-subs/tabs/view-subs/view-subs.php:170
+msgid "Submission"
+msgstr "Indsendelse"
+
+#: ../includes/admin/pages/ninja-forms-subs/tabs/view-subs/view-subs.php:170
+msgid "Submissions"
+msgstr "Indsendelser"
+
+#: ../includes/admin/pages/ninja-forms-subs/tabs/view-subs/view-subs.php:242
+#: ../includes/admin/pages/ninja-forms-subs/tabs/view-subs/view-subs.php:390
+#: ../includes/fields/textbox.php:164
+msgid "Date"
+msgstr "Dato"
+
+#: ../includes/admin/pages/ninja-forms-subs/tabs/view-subs/view-subs.php:282
+msgid "Edit"
+msgstr "Rediger"
+
+#: ../includes/admin/pages/ninja-forms-subs/tabs/view-subs/view-subs.php:284
+msgid "Export to CSV"
+msgstr "Eksportér til CSV"
+
+#: ../includes/admin/pages/ninja-forms-subs/tabs/view-subs/view-subs.php:358
+msgid "No submissions found"
+msgstr "Der er ikke fundet nogen indsendelser"
+
+#: ../includes/admin/pages/ninja-forms-subs/tabs/view-subs/view-subs.php:409
+msgid "Back"
+msgstr "Tilbage"
+
+#: ../includes/admin/pages/ninja-forms-subs/tabs/view-subs/view-subs.php:503
+msgid "Apply"
+msgstr "Anvend"
+
+#: ../includes/admin/pages/ninja-forms-subs/tabs/view-subs/view-subs.php:514
+msgid "Submissions Deleted"
+msgstr "indsendelser slettet"
+
+#: ../includes/admin/pages/ninja-forms-subs/tabs/view-subs/view-subs.php:516
+msgid "Submission Deleted"
+msgstr "indsendelse slettet"
+
+#: ../includes/admin/pages/ninja-forms-subs/tabs/view-subs/view-subs.php:567
+msgid "Save Sub"
+msgstr "Gem undertype"
+
+#: ../includes/admin/pages/ninja-forms-subs/tabs/view-subs/sidebars/select-subs.php:58
+msgid "Select A Form"
+msgstr "V&aelig;lg en formular"
+
+#: ../includes/admin/pages/ninja-forms-subs/tabs/view-subs/sidebars/select-subs.php:72
+msgid "Date Range"
+msgstr "Dato interval"
+
+#: ../includes/admin/pages/ninja-forms-subs/tabs/view-subs/sidebars/select-subs.php:72
+msgid "Optional"
+msgstr "Valgfri"
+
+#: ../includes/admin/pages/ninja-forms-subs/tabs/view-subs/sidebars/select-subs.php:75
+msgid "Begin Date"
+msgstr "Start dato"
+
+#: ../includes/admin/pages/ninja-forms-subs/tabs/view-subs/sidebars/select-subs.php:81
+msgid "End Date"
+msgstr "Slut dato"
+
+#: ../includes/admin/pages/ninja-forms-subs/tabs/view-subs/sidebars/select-subs.php:87
+msgid ""
+"If both Begin Date and End Date are left blank, all submissions will be "
+"displayed."
+msgstr ""
+"Hvis b&aring;de start dato og slut dato efterlades tomt, vil alle "
+"indsendelser blive vist."
+
+#: ../includes/display/scripts.php:216 ../includes/fields/password.php:127
+msgid "Strength indicator"
+msgstr "Styrkeindikator"
+
+#: ../includes/display/scripts.php:217
+msgid "Very weak"
+msgstr "Meget svag"
+
+#: ../includes/display/scripts.php:218
+msgid "Weak"
+msgstr "Svag"
+
+#: ../includes/display/scripts.php:221
+msgid "Strong"
+msgstr "St&#230;rk"
+
+#: ../includes/display/scripts.php:222
+msgid "Mismatch"
+msgstr "Ej ens"
+
+#: ../includes/display/form/required-label.php:16
+msgid "Fields marked with a * are required."
+msgstr "Felter markeret med en * er p&aring;kr&aelig;vet."
+
+#: ../includes/display/processing/email-add-fields.php:39
+#: ../includes/display/processing/email-add-fields.php:48
+msgid "User Submitted Values:"
+msgstr "Bruger indsendte v&aelig;rdier"
+
+#: ../includes/display/processing/email-user.php:42
+msgid "Thank you for filling out this form."
+msgstr "Tak fordi at du udfyldte denne formular."
+
+#: ../includes/display/processing/req-fields-pre-process.php:51
+msgid "Please check required fields."
+msgstr "Tjek venligst p&aring;kr&aelig;vede felter."
+
+#: ../includes/fields/calc.php:43
+msgid "Number of decimal places."
+msgstr "Antal decimal pladser"
+
+#: ../includes/fields/calc.php:68
+msgid "calc_name"
+msgstr "beregning_navn"
+
+#: ../includes/fields/calc.php:111
+msgid "Calculation name"
+msgstr "Beregningens navn"
+
+#: ../includes/fields/calc.php:111
+msgid ""
+"This is the programmatic name of your field. Examples are: my_calc, "
+"price_total, user-total."
+msgstr ""
+"Dette er det programmatiske navn p&aring; dit felt. eksempler er: "
+"min_beregning, pris_total, bruger-total. (brug ikke &aelig;, &oslash; eller "
+"&aring;.)"
+
+#: ../includes/fields/calc.php:112 ../includes/fields/checkbox.php:19
+#: ../includes/fields/desc.php:11 ../includes/fields/hidden.php:50
+#: ../includes/fields/textarea.php:11 ../includes/fields/textbox.php:122
+#: ../includes/fields/textbox.php:139
+msgid "Default Value"
+msgstr "Standardv&aelig;rdi"
+
+#: ../includes/fields/calc.php:115
+msgid "Display Options"
+msgstr "Visnings indstillinger"
+
+#: ../includes/fields/calc.php:118
+msgid "- None"
+msgstr "- Ingen"
+
+#: ../includes/fields/calc.php:119
+msgid "Textbox"
+msgstr "Tekstboks"
+
+#: ../includes/fields/calc.php:120
+msgid "HTML"
+msgstr "HTML"
+
+#: ../includes/fields/calc.php:128
+msgid "Output calculation as"
+msgstr "Udbytte af beregningen som"
+
+#: ../includes/fields/calc.php:144 ../includes/fields/list.php:555
+msgid "Label"
+msgstr "Etiket"
+
+#: ../includes/fields/calc.php:166
+msgid "Disable input?"
+msgstr "Deaktiver indtastninger?"
+
+#: ../includes/fields/calc.php:182
+msgid ""
+"Use the following shortcode to insert the final calculation: "
+"[ninja_forms_calc]"
+msgstr ""
+"Brug f&oslash;lgende kortkode (shortcode) til, at inds&aelig;tte den "
+"endelige beregning: [ninja_forms_calc]"
+
+#: ../includes/fields/calc.php:218
+msgid "Custom CSS Class"
+msgstr "Brugerdefineret CSS klasse"
+
+#: ../includes/fields/calc.php:268
+msgid ""
+"You can enter calculation equations here using field_x where x is the ID of "
+"the field you want to use. For example, <strong>field_53 + field_28 + "
+"field_65</strong>."
+msgstr ""
+"Du kan indtaste beregningsligningerne her ved hjælp af field_x hvor x er ID "
+"på det felt, du vil bruge. For eksempel, <strong>field_53 + field_28 + "
+"field_65</strong>."
+
+#: ../includes/fields/calc.php:269
+msgid ""
+"Complex equations can be created by adding parentheses: <strong>( field_45 * "
+"field_2 ) / 2</strong>."
+msgstr ""
+"Komplekse ligninger kan skabes ved at tilføje parenteser: <strong>( field_45 "
+"* field_2 ) / 2</strong>."
+
+#: ../includes/fields/calc.php:270
+msgid ""
+"Please use these operators: + - * /. This is an advanced feature. Watch out "
+"for things like division by 0."
+msgstr ""
+"Brug venligst disse beregningstegn: + - * /. Dette er en avanceret funktion. "
+"Hold øje med ting, som at dividere med 0."
+
+#: ../includes/fields/calc.php:272
+msgid "Automatically Total Calculation Values"
+msgstr "Automatisk Total Beregningsværdier"
+
+#: ../includes/fields/calc.php:273
+msgid "Specify Operations And Fields (Advanced)"
+msgstr "Angiv funktioner og felter (Avanceret)"
+
+#: ../includes/fields/calc.php:274
+msgid "Use An Equation (Advanced)"
+msgstr "Brug en ligning (Avanceret)"
+
+#: ../includes/fields/calc.php:276
+msgid "Calculation Method"
+msgstr "Beregnings metode"
+
+#: ../includes/fields/calc.php:282
+msgid "Field Operations"
+msgstr "Felt funktioner"
+
+#: ../includes/fields/calc.php:282
+msgid "Add Operation"
+msgstr "Tilf&oslash;j funktion"
+
+#: ../includes/fields/calc.php:300
+msgid "Advanced Equation"
+msgstr "Avanceret ligning"
+
+#: ../includes/fields/calc.php:410
+msgid "- Select a Field"
+msgstr "- V&aelig;lg et felt"
+
+#: ../includes/fields/country.php:267
+msgid "Default Country"
+msgstr "Standard land"
+
+#: ../includes/fields/desc.php:18
+msgid "Text Element"
+msgstr "Tekst element"
+
+#: ../includes/fields/hidden.php:53 ../includes/fields/textbox.php:126
+msgid "User ID (If logged in)"
+msgstr "Bruger ID (hvis logget ind)"
+
+#: ../includes/fields/hidden.php:54 ../includes/fields/textbox.php:127
+msgid "User Firstname (If logged in)"
+msgstr "Bruger fornavn (hvis logget ind)"
+
+#: ../includes/fields/hidden.php:55 ../includes/fields/textbox.php:128
+msgid "User Lastname (If logged in)"
+msgstr "Bruger efternavn (hvis logget ind)"
+
+#: ../includes/fields/hidden.php:56 ../includes/fields/textbox.php:129
+msgid "User Display Name (If logged in)"
+msgstr "Bruger visnings navn (hvis logget ind)"
+
+#: ../includes/fields/hidden.php:57 ../includes/fields/textbox.php:130
+msgid "User Email (If logged in)"
+msgstr "Bruger E-mail (hvis logget ind)"
+
+#: ../includes/fields/hidden.php:64
+msgid "Custom Default Value"
+msgstr "Brugerdefineret Standardv&aelig;rdi"
+
+#: ../includes/fields/hidden.php:85 ../includes/fields/textbox.php:16
+msgid "Is this an email address?"
+msgstr "Er dette en email-adresse?"
+
+#: ../includes/fields/hidden.php:93
+msgid ""
+"If this box is checked, Ninja Forms will validate this input as an email "
+"address."
+msgstr ""
+"Hvis dette felt er afkrydset, vil Ninja Forms validere denne indtastning som "
+"en email-adresse."
+
+#: ../includes/fields/hidden.php:100 ../includes/fields/textbox.php:21
+msgid "Send a copy of the form to this address?"
+msgstr "Send en kopi af formularen til denne adresse?"
+
+#: ../includes/fields/hidden.php:108
+msgid ""
+"If this box is checked, Ninja Forms will send a copy of this form (and any "
+"messages attached) to this address."
+msgstr ""
+"Hvis dette felt er afkrydset, vil Ninja Forms sende en kopi af denne "
+"formular (og eventuelle  vedlagte meddelelser) til denne adresse."
+
+#: ../includes/fields/list.php:23
+msgid "This is the user's state"
+msgstr "Dette er brugerens tilstand"
+
+#: ../includes/fields/list.php:153
+msgid "Multi-Select Box Size"
+msgstr "Multi-valg boks st&oslash;rrelse"
+
+#: ../includes/fields/list.php:156
+msgid "Expand / Collapse Options"
+msgstr "Udvid / skjul muligheder"
+
+#: ../includes/fields/list.php:160
+msgid "Options"
+msgstr "Muligheder"
+
+#: ../includes/fields/list.php:160
+msgid "Add New"
+msgstr "Tilf&oslash;j ny"
+
+#: ../includes/fields/list.php:161
+msgid "Import Options"
+msgstr "Importérings indstillinger"
+
+#: ../includes/fields/list.php:167
+msgid "Show option values"
+msgstr "Vis muligheds v&aelig;rdier"
+
+#: ../includes/fields/list.php:186
+msgid "Import"
+msgstr "Importér"
+
+#: ../includes/fields/list.php:188
+msgid "To use this feature, you can paste your CSV into the textarea above."
+msgstr ""
+"For at bruge denne funktion, kan du inds&aelig;tte din CSV i tekstomr&aring;"
+"det ovenfor."
+
+#: ../includes/fields/list.php:189
+msgid "The format should look like the following:"
+msgstr "Formatet skal se ud som f&oslash;lgende:"
+
+#: ../includes/fields/list.php:196
+msgid "If you want to send an empty value, you can use '' for the value."
+msgstr ""
+"Hvis du &oslash;nsker at sende en tom v&aelig;rdi, kan du bruge '' for "
+"v&aelig;rdien."
+
+#: ../includes/fields/list.php:558
+msgid "Value"
+msgstr "V&aelig;rdi"
+
+#: ../includes/fields/list.php:561
+msgid "Calc"
+msgstr "Beregning"
+
+#: ../includes/fields/list.php:564
+msgid "Selected"
+msgstr "Valgt"
+
+#: ../includes/fields/password.php:28
+msgid "Use this as a registration password field"
+msgstr "Brug dette som et registrering af adgangskode felt"
+
+#: ../includes/fields/password.php:30
+msgid ""
+"If this box is checked, both password and re-password textboxes will be "
+"output."
+msgstr ""
+"Hvis dette felt er afkrydset, vil b&aring;de adgangskode og gentast-"
+"adgangskode tekstbokse blive udsendt."
+
+#: ../includes/fields/password.php:36
+msgid "Re-enter Password Label"
+msgstr "Indtast adgangskode etikette"
+
+#: ../includes/fields/password.php:44
+msgid "Show Password Strength Indicator"
+msgstr "Vis adgangskode styrke m&aring;ler"
+
+#: ../includes/fields/password.php:128
+msgid ""
+"Hint: The password should be at least seven characters long. To make it "
+"stronger, use upper and lower case letters, numbers and symbols like ! \" ? "
+"$ % ^ &amp; )."
+msgstr ""
+"Tip: Dit kodeord skal v&#230;re mindst syv tegn langt. For at g&#248;re det "
+"st&#230;rkere b&#248;r du bruge store og sm&#229; bogstaver, tal og symboler "
+"som ! \" ? $ % ^ &amp; )."
+
+#: ../includes/fields/password.php:146
+msgid "Passwords do not match"
+msgstr "Kodeordene er ikke ens"
+
+#: ../includes/fields/rating.php:12
+msgid "Number of stars"
+msgstr "Antal af stjerner"
+
+#: ../includes/fields/spam.php:29 ../includes/fields/spam.php:65
+msgid "Spam Question"
+msgstr "Spam sp&oslash;rgsm&aring;l"
+
+#: ../includes/fields/spam.php:36 ../includes/fields/spam.php:71
+msgid "Spam Answer"
+msgstr "Spam svar"
+
+#: ../includes/fields/tax.php:21
+msgid "Tax Percentage"
+msgstr "Skatteprocent (moms)"
+
+#: ../includes/fields/tax.php:23
+msgid "Should be entered as a percentage. e.g. 8.25%, 4%"
+msgstr "Skal indtastes som en procent. f.eks. 8,25%, 4%"
+
+#: ../includes/fields/textarea.php:18
+msgid "Show Rich Text Editor?"
+msgstr "Vis Rich Text Editor?"
+
+#: ../includes/fields/textarea.php:23
+msgid "Disable Rich Text Editor on Mobile"
+msgstr "Deaktiver Rich Text Editor p&aring; mobil"
+
+#: ../includes/fields/textbox.php:11
+msgid "Datepicker"
+msgstr "Datov&aelig;lger"
+
+#: ../includes/fields/textbox.php:26
+msgid ""
+"Use this as the \"From\" email address for Administrative recipients of this "
+"form?"
+msgstr ""
+"Brug denne som \"Fra\" e-mail adresse for administrative modtagere af denne "
+"formular?"
+
+#: ../includes/fields/textbox.php:39
+msgid ""
+"Use this as the \"From\" email name for Administrative recipients of this "
+"form?"
+msgstr ""
+"Brug denne som \"Fra\" e-mail navn for administrative modtagere af denne "
+"formular?"
+
+#: ../includes/fields/textbox.php:159
+msgid "Input Mask"
+msgstr "Indtastnings maske"
+
+#: ../includes/fields/textbox.php:163
+msgid "Phone - (555) 555-5555"
+msgstr "Telefon - (555) 555-5555"
+
+#: ../includes/fields/textbox.php:165
+msgid "Currency"
+msgstr "Valuta"
+
+#: ../includes/fields/textbox.php:174
+msgid "Custom Mask Definition"
+msgstr "Brugerdefineret Maske definition"
+
+#: ../includes/fields/textbox.php:274
+msgid "Please enter a valid email address."
+msgstr "Indtast venligst en gyldig e-mail-adresse."
+
+#~ msgid "- Select a Calculation"
+#~ msgstr "- V&aelig;lg en beregning"
+
+#~ msgid "Checked"
+#~ msgstr "Markeret"
+
+#~ msgid "Unchecked"
+#~ msgstr "Afmarkeret"
+
+#~ msgid "Use Javascript calculation"
+#~ msgstr "Brug Javascript beregning"
+
+#~ msgid "Is this a first name?"
+#~ msgstr "Er dette et fornavn?"
+
+#~ msgid "Is this a last name?"
+#~ msgstr "Er dette et efternavn?"
+
+#~ msgctxt "password strength"
+#~ msgid "Medium"
+#~ msgstr "Mittel"
+
+#~ msgid ""
+#~ "Ninja Forms is a webform builder with unparalleled ease of use and "
+#~ "features."
+#~ msgstr ""
+#~ "Ninja Forms ist ein Webformular-Gestalter mit beispielloser "
+#~ "Benutzerfreundlichkeit und Funktionen."
+
+#~ msgid "The WP Ninjas"
+#~ msgstr "Die WP Ninjas"

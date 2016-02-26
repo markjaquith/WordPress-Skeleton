@@ -1,0 +1,16 @@
+Lightweight Social Icons is licensed under the GNU General Public License v2 or later
+More details here: http://www.gnu.org/licenses/gpl-2.0.html
+
+== FontAwesome ==
+
+Icons use FontAwesome generated with Fontello with the following licenses:
+
+Font License: SIL OFL 1.1 - http://scripts.sil.org/OFL
+Code License: MIT License - http://opensource.org/licenses/mit-license.html
+
+All brand icons are trademarks of their respective owners.
+
+== Tooltipster ==
+
+Tooltips by Tooltipster: http://iamceege.github.io/tooltipster/
+Tooltipster License: MIT License: http://opensource.org/licenses/MIT

@@ -1,0 +1,15 @@
+#paypal-donations-tabs {
+	margin: 0;
+}
+
+#paypal-donations-tabs li {
+	cursor: pointer;
+}
+
+#paypal-donations-tabs-content > div {
+	display: none;
+}
+
+#paypal-donations-tabs-content > #paypal-donations-tab-content-1 {
+	display: block;
+}

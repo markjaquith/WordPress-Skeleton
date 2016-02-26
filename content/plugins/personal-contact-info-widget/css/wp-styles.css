@@ -1,0 +1,67 @@
+.widget_jsjr_personal_contact_info ul {
+	list-style-type:none;
+}
+
+.widget_jsjr_personal_contact_info span {
+	display:block;
+}
+
+.jsjr-pci-photo {
+}
+
+.jsjr-pci-photo-thumbnail {
+	border: 1px solid #DDD;
+	padding:7px;
+}
+
+.jsjr-pci-photo-circle {
+	-moz-border-radius: 50%; 
+	-webkit-border-radius: 50%; 
+	border-radius: 50%;
+}
+
+.jsjr-pci-photo-rcorners {
+	-moz-border-radius: 20px; 
+	-webkit-border-radius: 20px; 
+	border-radius: 20px;
+}
+
+.jsjr-pci-contact-section {
+
+}
+
+.jsjr-pci-name {
+}
+
+.jsjr-pci-slogan {
+
+}
+
+.jsjr-pci-social-icons a{
+	font-size:35px;
+	letter-spacing:5px;
+	text-decoration:none;
+}
+
+.jsjr-pci-email {
+	
+}
+
+.jsjr-pci-email:before{
+	font-family: "FontAwesome";
+	content: "\f0e0  ";
+}
+
+.jsjr-pci-phone {
+
+}
+
+.jsjr-pci-phone:before{
+	font-family: "FontAwesome";
+	content: "\f095  ";
+}
+
+.jsjr-pci-question {
+	border:1px solid #DDD;
+	padding:3px;
+}

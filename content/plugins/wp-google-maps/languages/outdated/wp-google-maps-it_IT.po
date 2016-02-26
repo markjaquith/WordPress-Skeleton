@@ -1,0 +1,648 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: Alian Schiavoncini <alian.schiavoncini@atrativa.it>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: it_IT\n"
+"X-Generator: Poedit 1.6.10\n"
+
+#: wpGoogleMaps.php:882
+msgid "Your settings have been saved."
+msgstr "Impostazioni salvatate"
+
+#: wpGoogleMaps.php:910
+msgid "Your marker location has been saved."
+msgstr "Localizzazione salvata"
+
+#: wpGoogleMaps.php:956
+msgid "There was a problem deleting the map."
+msgstr "C'è stato un problema nell'eliminare la mappa"
+
+#: wpGoogleMaps.php:960
+msgid "Delete your map"
+msgstr "Elimina la mappa"
+
+#: wpGoogleMaps.php:960
+msgid "Are you sure you want to delete the map"
+msgstr "Sei sicuro di voler eliminare la mappa?"
+
+#: wpGoogleMaps.php:960
+msgid "Yes"
+msgstr "Si"
+
+#: wpGoogleMaps.php:960
+msgid "No"
+msgstr "No"
+
+#: wpGoogleMaps.php:1005 wpGoogleMaps.php:1009
+msgid "Your Maps"
+msgstr "Le tue mappe"
+
+#: wpGoogleMaps.php:1005
+msgid "Add New"
+msgstr "Aggiungi nuova"
+
+#: wpGoogleMaps.php:1010
+msgid "Pro Version"
+msgstr "Versione Pro"
+
+#: wpGoogleMaps.php:1010
+msgid "Create unlimited maps"
+msgstr "Crea mappe illimitate"
+
+#: wpGoogleMaps.php:1010
+msgid "with the"
+msgstr "con il"
+
+#: wpGoogleMaps.php:1010
+msgid "of WP Google Maps for only"
+msgstr "di WP Google Maps"
+
+#: wpGoogleMaps.php:1041 wpGoogleMaps.php:1290 wpGoogleMaps.php:1385
+msgid "ID"
+msgstr "ID"
+
+#: wpGoogleMaps.php:1042 wpGoogleMaps.php:1204 wpGoogleMaps.php:1387
+msgid "Title"
+msgstr "Titolo"
+
+#: wpGoogleMaps.php:1043 wpGoogleMaps.php:1153
+msgid "Width"
+msgstr "Larghezza"
+
+#: wpGoogleMaps.php:1044 wpGoogleMaps.php:1157
+msgid "Height"
+msgstr "Altezza"
+
+#: wpGoogleMaps.php:1045
+msgid "Type"
+msgstr "Tipo"
+
+#: wpGoogleMaps.php:1056
+msgid "Trash"
+msgstr "Cestino"
+
+#: wpGoogleMaps.php:1060 wpGoogleMaps.php:1420
+msgid "Edit"
+msgstr "Modifica"
+
+#: wpGoogleMaps.php:1102
+msgid ""
+"Add custom icons, titles, descriptions, pictures and links to your markers "
+"with the"
+msgstr ""
+"Aggiungi icone personalizzate, titoli, descrizioni, immagini e link ai tuoi "
+"segnaposti con la"
+
+#: wpGoogleMaps.php:1102 wpGoogleMaps.php:1103 wpGoogleMaps.php:1163
+#: wpGoogleMaps.php:1256
+msgid "Pro Edition"
+msgstr "Edizione Pro"
+
+#: wpGoogleMaps.php:1102
+msgid "of this plugin for just"
+msgstr "di questo plugin per soli"
+
+#: wpGoogleMaps.php:1103
+msgid "Purchase the Pro Edition"
+msgstr "Acquista l'Edizione Pro"
+
+#: wpGoogleMaps.php:1103
+msgid "of WP Google Maps and save your markers to a CSV file!"
+msgstr "del WP Google Maps e salva i tuoi segnaposti in un file CSV!"
+
+#: wpGoogleMaps.php:1113
+msgid "Map Settings"
+msgstr "Impostazioni mappa"
+
+#: wpGoogleMaps.php:1145
+msgid "Short code"
+msgstr "Codice Breve"
+
+#: wpGoogleMaps.php:1146
+msgid "copy this into your post or page to display the map"
+msgstr "copialo nel tuo articolo o pagina per visualizzare la mappa"
+
+#: wpGoogleMaps.php:1149
+msgid "Map Name"
+msgstr "Nome della mappa"
+
+#: wpGoogleMaps.php:1162
+msgid "Default Marker Image"
+msgstr "Immagine Maker Default"
+
+#: wpGoogleMaps.php:1163 wpGoogleMaps.php:1215 wpGoogleMaps.php:1217
+msgid "Upload Image"
+msgstr "Carica Immagine"
+
+#: wpGoogleMaps.php:1163
+msgid "available in the"
+msgstr "disponibile nella"
+
+#: wpGoogleMaps.php:1163
+msgid "only"
+msgstr "solo"
+
+#: wpGoogleMaps.php:1166
+msgid "Map type"
+msgstr "Tipo di mappa"
+
+#: wpGoogleMaps.php:1168
+msgid "Roadmap"
+msgstr "Stradale"
+
+#: wpGoogleMaps.php:1169
+msgid "Satellite"
+msgstr "Satellitare"
+
+#: wpGoogleMaps.php:1170
+msgid "Hybrid"
+msgstr "Ibrida"
+
+#: wpGoogleMaps.php:1171
+msgid "Terrain"
+msgstr "Terrestre"
+
+#: wpGoogleMaps.php:1176
+msgid "Map Alignment"
+msgstr "Allineamente mappa"
+
+#: wpGoogleMaps.php:1178
+msgid "Left"
+msgstr "Sinistra"
+
+#: wpGoogleMaps.php:1179
+msgid "Center"
+msgstr "Centrato"
+
+#: wpGoogleMaps.php:1180
+msgid "Right"
+msgstr "Destra"
+
+#: wpGoogleMaps.php:1181 wpGoogleMaps.php:1222
+msgid "None"
+msgstr "Nessuno"
+
+#: wpGoogleMaps.php:1189
+msgid "Remember to save your map!"
+msgstr "Ricordati di salvare la mappa!"
+
+#: wpGoogleMaps.php:1191
+msgid "Save Map"
+msgstr "Salva la Mappa"
+
+#: wpGoogleMaps.php:1193
+msgid ""
+"Tip: Use your mouse to change the layout of your map. When you have "
+"positioned the map to your desired location, press \"Save Map\" to keep your "
+"settings."
+msgstr ""
+"Suggerimento: Utilizza il tuo mouse per cambiare la visualizzazione della "
+"mappa. Quando hai trovato la visualizzazione desiderata, premi \"Salva Mappa"
+"\" per mantenere le impostazioni."
+
+#: wpGoogleMaps.php:1199
+msgid "Add a marker"
+msgstr "Aggiungi un Segnaposto"
+
+#: wpGoogleMaps.php:1209
+msgid "Address/GPS"
+msgstr "Indirizzo/GPS"
+
+#: wpGoogleMaps.php:1214 wpGoogleMaps.php:1389
+msgid "Description"
+msgstr "Descrizione"
+
+#: wpGoogleMaps.php:1215
+msgid "Pic URL"
+msgstr "URL Immagine"
+
+#: wpGoogleMaps.php:1216
+msgid "Link URL"
+msgstr "URL Link"
+
+#: wpGoogleMaps.php:1217
+msgid "Custom Marker"
+msgstr "Segnaposto personalizzato"
+
+#: wpGoogleMaps.php:1219
+msgid "Animation"
+msgstr "Animazione"
+
+#: wpGoogleMaps.php:1229
+msgid "Add Marker"
+msgstr "Aggiungi Segnaposto"
+
+#: wpGoogleMaps.php:1229
+msgid "Adding"
+msgstr "Aggiungendo"
+
+#: wpGoogleMaps.php:1230
+msgid "Save Marker"
+msgstr "Salva Segnaposto"
+
+#: wpGoogleMaps.php:1230
+msgid "Saving"
+msgstr "Salvataggio"
+
+#: wpGoogleMaps.php:1238
+msgid "Your Markers"
+msgstr "I tuoi Segnaposti"
+
+#: wpGoogleMaps.php:1247
+msgid "Add detailed information to your markers!"
+msgstr "Aggiungi informazioni dettagliate ai tuoi segnaposti!"
+
+#: wpGoogleMaps.php:1247 wpGoogleMaps.php:1251 wpGoogleMaps.php:1255
+msgid "Add custom markers to your map!"
+msgstr "Aggiungi i segnaposti personalizzati alla tua mappa!"
+
+#: wpGoogleMaps.php:1248
+msgid "Add detailed information to your markers for only"
+msgstr "Aggiungi informazioni dettagliate solo ai tuoi segnaposti"
+
+#: wpGoogleMaps.php:1248 wpGoogleMaps.php:1256
+msgid "Click"
+msgstr "Clicca"
+
+#: wpGoogleMaps.php:1248 wpGoogleMaps.php:1256
+msgid "here"
+msgstr "qui"
+
+#: wpGoogleMaps.php:1252
+msgid ""
+"Add different marker icons, or your own icons to make your map really stand "
+"out!"
+msgstr ""
+"Aggiungi icone differenti per i segnaposti, o le tue icone per rendere unica "
+"la tua mappa!"
+
+#: wpGoogleMaps.php:1256
+msgid "Allow your visitors to get directions to your markers!"
+msgstr ""
+"Permetti agli utenti di ottenere le indicazioni stradali per i tuoi "
+"segnaposti!"
+
+#: wpGoogleMaps.php:1262
+msgid ""
+"WP Google Maps encourages you to make use of the amazing icons created by "
+"Nicolas Mollet's Maps Icons Collection"
+msgstr ""
+"Wp Google Maps ti invita ad utilizzare le fantastiche icone create da "
+"Nicolas Mollet"
+
+#: wpGoogleMaps.php:1262
+msgid "and to credit him when doing so."
+msgstr "ed attribuirgli i credits."
+
+#: wpGoogleMaps.php:1290
+msgid "Edit Marker Location"
+msgstr "Modifica la Localizzazione del Segnaposto"
+
+#: wpGoogleMaps.php:1299
+msgid "Marker Latitude"
+msgstr "Latitudine del Segnaposto"
+
+#: wpGoogleMaps.php:1303
+msgid "Marker Longitude"
+msgstr "Longitudine del Segnaposto"
+
+#: wpGoogleMaps.php:1308
+msgid "Save Marker Location"
+msgstr "Salva Posizione Segnaposto"
+
+#: wpGoogleMaps.php:1309
+msgid ""
+"Tip: Use your mouse to change the location of the marker. Simply click and "
+"drag it to your desired location."
+msgstr ""
+"Suggerimento: Usa il mouse per cambiare la posizione del segnaposto. Clicca "
+"e spostalo nella posiziona desiderata."
+
+#: wpGoogleMaps.php:1371
+msgid ""
+"There are too many markers to make use of the live edit function. The "
+"maximum amount for this functionality is 2000 markers. Anything more than "
+"that number would crash your browser. In order to edit your markers, you "
+"would need to download the table in CSV format, edit it and re-upload it."
+msgstr ""
+"Ci sono troppi segnaposti per poter utilizzare la funzione di modifica in "
+"tempo reale. Per questa funzionalità puoi utilizzare fino ad un massimo di "
+"2000 segnaposti. Ulteriori segnaposti potrebbero causare un malfunzionamento "
+"del tuo navigatore. Per modificare i tuoi segnaposto, puoi scaricare la "
+"tabella in formato CSV e ricaricarla."
+
+#: wpGoogleMaps.php:1386
+msgid "Icon"
+msgstr "Icona"
+
+#: wpGoogleMaps.php:1388
+msgid "Address"
+msgstr "Indirizzo"
+
+#: wpGoogleMaps.php:1390
+msgid "Image"
+msgstr "Immagine"
+
+#: wpGoogleMaps.php:1391
+msgid "Link"
+msgstr "Link"
+
+#: wpGoogleMaps.php:1392
+msgid "Action"
+msgstr "Azione"
+
+#: wpGoogleMaps.php:1409
+msgid "View this link"
+msgstr "Visualizza questo link"
+
+#: wpGoogleMaps.php:1420 wpGoogleMaps.php:1421
+msgid "Edit this marker"
+msgstr "Modifica questo segnaposto"
+
+#: wpGoogleMaps.php:1421
+msgid "Edit Location"
+msgstr "Modifica la localizzazione"
+
+#: wpGoogleMaps.php:1422
+msgid "Delete this marker"
+msgstr "Elimina il segnaposto"
+
+#: wpGoogleMaps.php:1422
+msgid "Delete"
+msgstr "Elimina"
+
+#: wpGoogleMaps.php:1539
+msgid ""
+"The plugin directory does not have 'write' permissions. Please enable "
+"'write' permissions (755) for "
+msgstr "La cartella del plugin non ha i permessi di 'scrittura' (755) per"
+
+#: wpGoogleMaps.php:1541
+msgid "in order for this plugin to work! Please see "
+msgstr "far funzionare questo plugin! Vedi"
+
+#: wpGoogleMaps.php:1543
+msgid "this page"
+msgstr "questa pagina"
+
+#: wpGoogleMaps.php:1545
+msgid "for help on how to do it."
+msgstr "aiuto su come farlo."
+
+msgid ""
+"Get great map markers <a href='http://mapicons.nicolasmollet.com/' "
+"target='_BLANK' title='Great Google Map Markers'>here</a>"
+msgstr ""
+"Scarica nuovi segnaposti da <a href='http://mapicons.nicolasmollet.com/' "
+"target='_BLANK' title='Great Google Map Markers'>questo sito</a>"
+
+msgid "Bounce"
+msgstr "Rimbalzo"
+
+msgid "Drop"
+msgstr "Getta"
+
+msgid "Or paste image URL"
+msgstr "O incolla URL dell'immagine"
+
+msgid "ignore if you want to use the defaul marker"
+msgstr "ignora se vuoi utilizzare il segnaposto di default"
+
+msgid "Format: http://www.domain.com"
+msgstr "Formato: http://www.domain.com"
+
+msgid "More details"
+msgstr "Altri dettagli"
+
+msgid "Get directions"
+msgstr "Calcola percorso"
+
+msgid "From"
+msgstr "Da"
+
+msgid "To"
+msgstr "A"
+
+msgid "Go"
+msgstr "Vai"
+
+msgid "Please fill out both the 'from' and 'to' fields"
+msgstr "Inserire entrambe i campi 'da' e 'a'"
+
+msgid "Geocode was not successful for the following reason"
+msgstr "Geocode non ha funzionato per i seguenti motivi"
+
+msgid "Header 1 should be 'id', not"
+msgstr "L'intestazione 1 dovrebbe essere 'id', non"
+
+msgid "Header 2 should be 'map_id', not"
+msgstr "L'intestazione 2 dovrebbe essere 'map_id', non"
+
+msgid "Header 3 should be 'address', not"
+msgstr "L'intestazione 3 dovrebbe essere 'address', non"
+
+msgid "Header 4 should be 'desc', not"
+msgstr "L'intestazione 4 dovrebbe essere 'desc', non"
+
+msgid "Header 5 should be 'pic', not"
+msgstr "L'intestazione 5 dovrebbe essere 'pic', non"
+
+msgid "Header 6 should be 'link', not"
+msgstr "L'intestazione 6 dovrebbe essere 'link', non"
+
+msgid "Header 7 should be 'icon', not"
+msgstr "L'intestazione 7 dovrebbe essere 'icon', non"
+
+msgid "Header 8 should be 'lat', not"
+msgstr "L'intestazione 8 dovrebbe essere 'lat', non"
+
+msgid "Header 9 should be 'lng', not"
+msgstr "L'intestazione 9 dovrebbe essere 'lng', non"
+
+msgid "Header 10 should be 'anim', not"
+msgstr "L'intestazione 10 dovrebbe essere 'anim', non"
+
+msgid "Header 11 should be 'title', not"
+msgstr "L'intestazione 11 dovrebbe essere 'title', non"
+
+msgid "CSV import failed"
+msgstr "importazione CSV fallita"
+
+msgid "Your CSV file has been successfully imported"
+msgstr "Il tuo file CSV è stato importato correttamente"
+
+msgid "Download ALL marker data to a CSV file"
+msgstr "Scarica TUTTI i dati dei segnaposti in un file CSV"
+
+msgid "Advanced Options"
+msgstr "Opzioni Avanzate"
+
+msgid "Upload File"
+msgstr "Carica File"
+
+msgid "Upload CSV File"
+msgstr "Carica File CSV"
+
+msgid "Replace existing data with data in file"
+msgstr "Sostituisci i tuoi dati esistenti con i dati del file"
+
+msgid "OR"
+msgstr "O"
+
+msgid "including Pro add-on"
+msgstr "include Pro add-on"
+
+msgid "including Pro &amp; Gold add-ons"
+msgstr "include Pro &amp; Gold add-on"
+
+msgid "Download this data as a CSV file"
+msgstr "Scarica le informazioni come file CSV"
+
+msgid "Advanced Map Styling"
+msgstr "Stile Mappa Avanzato"
+
+msgid ""
+"Use the <a href='http://gmaps-samples-v3.googlecode.com/svn/trunk/styledmaps/"
+"wizard/index.html' target='_BLANK'>Google Maps API Styled Map Wizard</a> to "
+"get your style settings"
+msgstr ""
+"Utilizza <a href='http://gmaps-samples-v3.googlecode.com/svn/trunk/"
+"styledmaps/wizard/index.html' target='_BLANK'>Google Maps API Styled Map "
+"Wizard</a> per le impostazioni del tuo stile"
+
+msgid "Enable Advanced Styling"
+msgstr "Abilita lo Stile Avanzato"
+
+msgid "Paste the JSON data here"
+msgstr "Incolla qui i dati JSON"
+
+msgid "Save Style Settings"
+msgstr "Salva le impostazioni di sitle"
+
+msgid "Maps"
+msgstr "Mappe"
+
+msgid "Advanced"
+msgstr "Avanzate"
+
+msgid "Create your Map"
+msgstr "Crea la tua Mappa"
+
+msgid "Show advanced options"
+msgstr "Mostra le opzioni avanzate"
+
+msgid "Hide advanced options"
+msgstr "Nascondi le impostazioni avanzate"
+
+msgid "List all Markers"
+msgstr "Elenca tutti i Segnaposti"
+
+msgid "List all markers below the map"
+msgstr "Elenca tutti i segnaposti sotto la mappa"
+
+msgid "Directions Box Open by Default?"
+msgstr "Box delle indicazioni stradali aperto come predefinito?"
+
+msgid "Yes, on the left"
+msgstr "Si, a sinistra"
+
+msgid "Yes, on the right"
+msgstr "Si, sulla destra"
+
+msgid "Yes, above"
+msgstr "Si, sopra"
+
+msgid "Yes, below"
+msgstr "Si, sotto"
+
+msgid "Directions Box Width"
+msgstr "Larghezza Box Indicazioni"
+
+msgid "InfoWindow open by default"
+msgstr "FinestraInfo aperta come predefinita"
+
+msgid "Disable StreetView"
+msgstr "Disabilita StreetView"
+
+msgid "Disable Zoom Controls"
+msgstr "Disabilita Controlli Zoom"
+
+msgid "Disable Pan Controls"
+msgstr "Disabilita Controlli Spostamento"
+
+msgid "Disable Map Type Controls"
+msgstr "Disabilita i Controlli della Mappa"
+
+msgid "Disable Mouse Wheel Zoom"
+msgstr "Disabilita la rotellina zoom del mouse"
+
+msgid "Open links in a new window"
+msgstr "Apri i link in una nuova finestra"
+
+msgid "(Tick this if you want to open your links in a new window)"
+msgstr "(Seleziona per aprire i link in una nuoava finestra)"
+
+msgid "Hide the address field"
+msgstr "Nascondi il campo indirizzo"
+
+msgid "Other settings"
+msgstr "Altre impostazioni"
+
+msgid "Max InfoWindow Width"
+msgstr "Larghezza massima FinestraInfo"
+
+msgid "(Minimum: 200px)"
+msgstr "(Minimo: 200px)"
+
+msgid "Image Thumbnails"
+msgstr "Miniature immagine"
+
+msgid "(Tick this if you are having problems viewing your thumbnail images)"
+msgstr ""
+"(Seleziona se hai problemi nel visualizzare le miniature delle immagini)"
+
+msgid "Default Image Height"
+msgstr "Altezza immagine predefinita"
+
+msgid "Default Image Width"
+msgstr "Larghezza immagine predefinita"
+
+msgid "InfoWindow Settings"
+msgstr "Impostazioni FinestraInformazioni"
+
+msgid "General Map Settings"
+msgstr "Impostazioni generali mappa"
+
+msgid "Do not use TimThumb"
+msgstr "Non utilizzare TimThumb"
+
+msgid "WP Google Map Settings"
+msgstr "Impostazioni WP Google Maps"
+
+msgid "Enable Directions?"
+msgstr "Abilitare le inicazioni stradali?"
+
+msgid "Enable Bicycle Layer?"
+msgstr "Abilitare il livello delle Bici"
+
+msgid "Enable Traffic Layer?"
+msgstr "Abilitare il livello del Traffico?"
+
+msgid "The KML/GeoRSS layer will over-ride most of your map settings"
+msgstr ""
+"Il livello KML/GeoRSS sarà sovrascritto dalle impostazioni della tua mappa"
+
+msgid "KML/GeoRSS URL"
+msgstr "URL KML/GeoRSS"
+
+msgid "Map Dimensions"
+msgstr "Dimensioni della Mappa"
+
+msgid "Settings"
+msgstr "Impostazioni"

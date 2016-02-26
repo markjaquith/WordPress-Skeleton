@@ -1,0 +1,5 @@
+[s2If is_user_logged_in()]
+	Content for anyone that is logged in, regardless of their Membership Level.
+	[else]
+	Some public content. They're NOT logged in.
+[/s2If]

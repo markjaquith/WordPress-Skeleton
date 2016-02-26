@@ -1,0 +1,1065 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: BuddyForms v1.3.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-03-06 17:15+0100\n"
+"PO-Revision-Date: 2015-03-06 17:15+0100\n"
+"Last-Translator: Sol Huebner <translations@it-specialist.net>\n"
+"Language-Team: \n"
+"Language: it_IT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.7.4\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: BuddyForms.php:234
+msgid "Check all"
+msgstr ""
+
+#: BuddyForms.php:235 includes/admin/manage-form-roles-and-capabilities.php:71
+msgid "Uncheck all"
+msgstr ""
+
+# @ buddyforms
+#: includes/admin/add-ons.php:13 includes/admin/admin.php:48
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Il tuo Account non può accedere a questa Pagina"
+
+#: includes/admin/add-ons.php:26
+msgid ""
+"This is the BuddyForms Members Extension. Integrate your BuddyForms Forms "
+"into your BuddyPress Members Profile."
+msgstr ""
+
+#: includes/admin/add-ons.php:33
+msgid ""
+"With this plugin, you’ll be able to automatically create a new BuddyPress "
+"group for pre-assigned BuddyForms post submissions and attach that group to "
+"the post. User-submitted posts with BuddyForms then become a BuddyPress "
+"group with all the included functionality and endless possibilities."
+msgstr ""
+
+#: includes/admin/add-ons.php:39
+msgid ""
+"With BuddyForms Posts 2 Posts Integration you can create complex connections "
+"and post relationships across your site. From posts to pages or to users all "
+"the Posts 2 Posts Plugin functionality is in your BuddyForms Form Builder "
+"available."
+msgstr ""
+
+#: includes/admin/add-ons.php:45
+msgid ""
+"With this plugin you will get new options added to your Form Builder \"Fields"
+"\" to select where you want to display the field. This makes it very easy to "
+"manage the output and can save you a lot of time modifying your templates, "
+"by just adding a hook."
+msgstr ""
+
+#: includes/admin/add-ons.php:76
+msgid "Installed and activated!"
+msgstr ""
+
+#: includes/admin/add-ons.php:78
+msgid "Installed, but not activated."
+msgstr ""
+
+#: includes/admin/add-ons.php:78
+msgid "Click here to activate the plugin."
+msgstr ""
+
+#: includes/admin/add-ons.php:80
+msgid "Not installed."
+msgstr ""
+
+#: includes/admin/add-ons.php:80
+msgid "Click here to install the plugin."
+msgstr ""
+
+#: includes/admin/add-ons.php:82
+msgid ""
+"Not installed and could not be found in the Plugin Directory. Please install "
+"this plugin manually."
+msgstr ""
+
+# @ buddyforms
+#: includes/admin/admin-credits.php:5
+msgid "User Front End Posting and Form Builder for WordPress."
+msgstr "Usare Front End Posting e Form Builder per WordPress."
+
+# @ buddyforms
+#: includes/admin/admin-credits.php:11 includes/admin/create-new-form.php:7
+msgid "Add New Form"
+msgstr "Aggiungere un Nuovo Form"
+
+# @ buddyforms
+#: includes/admin/admin-credits.php:15
+msgid "Documentation"
+msgstr "Documentazione"
+
+# @ buddyforms
+#: includes/admin/admin-credits.php:16
+msgid "Submit a Support Ticket"
+msgstr "Inviare un Support Ticket"
+
+# @ buddyforms
+#: includes/admin/admin-credits.php:18
+msgid "Submit your Ideas"
+msgstr "Inviare Idea"
+
+# @ buddyforms
+#: includes/admin/admin.php:16 includes/shortcodes.php:197
+msgid "Add New"
+msgstr "Aggiungere Nuovo"
+
+# @ buddyforms
+#: includes/admin/admin.php:17
+msgid "Add-ons"
+msgstr ""
+
+# @ buddyforms
+#: includes/admin/admin.php:18 includes/admin/form-builder/form-builder.php:87
+#: includes/admin/form-builder/form-builder.php:171
+msgid "Mail Notification"
+msgstr "Notifica Email"
+
+# @ buddyforms
+#: includes/admin/admin.php:19
+msgid "Manage User Roles"
+msgstr "Gestire Ruoli Utenti"
+
+# @ buddyforms
+#: includes/admin/admin.php:74 includes/admin/admin.php:103
+#: includes/admin/mail-notification.php:23
+msgid "Settings saved"
+msgstr "Impostazioni salvate"
+
+# @ buddyforms
+#: includes/admin/create-new-form.php:37
+msgid "Enter Title here, e.g. Movies"
+msgstr "Entrare qui il Titolo, es. Movies"
+
+# @ buddyforms
+#: includes/admin/create-new-form.php:39
+msgid "Enter Singluar Name here, e.g. Movie"
+msgstr "Entrare qui il Singolo Nome, es. Movie"
+
+# @ buddyforms
+#: includes/admin/create-new-form.php:44
+#: includes/admin/form-builder/form-builder.php:304
+msgid "Post Type"
+msgstr "Tipo Articolo"
+
+# @ buddyforms
+#: includes/admin/create-new-form.php:45
+msgid "Select which post type should be created on form submission."
+msgstr ""
+"Selezionare quale tipo d'Articolo vorrai creare nell'inserimento del Form."
+
+# @ buddyforms
+#: includes/admin/create-new-form.php:51
+#: includes/admin/form-builder/form-builder.php:315
+msgid "none"
+msgstr "nessuno"
+
+# @ buddyforms
+#: includes/admin/create-new-form.php:57
+msgid "Attach a page to this form"
+msgstr "Allegare una Pagina a questo Form"
+
+# @ buddyforms
+#: includes/admin/create-new-form.php:58
+msgid "Select a page for the authors, call it e.g. \"My Posts\"."
+msgstr "Selezionare una Pagina per l'Autore, chiamata ad esempio \"My Posts\"."
+
+#: includes/admin/create-new-form.php:62
+msgid "Or you can create a new Page."
+msgstr ""
+
+#: includes/admin/create-new-form.php:62
+msgid "Enter the title of the new page here: "
+msgstr ""
+
+# @ buddyforms
+#: includes/admin/create-new-form.php:62
+msgid "e.g. My Movies"
+msgstr "es. My Movies"
+
+# @ buddyforms
+#: includes/admin/create-new-form.php:76
+msgid "Create New Form"
+msgstr "Creare Nuovo Form"
+
+# @ buddyforms
+#: includes/admin/create-new-form.php:79
+#: includes/admin/form-builder/form-builder.php:155
+msgid "Cancel"
+msgstr "Cancellare"
+
+# @ buddyforms
+#: includes/admin/create-new-form.php:80
+msgid "Create Form"
+msgstr "Creare Form"
+
+# @ buddyforms
+#: includes/admin/create-new-form.php:86
+msgid "Moderation"
+msgstr "Moderazione"
+
+# @ buddyforms
+#: includes/admin/create-new-form.php:89
+msgid "Post status on form submission:"
+msgstr "Stato dell'Articolo all'inserimento nel Form:"
+
+# @ buddyforms
+#: includes/admin/create-new-form.php:96
+#: includes/admin/form-builder/form-builder.php:201
+msgid "Comments"
+msgstr "Commenti"
+
+# @ buddyforms
+#: includes/admin/create-new-form.php:99
+msgid "Comment status on form submission:"
+msgstr "Stato del Commento all'inserimento del Form:"
+
+# @ buddyforms
+#: includes/admin/form-builder/form-builder-elements.php:59
+#: includes/admin/form-builder/form-builder-elements.php:270
+msgid "Required"
+msgstr "Richiesto"
+
+# @ buddyforms
+#: includes/admin/form-builder/form-builder-elements.php:64
+#: includes/admin/form-builder/form-builder.php:57
+#: includes/admin/form-builder/form-builder.php:253
+#: includes/admin/mail-notification.php:189
+msgid "Name"
+msgstr "Nome"
+
+# @ buddyforms
+#: includes/admin/form-builder/form-builder-elements.php:68
+#: includes/admin/form-builder/form-builder-elements.php:198
+#: includes/admin/form-builder/form-builder.php:58
+#: includes/admin/form-builder/form-builder.php:255
+msgid "Slug"
+msgstr "Slug"
+
+# @ buddyforms
+#: includes/admin/form-builder/form-builder-elements.php:68
+msgid "_name will create a hidden post meta field"
+msgstr "_name sarà creato e nascosto al Campo Meta dell'Articolo"
+
+# @ buddyforms
+#: includes/admin/form-builder/form-builder-elements.php:74
+msgid "Description"
+msgstr "Descrizione"
+
+# @ buddyforms
+#: includes/admin/form-builder/form-builder-elements.php:85
+msgid "Target"
+msgstr ""
+
+# @ buddyforms
+#: includes/admin/form-builder/form-builder-elements.php:92
+#: includes/admin/form-builder/form-builder-elements.php:179
+msgid "Multiple"
+msgstr "Multiplo"
+
+# @ buddyforms
+#: includes/admin/form-builder/form-builder-elements.php:123
+#: includes/admin/form-builder/form-builder.php:200
+msgid "Taxonomy"
+msgstr ""
+
+# @ buddyforms
+#: includes/admin/form-builder/form-builder-elements.php:128
+msgid "Taxonomy Order"
+msgstr ""
+
+# @ buddyforms
+#: includes/admin/form-builder/form-builder-elements.php:184
+msgid "Show 'Select an Option'"
+msgstr "Mostrare 'Seleziona un Opzione'"
+
+# @ buddyforms
+#: includes/admin/form-builder/form-builder-elements.php:189
+msgid "User can create new"
+msgstr "L'Utente può creare nuovo"
+
+# @ buddyforms
+#: includes/admin/form-builder/form-builder-elements.php:205
+msgid "Value:"
+msgstr ""
+
+# @ buddyforms
+#: includes/admin/form-builder/form-builder-elements.php:212
+msgid ""
+"There are no settings needed so far. You can change the global comment "
+"settings in the form control section. If the 'comments' element is added to "
+"the form, the user has the possibility to overwrite the global settings and "
+"open/close 'comments' for their own post."
+msgstr ""
+"Non c'è bisogno d'impostazioni. Puoi cambiare l'impostazione dei Commenti "
+"del Form. Nell'Elemento 'Commenti' aggiunto nel Form, l'Utente ha la "
+"possibilità di sovrascrivere l'impostazione open/close 'Commenti' per il "
+"proprio Articolo."
+
+# @ buddyforms
+#: includes/admin/form-builder/form-builder-elements.php:220
+msgid ""
+"There are no settings needed so far. The Title is required and can not be "
+"removed. You can change the order of the title via drag and drop."
+msgstr ""
+
+# @ buddyforms
+#: includes/admin/form-builder/form-builder-elements.php:232
+msgid "Turn off wp editor features"
+msgstr ""
+
+# @ buddyforms
+#: includes/admin/form-builder/form-builder-elements.php:242
+msgid ""
+"You can change the global post status settings in the form control section. "
+"If the 'status' element is added to the form, the user has the possibility "
+"to overwrite the global settings and change the 'status' for their own post."
+msgstr ""
+"Puoi cambiare lo Stato generale dell'impostazioni nella sezione del Form. "
+"Nell'Elemento 'Stato' aggiunto nel Form, l'Utente ha la possibilità di "
+"sovrascrivere l'impostazione generale e cambiare lo 'Stato' per i propri "
+"Articoli."
+
+# @ buddyforms
+#: includes/admin/form-builder/form-builder-elements.php:248
+msgid "Select the post status you want to make available in the frontend form"
+msgstr ""
+"Selezionare quale Stato dell'Articolo vuoi mettere disponibile nel Frontend "
+"del Form"
+
+# @ buddyforms
+#: includes/admin/form-builder/form-builder-elements.php:260
+msgid ""
+"With the Featured Image Form Element you can add a featured image upload to "
+"your form"
+msgstr ""
+"Con l'Elemento del Form Immagine In Evidenza puoi aggiungere un Immagine In "
+"Evidenza al tuo Form"
+
+# @ buddyforms
+#: includes/admin/form-builder/form-builder-elements.php:266
+msgid "Description:"
+msgstr "Descrizione:"
+
+# @ buddyforms
+#: includes/admin/form-builder/form-builder-elements.php:284
+msgid "HTML:"
+msgstr ""
+
+# @ buddyforms
+#: includes/admin/form-builder/form-builder-elements.php:391
+msgid "Values"
+msgstr ""
+
+# @ buddyforms
+#: includes/admin/form-builder/form-builder-elements.php:397
+msgid "Entry "
+msgstr ""
+
+# @ buddyforms
+#: includes/admin/form-builder/form-builder-elements.php:398
+msgid "move"
+msgstr ""
+
+#: includes/admin/form-builder/form-builder.php:42
+msgid "Bulk Actions"
+msgstr ""
+
+#: includes/admin/form-builder/form-builder.php:43
+msgid "Delete Permanently"
+msgstr ""
+
+#: includes/admin/form-builder/form-builder.php:45
+msgid "Apply"
+msgstr ""
+
+# @ buddyforms
+#: includes/admin/form-builder/form-builder.php:54
+msgid "Select All"
+msgstr "Seleziona tutto"
+
+# @ buddyforms
+#: includes/admin/form-builder/form-builder.php:59
+msgid "Attached Post Type"
+msgstr "Allegato Tipo Articolo"
+
+# @ buddyforms
+#: includes/admin/form-builder/form-builder.php:60
+msgid "Attached Page"
+msgstr "Allegato Pagina"
+
+# @ buddyforms
+#: includes/admin/form-builder/form-builder.php:87
+#: includes/admin/form-builder/form-builder.php:338
+#: includes/admin/mail-notification.php:70
+#: includes/admin/manage-form-roles-and-capabilities.php:132
+msgid "Form Builder"
+msgstr ""
+
+#: includes/admin/form-builder/form-builder.php:87
+#: includes/admin/form-builder/form-builder.php:176
+msgid "Roles and Capabilities"
+msgstr ""
+
+# @ buddyforms
+#: includes/admin/form-builder/form-builder.php:125
+msgid "No Forms here so far..."
+msgstr "Non ci sono Form qui vicino..."
+
+# @ buddyforms
+#: includes/admin/form-builder/form-builder.php:125
+msgid "Create A New Form"
+msgstr "Creare un Nuovo Form"
+
+# @ buddyforms
+#: includes/admin/form-builder/form-builder.php:151
+msgid "Save Form Settings"
+msgstr "Salvare Impostazioni Form"
+
+# @ buddyforms
+#: includes/admin/form-builder/form-builder.php:157
+#: includes/templates/buddyforms/the-loop.php:67
+msgid "Delete"
+msgstr "Eliminare"
+
+#: includes/admin/form-builder/form-builder.php:175
+msgid "Mail Notification Settings"
+msgstr ""
+
+# @ buddyforms
+#: includes/admin/form-builder/form-builder.php:186
+msgid "Form Elements"
+msgstr "Elementi Form"
+
+# @ buddyforms
+#: includes/admin/form-builder/form-builder.php:190
+msgid "Classic Fields"
+msgstr "Campi Classici"
+
+# @ buddyforms
+#: includes/admin/form-builder/form-builder.php:191
+msgid "Text"
+msgstr ""
+
+# @ buddyforms
+#: includes/admin/form-builder/form-builder.php:192
+msgid "Textarea"
+msgstr ""
+
+# @ buddyforms
+#: includes/admin/form-builder/form-builder.php:193
+msgid "Link"
+msgstr ""
+
+# @ buddyforms
+#: includes/admin/form-builder/form-builder.php:194
+msgid "Mail"
+msgstr ""
+
+# @ buddyforms
+#: includes/admin/form-builder/form-builder.php:195
+msgid "Dropdown"
+msgstr ""
+
+# @ buddyforms
+#: includes/admin/form-builder/form-builder.php:196
+msgid "Radiobutton"
+msgstr ""
+
+# @ buddyforms
+#: includes/admin/form-builder/form-builder.php:197
+msgid "Checkbox"
+msgstr ""
+
+# @ buddyforms
+#: includes/admin/form-builder/form-builder.php:199
+#: includes/admin/mail-notification.php:209 includes/form-elements.php:86
+msgid "Content"
+msgstr "Contenuto"
+
+# @ buddyforms
+#: includes/admin/form-builder/form-builder.php:202
+#: includes/admin/mail-notification.php:50
+msgid "Post Status"
+msgstr "Stato Articolo"
+
+# @ buddyforms
+#: includes/admin/form-builder/form-builder.php:203
+msgid "Featured Image"
+msgstr "Immagine In Evidenza"
+
+# @ buddyforms
+#: includes/admin/form-builder/form-builder.php:206
+msgid "File"
+msgstr ""
+
+# @ buddyforms
+#: includes/admin/form-builder/form-builder.php:207
+msgid "Hidden"
+msgstr ""
+
+# @ buddyforms
+#: includes/admin/form-builder/form-builder.php:208
+msgid "Number"
+msgstr ""
+
+# @ buddyforms
+#: includes/admin/form-builder/form-builder.php:209
+msgid "HTML"
+msgstr ""
+
+# @ buddyforms
+#: includes/admin/form-builder/form-builder.php:210
+msgid "Date"
+msgstr ""
+
+# @ buddyforms
+#: includes/admin/form-builder/form-builder.php:231
+msgid "Form Settings for"
+msgstr "Impostazioni Form per"
+
+# @ default
+#: includes/admin/form-builder/form-builder.php:234
+msgid ""
+"This form is broken please check your required settings under Form Control "
+"and save the form"
+msgstr ""
+
+# @ buddyforms
+#: includes/admin/form-builder/form-builder.php:236
+msgid "Save new order"
+msgstr "Salvare Nuovo Ordine"
+
+# @ buddyforms
+#: includes/admin/form-builder/form-builder.php:237
+msgid "Load new element"
+msgstr "Caricare Nuovo Elemento"
+
+# @ buddyforms
+#: includes/admin/form-builder/form-builder.php:250
+msgid "Form Control"
+msgstr ""
+
+#: includes/admin/form-builder/form-builder.php:254
+msgid "Singular Name"
+msgstr ""
+
+# @ buddyforms
+#: includes/admin/form-builder/form-builder.php:268 includes/revisions.php:33
+msgid "Revision"
+msgstr "Revisione"
+
+#: includes/admin/form-builder/form-builder.php:268
+msgid "Enable frontend revision control."
+msgstr ""
+
+# @ buddyforms
+#: includes/admin/form-builder/form-builder.php:274
+msgid "Add to Admin Bar"
+msgstr "Aggiungere a Admin Bar"
+
+# @ buddyforms
+#: includes/admin/form-builder/form-builder.php:280
+msgid "Overwrite Frontend 'Edit Post' Link"
+msgstr ""
+
+# @ buddyforms
+#: includes/admin/form-builder/form-builder.php:280
+msgid "The link to the backend will be changed"
+msgstr "Il Link al Backend sarà cambiato"
+
+# @ buddyforms
+#: includes/admin/form-builder/form-builder.php:280
+msgid "to use the frontend editing."
+msgstr "per usare la Modifca dal Frontend."
+
+# @ buddyforms
+#: includes/admin/form-builder/form-builder.php:280
+msgid "All Edit Links"
+msgstr ""
+
+# @ buddyforms
+#: includes/admin/form-builder/form-builder.php:280
+msgid "Only in My Posts List"
+msgstr ""
+
+#: includes/admin/form-builder/form-builder.php:292
+msgid "Status"
+msgstr ""
+
+#: includes/admin/form-builder/form-builder.php:298
+msgid "Comment Status"
+msgstr ""
+
+# @ buddyforms
+#: includes/admin/form-builder/form-builder.php:320
+msgid "Attach Page to this Form"
+msgstr "Allegare Pagina a questo Form"
+
+# @ buddyforms
+#: includes/admin/form-builder/form-builder.php:323
+msgid "Create New"
+msgstr ""
+
+# @ default
+#: includes/admin/form-builder/form-builder.php:325
+msgid "Needs to be a parent page"
+msgstr ""
+
+# @ buddyforms
+#: includes/admin/form-builder/form-builder.php:339
+msgid ""
+"Add additional form elements from the right box \"Form Elements\". Change "
+"the order via drag and drop."
+msgstr ""
+"Aggiungere un ulteriore Elementi Form dal Box nella Sidebar destra chiamato "
+"\"Elementi Form\". Cambiare l'ordine via Drag and Drop."
+
+#: includes/admin/license-registration.php:35
+msgid "License"
+msgstr ""
+
+# @ buddyforms
+#: includes/admin/license-registration.php:41
+msgid "Activate License"
+msgstr "Attivazione Licenza"
+
+# @ buddyforms
+#: includes/admin/license-registration.php:41
+msgid "License Deactivation"
+msgstr "Disattivazione Licenza"
+
+#: includes/admin/license-registration.php:47
+msgid "BuddyForms License Management"
+msgstr ""
+
+# @ buddyforms
+#: includes/admin/license-registration.php:63
+#: includes/admin/license-registration.php:68
+msgid "Save Changes"
+msgstr "Salvare"
+
+#: includes/admin/license-registration.php:79
+msgid "License Information"
+msgstr ""
+
+#: includes/admin/license-registration.php:80
+msgid "API License Key"
+msgstr ""
+
+#: includes/admin/license-registration.php:81
+msgid "License email"
+msgstr ""
+
+#: includes/admin/license-registration.php:85
+msgid "Plugin License Deactivation"
+msgstr ""
+
+#: includes/admin/license-registration.php:86
+msgid "Deactivate Plugin License"
+msgstr ""
+
+#: includes/admin/license-registration.php:303
+msgid "Deactivates plugin license so it can be activated on another blog."
+msgstr ""
+
+# @ buddyforms
+#: includes/admin/mail-notification.php:41
+msgid " Mail Notification Settings for \""
+msgstr " Impostazioni Notifica Email per \""
+
+#: includes/admin/mail-notification.php:42
+msgid ""
+"Every form can have different mail notification depends on the post status "
+"change. You can create a mail notification for each individual post status. "
+"Use the select box and choose the post status you want to create mail "
+"notifications for."
+msgstr ""
+
+# @ buddyforms
+#: includes/admin/mail-notification.php:45
+msgid "Create new Mail Notification"
+msgstr "Creare Nuova Notifica Email"
+
+#: includes/admin/mail-notification.php:45
+msgid "Create Trigger"
+msgstr ""
+
+# @ buddyforms
+#: includes/admin/mail-notification.php:53
+msgid "(post or page is visible in the frontend)"
+msgstr "(Articolo o Pagina visibile in Frontend)"
+
+# @ buddyforms
+#: includes/admin/mail-notification.php:54
+msgid "(post or page is in review process)"
+msgstr "(Articolo o Pagina sono nel processo di Revisione)"
+
+# @ buddyforms
+#: includes/admin/mail-notification.php:55
+msgid "(post or page is not visible in the frontend for public)"
+msgstr "(Articolo o Pagina non visibili in Frontend al Pubblico)"
+
+# @ buddyforms
+#: includes/admin/mail-notification.php:56
+msgid "(post or page is scheduled to publish in the future)"
+msgstr "(Articolo o Pagina programmata la futura Pubblicazione)"
+
+# @ buddyforms
+#: includes/admin/mail-notification.php:57
+msgid "(not visible to users who are not logged in)"
+msgstr "(non visibile agli Utenti quando non sono collegati con l'Account)"
+
+# @ buddyforms
+#: includes/admin/mail-notification.php:58
+msgid "(post is in trash)"
+msgstr "(l'Articolo è nel cestino)"
+
+#: includes/admin/mail-notification.php:74
+#: includes/admin/manage-form-roles-and-capabilities.php:136
+msgid "Jump into the Form Builder"
+msgstr ""
+
+#: includes/admin/mail-notification.php:124
+#: includes/admin/manage-form-roles-and-capabilities.php:153
+msgid "No Mail Notification found"
+msgstr ""
+
+#: includes/admin/mail-notification.php:129
+msgid "no form selected"
+msgstr ""
+
+# @ buddyforms
+#: includes/admin/mail-notification.php:191
+msgid "Email"
+msgstr "Email"
+
+# @ buddyforms
+#: includes/admin/mail-notification.php:194
+msgid "Sent mail to"
+msgstr "Spedire Email a"
+
+# @ buddyforms
+#: includes/admin/mail-notification.php:196
+msgid "Add mail to addresses separated with ','"
+msgstr "Aggiungere un Indirizzo Email separato con ','"
+
+# @ buddyforms
+#: includes/admin/mail-notification.php:198
+msgid "Subject"
+msgstr "Soggetto"
+
+#: includes/admin/manage-form-roles-and-capabilities.php:43
+msgid "Capabilities updated."
+msgstr ""
+
+# @ buddyforms
+#: includes/admin/manage-form-roles-and-capabilities.php:67
+msgid " Roles and Capabilities Settings for \""
+msgstr " Impostazioni Ruoli e Capabilità per \""
+
+#: includes/admin/manage-form-roles-and-capabilities.php:68
+msgid ""
+"In WordPress we have user roles and capabilities to manage the user rights. "
+"You can decide how to create, edit and delete posts by checking the needed "
+"capabilities for the different user roles."
+msgstr ""
+
+#: includes/admin/manage-form-roles-and-capabilities.php:69
+msgid ""
+"If you want to create new user roles and manage all available capabilities I "
+"recommend you to install the Members plugin."
+msgstr ""
+
+#: includes/admin/manage-form-roles-and-capabilities.php:70
+msgid ""
+"Here you can manage all BuddyForms capabilities for all available user roles "
+"of your wp install."
+msgstr ""
+
+#: includes/admin/manage-form-roles-and-capabilities.php:71
+msgid ""
+"Check/Uncheck capabilities to allow/disallow users to create, edit and/or "
+"delete posts of this form"
+msgstr ""
+
+#: includes/admin/manage-form-roles-and-capabilities.php:117
+msgid "Save Roles and Capabilities"
+msgstr ""
+
+#: includes/admin/manage-form-roles-and-capabilities.php:123
+msgid "Save"
+msgstr ""
+
+#: includes/admin/meta-box.php:22
+msgid "Attach a BuddyForm"
+msgstr ""
+
+# @ buddyforms
+#: includes/admin/meta-box.php:50
+msgid "Select the form"
+msgstr "Selezionare il Form"
+
+# @ buddyforms
+#: includes/form-control.php:27
+msgid "You are not allowed to delete this entry! What are you doing here?"
+msgstr ""
+"Il tuo Account non può Eliminare questa Entry! Che cosa stai facendo qui?"
+
+# @ buddyforms
+#: includes/form-control.php:176
+msgid "There has been an error uploading the image."
+msgstr "C'è stato un Errore nel Caricamento dell'Immagine."
+
+# @ buddyforms
+#: includes/form-elements.php:54
+msgid "Title:"
+msgstr "Titolo:"
+
+# @ buddyforms
+#: includes/form-elements.php:195
+msgid "Featured Image:"
+msgstr "Immagine In Evidenza:"
+
+# @ buddyforms
+#: includes/form-elements.php:285
+msgid "Create a new "
+msgstr "Creare uno nuovo"
+
+# @ buddyforms
+#: includes/form.php:65 includes/form.php:90
+msgid "You are not allowed to edit this post. What are you doing here?"
+msgstr ""
+"Il tuo Account non può Modificare questo Articolo. Che cosa stai facendo qui?"
+
+# @ buddyforms
+#: includes/form.php:169 includes/form.php:172
+msgid "The "
+msgstr "Il"
+
+# @ buddyforms
+#: includes/form.php:169
+msgid " has been successfully updated"
+msgstr " è stato aggiornato con successo"
+
+# @ buddyforms
+#: includes/form.php:172
+msgid " has been successfully created"
+msgstr " è stato creato con successo"
+
+# @ buddyforms
+#: includes/form.php:178
+msgid "Error! There was a problem submitting the post ;-("
+msgstr "Errore! C'è stato un Problema nell'Inserire l'Articolo ;-("
+
+#: includes/form.php:194
+msgid "You need to be logged in to use this Form"
+msgstr ""
+
+# @ buddyforms
+#: includes/form.php:208
+msgid "You do not have the required user role to use this form"
+msgstr ""
+
+# @ buddyforms
+#: includes/form.php:240
+msgid "Submit"
+msgstr "Inviare"
+
+#: includes/functions.php:10
+msgid "Published"
+msgstr ""
+
+#: includes/functions.php:11
+msgid "Pending Review"
+msgstr ""
+
+#: includes/functions.php:12
+msgid "Draft"
+msgstr ""
+
+#: includes/functions.php:13
+msgid "Scheduled"
+msgstr ""
+
+#: includes/functions.php:14
+msgid "Privately Published"
+msgstr ""
+
+#: includes/functions.php:15
+msgid "Trash"
+msgstr ""
+
+#: includes/functions.php:156
+msgid "Edit This"
+msgstr ""
+
+# @ buddyforms
+#: includes/functions.php:341
+msgid "View my "
+msgstr "Vedere il Mio"
+
+# @ buddyforms
+#: includes/functions.php:348
+msgid "New "
+msgstr "Nuovo"
+
+#: includes/functions.php:434
+msgid "Insert Form"
+msgstr ""
+
+#: includes/functions.php:435 includes/functions.php:457
+#: includes/functions.php:477
+msgid "Insert into Post"
+msgstr ""
+
+#: includes/functions.php:455
+msgid "Button Type"
+msgstr ""
+
+#: includes/functions.php:475
+msgid "List Posts"
+msgstr ""
+
+# @ default
+#: includes/revisions.php:42 includes/revisions.php:124
+msgctxt "revision date format"
+msgid "j F, Y @ G:i:s"
+msgstr ""
+
+# @ default
+#: includes/revisions.php:51
+#, php-format
+msgid "Previously restored by %1$s %2$s, %3$s ago (%4$s)"
+msgstr "Previsionalmente ripristinato da %1$s %2$s, %3$s fa (%4$s)"
+
+# @ default
+#: includes/revisions.php:134
+#, php-format
+msgctxt "post revision title"
+msgid "%1$s %2$s, %3$s ago (%4$s)"
+msgstr ""
+
+# @ default
+#: includes/revisions.php:141
+#, php-format
+msgid "%1$s [Autosave]"
+msgstr ""
+
+# @ default
+#: includes/revisions.php:142
+#, php-format
+msgid "%1$s [Current Revision]"
+msgstr ""
+
+#: includes/shortcodes.php:196
+msgid "View"
+msgstr ""
+
+# @ buddyforms
+#: includes/templates/buddyforms/the-loop.php:42
+msgid "Permanent Link to"
+msgstr "Link Permanente a "
+
+# @ buddyforms
+#: includes/templates/buddyforms/the-loop.php:49
+msgid "Created"
+msgstr "Creato"
+
+# @ buddyforms
+#: includes/templates/buddyforms/the-loop.php:61
+msgid "Edit"
+msgstr "Modificare"
+
+# @ buddyforms
+#: includes/templates/buddyforms/the-loop.php:83
+msgid " Previous Entries"
+msgstr " Precendente"
+
+# @ buddyforms
+#: includes/templates/buddyforms/the-loop.php:84
+msgid "Next Entries "
+msgstr "Prossimo"
+
+# @ buddyforms
+#: includes/templates/buddyforms/the-loop.php:94
+msgid "There were no posts found."
+msgstr "Nessun Articolo trovato."
+
+# @ buddyforms
+#~ msgid "Enable frontend revison control."
+#~ msgstr "Permetter il Controllo Revisione dal Frontend."
+
+# @ buddyforms
+#~ msgid ""
+#~ "<br>Or you can create a new Page.<br><i>Enter the title of the new page "
+#~ "here: </i>"
+#~ msgstr ""
+#~ "<br>O puoi creare una Nuova Pagina.<br><i>Entrare il Titolo della Nuova "
+#~ "Pagina qui: </i>"
+
+# @ buddyforms
+#~ msgid "<b>Name</b>"
+#~ msgstr "<b>Nome</b>"
+
+# @ buddyforms
+#~ msgid "<b>Singular Name</b>"
+#~ msgstr "<b>Nome al Singolare</b>"
+
+# @ buddyforms
+#~ msgid "<b>Status</b>"
+#~ msgstr "<b>Stato</b>"
+
+# @ buddyforms
+#~ msgid "<b>Comment Status</b>"
+#~ msgstr "<b>Commento Stati</b>"
+
+# @ buddyforms
+#~ msgid "<b>Post Type</b>"
+#~ msgstr "<b>Tipo Articolo</b>"
+
+# @ buddyforms
+#~ msgid "License Activation"
+#~ msgstr "Attivazione Licenza"
+
+# @ buddyforms
+#~ msgid "BuddyForms License Activation"
+#~ msgstr "Attivazione Licenza BuddyForms"
+
+# @ buddyforms
+#~ msgid "Deactivates plugin license so it can be used on another blog."
+#~ msgstr "Disattivare la Licenza del Plugin per usarlo in un altro Blog."
+
+# @ buddyforms
+#~ msgid "Capabilities updated"
+#~ msgstr "Capabilità Aggiornate"
+
+# @ buddyforms
+#~ msgid "Attache a BuddyForm"
+#~ msgstr "Allegato a BuddyForm"
+
+# @ buddyforms
+#~ msgid "Select the form to use"
+#~ msgstr "Selezionare il Form da usare"
+
+# @ buddyforms
+#~ msgid "Select the post type"
+#~ msgstr "Selezionare il Tipo d'Articolo"
+
+# @ buddyforms
+#~ msgid "Add Form Now"
+#~ msgstr "Aggiungere Form"

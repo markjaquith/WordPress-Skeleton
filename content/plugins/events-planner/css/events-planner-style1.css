@@ -1,0 +1,392 @@
+/* 
+
+    Stylesheet for event pages
+
+*/
+
+#event_list_wrapper{
+
+    border: 0px solid #e8e8e8;
+    display: block;
+    padding:5px;
+    width: auto;
+    
+}
+.event_wrapper{
+
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    
+
+}
+.event_wrapper .event_thumbnail{
+    float: left;
+    width: 160px;
+    padding: 0;
+    margin: 5px;
+
+}
+.event_wrapper .event_thumbnail img{
+    -moz-box-shadow: 5px 5px 5px #ccc;
+    -webkit-box-shadow: 5px 5px 5px #ccc;
+    box-shadow: 5px 5px 5px #ccc;
+}
+.event_wrapper .col_left{
+    width: 65%;
+    float: left;
+
+}
+
+.event_wrapper .col_right{
+    width: 30%;
+    float: right;
+    background-color:  #ecebeb;
+}
+
+.event_wrapper .event_title a{
+    font-size: 22px;
+    text-decoration: none;
+    display: block;
+}
+
+.event_wrapper .event_description{
+    margin: 3px 10px;
+    font-size: 12px;
+
+
+}
+
+.event_wrapper .event_description p{
+    margin: 0
+}
+
+.event_wrapper .event_dates,
+.event_wrapper .event_times,
+.event_wrapper .event_prices{
+
+    float: left;
+    margin: 5px;
+}
+
+.event_wrapper .event_location, .event_wrapper .event_organization{
+
+    margin: 10px 20px;
+}
+
+.event_wrapper .event_location .heading, .event_wrapper .event_organization .heading{
+
+    display: block;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: -5px;
+}
+
+
+.event_wrapper .event_dates span,
+.event_wrapper .event_times span,
+.event_wrapper .event_prices span{
+
+    margin: 3px;
+    font-size: 11px;
+}
+
+.event_wrapper table{
+    border: 1px solid #ccc;
+}
+.event_wrapper table th,
+.event_wrapper table td {
+    padding: 5px;
+    text-transform: none;
+}
+
+
+
+.event_wrapper .register_button_wrapper {
+    clear: both;
+    bottom:10px;
+    right:10px;
+}
+.event_wrapper .register_button_wrapper a
+{
+    float: right;
+    margin: 10px;
+}
+#event_list_wrapper table {
+    width:auto;
+    margin: 0;
+    font-size: 11px;
+    margin: 3px;
+}
+
+.epl_button_wrapper {
+    text-align: right;
+}
+
+.regis_form{
+    margin:0 auto;
+
+}
+
+/*************************
+    cart secton
+**************************/
+.epl_cart_wrapper {
+
+}
+.epl_cart_wrapper .section_header {
+    font-weight: bold;
+}
+
+.epl_cart_wrapper .section {
+
+    padding:10px 10px;
+    width: 96%; border: 1px solid #cbcbcb;
+    background:#fff;
+    margin:0 auto;
+    margin-bottom: 10px;
+    overflow: hidden;
+}
+
+.epl_times_wrapper{
+    padding: 3px;
+
+    margin:5px 0;
+}
+
+.epl_ind_time_wrapper, .epl_ind_price_wrapper {
+    padding: 3px;
+
+    margin:0 0 10px 20px;
+}
+
+
+.epl_cart_section {
+    padding:5px;
+    border: 0px solid #ddd;
+    margin-bottom: 10px;
+
+
+}
+.epl_cart_wrapper .event_name {
+
+    font-size: 25px;
+    font-weight: bold;
+
+}
+.epl_totals_table, .epl_avail_spaces_table {
+    float: left;
+    width: 200px;
+    border: none !important;
+    margin: 0;
+
+}
+.epl_prices_table {
+    border: none;
+}
+.epl_prices_table th, .epl_prices_table td, .epl_avail_spaces_table td{
+    border-bottom: 1px solid #ccc;
+    padding: 3px 25px 3px 5px;
+    text-align: left;
+}
+
+.epl_prices_table th, .epl_avail_spaces_table th{
+    background-color: #ccc;
+    text-shadow: 0px 1px 0px #fff;
+}
+
+.epl_prices_table tr:last-child td{
+    border-bottom:none;
+}
+
+
+.epl_total_price {
+    font-weight: bold;
+}
+
+
+
+#epl_totals_wrapper table{
+    border: 1px solid #ccc;
+
+}
+
+#epl_totals_wrapper table td{
+    padding:4px 10px;
+}
+.epl_grand_total td {
+    font-size: 22px;
+}
+
+#epl_payment_choices_wrapper .individual_pay_choice{
+    background-color: #ccc;
+    margin-bottom: 5px;
+    display: block;
+    padding:10px;
+    width: 100%;
+
+}
+
+/******************
+end cart section
+*******************/
+
+
+/* ----------- stylized -----------
+    http://woork.blogspot.com/2008/06/clean-and-pure-css-form-design.html
+*/
+.epl_regis_field_wrapper{
+    border:solid 1px #ccc;
+
+    margin-bottom: 15px;
+}
+
+
+
+.epl_regis_field_wrapper .row_wrapper{
+    margin: 0;
+    border-bottom: 1px solid #ccc;
+    padding: 3px 0;
+}
+.epl_regis_field_wrapper .row_wrapper:last-child{
+    border-bottom: 0;
+}
+.epl_regis_field_wrapper .header{
+     background-color: #ccc;
+    text-shadow: 0px 1px 0px #fff;
+}
+.epl_regis_field_wrapper h1, .epl_regis_field_wrapper h2 {
+
+    font-size:14px;
+    font-weight:bold;
+    margin: 2px;
+    padding: 5px
+}
+.epl_regis_field_wrapper h2 {
+    margin-left: 10px;
+
+}
+
+.epl_regis_field_wrapper .field_wrapper{
+    float: left;
+}
+.epl_regis_field_wrapper p{
+    font-size:11px;
+    color:#666666;
+    border-bottom:solid 1px #ccc;
+    margin: 0;
+
+}
+.epl_regis_field_wrapper label{
+    color: #555;
+    display:block;
+    text-align:right;
+    width:150px;
+    float:left;
+}
+
+.epl_regis_field_wrapper label.error {
+    float: right;
+    color: red;
+    background: transparent url('../images/error.png') no-repeat left center;
+    margin-left: 10px;
+    padding-left: 18px;
+    text-align: left;
+
+}
+
+.epl_regis_field_wrapper small{
+    color:#666666;
+    display:block;
+    font-size:11px;
+    font-weight:normal;
+    margin:2px 0 2px 10px;
+    text-align:left;
+    width:100%;
+
+}
+/* when the values are displayed for overview*/
+.epl_regis_message_warn {
+    padding: 10px;
+    background-color:  tomato;
+    color: white;
+    margin: 10px auto;
+    width: 96%;
+}
+
+.epl_regis_field_wrapper div.value{
+    border-bottom: none;
+    color:  #333;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.epl_regis_field_wrapper input[type="text"], .epl_regis_field_wrapper select, .epl_regis_field_wrapper textarea{
+    float:left;
+    font-size:12px;
+    padding:4px 2px;
+    border:solid 1px #aacfe4;
+    width:200px;
+    margin:2px 0 5px 10px;
+}
+.epl_regis_field_wrapper submit{
+    clear:both;
+    margin-left:150px;
+    width:125px;
+    height:31px;
+    background-color: #666666 ;
+    text-align:center;
+    line-height:31px;
+    color:#FFFFFF;
+    font-size:11px;
+    font-weight:bold;
+}
+
+/* Thank you page */
+
+.epl_thank_you_page .thank_you_message{
+    
+    background-color:  #cbe883;
+    font-size: 18px;
+    padding: 7px;
+    text-shadow: 0px 1px 0px #fff;
+}
+
+.epl_thank_you_page .event_name{
+    font-size: 18px;
+    font-weight: bold;
+    display: block;
+    width: 100%;
+}
+.epl_thank_you_page .address_section{
+    float: left;
+}
+
+.epl_thank_you_page .date_section{
+    float: right;
+    padding: 10px;
+
+    width: auto;
+    margin-right: 10px;
+}
+
+.epl_thank_you_page .time_section{
+    float: right;
+    padding: 10px;
+
+    margin-right: 10px;
+}
+
+/* End Thank you Page */
+
+.epl_rounded_corners_5{
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.epl_rounded_corners_10{
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+}

@@ -1,0 +1,161 @@
+LOG ENTRY: Thu Jan 28th, 2016 @ precisely 4:07 pm UTC
+PHP v5.6.16 :: WordPress v4.3.1 :: s2Member v160120
+Memory 21.98 MB :: Real Memory 22.25 MB :: Peak Memory 22.01 MB :: Real Peak Memory 22.25 MB
+www.eunuigbe/~unuigbee/thearchesproject/?s2member_paypal_return=1&s2member_paypal_return_tra=fnIyOk9aZFJNanZxQjJhNUFoTnpwMElwYWZEU1RGWTNzc3duOmZiODk2Y2E0NjAwMmU3OWUwYmYyNjZmMzFlMjE4ZmZkfJJ1MfWp7u%5fRVWacmfhs%5foTj1OprJ0kR0mdJ7n3%5flgP%2dpFSPtbvEWvpzJJNCk4e3%2dOonqukK6lK2HZ%5fDSC0dMqQCif6Yd1Yd8k7GMbvW9fSbPjeme3y0ROgkC09dQreX0LyQzBucunyOUkYfw9%5f2OhGSIT%2dSoevRs%2d5KQg79vJ1%5fJWCWAZPv%2dLqu6gSr2dhUYxhveDlGzYw413Eu08p1HfKepSyR8XwinsoQUA4Mo9L%2dPLAmub6Ek4L%2d8TlJlzGO9hxVJX0HWN3WqNi764Soa9q5whUvub0872W6hYtZ9dVytBVBU2AX0sS1kjxLspnW2idaNHr5UDndVaF4xgVdmHlPoHnIVJ2LpIQU0W%5fMfEbJZRF%2dI1cb6AEwFGWukBooRQ
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.111 Safari/537.36
+Array
+(
+    [state] => response
+    [transport_class] => WP_HTTP_curl
+    [args] => Array
+        (
+            [method] => POST
+            [timeout] => 20
+            [redirection] => 5
+            [httpversion] => 1.1
+            [user-agent] => s2Member v160120; http://www.eunuigbe/~unuigbee/thearchesproject
+            [reject_unsafe_urls] => 
+            [blocking] => 1
+            [headers] => Array
+                (
+                    [connection] => close
+                    [Accept-Encoding] => deflate;q=1.0, compress;q=0.5, gzip;q=0.5
+                    [Content-Type] => application/x-www-form-urlencoded; charset=UTF-8
+                    [Content-Length] => 768
+                )
+
+            [cookies] => Array
+                (
+                )
+
+            [body] => txn_type=subscr_signup&subscr_id=I-UT95BFLSCYP5&last_name=buyer&option_selection1=1&option_selection2=192.168.1.3&residence_country=GB&mc_currency=GBP&item_name=Artist+Membership&business=kemitestech-facilitator%40gmail.com&recurring=1&payer_status=verified&payer_email=kemitestech-buyer%40gmail.com&first_name=test&receiver_email=kemitestech-facilitator%40gmail.com&payer_id=EJYATJHWH23YY&option_name1=Referencing+Customer+ID&invoice=56aa3a30569a4%7E192.168.1.3&option_name2=Customer+IP+Address&reattempt=1&item_number=1&subscr_date=08%3A06%3A30+Jan+28%2C+2016+PST&custom=www.eunuigbe&charset=windows-1252&period3=1+Y&mc_amount3=30.00&auth=AC6C9EMjW0XpGyasW7133zLO6L1YPy.ZYyjgbxf3P7TRx0v-.xnI686KH4cXLtf.m6lkkTVlhUIYw8uAusd3y7Q&form_charset=UTF-8&cmd=_notify-validate
+            [compress] => 
+            [decompress] => 1
+            [sslverify] => 1
+            [sslcertificates] => /home/unuigbee/public_html/thearchesproject/wp/wp-includes/certificates/ca-bundle.crt
+            [stream] => 
+            [filename] => 
+            [limit_response_size] => 
+            [s2member] => 160120
+            [_redirection] => 5
+            [ssl] => 1
+            [local] => 
+        )
+
+    [url] => https://www.sandbox.paypal.com/cgi-bin/webscr
+    [response] => Array
+        (
+            [headers] => Array
+                (
+                    [date] => Thu, 28 Jan 2016 16:07:01 GMT
+                    [server] => Apache
+                    [x-frame-options] => SAMEORIGIN
+                    [set-cookie] => Array
+                        (
+                            [0] => c9MWDuvPtT9GIMyPc3jwol1VSlO=yUHnxK_KZtKsS1XRsr2tkp0OidvEnTPkZFtyT_BmtGj61cbFc6QslriNAWMdIHXNyfyrP5jvhfMJeBIEDORPlJ6_Pn5s2Ra6r4TTUEzJ4Mh6RR5NZffn-xRMD5I9Uw1qxNmZdtWvHsY_YFqZt03D5kkhNnWYEQQRGvzrmYYctEmjkGPRNjCZkmIxho-OxTtsZi_VAwsX4hUWzCFw3Gwv9rw3Ampynurvi6FQMjfYs15KylqMYrGzratYTlIjRxUO9BAoqp95NcV01GFow4WGl4Lmc9qYgFkACH0W87ZMqlc8RSs0OqRXH09oGEwv9mZMh5Go5KRn_3JqcU5VCsSIgYerphzusPs_tvg3qXdvbecViX6p-zq3OcKtnOhIAM-0d-45EyzJ7SReVKA7aMK0fay86bCYd8iQEodykq8Qi8mGEo2fuXVowwB0KuS; domain=.paypal.com; path=/; Secure; HttpOnly
+                            [1] => cookie_check=yes; expires=Sun, 25-Jan-2026 16:07:02 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+                            [2] => navcmd=_notify-validate; domain=.paypal.com; path=/; Secure; HttpOnly
+                            [3] => navlns=0.0; expires=Sat, 27-Jan-2018 16:07:02 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+                            [4] => Apache=10.72.108.11.1453997221908338; path=/; expires=Sat, 20-Jan-46 16:07:01 GMT
+                            [5] => X-PP-SILOVER=name%3DSANDBOX3.WEB.1%26silo_version%3D880%26app%3Dappdispatcher%26TIME%3D2772216406; domain=.paypal.com; path=/; Secure; HttpOnly
+                            [6] => X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+                        )
+
+                    [vary] => Accept-Encoding,User-Agent
+                    [connection] => close
+                    [content-encoding] => gzip
+                    [paypal-debug-id] => ea307db5d9b10
+                    [strict-transport-security] => max-age=14400
+                    [transfer-encoding] => chunked
+                    [content-type] => text/html; charset=UTF-8
+                )
+
+            [body] => INVALID
+            [response] => Array
+                (
+                    [code] => 200
+                    [message] => OK
+                )
+
+            [cookies] => Array
+                (
+                    [0] => WP_Http_Cookie Object
+                        (
+                            [name] => c9MWDuvPtT9GIMyPc3jwol1VSlO
+                            [value] => yUHnxK_KZtKsS1XRsr2tkp0OidvEnTPkZFtyT_BmtGj61cbFc6QslriNAWMdIHXNyfyrP5jvhfMJeBIEDORPlJ6_Pn5s2Ra6r4TTUEzJ4Mh6RR5NZffn-xRMD5I9Uw1qxNmZdtWvHsY_YFqZt03D5kkhNnWYEQQRGvzrmYYctEmjkGPRNjCZkmIxho-OxTtsZi_VAwsX4hUWzCFw3Gwv9rw3Ampynurvi6FQMjfYs15KylqMYrGzratYTlIjRxUO9BAoqp95NcV01GFow4WGl4Lmc9qYgFkACH0W87ZMqlc8RSs0OqRXH09oGEwv9mZMh5Go5KRn_3JqcU5VCsSIgYerphzusPs_tvg3qXdvbecViX6p-zq3OcKtnOhIAM-0d-45EyzJ7SReVKA7aMK0fay86bCYd8iQEodykq8Qi8mGEo2fuXVowwB0KuS
+                            [expires] => 
+                            [path] => /
+                            [domain] => .paypal.com
+                            [secure] => 
+                            [httponly] => 
+                        )
+
+                    [1] => WP_Http_Cookie Object
+                        (
+                            [name] => cookie_check
+                            [value] => yes
+                            [expires] => 1769357222
+                            [path] => /
+                            [domain] => .paypal.com
+                            [secure] => 
+                            [httponly] => 
+                        )
+
+                    [2] => WP_Http_Cookie Object
+                        (
+                            [name] => navcmd
+                            [value] => _notify-validate
+                            [expires] => 
+                            [path] => /
+                            [domain] => .paypal.com
+                            [secure] => 
+                            [httponly] => 
+                        )
+
+                    [3] => WP_Http_Cookie Object
+                        (
+                            [name] => navlns
+                            [value] => 0.0
+                            [expires] => 1517069222
+                            [path] => /
+                            [domain] => .paypal.com
+                            [secure] => 
+                            [httponly] => 
+                        )
+
+                    [4] => WP_Http_Cookie Object
+                        (
+                            [name] => Apache
+                            [value] => 10.72.108.11.1453997221908338
+                            [expires] => 
+                            [path] => /
+                            [domain] => www.sandbox.paypal.com
+                        )
+
+                    [5] => WP_Http_Cookie Object
+                        (
+                            [name] => X-PP-SILOVER
+                            [value] => name=SANDBOX3.WEB.1&silo_version=880&app=appdispatcher&TIME=2772216406
+                            [expires] => 
+                            [path] => /
+                            [domain] => .paypal.com
+                            [secure] => 
+                            [httponly] => 
+                        )
+
+                    [6] => WP_Http_Cookie Object
+                        (
+                            [name] => X-PP-SILOVER
+                            [value] => 
+                            [expires] => 1
+                            [path] => /cgi-bin/
+                            [domain] => www.sandbox.paypal.com
+                        )
+
+                )
+
+            [filename] => 
+        )
+
+)
+

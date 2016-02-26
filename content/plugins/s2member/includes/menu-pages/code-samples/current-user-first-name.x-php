@@ -1,0 +1,7 @@
+<?php echo S2MEMBER_CURRENT_USER_FIRST_NAME; ?>
+This may output something like: John
+(or whatever their first name is)
+
+---- s2member Shortcode Equivalent ----
+
+[s2Get constant="S2MEMBER_CURRENT_USER_FIRST_NAME" /]

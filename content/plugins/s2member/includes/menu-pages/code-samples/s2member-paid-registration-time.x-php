@@ -1,0 +1,18 @@
+* Function: s2member_paid_registration_time ($level, $user_id); // returns a Unix timestamp.
+
+The $level argument is optional. It defaults to the first/initial Paid Registration Time, regardless of Level#.
+Or you could do this: s2member_paid_registration_time("level1"); which will give you the Registration Time at Level #1.
+If a User/Member has never paid for Level #1 (i.e., they signed up at Level#2), the function will return 0.
+
+The argument $user_id defaults to the current user that is logged in.
+
+Here are some examples:
+
+<?php
+$time = s2member_registration_time (); // ... first registration time (free or otherwise).
+$time = s2member_paid_registration_time (); // ... first "paid" registration and/or upgrade time.
+$time = s2member_paid_registration_time ("level1"); // ... first "paid" registration or upgrade time at Level#1.
+$time = s2member_paid_registration_time ("level2"); // ... first "paid" registration or upgrade time at Level#2.
+$time = s2member_paid_registration_time ("level3"); // ... first "paid" registration or upgrade time at Level#3.
+$time = s2member_paid_registration_time ("level4"); // ... first "paid" registration or upgrade time at Level#4.
+?>

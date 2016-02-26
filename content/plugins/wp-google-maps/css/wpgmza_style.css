@@ -1,0 +1,361 @@
+.wpgmza_map {
+    border:0;
+    
+}
+.wpgmza_hide_input { display:none !important; }
+.wpgmza_theme_selection { margin-right:20px; margin-bottom:20px; cursor:pointer; border-radius:20px; }
+
+
+.wpgmza_map img {
+    border: none !important;
+    background-color:transparent !important;
+    padding:0 !important;
+    box-shadow: none !important;
+    
+    
+}
+#wpgmza_map img { box-shadow: none !important; }
+.wpgmza_table img {
+    box-shadow: none !important;
+    
+}
+.gm-style div { margin-top:0 !important; }
+
+#wpgmaps_directions_edit {
+    padding-top:20px;
+}
+.wpgmza_markerbox {
+    /* height:auto; */
+    /* min-height:100px; */
+    margin:0; padding:0;
+    color:#000 !important;
+}
+.wpgmza_markerbox img { margin: 3px !important; }
+
+.wpgmza_markerbox h1,
+.wpgmza_markerbox h2,
+.wpgmza_markerbox h3,
+.wpgmza_markerbox h4,
+.wpgmza_markerbox h5,
+.wpgmza_markerbox h6,
+.wpgmza_markerbox h7,
+.wpgmza_markerbox h8,
+.wpgmza_markerbox strong,
+.wpgmza_markerbox p,
+.wpgmza_markerbox br {
+    margin:2px;
+    padding:1px;
+    color:#000 !important;
+}
+
+
+.wpgmza_markerbox a {
+    color:#1982D1 !important;
+}
+.wpgmaps_mlist_table {
+    width:42px;
+}
+
+.wpgmza_table .wpgmaps_mlist_marker {
+    width:32px;
+    height:32px;
+    vertical-align:top;
+    padding:0 !important;
+}
+
+.wpgmza_table .wpgmaps_mlist_info {
+    vertical-align:top;
+    text-align:left;
+    padding:0 !important;
+    
+}
+.wpgmza_table .wpgmaps_mlist_row {
+    cursor:pointer;
+}
+.wpgmza_table .wpgmaps_mlist_row:hover {
+    background-color: #EEEEEE;
+    
+}
+.wpgmaps_directions_outer_div {
+    padding-top:30px;
+    padding-bottom:5px;
+}
+
+.wpgmaps_directions_outer_div table, wpgmza_marker_list_class {
+    margin-bottom:0px !important;
+}
+
+.wpgmza_map h2 { clear:both; }
+
+.wpgmaps_user_form { clear: both; }
+
+.wpgmza_table { clear:both; }
+
+
+.wpgmaps_mlist_row img {
+	margin-bottom:0 !important;
+}
+
+.wpgmza_table td {
+	vertical-align: top !important;
+        padding-bottom: 15px !important;
+        padding-right: 10px !important;
+        border: 0 !important;
+        
+}
+.wpgmza_table tr { border: 0 !important; }
+.wpgmza_table th {
+	text-align: left !important;
+        padding-bottom: 15px !important;
+        border: 0 !important;
+        min-width:100px;    
+}
+
+
+.dataTables_filter input[type="text"], .dataTables_filter select { display: inline !important; }
+.dataTables_filter label { font-weight:bold; }
+.adp-placemark img { width:24px !important; max-width:none !important; }
+
+.wpgmza_table .sorting { background-image: none !important; }
+/* .wpgmza_table .sorting_asc { background-image: none !important; }
+.wpgmza_table .sorting_desc { background-image: none !important; } */
+
+
+#wpgm_premium {
+    display:block;
+    overflow:auto;
+    margin:10px;
+    margin-left:0;
+    clear:both;
+    width:90%;
+}
+#wpgm_premium h2 {
+    margin-top:0;
+    padding-top:0;
+    font-weight:200;
+    font-size: 20px;
+    padding-bottom:0px;
+    margin-bottom:2px;
+}
+#wpgm_premium p {
+    font-size:16px;
+    line-height:28px;
+    
+}
+.wpgm_premium_row { 
+    margin-top:20px;
+    display:block;
+    clear:both;
+    width:100%;
+    overflow:auto;
+}
+.wpgm_details p {
+    padding-top:0px;
+    margin-top:2px;
+    color: #666 !important;
+
+}
+
+.wpgm_icon {
+    display:block;
+    float:left;
+    width:50px;
+    height:70px;
+    background-image:url(../images/premium.png);
+    background-repeat: no-repeat;
+}
+.wpgm_details {
+    display:block;
+    float:left;
+    width:80%;
+}
+
+.wpgm_notice_message {
+    border-radius: 3px 3px 3px 3px;
+    border-style: solid;
+    border-width: 1px;
+    margin: 5px 0 15px;
+    padding: 0 0.6em;
+    background-color: #FFFFE0;
+    border-color: #E6DB55;
+}
+
+
+/* store locator styling */
+.wpgmza_sl_main_div {
+    width:100%;
+}
+.wpgmza_sl_query_div {
+    height:30px;
+    display:block;
+}
+    .wpgmza_sl_query_innerdiv1 { 
+        float:left;
+        display:block;
+        width:150px;
+        clear:left;
+    }
+    .wpgmza_sl_query_innerdiv2 {
+        display:block;
+        float:left;
+        width:250px;
+    }
+
+.wpgmza_sl_radius_div {
+    display:block; 
+    height:30px;
+    margin-top:10px;
+    clear:both;
+}
+    .wpgmza_sl_radius_innerdiv1 { 
+        float:left;
+        display:block;
+        width:150px;
+    }
+    .wpgmza_sl_radius_innerdiv2 {
+        display:block;
+        float:left;
+        width:250px;
+    }
+    
+.wpgmza_sl_radius_select {
+    
+}
+    .wpgmza_sl_select_option {
+
+    }
+
+.wpgmza_sl_category_div {
+    display:block; 
+    clear:both;
+    height:auto; 
+    overflow:auto; 
+    margin-top:10px; 
+    margin-bottom:10px; 
+    
+}
+    .wpgmza_sl_category_innerdiv1 { 
+        float:left;
+        display:block;
+        width:150px;
+    }
+    .wpgmza_sl_category_innerdiv2 {
+        
+        float:left;
+        
+    }
+
+.wpgmza_sl_search_button {
+
+}
+.wpgmza_marker_approval_msg { font-weight: bold; }
+
+.scrollFix {
+    line-height: 1.35;
+}
+.wpgmza_infowindow_description { white-space: normal; }
+.wpgmza_infowindow_title { white-space: normal; }
+.wpgmza_infowindow_address { white-space: normal; }
+.wpgmza_infowindow_title { font-weight: bold; }
+.gm-style-iw div {overflow:visible !important;}
+#wpgmza_marker_list tr { vertical-align: middle !important; }
+#wpgmza_marker_list td { vertical-align: middle !important; }
+#wpgmza_marker_list td img { vertical-align: middle !important; }
+
+.wpgmza_marker_carousel { clear:both; }
+
+.wpgmza-shadow { 
+-webkit-box-shadow: 3px 3px 10px 0px rgba(107,107,107,1);
+-moz-box-shadow: 3px 3px 10px 0px rgba(107,107,107,1);
+box-shadow: 3px 3px 10px 0px rgba(107,107,107,1);
+}
+.wpgmza_innermap_holder { 
+    padding:5px;
+    background-color:white;
+    border 1px solid #ccc;
+    border-radius:5px;
+}
+.wpgmza_small_img { max-width: 14px; max-height: 14px; }
+ul.wpgmza_marker_list_class {
+    list-style: none;
+    margin-left:5px;
+    padding-left:0;
+}
+
+.wpgmza-basic-list-item { float:left; cursor:pointer; }
+.wpgmaps_blist_row { clear:both; display:block; height:auto; overflow:hidden;   }
+.wpgmaps_blist_row:hover { background-color:#EEE;  }
+.wpgmza_div_marker { width:17px; height:17px; }
+.wpgmza_div_address { padding-left:2px;}
+
+
+.wpgmza_row {
+    width:100%;
+    display:block;
+    overflow:auto;
+}
+.wpgmza_row_col {
+    width:90%;
+    float:left;
+    display:block;
+    overflow:auto;
+    margin:0.25%;
+    padding:0.2%;
+    min-height:360px;
+}
+.wpgmza_row_col h2 { 
+    font-weight:900;
+}
+.wpgmza_row_col ul li {
+    margin: 0.3em 2.5em;
+}
+
+.wpgmza_row_col ul {
+    list-style-type:disc;
+}
+
+
+@media only screen and (min-width:480px) {
+   .wpgmza_row_col {
+        width:31%;
+        float:left;
+        display:block;
+        overflow:auto;
+        margin:0.25%;
+        padding:0.2%;
+        min-height:360px;
+    } 
+    
+    
+    
+}
+.wpgmza_theme_selection_activate {
+    -webkit-box-shadow: 3px 2px 19px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 2px 19px 2px rgba(0,0,0,0.75);
+    box-shadow: 3px 2px 19px 2px rgba(0,0,0,0.75);
+    /* padding: 10px; */
+    border-radius: 10px;
+    padding-left:0px;
+    padding-right:0px;
+    
+}
+
+.wpgmza_mlist_selection_activate { 
+    -webkit-box-shadow: 3px 2px 19px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 2px 19px 2px rgba(0,0,0,0.75);
+    box-shadow: 3px 2px 19px 2px rgba(0,0,0,0.75);
+    /* padding: 10px; */
+    border-radius: 10px;
+    padding-left:0px;
+    padding-right:0px;
+
+}
+
+/*The following CSS will fix text from overflowing in the info window on an iPhone*/
+@media only screen and (min-width: 320px) and (max-width:568px) and (-webkit-min-device-pixel-ratio: 2) {
+    .wpgmza_infowindow_description,
+    .wpgmza_infowindow_address,
+    .wpgmza_infowindow_title {
+        width:140px !important;
+    }
+}

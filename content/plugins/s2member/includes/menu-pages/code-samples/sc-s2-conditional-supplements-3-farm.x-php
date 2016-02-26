@@ -1,0 +1,36 @@
+[s2If current_user_cannot(access_s2member_level4) AND current_user_can(access_s2member_level2)]
+
+	This Member CANNOT access Level #4,
+		but, they CAN access Level #2.
+
+	[_s2If current_user_can(access_s2member_level3)]
+
+		Notice that NESTED Conditionals require a preceding underscore (i.e., _s2If, __s2If, ___s2If).
+			You can go up to ten levels deep ( __________s2If ).
+
+					Nested PayPal Form/Button Shortcodes ARE fine too.
+					However, you do NOT need a preceding underscore on Form/Button codes. Or any other Shortcode for that matter.
+					You ONLY need the preceding underscore on _s2If Conditionals that are being nested into each other.
+
+					( Hi [s2Get constant="S2MEMBER_CURRENT_USER_DISPLAY_NAME" /], upgrade now to Level #4! )
+					[s2Member-PayPal-Button level="4" ra="49.95" ... /]
+						~ see, this will work just fine.
+
+	[/_s2If]
+
+[/s2If]
+
+[s2If !current_user_can(access_s2member_level4) AND !current_user_can(access_s2member_level3) AND !current_user_can(access_s2member_level2) AND current_user_can(access_s2member_level1)]
+	Content for Members who can ONLY access Level #1 on this Blog.
+		~ The following 2 examples below, say the same thing.
+[/s2If]
+
+[s2If current_user_cannot(access_s2member_level4) AND current_user_cannot(access_s2member_level3) AND current_user_cannot(access_s2member_level2) AND current_user_can(access_s2member_level1)]
+	Content for Members who can ONLY access Level #1 on this Blog.
+		~ Same thing, only this uses explicit false tests.
+[/s2If]
+
+[s2If current_user_is(s2member_level1)]
+	Content for Members who can ONLY access Level #1 on this Blog.
+		~ Same thing, only this is MUCH simpler, less typing.
+[/s2If]

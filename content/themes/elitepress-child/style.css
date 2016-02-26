@@ -1,0 +1,707 @@
+/*
+  Theme Name: Elitepress Child
+  Theme URI: http://example.com/elitepress-child
+  Co-authors: Alexis Mclaren and Emmanuel Unuigbe
+  Author URI: http://example.com/
+  Description:  Child theme based on Elitepress.
+  Template: elitepress
+  Version: 1.0
+  Tags: your tags (optional)
+  Text Domain: elitepress-child
+ */
+/*Header logo Css---------------------------------------------------------------------------------------------------*/
+body {
+    color: #333;
+    font-family: 'Raleway', sans-serif !important;
+    font-size: 16px;
+    line-height: 1.42857;
+	  font-weight: 400;
+}
+
+.paypal-donation{
+	text-align: center;
+}
+
+h1, h2, h3, h4, h5 {
+  color: #333;
+  font-family: 'Raleway', sans-serif !important;
+}
+
+.my-btn {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+
+.my-btn-default {
+  color: #333;
+  background-color: #fff;
+  border-color: #ccc;
+}
+
+.my-btn-lg, .my-btn-group-lg > .my-btn {
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.33;
+    border-radius: 6px;
+}
+
+.btn-apply{
+    color: white;
+    background-color: #123F5A;
+    border-color: #123F5A;
+}
+
+.btn-apply:hover{
+    color: white;
+    background-color: #011b2a;
+    border-color: #123F5A;
+}
+
+.textwidget strong, p {
+    font-weight: 400;
+	color: #333;
+}
+
+ .site-logo {
+  margin: 5px 14px;
+}
+
+.site-logo img{
+	margin-top: 10px;
+	margin-bottom: 10px;
+  float: left;
+}
+
+/*header button Css---------------------------------------------------------------------------------------------------*/
+#header-btn-container {
+	margin-right: 56px;
+	margin-top: 41px;
+	margin-bottom: 15px;
+	float: right;
+	text-align: center;
+}
+
+#header-btn-container a:first-child {
+    margin-right: 18px;
+	min-width: 92px;
+}
+
+#header-btn-container a{
+   border-radius: 4px;
+}
+/*Page wrapper Css---------------------------------------------------------------------------------------------------*/
+#wrapper{
+	margin: 0px 0px;
+	background-color: #ffffff;
+    left: 0;
+    position: relative;
+    transition: all 300ms cubic-bezier(0.25, 0.46, 0.45, 0.94) 0s;
+	box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.5);
+}
+/*Events Stylings*/
+.event_wrapper .register_button_wrapper a {
+    margin: 5px !important;
+}
+
+.event_wrapper .event_location .heading,
+.event_wrapper .event_organization .heading {
+	margin-left: 0px !important;
+	font-size: inherit;
+}
+
+.event_wrapper .event_location {
+	margin: 0px 5px!important;
+}
+
+.event_wrapper .event_organization {
+	margin: 5px 5px!important;
+}
+.register_button_wrapper a.btn {
+	border-radius: 1px;
+}
+
+.event_wrapper {
+    padding: 10px 0px !important;
+	border: 0 !important;
+}
+
+.entry-title {
+		margin-left: 10px;
+}
+
+.entry-title-event {
+		margin-left: 15px;
+}
+
+.img-event {
+	width:100%;
+}
+
+.title-section {
+  margin-bottom: 45px;
+}
+
+.content-section {
+  margin-bottom: 40px;
+}
+
+.page-description a {
+    color: #333;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.page-description {
+    display: block;
+    overflow: hidden;
+    margin: 0 0 16px;
+}
+
+/*about us section Css---------------------------------------------------------------------------------------------------*/
+.about-us-section {
+	margin: 40px 0 0px;
+}
+
+.section-info {
+    margin: 0 0 60px;
+	clear: both;
+}
+
+.section-title {
+	position: relative;
+  border: 0px;
+	font-family: 'Raleway', sans-serif !important;
+	font-weight:600;
+  float: left;
+  margin: 0 80px 5px 0;
+  padding: 6px 12px 6px 12px;
+  text-transform: capitalize;
+	letter-spacing: 1px;
+  z-index: 100;
+	display: inline-block;
+
+}
+
+/*about us Section Css---------------------------------------------------------------------------------------------------*/
+.about-us-area {
+	/* margin: 0 0 70px;  Original After Css*/
+	margin: 0 0 50px;
+}
+
+.footer-widget-column > ul > li > a:before{
+	font-family: FontAwesome;
+  margin-right: 9px;
+  content: none;
+	font-size: 6px;
+	color:hsl(5, 87%, 65%);
+}
+
+.footer-widget-column > ul > li {
+    border-bottom: 0px;
+	margin: 3px ;
+}
+
+.footer-widget-column > .menu-quick-links-container > ul > li > a {
+	font-size: 15px;
+
+}
+
+.footer-widget-column > .menu-quick-links-container > ul > li > a:before {
+	content: '\f0da';
+	color: black;
+	font-family: FontAwesome;
+	margin-right: 6px;
+	font-size: 15px;
+}
+
+.footer-widget-title {
+    margin: 0 0 20px ;
+}
+
+.footer-widget-column {
+    margin-bottom: 18px ;
+}
+
+.footer-widget-section {
+	padding: 15px;
+	position: relative;
+}
+.footer-widget-section:before {
+	background-image: url(../../uploads/2016/01/doorsmall.jpg);
+	width: 100%;
+    height: 100%;
+    opacity : 0.2;
+	content: ' ';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.footer-copyright-section {
+    background-color: #0A0F47;
+}
+
+/*Services*/
+div.desc{
+    background-color: #333;
+    bottom: 0;
+    left: 0;
+    opacity: 0.7;
+    position: absolute;
+    width: 100%;
+}
+.fix{
+	position: relative;
+    width: 100%;
+    padding: 0px;
+
+}
+.overlay-caption{
+	color: white;
+	padding: 3px;
+	text-align: center;
+}
+.thumbnail-override, .caption{
+	border: 0px;
+	box-shadow: none;
+	margin-top: 10px;
+	padding: 0px;
+}
+
+.title-overlay {
+	font-size: 18px;
+	position: absoloute;
+	background-color: blue;
+	width: 100%;
+	bottom: 0;
+}
+p {
+    text-align:justify;
+}
+
+
+
+/*
+-----------------------------------------------------------
+            Bootstrap Media Query Overrides
+-----------------------------------------------------------
+
+*/
+/*==========  Small devices  ==========*/
+
+@media (min-width : 320px) and (max-width : 640px){
+#header-btn-container {
+	float: none;
+	display: block;
+	margin: 25px auto;
+}
+
+#header-btn-container a:first-child {
+    margin-right: 0px;
+	margin-left: 10px;
+}
+#header-btn-container a {
+    margin-top: 10px;
+}
+}
+
+#about-text a:hover{
+	text-decoration: underline;
+}
+
+.borderless {
+	border: 0px !important;
+}
+
+.sidebar-widget h4 > a {
+    color: #333;
+}
+
+.sidebar-widget {
+    margin-bottom: 5px;
+    margin-top: 0;
+    overflow: hidden;
+    padding: 0px;
+}
+
+.sidebar-widget h4 {
+    color: #333;
+}
+
+#buddypress div.item-list-tabs ul li.current a, #buddypress div.item-list-tabs ul li.selected a {
+    background-color: #123F5A;
+    color: white;
+    opacity: .8;
+    font-weight: 700;
+}
+
+#buddypress div.item-list-tabs ul li a span {
+    background: white;
+    border: 1px solid #333;
+    color: #333;
+}
+
+#buddypress .generic-button a {
+  padding: 12px 11px;
+  color: white;
+  background: #123f5a;
+  border: 0px;
+}
+
+ #buddypress div.generic-button a:hover{
+  background-color: #011B2A;
+  color: white;
+  border: 0px;
+}
+
+a {
+    color: #123F5A;
+    text-decoration: none;
+}
+
+td {
+    background: white;
+    text-shadow: none;
+}
+table.profile-fields tr td.label {
+	border-right: 0px solid white !important;
+	font-size: 100%;
+}
+
+tr {
+    color: #333;
+    text-shadow: 0px 1px 1px rgba(255,255,255,0.1);
+}
+
+table .label{
+  color: #333;
+  border-right: white;
+}
+/*
+WooCommerce Styles
+*/
+.breadcrumb-hr{
+  border-top: 1px solid #0A0F47;
+  margin-bottom: 40px;
+}
+
+.woocommerce-breadcrumb:first-child{
+  color: #123F5A;
+}
+
+.woocommerce-breadcrumb {
+  margin: 10px 0 10px 5px !important;
+}
+
+.sidebar-widget > ul > li > a:before {
+  content: '\f0da';
+	color: black;
+	font-family: FontAwesome;
+	margin-right: 6px;
+	font-size: 15px;
+}
+
+.woocommerce ul.product_list_widget li img {
+    margin-left: 4px;
+    width: 25%;
+}
+
+.sidebar-widget ul {
+    padding: 0px;
+}
+
+input[type="search"] {
+    webkit-transition: background-color 100ms ease-in-out, box-shadow 100ms ease-in-out;
+    -moz-transition: background-color 100ms ease-in-out, box-shadow 100ms ease-in-out;
+    transition: background-color 100ms ease-in-out, box-shadow 100ms ease-in-out;
+    border: solid 2px #e2e2e2;
+    color: #333;
+    background: white;
+    box-shadow: none;
+    width: 100%;
+    padding: .718em .718em .718em 2.718em;
+}
+
+input[type="search"]:focus, input[type="search"]:active{
+  border-color: lightgray;
+  background-color: white;
+  box-shadow: 0 0 0 5px rgba(0, 0, 0, 0.03) inset;
+  outline: none;
+}
+
+.screen-reader-text {/* Hides the screen reader text by clipping the text behind the search box */
+    clip: rect(1px 1px 1px 1px);
+    clip: rect(1px, 1px, 1px, 1px);
+    position: absolute !important;
+}
+
+.woocommerce-product-search:before {
+    content: "\f002";
+    font-family: "FontAwesome";
+    color: black;
+    position: absolute;
+    top: .990em;
+    left: 2em;
+    line-height: 1;
+}
+
+.shop h1 {
+  margin-top: 0px;
+}
+
+.sidebar-widget, .rssSummary {
+  font-family: 'Raleway', sans-serif !important;
+  font-weight: 700;
+}
+
+.sidebar-widget > ul > li {
+  font-family: 'Raleway', sans-serif !important;
+}
+.sidebar-widget-title h3 {
+  color: #333;
+  font-family: 'Raleway', sans-serif !important;
+  font-weight: 500;
+}
+
+.hc_sidebar .sidebar-widget {
+  margin-bottom: 20px;
+}
+
+
+ul.products li.product {/* Centers product title, price and vendor name */
+    list-style: none;
+    margin-left: 0;
+    margin-bottom: 4.236em;
+    text-align: center;
+    position: relative;
+}
+
+ul.products li.product h3 {
+  font-size: 22px !important;
+}
+
+.woocommerce ul.products li.product .price{
+  color: #123F5A;
+}
+
+.woocommerce a.button:hover {
+  background-color: #011B2A;
+  color: white;
+}
+
+.woocommerce a.button{
+  background-color: #123F5A;
+  color: white;
+}
+
+.woocommerce ul.products li.product, .woocommerce-page ul.products li.product{/* Increases size of product images as width increases*/
+  width: 29%;
+}
+
+ul.products li.product .star-rating {/* Makes start ratings centered */
+    margin: 0 auto 1em;
+}
+
+.woocommerce table.shop_table {
+    border-top: 2px solid #0A0F47;
+    border-bottom: 2px solid black;
+    border-left: none;
+    border-right: none;
+    margin: 0 -1px 24px 0;
+    text-align: left;
+    width: 100%;
+    /* border-collapse: separate; */
+    border-radius: 0;
+}
+
+.woocommerce #respond input#submit.alt,
+.woocommerce a.button.alt, .woocommerce button.button.alt,
+.woocommerce input.button.alt, .woocommerce input.button,
+.woocommerce #respond input#submit, .price_slider_amount input.button{/* styles the woocommerce buttons */
+  background-color: #123F5A;
+  color: white;
+}
+
+.woocommerce #respond input#submit.alt:hover,
+.woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover,
+.woocommerce input.button.alt:hover, .woocommerce input.button:hover,
+.woocommerce #respond input#submit:hover, .price_slider_amount input.button:hover{
+  background-color: #011B2A;
+  color: white;
+}
+
+.woocommerce #respond input#submit:hover, .woocommerce a.button:hover,
+.woocommerce button.button:hover, .woocommerce input.button:hover {
+    background-color: #011B2A;
+    color: white;
+}
+
+.woocommerce #respond input#submit, .woocommerce a.button,
+.woocommerce button.button, .woocommerce input.button {
+    background-color: #123F5A;
+    color: white;
+}
+
+
+.woocommerce div.product p.price, .woocommerce div.product span.price {
+    color: #123F5A;
+    font-size: 1.25em;
+}
+
+.price_label {
+  margin-top: 10px;
+  color: #333;
+}
+
+.vendor-section {
+  margin-bottom: 10px;
+}
+
+.vendor-links > a {
+  margin-left: 10px;
+}
+
+.vendor-links > a:first-child {
+  margin-left: 0px;
+}
+
+.seller-link{
+  margin-bottom: 20px;
+}
+
+/*
+WC Vendor Styles
+*/
+.btn-inverse {
+  background-color: #123F5A !important;
+  color: #fff !important;
+}
+/* non-member sidebar styles */
+.sidebar-widget > ul.product_list_widget > li > a:before {
+    content: '';
+    color: black;
+    font-family: none;
+    margin: 0px;
+}
+.sidebar-widget > ul.product_list_widget > li > a,
+.sidebar-widget > ul.product_list_widget > li > span {
+    font-family: 'Raleway', sans-serif !important;
+    color: #123F5A;
+    font-weight: inherit;
+}
+.sidebar-widget > ul.product_list_widget > li > a{
+    font-size: 18px;
+}
+.sidebar-widget > ul > li > a:hover {
+    color: #011B2A;
+}
+.sidebar-widget > ul.product_list_widget > li > a > span{
+  margin-top: 10px;
+}
+
+.sidebar-widget > ul.product_list_widget > li > a > img{
+  margin-right: 10px;
+}
+
+.sidebar-widget > ul.product_list_widget > li > a > span,
+.sidebar-widget > ul.product_list_widget > li > span
+ {
+    font-size: .857em;
+    display: block;
+}
+
+.entry-summary > .entry-title {
+		margin-left: 0px;
+}
+
+.ws-plugin--s2member-custom-reg-fields-4bp-section {
+  display: inline-block;
+}
+
+body.registration form div#ws-plugin--s2member-custom-reg-fields-4bp-section {
+    width: 100% !important;
+}
+
+ws-plugin--s2member-profile-field-4bp form-control {
+  width: 100%;
+}
+
+body.registration form div#ws-plugin--s2member-custom-reg-fields-4bp-section div.ws-plugin--s2member-custom-reg-field-4bp-divider-section-title {
+    border: 0;
+    margin: 0;
+    border-width: 0;
+    padding: 0;
+	  font-size:100%
+}
+
+body.registration form div#ws-plugin--s2member-custom-reg-fields-4bp-container {
+    margin-right: 0 !important;
+}
+#buddypress .standard-form#signup_form input[type=text], #buddypress .standard-form#signup_form textarea {
+  width: 100%;
+}
+
+#buddypress .standard-form div.submit input{
+  margin-right: 0px;
+}
+
+.woocommerce div.product .stock {
+    color: black;
+}
+
+.sidebar-widget ul.children li > a:before {
+    color: black;
+}
+
+.sidebar-widget ul.children li > a:hover {
+    color: #011B2A;
+}
+
+.posted_in {
+  display: block;
+}
+
+#groups-list>li.hidden {
+display: block !important;
+visibility: visible !important;
+}
+
+.page-description .mpp-gallery-title{
+  color: #123F5A;
+}
+
+.mpp-item-actions a:nth-child(n+2){
+  margin-left: 5px;
+}
+
+.mpp-media-status {
+  margin-left: 3px;
+}
+
+.mpp-menu a.mpp-selected-item {
+    color: #123F5A;
+}
+
+#editpost_products a {
+  color: #123F5A;
+}
+
+#product_images_container > label.error {
+  color: red;
+}

@@ -1,0 +1,1722 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WC Vendors\n"
+"POT-Creation-Date: 2015-07-08 10:24+0800\n"
+"PO-Revision-Date: 2015-07-14 11:11+0800\n"
+"Last-Translator: \n"
+"Language-Team: WC Vendors <support@wcvendors.com>\n"
+"Language: zh_TW\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.2\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../class-wc-vendors.php:72 ../classes/admin/class-admin-reports.php:41
+#: ../classes/admin/class-admin-users.php:392
+msgid "WC Vendors"
+msgstr "WC 供應商"
+
+#: ../class-wc-vendors.php:99
+msgid ""
+"<b>WC Vendors is disabled</b>. WC Vendors requires a minimum of WooCommerce "
+"v2.2.0."
+msgstr ""
+"<b>WC 供應商已被停用</b> 。 WC 供應商需要 WooCommerce V2.2.0 以上版本。"
+
+#: ../class-wc-vendors.php:226 ../classes/admin/settings/sf-options.php:161
+msgid "Capabilities"
+msgstr "權限"
+
+#: ../class-wc-vendors.php:250 ../classes/admin/settings/sf-options.php:4
+msgid "General"
+msgstr "一般設定"
+
+#: ../class-wc-vendors.php:285
+msgid "Documentation/KB"
+msgstr "文件 / KB"
+
+#: ../class-wc-vendors.php:286
+msgid "Help Forums"
+msgstr "支援論壇"
+
+#: ../class-wc-vendors.php:287
+msgid "Paid Support"
+msgstr "付費支援"
+
+#: ../class-wc-vendors.php:309
+#, php-format
+msgid ""
+"WC Vendors requires the Vendor shop page value be set <a href=\"%s\">click "
+"here to set it.</a> | <a href=\"%s\">Hide Notice</a>"
+msgstr ""
+"WC 供應商必須完成設定方可使用，請 <a href=“%s”>按此</a> 進行設置。 | <a "
+"href=“%s”>隱藏通知</a>"
+
+#: ../class-wc-vendors.php:317
+#, php-format
+msgid ""
+"You must save your permalinks once you have modified your vendor page. <a "
+"href=\"%s\">click here to save</a>.  | <a href=\"%s\">Hide Notice</a>"
+msgstr ""
+"當你修改了你的供應商版面設定後，必須儲存你的永久鏈接。<a href=“%s”>按此</a> "
+"儲存資料 。 | <a href=“%s”>隱藏通知</a>"
+
+#: ../classes/admin/class-admin-page.php:27
+msgid "Vendors shipped"
+msgstr "供應商已出貨"
+
+#: ../classes/admin/class-admin-page.php:50
+msgid "Vendors Shipped"
+msgstr "供應商已出貨"
+
+#: ../classes/admin/class-admin-page.php:72
+#: ../classes/admin/class-admin-page.php:132
+#: ../classes/admin/class-admin-reports.php:339
+#: ../classes/admin/class-product-meta.php:149
+#: ../classes/admin/class-product-meta.php:165
+#: ../templates/dashboard/reports.php:19
+msgid "Commission"
+msgstr "佣金"
+
+#: ../classes/admin/class-admin-page.php:251
+#: ../classes/admin/class-admin-reports.php:168
+#: ../templates/dashboard/reports.php:17
+#: ../templates/emails/admin-new-order.php:22
+#: ../templates/emails/notify-vendor-shipped.php:22
+#: ../templates/emails/vendor-new-order.php:22
+msgid "Product"
+msgstr "貨品"
+
+#: ../classes/admin/class-admin-page.php:252
+#: ../classes/admin/class-vendor-admin-dashboard.php:253
+msgid "Order ID"
+msgstr "訂單編號"
+
+#: ../classes/admin/class-admin-page.php:253
+#: ../classes/admin/class-admin-reports.php:169
+#: ../classes/admin/class-product-meta.php:44
+#: ../classes/admin/class-product-meta.php:185
+#: ../classes/admin/class-product-meta.php:221
+msgid "Vendor"
+msgstr "供應商"
+
+#: ../classes/admin/class-admin-page.php:254
+#: ../classes/admin/class-admin-reports.php:170
+#: ../classes/admin/class-admin-reports.php:344
+#: ../classes/admin/class-admin-reports.php:368
+#: ../classes/admin/class-vendor-admin-dashboard.php:256
+#: ../templates/dashboard/orders.php:35
+msgid "Total"
+msgstr "總數"
+
+#: ../classes/admin/class-admin-page.php:255
+#: ../classes/admin/class-admin-reports.php:172
+msgid "Status"
+msgstr "訂單狀態"
+
+#: ../classes/admin/class-admin-page.php:256
+#: ../classes/admin/class-vendor-admin-dashboard.php:257
+#: ../classes/front/orders/class-orders.php:181
+#: ../templates/dashboard/orders.php:36
+msgid "Date"
+msgstr "日期"
+
+#: ../classes/admin/class-admin-page.php:293
+msgid "Mark paid"
+msgstr "標為已付款"
+
+#: ../classes/admin/class-admin-page.php:294
+msgid "Mark due"
+msgstr "標為已過期"
+
+#: ../classes/admin/class-admin-page.php:295
+msgid "Mark reversed"
+msgstr "標為已保留"
+
+#: ../classes/admin/class-admin-page.php:312
+#: ../classes/admin/class-admin-page.php:316
+msgid "Filter"
+msgstr "篩選"
+
+#: ../classes/admin/class-admin-page.php:351
+msgid "Show all dates"
+msgstr "顯示所有日期"
+
+#: ../classes/admin/class-admin-page.php:364
+#, php-format
+msgid "%1$s %2$d"
+msgstr "%1$s %2$d"
+
+#: ../classes/admin/class-admin-page.php:386
+msgid "Show all Statuses"
+msgstr "顯示所有狀態"
+
+#: ../classes/admin/class-admin-page.php:412
+msgid "Commission marked paid."
+msgstr "佣金標為已付。"
+
+#: ../classes/admin/class-admin-page.php:419
+msgid "Commission marked due."
+msgstr "佣金標為已過期。"
+
+#: ../classes/admin/class-admin-page.php:426
+msgid "Commission marked reversed."
+msgstr "佣金標為已保留。"
+
+#: ../classes/admin/class-admin-reports.php:44
+msgid "Overview"
+msgstr "概要"
+
+#: ../classes/admin/class-admin-reports.php:50
+msgid "Commission by vendor"
+msgstr "依供應商顯示"
+
+#: ../classes/admin/class-admin-reports.php:56
+msgid "Commission by product"
+msgstr "依貨品顯示"
+
+#: ../classes/admin/class-admin-reports.php:115
+#: ../templates/dashboard/date-picker.php:3
+msgid "From:"
+msgstr "由："
+
+#: ../classes/admin/class-admin-reports.php:117
+#: ../templates/dashboard/date-picker.php:7
+msgid "To:"
+msgstr "至："
+
+#: ../classes/admin/class-admin-reports.php:119
+#: ../classes/admin/class-admin-reports.php:277
+#: ../templates/dashboard/date-picker.php:12
+msgid "Show"
+msgstr "顯示"
+
+#: ../classes/admin/class-admin-reports.php:125
+msgid "Total paid in range"
+msgstr "本期已付佣金總額"
+
+#: ../classes/admin/class-admin-reports.php:128
+#: ../classes/admin/class-admin-reports.php:135
+#: ../classes/admin/class-admin-reports.php:142
+msgid "n/a"
+msgstr "未有紀錄"
+
+#: ../classes/admin/class-admin-reports.php:132
+msgid "Total due in range"
+msgstr "本期未付佣金總額"
+
+#: ../classes/admin/class-admin-reports.php:139
+msgid "Total reversed in range"
+msgstr "本期保留佣金總額"
+
+#: ../classes/admin/class-admin-reports.php:149
+msgid "Recent Commission"
+msgstr "最新佣金紀錄"
+
+#: ../classes/admin/class-admin-reports.php:167
+#: ../classes/front/orders/class-orders.php:173
+#: ../templates/dashboard/orders.php:33
+msgid "Order"
+msgstr "訂單"
+
+#: ../classes/admin/class-admin-reports.php:171
+msgid "Date &amp; Time"
+msgstr "日期及時間"
+
+#: ../classes/admin/class-admin-reports.php:180
+msgid "N/A"
+msgstr "未有紀錄"
+
+#: ../classes/admin/class-admin-reports.php:185
+msgid "D j M Y \\a\\t h:ia"
+msgstr "D j M Y \\a\\t h:ia"
+
+#: ../classes/admin/class-admin-reports.php:194
+msgid "No commission yet"
+msgstr "未有佣金紀錄"
+
+#: ../classes/admin/class-admin-reports.php:228
+msgid "Show:"
+msgstr "顯示："
+
+#: ../classes/admin/class-admin-reports.php:237
+msgid "Search for a product&hellip;"
+msgstr "搜尋貨品..."
+
+#: ../classes/admin/class-admin-reports.php:240
+msgid "Type in a product name to start searching..."
+msgstr "輸入產品名稱以開始搜尋..."
+
+#: ../classes/admin/class-admin-reports.php:272
+msgid "Select a vendor&hellip;"
+msgstr "選擇供應商"
+
+#: ../classes/admin/class-admin-reports.php:338
+msgid "Month"
+msgstr "月"
+
+#: ../classes/admin/class-admin-reports.php:340
+msgid "Tax"
+msgstr "稅項"
+
+#: ../classes/admin/class-admin-reports.php:341
+#: ../classes/admin/settings/sf-options.php:46
+#: ../classes/admin/settings/sf-options.php:105
+#: ../templates/dashboard/orders.php:34 ../templates/orders/orders.php:115
+msgid "Shipping"
+msgstr "運送方式"
+
+#: ../classes/admin/class-admin-reports.php:342
+msgid "Reversed"
+msgstr "已保留"
+
+#: ../classes/admin/class-admin-reports.php:343
+msgid "Paid"
+msgstr "已付款"
+
+#: ../classes/admin/class-admin-users.php:402
+msgid "Enable HTML for the shop description"
+msgstr "啟用 HTML 的店鋪介紹"
+
+#: ../classes/admin/class-admin-users.php:408
+msgid "Shop name"
+msgstr "店鋪名稱"
+
+#: ../classes/admin/class-admin-users.php:415
+msgid "PayPal E-mail"
+msgstr "Paypal 電郵"
+
+#: ../classes/admin/class-admin-users.php:416
+msgid "required"
+msgstr "必須"
+
+#: ../classes/admin/class-admin-users.php:423
+msgid "Commission rate"
+msgstr "佣金比例"
+
+#: ../classes/admin/class-admin-users.php:424
+#: ../classes/admin/class-product-meta.php:172
+msgid "Leave blank for default"
+msgstr "留空作為默認設定"
+
+#: ../classes/admin/class-admin-users.php:430
+msgid "Give Tax"
+msgstr "給予稅收"
+
+#: ../classes/admin/class-admin-users.php:435
+msgid "Tax override for vendor"
+msgstr "稅率由供應商覆寫"
+
+#: ../classes/admin/class-admin-users.php:441
+msgid "Give Shipping"
+msgstr "開始送貨"
+
+#: ../classes/admin/class-admin-users.php:446
+msgid "Shipping override for vendor"
+msgstr "送貨方式由供應商覆寫"
+
+#: ../classes/admin/class-admin-users.php:452
+#: ../classes/admin/views/html-vendor-settings-page.php:30
+#: ../classes/front/class-vendor-shop.php:105
+#: ../templates/dashboard/settings/seller-info.php:3
+msgid "Seller info"
+msgstr "賣家資料"
+
+#: ../classes/admin/class-admin-users.php:457
+msgid "Shop description"
+msgstr "店鋪簡介"
+
+#: ../classes/admin/class-vendor-admin-dashboard.php:19
+#: ../classes/class-install.php:166
+msgid "Shop Settings"
+msgstr "店鋪設定"
+
+#: ../classes/admin/class-vendor-admin-dashboard.php:20
+#: ../classes/admin/class-vendor-admin-dashboard.php:140
+#: ../classes/admin/settings/sf-options.php:165
+#: ../classes/class-install.php:165 ../templates/dashboard/orders.php:24
+msgid "Orders"
+msgstr "訂單"
+
+#: ../classes/admin/class-vendor-admin-dashboard.php:52
+#: ../classes/front/dashboard/class-vendor-dashboard.php:101
+msgid "Your PayPal address is not a valid email address."
+msgstr "Paypal 電郵不正確。"
+
+#: ../classes/admin/class-vendor-admin-dashboard.php:61
+#: ../classes/front/dashboard/class-vendor-dashboard.php:110
+msgid "That shop name is already taken. Your shop name must be unique."
+msgstr "此名稱已被使用，店鋪名稱不能重覆。"
+
+#: ../classes/admin/class-vendor-admin-dashboard.php:81
+#: ../classes/admin/settings/classes/sf-class-settings.php:366
+#: ../classes/front/dashboard/class-vendor-dashboard.php:128
+msgid "Settings saved."
+msgstr "設定已經儲存。"
+
+#: ../classes/admin/class-vendor-admin-dashboard.php:254
+msgid "Customer"
+msgstr "顧客"
+
+#: ../classes/admin/class-vendor-admin-dashboard.php:255
+#: ../classes/admin/settings/sf-options.php:96
+#: ../classes/admin/settings/sf-options.php:223
+msgid "Products"
+msgstr "貨品"
+
+#: ../classes/admin/class-vendor-admin-dashboard.php:258
+msgid "Shipped"
+msgstr "己出貨"
+
+#: ../classes/admin/class-vendor-admin-dashboard.php:291
+#: ../templates/dashboard/orders.php:76
+msgid "Mark shipped"
+msgstr "標為已出貨"
+
+#: ../classes/admin/class-vendor-admin-dashboard.php:315
+msgid "Orders marked shipped."
+msgstr "訂單已標為已出貨。"
+
+#: ../classes/admin/class-vendor-applicants.php:26
+msgid "Approve"
+msgstr "批准"
+
+#: ../classes/admin/class-vendor-applicants.php:27
+msgid "Deny"
+msgstr "拒絕"
+
+#: ../classes/admin/class-vendor-applicants.php:71
+msgid "Vendor has been <b>denied</b>."
+msgstr "供應商的申請已被<b>拒絕</b>。"
+
+#: ../classes/admin/class-vendor-applicants.php:82
+msgid "Vendor has been <b>approved</b>."
+msgstr "供應商的申請已<b>批准</b>。"
+
+#: ../classes/admin/class-vendor-applicants.php:96
+msgid "Pending Vendors"
+msgstr "審批中的供應商申請"
+
+#: ../classes/admin/emails/class-emails.php:55
+#: ../classes/admin/emails/class-wc-approve-vendor.php:70
+msgid "pending"
+msgstr "審批中"
+
+#: ../classes/admin/emails/class-emails.php:57
+msgid "approved"
+msgstr "批准"
+
+#: ../classes/admin/emails/class-emails.php:59
+msgid "denied"
+msgstr "拒絕"
+
+#: ../classes/admin/emails/class-emails.php:86
+#: ../classes/front/class-vendor-cart.php:59
+#: ../classes/front/class-vendor-shop.php:180
+msgid "Sold by: "
+msgstr "店鋪："
+
+#: ../classes/admin/emails/class-wc-approve-vendor.php:28
+msgid "Vendor Application"
+msgstr "店鋪申請"
+
+#: ../classes/admin/emails/class-wc-approve-vendor.php:29
+msgid "Vendor application will either be approved, denied, or pending."
+msgstr "店鋪的申請可能被設為批准，拒絕，或待批。"
+
+#: ../classes/admin/emails/class-wc-approve-vendor.php:31
+msgid "Application {status}"
+msgstr "申請 (狀態)"
+
+#: ../classes/admin/emails/class-wc-approve-vendor.php:32
+msgid "[{blogname}] Your vendor application has been {status}"
+msgstr "[{blogname}] 你的店鋪申請己被 {status}"
+
+#: ../classes/admin/emails/class-wc-approve-vendor.php:123
+#: ../classes/admin/emails/class-wc-notify-admin.php:134
+#: ../classes/admin/emails/class-wc-notify-shipped.php:163
+#: ../classes/admin/emails/class-wc-notify-vendor.php:247
+#: ../classes/gateways/WCV_Gateway_Test/class-wcv-gateway-test.php:62
+msgid "Enable/Disable"
+msgstr "啟用/禁用"
+
+#: ../classes/admin/emails/class-wc-approve-vendor.php:125
+#: ../classes/admin/emails/class-wc-notify-admin.php:136
+#: ../classes/admin/emails/class-wc-notify-shipped.php:165
+#: ../classes/admin/emails/class-wc-notify-vendor.php:249
+msgid "Enable this email notification"
+msgstr "啟用此電子郵件通知"
+
+#: ../classes/admin/emails/class-wc-approve-vendor.php:129
+#: ../classes/admin/emails/class-wc-notify-admin.php:140
+msgid "Recipient(s)"
+msgstr "收件人"
+
+#: ../classes/admin/emails/class-wc-approve-vendor.php:131
+#: ../classes/admin/emails/class-wc-notify-admin.php:142
+#, php-format
+msgid ""
+"Enter recipients (comma separated) for this email. Defaults to <code>%s</"
+"code>."
+msgstr "於這個電子郵件輸入收件人（用逗號隔開）。默認設定為 <code>%s</code>。"
+
+#: ../classes/admin/emails/class-wc-approve-vendor.php:136
+#: ../classes/admin/emails/class-wc-notify-admin.php:147
+#: ../classes/admin/emails/class-wc-notify-shipped.php:169
+#: ../classes/admin/emails/class-wc-notify-vendor.php:253
+msgid "Subject"
+msgstr "郵件主題"
+
+#: ../classes/admin/emails/class-wc-approve-vendor.php:138
+#: ../classes/admin/emails/class-wc-notify-admin.php:149
+#: ../classes/admin/emails/class-wc-notify-shipped.php:171
+#: ../classes/admin/emails/class-wc-notify-vendor.php:255
+#, php-format
+msgid ""
+"This controls the email subject line. Leave blank to use the default "
+"subject: <code>%s</code>."
+msgstr "這控制郵件主題。留空以使用默認的郵件主題：<code>%s</code>。"
+
+#: ../classes/admin/emails/class-wc-approve-vendor.php:143
+#: ../classes/admin/emails/class-wc-notify-admin.php:154
+#: ../classes/admin/emails/class-wc-notify-shipped.php:176
+#: ../classes/admin/emails/class-wc-notify-vendor.php:260
+msgid "Email Heading"
+msgstr "郵件主題"
+
+#: ../classes/admin/emails/class-wc-approve-vendor.php:145
+#: ../classes/admin/emails/class-wc-notify-admin.php:156
+#: ../classes/admin/emails/class-wc-notify-shipped.php:178
+#: ../classes/admin/emails/class-wc-notify-vendor.php:262
+#, php-format
+msgid ""
+"This controls the main heading contained within the email notification. "
+"Leave blank to use the default heading: <code>%s</code>."
+msgstr ""
+"這控制電子郵件通知的內容主題。留空以使用默認的內容主題：<code>%s</code>。"
+
+#: ../classes/admin/emails/class-wc-approve-vendor.php:150
+#: ../classes/admin/emails/class-wc-notify-admin.php:161
+#: ../classes/admin/emails/class-wc-notify-shipped.php:183
+#: ../classes/admin/emails/class-wc-notify-vendor.php:267
+msgid "Email type"
+msgstr "電郵類別"
+
+#: ../classes/admin/emails/class-wc-approve-vendor.php:152
+#: ../classes/admin/emails/class-wc-notify-admin.php:163
+#: ../classes/admin/emails/class-wc-notify-shipped.php:185
+#: ../classes/admin/emails/class-wc-notify-vendor.php:269
+msgid "Choose which format of email to send."
+msgstr "請選擇發送的電郵格式"
+
+#: ../classes/admin/emails/class-wc-approve-vendor.php:156
+#: ../classes/admin/emails/class-wc-notify-admin.php:167
+#: ../classes/admin/emails/class-wc-notify-shipped.php:189
+#: ../classes/admin/emails/class-wc-notify-vendor.php:273
+msgid "Plain text"
+msgstr "文字格式"
+
+#: ../classes/admin/emails/class-wc-approve-vendor.php:157
+#: ../classes/admin/emails/class-wc-notify-admin.php:168
+#: ../classes/admin/emails/class-wc-notify-shipped.php:190
+#: ../classes/admin/emails/class-wc-notify-vendor.php:274
+msgid "HTML"
+msgstr "HTML"
+
+#: ../classes/admin/emails/class-wc-approve-vendor.php:158
+#: ../classes/admin/emails/class-wc-notify-admin.php:169
+#: ../classes/admin/emails/class-wc-notify-shipped.php:191
+#: ../classes/admin/emails/class-wc-notify-vendor.php:275
+msgid "Multipart"
+msgstr "多種部分"
+
+#: ../classes/admin/emails/class-wc-notify-admin.php:28
+msgid "New Vendor Product"
+msgstr "新貨品"
+
+#: ../classes/admin/emails/class-wc-notify-admin.php:29
+msgid "New order emails are sent when a new product is submitted by a vendor"
+msgstr "當供應商提交一個新貨品後，新訂單的電子郵件將會被發送。"
+
+#: ../classes/admin/emails/class-wc-notify-admin.php:31
+msgid "New product submitted: {product_name}"
+msgstr "新提交的貨品：{product_name}"
+
+#: ../classes/admin/emails/class-wc-notify-admin.php:32
+msgid "[{blogname}] New product submitted by {vendor_name} - {product_name}"
+msgstr "[{blogname}] 供應商 - {vendor_name} 提交了一個新貨品 - {product_name}"
+
+#: ../classes/admin/emails/class-wc-notify-shipped.php:28
+msgid "Vendor has shipped"
+msgstr "供應商已出貨"
+
+#: ../classes/admin/emails/class-wc-notify-shipped.php:29
+msgid ""
+"An email is sent when a vendor has marked one of their orders as shipped."
+msgstr "當供應商的訂單被標誌出貨時，電子郵件將被發送。"
+
+#: ../classes/admin/emails/class-wc-notify-shipped.php:31
+msgid "Your order has been shipped"
+msgstr "你的訂單已出貨"
+
+#: ../classes/admin/emails/class-wc-notify-shipped.php:32
+msgid ""
+"[{blogname}] Your order has been shipped ({order_number}) - {order_date}"
+msgstr "[{blogname}] 你的訂單已出貨 ({order_number}) - {order_date}"
+
+#: ../classes/admin/emails/class-wc-notify-shipped.php:112
+msgid "Subtotal:"
+msgstr "小計："
+
+#: ../classes/admin/emails/class-wc-notify-vendor.php:27
+msgid "Notify vendors"
+msgstr "通知供應商"
+
+#: ../classes/admin/emails/class-wc-notify-vendor.php:28
+msgid "New order emails are sent when an order is received/paid by a customer."
+msgstr "當收到 / 由客戶支付的訂單時，新訂單的電子郵件會被發送。"
+
+#: ../classes/admin/emails/class-wc-notify-vendor.php:30
+msgid "New customer order"
+msgstr "新客戶訂單"
+
+#: ../classes/admin/emails/class-wc-notify-vendor.php:31
+msgid "[{blogname}] New customer order ({order_number}) - {order_date}"
+msgstr "[{blogname}] 新客戶訂單 ({order_number}) - {order_date}"
+
+#: ../classes/admin/emails/class-wc-notify-vendor.php:103
+msgid "Commission Subtotal:"
+msgstr "佣金小計："
+
+#: ../classes/admin/emails/class-wc-notify-vendor.php:109
+msgid "Tax Subtotal:"
+msgstr "稅項小計："
+
+#: ../classes/admin/emails/class-wc-notify-vendor.php:117
+msgid "Shipping Subtotal:"
+msgstr "運費小計："
+
+#: ../classes/admin/settings/classes/sf-class-format-options.php:211
+#: ../classes/admin/settings/classes/sf-class-settings.php:776
+msgid "Select a page..."
+msgstr "選擇分頁..."
+
+#: ../classes/admin/settings/classes/sf-class-settings.php:153
+#: ../templates/dashboard/settings/settings.php:1
+msgid "Settings"
+msgstr "設定"
+
+#: ../classes/admin/settings/classes/sf-class-settings.php:300
+msgid "Could not load settings at: "
+msgstr "未能讀取此設定："
+
+#: ../classes/admin/settings/classes/sf-class-settings.php:300
+msgid "Error - WP Settings Framework"
+msgstr "錯誤 - WP Settings Framework"
+
+#: ../classes/admin/settings/classes/sf-class-settings.php:482
+#, php-format
+msgid "Save %s changes"
+msgstr "儲存 %s 變更"
+
+#: ../classes/admin/settings/sf-options.php:5
+msgid "General options"
+msgstr "一般選項"
+
+#: ../classes/admin/settings/sf-options.php:8
+msgid "Default commission (%)"
+msgstr "預設佣金 (%)"
+
+#: ../classes/admin/settings/sf-options.php:9
+msgid ""
+"The default rate you pay each vendor for a product sale. If a product has a "
+"commission rate already set, this value will be ignored for that product."
+msgstr ""
+"這是你支付每個供應商的預設佣金。如某貨品已設定其佣金，該貨品將會忽略這個預設"
+"值。"
+
+#: ../classes/admin/settings/sf-options.php:20
+msgid "Registration"
+msgstr "註冊"
+
+#: ../classes/admin/settings/sf-options.php:21
+msgid "Allow users or guests to apply to become a vendor"
+msgstr "允許所有用戶或訪客申請成為供應商"
+
+#: ../classes/admin/settings/sf-options.php:22
+msgid ""
+"This will show a checkbox on the My Account page's registration form asking "
+"if the user would like to apply to be a vendor. Also, on the Vendor "
+"Dashboard, users can still apply to become a vendor even if this is disabled."
+msgstr ""
+"這將會在我的帳戶中顯示一個選擇框，讓用戶申請成為供應商。即使關閉，一般用戶仍"
+"然可於控制板面作出申請。"
+
+#: ../classes/admin/settings/sf-options.php:29
+msgid "Approve vendor applications manually"
+msgstr "以手動方式審批申請"
+
+#: ../classes/admin/settings/sf-options.php:30
+msgid ""
+"With this unchecked, all vendor applications are automatically accepted. "
+"Otherwise, you must approve each manually."
+msgstr "如選擇，所有供應商的申請將自動獲批。相反，你必須手動審批每個申請。"
+
+#: ../classes/admin/settings/sf-options.php:37
+#: ../classes/admin/settings/sf-options.php:144
+msgid "Taxes"
+msgstr "稅項"
+
+#: ../classes/admin/settings/sf-options.php:38
+msgid "Give vendors any tax collected per-product"
+msgstr "供應商可提供任何以已含稅之產品"
+
+#: ../classes/admin/settings/sf-options.php:39
+msgid "The tax collected on a vendor's product will be given in its entirety"
+msgstr "貨品所收之稅項將會全數發回給供應商"
+
+#: ../classes/admin/settings/sf-options.php:47
+msgid "Give vendors any shipping collected per-product"
+msgstr "供應商可提供任何以已包運費之產品"
+
+#: ../classes/admin/settings/sf-options.php:48
+msgid ""
+"The shipping collected on a vendor's product will be given in its entirety"
+msgstr "貨品所收之運費將會全數發回給供應商"
+
+#: ../classes/admin/settings/sf-options.php:54
+msgid "Shop options"
+msgstr "店鋪選項"
+
+#: ../classes/admin/settings/sf-options.php:57
+msgid "Shop HTML"
+msgstr "店鋪 HTML"
+
+#: ../classes/admin/settings/sf-options.php:58
+msgid ""
+"Enable HTML for a vendor's shop description by default.  You can enable or "
+"disable this per vendor by editing the vendors username."
+msgstr ""
+"預設店鋪介紹可使用 HTML 編寫。你亦可以透過修改用戶名稱，以啟用或禁止單一供應"
+"商使用 HTML 編寫的權限。"
+
+#: ../classes/admin/settings/sf-options.php:65
+msgid "Vendor shop page"
+msgstr "供應商的店鋪主頁"
+
+#: ../classes/admin/settings/sf-options.php:66
+msgid "Eg: <code>yoursite.com/[your_setting_here]/[vendor_name_here]</code>"
+msgstr ""
+"例子： <code>yoursite.com/[your_setting_here]/[vendor_name_here]</code>"
+
+#: ../classes/admin/settings/sf-options.php:73
+msgid "Shop Headers"
+msgstr "店鋪門面"
+
+#: ../classes/admin/settings/sf-options.php:74
+msgid "Enable vendor shop headers"
+msgstr "啟用店鋪門面"
+
+#: ../classes/admin/settings/sf-options.php:75
+msgid ""
+"This will override the HTML Shop description output on product-archive "
+"pages.  In order to customize the shop headers visit wcvendors.com and read "
+"the article in the Knowledgebase titled Changing the Vendor Templates."
+msgstr ""
+"啟用此選項將覆蓋於產品列表頁面的 HTML 店鋪介紹，讓用戶可自定義店鋪標題。請瀏"
+"覽 wcvendors.com 和閱讀於知識庫內名為「Changing the Vendor Templates」的文"
+"章。"
+
+#: ../classes/admin/settings/sf-options.php:82
+msgid "Vendor Display Name"
+msgstr "供應商的顯示名稱"
+
+#: ../classes/admin/settings/sf-options.php:83
+msgid ""
+"Select what will be displayed for the sold by text throughout the store."
+msgstr "請選擇於整個網站顯示於「店鋪：」的名稱。"
+
+#: ../classes/admin/settings/sf-options.php:87
+msgid "Display Name"
+msgstr "顯示名稱"
+
+#: ../classes/admin/settings/sf-options.php:88
+#: ../classes/admin/views/html-vendor-settings-page.php:22
+#: ../templates/dashboard/settings/shop-name.php:2
+msgid "Shop Name"
+msgstr "店鋪名稱"
+
+#: ../classes/admin/settings/sf-options.php:89
+msgid "User Login"
+msgstr "用戶名"
+
+#: ../classes/admin/settings/sf-options.php:90
+msgid "User Email"
+msgstr "用戶電郵"
+
+#: ../classes/admin/settings/sf-options.php:97
+msgid "Product Add Page"
+msgstr "新增貨品頁"
+
+#: ../classes/admin/settings/sf-options.php:97
+msgid "Configure what to hide from all vendors when adding a product"
+msgstr "請選擇需隱藏的供應商「新增貨品」設定項目"
+
+#: ../classes/admin/settings/sf-options.php:100
+msgid "Left side panel"
+msgstr "左方次版面"
+
+#: ../classes/admin/settings/sf-options.php:101
+msgid ""
+"CHECKING these boxes will HIDE these areas of the add product page for "
+"vendors"
+msgstr "選擇此選框會隱藏供應商「新增貨品」相關的設定項目"
+
+#: ../classes/admin/settings/sf-options.php:104
+msgid "Inventory"
+msgstr "庫存"
+
+#: ../classes/admin/settings/sf-options.php:106
+msgid "Linked Products"
+msgstr "連結貨品"
+
+#: ../classes/admin/settings/sf-options.php:107
+msgid "Attributes"
+msgstr "屬性"
+
+#: ../classes/admin/settings/sf-options.php:108
+msgid "Advanced"
+msgstr "進階"
+
+#: ../classes/admin/settings/sf-options.php:115
+msgid "Types"
+msgstr "類型"
+
+#: ../classes/admin/settings/sf-options.php:116
+msgid "CHECKING these boxes will HIDE these product types from the vendor"
+msgstr "選擇此選框會隱藏供應商可供選擇的「貨品類別」"
+
+#: ../classes/admin/settings/sf-options.php:119
+msgid "Simple"
+msgstr "簡單貨品"
+
+#: ../classes/admin/settings/sf-options.php:120
+msgid "Variable"
+msgstr "可變貨品"
+
+#: ../classes/admin/settings/sf-options.php:121
+msgid "Grouped"
+msgstr "群組貨品"
+
+#: ../classes/admin/settings/sf-options.php:122
+msgid "External / affiliate"
+msgstr "外部/加盟貨品"
+
+#: ../classes/admin/settings/sf-options.php:129
+msgid "Type options"
+msgstr "貨品類型"
+
+#: ../classes/admin/settings/sf-options.php:130
+msgid "CHECKING these boxes will HIDE these product options from the vendor"
+msgstr "選擇此選框會隱藏供應商可供選擇的「貨品選項」"
+
+#: ../classes/admin/settings/sf-options.php:133
+msgid "Virtual"
+msgstr "虛擬"
+
+#: ../classes/admin/settings/sf-options.php:134
+msgid "Downloadable"
+msgstr "可下載"
+
+#: ../classes/admin/settings/sf-options.php:141
+msgid "Miscellaneous"
+msgstr "雜項"
+
+#: ../classes/admin/settings/sf-options.php:145
+msgid "SKU"
+msgstr "SKU"
+
+#: ../classes/admin/settings/sf-options.php:146
+msgid "Featured"
+msgstr "特色貨品"
+
+#: ../classes/admin/settings/sf-options.php:147
+msgid "Duplicate Product"
+msgstr "複製貨品"
+
+#: ../classes/admin/settings/sf-options.php:154
+msgid "Stylesheet"
+msgstr "樣式表"
+
+#: ../classes/admin/settings/sf-options.php:155
+msgid ""
+"You can add CSS in this textarea, which will be loaded on the product add/"
+"edit page for vendors."
+msgstr ""
+"你可於此文字框加入 CSS ，此 CSS 會加入到供應商的「新加/編輯貨品」頁面。"
+
+#: ../classes/admin/settings/sf-options.php:162
+msgid "Permissions"
+msgstr "權限"
+
+#: ../classes/admin/settings/sf-options.php:162
+msgid "General permissions used around the shop"
+msgstr "於店鋪使用的一般權限"
+
+#: ../classes/admin/settings/sf-options.php:166
+msgid "View orders"
+msgstr "檢視訂單"
+
+#: ../classes/admin/settings/sf-options.php:167
+msgid "Show customer details such as email, address, name, etc, for each order"
+msgstr "顯示有關顧客的資料，例如電郵、地址、姓名等等..."
+
+#: ../classes/admin/settings/sf-options.php:174
+msgid "View comments"
+msgstr "檢視評論"
+
+#: ../classes/admin/settings/sf-options.php:175
+msgid "View all vendor comments for an order on the frontend"
+msgstr "於前台檢視有關訂單上所有供應商的評論"
+
+#: ../classes/admin/settings/sf-options.php:182
+msgid "Submit comments"
+msgstr "提交評論"
+
+#: ../classes/admin/settings/sf-options.php:183
+msgid ""
+"Submit comments for an order on the frontend. Eg, tracking ID for a product"
+msgstr "於前台提交有關訂單上所有供應商的評論，例如：貨品的 Tracking ID"
+
+#: ../classes/admin/settings/sf-options.php:190
+msgid "View email addresses"
+msgstr "檢視電郵地址"
+
+#: ../classes/admin/settings/sf-options.php:191
+msgid ""
+"While viewing order details on the frontend, you can disable or enable email "
+"addresses"
+msgstr "於前台檢視訂單的內容，你可以選擇隱藏電郵地址"
+
+#: ../classes/admin/settings/sf-options.php:198
+msgid "Export a CSV file of orders for a product"
+msgstr "以 CSV 檔輸出單一貨品的訂單"
+
+#: ../classes/admin/settings/sf-options.php:199
+msgid "Vendors could export orders for a product on the frontend"
+msgstr "供應商可以於前台以 CSV 檔輸出單一貨品的訂單"
+
+#: ../classes/admin/settings/sf-options.php:206
+msgid "Reports"
+msgstr "報表"
+
+#: ../classes/admin/settings/sf-options.php:207
+msgid "View backend sales reports"
+msgstr "於後台檢視銷售報表"
+
+#: ../classes/admin/settings/sf-options.php:208
+msgid ""
+"Graphs and tables via the Reports page in backend. The reports will only "
+"display sales data that pertain to their products"
+msgstr "於後台檢視報表及圖表。該報告將只顯示涉及到他們的貨品銷售數據"
+
+#: ../classes/admin/settings/sf-options.php:215
+msgid "View Frontend sales reports"
+msgstr "於前台檢視銷售報表"
+
+#: ../classes/admin/settings/sf-options.php:216
+msgid ""
+"Sales table on the frontend on the My Account page. The table will only "
+"display sales data that pertain to their products"
+msgstr "於前台檢視報表。該報表將只顯示涉及到他們的貨品銷售數據"
+
+#: ../classes/admin/settings/sf-options.php:224
+msgid "Submit products"
+msgstr "提交貨品"
+
+#: ../classes/admin/settings/sf-options.php:225
+msgid ""
+"Vendors could submit a product through the backend, and an admin would "
+"approve or deny it"
+msgstr "供應商可於後台提交貨品，管理員可會批准或回絕"
+
+#: ../classes/admin/settings/sf-options.php:232
+msgid "Edit live products"
+msgstr "修改在線貨品"
+
+#: ../classes/admin/settings/sf-options.php:233
+msgid ""
+"Vendors could edit an approved product after it has already gone live. There "
+"is no approval or review after editing a live product. This could be "
+"dangerous with malicious vendors, so take caution."
+msgstr ""
+"供應商可以修改已審批並上架了的產品。因修改的當已上架產品並不須要審查，請謹慎"
+"處理危險的惡意供應商。"
+
+#: ../classes/admin/settings/sf-options.php:240
+msgid "Submit products live without requiring approval"
+msgstr "提交發將貨品上架，無須審批"
+
+#: ../classes/admin/settings/sf-options.php:241
+msgid ""
+"Vendors can submit products without review or approval from a shop admin. "
+"This could be dangerous with malicious vendors, so take caution."
+msgstr "供應商可以提交並上架產品而無須審批。請謹慎處理危險的惡意供應商。"
+
+#: ../classes/admin/settings/sf-options.php:247
+msgid "Pages"
+msgstr "分頁"
+
+#: ../classes/admin/settings/sf-options.php:248
+msgid "Page configuration"
+msgstr "分頁設定"
+
+#: ../classes/admin/settings/sf-options.php:251
+msgid "Vendor dashboard"
+msgstr "供應商控制台"
+
+#: ../classes/admin/settings/sf-options.php:252
+msgid ""
+"Choose the page that has the shortcode <code>[wcv_vendor_dashboard]</"
+"code><br/>By default, My Account > Vendor Dashboard should have the "
+"shortcode."
+msgstr ""
+"請選擇具有短代碼的頁面 <code>[wcv_vendor_dashboard]</code><br/>預設分頁為 My "
+"Account > Vendor Dashboard ，應而包含短代碼。"
+
+#: ../classes/admin/settings/sf-options.php:259
+msgid "Shop settings"
+msgstr "店鋪設定"
+
+#: ../classes/admin/settings/sf-options.php:260
+msgid ""
+"Choose the page that has the shortcode <code>[wcv_shop_settings]</code><br/"
+">These are the shop settings a vendor can configure."
+msgstr ""
+"請選擇具有短代碼的頁面<code>[wcv_shop_settings]</code><br/>供應商可於分頁設定"
+"其店鋪資料。"
+
+#: ../classes/admin/settings/sf-options.php:267
+msgid "Orders page"
+msgstr "訂單分頁"
+
+#: ../classes/admin/settings/sf-options.php:268
+msgid ""
+"Choose the page that has the shortcode <code>[wcv_orders]</code><br/>By "
+"default, My Account > Orders should have the shortcode."
+msgstr ""
+"請選擇具有短代碼的頁面 <code>[wcv_orders]</code><br/>預設分頁為 My Account > "
+"Orders ，應而包含短代碼。"
+
+#: ../classes/admin/settings/sf-options.php:275
+msgid "Vendor terms"
+msgstr "供應商條款"
+
+#: ../classes/admin/settings/sf-options.php:276
+msgid ""
+"These terms are shown to a user when submitting an application to become a "
+"vendor.<br/>If left blank, no terms will be shown to the applicant."
+msgstr ""
+"供應商條款將在用戶提交申請時顯示。<br/>如果留空，條款將不會顯示給申請人。"
+
+#: ../classes/admin/settings/sf-options.php:283
+msgid "payments"
+msgstr "付款方式"
+
+#: ../classes/admin/settings/sf-options.php:294
+msgid "Payments"
+msgstr "付款方式"
+
+#: ../classes/admin/settings/sf-options.php:296
+msgid "User payments"
+msgstr "用戶的付款"
+
+#: ../classes/admin/settings/sf-options.php:297
+#, php-format
+msgid "Total commission currently due: %s. <a href=\"%s\">View details</a>."
+msgstr "未付的佣金用總額：%s。 <a href=“%s”>查看詳細資料</a>。"
+
+#: ../classes/admin/settings/sf-options.php:298
+#, php-format
+msgid ""
+"Make sure you update your PayPal Adaptive Payments settings <a href=\"%s"
+"\">here</a>."
+msgstr ""
+"請務必在 <a href=\"%s\">此處</a> 更新你的 PayPal Adaptive Payment 的付款設"
+"定。"
+
+#: ../classes/admin/settings/sf-options.php:302
+msgid "Instant pay"
+msgstr "立即付款"
+
+#: ../classes/admin/settings/sf-options.php:303
+msgid "Instantly pay vendors their commission when an order is made"
+msgstr "於訂單完成後立即向供應商付佣金。"
+
+#: ../classes/admin/settings/sf-options.php:304
+msgid ""
+"For this to work, customers must checkout with the PayPal Adaptive Payments "
+"gateway. Using any other gateways will not pay vendors instantly"
+msgstr ""
+"要執行此工作，客戶必須以 PayPal Adaptive Payments gateway 結帳付款。其他 "
+"Payment gateways 並不會立即支付供應商。"
+
+#: ../classes/admin/settings/sf-options.php:311
+msgid "Payment schedule"
+msgstr "付款時間表"
+
+#: ../classes/admin/settings/sf-options.php:312
+msgid "Note: Schedule will only work if instant pay is unchecked"
+msgstr "注：時間表只有選取即時付款才生效"
+
+#: ../classes/admin/settings/sf-options.php:317
+msgid "Weekly"
+msgstr "每星期"
+
+#: ../classes/admin/settings/sf-options.php:318
+msgid "Biweekly"
+msgstr "每兩星期"
+
+#: ../classes/admin/settings/sf-options.php:319
+msgid "Monthly"
+msgstr "每月"
+
+#: ../classes/admin/settings/sf-options.php:320
+msgid "Manual"
+msgstr "自選"
+
+#: ../classes/admin/settings/sf-options.php:321
+msgid "Now"
+msgstr "現在"
+
+#: ../classes/admin/settings/sf-options.php:326
+msgid "Email notification"
+msgstr "電郵通知"
+
+#: ../classes/admin/settings/sf-options.php:327
+msgid ""
+"Send the WooCommerce admin an email each time a payment has been made via "
+"the payment schedule options above"
+msgstr ""
+"每次於上述所選之時間表付款完成時，馬上發送電郵通知 WooCommerce 設定的管理員"
+
+#: ../classes/admin/views/html-vendor-settings-page.php:11
+#: ../templates/dashboard/settings/paypal-email-form.php:2
+msgid "PayPal Address"
+msgstr "PayPal 電郵"
+
+#: ../classes/admin/views/html-vendor-settings-page.php:15
+#: ../templates/dashboard/settings/paypal-email-form.php:3
+msgid "Your PayPal address is used to send you your commission."
+msgstr "你所選用的 PayPal 電郵將用作發放佣金之用。"
+
+#: ../classes/admin/views/html-vendor-settings-page.php:24
+#: ../templates/dashboard/settings/shop-name.php:3
+msgid "Your shop name is public and must be unique."
+msgstr "你設定的店鋪名稱必須公開以及獨一無二。"
+
+#: ../classes/admin/views/html-vendor-settings-page.php:43
+#: ../templates/dashboard/settings/seller-info.php:4
+msgid "This is displayed on each of your products."
+msgstr "這將會顯示於你的每一件貨品中。"
+
+#: ../classes/admin/views/html-vendor-settings-page.php:49
+#: ../templates/dashboard/settings/shop-description.php:2
+msgid "Shop Description"
+msgstr "店鋪簡介"
+
+#: ../classes/admin/views/html-vendor-settings-page.php:61
+#: ../templates/dashboard/settings/shop-description.php:3
+#, php-format
+msgid "This is displayed on your <a href=\"%s\">shop page</a>."
+msgstr "這將會顯示於你的 <a href=\"%s\">店鋪主頁</a> 上面。"
+
+#: ../classes/admin/views/html-vendor-settings-page.php:70
+msgid "Save Shop Settings"
+msgstr "儲存店鋪設定"
+
+#: ../classes/class-cron.php:87
+#, php-format
+msgid "Payment total: %s"
+msgstr "付款總數：%s"
+
+#: ../classes/class-cron.php:148
+msgid "Once Weekly"
+msgstr "每星期一次"
+
+#: ../classes/class-cron.php:153
+msgid "Once every two weeks"
+msgstr "每星期兩次"
+
+#: ../classes/class-cron.php:158
+msgid "Once a month"
+msgstr "每月一次"
+
+#: ../classes/class-install.php:59 ../classes/class-install.php:213
+msgid "Pending Vendor"
+msgstr "審批處理中的供應商"
+
+#: ../classes/class-install.php:164
+msgid "Vendor Dashboard"
+msgstr "供應商控制台"
+
+#: ../classes/front/class-vendor-cart.php:41
+#: ../classes/front/class-vendor-shop.php:283
+msgid "Sold by"
+msgstr "店鋪："
+
+#: ../classes/front/dashboard/class-vendor-dashboard.php:46
+msgid "Order marked shipped."
+msgstr "訂單標為已出貨。"
+
+#: ../classes/front/dashboard/class-vendor-dashboard.php:72
+#: ../classes/front/dashboard/class-vendor-dashboard.php:73
+msgid "Tracking number"
+msgstr "貨品追蹤號碼"
+
+#: ../classes/front/dashboard/class-vendor-dashboard.php:75
+msgid "Success. Your tracking number has been updated."
+msgstr "成功。你的貨品追蹤號碼已經更新。"
+
+#: ../classes/front/orders/class-export-csv.php:19
+#: ../templates/dashboard/reports.php:18
+#: ../templates/emails/admin-new-order.php:23
+#: ../templates/emails/notify-vendor-shipped.php:23
+#: ../templates/emails/vendor-new-order.php:23
+msgid "Quantity"
+msgstr "數量"
+
+#: ../classes/front/orders/class-orders.php:107
+msgid ""
+"You haven't selected a product's orders to view! Please go back to the "
+"Vendor Dashboard and click Show Orders on the product you'd like to view."
+msgstr "你還未選擇產品的訂單查看！請返回至供應商控台並點擊你想查看的產品訂單。"
+
+#: ../classes/front/orders/class-orders.php:111
+msgid "No orders."
+msgstr "未有訂單。"
+
+#: ../classes/front/orders/class-orders.php:174
+msgid "Product Title"
+msgstr "貨品名稱"
+
+#: ../classes/front/orders/class-orders.php:175
+msgid "Full name"
+msgstr "全名"
+
+#: ../classes/front/orders/class-orders.php:176
+msgid "Address"
+msgstr "地址"
+
+#: ../classes/front/orders/class-orders.php:177
+msgid "City"
+msgstr "城市"
+
+#: ../classes/front/orders/class-orders.php:178
+msgid "State"
+msgstr "州"
+
+#: ../classes/front/orders/class-orders.php:179
+msgid "Zip"
+msgstr "郵政編碼"
+
+#: ../classes/front/orders/class-orders.php:180
+msgid "Email address"
+msgstr "電郵地址"
+
+#: ../classes/front/orders/class-submit-comment.php:41
+msgid "You've left the comment field empty!"
+msgstr "你未有於評論留言！"
+
+#: ../classes/front/orders/class-submit-comment.php:63
+msgid "Success. The customer has been notified of your comment."
+msgstr "成功。顧客已閱讀你的留言。"
+
+#: ../classes/front/signup/class-vendor-signup.php:44
+#: ../templates/dashboard/denied.php:22
+msgid "Apply to become a vendor? "
+msgstr "申請成為供應商？"
+
+#: ../classes/front/signup/class-vendor-signup.php:53
+#: ../templates/dashboard/denied.php:33
+#, php-format
+msgid "I have read and accepted the <a href=\"%s\">terms and conditions</a>"
+msgstr "我已閱讀並接受此 <a href=\"%s\">條款及細則</a>。"
+
+#: ../classes/front/signup/class-vendor-signup.php:87
+msgid "Application denied. You are an administrator."
+msgstr "申請不成功。你是網站管理員。"
+
+#: ../classes/front/signup/class-vendor-signup.php:89
+msgid "Your application has been submitted."
+msgstr "你的申請已經成遞交。"
+
+#: ../classes/front/signup/class-vendor-signup.php:125
+msgid "You must accept the terms and conditions to become a vendor."
+msgstr "你必須接受我們的條款及細則以成為供應商。"
+
+#: ../classes/gateways/PayPal_AdvPayments/paypal_ap.php:43
+msgid "PayPal Adaptive Payments"
+msgstr "PayPal Adaptive Payments"
+
+#: ../classes/gateways/PayPal_AdvPayments/paypal_ap.php:119
+#, php-format
+msgid ""
+"Something went wrong. Response from PayPal invalidated this order. Status: "
+"%s."
+msgstr "發生錯誤！PayPal 回報此訂單無效，狀態顯示為 %s 。"
+
+#: ../classes/gateways/PayPal_AdvPayments/paypal_ap.php:124
+msgid "IPN payment completed"
+msgstr "IPN 付款交易完成"
+
+#: ../classes/gateways/PayPal_AdvPayments/paypal_ap.php:146
+msgid "Enable PayPal Adaptive Payments"
+msgstr "啟用 PayPal Adaptive Patments"
+
+#: ../classes/gateways/PayPal_AdvPayments/paypal_ap.php:152
+msgid "Method Title"
+msgstr "方法標題"
+
+#: ../classes/gateways/PayPal_AdvPayments/paypal_ap.php:153
+#: ../classes/gateways/WCV_Gateway_Test/class-wcv-gateway-test.php:70
+msgid "This controls the title which the user sees during checkout."
+msgstr "在此輸入的標題內容，當用戶結帳時即可看到。"
+
+#: ../classes/gateways/PayPal_AdvPayments/paypal_ap.php:154
+msgid "PayPal"
+msgstr "PayPal"
+
+#: ../classes/gateways/PayPal_AdvPayments/paypal_ap.php:159
+#: ../classes/gateways/WCV_Gateway_Test/class-wcv-gateway-test.php:75
+msgid "Description"
+msgstr "簡介"
+
+#: ../classes/gateways/PayPal_AdvPayments/paypal_ap.php:160
+msgid "This controls the description which the user sees during checkout."
+msgstr "在此輸入的簡介內容，當用戶結帳時即可看到。"
+
+#: ../classes/gateways/PayPal_AdvPayments/paypal_ap.php:161
+msgid "Pay via PayPal!"
+msgstr "以 PayPal 付款！"
+
+#: ../classes/gateways/PayPal_AdvPayments/paypal_ap.php:172
+msgid "Live Credentials"
+msgstr "在線證書"
+
+#: ../classes/gateways/PayPal_AdvPayments/paypal_ap.php:174
+#, php-format
+msgid ""
+"You must have an <a href=\"%s\">Application ID</a> to process live "
+"transactions. You do not need one for testing in Sandbox mode."
+msgstr ""
+"你必須有一個 <a href=\"%s\">Application ID</A>來處理實時交易。於 Sandbox "
+"mode 下進行測試時，你並不需要 Application ID 。"
+
+#: ../classes/gateways/PayPal_AdvPayments/paypal_ap.php:179
+#: ../classes/gateways/PayPal_AdvPayments/paypal_ap.php:213
+msgid "PayPal Email"
+msgstr "PayPal 電郵地址"
+
+#: ../classes/gateways/PayPal_AdvPayments/paypal_ap.php:180
+#: ../classes/gateways/PayPal_AdvPayments/paypal_ap.php:214
+msgid "The email address main payments should go to."
+msgstr "你收到由 %s 發出的訂單，訂單資料如下："
+
+#: ../classes/gateways/PayPal_AdvPayments/paypal_ap.php:185
+#: ../classes/gateways/PayPal_AdvPayments/paypal_ap.php:219
+msgid "API Username"
+msgstr "API 用戶名稱"
+
+#: ../classes/gateways/PayPal_AdvPayments/paypal_ap.php:190
+#: ../classes/gateways/PayPal_AdvPayments/paypal_ap.php:224
+msgid "API Password"
+msgstr "API 密碼"
+
+#: ../classes/gateways/PayPal_AdvPayments/paypal_ap.php:195
+#: ../classes/gateways/PayPal_AdvPayments/paypal_ap.php:229
+msgid "API Signature"
+msgstr "API Signature"
+
+#: ../classes/gateways/PayPal_AdvPayments/paypal_ap.php:200
+msgid "Application ID"
+msgstr "Application ID"
+
+#: ../classes/gateways/PayPal_AdvPayments/paypal_ap.php:202
+msgid "Only required when doing live transactions."
+msgstr "只有即時交易時才是必需項目。"
+
+#: ../classes/gateways/PayPal_AdvPayments/paypal_ap.php:206
+msgid "Sandbox Credentials"
+msgstr "Sandbox 證書"
+
+#: ../classes/gateways/PayPal_AdvPayments/paypal_ap.php:208
+#, php-format
+msgid ""
+"You can signup for a sandbox developer account <a href=\"%s\">here</a>. You "
+"need a developer account if you want to enable Sandbox mode for testing."
+msgstr ""
+"你必須申請一個 <a href=\"%s\">sandbox developer account</a> 進行測試。於 "
+"Sandbox mode 下進行測試時，你需要此開發人員帳戶。"
+
+#: ../classes/gateways/PayPal_AdvPayments/paypal_ap.php:240
+msgid "Misc. Settings"
+msgstr "雜項設定"
+
+#: ../classes/gateways/PayPal_AdvPayments/paypal_ap.php:245
+msgid "Enable PayPal Sandbox mode"
+msgstr "啟動 PayPal Sandbox mode"
+
+#: ../classes/gateways/PayPal_AdvPayments/paypal_ap.php:251
+msgid "Enable logging"
+msgstr "啟用 logging"
+
+#: ../classes/gateways/PayPal_AdvPayments/paypal_ap.php:269
+msgid ""
+"The PayPal Adaptive Payments gateway can instantly pay your vendors their "
+"due commission (if enabled). Also used to mass pay vendors on a schedule / "
+"manual method (if enabled)."
+msgstr ""
+"PayPal Adaptive Payments gateway 可以立即支付供應商應有的佣金（如啟用）。也可"
+"使用時間表/手動方法以批量方式支付供應商的佣金（如啟用）。"
+
+#: ../classes/gateways/PayPal_AdvPayments/paypal_ap.php:280
+msgid "Gateway Disabled"
+msgstr "Gateway 停用"
+
+#: ../classes/gateways/PayPal_AdvPayments/paypal_ap.php:280
+#, php-format
+msgid "%s does not support your store currency."
+msgstr "%s 並不支援你店鋪使用的貨幣。"
+
+#: ../classes/gateways/PayPal_AdvPayments/paypal_ap.php:369
+#: ../classes/gateways/PayPal_AdvPayments/paypal_ap.php:483
+#: ../classes/gateways/PayPal_Masspay/class-paypal-masspay.php:153
+#, php-format
+msgid "Error: %s"
+msgstr "錯誤：%s"
+
+#: ../classes/gateways/PayPal_AdvPayments/paypal_ap.php:378
+#: ../classes/gateways/PayPal_AdvPayments/paypal_ap.php:379
+#, php-format
+msgid "Error ID: %s. %s"
+msgstr "錯誤碼：%s. %s"
+
+#: ../classes/gateways/PayPal_Masspay/class-paypal-masspay.php:115
+msgid "No vendors found to pay. Maybe they haven't set a PayPal address?"
+msgstr "未發現供應商需要支付。也許他們還未設定 PayPal 電郵地址？"
+
+#: ../classes/gateways/PayPal_Masspay/class-paypal-masspay.php:167
+msgid "All due commission has been paid for."
+msgstr "所有的未付佣金已經支付。"
+
+#: ../classes/gateways/PayPal_Masspay/class-paypal-masspay.php:173
+msgid ""
+"All due commission has been paid for, but I could not clear it from their "
+"profiles due to an internal error. Commission will still be listed as due. "
+"Please manually mark the commission as paid from the Commissions page."
+msgstr ""
+"所有的未付佣金已經支付。但由於內部錯誤，系統未能更新他們的付費紀錄。他們的佣"
+"金仍然被列為「未付」。請以手動標記的佣金為「已付」。"
+
+#: ../classes/gateways/PayPal_Masspay/class-paypal-masspay.php:208
+msgid "WooCommerce: Mass payments for vendors update"
+msgstr "WooCommerce: 以批量式付費給供應商已經更新。"
+
+#: ../classes/gateways/PayPal_Masspay/class-paypal-masspay.php:210
+msgid ""
+"Hello! A payment was just triggered to mass pay all vendors their due "
+"commission."
+msgstr "你好！系統剛啟動了以批次形式支付所有供應商應有的佣金用。"
+
+#: ../classes/gateways/PayPal_Masspay/class-paypal-masspay.php:211
+#, php-format
+msgid "Payment status: %s."
+msgstr "付款狀態：%s"
+
+#: ../classes/gateways/PayPal_Masspay/class-paypal-masspay.php:212
+#, php-format
+msgid "Payment message: %s."
+msgstr "付款訊息：%s"
+
+#: ../classes/gateways/PayPal_Masspay/class-paypal-masspay.php:215
+#, php-format
+msgid "Payment total: %s."
+msgstr "付款總額：%s"
+
+#: ../classes/gateways/WCV_Gateway_Test/class-wcv-gateway-test.php:35
+#: ../classes/gateways/WCV_Gateway_Test/class-wcv-gateway-test.php:71
+msgid "WC Vendors Test Gateway"
+msgstr "WC 供應商 Test Gateway"
+
+#: ../classes/gateways/WCV_Gateway_Test/class-wcv-gateway-test.php:36
+msgid ""
+"This gateway will set orders to processing upon receipt allowing you to test "
+"transactions in your store.  Some WooCommerce included gateways have "
+"problems with this - you should use this gateway for all of your non-PayPal "
+"testing."
+msgstr ""
+"此 Payment gateway 將在收到的訂單設置為處理中，以讓你進行測試交易。如發現一"
+"些 WooCommerce 預設的 Payment gateway 有問題，你應使用此 Payment gatewat 進行"
+"所有非 PayPal 的測試。"
+
+#: ../classes/gateways/WCV_Gateway_Test/class-wcv-gateway-test.php:64
+msgid "Enable WC Vendors Test Gateway Payment"
+msgstr "啟用 WC 供應商的測試用 Payment Gateway"
+
+#: ../classes/gateways/WCV_Gateway_Test/class-wcv-gateway-test.php:68
+msgid "Title"
+msgstr "標題"
+
+#: ../classes/gateways/WCV_Gateway_Test/class-wcv-gateway-test.php:77
+msgid "Payment method description that the customer will see on your checkout."
+msgstr "此付款方式說明，客戶會在你結帳看到。"
+
+#: ../classes/gateways/WCV_Gateway_Test/class-wcv-gateway-test.php:78
+msgid ""
+"This is a test gateway -- not to be used on live sites for live "
+"transactions. <a href=\"http://www.wcvendors.com/\" target=\"top\">Click "
+"here to visit WCVendors.com</a>."
+msgstr ""
+"這是一個測試用 Payment gateway - 並不能在正式的付款交易中使用。<a href="
+"\"http://www.wcvendors.com/\" target=\"top\">按此瀏覽更多 WCVendors.com</a>"
+
+#: ../classes/gateways/WCV_Gateway_Test/class-wcv-gateway-test.php:82
+msgid "Instructions"
+msgstr "使用說明"
+
+#: ../classes/gateways/WCV_Gateway_Test/class-wcv-gateway-test.php:84
+msgid ""
+"Success!  Your test order is now marked as processing and any vendors will "
+"be sent an email as long as you have the Notify Vendors email enabled under "
+"WooCommerce--Settings--Emails."
+msgstr ""
+"成功了！你的測試訂單現在被標記為處理中。如你已啟用了「供應商通知」，任何相關"
+"的供應商也會同時收到電郵通知。設定位置：WooCommerce - 供應商通知啟用電子郵件 "
+"- 設置 - 電子郵件。"
+
+#: ../classes/gateways/WCV_Gateway_Test/class-wcv-gateway-test.php:124
+msgid "Test gateway transation complete.  Order processing."
+msgstr "測試用的 gateway 交易已完成，訂單正在處理中。"
+
+#: ../templates/dashboard/denied.php:8
+msgid ""
+"Your account has not yet been approved to become a vendor.  When it is, you "
+"will receive an email telling you that your account is approved!"
+msgstr ""
+"你的帳戶尚未被批准成為供應商。如成功批核，你將收到一封帳戶被批准的電子郵件！"
+
+#: ../templates/dashboard/denied.php:12
+msgid "Your account is not setup as a vendor."
+msgstr "你的帳戶未設置為供應商。"
+
+#: ../templates/dashboard/denied.php:53
+msgid "Submit"
+msgstr "提交"
+
+#: ../templates/dashboard/orders.php:7 ../templates/dashboard/orders.php:10
+msgid "Hide items"
+msgstr "隱藏項目"
+
+#: ../templates/dashboard/orders.php:8 ../templates/dashboard/orders.php:75
+msgid "View items"
+msgstr "顯檢示目錄"
+
+#: ../templates/dashboard/orders.php:37
+msgid "Links"
+msgstr "連結"
+
+#: ../templates/dashboard/orders.php:76
+msgid "Unmark shipped"
+msgstr "標示為未送貨"
+
+#: ../templates/dashboard/orders.php:77
+msgid "Tracking"
+msgstr "追蹤"
+
+#: ../templates/dashboard/orders.php:136
+msgid "You have no orders during this period."
+msgstr "本期未有訂單"
+
+#: ../templates/dashboard/reports.php:1
+msgid "Sales Report"
+msgstr "銷售報表"
+
+#: ../templates/dashboard/reports.php:20
+msgid "Rate"
+msgstr "佣金比例"
+
+#: ../templates/dashboard/reports.php:47
+msgid "Show Orders"
+msgstr "題示訂單"
+
+#: ../templates/dashboard/reports.php:56
+msgid "Totals"
+msgstr "總數"
+
+#: ../templates/dashboard/reports.php:71
+msgid "You have no sales during this period."
+msgstr "你未有任何本期之銷售紀錄。"
+
+#: ../templates/dashboard/reports.php:82
+msgid "You haven't made any sales yet."
+msgstr "你未有任何銷售紀錄。"
+
+#: ../templates/dashboard/settings/settings.php:47
+msgid "Save"
+msgstr "儲存變更"
+
+#: ../templates/emails/admin-new-order.php:13
+#: ../templates/emails/vendor-new-order.php:13
+#, php-format
+msgid "You have received an order from %s. Their order is as follows:"
+msgstr "你收到由 %s 發出的訂單，訂單資料如下："
+
+#: ../templates/emails/admin-new-order.php:17
+#: ../templates/emails/notify-vendor-shipped.php:17
+#: ../templates/emails/vendor-new-order.php:17
+#, php-format
+msgid "Order: %s"
+msgstr "訂單： %s"
+
+#: ../templates/emails/admin-new-order.php:24
+#: ../templates/emails/notify-vendor-shipped.php:24
+#: ../templates/emails/vendor-new-order.php:24
+msgid "Price"
+msgstr "價錢"
+
+#: ../templates/emails/admin-new-order.php:50
+#: ../templates/emails/notify-vendor-shipped.php:50
+#: ../templates/emails/vendor-new-order.php:50
+msgid "Customer details"
+msgstr "顧客資料"
+
+#: ../templates/emails/admin-new-order.php:53
+#: ../templates/emails/notify-vendor-shipped.php:53
+#: ../templates/emails/vendor-new-order.php:53
+msgid "Email:"
+msgstr "電郵地址："
+
+#: ../templates/emails/admin-new-order.php:56
+#: ../templates/emails/notify-vendor-shipped.php:56
+#: ../templates/emails/vendor-new-order.php:56
+msgid "Tel:"
+msgstr "電話："
+
+#: ../templates/emails/application-status.php:5
+#, php-format
+msgid "Hi there. This is a notification about a vendor application on %s."
+msgstr "你好！有一個關於供應商申請的通知發出於 %s 。"
+
+#: ../templates/emails/application-status.php:8
+#, php-format
+msgid "Application status: %s"
+msgstr "申請狀態：%s"
+
+#: ../templates/emails/application-status.php:9
+#, php-format
+msgid "Applicant username: %s"
+msgstr "申請人用戶名稱：%s"
+
+#: ../templates/emails/new-product.php:5
+#, php-format
+msgid "Hi there. This is a notification about a new product on %s."
+msgstr "你好！有一個關於新加入貨品的通知發出於 %s 。"
+
+#: ../templates/emails/new-product.php:8
+#, php-format
+msgid "Product title: %s"
+msgstr "貨品名稱：%s"
+
+#: ../templates/emails/new-product.php:9
+#, php-format
+msgid "Submitted by: %s"
+msgstr "提交自：%s"
+
+#: ../templates/emails/new-product.php:10
+#, php-format
+msgid "Edit product: %s"
+msgstr "修改貨品：%s"
+
+#: ../templates/emails/notify-vendor-shipped.php:13
+msgid ""
+"A vendor has marked part of your order as shipped. The items that are "
+"shipped are as follows:"
+msgstr "供應商已將你部分的訂單標作「已發貨」，已發貨的貨品資料如下："
+
+#: ../templates/orders/comments/add-new-comment.php:11
+msgid "Add comment"
+msgstr "新增評論"
+
+#: ../templates/orders/comments/existing-comments.php:9
+#, php-format
+msgid "added %s ago"
+msgstr "於 %s 前加入"
+
+#: ../templates/orders/csv-export.php:6
+msgid "Export orders"
+msgstr "導出訂單列表"
+
+#: ../templates/orders/customer-note/customer-note.php:4
+msgid "Customer note"
+msgstr "顧客留言"
+
+#: ../templates/orders/customer-note/customer-note.php:8
+msgid "No customer note."
+msgstr "未有顧客留言。"
+
+#: ../templates/orders/orders.php:84
+#, php-format
+msgid "Comments (%s)"
+msgstr "評論 (%s)"
+
+#: ../templates/orders/shipping/shipping-form.php:6
+msgid "Provider:"
+msgstr "服務提供者："
+
+#: ../templates/orders/shipping/shipping-form.php:8
+msgid "Custom Provider"
+msgstr "自選服務提供者"
+
+#: ../templates/orders/shipping/shipping-form.php:31
+msgid "Provider Name:"
+msgstr "服務提供者名稱："
+
+#: ../templates/orders/shipping/shipping-form.php:40
+msgid "Tracking number:"
+msgstr "貨品追蹤號碼："
+
+#: ../templates/orders/shipping/shipping-form.php:48
+msgid "Tracking link:"
+msgstr "貨品追蹤連結："
+
+#: ../templates/orders/shipping/shipping-form.php:58
+msgid "Date shipped:"
+msgstr "發貨日期："
+
+#: ../templates/orders/shipping/shipping-form.php:66
+msgid "Preview:"
+msgstr "預覽："
+
+#: ../templates/orders/shipping/shipping-form.php:66
+msgid "Click here to track your shipment"
+msgstr "接此以追蹤你的貨運"
+
+#: ../templates/orders/shipping/shipping-form.php:75
+msgid "Update tracking number"
+msgstr "更新貨品追蹤號碼"
+
+#: ../templates/orders/shipping/shipping-form.php:77
+msgid "Mark as shipped"
+msgstr "標為已出貨"
+
+#: ../templates/orders/table-body.php:25
+#, php-format
+msgid "Quantity: %d"
+msgstr "數量: %d"

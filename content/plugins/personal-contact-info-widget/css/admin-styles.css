@@ -1,0 +1,62 @@
+.jsjr-pci-question {
+	text-decoration: none;
+	border: 1px solid #DDD;
+	padding:0px 5px 0px 5px;
+	margin:2px;
+	background-color:#FAFAFA;
+	color:#2EA2CC !important;
+}
+
+.jsjr-pci-accordion {
+	margin-bottom:15px;
+}
+
+.jsjr-pci-accordion h3 {
+	padding:12px;
+	border:1px solid #DDD;
+	background-color:#FAFAFA;
+	margin:0px 0px 10px 0px;
+	font-size:1em;
+}
+
+.jsjr-pci-accordion h3:hover {
+	border-color:#9D9D9D;
+}
+
+.jsjr-pci-accordion h3 + div{
+	border-left:1px solid #DDD;
+	border-right:1px solid #DDD;
+	border-bottom:1px solid #DDD;
+	padding:20px;
+	margin:-10px 0px 10px 0px;
+}
+
+.jsjr-pci-toggle:before{
+	content: "\25b8  ";
+	font-size:1.4em;
+	color:#AAA;
+}
+
+.jsjr-pci-toggle.down:before{
+	content: "\25be  ";
+	font-size:1.4em;
+	color:#AAA;
+}
+
+.ui-tooltip {
+	padding: 8px;
+	position: absolute;
+	z-index: 9999;
+	max-width: 300px;
+	-webkit-box-shadow: 0 0 10px #aaa;
+	box-shadow: 0 0 10px #aaa;
+	background-color:#fff;
+	font-weight:bold;
+}
+body .ui-tooltip {
+	border-width: 2px;
+}
+
+.jsjr-pci-accordion hr + p > label {
+	font-weight:bold;
+}

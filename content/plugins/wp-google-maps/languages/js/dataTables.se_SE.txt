@@ -1,0 +1,23 @@
+﻿{
+    "sEmptyTable":     "Ingen data finns tillgänglig i tabellen",
+    "sInfo":           "Visar _START_ till _END_ av _TOTAL_ inlägg",
+    "sInfoEmpty":      "Visar 0 till 0 av 0 inlägg",
+    "sInfoFiltered":   "(filtrerat från _MAX_ totalt inlägg)",
+    "sInfoPostFix":    "",
+    "sInfoThousands":  ",",
+    "sLengthMenu":     "Visa _MENU_ inlägg",
+    "sLoadingRecords": "Laddar...",
+    "sProcessing":     "Processar...",
+    "sSearch":         "Sök:",
+    "sZeroRecords":    "Inga matchande arkiv funna",
+    "oPaginate": {
+        "sFirst":    "Först",
+        "sLast":     "Sist",
+        "sNext":     "Nästa",
+        "sPrevious": "Tidigare"
+    },
+    "oAria": {
+        "sSortAscending":  ": aktivera för att sortera kolumnen ökande",
+        "sSortDescending": ": aktivera för att sortera kolumnen fallande"
+    }
+}

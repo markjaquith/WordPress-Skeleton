@@ -1,0 +1,299 @@
+@font-face {
+  font-family: 'lsi-fontello';
+  src: url('../fonts/fontello.eot?13736647');
+  src: url('../fonts/fontello.eot?13736647#iefix') format('embedded-opentype'),
+       url('../fonts/fontello.woff?13736647') format('woff'),
+       url('../fonts/fontello.ttf?13736647') format('truetype'),
+       url('../fonts/fontello.svg?13736647#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'fontello';
+    src: url('../font/fontello.svg?13736647#fontello') format('svg');
+  }
+}
+*/
+ 
+ [class^="lsicon-"]:before, [class*=" lsicon-"]:before {
+  font-family: "lsi-fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1.2em;
+  text-align: center;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1.2em;
+}
+ 
+
+.lsicon-email-alt:before { content: '\e800'; } /* '?' */
+.lsicon-email:before { content: '\e801'; } /* '?' */
+.lsicon-email-squared:before { content: '\e802'; } /* '?' */
+.lsicon-rss:before { content: '\e803'; } /* '?' */
+.lsicon-rss-squared:before { content: '\e804'; } /* '?' */
+.lsicon-phone:before { content: '\e805'; } /* '?' */
+.lsicon-phone-squared:before { content: '\e806'; } /* '?' */
+.lsicon-codepen:before { content: '\e807'; } /* '?' */
+.lsicon-delicious:before { content: '\e808'; } /* '?' */
+.lsicon-deviantart:before { content: '\e809'; } /* '?' */
+.lsicon-digg:before { content: '\e80a'; } /* '?' */
+.lsicon-dribbble:before { content: '\e80b'; } /* '?' */
+.lsicon-dropbox:before { content: '\e80c'; } /* '?' */
+.lsicon-facebook:before { content: '\e80d'; } /* '?' */
+.lsicon-facebook-squared:before { content: '\e80e'; } /* '?' */
+.lsicon-flickr:before { content: '\e80f'; } /* '?' */
+.lsicon-foursquare:before { content: '\e810'; } /* '?' */
+.lsicon-git-squared:before { content: '\e811'; } /* '?' */
+.lsicon-git:before { content: '\e812'; } /* '?' */
+.lsicon-github:before { content: '\e813'; } /* '?' */
+.lsicon-github-squared:before { content: '\e814'; } /* '?' */
+.lsicon-github-circled:before { content: '\e815'; } /* '?' */
+.lsicon-google:before { content: '\e816'; } /* '?' */
+.lsicon-gplus:before { content: '\e817'; } /* '?' */
+.lsicon-gplus-squared:before { content: '\e818'; } /* '?' */
+.lsicon-instagram:before { content: '\e819'; } /* '?' */
+.lsicon-jsfiddle:before { content: '\e81a'; } /* '?' */
+.lsicon-linkedin-squared:before { content: '\e81b'; } /* '?' */
+.lsicon-linkedin:before { content: '\e81c'; } /* '?' */
+.lsicon-pinterest-circled:before { content: '\e81d'; } /* '?' */
+.lsicon-pinterest:before { content: '\e81e'; } /* '?' */
+.lsicon-reddit:before { content: '\e81f'; } /* '?' */
+.lsicon-reddit-squared:before { content: '\e820'; } /* '?' */
+.lsicon-skype:before { content: '\e821'; } /* '?' */
+.lsicon-soundcloud:before { content: '\e822'; } /* '?' */
+.lsicon-spotify:before { content: '\e823'; } /* '?' */
+.lsicon-stackexchange:before { content: '\e824'; } /* '?' */
+.lsicon-stackoverflow:before { content: '\e825'; } /* '?' */
+.lsicon-stumbleupon:before { content: '\e826'; } /* '?' */
+.lsicon-stumbleupon-circled:before { content: '\e827'; } /* '?' */
+.lsicon-tumblr-squared:before { content: '\e828'; } /* '?' */
+.lsicon-tumblr:before { content: '\e829'; } /* '?' */
+.lsicon-twitter-squared:before { content: '\e82a'; } /* '?' */
+.lsicon-twitter:before { content: '\e82b'; } /* '?' */
+.lsicon-vimeo:before { content: '\e82c'; } /* '?' */
+.lsicon-vine:before { content: '\e82d'; } /* '?' */
+.lsicon-wordpress:before { content: '\e82e'; } /* '?' */
+.lsicon-youtube:before { content: '\e82f'; } /* '?' */
+.lsicon-youtube-squared:before { content: '\e830'; } /* '?' */
+.lsicon-itunes:before { content: '\e831'; } /* '?' */
+.lsicon-steam:before { content: '\e832'; } /* '?' */
+.lsicon-steam-squared:before { content: '\e833'; } /* '?' */
+.lsicon-behance:before { content: '\e834'; } /* '?' */
+.lsicon-behance-squared:before { content: '\e835'; } /* '?' */
+.lsicon-yelp:before { content: '\e836'; } /* '?' */
+.lsicon-twitch:before { content: '\e837'; } /* '?' */
+.lsicon-fivehundredpx:before { content: '\e838'; } /* '?' */
+.lsicon-angellist:before { content: '\e839'; } /* '?' */
+.lsicon-bloglovin-squared:before { content: '\e83a'; } /* '?' */
+.lsicon-bloglovin:before { content: '\e83b'; font-size:80%; } /* '?' */
+.lsicon-paper-plane:before { content: '\e83c'; } /* '?' */
+.lsicon-vkontakte:before { content: '\e83d'; } /* '?' */
+
+.lsi-social-icons {
+	margin: 0 !important;
+	padding: 0 !important;
+	list-style-type: none !important;
+	display: block !important;
+}
+
+.lsi-social-icons li:before,
+.lsi-social-icons li:after {
+	content: '' !important;
+	display: none !important;
+}
+
+.lsi-social-icons li {
+	padding:0 !important;
+	display: inline-block !important;
+	*display: inline;
+	*zoom: 1;
+	float: none !important;
+	margin: 0 8px 8px 0 !important;
+	list-style-type: none !important;
+}
+
+.lsi-social-icons li a {
+	padding: 8px;
+	width: 1.2em;
+	line-height: 1.2em;
+	text-align: center;
+	display: block;
+	text-decoration: none !important;
+	font-style: normal !important;
+	font-weight: normal !important;
+	text-transform: none  !important;
+	speak: none;
+	-moz-transition: background-color 0.2s ease-in-out 0s;
+	-webkit-transition: background-color 0.2s ease-in-out 0s;
+	transition: background-color 0.2s ease-in-out 0s;
+	-moz-box-sizing: content-box;
+	-webkit-box-sizing: content-box;
+	box-sizing: content-box;
+}
+
+.tooltipster-default {
+	border-radius: 5px; 
+	border: 0;
+	background: #000;
+	color: #fff;
+}
+
+/* Use this next selector to style things like font-size and line-height: */
+.tooltipster-default .tooltipster-content {
+	font-family: inherit;
+	font-size: 12px;
+	line-height: 13px;
+	padding: 8px 10px;
+	overflow: hidden;
+}
+
+/* This next selector defines the color of the border on the outside of the arrow. This will automatically match the color and size of the border set on the main tooltip styles. Set display: none; if you would like a border around the tooltip but no border around the arrow */
+.tooltipster-default .tooltipster-arrow .tooltipster-arrow-border {
+	/* border-color: ... !important; */
+}
+
+
+/* If you're using the icon option, use this next selector to style them */
+.tooltipster-icon {
+	cursor: help;
+	margin-left: 4px;
+}
+
+/* This is the base styling required to make all Tooltipsters work */
+.tooltipster-base {
+	padding: 0;
+	font-size: 0;
+	line-height: 0;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 9999999;
+	pointer-events: none;
+	width: auto;
+	overflow: visible;
+}
+.tooltipster-base .tooltipster-content {
+	overflow: hidden;
+}
+
+
+/* These next classes handle the styles for the little arrow attached to the tooltip. By default, the arrow will inherit the same colors and border as what is set on the main tooltip itself. */
+.tooltipster-arrow {
+	display: block;
+	text-align: center;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+.tooltipster-arrow span, .tooltipster-arrow-border {
+	display: block;
+	width: 0; 
+	height: 0;
+	position: absolute;
+}
+.tooltipster-arrow-top span, .tooltipster-arrow-top-right span, .tooltipster-arrow-top-left span {
+	border-left: 8px solid transparent !important;
+	border-right: 8px solid transparent !important;
+	border-top: 8px solid;
+	bottom: -7px;
+}
+.tooltipster-arrow-top .tooltipster-arrow-border, .tooltipster-arrow-top-right .tooltipster-arrow-border, .tooltipster-arrow-top-left .tooltipster-arrow-border {
+	border-left: 9px solid transparent !important;
+	border-right: 9px solid transparent !important;
+	border-top: 9px solid;
+	bottom: -7px;
+}
+
+.tooltipster-arrow-bottom span, .tooltipster-arrow-bottom-right span, .tooltipster-arrow-bottom-left span {
+	border-left: 8px solid transparent !important;
+	border-right: 8px solid transparent !important;
+	border-bottom: 8px solid;
+	top: -7px;
+}
+.tooltipster-arrow-bottom .tooltipster-arrow-border, .tooltipster-arrow-bottom-right .tooltipster-arrow-border, .tooltipster-arrow-bottom-left .tooltipster-arrow-border {
+	border-left: 9px solid transparent !important;
+	border-right: 9px solid transparent !important;
+	border-bottom: 9px solid;
+	top: -7px;
+}
+.tooltipster-arrow-top span, .tooltipster-arrow-top .tooltipster-arrow-border, .tooltipster-arrow-bottom span, .tooltipster-arrow-bottom .tooltipster-arrow-border {
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+}
+.tooltipster-arrow-top-left span, .tooltipster-arrow-bottom-left span {
+	left: 6px;
+}
+.tooltipster-arrow-top-left .tooltipster-arrow-border, .tooltipster-arrow-bottom-left .tooltipster-arrow-border {
+	left: 5px;
+}
+.tooltipster-arrow-top-right span,  .tooltipster-arrow-bottom-right span {
+	right: 6px;
+}
+.tooltipster-arrow-top-right .tooltipster-arrow-border, .tooltipster-arrow-bottom-right .tooltipster-arrow-border {
+	right: 5px;
+}
+.tooltipster-arrow-left span, .tooltipster-arrow-left .tooltipster-arrow-border {
+	border-top: 8px solid transparent !important;
+	border-bottom: 8px solid transparent !important; 
+	border-left: 8px solid;
+	top: 50%;
+	margin-top: -7px;
+	right: -7px;
+}
+.tooltipster-arrow-left .tooltipster-arrow-border {
+	border-top: 9px solid transparent !important;
+	border-bottom: 9px solid transparent !important; 
+	border-left: 9px solid;
+	margin-top: -8px;
+}
+.tooltipster-arrow-right span, .tooltipster-arrow-right .tooltipster-arrow-border {
+	border-top: 8px solid transparent !important;
+	border-bottom: 8px solid transparent !important; 
+	border-right: 8px solid;
+	top: 50%;
+	margin-top: -7px;
+	left: -7px;
+}
+.tooltipster-arrow-right .tooltipster-arrow-border {
+	border-top: 9px solid transparent !important;
+	border-bottom: 9px solid transparent !important; 
+	border-right: 9px solid;
+	margin-top: -8px;
+}
+
+
+/* Some CSS magic for the awesome animations - feel free to make your own custom animations and reference it in your Tooltipster settings! */
+
+.tooltipster-fade {
+	opacity: 0;
+	-webkit-transition-property: opacity;
+	-moz-transition-property: opacity;
+	-o-transition-property: opacity;
+	-ms-transition-property: opacity;
+	transition-property: opacity;
+}
+.tooltipster-fade-show {
+	opacity: 1;
+}
+
+/* CSS transition for when contenting is changing in a tooltip that is still open. The only properties that will NOT transition are: width, height, top, and left */
+.tooltipster-content-changing {
+	opacity: 0.5;
+	-webkit-transform: scale(1.1, 1.1);
+	-moz-transform: scale(1.1, 1.1);
+	-o-transform: scale(1.1, 1.1);
+	-ms-transform: scale(1.1, 1.1);
+	transform: scale(1.1, 1.1);
+}

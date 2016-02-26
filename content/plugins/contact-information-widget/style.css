@@ -1,0 +1,43 @@
+body {
+    color: #00000;
+    font-family:Arial,Helvetica,sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 20px;
+	background-color:#fff;
+}
+.ciw_contactinformation{
+	margin: 0;
+	padding: 0; 
+	float:left; 
+	width:100%;
+	font-size: 18px;
+    font-size:16px;
+    line-height: 26px;
+	color:#666666;
+	}
+.ciw_contactinformation .fa
+{
+	border: 1px solid #B3B3B3;  
+    border-radius: 50%;
+    color: #919191;
+    float: left;
+    margin-right: 14px;
+    padding-bottom: 6px;
+    padding-top: 7px;
+    text-align: center;
+    width: 30px;
+}
+.ciw_address{margin: 0px 0px 20px 0px;border:0;}
+.ciw_address_content{margin: 0px 0px 0px 10px; border:0;}
+.ciw_company_name{ border:0;}
+.ciw_contact_address{margin-left: 30px;border:0; padding-top:10px;}
+.ciw_phone{margin: 0px 0px 20px 0px;border:0;}
+.ciw_contact_phone{ border:0;}
+.ciw_contact_phone a{ color:#666666; text-decoration:none;border:0 !important;}
+.ciw_contact_phone a:hover{ color:#000000;}
+.ciw_email{margin: 0px 0px 10px 0px;border:0;}
+.ciw_contact_email{ border:0;border:0;}
+.ciw_contact_email a{ color:#666666;text-decoration:none;border:0 !important;}
+.ciw_contact_email a:hover{ color:#000000;}
+

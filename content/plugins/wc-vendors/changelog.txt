@@ -1,0 +1,399 @@
+Changelog for WC Vendors
+
+Version 1.8.6 
+
+* Fixed: Critical issue with paypal loading classes incorrectly
+
+Version 1.8.5 
+
+* Fixed: Issue with PayPal on some sites - Rolled back issue #247
+* Fixed: Reverted ticket #216 for email conflicts
+* Added: New KnowledgeBase URL
+
+Version 1.8.4 
+
+* Added: Removed fields from users that aren't vendors
+* Added: actions to hook into approve/deny vendor
+* Added: Ability to integrate with any order status for emails #216
+* Added: Terms & Conditions Opens in New Tab #246
+* Updated: Added trigger for on-hold to processing/completed for Notify Vendor Email #238
+* Updated: Settings page helper text and clarifications
+* Fixed: Sold by formatting issue #248
+* Fixed: wp_redirect caches with W3 Total Cache #237
+* Fixed: Bug in single page settings generator
+* Fixed: Category title missing bug #213
+* Fixed: Undefined index for non vendor users
+* Merge: pull request #247 from archonic/hotfix/oauth-class-exists
+
+
+Version 1.8.3 
+
+* Fixed: Fatal Error on activation Merge pull request #235 from oleggen/patch-1
+* Added: Seller info label option
+
+Version 1.8.2
+
+* Added: Sold By label option
+* Added: New Vendor Commission Totals Report #234
+* Fixed: Added 'Shipped' if marked as shipped #233 can be found on WooCommerce > Reports > WC Vendors > Commission Totals
+* Fixed: Renamed internal function to stop theme and plugin clash
+
+Version 1.8.1 
+
+* Added: New options updated action for settings
+* Added: New plugin activation hook for testing woocommerce active 
+* Added: vendor id to get shipping due  filter
+* Added: Warning on settings page if user registration in WooCommerce is not enabled
+* Added: Russian Translations thanks Natalia
+
+Version 1.8.0 
+
+* Fixed: Mark $0.00 commissions as paid instead of due #205
+* Fixed: Email trigger should be filter not action - Thanks ontiuk #215
+* Updated: Read me with link to Pro and Updated Language List
+* Added: Portuguese Language (Thanks Renato) #212 
+* Remove Forced HTTP Protocol on Sent IPN URL #207 from GoTeamScotch
+
+Version 1.7.9 
+
+* Fixed: woocommerce filter and action issues on product edit page 
+
+Version 1.7.8 
+
+* Fixed: Vendors can not register #193
+* Fixed: Variation product image upload #194
+* Added: Order actions thanks GoTeamScotch
+* Updated: New item meta in WC 2.4+ 
+* Updated: WooCommerce Shipment Tracking v1.2.7+ 
+* Fixed: Paypal Logging thanks to GoTeamScotch
+* Updated: Templates now fully translatable #195 
+* Fixed: Translations not loading bug
+* Fixed: vendors not defined error
+* Updated: Base translation files
+
+Version 1.7.7 
+
+* Fixed: Terms and conditions processing #182
+* Added: filter to order note for overrides
+* Added: Order note for marked shipped #187
+* Fixed: order retrieval for wp-admin orders table for vendors
+* Fixed:  pagination bug #179
+* Updated: styles for orders table in admin for vendors
+* Fixed: Vendor displaying issue #180
+* Updated: Admin Commission Report Column Names #183 
+* Updated: Admin Commissions Page now shows times a product has sold in total #184 
+
+Version 1.7.6
+
+* Added: Stock notifications go to vendors #114
+* Fixed: Instant Pay bug #174
+* Fixed: wcv_vendorslist paging #178
+* Added: Vendor display name now translatable
+* Depreciated: Dashboard vendor reports
+* Added: Chinese Language files thanks to SundayLau
+* Fixed: Added support for WPML #177
+* Update: default pot language file
+
+Version 1.7.5
+
+* Merged: Check product post type in vendor dashboard thanks simplementNat
+* Updated: Base language file
+* Updated: Compatibility for Shipment Tracking for v1.3.5 #167
+* Fixed: Shipping taxes 
+* Fixed: Pending Products for Vendors #168
+* Added: Vendor shipping override #171 
+* Added: Give Tax Per Vendor Override #56
+* Added: Hide duplicate product option
+* Fixed: Email firing for pending status only
+* Updated: Unified vendor-main/mini-header variables
+* Fixed: Email template paths to woocommerce paths
+* Merged: Updated Brazilian Portuguese thanks carlosramosweb
+* Added: Seller Info to header #161
+* Updated: Spanish Translations #160
+* Updated: Brazilian Portuguese Language #156 
+
+Version 1.7.4
+
+* Added: Mark shipped filter #157
+* Fixed: Added Tax total to vendor email #146
+* Updated: Location of email templates in theme to wc-vendors/emails
+* Added: User email to Vendor Display Options #158
+* Fixed: Mass Pay Now Bug #159
+* Fixed: Mark as shipped for downloadable product #40
+* Added:  Brazilian Portuguese language #156 
+* Updated: Default Language file
+* Fixed: Translation issue for query test #155
+* Updated: Template base for emails
+* Fixed: Vendor email and renamed template #135
+* Fixed: Better CSV Output #63
+* Fixed: Made PayPal optional on Vendor Dashboard Shop Settings #144
+* Update: fixed return query var
+* Fixed: Test for product post types #149
+* Fixed: 2.1 Depreciated return call
+* Fixed: PHP Strict static call in commissions class
+* Merged: Is Vendor checks all user roles #147 thanks crabilld
+
+Version 1.7.3
+
+* Fixed: Paypal AP IPN url issue
+
+Version 1.7.2 
+
+* Added: Filters for seller tab #141
+* Fixed: URI Too Large Error #143
+* Fixed: Give tax to vendors #142
+* Updated: Spanish Translations #140
+* Added: Persian Translation #139
+
+Version 1.7.1 
+
+* Fixed: Invalid argument on new orders dashboard page #138
+* Updated: Base translation file
+
+Version 1.7.0
+
+* Fixed: add_query_arg/remove_query_arg XSS issue
+* Fixed: Hide Notice not working for admin settings
+* Added: Shop Settings page in WordPress dashboard
+* Added: Orders page in WordPress dashboard 
+
+Version 1.6.2
+
+* Added: Option to change sold by vendor name #106
+* Fixed: Error notice in vendor dashboard #133
+* Fixed: Pagination in commissions admin screen #68
+* Added: Support for WooCommerce Order Status Manager
+* Fixed: Updated media filter method for vendors #132
+* Fixed: Commission not logged for variations #131
+
+Version 1.6.1 
+
+* Fixed: Support for Per Product Shipping 2.2.x #126
+* Added: Filter to change commission label in vendor email #127
+
+Version 1.6.0 
+
+* Added: Admin notices for vendor page slug & permalinks
+* Fixed: Plugin row meta links
+* Added: Upgrade notice
+* Fixed: Rounding issue #120
+* Fixed: Paypal https host check depreciated call
+* Added: show_products attribute #107
+* Updated: Text in denied template to make more sense when registration disabled #123
+* Updated: wcv_vendorslist shortcode now shows 3 column output #123
+* Fixed: Index issue #122
+* Updated: New plugin and template directory structure - IMPORTANT READ KB
+
+Version 1.5.0
+
+* Added: Spanish translation thanks Mauricio
+* Added: French translation thanks JP
+* Added: CSS class for sold by (classes same as filters in those files)
+* Fixed: Paypal return URL 
+* Added: Vendor Dashboard UI Improvements
+* Added: WC Vendors Test Gateway
+* Updated: ToolTips to be more helpful
+* Added: Admin option for not giving shipping cost to vendor
+* Fixed: Disable notify admin 
+* Fixed: Mark as shipped/unshipped 
+* Fixed: Duplicate column name 
+
+Version 1.4.5 
+
+* Updated: select2 3.5.2 for settings api
+* Fixed: Replaced Chosen with Select2 #102
+* Fixed: Table Rate Shipping issue #103
+* Fixed: Featured column issue #100
+* Updated: Filter call for report
+* Fixed: Call to depreciated function #98
+
+Version 1.4.4
+
+* Fixed: Hardcoded table in wcv_vendorslist shortcode 
+
+Version 1.4.3
+
+* Fixed: Placeholder on Product Reports
+
+Version 1.4.2 
+
+* Added: Commission status sort to commissions page 
+* Fixed: Recent Commissions limit of 20 now works on selected date range
+* Fixed: Report By product in WC2.3 
+* Fixed: Vendor Report date selector in wp-admin 
+* Fixed: Tracking plugin Order Meta
+* Added: New filter wcvendors_dashboard_google_maps_link
+* Fixed: Formatting error for Google maps link
+* Added: New actions in vendor-dashboard wcvendors_vendor_unship, wcvendors_vendor_ship (thanks Nathan H) 
+
+Version 1.4.1
+
+* Fixed: Language file loading issue 
+* Fixed: Static function calls in commision class for php 5.6
+* Fixed: Static call in Vendor Cart 
+* Added: New language files for de_AT, de_DE (thanks to theHubi), it_IT (thanks to Nicole)
+* Added: New actions for main and mini headers (before and after see KB)
+
+Version 1.4.0
+
+* Added: product category + vendor shortcode [wcv_product_category category="category" vendor="vendorname"]
+* Added: Tracking number support via WooThemes Shipment Tracking plugin
+* Added: Google Maps for delivery address on front end
+* Fixed: woocommerce_wp_text_input via merged pull request from svenl77
+* Added: Vendor List shortcode [wcv_vendorlist] + template for styling see KB for full details 
+* Fixed: Report not showing Commission by Product
+* Fixed: Paths in language files
+
+Version 1.3.1
+
+* Fixed: Sold by in invoices 
+
+Version 1.3.0
+
+* Added: show vendor on all emails #29
+* Fixed: Critical issue #58
+* Added: Vendor header templates #65
+* Added: Vendor to QuickEdit #12
+* Fixed: Updating notices to use 2.1 Notice API #62
+* Added: wcvendors_registration_checkbox filter to denied.php template view
+* Added: wcvendors_vendor_registration_checkbox filter to filter "Apply to become a vendor?" at registration.
+* Added: wcvendors_vendor_registration_checkbox to filter "Apply to become a vendor?"
+
+Version 1.2.0
+
+* Added new filters to change sold by text see Knowledge base for details
+* Added sold by to product loop for archive-product.php, see knowledge base on how to disable or change this
+* Added new option to hide "Featured product" from vendors
+* Added Sold By Filter as per #3
+* Removing unused tag filter
+* Updated default.pot 
+* Fixing attribute bug #48 - Thanks to gcskye
+* Removing legacy translations
+* Fixed Orders view errors
+* Fixing call to incorrect method #45
+
+Version 1.1.5
+
+* Fixed orders view to remove incorrect call to woocommerce print messages
+
+Version 1.1.4
+
+* Fixed called to incorrect notice method
+* Moved methods into parent class See #41
+* PHP Strict updates
+* Deprecated Class due to PHP strict issues
+* fixing static call
+* Tidying up and comments.
+* Renaming class to new standard
+* Removing deprecated wc methods.
+* Fixing incorrect method call
+* Problem with undefined variable.
+* fixing static call issues
+* fixing static call problems
+* Fixing more strict issues
+* fixing encoding issue
+* Fixing tax rounding issue #37
+* Fixing deprecated calls #42
+* Fixing strict standards
+* Fixing constant reference #36
+* Fixed reference to old plugin name
+* Fixing strict errors #27
+* New Default POT translations #26
+* Fixing translation strings #26
+* Updated description
+* Fix link to paypal adaptive payments #25
+* Fixing issue #22
+* Remove support for woo commerce 2.1 and below
+* Class rename
+* Fixed incorrect table name see #35
+* Fixed Class description
+* Added label on vendor email shipping line see #22
+* Fix issue #23 Notify vendor email problem
+* Fixing Issue #28 & removing WC2.0 support
+* Strict Standards in WCV_Vendors #32
+* Fixing Issue #31 PHP Strict Issues
+* Fixing Issue #30 PHP Strict Standards
+* Change Log added for release changes
+* WC Version Requirement changed
+* Updating author to include wc after modifications
+* Rename class
+* Fixing up link to documentation
+* Updated Readme
+
+Version 1.1.3
+
+*  Fixing table names for compatibility
+*  Rename class
+*  Fixing Fatal error #18
+*  Fatal error fixed, version bump
+*  Fixing Class call
+*  Fixing all references to incorrect class name
+*  Commission and report fixes
+*  Fixing spelling
+*  Update readme.txt
+*  Fixing author
+*  Version bump
+*  Check if shipping is enabled
+*  Comment for future reference
+
+Version 1.1.1 
+
+*  Start of adding woocomerce short codes enhanced
+*  Shortcodes class
+*  Removing temp file
+*  Adding short code support
+*  Version Bump
+*  PHP Strict Issue #5
+*  Fatal Error: Class 'PV_Commission' #14
+*  Fixing references to PV_Vendors
+*  Renamed filters and actions
+*  Rename Reports Submenu #15
+*  "Mark Shipped" Icon #16
+*  Version increased after bug fixes
+
+Version 1.0.2
+
+*  Fix up admin settings notices
+*  Renamed shortcodes
+*  Version bump for short code rename
+
+
+Version 1.0.1 
+
+*  Initial Commit
+*  First commit - no modifications to existing plugin
+*  Updating README
+*  Update README.md
+*  Features added
+*  Updated Details of plugin
+*  Fixing up formatting
+*  More fixes.
+*  Updating readme
+*  Updating more details
+*  Update denied.php
+*  Added mac file ignore
+*  updated read me
+*  Plugin Rename
+*  Plugin rename
+*  Rename plugin
+*  Rename plugin
+*  more updates
+*  Plugin Updater removed
+*  Updating text domain
+*  Basic rename complete
+*  Replacement includes classes
+*  text domain updates
+*  text domain updates
+*  new change log for new fork
+*  Rename main class
+*  renaming constants
+*  updated constants
+*  plugin constant
+*  Renaming queries class
+*  constants updated
+*  rename vendor shop class
+*  rename vendor cart class
+*  Renaming classes
+*  Author updates
+*  Class renaming
+*  Version bump

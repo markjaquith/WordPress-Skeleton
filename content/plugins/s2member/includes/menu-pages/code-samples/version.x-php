@@ -1,0 +1,12 @@
+<?php echo S2MEMBER_VERSION; ?>
+This may output something like: 110620
+(or whatever the current version number is)
+Use PHP's version_compare() function to test this.
+
+Note: s2Member versions now follow their release date.
+Ex: s2Member v110620 was released June 20th 2011.
+ (YYMMDD format)
+
+---- s2member Shortcode Equivalent ----
+
+[s2Get constant="S2MEMBER_VERSION" /]

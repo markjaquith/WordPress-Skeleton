@@ -1,0 +1,236 @@
+#cff-admin th.bump-left,
+#cff-admin a.bump-left{
+    padding-left: 10px;
+}
+#cff-admin .cff-tooltip{
+	display: none;
+	padding: 10px 0;
+}
+#cff-admin .cff-tooltip ul{
+	margin-top: 0;	
+	margin-bottom: 0;
+}
+#cff-admin .cff-tooltip li{
+	padding: 4px 0;
+}
+#cff-admin .cff-tooltip-link,
+#cff-admin .cff-external-link{
+	font-size: 13px;
+	margin-left: 10px;
+}
+#cff-admin .cff-more-info{
+	padding: 10px 15px;
+	margin: 10px 0;
+	font-size: 13px;
+	background: #f9f9f9;
+	background: rgba(255,255,255,0.8);
+	
+	-moz-border-radius: 8px;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
+}
+#cff-admin .postbox .cff-more-info{
+	background: #eee;
+	background: rgba(0,0,0,0.05);
+}
+#cff-admin .cff-more-info p{
+	font-size: 13px;
+}
+#cff-admin hr{
+	border: none;
+	margin: 25px 0;
+	border-bottom: 1px solid #ccc;
+}
+#cff-admin select{
+	width: 150px;
+}
+#wpbody-content #cff-admin .metabox-holder {
+	padding-top: 0;
+}
+#cff-admin .cff-profile-error{
+	display: none;
+
+	margin-top: 5px;
+	background: #F7E6E6;
+	padding: 5px 10px;
+	border: 1px solid #BA7B7B;
+	color: #592626;
+
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+}
+#cff-admin .cff-profile-error p{
+	margin: 0;
+	padding: 5px 0;
+}
+#cff-admin .cff-tooltip-table label{
+	display: block;
+	float: left;
+	width: 60px;
+	margin-top: 5px;
+}
+#cff-admin .hndle{
+	/*background: #333;
+	color: #fff;*/
+	font-size: 16px;
+}
+
+
+
+#cff-admin #cff-header-icon-example{
+	font-size: 28px;
+	top: 6px;
+	margin-left: 5px;
+	position: relative;
+}
+#cff-admin #cff-api-test-result{
+	width: 50%;
+	clear: both;
+	margin: 10px 0 0 0;
+	position: relative;
+}
+#cff-admin #cff-api-test-result textarea{
+	width: 100%;
+	height: 250px;
+	display: none;
+}
+#cff-admin .cff-error{
+	background: #F7E6E6;
+	border: 1px solid #BA7B7B;
+	color: #592626;
+}
+#cff-admin .cff-success{
+	background: #f7faf1;
+	border: 1px solid #5c783e;
+	color: #3e5f1c;
+}
+/* Loader */
+#cff-admin .cff-loader{
+	display: none;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 16px;
+	height: 16px;
+	margin-top: -8px;
+	margin-left: -8px;
+
+	background: url('../img/loader-light.gif') no-repeat;
+}
+
+#cff-admin #cff-others-only{
+	margin-top: 8px;
+	display: none;
+}
+
+#cff-admin .cff-definition{
+	display: inline;
+	margin-left: 20px;
+}
+
+
+/* Translation table */
+#cff-admin .cff-translate-table input{
+    width: 100%;
+}
+#cff-admin .cff-translate-table .cff-translate-date input{
+    width: 74%;
+}
+#cff-admin .cff-translate-table.form-table th,
+#cff-admin .cff-translate-table.form-table td{
+    border: 1px solid #ddd;
+    padding: 8px 10px;
+    vertical-align: top;
+}
+#cff-admin .cff-translate-table.form-table thead th{
+    background: #333;
+    border: 1px solid #333;
+    border-right: 1px solid #999;
+    color: #fff;
+}
+#cff-admin .cff-translate-date label{
+    width: 25%;
+    float: left;
+    padding-top: 5px;
+}
+#cff-admin .cff-translate-table .cff-table-header{
+    background: #ddd;
+}
+#cff-admin .cff-translate-table.form-table .cff-context{
+    font-size: 13px;
+}
+
+
+#cff-admin .admin-notice a{
+    display: block;
+    color: #e24f0e;
+    text-decoration: none;
+}
+#cff-admin .admin-notice a:hover{
+    color: #333;
+}
+#cff-admin .admin-notice b{
+    font-size: 14px;
+}
+
+
+
+/* Post Layouts */
+#cff-admin .cff-layouts{
+    width: 100%;
+    clear: both;
+    overflow: hidden;
+}
+#cff-admin .cff-layout{
+    padding: 0;
+    float: left;
+    width: 25%;
+    padding: 1%;
+    margin-right: 1%;
+    background: #f6f6f6;
+    border: 1px solid #ddd;
+
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+#cff-admin .cff-layout:hover,
+#cff-admin .cff-layout:focus{
+    background: #fcfcfc;
+    cursor: pointer;
+}
+#cff-admin .cff-layout.cff-layout-selected{
+    background: #f7faf1;
+    border: 1px solid #7ad03a;
+}
+#cff-admin .cff-layout h3{
+    font-size: 15px;
+    margin-top: 0;
+}
+#cff-admin .cff-layout img{
+    width: 100%;
+    border: 1px solid #ddd;
+}
+
+/* Disabled */
+#cff-admin .cff-disabled{
+	zoom: 1;
+	filter: alpha(opacity=60);
+	opacity: 0.6;
+}
+#cff-admin .cff-layout:hover,
+#cff-admin .cff-layout:focus{
+    background: #f6f6f6;
+    cursor: default;
+}
+
+/* Access Token field */
+#cff-admin .cff-access-token-hidden{
+	display: none;
+}
+
+/* Add Facebook dashicon to CFF admin menu */
+#toplevel_page_cff-top .toplevel_page_cff-top .wp-menu-image:before{
+	content: "\f305";
+}

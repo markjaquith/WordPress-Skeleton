@@ -1,0 +1,1516 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Google Maps\n"
+"POT-Creation-Date: 2014-02-11 13:53+0200\n"
+"PO-Revision-Date: 2015-10-06 09:50+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.10\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: sv_SE\n"
+"X-Poedit-SearchPath-0: C:\\wamp\\www\\wordpress361\\wp-content\\plugins\\wp-"
+"google-maps\n"
+"X-Poedit-SearchPath-1: C:\\wamp\\www\\wordpress361\\wp-content\\plugins\\wp-"
+"google-maps-pro\n"
+"X-Poedit-SearchPath-2: C:\\wamp\\www\\wordpress361\\wp-content\\plugins\\wp-"
+"google-maps-gold\n"
+"X-Poedit-SearchPath-3: C:\\wamp\\www\\wordpress361\\wp-content\\plugins\\wp-"
+"google-maps-store-locator\n"
+"X-Poedit-SearchPath-4: C:\\wamp\\www\\wordpress361\\wp-content\\plugins\\wp-"
+"google-maps-ugm\n"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/newEmptyPHP1.php:240
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/newEmptyPHP1.php:252
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:1526
+msgid "Getting your current location address..."
+msgstr "Hämtar adressen för din aktuella position"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/newEmptyPHP1.php:735
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/newEmptyPHP1.php:1541
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:1518
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:2130
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:2547
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-gold/wp-google-maps-gold.php:759
+msgid "More details"
+msgstr "Mera detaljer"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/newEmptyPHP1.php:788
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:1523
+msgid "Get directions"
+msgstr "Hämta vägbeskrivning"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/newEmptyPHP1.php:860
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:1524
+msgid "My location"
+msgstr "Min position"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/newEmptyPHP1.php:945
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:1525
+msgid "Please fill out both the 'from' and 'to' fields"
+msgstr "Vänligen fyll i både 'från' och 'till' fälten"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/newEmptyPHP1.php:1226
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/newEmptyPHP1.php:1310
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:1843
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:1925
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-gold/wp-google-maps-gold.php:444
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-gold/wp-google-maps-gold.php:528
+msgid "Geocode was not successful for the following reason"
+msgstr "Geocode lyckades inte av följande skäl"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/newEmptyPHP1.php:1648
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-gold/wp-google-maps-gold.php:866
+msgid "Advanced Map Settings"
+msgstr "Avancerade Kartinställningar"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/newEmptyPHP1.php:1649
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-gold/wp-google-maps-gold.php:867
+msgid ""
+"Use the <a href='http://gmaps-samples-v3.googlecode.com/svn/trunk/styledmaps/"
+"wizard/index.html' target='_BLANK'>Google Maps API Styled Map Wizard</a> to "
+"get your style settings"
+msgstr ""
+"Använd <a href='http://gmaps-samples-v3.googlecode.com/svn/trunk/styledmaps/"
+"wizard/index.html' target='_BLANK'>Google Maps API Styled Map Wizard</a> för "
+"att hämta dina stilinställningar"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/newEmptyPHP1.php:1654
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-gold/wp-google-maps-gold.php:872
+msgid "Enable Mass Marker Support"
+msgstr "Aktivera multimarkörstöd"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/newEmptyPHP1.php:1657
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/newEmptyPHP1.php:1666
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:1394
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:1470
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:1827
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:1904
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:1913
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:1921
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:2101
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:568
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:672
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:680
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:687
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:784
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro_categories.php:35
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-gold/wp-google-maps-gold.php:875
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-gold/wp-google-maps-gold.php:884
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-ugm/wp-google-maps-ugm.php:98
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-ugm/wp-google-maps-ugm.php:116
+msgid "Yes"
+msgstr "Ja"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/newEmptyPHP1.php:1658
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/newEmptyPHP1.php:1667
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:1394
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:1470
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:1826
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:1838
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:1903
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:1912
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:1920
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:2100
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:569
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:579
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:673
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:681
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:688
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:783
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro_categories.php:35
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-gold/wp-google-maps-gold.php:876
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-gold/wp-google-maps-gold.php:885
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-ugm/wp-google-maps-ugm.php:99
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-ugm/wp-google-maps-ugm.php:117
+msgid "No"
+msgstr "Nej"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/newEmptyPHP1.php:1663
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-gold/wp-google-maps-gold.php:881
+msgid "Enable Advanced Styling"
+msgstr "Aktivera Avancerad Styling"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/newEmptyPHP1.php:1672
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-gold/wp-google-maps-gold.php:890
+msgid "Paste the JSON data here"
+msgstr "Klistra in JSON data här"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/newEmptyPHP1.php:1676
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-gold/wp-google-maps-gold.php:894
+msgid "Save Style Settings"
+msgstr "Spara stilinställningar"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/newEmptyPHP1.php:1754
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:2447
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-gold/wp-google-maps-gold.php:972
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-store-locator/wp-google-maps-store-locator-add-on.php:124
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-ugm/wp-google-maps-ugm.php:349
+msgid ""
+"An Unexpected HTTP Error occurred during the API request.</p> <p><a href=\"?"
+"\" onclick=\"document.location.reload(); return false;\">Try again</a>"
+msgstr ""
+"Ett oväntat HTTP Fel inträffade under API förfrågan.</p> <p><a href=\"?\" "
+"onclick=\"document.location.reload(); return false;\">Försök igen</a>"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/newEmptyPHP1.php:1759
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:2452
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-gold/wp-google-maps-gold.php:977
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-store-locator/wp-google-maps-store-locator-add-on.php:129
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-ugm/wp-google-maps-ugm.php:354
+msgid "An unknown error occurred"
+msgstr "Ett okänt fel inträffade"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:1165
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:1350
+msgid "Your settings have been saved."
+msgstr "Dina inställningar har sparats"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:1194
+msgid "Your marker location has been saved."
+msgstr "Postionen på din markör har sparats."
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:1225
+msgid "Your polygon has been created."
+msgstr "Din polygon har skapats."
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:1257
+msgid "Your polygon has been saved."
+msgstr "Din polygon har sparats."
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:1288
+msgid "Your polyline has been created."
+msgstr "Din polylinje har skapats."
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:1320
+msgid "Your polyline has been saved."
+msgstr "Din polylinje har sparats."
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:1366
+msgid "Maps"
+msgstr "Kartor"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:1370
+msgid "Categories"
+msgstr "Kategorier"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:1371
+msgid "Advanced"
+msgstr "Avancerat"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:1373
+msgid "Settings"
+msgstr "Inställningar"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:1382
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:1456
+msgid "Experiencing problems with the plugin?"
+msgstr "Upplever du problem med pluginet?"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:1382
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:1456
+msgid "See the troubleshooting manual."
+msgstr "Se felsökningsmanualen."
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:1382
+msgid "Or ask a question on our "
+msgstr "Eller fråga en fråga på vårt"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:1382
+msgid "Support forum."
+msgstr "Support forum."
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:1390
+msgid "There was a problem deleting the map."
+msgstr "Det uppstod ett problem när kartan skulle tas bort."
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:1394
+msgid "Delete your map"
+msgstr "Radera din karta"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:1394
+msgid "Are you sure you want to delete the map"
+msgstr "Är du säker på att du vill radera kartan"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:1466
+msgid "There was a problem deleting the marker."
+msgstr "Det uppstod ett problem när markören skulle tas bort."
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:1470
+msgid "Delete Marker"
+msgstr "Radera markör"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:1470
+msgid "Are you sure you want to delete this marker:"
+msgstr "Är du säker på att du vill ta bort den här markören:"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:1492
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:2336
+msgid "WP Google Map Settings"
+msgstr "WP Google Map Inställningar"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:1521
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:1724
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:2500
+msgid "Map Settings"
+msgstr "Kartinställningar"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:1524
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:2503
+msgid "General Map Settings"
+msgstr "Allmänna kartinställningar"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:1526
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:2505
+msgid "Disable StreetView"
+msgstr "Avaktivera gatuvy"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:1527
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:2506
+msgid "Disable Zoom Controls"
+msgstr "Avaktivera Zoomkontroller"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:1528
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:2507
+msgid "Disable Pan Controls"
+msgstr "Avaktivera Panoreringskontroller"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:1529
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:2508
+msgid "Disable Map Type Controls"
+msgstr "Avaktivera karttyps kontroller"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:1533
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:2525
+msgid "Troubleshooting Options"
+msgstr "Felsökningsinställningar"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:1535
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:2527
+msgid ""
+"Over-ride current jQuery with version 1.8.3 (Tick this box if you are "
+"receiving jQuery related errors)"
+msgstr ""
+"Skriv över nuvarande jQuery med version 1.8.3 (Klicka i den här boxen om du "
+"får jQuery relaterade fel)"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:1542
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:2361
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-ugm/wp-google-maps-ugm.php:123
+msgid "Save Settings"
+msgstr "Spara inställningar"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:1564
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:1568
+msgid "My Maps"
+msgstr "Mina kartor"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:1564
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:1633
+msgid "Add New"
+msgstr "Lägg till ny"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:1569
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro_categories.php:19
+msgid "Pro Version"
+msgstr "Pro Version"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:1569
+msgid "Create unlimited maps"
+msgstr "Skapa obegränsat antal kartor"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:1569
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro_categories.php:19
+msgid "with the"
+msgstr "med"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:1569
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro_categories.php:19
+msgid "of WP Google Maps for only"
+msgstr "av WP Google Maps för endast"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:1575
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:1636
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro_categories.php:24
+msgid "Problems with the plugin? See the troubleshooting manual."
+msgstr "Upplever du problem med pluginet? Se felsökningsmanualen."
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:1599
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:1656
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:1887
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:2210
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:2421
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:645
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro_categories.php:432
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro_polygons.php:465
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro_polylines.php:493
+msgid "ID"
+msgstr "ID"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:1600
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:1659
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:1888
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:2106
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:2423
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:2442
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:646
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:745
+msgid "Title"
+msgstr "Titel"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:1601
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:1772
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:541
+msgid "Width"
+msgstr "Bredd"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:1602
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:1783
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:548
+msgid "Height"
+msgstr "Höjd"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:1603
+msgid "Type"
+msgstr "Typ"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:1609
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:1805
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:619
+msgid "Roadmap"
+msgstr "Vägkarta"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:1610
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:1806
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:620
+msgid "Satellite"
+msgstr "Satellite"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:1611
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:1807
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:621
+msgid "Hybrid"
+msgstr "Hybrid"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:1612
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:1808
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:622
+msgid "Terrain"
+msgstr "Terräng"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:1614
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro_categories.php:441
+msgid "Trash"
+msgstr "Släng"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:1618
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:2400
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro_categories.php:445
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro_polygons.php:490
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro_polylines.php:518
+msgid "Edit"
+msgstr "Ändra"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:1633
+msgid "My Markers"
+msgstr "Mina markörer"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:1657
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:2422
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro_categories.php:434
+msgid "Icon"
+msgstr "Ikon"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:1658
+msgid "Linked to"
+msgstr "Länkad till"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:1660
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:1889
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:2425
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:2444
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:647
+msgid "Address"
+msgstr "Adress"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:1661
+msgid "GPS"
+msgstr "GPS"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:1662
+msgid "Pic"
+msgstr "Bild"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:1663
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:2428
+msgid "Link"
+msgstr "Länk"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:1713
+msgid ""
+"Add custom icons, titles, descriptions, pictures and links to your markers "
+"with the"
+msgstr ""
+"Lägg till anpassade ikoner, titlar, beskrivningar, bilder och länkar till "
+"dina markörer med"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:1713
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:1714
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:2174
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:2178
+msgid "Pro Edition"
+msgstr "Pro Versionen"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:1713
+msgid "of this plugin for just"
+msgstr "av det här pluginet för bara"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:1714
+msgid "Purchase the Pro Edition"
+msgstr "Köp Pro Versionen"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:1714
+msgid "of WP Google Maps and save your markers to a CSV file!"
+msgstr "av WP Google Maps och spara dina markörer till en CSV Fil!"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:1764
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:530
+msgid "Short code"
+msgstr "Short code"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:1765
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:531
+msgid "copy this into your post or page to display the map"
+msgstr "kopiera det här till ditt inlägg eller sida för att visa kartan"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:1768
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:535
+msgid "Map Name"
+msgstr "Kartnamn"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:1793
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:659
+msgid "Map Alignment"
+msgstr "Kartorientering"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:1795
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:661
+msgid "Left"
+msgstr "Vänster"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:1796
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:662
+msgid "Center"
+msgstr "Centrerad"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:1797
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:663
+msgid "Right"
+msgstr "Höger"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:1798
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:2091
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:664
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:774
+msgid "None"
+msgstr "Ingen"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:1803
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:617
+msgid "Map type"
+msgstr "Karttyp"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:1818
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:1859
+msgid ""
+"Get all of these advanced features with the Pro version for only <a href="
+"\"http://www.wpgmaps.com/purchase-professional-version/?"
+"utm_source=plugin&utm_medium=link&utm_campaign=advanced\">$14.99 once off</"
+"a>. Support and updates included forever."
+msgstr ""
+"Få alla de här avancerade funktionerna i Pro versionen för bara <a href="
+"\"http://www.wpgmaps.com/purchase-professional-version/?"
+"utm_source=plugin&utm_medium=link&utm_campaign=advanced\">$14.99 "
+"engångsavgift</a>. Inklduerar livstids support och uppdateringar."
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:1824
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:566
+msgid "Enable Directions?"
+msgstr "Aktivera vägbeskrivningar"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:1834
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:575
+msgid "Directions Box Open by Default?"
+msgstr "Vägbeskrivningsbox synlig som standard?"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:1839
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:580
+msgid "Yes, on the left"
+msgstr "Ja, till vänster"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:1840
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:581
+msgid "Yes, on the right"
+msgstr "Ja, till höger"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:1841
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:582
+msgid "Yes, above"
+msgstr "Ja, ovanför"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:1842
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:583
+msgid "Yes, below"
+msgstr "Ja, nedanför"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:1848
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:589
+msgid "Directions Box Width"
+msgstr "Bredd på vägbeskrivningsbox"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:1864
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:612
+msgid "Default Marker Image"
+msgstr "Standardbild för markör"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:1865
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:2114
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:2118
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:613
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:758
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:762
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro_categories.php:101
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro_categories.php:171
+msgid "Upload Image"
+msgstr "Ladda upp bild"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:1869
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:627
+msgid "List all Markers"
+msgstr "Lista alla markörer"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:1871
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:629
+msgid "List all markers below the map"
+msgstr "Lista alla markörer under kartan"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:1872
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:630
+msgid "Select this for the advanced listing functionality"
+msgstr "Välj det här för den avancerade listningsfunktionen"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:1877
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:635
+msgid "Filter by Category"
+msgstr "Filtrera efter kategori"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:1879
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:637
+msgid "Allow users to filter by category?"
+msgstr "Tillåt användare att filtrera efter kategori?"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:1884
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:642
+msgid "Order markers by"
+msgstr "Ordna markörer efter"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:1890
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:2111
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:2426
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:2445
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:648
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:755
+msgid "Description"
+msgstr "Beskrivning"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:1893
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:653
+msgid "Descending"
+msgstr "Fallande"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:1894
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:652
+msgid "Ascending"
+msgstr "Stigande"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:1901
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:670
+msgid "Show User's Location?"
+msgstr "Visa användarens position"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:1910
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:678
+msgid "Enable Bicycle Layer?"
+msgstr "Aktivera cykellager?"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:1918
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:685
+msgid "Enable Traffic Layer?"
+msgstr "Aktivera billager?"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:1931
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:698
+msgid "KML/GeoRSS URL"
+msgstr "KML/GeoRSS URL"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:1933
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:700
+msgid "The KML/GeoRSS layer will over-ride most of your map settings"
+msgstr ""
+"KML/GeoRSS lagret kommer att skriva över det mesta av dina kartinställningar"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:1937
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:704
+msgid "Fusion table ID"
+msgstr "Fusion tabell ID"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:1939
+msgid "Read data directly from your Fusion Table."
+msgstr "Läs data direkt från din Fusion tabell"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:2051
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:2062
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:711
+msgid "Remember to save your map!"
+msgstr "Kom ihåg att spara din karta!"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:2055
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:724
+msgid "Save Map"
+msgstr "Spara Karta"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:2057
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:726
+msgid ""
+"Tip: Use your mouse to change the layout of your map. When you have "
+"positioned the map to your desired location, press \"Save Map\" to keep your "
+"settings."
+msgstr ""
+"Tips: Använd din mus för att ändra kartans layout. När du har positionerat "
+"kartan enligt din önskade position, klicka \"Spara Karta\" för att behålla "
+"dina inställningar."
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:2069
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:733
+msgid "Markers"
+msgstr "Markörer"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:2070
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:734
+msgid "Polygons"
+msgstr "Polygoner"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:2071
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:735
+msgid "Polylines"
+msgstr "Polylinjer"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:2077
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:740
+msgid "Add a marker"
+msgstr "Lägg till en markör"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:2082
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:750
+msgid "Address/GPS"
+msgstr "Adress/GPS"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:2088
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:771
+msgid "Animation"
+msgstr "Animation"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:2092
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:775
+msgid "Bounce"
+msgstr "Studsa"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:2093
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:776
+msgid "Drop"
+msgstr "Falla"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:2097
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:780
+msgid "InfoWindow open by default"
+msgstr "Infofönster öppen som standard"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:2113
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:757
+msgid "Pic URL"
+msgstr "Bild URL"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:2115
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:759
+msgid "Link URL"
+msgstr "Länk URL"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:2117
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:761
+msgid "Custom Marker"
+msgstr "Anpassad markör"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:2120
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:2424
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:2443
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:649
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:764
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro_categories.php:433
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-store-locator/wp-google-maps-store-locator-add-on.php:164
+msgid "Category"
+msgstr "Kategori"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:2123
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro_categories.php:346
+msgid "Select"
+msgstr "Välj"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:2130
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:790
+msgid "Add Marker"
+msgstr "Lägg till markör"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:2130
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:790
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-ugm/wp-google-maps-ugm.php:229
+msgid "Adding"
+msgstr "Lägger till"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:2131
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:791
+msgid "Save Marker"
+msgstr "Spara markör"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:2131
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:791
+msgid "Saving"
+msgstr "Sparar"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:2138
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:795
+msgid "Your Markers"
+msgstr "Dina Markörer"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:2146
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:801
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro_polygons.php:25
+msgid "Add a Polygon"
+msgstr "Lägg till en Polygon"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:2149
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:2158
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:2169
+msgid "Add detailed information to your markers!"
+msgstr "Lägg till detaljerad information till dina markörer!"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:2149
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:2158
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:2169
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:2173
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:2177
+msgid "Add custom markers to your map!"
+msgstr "Lägg till anpassade markörer till din karta"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:2150
+msgid "Add Polygons to your maps for only"
+msgstr "Lägg till polygoner till din karta för endast"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:2150
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:2159
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:2170
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:2174
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:2178
+msgid "Click"
+msgstr "Klicka"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:2150
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:2159
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:2170
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:2174
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:2178
+msgid "here"
+msgstr "här"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:2155
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:806
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro_polylines.php:25
+msgid "Add a Polyline"
+msgstr "Lägg till en Polylinje"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:2159
+msgid "Add Polylines and routes to your maps for only"
+msgstr "Lägg till Polylinjer och rutter till dina kartor för endast"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:2170
+msgid "Add detailed information to your markers for only"
+msgstr "Lägg till detaljerad information till dina markörer för endast"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:2174
+msgid ""
+"Add different marker icons, or your own icons to make your map really stand "
+"out!"
+msgstr ""
+"Lägg till andra markörikoner, eller dina egna ikoner för att få kartan att "
+"sticka ut!"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:2178
+msgid "Allow your visitors to get directions to your markers!"
+msgstr "Tillåt dina besökare att få vägbeskrivningar till dina markörer!"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:2184
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:817
+msgid ""
+"WP Google Maps encourages you to make use of the amazing icons created by "
+"Nicolas Mollet's Maps Icons Collection"
+msgstr ""
+"WP Google Maps uppmuntrar dig att använda de fantastiska ikonerna som "
+"skapats av Nicolas Mollet's Maps Icons Collection"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:2184
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:817
+msgid "and to credit him when doing so."
+msgstr "och att tillskriva honom när ni gör det."
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:2210
+msgid "Edit Marker Location"
+msgstr "Ändra markörposition"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:2219
+msgid "Marker Latitude"
+msgstr "Markörens Latitud"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:2223
+msgid "Marker Longitude"
+msgstr "Markörens Longitud"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:2228
+msgid "Save Marker Location"
+msgstr "Spara markörens position"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:2229
+msgid ""
+"Tip: Use your mouse to change the location of the marker. Simply click and "
+"drag it to your desired location."
+msgstr ""
+"Tips: Använd din mus för att ändra markörens position. Klicka och dra den "
+"helt enkelt till din önskade position."
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:2354
+msgid ""
+"There are too many markers to make use of the live edit function. The "
+"maximum amount for this functionality is 2000 markers. Anything more than "
+"that could crash your browser. In order to edit your markers, you would need "
+"to download the table in CSV format, edit it and re-upload it."
+msgstr ""
+"Det finns för många markörer för att kunna använda live edit funktionen. Det "
+"maximala antalet för den funktionen är 2000 markörer. Allt över det kan "
+"crasha din webbläsare. För att ändra dina markörer, ladda ner din tabell i "
+"CSV-format, ändra den och ladda upp den igen."
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:2386
+msgid "View this link"
+msgstr "Granska den här länken"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:2400
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:2401
+msgid "Edit this marker"
+msgstr "Ändra den här markören"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:2401
+msgid "Edit Location"
+msgstr "Ändra position"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:2402
+msgid "Delete this marker"
+msgstr "Radera den här markören"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:2402
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro_polygons.php:491
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro_polylines.php:519
+msgid "Delete"
+msgstr "Radera"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:2427
+msgid "Image"
+msgstr "Bild"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:2429
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro_polygons.php:467
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro_polylines.php:495
+msgid "Action"
+msgstr "Handling"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:2576
+msgid ""
+"The plugin directory does not have 'write' permissions. Please enable "
+"'write' permissions (755) for "
+msgstr ""
+"Pluginmappen har inte 'skriv' rättigheter. Vänligen aktivar 'skriv' "
+"rättigheter (755) för"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:2578
+msgid "in order for this plugin to work! Please see "
+msgstr "för att pluginet skall fungera! Vänligen se"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:2580
+msgid "this page"
+msgstr "den här sidan"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps/wpGoogleMaps.php:2582
+msgid "for help on how to do it."
+msgstr "för hjälp med hur man gör det."
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:444
+msgid "including Pro &amp; Gold add-ons"
+msgstr "inkluderat Pro &amp; Guld tillägg"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:444
+msgid "including Pro add-on"
+msgstr "inkluderat Pro tillägget"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:470
+msgid "Download this as a CSV file"
+msgstr "Ladda ner det här som en CSV fil"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:470
+msgid "Download this data as a CSV file"
+msgstr "Ladda ner den här datan som en CSV fil"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:484
+msgid "Create your Map"
+msgstr "Skapa din karta"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:539
+msgid "Map Dimensions"
+msgstr "Kartdimensioner"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:596
+msgid "Default 'To' address"
+msgstr "Standard 'Till' adress"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:613
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro_categories.php:101
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro_categories.php:171
+msgid ""
+"Get great map markers <a href='http://mapicons.nicolasmollet.com/' "
+"target='_BLANK' title='Great Google Map Markers'>here</a>"
+msgstr ""
+"Hämta bra kartmarkörer <a href='http://mapicons.nicolasmollet.com/' "
+"target='_BLANK' title='Great Google Map Markers'>här</a>"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:706
+msgid ""
+"Read data directly from your Fusion Table. For more information, see <a "
+"href='http://googlemapsmania.blogspot.com/2010/05/fusion-tables-google-maps-"
+"api.html'>http://googlemapsmania.blogspot.com/2010/05/fusion-tables-google-"
+"maps-api.html</a>"
+msgstr ""
+"Läs data direkt from din Fusion Tabell. För mer information, se <a "
+"href='http://googlemapsmania.blogspot.com/2010/05/fusion-tables-google-maps-"
+"api.html'>http://googlemapsmania.blogspot.com/2010/05/fusion-tables-google-"
+"maps-api.html</a>"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:758
+msgid "Or paste image URL"
+msgstr "Eller klistra in bildens URL"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:760
+msgid "Format: http://www.domain.com"
+msgstr "Format: http://www.domain.com"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:762
+msgid "ignore if you want to use the default marker"
+msgstr "ignorera om du vill använda standard markör"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:802
+msgid "Add a New Polygon"
+msgstr "Lägg till en ny polygon"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:807
+msgid "Add a New Polyline"
+msgstr "Lägg till en ny polylinje"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:982
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:983
+msgid "Use my location"
+msgstr "Använd min position"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:998
+msgid "Filter by"
+msgstr "Filtrera efter"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:1090
+msgid "Get directions to"
+msgstr "Hämta vägbeskrivning till"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:1090
+msgid "Directions"
+msgstr "Vägbeskrivning"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:1120
+msgid "Get Directions"
+msgstr "Hämta vägbeskrivning"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:1124
+msgid "For"
+msgstr "För"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:1126
+msgid "Driving"
+msgstr "Bil"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:1127
+msgid "Walking"
+msgstr "Till fots"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:1128
+msgid "Bicycling"
+msgstr "Cykel"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:1131
+msgid "show options"
+msgstr "visa val"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:1132
+msgid "hide options"
+msgstr "göm val"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:1134
+msgid "Avoid Tolls"
+msgstr "Undvik vägtullar"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:1135
+msgid "Avoid Highways"
+msgstr "Undvik motorvägar"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:1140
+msgid "From"
+msgstr "Från"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:1141
+msgid "To"
+msgstr "Till"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:1146
+msgid "Go"
+msgstr "Gå"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:1178
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:1200
+msgid "Fetching directions..."
+msgstr "Hämtar vägbeskrvningar..."
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:1179
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:1201
+msgid "Reset directions"
+msgstr "Nollställ vägbeskrvningar..."
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:1528
+msgid "Show _MENU_ entries"
+msgstr "Visa _MENU_ inlägg"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:1529
+msgid "Nothing found - sorry"
+msgstr "Inget hittades - beklagar"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:1530
+msgid "Showing _START_ to _END_ of _TOTAL_ records"
+msgstr "Visar _START_ till _END_ av _TOTAL_ poster"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:1531
+msgid "Showing 0 to 0 of 0 records"
+msgstr "Visar 0 till 0 av 0 poster"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:1532
+msgid "(filtered from _MAX_ total records)"
+msgstr "(filtrerat från _MAX_ total poster)"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:1533
+msgid "First"
+msgstr "Först"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:1534
+msgid "Last"
+msgstr "Sist"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:1535
+msgid "Next"
+msgstr "Nästa"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:1536
+msgid "Previous"
+msgstr "Föregående"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:1537
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-store-locator/wp-google-maps-store-locator-add-on.php:170
+msgid "Search"
+msgstr "Sök"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:1542
+msgid "Please prove that you are human by checking the checkbox above"
+msgstr "Visa att du är en människa genom att klicka i boxen ovanför"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:2233
+msgid "WP Google Maps"
+msgstr "WP Google Maps"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:2233
+msgid ""
+"Please ensure you have <strong>both</strong> the <strong>Basic</strong> and "
+"<strong>Pro</strong> versions of WP Google Maps installed and activated at "
+"the same time in order for the plugin to function correctly."
+msgstr ""
+"Vänligen försäkra dig att du har <strong>både</strong> &amp; <strong>Basic</"
+"strong> och <strong>Pro</strong> versionerna av WP Google Maps installerad "
+"and aktiverad samtidigt för att pluginet skall fungera korrekt."
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:2247
+msgid "Header 1 should be 'id', not"
+msgstr "Överskrift 1 skall vara 'id', inte"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:2248
+msgid "Header 2 should be 'map_id', not"
+msgstr "Överskrift 2 skall vara 'map_id', inte"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:2249
+msgid "Header 3 should be 'address', not"
+msgstr "Överskrift 3 skall vara 'address', inte"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:2250
+msgid "Header 4 should be 'description', not"
+msgstr "Överskrift 4 skall vara 'description', inte"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:2251
+msgid "Header 5 should be 'pic', not"
+msgstr "Överskrift 5 skall vara 'pic', inte"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:2252
+msgid "Header 6 should be 'link', not"
+msgstr "Överskrift 6 skall vara 'link', inte"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:2253
+msgid "Header 7 should be 'icon', not"
+msgstr "Överskrift 7 skall vara 'icon', inte"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:2254
+msgid "Header 8 should be 'lat', not"
+msgstr "Överskrift 8 skall vara 'lat', inte"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:2255
+msgid "Header 9 should be 'lng', not"
+msgstr "Överskrift 9 skall vara 'lng', inte"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:2256
+msgid "Header 10 should be 'anim', not"
+msgstr "Överskrift 10 skall vara 'anim', inte"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:2257
+msgid "Header 11 should be 'title', not"
+msgstr "Överskrift 11 skall vara 'title', inte"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:2258
+msgid "Header 12 should be 'infoopen', not"
+msgstr "Överskrift 12 skall vara 'infoopen', inte"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:2259
+msgid "Header 13 should be 'category', not"
+msgstr "Överskrift 13 skall vara 'category', inte"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:2261
+msgid "CSV import failed"
+msgstr "CSV import misslyckades"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:2289
+msgid "Your CSV file has been successfully imported"
+msgstr "Din CSV fil har importerats utan problem"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:2311
+msgid "Download ALL marker data to a CSV file"
+msgstr "Ladda ner ALL markördata till en CSV fil"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:2314
+msgid "Advanced Options"
+msgstr "Avancerade val"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:2317
+msgid "OR"
+msgstr "ELLER"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:2318
+msgid "Upload CSV File"
+msgstr "Ladda upp CSV fil"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:2320
+msgid "Replace existing data with data in file"
+msgstr "Ersätt nuvarande data med data i filen"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:2321
+msgid "Upload File"
+msgstr "Ladda upp fil"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:2509
+msgid "Disable Mouse Wheel Zoom"
+msgstr "Avaktivera zoom med mushjulet"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:2510
+msgid "Disable Mouse Dragging"
+msgstr "Avaktivera släpning med musen"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:2511
+msgid "Disable Mouse Double Click Zooming"
+msgstr "Avaktivera dubbelklick zoomning med musen"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:2515
+msgid "Marker Listing Settings"
+msgstr "Inställningar för markörlistning"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:2517
+msgid "Hide the Icon column"
+msgstr "Göm ikonkolumnen"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:2518
+msgid "Hide the Title column"
+msgstr "Göm titelkolumnen"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:2519
+msgid "Hide the Address column"
+msgstr "Göm adresskolumnen"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:2520
+msgid "Hide the Category column"
+msgstr "Göm Kategorikolumnen"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:2521
+msgid "Hide the Description column"
+msgstr "Göm beskrivningskolumnen"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:2559
+msgid "InfoWindow Settings"
+msgstr "InfoWindow inställningar"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:2562
+msgid "Default Image Width"
+msgstr "Standard bildbredd"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:2566
+msgid "Default Image Height"
+msgstr "Standard bildhöjd"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:2570
+msgid "Image Thumbnails"
+msgstr "Tumnaglar"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:2572
+msgid "Do not use TimThumb"
+msgstr "Använd inte TimThumb"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:2573
+msgid "(Tick this if you are having problems viewing your thumbnail images)"
+msgstr "(Klicka här om du har problem att se dina tumnaglar)"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:2577
+msgid "Max InfoWindow Width"
+msgstr "Max InfoWindow bredd"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:2578
+msgid "(Minimum: 250px)"
+msgstr "(Minimum: 250px)"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:2581
+msgid "Other settings"
+msgstr "Andra inställningar"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:2583
+msgid "Open links in a new window"
+msgstr "Öppnar länkar i ett nytt fönster"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:2584
+msgid "(Tick this if you want to open your links in a new window)"
+msgstr "(Klicka här om du vill öppna länkar i ett nytt fönster)"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:2585
+msgid "Hide the address field"
+msgstr "Göm adressfältet"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro.php:2589
+msgid "Link text"
+msgstr "Länktext"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro_categories.php:15
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro_categories.php:18
+msgid "Marker Categories"
+msgstr "Markörkategorier"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro_categories.php:15
+msgid "Add New Category"
+msgstr "Lägg till Kategori"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro_categories.php:19
+msgid "Create marker categories"
+msgstr "Skapa markörkategorier"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro_categories.php:32
+msgid "There was a problem deleting the category."
+msgstr "Det uppstod ett problem när markören skulle raderas."
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro_categories.php:35
+msgid "Delete your Category"
+msgstr "Radera din kategori"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro_categories.php:35
+msgid "Are you sure you want to delete the category"
+msgstr "Är du säker på att du vill radera kategorin"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro_categories.php:85
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro_categories.php:154
+msgid "Add a Marker Category"
+msgstr "Lägg till en markörkategori"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro_categories.php:89
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro_categories.php:159
+msgid "Category Name"
+msgstr "Kategorinamn"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro_categories.php:99
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro_categories.php:169
+msgid "Category Marker"
+msgstr "Kategorimarkör"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro_categories.php:109
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro_categories.php:179
+msgid "Assigned to "
+msgstr "Tilldelad till"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro_categories.php:122
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro_categories.php:193
+msgid "Save Category"
+msgstr "Spara kategori"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro_categories.php:272
+msgid "Your category has been created."
+msgstr "Din kategori har skapats"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro_categories.php:336
+msgid "Your category has been saved."
+msgstr "Din kategori har sparats"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro_categories.php:382
+msgid "All"
+msgstr "Alla"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro_categories.php:403
+msgid "All maps"
+msgstr "Alla kartor"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro_categories.php:435
+msgid "Linked maps"
+msgstr "Länkade kartor"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro_polygons.php:42
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro_polygons.php:90
+msgid "Save Polygon"
+msgstr "Spara polygon"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro_polygons.php:73
+msgid "Edit Polygon"
+msgstr "Ändra polygon"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro_polygons.php:466
+msgid "Polygon Data"
+msgstr "Polygondata"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro_polygons.php:491
+msgid "Delete this polygon"
+msgstr "Radera den här polygonen"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro_polylines.php:42
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro_polylines.php:90
+msgid "Save Polyline"
+msgstr "Spara polylinje"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro_polylines.php:73
+msgid "Edit Polyline"
+msgstr "Ändra polylinje"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro_polylines.php:494
+msgid "Polyline Data"
+msgstr "Polylinjedata"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-pro/wp-google-maps-pro_polylines.php:519
+msgid "Delete this polyline"
+msgstr "Radera den här polylinjen"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-store-locator/wp-google-maps-store-locator-add-on.php:149
+msgid "ZIP / Address"
+msgstr "Postnummer / Adress"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-store-locator/wp-google-maps-store-locator-add-on.php:154
+msgid "Radius"
+msgstr "Radius"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-store-locator/wp-google-maps-store-locator-add-on.php:188
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-ugm/wp-google-maps-ugm.php:378
+msgid "Visitor Generated Marker Settings"
+msgstr "Inställningar för besökargenererade markörer"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-store-locator/wp-google-maps-store-locator-add-on.php:191
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-ugm/wp-google-maps-ugm.php:381
+msgid "Visitor Marker Input Settings"
+msgstr "Besökarmarkörer inmatningsinställningar"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-store-locator/wp-google-maps-store-locator-add-on.php:193
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-ugm/wp-google-maps-ugm.php:383
+msgid "Strip all HTML tags in descriptions and titles"
+msgstr "Plocka bort alla HTML taggar i beskrivningar och titlar"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-ugm/wp-google-maps-ugm.php:89
+msgid "Visitor Generated Markers - Settings"
+msgstr "besökargenererade markörer - Inställningar"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-ugm/wp-google-maps-ugm.php:95
+msgid "Enable Visitor Generated Markers?"
+msgstr "Aktivera besökargenererade markörer"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-ugm/wp-google-maps-ugm.php:104
+msgid "Who can add markers?"
+msgstr "Vem kan lägga till markörer"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-ugm/wp-google-maps-ugm.php:107
+msgid "Everyone"
+msgstr "Alla"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-ugm/wp-google-maps-ugm.php:108
+msgid "Registered Users"
+msgstr "Registrerade användare"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-ugm/wp-google-maps-ugm.php:113
+msgid "Allow users to select a marker category?"
+msgstr "Tillåt användare att välja en markörkategori"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-ugm/wp-google-maps-ugm.php:204
+msgid "Marker Title"
+msgstr "Markörtitel"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-ugm/wp-google-maps-ugm.php:208
+msgid "Marker Address or GPS Location"
+msgstr "Marköradress eller GPS position"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-ugm/wp-google-maps-ugm.php:212
+msgid "Marker Description"
+msgstr "Markörbeskrivning"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-ugm/wp-google-maps-ugm.php:219
+msgid "Marker Category"
+msgstr "Markörkategori"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-ugm/wp-google-maps-ugm.php:225
+msgid "Please tick this box to prove you are human"
+msgstr "Vänligen klicka i den här boxen för att bevisa att du är en människa"
+
+#: C:\wamp\www\wordpress361\wp-content\plugins\wp-google-maps-ugm/wp-google-maps-ugm.php:229
+msgid "Add marker"
+msgstr "Lägg till markör"

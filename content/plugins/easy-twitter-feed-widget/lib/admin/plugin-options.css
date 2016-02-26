@@ -1,0 +1,195 @@
+/**
+|------------------------
+| =Clear Floated Elements
+|------------------------
+*/
+
+.kamn-easy-twitter-feed-widget-clear {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
+
+.kamn-easy-twitter-feed-widget-clearfix:before,
+.kamn-easy-twitter-feed-widget-clearfix:after {
+  content: '.';
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  font-size: 0;
+  line-height: 0;
+  width: 0;
+  height: 0;
+}
+
+.kamn-easy-twitter-feed-widget-clearfix:after {
+  clear: both;
+}
+
+.kamn-easy-twitter-feed-widget-clearfix {
+  zoom: 1;
+}
+
+/**
+|------------------------
+| =Promo Wrapper
+|------------------------
+*/
+
+.kamn-easy-twitter-feed-widget-promo-wrapper {
+	margin: 25px 0;
+}
+
+/**
+|------------------------
+| =Options Form
+|------------------------
+*/
+
+#kamn-easy-twitter-feed-widget-form-wrapper {
+	background-color: #eeeeee;
+	border: 1px solid #e5e5e5;
+	margin-top: 20px;
+}
+
+#kamn-easy-twitter-feed-widget-form-header,
+#kamn-easy-twitter-feed-widget-form-footer {
+	text-align: right;
+	padding: 20px;	
+}
+
+#kamn-easy-twitter-feed-widget-form-header {
+	border-bottom: 1px solid #DFDFDF;
+}
+
+#kamn-easy-twitter-feed-widget-form-footer {
+	border-top: 1px solid #DFDFDF;
+}
+
+/**
+|------------------------
+| =Options Sidebar
+|------------------------
+*/
+
+#kamn-easy-twitter-feed-widget-sidebar,
+#kamn-easy-twitter-feed-widget-main {
+	min-height: 300px;
+}
+
+#kamn-easy-twitter-feed-widget-sidebar {
+	width: 200px;
+	float: left;
+}
+
+#kamn-easy-twitter-feed-widget-sidebar #kamn-easy-twitter-feed-widget-group-menu,
+#kamn-easy-twitter-feed-widget-sidebar #kamn-easy-twitter-feed-widget-group-menu li {
+	margin: 0;
+}
+
+#kamn-easy-twitter-feed-widget-sidebar #kamn-easy-twitter-feed-widget-group-menu li.divide {
+	padding: 0px;
+	border-width: 1px 0px 1px 0px;
+	border-style: solid;
+    border-bottom-color: #DFDFDF;
+    border-top-color: #F9F9F9;
+}
+
+#kamn-easy-twitter-feed-widget-sidebar #kamn-easy-twitter-feed-widget-group-menu li a {
+	display:block;
+	padding: 14px 14px;
+	background: #eeeeee;
+	border-top: solid 1px #F9F9F9;
+	border-right: solid 1px #DFDFDF;
+	border-bottom: solid 1px #DFDFDF;
+	border-left: none;
+	color: #333333;
+    font-weight:bold;
+    text-decoration:none;
+}
+
+#kamn-easy-twitter-feed-widget-sidebar #kamn-easy-twitter-feed-widget-group-menu li a.custom-tab {
+	background: #f6f6f6;
+}
+
+#kamn-easy-twitter-feed-widget-sidebar #kamn-easy-twitter-feed-widget-group-menu li a img {
+	width: 16px;
+	height: 16px;
+	margin-bottom:-3px;
+}
+
+#kamn-easy-twitter-feed-widget-sidebar #kamn-easy-twitter-feed-widget-group-menu li a:hover {
+	background:#f9f9f9;
+}
+
+#kamn-easy-twitter-feed-widget-sidebar #kamn-easy-twitter-feed-widget-group-menu li.active a {
+	background:#ffffff;
+	border-right: none;
+}
+
+/**
+|------------------------
+| =Options Main
+|------------------------
+*/
+
+#kamn-easy-twitter-feed-widget-main {
+	background: #FFFFFF;
+	margin-left: 200px;
+	padding: 16px 20px 1px 20px;
+}
+
+.kamn-easy-twitter-feed-widget-group-tab {
+	display: none;
+}
+
+.kamn-easy-twitter-feed-widget-group-tab h3 {
+	margin: 0 0 18px 0;
+	padding: 0 0 18px 0;
+	border-bottom: 1px solid #DFDFDF;
+	font-size: 21px;
+	font-weight: normal;
+	line-height: 1.2;
+}
+
+.kamn-easy-twitter-feed-widget-group-tab .kamn-easy-twitter-feed-widget-section-desc {
+	font-style: italic;
+	border-bottom: 1px solid #DFDFDF;
+	padding: 0 0 18px 0;
+	margin: 0 0 30px 0;
+}
+
+.kamn-easy-twitter-feed-widget-group-tab .kamn-easy-twitter-feed-widget-section-desc p.description {
+	margin: 0;
+	padding: 0;
+}
+
+.kamn-easy-twitter-feed-widget-group-tab select {
+	width: 35%;
+}
+
+.kamn-easy-twitter-feed-widget-group-tab input[type="text"] {
+	width: 50%;
+}
+
+/**
+|------------------------
+| =Options Form Table
+|------------------------
+*/
+
+.kamn-easy-twitter-feed-widget-group-tab .form-table {
+	clear: none;
+}
+
+.kamn-easy-twitter-feed-widget-group-tab .form-table th {
+	font-weight: bold;
+	padding: 0 0 30px 0;
+}
+
+.kamn-easy-twitter-feed-widget-group-tab .form-table td {
+	padding: 0 0 30px 0;
+}

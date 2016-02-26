@@ -1,0 +1,7 @@
+<?php
+if(!empty($_REQUEST["_s2member_vars"]))
+	@list($restriction_type, $requirement_type, $requirement_type_value, $seeking_type, $seeking_type_value, $seeking_uri)
+			= explode("..", stripslashes((string)$_REQUEST["_s2member_vars"]));
+
+if (!empty($seeking_type) /* One of: page|post|catg|ptag|file|ruri */ )
+    echo 'You were trying to access a protected: ' . esc_html($seeking_type) . '.';

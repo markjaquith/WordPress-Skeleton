@@ -1,0 +1,1579 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: elitepress\n"
+"POT-Creation-Date: 2015-03-27 12:10+0530\n"
+"PO-Revision-Date: 2015-03-27 12:10+0530\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: D:\\xampp\\htdocs\\wordpress_elegent\\wp-content\\themes"
+"\\elitepress\n"
+"X-Poedit-SearchPath-0: D:\\xampp\\htdocs\\wordpress_elegent\\wp-content"
+"\\themes\\elitepress\n"
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/404.php:12
+msgid "404"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/404.php:13
+msgid "Oops! Page not found"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/404.php:14
+msgid "We`re sorry, but the page you are looking for doesn`t exist."
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/404.php:15
+msgid "Go Back"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/archive.php:18
+msgid "Daily Archives: "
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/archive.php:20
+msgid "Monthly Archives: "
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/archive.php:22
+msgid "Yearly Archives: "
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/archive.php:24
+msgid "Blog Archives: "
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/archive.php:35
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/author.php:30
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/category.php:30
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/index.php:33
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/search.php:44
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/tag.php:27
+msgid "Previous"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/archive.php:36
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/author.php:31
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/category.php:31
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/index.php:34
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/search.php:45
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/tag.php:28
+msgid "Next"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/author.php:15
+msgid "Author  Archives:"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/banner-header.php:44
+msgid "Title"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/banner-header.php:47
+msgid ""
+"Autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie "
+"consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et "
+"dolore feugait"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/category.php:16
+msgid "Category  Archives:"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/comments.php:2
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/comments.php:12
+msgid "Reply"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/comments.php:20
+msgid "Posted on &nbsp;"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/comments.php:22
+msgid "Edit"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/comments.php:28
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/comments.php:39
+msgid "No Comments so far"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/comments.php:39
+msgid "1 Comment so far"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/comments.php:39
+msgid "% Comments so far"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/comments.php:46
+msgid "Comment navigation"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/comments.php:47
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/comments.php:48
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/comments.php:52
+msgid "Comments are closed."
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/comments.php:56
+msgid "You must be"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/comments.php:56
+msgid "logged in"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/comments.php:56
+msgid "to post a comment"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/comments.php:63
+msgid "Name:"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/comments.php:64
+msgid "Email:"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/comments.php:73
+msgid "Message:"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/comments.php:74
+msgid "Logged in as "
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/comments.php:74
+msgid "Log out of this Account"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/comments.php:74
+msgid " Log out?"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/comments.php:76
+msgid "Send Message"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/comments.php:79
+msgid "Leave a Reply"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/content.php:42
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/search.php:39
+msgid "Pages:"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions.php:33
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions.php:49
+msgid "Primary Menu"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions.php:50
+msgid "Footer Menu"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/header-menu-section.php:9
+msgid "Toggle navigation"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/header-menu-section.php:9
+msgid "Navigation Menu"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/header-social-section.php:46
+msgid "&#124;"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/index-banner.php:18
+msgid ""
+"Autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie "
+"consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et "
+"dolore feugait."
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/index-slider.php:27
+msgid "Create Fresh Website fast with us!!"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/index-slider.php:28
+msgid "Know More"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/search.php:13
+#, php-format
+msgid "Search Results For: %s"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/search.php:31
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/template-tag.php:12
+msgid "By"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/search.php:34
+msgid "IN"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/search.php:38
+msgid "Read More"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/search.php:49
+msgid "Nothing Found"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/search.php:51
+msgid ""
+"Sorry, but nothing matched your search criteria. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/tag.php:12
+msgid "Tag Archives:"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/theme_setup_data.php:56
+msgid "on"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/theme_setup_data.php:57
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_page_header_setting.php:130
+msgid "+48-0987-654-321"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/theme_setup_data.php:58
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_page_header_setting.php:129
+msgid "info@elitepresstheme.com"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/theme_setup_data.php:74
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_header_top_call_out_settings.php:31
+msgid "Want to say Hey or find out more?"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/theme_setup_data.php:75
+msgid ""
+"Reprehen derit in voluptate velit cillum dolore eu fugiat nulla pariaturs  "
+"sint occaecat proidentse."
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/theme_setup_data.php:76
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_header_top_call_out_settings.php:33
+msgid "Buy It Now!"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/theme_setup_data.php:82
+msgid ""
+"<p>Copyright 2014 ElitePress <a href=\"#\">Wordpress Theme</a>. All rights "
+"reserved</p>"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/theme_setup_data.php:90
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_project_portfolio_settings.php:40
+msgid "Latest Projects"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/theme_setup_data.php:91
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/theme_setup_data.php:98
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/theme_setup_data.php:102
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_project_portfolio_settings.php:41
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_project_portfolio_settings.php:45
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_project_portfolio_settings.php:49
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_project_portfolio_settings.php:53
+msgid ""
+"Morbi leo risus, porta ac consectetur vestibulum eros cras mattis "
+"consectetur purus sit..."
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/theme_setup_data.php:93
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_project_portfolio_settings.php:44
+msgid "Business Growth"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/theme_setup_data.php:94
+msgid ""
+"Morbi leo risus, porta ac consectetur vestibulum eros cras \tmattis "
+"consectetur purus sit..."
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/theme_setup_data.php:97
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_project_portfolio_settings.php:48
+msgid "Functional Beauty"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/theme_setup_data.php:101
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_project_portfolio_settings.php:52
+msgid "Planning Around"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/theme_setup_data.php:108
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_service_settings.php:43
+msgid "Our Services"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/theme_setup_data.php:109
+msgid ""
+"Duis aute irure dolor in reprehenderit in voluptate velit cillum dolore eu "
+"fugiat nulla pariatur. Excepteur sint occaecat cupid non proident, sunt in "
+"culpa qui officia deserunt mollit anim id est laborum."
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/theme_setup_data.php:112
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_service_settings.php:46
+msgid "Responsive Design"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/theme_setup_data.php:113
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/theme_setup_data.php:117
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/theme_setup_data.php:121
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/theme_setup_data.php:125
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_service_settings.php:47
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_service_settings.php:51
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_service_settings.php:55
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_service_settings.php:59
+msgid ""
+"Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis "
+"consectetur purus sit amet ferment etiam porta sem malesuada magna mollis."
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/theme_setup_data.php:116
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_service_settings.php:50
+msgid "Twitter Bootstrap 3.2.0"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/theme_setup_data.php:120
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_service_settings.php:54
+msgid "Exclusive Support"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/theme_setup_data.php:124
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_service_settings.php:58
+msgid "Incredibly Flexible"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/theme_setup_data.php:129
+msgid "Category Title"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/theme_setup_data.php:130
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/theme_setup_data.php:133
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/theme_setup_data.php:136
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/theme_setup_data.php:139
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/theme_setup_data.php:142
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/theme_setup_data.php:145
+msgid ""
+" Autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie "
+"consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et "
+"dolore feugait."
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/theme_setup_data.php:132
+msgid "Archive Title"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/theme_setup_data.php:135
+msgid "Author Title"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/theme_setup_data.php:138
+msgid "404 Title"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/theme_setup_data.php:141
+msgid "Tag Title"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/theme_setup_data.php:144
+msgid "Search Title"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/template-tag.php:14
+msgid "On"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/template-tag.php:18
+msgid "In"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/meta-box/post-meta.php:21
+msgid "Allow Banner on Page"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/meta-box/post-meta.php:22
+msgid "Enter Banner heading Title"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/meta-box/post-meta.php:24
+msgid "Banner Description"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/elitepress_option_pannel.php:8
+msgid "elitepress"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/elitepress_option_pannel.php:10
+msgid "Like us on facebook"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/elitepress_option_pannel.php:11
+msgid "Support Desk"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/elitepress_option_pannel.php:21
+msgid "Home Page"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/elitepress_option_pannel.php:22
+msgid "Quick Start"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/elitepress_option_pannel.php:24
+msgid "Header setting"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/elitepress_option_pannel.php:25
+msgid "Slider Setting"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/elitepress_option_pannel.php:26
+msgid "Home Top Call Out Area Setting"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/elitepress_option_pannel.php:27
+msgid "Service Setting"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/elitepress_option_pannel.php:28
+msgid "Project Portfolio"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/elitepress_option_pannel.php:32
+msgid "Banner Setting"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/elitepress_option_pannel.php:36
+msgid "Footer Customization"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/elitepress_option_pannel.php:40
+msgid "Upgrade to Pro"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/option_pannel.php:4
+msgid "theme"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/option_pannel.php:4
+msgid "Option Panel"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/option_pannel.php:7
+msgid "webriti_themes"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/option_pannel.php:7
+msgid "Webriti Themes"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/webriti_theme.php:10
+msgid "Browse Premium Webriti Themes"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/webriti_theme.php:24
+msgid "Quality Pro"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/webriti_theme.php:26
+msgid ""
+"Quality is a Responsive WordPress Theme. It is ideal for Corporate Sector , "
+"Business Website.Very Cleaned Design."
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/webriti_theme.php:27
+msgid ""
+"Quality is designed with Readability Flexibility in mind. It is suitable for "
+"Business website and other corporate website owner."
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/webriti_theme.php:28
+msgid "You can build an effective online presence for your business"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/webriti_theme.php:30
+msgid "Buy Quality Pro"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/webriti_theme.php:31
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/webriti_theme.php:49
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/webriti_theme.php:67
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/webriti_theme.php:86
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/webriti_theme.php:105
+msgid "View Demo"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/webriti_theme.php:32
+msgid "New Theme"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/webriti_theme.php:42
+msgid "Health Centre Pro"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/webriti_theme.php:44
+msgid ""
+"Health Centre is a Responsive WordPress Theme. It is ideal for Gym/Health "
+"Healing Centre Owner.Very Cleaned Design."
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/webriti_theme.php:45
+msgid ""
+"Health Centre is designed with Readability Flexibility in mind. It is "
+"suitable for Dentists, Doctors , Surgeons, hospitals and other type of "
+"Medical Websites."
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/webriti_theme.php:46
+msgid "Build an effective online presence with HealthCentre"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/webriti_theme.php:48
+msgid "Buy Health Centre Pro"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/webriti_theme.php:60
+msgid "wallstreet Pro"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/webriti_theme.php:62
+msgid ""
+"wallstreet is a Responsive Multi-Purpose Wordpress Theme. It is ideal for "
+"creating a corporate website. It boasts of a highy functional Home Page ."
+"Very Cleaned Design."
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/webriti_theme.php:63
+msgid ""
+"wallstreet is designed with Readability Flexibility in mind. Customize it to "
+"your hearts content with Sortable Project Areas, Services Areas and Call Out "
+"Section.Use these great features to build an effective online presence for "
+"your business."
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/webriti_theme.php:64
+msgid ""
+"All of our Theme contain Responsive frameworks that adapt to Mobile Devices."
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/webriti_theme.php:66
+msgid "Buy wallstreet Pro"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/webriti_theme.php:78
+msgid "Busiprof Pro"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/webriti_theme.php:80
+msgid ""
+"A Beautiful and FLexible Responsive Businees Theme. It is ideal for creating "
+"a corporate website. It boasts of a highy functional Home Page and "
+"Widgetized Footer. Build an effective online presence with BusiProf."
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/webriti_theme.php:81
+msgid ""
+"Busiprof is designed with Flexibility in mind. Customize it to your hearts "
+"content with Sortable Project Areas, Services Areas and Testimonial "
+"Section. . Use these great features to build an effective online presence "
+"for your business"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/webriti_theme.php:82
+msgid ""
+"The majority of our themes contain responsive frameworks that adapt to "
+"Mobile Devices."
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/webriti_theme.php:85
+msgid "Buy busiprof Pro"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/webriti_theme.php:97
+msgid "Spasalon Pro"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/webriti_theme.php:99
+msgid ""
+"A responsive theme for SPA SALON and BEAUTY SALON type of business that uses "
+"multiple nav menus, Right-sidebar, Featured Slider and Beautifully designed "
+"home page all manage via option panel."
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/webriti_theme.php:100
+msgid ""
+"Spasalon is designed with content flexibility and Intuitive features in "
+"mind. Use these great core features to grow your business."
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/webriti_theme.php:101
+msgid ""
+"The majority of our themes contain responsive frameworks that mold perfectly "
+"to fit all your mobile and Apple devices."
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/webriti_theme.php:102
+msgid ""
+"A responsive theme for SPA SALON and BEAUTY SALON type of business that uses "
+"multiple nav menus, Right-sidebar, Featured Slider."
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/webriti_theme.php:104
+msgid "Buy Spasalon Pro"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/banner.php:44
+msgid "Banner Settings"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/banner.php:46
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/footer_copyright_settings.php:34
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_header_top_call_out_settings.php:44
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_page_header_setting.php:153
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_page_settings.php:35
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_project_portfolio_settings.php:64
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_service_settings.php:70
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_slider_settings.php:71
+msgid "Options data successfully Saved"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/banner.php:47
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/footer_copyright_settings.php:35
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_header_top_call_out_settings.php:45
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_page_header_setting.php:154
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_page_settings.php:36
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_project_portfolio_settings.php:65
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_service_settings.php:71
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_slider_settings.php:72
+msgid "Options data successfully reset"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/banner.php:59
+msgid "Banner Configuration For Category Template"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/banner.php:60
+msgid "Category Banner Tagline One"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/banner.php:65
+msgid "Category Banner Description"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/banner.php:72
+msgid "Banner Configuration For Archive Template"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/banner.php:73
+msgid "Archive Banner Tagline One"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/banner.php:78
+msgid "Archive Banner Description"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/banner.php:86
+msgid "Banner Configuration For Author Template"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/banner.php:87
+msgid "Author Banner Tagline One"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/banner.php:91
+msgid "Author Banner Description"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/banner.php:98
+msgid "Banner Configuration For 404 Template"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/banner.php:99
+msgid "404 Banner Tagline One"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/banner.php:104
+msgid "404 Banner Description"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/banner.php:111
+msgid "Banner Configuration For Tag Template"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/banner.php:112
+msgid "Tag Banner Tagline One"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/banner.php:117
+msgid "Tag Banner Description"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/banner.php:124
+msgid "Banner Configuration For Search Template"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/banner.php:125
+msgid "Search Banner Tagline One"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/banner.php:130
+msgid "Search Banner Description"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/footer_copyright_settings.php:8
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_slider_settings.php:8
+msgid "Sorry, your nonce did not verify."
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/footer_copyright_settings.php:25
+msgid ""
+"<p>Copyright 2014 elitepress <a href=\"#\">Wordpress Theme</a>. All rights "
+"reserved</p>"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/footer_copyright_settings.php:32
+msgid "Footer Customizations"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/footer_copyright_settings.php:47
+msgid "Footer Customization text"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/footer_copyright_settings.php:50
+msgid "Enter the Footer Customization text"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/footer_copyright_settings.php:55
+msgid "Enable Footer Menu Bar:"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/footer_copyright_settings.php:56
+msgid "Enable Footer Menu Bar."
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_header_top_call_out_settings.php:32
+msgid ""
+"Reprehen derit in voluptate velit cillum dolore eu fugiat nulla pariaturs "
+"sint occaecat cupid non proidentse."
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_header_top_call_out_settings.php:42
+msgid "Header Top Call Out Area"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_header_top_call_out_settings.php:56
+msgid "Enable Header Top Call Out Area Section :"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_header_top_call_out_settings.php:57
+msgid "Enable header top call out area on front page."
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_header_top_call_out_settings.php:61
+msgid "Header Top Call Out Title"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_header_top_call_out_settings.php:63
+msgid "Enter the header top call out title."
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_header_top_call_out_settings.php:67
+msgid "Header Top Call Out Description"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_header_top_call_out_settings.php:69
+msgid "Enter the header top call out description."
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_header_top_call_out_settings.php:73
+msgid "Header Top Call Out Button Text"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_header_top_call_out_settings.php:75
+msgid "Enter the header call out button text."
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_header_top_call_out_settings.php:79
+msgid "Header Top Call Out Button Link"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_header_top_call_out_settings.php:81
+msgid "Enter the header top call out button link."
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_header_top_call_out_settings.php:82
+msgid "Open link in a new window/tab"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_page_header_setting.php:151
+msgid "Social Media Links Settings"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_page_header_setting.php:165
+msgid "Enable Social Media Links on Header:"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_page_header_setting.php:166
+msgid "Enable social media links on header section."
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_page_header_setting.php:169
+msgid "Facebook Profile Link:"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_page_header_setting.php:171
+msgid "Open facebook media link in new tab/window"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_page_header_setting.php:174
+msgid "Twitter Profile Link:"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_page_header_setting.php:176
+msgid "Open twitter media link in new tab/window"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_page_header_setting.php:179
+msgid "Google Plus Profile Link:"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_page_header_setting.php:181
+msgid "Open googleplus media link in new tab/window"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_page_header_setting.php:184
+msgid "Linkedin Profile Link:"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_page_header_setting.php:186
+msgid "Open linkedin media link in new tab/window"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_page_header_setting.php:189
+msgid "Skype Profile Link:"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_page_header_setting.php:191
+msgid "Open skype media link in new tab/window"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_page_header_setting.php:194
+msgid "Dribbble Profile Link:"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_page_header_setting.php:196
+msgid "Open dribbble media link in new tab/window"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_page_header_setting.php:199
+msgid "Youtube Profile Link:"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_page_header_setting.php:201
+msgid "Open youtube media link in new tab/window"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_page_header_setting.php:204
+msgid "Vimeo Profile Link:"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_page_header_setting.php:206
+msgid "Open vimeo media link in new tab/window"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_page_header_setting.php:209
+msgid "Pagelines Profile Link:"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_page_header_setting.php:211
+msgid "Open pagelines media link in new tab/window"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_page_header_setting.php:215
+msgid "Contact setting"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_page_header_setting.php:219
+msgid "Enable Email id and Phone number on Header:"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_page_header_setting.php:220
+msgid "Enable email and phone number on header section."
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_page_header_setting.php:223
+msgid "Input Email id:"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_page_header_setting.php:228
+msgid "Input Contact Phone Number:"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_page_header_setting.php:233
+msgid "Logo setting"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_page_header_setting.php:237
+msgid "Enable Logo or text on Header:"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_page_header_setting.php:238
+msgid "Enable Logo or text on header section."
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_page_header_setting.php:243
+msgid "Custom Logo"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_page_header_setting.php:244
+msgid "Add custom logo from here suggested size is 250X50 px"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_page_header_setting.php:255
+msgid "Logo Height"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_page_header_setting.php:256
+msgid ""
+"Default Logo Height : 50px, if you want to increase than specify your value"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_page_header_setting.php:261
+msgid "Logo Width"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_page_header_setting.php:262
+msgid ""
+"Default Logo Width : 250px, if you want to increase than specify your value"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_page_header_setting.php:267
+msgid "Text Title"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_page_header_setting.php:268
+msgid "Enable text-based Site Title.   Setup title"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_page_header_setting.php:268
+msgid "Click Here"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_page_header_setting.php:273
+msgid "Header Menu & Search Bar setting"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_page_header_setting.php:277
+msgid "Enable Search bar on Header section:"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_page_header_setting.php:278
+msgid "Enable Search bar on header section."
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_page_settings.php:32
+msgid "Quick Start Settings"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_page_settings.php:47
+msgid "Custom Favicon"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_page_settings.php:48
+msgid "Make sure you upload .icon image type which is not more then 25X25 px."
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_page_settings.php:57
+msgid "Custom css"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_page_settings.php:59
+msgid ""
+"This is a powerful feature provided here. No need to use custom css plugin, "
+"just paste your css code and see the magic."
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_project_portfolio_settings.php:62
+msgid "Portfolio "
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_project_portfolio_settings.php:77
+msgid "Enable Home Portfolio Section"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_project_portfolio_settings.php:79
+msgid "Enable portfolio on front page."
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_project_portfolio_settings.php:82
+msgid "Portfolio Title"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_project_portfolio_settings.php:84
+msgid "Enter the Portfolio Title."
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_project_portfolio_settings.php:87
+msgid "Portfolio Description"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_project_portfolio_settings.php:89
+msgid "Enter the Portfolio Description."
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_project_portfolio_settings.php:95
+msgid "Portfolio One Settings"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_project_portfolio_settings.php:98
+msgid "Portfolio One Title"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_project_portfolio_settings.php:100
+msgid "Enter the Portfolio One Title."
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_project_portfolio_settings.php:103
+msgid "Portfolio One Description"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_project_portfolio_settings.php:105
+msgid "Enter the Portfolio One Description."
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_project_portfolio_settings.php:108
+msgid "Portfolio One Image"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_project_portfolio_settings.php:109
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_project_portfolio_settings.php:130
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_project_portfolio_settings.php:151
+msgid "Add a image with size of 250 X 250 px. "
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_project_portfolio_settings.php:116
+msgid "Portfolio Two Settings"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_project_portfolio_settings.php:119
+msgid "Portfolio Two Title"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_project_portfolio_settings.php:121
+msgid "Enter the Portfolio Two Title."
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_project_portfolio_settings.php:124
+msgid "Portfolio Two Description"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_project_portfolio_settings.php:126
+msgid "Enter the Portfolio Two Description."
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_project_portfolio_settings.php:129
+msgid "Portfolio Two Image"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_project_portfolio_settings.php:137
+msgid "Portfolio Three Settings"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_project_portfolio_settings.php:140
+msgid "Portfolio Three Title"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_project_portfolio_settings.php:142
+msgid "Enter the Portfolio Three Title."
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_project_portfolio_settings.php:145
+msgid "Portfolio Three Description"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_project_portfolio_settings.php:147
+msgid "Enter the Portfolio Three Description."
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_project_portfolio_settings.php:150
+msgid "Portfolio Three Image"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_service_settings.php:44
+msgid ""
+"Duis aute irure dolor in reprehenderit in voluptate velit cillum dolore eu "
+"fugiat nulla pariatur. Excepteur sint occaecat cupid non proident, sunt in "
+"culpa qui officia deserunt mollit anim id est laborum.."
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_service_settings.php:68
+msgid "Service Settings"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_service_settings.php:83
+msgid "Enable Home Service Section"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_service_settings.php:85
+msgid "Enable service on front page."
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_service_settings.php:88
+msgid "Service section Heading on Home page"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_service_settings.php:90
+msgid "Enter Service Heading for Service Section."
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_service_settings.php:93
+msgid "Service section Description on Home page"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_service_settings.php:95
+msgid "Enter Service Description for Service Section."
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_service_settings.php:99
+msgid "Service One Settings"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_service_settings.php:102
+msgid "Service Icon One "
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_service_settings.php:104
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_service_settings.php:123
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_service_settings.php:141
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_service_settings.php:159
+msgid "Enter the service icon."
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_service_settings.php:108
+msgid "Service One Title"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_service_settings.php:110
+msgid "Enter the service one title."
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_service_settings.php:113
+msgid "Service one Description"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_service_settings.php:115
+msgid "Enter the service one description."
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_service_settings.php:118
+msgid "Service Two Settings"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_service_settings.php:121
+msgid "Service Icon Two "
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_service_settings.php:126
+msgid "Service Two Title"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_service_settings.php:128
+msgid "Enter the service two title."
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_service_settings.php:131
+msgid "Service Two Description"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_service_settings.php:133
+msgid "Enter the service two description."
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_service_settings.php:136
+msgid "Service Three Settings"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_service_settings.php:139
+msgid "Service Icon Three "
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_service_settings.php:144
+msgid "Service Three Title"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_service_settings.php:146
+msgid "Enter the service three title."
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_service_settings.php:149
+msgid "Service Three Description"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_service_settings.php:151
+msgid "Enter the service three description."
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_service_settings.php:154
+msgid "Service Four Settings"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_service_settings.php:157
+msgid "Service Icon Four "
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_service_settings.php:162
+msgid "Service Four Title"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_service_settings.php:164
+msgid "Enter the service four title."
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_service_settings.php:167
+msgid "Service Four Description"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_service_settings.php:169
+msgid "Enter the service four description."
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_slider_settings.php:69
+msgid "Home Slider Setting"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_slider_settings.php:83
+msgid "Enable Home Slider"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_slider_settings.php:85
+msgid "Enable Home Slider on front page."
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_slider_settings.php:88
+msgid "Select Slider Type"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_slider_settings.php:89
+msgid "Demo slider"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_slider_settings.php:90
+msgid "Post slider"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_slider_settings.php:91
+msgid "Category slider"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_slider_settings.php:95
+msgid "Animation"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_slider_settings.php:98
+msgid "fade"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_slider_settings.php:99
+msgid "slide"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_slider_settings.php:101
+msgid "Select the Animation Type."
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_slider_settings.php:104
+msgid "Slide direction"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_slider_settings.php:107
+msgid "vertical"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_slider_settings.php:108
+msgid "horizontal"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_slider_settings.php:110
+msgid "Select Slide direction."
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_slider_settings.php:113
+msgid "Animation speed"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_slider_settings.php:128
+msgid "Select Slide Animation speed."
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_slider_settings.php:131
+msgid "Slideshow speed"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_slider_settings.php:146
+msgid "Select the Slide Show Speed."
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_slider_settings.php:152
+msgid "Enable Feature post slider on Page."
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_slider_settings.php:154
+msgid "Featured post slider section"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_slider_settings.php:158
+msgid "Featured Post Slider"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_slider_settings.php:162
+msgid "Click Here To Edit"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_slider_settings.php:163
+msgid "You can use multiple ID's seprated by Commma[ , ]"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/home_slider_settings.php:169
+msgid "Featured Category slider section"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/UpgradeToPro.php:24
+msgid "Premium Theme Features"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/UpgradeToPro.php:29
+msgid ""
+"ElitePress is designed with Readability Flexibility in mind. Customize it to "
+"your hearts content with Sortable Project Areas, Services Areas and Call Out "
+"Section. . Use these great features to build an effective online presence "
+"for your business."
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/UpgradeToPro.php:30
+msgid "Upgrade To Pro Version"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/UpgradeToPro.php:31
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/UpgradeToPro.php:166
+msgid "View Live demo"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/UpgradeToPro.php:39
+msgid "Responsive Layout"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/UpgradeToPro.php:40
+msgid ""
+"All of our Theme contain Responsive frameworks that adapt to all Mobile "
+"Devices."
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/UpgradeToPro.php:46
+msgid "All Browser Support"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/UpgradeToPro.php:47
+msgid "Theme supports all browsers.Like"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/UpgradeToPro.php:47
+msgid "IE 9"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/UpgradeToPro.php:47
+msgid "+"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/UpgradeToPro.php:47
+msgid "Google Chrome"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/UpgradeToPro.php:47
+msgid "Mozilla Firefox"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/UpgradeToPro.php:47
+msgid "Apple Safari"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/UpgradeToPro.php:58
+msgid "Translation Ready"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/UpgradeToPro.php:59
+msgid "You can use elitepress - the WordPress Theme for any language."
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/UpgradeToPro.php:64
+msgid "Great Support Team"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/UpgradeToPro.php:65
+msgid "Webriti  always offers you Great and Quick support."
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/UpgradeToPro.php:76
+msgid "Multiple Color Schemes"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/UpgradeToPro.php:77
+msgid "You can use multiple color schemes in your elitepress wordpress theme."
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/UpgradeToPro.php:83
+msgid "elitepress-Lite Vs elitepress-Premium"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/UpgradeToPro.php:86
+msgid "Sr. No."
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/UpgradeToPro.php:87
+msgid "Features"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/UpgradeToPro.php:88
+msgid "Free"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/UpgradeToPro.php:89
+msgid "Premium"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/UpgradeToPro.php:94
+msgid "1"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/UpgradeToPro.php:94
+msgid "Home Page Sections "
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/UpgradeToPro.php:95
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/UpgradeToPro.php:99
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/UpgradeToPro.php:113
+msgid "2"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/UpgradeToPro.php:96
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/UpgradeToPro.php:111
+msgid "4"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/UpgradeToPro.php:100
+msgid "Responsive Home Page Slider"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/UpgradeToPro.php:105
+msgid "3"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/UpgradeToPro.php:106
+msgid "Blog Layout Variations"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/UpgradeToPro.php:112
+msgid "Page Templates"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/UpgradeToPro.php:114
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/UpgradeToPro.php:128
+msgid "7"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/UpgradeToPro.php:117
+msgid "5"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/UpgradeToPro.php:117
+msgid "About Us Template, Portfolio Template, Services Template...   "
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/UpgradeToPro.php:122
+msgid "6"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/UpgradeToPro.php:123
+msgid "Custom Typography"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/UpgradeToPro.php:129
+msgid "In-Built Contact Form"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/UpgradeToPro.php:134
+msgid "8"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/UpgradeToPro.php:135
+msgid "Custom Widgets,Shortcodes.."
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/UpgradeToPro.php:140
+msgid "9"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/UpgradeToPro.php:141
+msgid "Theme Support "
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/UpgradeToPro.php:142
+msgid "Via Wordpress Forums"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/UpgradeToPro.php:143
+msgid "Private Forums with Email Support"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/UpgradeToPro.php:159
+msgid "Upgarde to Premium Here"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/theme_options/pages/UpgradeToPro.php:165
+msgid "Upgrade To Premium Version"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/widget/custom-sidebar.php:6
+msgid "Sidebar Widget Area"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/widget/custom-sidebar.php:8
+msgid "The right sidebar widget area"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/widget/custom-sidebar.php:15
+msgid "Footer Widget Area"
+msgstr ""
+
+#: D:\xampp\htdocs\wordpress_elegent\wp-content\themes\elitepress/functions/widget/custom-sidebar.php:17
+msgid "footer widget area"
+msgstr ""
