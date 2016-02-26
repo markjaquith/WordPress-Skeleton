@@ -13,7 +13,7 @@ get_header();
   		</div>
       <div class="row">
   			<div class="col-md-12">
-  				<?php echo do_shortcode('[mpp-list-gallery component=groups component_id=12 per_page=5 column=2 view="grid"]'); ?>
+  				<?php echo do_shortcode('[mpp-list-gallery component=groups component_id=12 per_page=10 column=2 view="grid"]'); ?>
   			</div>
   		</div>
   </div>
