@@ -1,0 +1,380 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wp theme bones\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-03-02 22:11+0100\n"
+"PO-Revision-Date: \n"
+"Language-Team: fulgor <frag.fulgor@gmail.com>\n"
+"Language-Team: fulgor <frag.fulgor@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;_n\n"
+"X-Poedit-Basepath: /home/fulgor/GIT/bones\n"
+"Last-Translator: Mathias Hellquist <mathias.hellquist@gmail.com>\n"
+"X-Poedit-SearchPath-0: /home/fulgor/GIT/bones\n"
+
+#: comments.php:12
+msgid "This post is password protected. Enter the password to view comments."
+msgstr "Detta inlägg är lösenordsskyddat. Skriv in lösenordet för att se kommentarer."
+
+#: comments.php:23
+msgid "Response"
+msgstr "Svar"
+
+#: comments.php:24
+msgid "Responses"
+msgstr "Svar"
+
+#: comments.php:25
+msgid "One"
+msgstr "En"
+
+#: comments.php:26
+msgid "No"
+msgstr "Nej"
+
+#: comments.php:32
+msgid "to"
+msgstr "till"
+
+#: comments.php:59
+msgid "Comments are closed."
+msgstr "Det går inte längre att kommentera."
+
+#: comments.php:70
+msgid "Leave a Reply"
+msgstr "Lämna en kommentar"
+
+#: comments.php:70
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr "Lämna en kommentar till %s"
+
+#: comments.php:78
+msgid "You must be"
+msgstr "Du måste vara"
+
+#: comments.php:78
+msgid "logged in"
+msgstr "inloggad"
+
+#: comments.php:78
+msgid "to post a comment"
+msgstr "för att kunna kommentera"
+
+#: comments.php:86
+msgid "Logged in as"
+msgstr "Inloggad som"
+
+#: comments.php:86
+msgid "Log out of this account"
+msgstr "Logga ut från detta konto"
+
+#: comments.php:86
+msgid "Log out"
+msgstr "Logga ut"
+
+#: comments.php:93
+msgid "Name"
+msgstr "Namn"
+
+#: comments.php:93
+#: comments.php:98
+msgid "(required)"
+msgstr "(obligatorisk)"
+
+#: comments.php:94
+msgid "Your Name"
+msgstr "Ditt namn"
+
+#: comments.php:98
+msgid "Email"
+msgstr "E-post"
+
+#: comments.php:99
+msgid "Your Email"
+msgstr "Din E-post"
+
+#: comments.php:100
+msgid "will not be published"
+msgstr "kommer inte att bli publicerad"
+
+#: comments.php:104
+msgid "Website"
+msgstr "Webbsajt"
+
+#: comments.php:105
+msgid "Your Website"
+msgstr "Din webbsajt"
+
+#: comments.php:112
+msgid "Your Comment Here..."
+msgstr "Din kommentar här..."
+
+#: comments.php:115
+msgid "Submit Comment"
+msgstr "Skicka kommentar"
+
+#: comments.php:120
+msgid "You can use these tags"
+msgstr "Du kan använda dessa taggar"
+
+#: header.php:23
+#, php-format
+msgid "Page %s"
+msgstr "Sida %s"
+
+#: taxonomy-custom_cat.php:22
+#: archive.php:9
+msgid "Posts Categorized:"
+msgstr "Kategoriserade inlägg:"
+
+#: taxonomy-custom_cat.php:32
+#: embed-post_meta.php:1
+#: single-custom_type.php:30
+msgid "Posted"
+msgstr "Skriven"
+
+#: taxonomy-custom_cat.php:32
+#: embed-post_meta.php:1
+#: single-custom_type.php:30
+msgid "by"
+msgstr "av"
+
+#: taxonomy-custom_cat.php:32
+#: embed-post_meta.php:1
+#: single-custom_type.php:30
+msgid "filed under"
+msgstr "sorterad under"
+
+#: taxonomy-custom_cat.php:41
+msgid "Read more"
+msgstr "Läs mera"
+
+#: functions.php:103
+msgid "(Edit)"
+msgstr "(Editera)"
+
+#: functions.php:107
+msgid "Your comment is awaiting moderation."
+msgstr "Din kommentar blir modererad."
+
+#: functions.php:124
+msgid "Search for:"
+msgstr "Sök efter:"
+
+#: functions.php:125
+msgid "Search the Site..."
+msgstr "Sök på sajten..."
+
+#: 404.php:11
+msgid "Epic 404 - Article Not Found"
+msgstr "Episk 404 - Sidan kan inte hittas"
+
+#: 404.php:17
+msgid "The article you were looking for was not found, but maybe try looking again!"
+msgstr "Inlägget du letade efter kan inte hittas. Försök igen!"
+
+#: search.php:7
+msgid "Search Results for:"
+msgstr "Sök resultat för:"
+
+#: search.php:23
+msgid "Read more on"
+msgstr "Läs mera på"
+
+#: archive.php:13
+msgid "Posts Tagged:"
+msgstr "Taggade inlägg"
+
+#: archive.php:17
+#: author.php:8
+msgid "Posts By:"
+msgstr "Inlägg av:"
+
+#: archive.php:21
+msgid "Daily Archives:"
+msgstr "Dagsarkiv"
+
+#: archive.php:25
+msgid "Monthly Archives:"
+msgstr "Månadsarkiv"
+
+#: archive.php:29
+msgid "Yearly Archives:"
+msgstr "Årsarkiv"
+
+#: single-custom_type.php:43
+msgid "Custom Tags"
+msgstr "Special taggar"
+
+#: embed-tags.php:3
+msgid "Tag"
+msgstr "Tagg"
+
+#: embed-tags.php:3
+msgid "Tags"
+msgstr "Taggar"
+
+#: image.php:20
+msgid "Read the rest of this entry"
+msgstr "Läs resten av detta inlägg"
+
+#: image.php:38
+msgid "Sorry, no attachments matched your criteria."
+msgstr "Tyvärr, inga bilagor matchade din förfrågan"
+
+#: embed-prev_next.php:3
+msgid "&laquo; Older Entries"
+msgstr "&laquo; Äldre inlägg"
+
+#: embed-prev_next.php:4
+msgid "Newer Entries &raquo;"
+msgstr "Nyare inlägg &raquo;"
+
+#: footer.php:9
+msgid "is powered by"
+msgstr "superkrafter via"
+
+#: embed-not_found.php:3
+msgid "Not Found"
+msgstr "Kan inte hittas"
+
+#: embed-not_found.php:6
+msgid "Sorry, but the requested resource was not found on this site."
+msgstr "Tyvärr, det som efterfrågas kan inte hittas på denna sajt."
+
+#: sidebar.php:15
+msgid "Please activate some Widgets."
+msgstr "Vänligen aktivera några Widgets."
+
+#: library/bones.php:52
+msgid "Read more &raquo;"
+msgstr "Läs mera &raquo;"
+
+#: library/custom-post-type.php:24
+msgid "Custom Types"
+msgstr "Special inläggstyp"
+
+#: library/custom-post-type.php:25
+msgid "Custom Post"
+msgstr "Special inlägg"
+
+#: library/custom-post-type.php:26
+msgid "Add New"
+msgstr "Lägg till"
+
+#: library/custom-post-type.php:27
+msgid "Add New Custom Type"
+msgstr "Lägg till ny inläggstyp"
+
+#: library/custom-post-type.php:28
+msgid "Edit"
+msgstr "Editera"
+
+#: library/custom-post-type.php:29
+msgid "Edit Post Types"
+msgstr "Editera inläggstyper"
+
+#: library/custom-post-type.php:30
+msgid "New Post Type"
+msgstr "Ny inläggstyp"
+
+#: library/custom-post-type.php:31
+msgid "View Post Type"
+msgstr "Se inläggstyp"
+
+#: library/custom-post-type.php:32
+msgid "Search Post Type"
+msgstr "Sök inläggstyp"
+
+#: library/custom-post-type.php:33
+msgid "Nothing found in the Database."
+msgstr "Ingenting kan hittas i databasen"
+
+#: library/custom-post-type.php:34
+msgid "Nothing found in Trash"
+msgstr "Ingenting kan hittas i papperskorgen"
+
+#: library/custom-post-type.php:37
+msgid "This is the example custom post type"
+msgstr "Det här är ett exempel på inläggstyp"
+
+#: library/custom-post-type.php:73
+msgid "Custom Categories"
+msgstr "Egna kategorier"
+
+#: library/custom-post-type.php:74
+msgid "Custom Category"
+msgstr "Egen kategori"
+
+#: library/custom-post-type.php:75
+msgid "Search Custom Categories"
+msgstr "Sök i de egna kategorierna"
+
+#: library/custom-post-type.php:76
+msgid "All Custom Categories"
+msgstr "Alla egna kategorier"
+
+#: library/custom-post-type.php:77
+msgid "Parent Custom Category"
+msgstr "Nedärvd egen kategori"
+
+#: library/custom-post-type.php:78
+msgid "Parent Custom Category:"
+msgstr "Nedärvd egen kategori:"
+
+#: library/custom-post-type.php:79
+msgid "Edit Custom Category"
+msgstr "Editera egen kategori"
+
+#: library/custom-post-type.php:80
+msgid "Update Custom Category"
+msgstr "Uppdatera egen kategori"
+
+#: library/custom-post-type.php:81
+msgid "Add New Custom Category"
+msgstr "Lägg till ny egen kategori"
+
+#: library/custom-post-type.php:82
+msgid "New Custom Category Name"
+msgstr "Namn på ny egen kategori"
+
+#: library/custom-post-type.php:95
+msgid "Custom Tag"
+msgstr "Egen tagg"
+
+#: library/custom-post-type.php:96
+msgid "Search Custom Tags"
+msgstr "Sök egna taggar"
+
+#: library/custom-post-type.php:97
+msgid "All Custom Tags"
+msgstr "Alla egna taggar"
+
+#: library/custom-post-type.php:98
+msgid "Parent Custom Tag"
+msgstr "Nedärvd egen tagg"
+
+#: library/custom-post-type.php:99
+msgid "Parent Custom Tag:"
+msgstr "Nedärvd egen tagg:"
+
+#: library/custom-post-type.php:100
+msgid "Edit Custom Tag"
+msgstr "Editera egen tagg"
+
+#: library/custom-post-type.php:101
+msgid "Update Custom Tag"
+msgstr "Uppdatera egen tagg"
+
+#: library/custom-post-type.php:102
+msgid "Add New Custom Tag"
+msgstr "Lägg till ny egen tagg"
+
+#: library/custom-post-type.php:103
+msgid "New Custom Tag Name"
+msgstr "Nytt namn på egen tagg"
+

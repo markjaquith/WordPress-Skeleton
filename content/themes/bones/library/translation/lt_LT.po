@@ -1,0 +1,361 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wp theme bones\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-09-02 17:52+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Statsenko Vladimir <vovchiksta@gmail.com>\n"
+"Language-Team: fulgor <frag.fulgor@gmail.com>\n"
+"Language: Russian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n\n"
+"X-Poedit-Basepath: ../\n"
+"X-Generator: Poedit 1.5.7\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:13
+msgid "Epic 404 - Article Not Found"
+msgstr "Klaida 404 - Puslapis nerastas"
+
+#: ../404.php:19
+msgid ""
+"The article you were looking for was not found, but maybe try looking again!"
+msgstr "Straipsnis kurio ieškojote nerastas, tačiau galite pabandyti dar kartą"
+
+#: ../404.php:31
+msgid "This is the 404.php template."
+msgstr "Tai 404.php šablonas"
+
+#: ../archive-custom_type.php:19 ../archive.php:48 ../index.php:17
+#: ../page-custom.php:23 ../page.php:17 ../search.php:19
+#: ../single-custom_type.php:32 ../single.php:17 ../taxonomy-custom_cat.php:34
+msgid "Posted"
+msgstr "Publikuota"
+
+#: ../archive-custom_type.php:19 ../archive.php:48 ../index.php:17
+#: ../page-custom.php:23 ../page.php:17 ../search.php:19
+#: ../single-custom_type.php:32 ../single.php:17 ../taxonomy-custom_cat.php:34
+msgid "by"
+msgstr "autorius"
+
+#: ../archive-custom_type.php:44 ../archive.php:75 ../index.php:44
+#: ../search.php:43 ../taxonomy-custom_cat.php:59
+msgid "&laquo; Older Entries"
+msgstr "&laquo; Senesni įrašai"
+
+#: ../archive-custom_type.php:45 ../archive.php:76 ../index.php:45
+#: ../search.php:44 ../taxonomy-custom_cat.php:60
+msgid "Newer Entries &raquo;"
+msgstr "Naujesni įrašai &raquo;"
+
+#: ../archive-custom_type.php:54 ../archive.php:85 ../index.php:54
+#: ../page-custom.php:47 ../page.php:41 ../single-custom_type.php:58
+#: ../single.php:41 ../taxonomy-custom_cat.php:69
+msgid "Oops, Post Not Found!"
+msgstr "Atsiprašome įrašas nerastas"
+
+#: ../archive-custom_type.php:57 ../archive.php:88 ../index.php:57
+#: ../page-custom.php:50 ../page.php:44 ../single-custom_type.php:61
+#: ../single.php:44 ../taxonomy-custom_cat.php:72
+msgid "Uh Oh. Something is missing. Try double checking things."
+msgstr "Kažkas ne taip. Pasitikrinkite ar viskas gerai"
+
+#: ../archive-custom_type.php:60
+msgid "This is the error message in the custom posty type archive template."
+msgstr "Tai yra klaidos žinutė specialaus įrašo tipo archyvo šablonui"
+
+#: ../archive.php:11 ../taxonomy-custom_cat.php:24
+msgid "Posts Categorized:"
+msgstr "Įrašų kategorijos:"
+
+#: ../archive.php:16
+msgid "Posts Tagged:"
+msgstr "Žymos:"
+
+#: ../archive.php:21
+msgid "Posts By:"
+msgstr "Autorius:"
+
+#: ../archive.php:26
+msgid "Daily Archives:"
+msgstr "Dienos archyvai:"
+
+#: ../archive.php:31
+msgid "Monthly Archives:"
+msgstr "Mėnesio archyvai:"
+
+#: ../archive.php:36
+msgid "Yearly Archives:"
+msgstr "Metiniai archyvai:"
+
+#: ../archive.php:48 ../index.php:17 ../search.php:19
+#: ../single-custom_type.php:32 ../single.php:17 ../taxonomy-custom_cat.php:34
+msgid "filed under"
+msgstr "įrašyta po"
+
+#: ../archive.php:91
+msgid "This is the error message in the archive.php template."
+msgstr "Tai klaidos žinutė archive.php šablone."
+
+#: ../comments.php:12
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+"Šis įrašas yra apsaugotas slaptažodžiu. Įveskite slaptažodį, kad "
+"pamatytumėte komentarus"
+
+#: ../comments.php:51
+msgid "Comments are closed."
+msgstr "Komentuoti nebegalima."
+
+#: ../comments.php:62
+msgid "Leave a Reply"
+msgstr "Atsakyti"
+
+#: ../comments.php:62
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr "Atsakyti %s"
+
+#: ../comments.php:78
+msgid "Logged in as"
+msgstr "Prisijungęs kaip"
+
+#: ../comments.php:78
+msgid "Log out"
+msgstr "Atsijungti"
+
+#: ../comments.php:85
+msgid "Name"
+msgstr "Vardas"
+
+#: ../comments.php:86
+msgid "Your Name*"
+msgstr "Jūsų vardas*"
+
+#: ../comments.php:90
+msgid "Mail"
+msgstr "Paštas"
+
+#: ../comments.php:91
+msgid "Your E-Mail*"
+msgstr "Jūsų el. paštas*"
+
+#: ../comments.php:92
+msgid "(will not be published)"
+msgstr "(nebus publikuota)"
+
+#: ../comments.php:96
+msgid "Website"
+msgstr "Tinklapis"
+
+#: ../comments.php:97
+msgid "Got a website?"
+msgstr "Turite tinklapį?"
+
+#: ../comments.php:104
+msgid "Your Comment here..."
+msgstr "Jūsų komentaras..."
+
+#: ../comments.php:107
+msgid "Submit"
+msgstr "Siųsti"
+
+#: ../comments.php:112
+msgid "You can use these tags"
+msgstr "Galite naudoti šias žymas"
+
+#: ../functions.php:128
+#, php-format
+msgid "<cite class=\"fn\">%s</cite>"
+msgstr "<cite class=\"fn\">%s</cite>"
+
+#: ../functions.php:130
+msgid "(Edit)"
+msgstr "(Redaguoti)"
+
+#: ../functions.php:134
+msgid "Your comment is awaiting moderation."
+msgstr "Jūsų komentaras laukia patvirtinimo"
+
+#: ../functions.php:151
+msgid "Search for:"
+msgstr "Ieškoti:"
+
+#: ../index.php:60
+msgid "This is the error message in the index.php template."
+msgstr "Tai yra klaidos pranešimas index.php šablone."
+
+#: ../page-custom.php:53
+msgid "This is the error message in the page-custom.php template."
+msgstr "Tai yra klaidos pranešimas page-custom.php šablone."
+
+#: ../page.php:47
+msgid "This is the error message in the page.php template."
+msgstr "Tai yra klaidos pranešimas page.php šablone."
+
+#: ../search.php:53
+msgid "Sorry, No Results."
+msgstr "Atsiprašome, nieko nerasta"
+
+#: ../search.php:56
+msgid "Try your search again."
+msgstr "Pabandykite ieškoti dar kartą"
+
+#: ../search.php:59
+msgid "This is the error message in the search.php template."
+msgstr "Tai yra klaidos pranešimas search.php šablone."
+
+#: ../single-custom_type.php:64
+msgid "This is the error message in the single-custom_type.php template."
+msgstr "Tai yra klaidos pranešimas single-custom_type.php šablone."
+
+#: ../single.php:47
+msgid "This is the error message in the single.php template."
+msgstr "Tai yra klaidos pranešimas single.php šablone."
+
+#: ../taxonomy-custom_cat.php:75
+msgid "This is the error message in the taxonomy-custom_cat.php template."
+msgstr "Tai yra klaidos pranešimas taxonomy-custom_cat.php šablone."
+
+#: ../library/bones.php:206
+msgid "The Main Menu"
+msgstr "Pagrindinis meniu"
+
+#: ../library/bones.php:207
+msgid "Footer Links"
+msgstr "Puslapio apačios nuorodos"
+
+#: ../library/custom-post-type.php:24
+msgid "Custom Types"
+msgstr "Indvidualizuoti tipai"
+
+#: ../library/custom-post-type.php:25
+msgid "Custom Post"
+msgstr "Indvidualizuotas įrašas"
+
+#: ../library/custom-post-type.php:26
+msgid "All Custom Posts"
+msgstr "Visi indvidualizuoti įrašai"
+
+#: ../library/custom-post-type.php:27
+msgid "Add New"
+msgstr "Sukurti naują"
+
+#: ../library/custom-post-type.php:28
+msgid "Add New Custom Type"
+msgstr "Sukurti naują indvidualizuotą tipą"
+
+#: ../library/custom-post-type.php:29
+msgid "Edit"
+msgstr "Redaguoti"
+
+#: ../library/custom-post-type.php:30
+msgid "Edit Post Types"
+msgstr "Redaguoti įrašo tipą"
+
+#: ../library/custom-post-type.php:31
+msgid "New Post Type"
+msgstr "Naujas įrašo tipas"
+
+#: ../library/custom-post-type.php:32
+msgid "View Post Type"
+msgstr "Peržiūrėti įrašo tipą"
+
+#: ../library/custom-post-type.php:33
+msgid "Search Post Type"
+msgstr "Surasti įrašo tipą"
+
+#: ../library/custom-post-type.php:34
+msgid "Nothing found in the Database."
+msgstr "Duomenų saugykloje nieko nerasta"
+
+#: ../library/custom-post-type.php:35
+msgid "Nothing found in Trash"
+msgstr "Šiūkšliadėžėje nieko nerasta"
+
+#: ../library/custom-post-type.php:38
+msgid "This is the example custom post type"
+msgstr "Tai yra indvidualizuoto įrašo pavyzdys"
+
+#: ../library/custom-post-type.php:75
+msgid "Custom Categories"
+msgstr "Indvidualizuotos kategorijos"
+
+#: ../library/custom-post-type.php:76
+msgid "Custom Category"
+msgstr "Indvidualizuota kategorija"
+
+#: ../library/custom-post-type.php:77
+msgid "Search Custom Categories"
+msgstr "Ieškoti indvidualizuotose kategorijose"
+
+#: ../library/custom-post-type.php:78
+msgid "All Custom Categories"
+msgstr "Visos indvidualizuotos kategorijos"
+
+#: ../library/custom-post-type.php:79
+msgid "Parent Custom Category"
+msgstr "Tėvinė indvidualizuota kategorija"
+
+#: ../library/custom-post-type.php:80
+msgid "Parent Custom Category:"
+msgstr "Tėvinė indvidualizuota kategorija:"
+
+#: ../library/custom-post-type.php:81
+msgid "Edit Custom Category"
+msgstr "Redaguoti indvidualizuotą kategoriją"
+
+#: ../library/custom-post-type.php:82
+msgid "Update Custom Category"
+msgstr "Atnaujinti indvidualizuotą kategoriją"
+
+#: ../library/custom-post-type.php:83
+msgid "Add New Custom Category"
+msgstr "Pridėti indvidualizuotą kategoriją"
+
+#: ../library/custom-post-type.php:84
+msgid "New Custom Category Name"
+msgstr "Naujas indvidualizuotos kategorijos pavadinimas"
+
+#: ../library/custom-post-type.php:97
+msgid "Custom Tags"
+msgstr "Indvidualizuotos žymos"
+
+#: ../library/custom-post-type.php:98
+msgid "Custom Tag"
+msgstr "Indvidualizuota žyma"
+
+#: ../library/custom-post-type.php:99
+msgid "Search Custom Tags"
+msgstr "Ieškoti indvidualizuotose žymose"
+
+#: ../library/custom-post-type.php:100
+msgid "All Custom Tags"
+msgstr "Visos indvidualizuotos žymos"
+
+#: ../library/custom-post-type.php:101
+msgid "Parent Custom Tag"
+msgstr "Tėvinė indvidualizuota žyma"
+
+#: ../library/custom-post-type.php:102
+msgid "Parent Custom Tag:"
+msgstr "Tėvinė indvidualizuota žyma:"
+
+#: ../library/custom-post-type.php:103
+msgid "Edit Custom Tag"
+msgstr "Redaguoti indvidualizuotą žymą"
+
+#: ../library/custom-post-type.php:104
+msgid "Update Custom Tag"
+msgstr "Atnaujinti indvidualizuotą žymą"
+
+#: ../library/custom-post-type.php:105
+msgid "Add New Custom Tag"
+msgstr "Pridėti indvidualizuotą žymą"
+
+#: ../library/custom-post-type.php:106
+msgid "New Custom Tag Name"
+msgstr "Naujas indvidualizuotos žymos pavadinimas"

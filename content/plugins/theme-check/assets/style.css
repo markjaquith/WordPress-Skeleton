@@ -1,0 +1,77 @@
+.tc-box {
+	padding:20px 0;
+	border-top:1px solid #dfdfdf;
+}
+.tc-warning, .tc-required, .tc-fail {
+	color:red;
+}
+.tc-recommended, .tc-pass {
+	color: green;
+}
+.tc-info {
+	color: blue;
+}
+.tc-grep span {
+	background: yellow;
+}
+pre {
+	white-space: pre-wrap;
+}
+.tc-success {
+	margin:0 20px 20px 20px;
+	background:#e6ffe2;
+	border:1px solid #d1eecc;
+}
+form {
+	margin:20px auto;
+}
+.theme-check {
+	margin:20px auto;
+	border:1px solid #dfdfdf;
+	-moz-border-radius:5px;
+	-khtml-border-radius:5px;
+	-webkit-border-radius:5px;
+	border-radius:5px;
+}
+.theme-check h2 {
+	margin:0 0 20px 0;
+	padding:0 20px;
+	background:#dfdfdf url("gray-grad.png") repeat-x left top;
+	font-size:20px;
+	border-bottom:1px solid #ccc;
+}
+.theme-check p {
+	padding:5px 20px;
+}
+.theme-check form {
+	margin-left:20px;
+}
+.theme-check ul {
+	margin-left:20px;
+}
+.theme-check h3 {
+	margin:0 0 10px 20px;
+	padding:0;
+}
+.theme-check ul {
+	margin-bottom:10px;
+}
+.theme-info {
+	padding:10px;
+	border:1px solid #dfdfdf;
+	margin:10px 20px 0 20px;
+}
+.theme-info p {
+	padding:0;
+	margin-bottom:10px;
+}
+.theme-info label {
+	float:left;
+	width:100px;
+	font-weight:bold;
+	display:block;
+}
+.theme-info span.info {
+	margin-left:100px;
+	display:block;
+}

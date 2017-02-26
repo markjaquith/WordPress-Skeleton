@@ -1,0 +1,492 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wp theme bones\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-05-13 23:41+0900\n"
+"PO-Revision-Date: \n"
+"Last-Translator: hayashikejinan <hayashikejinan@gmail.com>\n"
+"Language-Team: fulgor <frag.fulgor@gmail.com>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n;esc_attr_e;esc_attr__;esc_html_e;esc_html__;"
+"_x\n"
+"X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 1.5.5\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-SearchPath-0: ../..\n"
+
+#: ../../404.php:13
+msgid "Epic 404 - Article Not Found"
+msgstr "404エラー ページが見つかりません"
+
+#: ../../404.php:19
+msgid ""
+"The article you were looking for was not found, but maybe try looking again!"
+msgstr "ページが見つかりませんでした。"
+
+#: ../../404.php:31
+msgid "This is the 404.php template."
+msgstr ""
+
+#: ../../archive-custom_type.php:19 ../../page-custom.php:23 ../../page.php:17
+#, php-format
+msgid ""
+"Posted <time class=\"updated\" datetime=\"%1$s\" pubdate>%2$s</time> by "
+"<span class=\"author\">%3$s</span>."
+msgstr ""
+"<time class=\"updated\" datetime=\"%1$s\" pubdate>%2$s</time> | <span class="
+"\"author\">%3$s</span>"
+
+#: ../../archive-custom_type.php:19 ../../archive.php:52
+#: ../../functions.php:135 ../../page-custom.php:23 ../../page.php:17
+#: ../../search.php:18 ../../single-custom_type.php:32
+#: ../../taxonomy-custom_cat.php:34
+msgid "F jS, Y"
+msgstr "Y年n月j日"
+
+#: ../../archive-custom_type.php:43 ../../archive.php:78 ../../index.php:43
+#: ../../search.php:41 ../../taxonomy-custom_cat.php:57
+msgid "&laquo; Older Entries"
+msgstr "&laquo; 前の記事へ"
+
+#: ../../archive-custom_type.php:44 ../../archive.php:79 ../../index.php:44
+#: ../../search.php:42 ../../taxonomy-custom_cat.php:58
+msgid "Newer Entries &raquo;"
+msgstr "次の記事へ &raquo;"
+
+#: ../../archive-custom_type.php:53 ../../archive.php:88 ../../index.php:53
+#: ../../page-custom.php:46 ../../page.php:40 ../../single-custom_type.php:58
+#: ../../single.php:41 ../../taxonomy-custom_cat.php:67
+msgid "Oops, Post Not Found!"
+msgstr "投稿が見つかりません"
+
+#: ../../archive-custom_type.php:56 ../../archive.php:91 ../../index.php:56
+#: ../../page-custom.php:49 ../../page.php:43 ../../single-custom_type.php:61
+#: ../../single.php:44 ../../taxonomy-custom_cat.php:70
+msgid "Uh Oh. Something is missing. Try double checking things."
+msgstr ""
+
+#: ../../archive-custom_type.php:59
+msgid "This is the error message in the custom posty type archive template."
+msgstr ""
+
+#: ../../archive.php:11 ../../taxonomy-custom_cat.php:24
+msgid "Posts Categorized:"
+msgstr "カテゴリー別アーカイブ:"
+
+#: ../../archive.php:16
+msgid "Posts Tagged:"
+msgstr "タグ別アーカイブ:"
+
+#: ../../archive.php:25
+msgid "Posts By:"
+msgstr "投稿者:"
+
+#: ../../archive.php:30
+msgid "Daily Archives:"
+msgstr "日別アーカイブ:"
+
+#: ../../archive.php:35
+msgid "Monthly Archives:"
+msgstr "月別アーカイブ:"
+
+#: ../../archive.php:40
+msgid "Yearly Archives:"
+msgstr "年別アーカイブ:"
+
+#: ../../archive.php:52 ../../index.php:17 ../../search.php:18
+#: ../../single-custom_type.php:32 ../../taxonomy-custom_cat.php:34
+#, php-format
+msgid ""
+"Posted <time class=\"updated\" datetime=\"%1$s\" pubdate>%2$s</time> by "
+"<span class=\"author\">%3$s</span> <span class=\"amp\">&</span> filed under "
+"%4$s."
+msgstr ""
+"<time class=\"updated\" datetime=\"%1$s\" pubdate>%2$s</time> | <span class="
+"\"author\">%3$s</span> | %4$s"
+
+#: ../../archive.php:94
+msgid "This is the error message in the archive.php template."
+msgstr ""
+
+#: ../../comments.php:12
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+"この投稿はパスワードで保護されています。コメントを閲覧するにはパスワードを入"
+"力してください。"
+
+#: ../../comments.php:22
+msgid "<span>No</span> Responses"
+msgstr "コメントはありません"
+
+#: ../../comments.php:22
+msgid "<span>One</span> Response"
+msgstr "<span>1件</span>のコメント"
+
+#: ../../comments.php:22
+msgid "<span>%</span> Response"
+msgstr "<span>%件</span>のコメント"
+
+#: ../../comments.php:50
+msgid "Comments are closed."
+msgstr "コメントは閉鎖されています。"
+
+#: ../../comments.php:61
+msgid "Leave a Reply"
+msgstr "コメントをどうぞ"
+
+#: ../../comments.php:61
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr "%s へ返信"
+
+#: ../../comments.php:69
+#, php-format
+msgid "You must be %1$slogged in%2$s to post a comment."
+msgstr ""
+
+#: ../../comments.php:77
+msgid "Logged in as"
+msgstr "ログイン中"
+
+#: ../../comments.php:77
+msgid "Log out of this account"
+msgstr "このアカウントをログアウトする"
+
+#: ../../comments.php:77
+msgid "Log out"
+msgstr "ログアウト"
+
+#: ../../comments.php:77
+msgid "&raquo;"
+msgstr "&raquo;"
+
+#: ../../comments.php:84
+msgid "Name"
+msgstr "お名前"
+
+#: ../../comments.php:84 ../../comments.php:89
+msgid "(required)"
+msgstr "(必須)"
+
+#: ../../comments.php:85
+msgid "Your Name*"
+msgstr "あなたのお名前*"
+
+#: ../../comments.php:89
+msgid "Mail"
+msgstr "メールアドレス"
+
+#: ../../comments.php:90
+msgid "Your E-Mail*"
+msgstr "あなたのメールアドレス*"
+
+#: ../../comments.php:91
+msgid "(will not be published)"
+msgstr "(非公開)"
+
+#: ../../comments.php:95
+msgid "Website"
+msgstr "ウェブサイト"
+
+#: ../../comments.php:96
+msgid "Got a website?"
+msgstr "Webサイトを訪れる"
+
+#: ../../comments.php:103
+msgid "Your Comment here..."
+msgstr "コメントを入力して下さい…"
+
+#: ../../comments.php:106
+msgid "Submit"
+msgstr "送信"
+
+#: ../../comments.php:111
+msgid "You can use these tags"
+msgstr "これらのタグを使うことができます"
+
+#: ../../functions.php:79
+msgid "Sidebar 1"
+msgstr "サイドバー 1"
+
+#: ../../functions.php:80
+msgid "The first (primary) sidebar."
+msgstr "メインのサイドバー"
+
+#: ../../functions.php:134
+#, php-format
+msgid "<cite class=\"fn\">%s</cite>"
+msgstr "<cite class=\"fn\">%s</cite>"
+
+#: ../../functions.php:136
+msgid "(Edit)"
+msgstr "(編集)"
+
+#: ../../functions.php:140
+msgid "Your comment is awaiting moderation."
+msgstr "あなたのコメントは管理者の承認待ちです。"
+
+#: ../../functions.php:157
+msgid "Search for:"
+msgstr "検索:"
+
+#: ../../functions.php:158
+msgid "Search the Site..."
+msgstr "このサイト内を検索…"
+
+#: ../../functions.php:159
+msgid "Search"
+msgstr "検索"
+
+#: ../../index.php:28 ../../page-custom.php:34 ../../page.php:28
+#: ../../single.php:27
+msgid "Tags:"
+msgstr "タグ:"
+
+#: ../../index.php:59
+msgid "This is the error message in the index.php template."
+msgstr ""
+
+#: ../../page-custom.php:52
+msgid "This is the error message in the page-custom.php template."
+msgstr ""
+
+#: ../../page.php:46
+msgid "This is the error message in the page.php template."
+msgstr ""
+
+#: ../../search.php:8
+msgid "Search Results for:"
+msgstr "検索結果:"
+
+#: ../../search.php:24 ../../library/bones.php:380
+msgid "Read more &raquo;"
+msgstr "もっと読む &raquo;"
+
+#: ../../search.php:51
+msgid "Sorry, No Results."
+msgstr "表示できるものがありません。"
+
+#: ../../search.php:54
+msgid "Try your search again."
+msgstr "もう一度検索してみてださい。"
+
+#: ../../search.php:57
+msgid "This is the error message in the search.php template."
+msgstr ""
+
+#: ../../sidebar.php:12
+msgid "Please activate some Widgets."
+msgstr "いくつかのウィジェットを有効にしてください。"
+
+#: ../../single-custom_type.php:44
+msgid "Custom Tags:"
+msgstr "カスタムタグ:"
+
+#: ../../single-custom_type.php:64
+msgid "This is the error message in the single-custom_type.php template."
+msgstr ""
+
+#: ../../single.php:17
+#, php-format
+msgid ""
+"Posted <time class=\"updated\" datetime=\"%1$s\" pubdate>%2$s</time> by "
+"<span class=\"author\">%3$s</span> <span class=\"amp\">&amp;</span> filed "
+"under %4$s."
+msgstr ""
+"<time class=\"updated\" datetime=\"%1$s\" pubdate>%2$s</time> | <span class="
+"\"author\">%3$s</span> | %4$s"
+
+#: ../../single.php:47
+msgid "This is the error message in the single.php template."
+msgstr ""
+
+#: ../../taxonomy-custom_cat.php:40
+msgid "Read More &raquo;"
+msgstr "もっと読む &raquo;"
+
+#: ../../taxonomy-custom_cat.php:73
+msgid "This is the error message in the taxonomy-custom_cat.php template."
+msgstr ""
+
+#: ../../library/admin.php:66
+msgid "j F Y @ g:i a"
+msgstr "Y年月j日 G:i"
+
+#: ../../library/admin.php:78
+msgid "Recently on Themble (Customize on admin.php)"
+msgstr "Thembleの最新ニュース (admin.php のカスタム)"
+
+#: ../../library/admin.php:125
+msgid ""
+"<span id=\"footer-thankyou\">Developed by <a href=\"http://yoursite.com\" "
+"target=\"_blank\">Your Site Name</a></span>. Built using <a href=\"http://"
+"themble.com/bones\" target=\"_blank\">Bones</a>."
+msgstr ""
+"<span id=\"footer-thankyou\">開発者: <a href=\"http://yoursite.com\" target="
+"\"_blank\">Your Site Name</a></span>。 <a href=\"http://themble.com/bones\" "
+"target=\"_blank\">Bones</a> を使用。"
+
+#: ../../library/bones.php:213 ../../library/bones.php:230
+msgid "The Main Menu"
+msgstr "メインメニュー"
+
+#: ../../library/bones.php:214 ../../library/bones.php:248
+msgid "Footer Links"
+msgstr "フッターのリンク"
+
+#: ../../library/bones.php:300
+msgid "No Related Posts Yet!"
+msgstr "関連する記事はありません。"
+
+#: ../../library/bones.php:344
+msgid "First"
+msgstr "最初"
+
+#: ../../library/bones.php:361
+msgid "Last"
+msgstr "最後"
+
+#: ../../library/bones.php:380
+msgid "Read"
+msgstr ""
+
+#: ../../library/bones.php:395
+#, php-format
+msgid "Posts by %s"
+msgstr ""
+
+#: ../../library/custom-post-type.php:24
+msgid "Custom Types"
+msgstr "カスタム投稿タイプ"
+
+#: ../../library/custom-post-type.php:25
+msgid "Custom Post"
+msgstr "カスタム投稿"
+
+#: ../../library/custom-post-type.php:26
+msgid "All Custom Posts"
+msgstr "カスタム投稿一覧"
+
+#: ../../library/custom-post-type.php:27
+msgid "Add New"
+msgstr "新規追加"
+
+#: ../../library/custom-post-type.php:28
+msgid "Add New Custom Type"
+msgstr "新規カスタム投稿タイプを追加"
+
+#: ../../library/custom-post-type.php:29
+msgid "Edit"
+msgstr "編集"
+
+#: ../../library/custom-post-type.php:30
+msgid "Edit Post Types"
+msgstr "カスタム投稿を編集"
+
+#: ../../library/custom-post-type.php:31
+msgid "New Post Type"
+msgstr ""
+
+#: ../../library/custom-post-type.php:32
+msgid "View Post Type"
+msgstr "カスタム投稿を表示"
+
+#: ../../library/custom-post-type.php:33
+msgid "Search Post Type"
+msgstr "投稿タイプを検索"
+
+#: ../../library/custom-post-type.php:34
+msgid "Nothing found in the Database."
+msgstr "投稿が見つかりませんでした。"
+
+#: ../../library/custom-post-type.php:35
+msgid "Nothing found in Trash"
+msgstr "ゴミ箱は空です。"
+
+#: ../../library/custom-post-type.php:38
+msgid "This is the example custom post type"
+msgstr ""
+
+#: ../../library/custom-post-type.php:75
+msgid "Custom Categories"
+msgstr "カスタムカテゴリ"
+
+#: ../../library/custom-post-type.php:76
+msgid "Custom Category"
+msgstr "カスタムカテゴリ"
+
+#: ../../library/custom-post-type.php:77
+msgid "Search Custom Categories"
+msgstr "カスタムカテゴリーを検索"
+
+#: ../../library/custom-post-type.php:78
+msgid "All Custom Categories"
+msgstr "カスタムカテゴリ一覧"
+
+#: ../../library/custom-post-type.php:79
+msgid "Parent Custom Category"
+msgstr "親のカスタムカテゴリー"
+
+#: ../../library/custom-post-type.php:80
+msgid "Parent Custom Category:"
+msgstr "親のカスタムカテゴリー:"
+
+#: ../../library/custom-post-type.php:81
+msgid "Edit Custom Category"
+msgstr "カスタムカテゴリーを編集"
+
+#: ../../library/custom-post-type.php:82
+msgid "Update Custom Category"
+msgstr "カスタムカテゴリーを更新"
+
+#: ../../library/custom-post-type.php:83
+msgid "Add New Custom Category"
+msgstr "新規カスタムカテゴリーを追加"
+
+#: ../../library/custom-post-type.php:84
+msgid "New Custom Category Name"
+msgstr ""
+
+#: ../../library/custom-post-type.php:98
+msgid "Custom Tags"
+msgstr "カスタムタグ"
+
+#: ../../library/custom-post-type.php:99
+msgid "Custom Tag"
+msgstr "カスタムタグ"
+
+#: ../../library/custom-post-type.php:100
+msgid "Search Custom Tags"
+msgstr "カスタムタグを検索"
+
+#: ../../library/custom-post-type.php:101
+msgid "All Custom Tags"
+msgstr "カスタムタグ一覧"
+
+#: ../../library/custom-post-type.php:102
+msgid "Parent Custom Tag"
+msgstr "親のカスタムタグ"
+
+#: ../../library/custom-post-type.php:103
+msgid "Parent Custom Tag:"
+msgstr "親のカスタムタグ:"
+
+#: ../../library/custom-post-type.php:104
+msgid "Edit Custom Tag"
+msgstr "カスタムタグを編集"
+
+#: ../../library/custom-post-type.php:105
+msgid "Update Custom Tag"
+msgstr "カスタムタグを更新"
+
+#: ../../library/custom-post-type.php:106
+msgid "Add New Custom Tag"
+msgstr "新規カスタムタグを追加"
+
+#: ../../library/custom-post-type.php:107
+msgid "New Custom Tag Name"
+msgstr ""

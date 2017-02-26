@@ -1,0 +1,358 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wp theme bones\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-09-02 17:52+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Statsenko Vladimir <vovchiksta@gmail.com>\n"
+"Language-Team: fulgor <frag.fulgor@gmail.com>\n"
+"Language: Russian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:13
+msgid "Epic 404 - Article Not Found"
+msgstr "Ошибка 404 - Статья не найдена"
+
+#: ../404.php:19
+msgid ""
+"The article you were looking for was not found, but maybe try looking again!"
+msgstr "Статья, которую вы ищите не найдена, попробуйте ещё раз!"
+
+#: ../404.php:31
+msgid "This is the 404.php template."
+msgstr "Это шаблон 404.php."
+
+#: ../archive-custom_type.php:19 ../archive.php:48 ../index.php:17
+#: ../page-custom.php:23 ../page.php:17 ../search.php:19
+#: ../single-custom_type.php:32 ../single.php:17 ../taxonomy-custom_cat.php:34
+msgid "Posted"
+msgstr "Опубликовано"
+
+#: ../archive-custom_type.php:19 ../archive.php:48 ../index.php:17
+#: ../page-custom.php:23 ../page.php:17 ../search.php:19
+#: ../single-custom_type.php:32 ../single.php:17 ../taxonomy-custom_cat.php:34
+msgid "by"
+msgstr "автор"
+
+#: ../archive-custom_type.php:44 ../archive.php:75 ../index.php:44
+#: ../search.php:43 ../taxonomy-custom_cat.php:59
+msgid "&laquo; Older Entries"
+msgstr "&laquo; Предыдущие записи"
+
+#: ../archive-custom_type.php:45 ../archive.php:76 ../index.php:45
+#: ../search.php:44 ../taxonomy-custom_cat.php:60
+msgid "Newer Entries &raquo;"
+msgstr "Следующие записи &raquo;"
+
+#: ../archive-custom_type.php:54 ../archive.php:85 ../index.php:54
+#: ../page-custom.php:47 ../page.php:41 ../single-custom_type.php:58
+#: ../single.php:41 ../taxonomy-custom_cat.php:69
+msgid "Oops, Post Not Found!"
+msgstr "Ой, пост не найден!"
+
+#: ../archive-custom_type.php:57 ../archive.php:88 ../index.php:57
+#: ../page-custom.php:50 ../page.php:44 ../single-custom_type.php:61
+#: ../single.php:44 ../taxonomy-custom_cat.php:72
+msgid "Uh Oh. Something is missing. Try double checking things."
+msgstr "Опс. Что-то пропущено. Попробуйте всё перепроверить."
+
+#: ../archive-custom_type.php:60
+msgid "This is the error message in the custom posty type archive template."
+msgstr "Это сообщение об ошибке в шаблоне custom post type archive."
+
+#: ../archive.php:11 ../taxonomy-custom_cat.php:24
+msgid "Posts Categorized:"
+msgstr "Категории:"
+
+#: ../archive.php:16
+msgid "Posts Tagged:"
+msgstr "Теги:"
+
+#: ../archive.php:21
+msgid "Posts By:"
+msgstr "Автор:"
+
+#: ../archive.php:26
+msgid "Daily Archives:"
+msgstr "Архивы за день:"
+
+#: ../archive.php:31
+msgid "Monthly Archives:"
+msgstr "Архивы за месяц:"
+
+#: ../archive.php:36
+msgid "Yearly Archives:"
+msgstr "Архивы за год:"
+
+#: ../archive.php:48 ../index.php:17 ../search.php:19
+#: ../single-custom_type.php:32 ../single.php:17 ../taxonomy-custom_cat.php:34
+msgid "filed under"
+msgstr "в"
+
+#: ../archive.php:91
+msgid "This is the error message in the archive.php template."
+msgstr "Это сообщение об ошибке в шаблоне archive.php."
+
+#: ../comments.php:12
+msgid "This post is password protected. Enter the password to view comments."
+msgstr "Этот пост защищен паролем. Введите пароль чтобы увидеть комментарии."
+
+#: ../comments.php:51
+msgid "Comments are closed."
+msgstr "Комментарии закрыты."
+
+#: ../comments.php:62
+msgid "Leave a Reply"
+msgstr "Ответить"
+
+#: ../comments.php:62
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr "Ответить %s"
+
+#: ../comments.php:78
+msgid "Logged in as"
+msgstr "Вы вошли как"
+
+#: ../comments.php:78
+msgid "Log out"
+msgstr "Выйти"
+
+#: ../comments.php:85
+msgid "Name"
+msgstr "Имя"
+
+#: ../comments.php:86
+msgid "Your Name*"
+msgstr "Ваше имя*"
+
+#: ../comments.php:90
+msgid "Mail"
+msgstr "Почта"
+
+#: ../comments.php:91
+msgid "Your E-Mail*"
+msgstr "Ваш E-Mail*"
+
+#: ../comments.php:92
+msgid "(will not be published)"
+msgstr "(не будет опубликован)"
+
+#: ../comments.php:96
+msgid "Website"
+msgstr "Сайт"
+
+#: ../comments.php:97
+msgid "Got a website?"
+msgstr "Есть сайт?"
+
+#: ../comments.php:104
+msgid "Your Comment here..."
+msgstr "Ваш комментарий..."
+
+#: ../comments.php:107
+msgid "Submit"
+msgstr "Отправить"
+
+#: ../comments.php:112
+msgid "You can use these tags"
+msgstr "Вы можете использовать эти теги"
+
+#: ../functions.php:128
+#, php-format
+msgid "<cite class=\"fn\">%s</cite>"
+msgstr "<cite class=\"fn\">%s</cite>"
+
+#: ../functions.php:130
+msgid "(Edit)"
+msgstr "(Изменить)"
+
+#: ../functions.php:134
+msgid "Your comment is awaiting moderation."
+msgstr "Ваш комментарий ожидает модерации."
+
+#: ../functions.php:151
+msgid "Search for:"
+msgstr "Искать:"
+
+#: ../index.php:60
+msgid "This is the error message in the index.php template."
+msgstr "Это сообщение об ошибке в шаблоне index.php."
+
+#: ../page-custom.php:53
+msgid "This is the error message in the page-custom.php template."
+msgstr "Это сообщение об ошибке в шаблоне page-custom.php."
+
+#: ../page.php:47
+msgid "This is the error message in the page.php template."
+msgstr "Это сообщение об ошибке в шаблоне page.php."
+
+#: ../search.php:53
+msgid "Sorry, No Results."
+msgstr "Извините, ничего не найдено."
+
+#: ../search.php:56
+msgid "Try your search again."
+msgstr "Попробуйте поискать ещё раз."
+
+#: ../search.php:59
+msgid "This is the error message in the search.php template."
+msgstr "Это сообщение об ошибке в шаблоне search.php."
+
+#: ../single-custom_type.php:64
+msgid "This is the error message in the single-custom_type.php template."
+msgstr "Это сообщение об ошибке в шаблоне single-custom_type.php."
+
+#: ../single.php:47
+msgid "This is the error message in the single.php template."
+msgstr "Это сообщение об ошибке в шаблоне single.php."
+
+#: ../taxonomy-custom_cat.php:75
+msgid "This is the error message in the taxonomy-custom_cat.php template."
+msgstr "Это сообщение об ошибке в шаблоне taxonomy-custom_cat.php."
+
+#: ../library/bones.php:206
+msgid "The Main Menu"
+msgstr "Главное меню"
+
+#: ../library/bones.php:207
+msgid "Footer Links"
+msgstr "Ссылки в футере"
+
+#: ../library/custom-post-type.php:24
+msgid "Custom Types"
+msgstr "Пользовательские типы"
+
+#: ../library/custom-post-type.php:25
+msgid "Custom Post"
+msgstr "Пользовательский пост"
+
+#: ../library/custom-post-type.php:26
+msgid "All Custom Posts"
+msgstr "Все пользовательские посты"
+
+#: ../library/custom-post-type.php:27
+msgid "Add New"
+msgstr "Создать новый"
+
+#: ../library/custom-post-type.php:28
+msgid "Add New Custom Type"
+msgstr "Создать новый пользовательский тип"
+
+#: ../library/custom-post-type.php:29
+msgid "Edit"
+msgstr "Изменить"
+
+#: ../library/custom-post-type.php:30
+msgid "Edit Post Types"
+msgstr "Изменить типы постов"
+
+#: ../library/custom-post-type.php:31
+msgid "New Post Type"
+msgstr "Новый тип поста"
+
+#: ../library/custom-post-type.php:32
+msgid "View Post Type"
+msgstr "Посмотреть тип поста"
+
+#: ../library/custom-post-type.php:33
+msgid "Search Post Type"
+msgstr "Найти тип поста"
+
+#: ../library/custom-post-type.php:34
+msgid "Nothing found in the Database."
+msgstr "В базе данных ничего не найдено."
+
+#: ../library/custom-post-type.php:35
+msgid "Nothing found in Trash"
+msgstr "В Корзине ничего не найдено"
+
+#: ../library/custom-post-type.php:38
+msgid "This is the example custom post type"
+msgstr "Это пример пользовательского типа поста"
+
+#: ../library/custom-post-type.php:75
+msgid "Custom Categories"
+msgstr "Пользовательские категории"
+
+#: ../library/custom-post-type.php:76
+msgid "Custom Category"
+msgstr "Пользовательская категория"
+
+#: ../library/custom-post-type.php:77
+msgid "Search Custom Categories"
+msgstr "Поиск в пользовательских категориях"
+
+#: ../library/custom-post-type.php:78
+msgid "All Custom Categories"
+msgstr "Все пользовательские категории"
+
+#: ../library/custom-post-type.php:79
+msgid "Parent Custom Category"
+msgstr "Родительская пользовательская категория"
+
+#: ../library/custom-post-type.php:80
+msgid "Parent Custom Category:"
+msgstr "Родительская пользовательская категория:"
+
+#: ../library/custom-post-type.php:81
+msgid "Edit Custom Category"
+msgstr "Изменить пользовательскую категорию"
+
+#: ../library/custom-post-type.php:82
+msgid "Update Custom Category"
+msgstr "Обновить пользовательскую категорию"
+
+#: ../library/custom-post-type.php:83
+msgid "Add New Custom Category"
+msgstr "Создать пользовательскую категорию"
+
+#: ../library/custom-post-type.php:84
+msgid "New Custom Category Name"
+msgstr "Новое название пользовательской категории"
+
+#: ../library/custom-post-type.php:97
+msgid "Custom Tags"
+msgstr "Пользовательские теги"
+
+#: ../library/custom-post-type.php:98
+msgid "Custom Tag"
+msgstr "Пользовательский тег"
+
+#: ../library/custom-post-type.php:99
+msgid "Search Custom Tags"
+msgstr "Поиск по пользовательским тегам"
+
+#: ../library/custom-post-type.php:100
+msgid "All Custom Tags"
+msgstr "Все пользовательские теги"
+
+#: ../library/custom-post-type.php:101
+msgid "Parent Custom Tag"
+msgstr "Родительский пользовательский тег"
+
+#: ../library/custom-post-type.php:102
+msgid "Parent Custom Tag:"
+msgstr "Родительский пользовательский тег:"
+
+#: ../library/custom-post-type.php:103
+msgid "Edit Custom Tag"
+msgstr "Изменить пользовательский тег"
+
+#: ../library/custom-post-type.php:104
+msgid "Update Custom Tag"
+msgstr "Обновить пользовательский тег"
+
+#: ../library/custom-post-type.php:105
+msgid "Add New Custom Tag"
+msgstr "Создать пользовательский тег"
+
+#: ../library/custom-post-type.php:106
+msgid "New Custom Tag Name"
+msgstr "Новый пользовательский тег"
