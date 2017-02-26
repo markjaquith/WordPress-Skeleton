@@ -1,3 +1,60 @@
 [submodule "wp"]
 	path = wp
 	url = git://github.com/WordPress/WordPress.git
+[submodule "content/plugins/google-analytics-for-wordpress"]
+	path = content/plugins/google-analytics-for-wordpress
+	url = git@github.com:wp-plugins/google-analytics-for-wordpress.git
+[submodule "content/plugins/gravityforms"]
+	path = content/plugins/gravityforms
+	url = git@github.com:gravityforms/gravityforms.git
+[submodule "content/plugins/hotfix"]
+	path = content/plugins/hotfix
+	url = git@github.com:wp-plugins/hotfix.git
+[submodule "content/plugins/wp-super-cache"]
+	path = content/plugins/wp-super-cache
+	url = git@github.com:wp-plugins/wp-super-cache.git
+[submodule "content/plugins/gravityformsmailchimp"]
+	path = content/plugins/gravityformsmailchimp
+	url = git@github.com:gravityforms/gravityformsmailchimp.git
+[submodule "content/plugins/jetpack"]
+	path = content/plugins/jetpack
+	url = git@github.com:wp-plugins/jetpack.git
+[submodule "content/plugins/limit-login-attempts"]
+	path = content/plugins/limit-login-attempts
+	url = git@github.com:wp-plugins/limit-login-attempts.git
+[submodule "content/plugins/manual-control"]
+	path = content/plugins/manual-control
+	url = git@github.com:wp-plugins/manual-control.git
+[submodule "content/plugins/add-to-any"]
+	path = content/plugins/add-to-any
+	url = git@github.com:wp-plugins/add-to-any.git
+[submodule "content/plugins/updraftplus"]
+	path = content/plugins/updraftplus
+	url = git@github.com:wp-plugins/updraftplus.git
+[submodule "content/plugins/wordfence"]
+	path = content/plugins/wordfence
+	url = git@github.com:wp-plugins/wordfence.git
+[submodule "content/plugins/wp-secure-remove-wordpress-version"]
+	path = content/plugins/wp-secure-remove-wordpress-version
+	url = git@github.com:wp-plugins/wp-secure-remove-wordpress-version.git
+[submodule "content/themes/quark"]
+	path = content/themes/quark
+	url = git@github.com:DecaturMakers/Quark.git
+[submodule "content/plugins/akismet"]
+	path = content/plugins/akismet
+	url = https://github.com/wp-plugins/akismet
+[submodule "content/plugins/the-events-calendar"]
+	path = content/plugins/the-events-calendar
+	url = git@github.com:moderntribe/the-events-calendar.git
+[submodule "content/themes/Genesis-Theme-Bundle"]
+	path = content/themes/Genesis-Theme-Bundle
+	url = https://github.com/rfair404/Genesis-Theme-Bundle.git
+[submodule "content/plugins/genesis-responsive-slider"]
+	path = content/plugins/genesis-responsive-slider
+	url = https://github.com/wp-plugins/genesis-responsive-slider
+[submodule "content/plugins/wp-document-revisions"]
+	path = content/plugins/wp-document-revisions
+	url = git@github.com:benbalter/WP-Document-Revisions.git
+[submodule "content/plugins/members"]
+	path = content/plugins/members
+	url = git@github.com:justintadlock/members.git
