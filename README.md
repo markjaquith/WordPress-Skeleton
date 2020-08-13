@@ -18,7 +18,7 @@ This is simply a skeleton repo for a WordPress site. Use it to jump-start your W
 **A:** For local development, create `/shared/` (it is ignored by Git), and have the files live there. For production, have your deploy script (Capistrano is my choice) look for symlinks pointing to `/shared/` and repoint them to some outside-the-repo location (like an NFS shared directory or something). This gives you separation between Git-managed code and uploaded files.
 
 **Q:** What version of WordPress does this track?  
-**A:** The latest stable release. Send a pull request if I fall behind.
+**A:** The latest stable release. It should automatically update within 6 hours of a new WordPress stable release. Open an issue if that doesn't happen.
 
 **Q:** What's the deal with `local-config.php`?  
 **A:** It is for local development, which might have different MySQL credentials or do things like enable query saving or debug mode. This file is ignored by Git, so it doesn't accidentally get checked in. If the file does not exist (which it shouldn't, in production), then WordPress will use the DB credentials defined in `wp-config.php`.
